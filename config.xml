@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="de.tmaximini.ionicgulpseed" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>IonicGulpSeed</name>
-  <description>
-        A blank seed project for rapid development of Ionic projects through gulp workflows
+  <description>&#xD;
+        A blank seed project for rapid development of Ionic projects through gulp workflows&#xD;
     </description>
-  <author email="tmaximini@gmail.com" href="http://thomasmaximini.com/">
-      Thomas Maximini
+  <author email="tmaximini@gmail.com" href="http://thomasmaximini.com/">&#xD;
+      Thomas Maximini&#xD;
     </author>
   <content src="index.html"/>
   <access origin="*"/>
@@ -43,5 +43,13 @@
     <splash src="resources/ios/splash/Default@2x~iphone.png" width="640" height="960"/>
     <splash src="resources/ios/splash/Default~iphone.png" width="320" height="480"/>
   </platform>
-  <icon src="resources/ios/icon/icon-40@2x.png"/>
+  <platform name="android">
+    <icon src="resources\android\icon\drawable-ldpi-icon.png" density="ldpi"/>
+    <icon src="resources\android\icon\drawable-mdpi-icon.png" density="mdpi"/>
+    <icon src="resources\android\icon\drawable-hdpi-icon.png" density="hdpi"/>
+    <icon src="resources\android\icon\drawable-xhdpi-icon.png" density="xhdpi"/>
+    <icon src="resources\android\icon\drawable-xxhdpi-icon.png" density="xxhdpi"/>
+    <icon src="resources\android\icon\drawable-xxxhdpi-icon.png" density="xxxhdpi"/>
+  </platform>
+  <icon src="resources\android\icon\drawable-xhdpi-icon.png"/>
 </widget>

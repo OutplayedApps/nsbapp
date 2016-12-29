@@ -22,4 +22,6 @@ angular.module('IonicGulpSeed')
         };
 
         $scope.fetchRandomText();
+
+
     });

@@ -19,7 +19,7 @@ angular.module('IonicGulpSeed')
         };
 
         var fetchSomethingFromServer = function() {
-            return $http({
+            /*return $http({
                     url: 'http://hipsterjesus.com/api',
                     params: {
                         paras: 2
@@ -31,7 +31,33 @@ angular.module('IonicGulpSeed')
                 })
                 .error(function(error) {
                     console.log('an error occured', error);
-                });
+                });*/
+            //
+            // If absolute URL from the remote server is provided, configure the CORS
+            // header on that server.
+            //
+            var url = 'http://science.energy.gov/~/media/wdts/nsb/pdf/HS-Sample-Questions/Sample-Set-1/round15.pdf';
+
+            //
+            // Disable workers to avoid yet another cross-origin issue (workers need
+            // the URL of the script to be loaded, and dynamically loading a cross-origin
+            // script does not work).
+            //
+             PDFJS.disableWorker = true;
+
+            //
+            // The workerSrc property shall be specified.
+            //
+            //PDFJS.workerSrc = '../../build/pdf.worker.js';
+
+            return PDFJS.getDocument(url).then(function(pdf) {
+               return pdf.getPage(1);
+            }).then(function(page) {
+                return page;
+            })
+
+            //return "hello";
+
         };
 
         // public api
