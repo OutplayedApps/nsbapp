@@ -36,7 +36,7 @@ angular.module('IonicGulpSeed')
             $scope.categories.push(toTitleCase(i));
             $scope.catValues.push(categoryList[i]);
         }
-       // $scope.selectedCategory = $scope.categories[8];
+        $scope.selectedCategory = $scope.categories[8];
         $scope.difficulties = ['Easy (1-4)', 'Medium (5-8)', 'Hard (9-12)', 'Extreme (13-17)', 'All'];
         $scope.selectedDifficulty = $scope.difficulties[4];
         function randInt(min,max)
@@ -44,7 +44,7 @@ angular.module('IonicGulpSeed')
             return Math.floor(Math.random()*(max-min+1)+min);
         }
         function processToHTML(txt) {
-            console.log(txt);
+            //console.log(txt);
             txt = txt.replace(/(\n)/g, "");
             txt = txt.replace(/([WXYZ]\))/g, "<br>$1");
             return txt;
@@ -54,6 +54,7 @@ angular.module('IonicGulpSeed')
         $scope.nextQuestion = function() {
             var catNum = $scope.categories.indexOf($scope.selectedCategory);
             console.log("CATNUM"+catNum+$scope.selectedCategory);
+            console.log($scope.selectedDifficulty);
             var diffNum = $scope.difficulties.indexOf($scope.selectedDifficulty);
             var catNumNew = catNum;
             if (catNum == 8) {

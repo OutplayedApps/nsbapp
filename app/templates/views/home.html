@@ -11,9 +11,9 @@
                 <div class="input-label">
                     Category
                 </div>
-                <select ng-model="selectedCategory"
+                <select ng-model="$parent.selectedCategory"
                         ng-options = "cat for cat in categories track by categories.indexOf(cat)"
-                        ng-change = "nextQuestion()">
+                        ng-change = "nextQuestion(selectedCategory)">
                 </select>
 
             </label>
@@ -21,7 +21,7 @@
                 <div class="input-label">
                     Difficulty
                 </div>
-                <select ng-model="selectedDifficulty"
+                <select ng-model="$parent.selectedDifficulty"
                         ng-options="i for i in difficulties track by difficulties.indexOf(cat)"
                         ng-change = "nextQuestion()">
                 </select>
