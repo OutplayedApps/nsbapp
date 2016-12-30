@@ -22,7 +22,7 @@ select {
   * {
     height: 100%;
     padding: 0px;
-    font-size: 10px;
+
   }
 
   .input-label {
@@ -32,7 +32,7 @@ select {
     margin: 5px 5px;
     border-radius: 10px;
     margin-bottom: 10px;
-    height: 30px;
+    height: 40px;
   }
   .item-select select {
     //padding: 0px;
@@ -64,6 +64,10 @@ ion-footer-bar {
 
 #home {
   .bar-subheader {
-   height: 46px;
+   height: 56px;
   }
+}
+
+.bar.bar-positive {
+
 }
