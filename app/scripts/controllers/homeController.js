@@ -7,7 +7,7 @@
  * # HomeController
  */
 angular.module('IonicGulpSeed')
-    .controller('HomeController', function($scope, ExampleService, $ionicScrollDelegate) {
+    .controller('HomeController', function($scope, ExampleService, $ionicScrollDelegate, $ionicLoading) {
 
         $scope.myHTML = null;
         var categoryList = {
@@ -51,8 +51,9 @@ angular.module('IonicGulpSeed')
             return txt;
 
         }
-
+        $scope.loading = false;
         $scope.nextQuestion = function() {
+            $scope.loading = true;
             var catNum = $scope.categories.indexOf($scope.selectedCategory);
             console.log("CATNUM"+catNum+$scope.selectedCategory);
             //console.log($scope.selectedDifficulty);
@@ -95,6 +96,7 @@ angular.module('IonicGulpSeed')
                         //processToHTML()
                         // close pull to refresh loader
                         $ionicScrollDelegate.$getByHandle('small').scrollTop();
+                        $scope.loading = false;
                         //$scope.$broadcast('scroll.refreshComplete');
                     })
 

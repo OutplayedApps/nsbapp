@@ -41,10 +41,10 @@
         <!--ion-refresher
                 pulling-text="Pull for next question..."
                 on-refresh="nextQuestion()">
-        </ion-refresher>
-        <div class="loader" ng-if="!data">
+        </ion-refresher>-->
+        <div class="loader" ng-if="loading">
             <ion-spinner></ion-spinner>
-        </div-->
+        </div>
         <div class="content">
             <div>
                 <h5>TOSSUP</h5> <span ng-bind-html = "data.tossupQ"></span>
