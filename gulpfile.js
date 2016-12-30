@@ -21,6 +21,7 @@ var cache = require('gulp-cached');
 var KarmaServer = require('karma').Server;
 var spawn = require('child_process').spawn;
 var Promise = require('bluebird');
+var wiredep = require('wiredep');
 
 // this is the express server which 
 // will be initiated when gulp serve
@@ -206,7 +207,8 @@ gulp.task('jsHint', function(done) {
 
 // concatenate and minify vendor sources
 gulp.task('vendor', function() {
-  var vendorFiles = require('./vendor.json');
+  //var vendorFiles = require('./vendor.json');
+    var vendorFiles =wiredep().js;
 
   return gulp.src(vendorFiles)
     .pipe(plugins.concat('vendor.js'))
@@ -316,7 +318,7 @@ gulp.task('watchers', function() {
   gulp.watch('app/icons/**', ['iconfont']);
   gulp.watch('app/images/**', ['images']);
   gulp.watch('app/scripts/**/*.js', ['index']);
-  gulp.watch('./vendor.json', ['vendor']);
+  gulp.watch('./bower.json', ['vendor']);
   gulp.watch('app/templates/**/*.html', ['index']);
   gulp.watch('app/index.html', ['index']);
   gulp.watch(targetDir + '/**')

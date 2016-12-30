@@ -10,7 +10,7 @@
  */
 
 
-angular.module('IonicGulpSeed', ['ionic', 'ngCordova', 'ngResource', 'ngSanitize'])
+angular.module('IonicGulpSeed', ['ionic', 'ngCordova', 'ngResource', 'ngSanitize', 'firebase'])
 
     .run(function($ionicPlatform) {
 

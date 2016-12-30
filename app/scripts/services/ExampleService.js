@@ -8,9 +8,18 @@
  */
 angular.module('IonicGulpSeed')
     // use factory for services
-    .factory('ExampleService', function($http, $timeout, $q) {
+    .factory('ExampleService', function($http, $timeout, $q, $firebaseArray) {
 
         var kindOfPrivateVariable = 42;
+
+        var config = {
+            apiKey: "AIzaSyDlREmLiQPTgiJPeJjviIQZ7sBSkK0DYsI",
+            authDomain: "nsbapp-fed9d.firebaseapp.com",
+            databaseURL: "https://nsbapp-fed9d.firebaseio.com",
+            storageBucket: "nsbapp-fed9d.appspot.com",
+            messagingSenderId: "862524906517"
+        };
+        firebase.initializeApp(config);
 
         var doSomethingAsync = function() {
             var deferred = $q.defer();
@@ -18,8 +27,8 @@ angular.module('IonicGulpSeed')
             return deferred.promise;
         };
 
-        var fetchSomethingFromServer = function() {
-            return $http({
+        var fetchQuestions = function(cat, difficulty) {
+            /*return $http({
                     url: 'http://historyprep.azurewebsites.net/api/NSB',
                     params: {
                         paras: 2
@@ -31,14 +40,19 @@ angular.module('IonicGulpSeed')
                 })
                 .error(function(error) {
                     console.log('an error occured', error);
-                });
+                });*/
+            //data = null;
+            var ref = firebase.database().ref("questions/").orderByChild("catDiff").equalTo(cat+"."+difficulty);
+            var list = $firebaseArray(ref);
+            return list;
+
 
         };
 
         // public api
         return {
             doSomethingAsync: doSomethingAsync,
-            fetchSomethingFromServer: fetchSomethingFromServer
+            fetchQuestions: fetchQuestions
         };
 
     });

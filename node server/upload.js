@@ -24,21 +24,30 @@ var totalProg = 0;
             if (~tossupQ.indexOf("Multiple Choice")) {
                 category = tossupQ.substring(0, tossupQ.indexOf("Multiple Choice")).trim().toUpperCase();
             }
+            else if (~tossupQ.indexOf("Multiple choice")) {
+                category = tossupQ.substring(0, tossupQ.indexOf("Multiple choice")).trim().toUpperCase();
+            }
+            else if (~tossupQ.indexOf("Short answer")) {
+                category = tossupQ.substring(0, tossupQ.indexOf("Short answer")).trim().toUpperCase();
+            }
             else {
                 category = tossupQ.substring(0, tossupQ.indexOf("Short Answer")).trim().toUpperCase();
             }
+            category = category.trim();
             var categoryList = {
               "EARTH SCIENCE": 0,
-              "Earth AND SPACE": 0,
+              "EARTH AND SPACE": 0,
               "ASTRONOMY": 0,
               "BIOLOGY": 1,
               "CHEMISTRY": 2,
               "PHYSICS": 3,
               "MATHEMATICS":4,
               "MATH":4,
-              "GENERAL SCIENCE": 5,
-              "COMPUTER SCIENCE": 6
+              "ENERGY":5,
+              "GENERAL SCIENCE": 6,
+              "COMPUTER SCIENCE": 7
             };
+            var catName = category+"";
             category = categoryList[category];
             
             var tossupA = strBetween(str2, "ANSWER: ", "BONUS");
@@ -46,6 +55,9 @@ var totalProg = 0;
 
             var bonusQ = strBetween(str2, ") ", "ANSWER:");
             var bonusA = strBetween(str2, "ANSWER: ");
+
+             if (tossupQ && tossupA && bonusQ && bonusA && typeof category == 'undefined') throw "ERRORIS" + catName+"."+category+"\n"+tossupQ;
+           
             
             if (tossupQ) //if not empty string.
             {
@@ -55,8 +67,9 @@ var totalProg = 0;
                 "bonusQ": bonusQ,
                 "bonusA": bonusA,
                 "category": category,
-                "setNum":setNum,
-                "roundNum":roundNum
+                "setNum": setNum,
+                "roundNum": roundNum,
+                "catDiff": category+"."+roundNum
                 };
         
             console.log(JSON.stringify(data.questions[setNum+"_"+roundNum+"_"+questionNum]).substring(0, 100));
@@ -65,13 +78,13 @@ var totalProg = 0;
 
     function strBetween(input, s1, s2) {
         if (s2)
-            return input.substring(input.indexOf(s1) + s1.length, input.indexOf(s2)).trim();
+            return input.substring(input.indexOf(s1) + s1.length, input.indexOf(s2)).replace(/___*/g, "").trim();
         else
-            return input.substring(input.indexOf(s1) + s1.length).trim();
+            return input.substring(input.indexOf(s1) + s1.length).replace(/___*/g, "").trim();
     }
 
 var getText = function(setNum, roundNum, callback) {
-    try {
+
     var roundString = "round";
     if (setNum == 6) roundString = "Sample6_ROUND";
     if (setNum == 7 || setNum == 3) roundString = "ROUND-";
@@ -113,8 +126,9 @@ http.get(url.parse(path), function(response) {
             questionNum++;
             //console.log(str2+"HUHU");
         }
+        questionNum++;
         str22 = str;
-        processAndAdd(str22, setNum, roundNum);
+        processAndAdd(str22, setNum, roundNum, questionNum);
                 progress++;
         console.log("Progress: "+progress+" of "+totalProg);
         callback();
@@ -132,10 +146,8 @@ var data = [];
         pdfParser.parseBuffer(buffer);
     });
 });
-    }
-    catch (e) {
-     //   getText(setNum, roundNum, callback);
-    }
+    
+
 }
 
 //getText(1, 8, function() {console.log(data);});
@@ -160,13 +172,8 @@ function main() {
        //async.each(array, function(item, callback) {
            for (var i in array) {
                var item = array[i];
-             try {
                 getText(item.setNum, item.roundNum, function() {});
-             }
-             catch (e) {
-                 console.log("ERR:"+e);
-                 //getText(item.setNum, item.roundNum, function() {});
-             }
+
             deasync.sleep(10);
            }
            //getText(1,4,callback);
@@ -178,7 +185,7 @@ function main() {
         console.log(JSON.stringify(data));
        done();
         function done() {
-            console.log("finsihed");
+            console.log("finished");
             fs.writeFile("output.json", JSON.stringify(data), function(err) {
                                     if(err) {
                                         return console.log(err);
