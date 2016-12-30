@@ -4,4 +4,16 @@
 
 .content {
   padding: 1rem;
+  overflow-y:auto;
+  div {
+
+  }
+
+  .answer {
+    font-weight: bold;
+  }
+}
+
+.options {
+
 }

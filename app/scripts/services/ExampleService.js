@@ -28,23 +28,9 @@ angular.module('IonicGulpSeed')
         };
 
         var fetchQuestions = function(cat, difficulty) {
-            /*return $http({
-                    url: 'http://historyprep.azurewebsites.net/api/NSB',
-                    params: {
-                        paras: 2
-                    },
-                    method: 'GET'
-                })
-                .success(function(data) {
-                    console.log('fetched this stuff from server:', data);
-                })
-                .error(function(error) {
-                    console.log('an error occured', error);
-                });*/
-            //data = null;
             var ref = firebase.database().ref("questions/").orderByChild("catDiff").equalTo(cat+"."+difficulty);
             var list = $firebaseArray(ref);
-            return list;
+            return $q.when(list);
 
 
         };
