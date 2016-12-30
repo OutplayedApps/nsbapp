@@ -35,7 +35,7 @@
 
     </div>
 
-    <ion-content class="has-header has-subheader" class="mainContent">
+    <ion-content class="has-header has-subheader" class="mainContent" delegate-handle="small">
 
 
         <!--ion-refresher
@@ -45,7 +45,6 @@
         <div class="loader" ng-if="!data">
             <ion-spinner></ion-spinner>
         </div-->
-        <ion-scroll delegate-handle="small">
         <div class="content">
             <div>
                 <h5>TOSSUP</h5> <span ng-bind-html = "data.tossupQ"></span>
@@ -63,7 +62,6 @@
             </div>
 
         </div>
-            </ion-scroll>
 
     </ion-content>
 
