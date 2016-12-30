@@ -4,16 +4,16 @@
         <h1 class="title">NSB question practice</h1>
     </ion-header-bar>
 
-    <ion-content class="has-header" style="top:40px;">
+    <ion-pane class="has-header" style="top:40px;">
 
         <div class="options">
             <label class="item item-input item-select">
                 <div class="input-label">
                     Category
                 </div>
-                <select ng-model="$parent.selectedCategory"
+                <select ng-model="selectedCategory"
                         ng-options = "cat for cat in categories track by categories.indexOf(cat)"
-                        ng-change = "nextQuestion(selectedCategory)">
+                        ng-change = "nextQuestion()">
                 </select>
 
             </label>
@@ -21,7 +21,7 @@
                 <div class="input-label">
                     Difficulty
                 </div>
-                <select ng-model="$parent.selectedDifficulty"
+                <select ng-model="selectedDifficulty"
                         ng-options="i for i in difficulties track by difficulties.indexOf(cat)"
                         ng-change = "nextQuestion()">
                 </select>
@@ -37,6 +37,7 @@
         <div class="loader" ng-if="!data">
             <ion-spinner></ion-spinner>
         </div-->
+        <ion-scroll delegate-handle="small">
         <div class="content">
             <div>
                 <h5>TOSSUP</h5> <span ng-bind-html = "data.tossupQ"></span>
@@ -54,8 +55,9 @@
             </div>
 
         </div>
+            </ion-scroll>
 
-    </ion-content>
+    </ion-pane>
 
     <ion-footer-bar>
         <button class="button icon-right ion-chevron-right button-calm button-large" style="width:100%;"

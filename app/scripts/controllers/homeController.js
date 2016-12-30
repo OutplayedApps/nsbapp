@@ -7,7 +7,7 @@
  * # HomeController
  */
 angular.module('IonicGulpSeed')
-    .controller('HomeController', function($scope, ExampleService) {
+    .controller('HomeController', function($scope, ExampleService, $ionicScrollDelegate) {
 
         $scope.myHTML = null;
         var categoryList = {
@@ -39,6 +39,7 @@ angular.module('IonicGulpSeed')
         $scope.selectedCategory = $scope.categories[8];
         $scope.difficulties = ['Easy (1-4)', 'Medium (5-8)', 'Hard (9-12)', 'Extreme (13-17)', 'All'];
         $scope.selectedDifficulty = $scope.difficulties[4];
+
         function randInt(min,max)
         {
             return Math.floor(Math.random()*(max-min+1)+min);
@@ -54,7 +55,7 @@ angular.module('IonicGulpSeed')
         $scope.nextQuestion = function() {
             var catNum = $scope.categories.indexOf($scope.selectedCategory);
             console.log("CATNUM"+catNum+$scope.selectedCategory);
-            console.log($scope.selectedDifficulty);
+            //console.log($scope.selectedDifficulty);
             var diffNum = $scope.difficulties.indexOf($scope.selectedDifficulty);
             var catNumNew = catNum;
             if (catNum == 8) {
@@ -93,7 +94,8 @@ angular.module('IonicGulpSeed')
                         $scope.data.bonusQ = processToHTML($scope.data.bonusQ);
                         //processToHTML()
                         // close pull to refresh loader
-                        $scope.$broadcast('scroll.refreshComplete');
+                        $ionicScrollDelegate.$getByHandle('small').scrollTop();
+                        //$scope.$broadcast('scroll.refreshComplete');
                     })
 
                 });
