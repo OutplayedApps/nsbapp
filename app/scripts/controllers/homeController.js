@@ -19,7 +19,7 @@ angular.module('IonicGulpSeed')
             "ENERGY":5,
             "GENERAL SCIENCE": 6,
             "COMPUTER SCIENCE": 7,
-            "ALL": 8
+            "Categories: All": 8
         };
         $scope.categories = [];
         $scope.catValues = [];
@@ -37,7 +37,7 @@ angular.module('IonicGulpSeed')
             $scope.catValues.push(categoryList[i]);
         }
         $scope.selectedCategory = $scope.categories[8];
-        $scope.difficulties = ['Easy (1-4)', 'Medium (5-8)', 'Hard (9-12)', 'Extreme (13-17)', 'All'];
+        $scope.difficulties = ['Easy (1-4)', 'Medium (5-8)', 'Hard (9-12)', 'Extreme (13-17)', 'Difficulty: All'];
         $scope.selectedDifficulty = $scope.difficulties[4];
 
         function randInt(min,max)
@@ -94,7 +94,7 @@ angular.module('IonicGulpSeed')
                         $scope.data.bonusQ = processToHTML($scope.data.bonusQ);
                         //processToHTML()
                         // close pull to refresh loader
-                        //$ionicScrollDelegate.$getByHandle('small').scrollTop();
+                        $ionicScrollDelegate.$getByHandle('small').scrollTop();
                         //$scope.$broadcast('scroll.refreshComplete');
                     })
 

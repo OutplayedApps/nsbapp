@@ -14,10 +14,56 @@
   }
 }
 
-ion-scroll {
-  height: 800px;
+select {
+
+}
+.bar-subheader {
+
+  * {
+    height: 100%;
+    padding: 0px;
+    font-size: 10px;
+  }
+
+  .input-label {
+    display: none;
+  }
+  .item-select {
+    margin: 5px 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+  }
+  .item-select select {
+    //padding: 0px;
+    left: 0;
+    max-width: 100%;
+    direction: ltr;
+    padding-right: 0px;
+
+  }
+
+  ion-scroll {
+    height: 800px;
+  }
+
+  .options {
+    padding: 0px;
+    padding-bottom: 5px;
+    padding-top: 0px;
+  }
 }
 
-.options {
+ion-footer-bar {
+  padding: 0px;
 
+  #buttonNext {
+    margin: 0px;
+  }
+}
+
+#home {
+  .bar-subheader {
+   height: 46px;
+  }
 }
