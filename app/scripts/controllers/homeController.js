@@ -94,7 +94,7 @@ angular.module('IonicGulpSeed')
                         $scope.data.bonusQ = processToHTML($scope.data.bonusQ);
                         //processToHTML()
                         // close pull to refresh loader
-                        $ionicScrollDelegate.$getByHandle('small').scrollTop();
+                        //$ionicScrollDelegate.$getByHandle('small').scrollTop();
                         //$scope.$broadcast('scroll.refreshComplete');
                     })
 

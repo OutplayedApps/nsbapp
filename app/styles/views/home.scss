@@ -4,14 +4,18 @@
 
 .content {
   padding: 1rem;
-  overflow-y:auto;
+  //overflow-y:auto;
   div {
-
+    margin-bottom: 20px;
   }
 
   .answer {
     font-weight: bold;
   }
+}
+
+ion-scroll {
+  height: 800px;
 }
 
 .options {

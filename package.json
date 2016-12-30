@@ -1,8 +1,8 @@
 {
-  "name": "ionicgulpseed",
+  "name": "National Science Bowl Quizzer",
   "version": "1.2.1",
-  "description": "A blank seed project for rapid development of Ionic projects through gulp workflows",
-  "author": "Thomas Maximini <tmaximini@gmail.com>",
+  "description": "An app that helps people practice with National Science Bowl questions",
+  "author": "Ashwin Ramaswami",
   "dependencies": {
     "angularfire": "^2.2.0",
     "async": "^2.1.4",
