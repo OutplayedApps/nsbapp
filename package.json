@@ -4,7 +4,9 @@
   "description": "A blank seed project for rapid development of Ionic projects through gulp workflows",
   "author": "Thomas Maximini <tmaximini@gmail.com>",
   "dependencies": {
-    "bluebird": "^3.0.5"
+    "async": "^2.1.4",
+    "bluebird": "^3.0.5",
+    "sync": "^0.2.5"
   },
   "devDependencies": {
     "beepbeep": "^1.2.0",
