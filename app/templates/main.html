@@ -14,7 +14,7 @@
             <h1 class="title">Preferences</h1>
         </ion-header-bar>
 
-        <ion-content class="has-header">
+        <ion-content class="has-header" scroll="false">
             <div class="list menu">
                 <a menu-close class="item item-icon-left" ui-sref-active="active" ui-sref="app.home">
                     <i class="icon ion-home"></i>
@@ -73,23 +73,24 @@
                         In Game Mode, tossups and bonuses will be read to you as if it's an actual game. This is good for players who are practicing questions by themselves.
                     </div>
                 </label>
+                <div id="settingDifficultyWrapper">
+                    <div class="item item-divider">
+                        Difficulty level
+                    </div>
+                    <ion-tabs class="item tabs-large tabs-default tabs-icon-top">
 
-                <div class="item item-divider">
-                    Difficulty level
+                        <ion-tab title="Middle school" icon-on="ion-ios-bookmarks" icon-off="ion-ios-bookmarks"
+                                 on-select="toggleLevel(1)" class="tabMS">
+                            <!-- Tab 1 content -->
+                        </ion-tab>
+
+                        <ion-tab title="High school" icon-on="ion-university" icon-off="ion-university"
+                                 on-select="toggleLevel(2)" class="tabHS">
+                            <!-- Tab 2 content -->
+                        </ion-tab>
+
+                    </ion-tabs>
                 </div>
-                <ion-tabs class="item tabs-large tabs-default tabs-icon-top">
-
-                    <ion-tab title="Middle school" icon-on="ion-ios-bookmarks" icon-off="ion-ios-bookmarks"
-                             on-select="toggleLevel(1)" class="tabMS">
-                        <!-- Tab 1 content -->
-                    </ion-tab>
-
-                    <ion-tab title="High school" icon-on="ion-university" icon-off="ion-university"
-                             on-select="toggleLevel(2)" class="tabHS">
-                        <!-- Tab 2 content -->
-                    </ion-tab>
-
-                </ion-tabs>
 
 
 
