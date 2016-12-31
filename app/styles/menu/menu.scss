@@ -2,15 +2,29 @@
   .tabs-large {
     display: block;
     $tabHeight: 60px;
-    margin-top: $tabHeight;
+    //margin-top: $tabHeight;
+
     div.tabs {
       height: $tabHeight;
+      position: static;
+      .tab-item-active {
+
+        &.tabGame, &.tabReader {
+          color: dodgerblue;
+        }
+        &.tabMS, &.tabHS {
+          color: cadetblue;
+        }
+      }
+
     }
     span {
       font-size: 12pt;
     }
+  }
 
+  .modeExplanation {
+    white-space: normal;
   }
 }
-
 
