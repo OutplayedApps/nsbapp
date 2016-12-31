@@ -12,7 +12,7 @@
                     Category
                 </div>
                 <select ng-model="selectedCategory"
-                        ng-options = "cat for cat in categories track by categories.indexOf(cat)"
+                        ng-options = "cat as cat.name for cat in categories track by cat.index"
                         ng-change = "nextQuestion()">
                 </select>
 
@@ -24,7 +24,7 @@
                             Difficulty
                         </div>
                         <select ng-model="selectedDifficulty"
-                                ng-options="i for i in difficulties track by difficulties.indexOf(cat)"
+                                ng-options="diff as diff.name for diff in difficulties track by diff.index"
                                 ng-change = "nextQuestion()">
                         </select>
 
@@ -47,7 +47,13 @@
         </div>
         <div class="content">
             <div>
-                <h5>TOSSUP</h5> <span ng-bind-html = "data.tossupQ"></span>
+                <h5>TOSSUP
+                    <div class="questionInfo">
+                        Set {{data.setNum}}
+                        Round {{data.roundNum}}
+                    </div>
+                </h5>
+                <span ng-bind-html = "data.tossupQ"></span>
             </div>
             <div>
                 ANSWER: <span class=answer ng-bind-html = "data.tossupA"></span>

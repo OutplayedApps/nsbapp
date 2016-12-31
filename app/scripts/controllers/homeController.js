@@ -7,9 +7,10 @@
  * # HomeController
  */
 angular.module('IonicGulpSeed')
-    .controller('HomeController', function($scope, ExampleService, $ionicScrollDelegate, $ionicLoading) {
+    .controller('HomeController', function($scope, ExampleService, $ionicScrollDelegate, $ionicLoading, $ionicPopup) {
 
         $scope.myHTML = null;
+        //var categoryList = {};
         var categoryList = {
             "EARTH AND SPACE": 0,
             "BIOLOGY": 1,
@@ -21,8 +22,19 @@ angular.module('IonicGulpSeed')
             "COMPUTER SCIENCE": 7,
             "Categories: All": 8
         };
+        var categoryListMS = {
+            "EARTH AND SPACE": 0,
+            "ASTRONOMY": 0,
+            "LIFE SCIENCE": 1,
+            "PHYSICAL SCIENCE": 3,
+            "MATHEMATICS":4,
+            "MATH":4,
+            "ENERGY":5,
+            "GENERAL SCIENCE": 6
+        };
         $scope.categories = [];
         $scope.catValues = [];
+        $scope.HSorMS = true; //true
         function toTitleCase(str)
         {
             str = str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
@@ -33,12 +45,17 @@ angular.module('IonicGulpSeed')
         }
         for (var i in categoryList) {
             console.log(i);
-            $scope.categories.push(toTitleCase(i));
-            $scope.catValues.push(categoryList[i]);
+            $scope.categories.push({"name":toTitleCase(i), "index":categoryList[i]});
         }
-        $scope.selectedCategory = $scope.categories[8];
-        $scope.difficulties = ['Easy (1-4)', 'Medium (5-8)', 'Hard (9-12)', 'Extreme (13-17)', 'Difficulty: All'];
-        $scope.selectedDifficulty = $scope.difficulties[4];
+        $scope.selectedCategory = $scope.categories[$scope.categories.length - 1];
+        $scope.difficulties = [
+            {'name':'Easy (1-4)', 'index':0},
+            {'name':'Medium (5-8)', 'index':1},
+            {'name':'Hard (9-12)', 'index':2},
+            {'name':'Extreme (13+)', 'index':3},
+            {'name':'Difficulty: All', 'index':4}
+            ];
+        $scope.selectedDifficulty = $scope.difficulties[$scope.difficulties.length - 1];
 
         function randInt(min,max)
         {
@@ -57,10 +74,10 @@ angular.module('IonicGulpSeed')
             $scope.progress++;
             // if ($scope.progress != 4) return;
             $scope.loading = true;
-            var catNum = $scope.categories.indexOf($scope.selectedCategory);
+            var catNum = $scope.selectedCategory.index;
             console.log("CATNUM"+catNum+$scope.selectedCategory);
             //console.log($scope.selectedDifficulty);
-            var diffNum = $scope.difficulties.indexOf($scope.selectedDifficulty);
+            var diffNum = $scope.selectedDifficulty.index;
             var catNumNew = catNum;
             if (catNum == 8) {
                 catNumNew = randInt(0,5);
@@ -84,11 +101,15 @@ angular.module('IonicGulpSeed')
                     diffNumFinal = randInt(1, 17);
                     break;
             }
-                ExampleService.fetchQuestions(catNumNew, diffNumFinal)
+
+                ExampleService.fetchQuestions(catNumNew, diffNumFinal, $scope.HSorMS)
                 .then(function(list) {
-                    //$scope.myHTML = response.data.text;
                     window.list = list;
+
+                    //$scope.myHTML = response.data.text;
+
                     list.$loaded(function(data) {
+                        if (data.length == 0) throw "No results found.";
                         var regularArray = [];
                         for (var i = 0; i < data.length; i++) {
                             regularArray.push(data[i]);
@@ -96,6 +117,9 @@ angular.module('IonicGulpSeed')
                         $scope.data = randEle(regularArray);
                         $scope.data.tossupQ = processToHTML($scope.data.tossupQ);
                         $scope.data.bonusQ = processToHTML($scope.data.bonusQ);
+                        $scope.data.category = $scope.data.category;
+                        $scope.data.setNum = $scope.data.setNum;
+                        $scope.data.roundNum = $scope.data.roundNum;
                         //processToHTML()
                         // close pull to refresh loader
                         $ionicScrollDelegate.$getByHandle('small').scrollTop();
@@ -103,6 +127,9 @@ angular.module('IonicGulpSeed')
                         //$scope.$broadcast('scroll.refreshComplete');
                     })
 
+                }).catch(function(e) {
+                   $ionicPopup.alert({"title": "Error", "template":"Sorry, there was an error. "+e});
+                    //todo: GO BACK.
                 });
         };
 

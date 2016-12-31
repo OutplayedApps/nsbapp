@@ -27,8 +27,9 @@ angular.module('IonicGulpSeed')
             return deferred.promise;
         };
 
-        var fetchQuestions = function(cat, difficulty) {
-            var ref = firebase.database().ref("questions/").orderByChild("catDiff").equalTo(cat+"."+difficulty);
+        var fetchQuestions = function(cat, difficulty, HSorMS) {
+            console.log(cat, difficulty);
+            var ref = firebase.database().ref("/questions/questions"+(HSorMS?"HS":"MS")+"/").orderByChild("catDiff").equalTo(cat+"."+difficulty);
             var list = $firebaseArray(ref);
             return $q.when(list);
 
