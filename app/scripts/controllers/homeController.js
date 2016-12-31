@@ -55,7 +55,7 @@ angular.module('IonicGulpSeed')
         $scope.progress = 0;
         $scope.nextQuestion = function() {
             $scope.progress++;
-            //if ($scope.progress != 4) return;
+            // if ($scope.progress != 4) return;
             $scope.loading = true;
             var catNum = $scope.categories.indexOf($scope.selectedCategory);
             console.log("CATNUM"+catNum+$scope.selectedCategory);
