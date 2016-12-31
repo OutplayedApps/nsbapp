@@ -1,30 +1,70 @@
-<!ion-side-menus>
+<ion-side-menus>
     <!-- Center content -->
-    <!ion-side-menu-content>
+    <ion-side-menu-content>
 
         <ion-nav-view name="viewContent">
 
         </ion-nav-view>
-    <!/ion-side-menu-content>
+    </ion-side-menu-content>
 
     <!-- Left menu -->
-    <!ion-side-menu side="left" class="side-menu">
+    <ion-side-menu side="left" class="side-menu">
 
-        <!--ion-header-bar align-title="center" class="bar-positive">
-            <h1 class="title">Side Menu</h1>
-        </ion-header-bar>-->
+        <ion-header-bar align-title="center" class="bar-balanced">
+            <h1 class="title">Preferences</h1>
+        </ion-header-bar>
 
         <ion-content class="has-header">
-            <div class="list">
+            <div class="list menu">
                 <a menu-close class="item item-icon-left" ui-sref-active="active" ui-sref="app.home">
                     <i class="icon ion-home"></i>
-                    Home
+                    Main Menu
                 </a>
-                <a menu-close class="item item-icon-left" ui-sref-active="active" ui-sref="app.settings">
+                <!--a menu-close class="item item-icon-left" ui-sref-active="active" ui-sref="app.settings">
                     <i class="icon ion-settings"></i>
                     Settings
-                </a>
+                </a-->
+
+
+                    <!-- connect toggles to controller using ng-model -->
+
+                <label class="item item-input item-select">
+                    <div class="input-label">
+                        Question set
+                    </div>
+                    <select ng-click="">
+                        <option>MS</option>
+                        <option selected>HS</option>
+                    </select>
+                </label>
+                <label class="item item-input item-select">
+                    <div class="input-label">
+                        Mode
+                    </div><br>
+                    <select>
+                        <option>Game mode!</option>
+                        <option selected>Reader mode</option>
+                    </select>
+                </label>
+                <ion-tabs class="tabs-large tabs-stable tabs-icon-top">
+
+                    <ion-tab title="Reader mode" icon-on="ion-ios-book" icon-off="ion-ios-book-outline">
+                        <!-- Tab 1 content -->
+                    </ion-tab>
+
+                    <ion-tab title="Game mode!" icon-on="ion-ios-game-controller-b" icon-off="ion-ios-game-controller-b-outline">
+                        <!-- Tab 2 content -->
+                    </ion-tab>
+
+                </ion-tabs>
+
+                    <!--ion-toggle>
+                <span class="settings-item__text">
+                    Allow cookies
+                </span>
+                    </ion-toggle-->
+
             </div>
         </ion-content>
-    <!/ion-side-menu>
-<!/ion-side-menus>
+    </ion-side-menu>
+</ion-side-menus>

@@ -44,7 +44,7 @@ angular.module('IonicGulpSeed')
             return items[Math.floor(Math.random()*items.length)];
         }
         for (var i in categoryList) {
-            console.log(i);
+            //console.log(i);
             $scope.categories.push({"name":toTitleCase(i), "index":categoryList[i]});
         }
         $scope.selectedCategory = $scope.categories[$scope.categories.length - 1];
@@ -75,8 +75,8 @@ angular.module('IonicGulpSeed')
             // if ($scope.progress != 4) return;
             $scope.loading = true;
             var catNum = $scope.selectedCategory.index;
-            console.log("CATNUM"+catNum+$scope.selectedCategory);
-            //console.log($scope.selectedDifficulty);
+            //console.log("CATNUM"+catNum+$scope.selectedCategory);
+
             var diffNum = $scope.selectedDifficulty.index;
             var catNumNew = catNum;
             if (catNum == 8) {

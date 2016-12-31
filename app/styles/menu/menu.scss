@@ -1,0 +1,16 @@
+.list.menu {
+  .tabs-large {
+    display: block;
+    $tabHeight: 60px;
+    margin-top: $tabHeight;
+    div.tabs {
+      height: $tabHeight;
+    }
+    span {
+      font-size: 12pt;
+    }
+
+  }
+}
+
+
