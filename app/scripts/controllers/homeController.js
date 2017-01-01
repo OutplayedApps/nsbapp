@@ -82,10 +82,9 @@ angular.module('IonicGulpSeed')
                     {'name': 'Extreme (13+)', 'index': 3},
                     {'name': 'Difficulty: All', 'index': 4}
                 ];
-               
+
 
                 $scope.selectedDifficulty = $scope.difficulties[$scope.difficulties.length - 1];
-                $scope.$apply();
 
                 function randInt(min, max) {
                     return Math.floor(Math.random() * (max - min + 1) + min);
