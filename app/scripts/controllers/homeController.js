@@ -8,15 +8,16 @@
  */
 angular.module('IonicGulpSeed')
     .controller('HomeController', function($scope, ExampleService, $ionicScrollDelegate, $ionicLoading, $ionicPopup,
-    SettingsService, $ionicPlatform) {
+    SettingsService, $ionicPlatform, $ionicSideMenuDelegate) {
         $ionicPlatform.ready(function () {
+            $ionicSideMenuDelegate.canDragContent(true);
 
             $scope.$on("settingsChanged", function (evt, data) {
                 init();
                 console.log("ok");
 
             });
-            init();
+
 
 
             function init() {
@@ -81,7 +82,10 @@ angular.module('IonicGulpSeed')
                     {'name': 'Extreme (13+)', 'index': 3},
                     {'name': 'Difficulty: All', 'index': 4}
                 ];
+               
+
                 $scope.selectedDifficulty = $scope.difficulties[$scope.difficulties.length - 1];
+                $scope.$apply();
 
                 function randInt(min, max) {
                     return Math.floor(Math.random() * (max - min + 1) + min);
@@ -163,6 +167,8 @@ angular.module('IonicGulpSeed')
 
                 $scope.nextQuestion();
             }
+
+            init();
 
         });
     });

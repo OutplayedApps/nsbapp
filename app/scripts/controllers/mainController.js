@@ -8,7 +8,7 @@
  * This controller handles the side menu
  */
 angular.module('IonicGulpSeed')
-    .controller('MainController', function($scope, $timeout,
+    .controller('MainController', function($scope, $timeout, $ionicViewService,
                                            $ionicSideMenuDelegate, SettingsService, $ionicTabsDelegate) {
 
 
@@ -38,14 +38,17 @@ angular.module('IonicGulpSeed')
             SettingsService.settings.level = l;
             $scope.$broadcast("settingsChanged");
         }
-        $scope.$watch(function () {
+        /*$scope.$watch(function () {
                 return $ionicSideMenuDelegate.isOpenLeft();
             },
             function (ratio) {
                 $scope.isLeftMenuOpen = ratio;
-            });
+            });*/
         $scope.start = function() {
-
+            $ionicViewService.nextViewOptions({
+                disableBack: true
+            });
+            $state.go("app.home");
         }
 
 
