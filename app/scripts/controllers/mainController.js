@@ -8,19 +8,32 @@
  * This controller handles the side menu
  */
 angular.module('IonicGulpSeed')
-    .controller('MainController', function($scope, $ionicSideMenuDelegate) {
+    .controller('MainController', function($scope, $timeout,
+                                           $ionicSideMenuDelegate, SettingsService, $ionicTabsDelegate) {
 
         // do something with $scope
-        if (!$scope.mode) $scope.mode = 1;
-        if (!$scope.level) $scope.level = 1;
+        $scope.settings = SettingsService.settings;
+        function selectTab(handle, index) {
+            $timeout(function() {
+                $ionicTabsDelegate.$getByHandle(handle).select(index);
+            }, 0);
+        }
+        selectTab("mode", $scope.settings.mode);
+        selectTab("level", $scope.settings.level);
+
+
         //todo: get from memory.
+        var m, l;
         $scope.toggleMode = function(m) {
             $ionicSideMenuDelegate.toggleLeft(false);
             $scope.mode = m;
+            SettingsService.mode = m;
+
         }
         $scope.toggleLevel = function(l) {
             $ionicSideMenuDelegate.toggleLeft(false);
             $scope.level = l;
+            SettingsService.level = m;
         }
         $scope.$watch(function () {
                 return $ionicSideMenuDelegate.isOpenLeft();
@@ -28,6 +41,7 @@ angular.module('IonicGulpSeed')
             function (ratio) {
                 $scope.isLeftMenuOpen = ratio;
             });
+
 
 
     });
