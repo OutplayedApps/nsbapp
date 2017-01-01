@@ -2,7 +2,9 @@
  // color: transparent;
  // text-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
-
+.bar.bar-positive {
+  background-color: cadetblue;
+}
 .list.menu {
   position: relative;
   .tabs-large {
@@ -16,10 +18,10 @@
       .tab-item-active {
 
         &.tabGame, &.tabReader {
-          color: dodgerblue;
+          color: $sideMenuTabColor;
         }
         &.tabMS, &.tabHS {
-          color: cadetblue;
+          color: $sideMenuTabColor;
         }
       }
 

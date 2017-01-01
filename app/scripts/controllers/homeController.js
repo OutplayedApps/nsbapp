@@ -10,6 +10,8 @@ angular.module('IonicGulpSeed')
     .controller('HomeController', function($scope, ExampleService, $ionicScrollDelegate, $ionicLoading, $ionicPopup,
     SettingsService, $ionicPlatform, $ionicSideMenuDelegate, $ionicHistory) {
         $ionicPlatform.ready(function () {
+
+            //required for side menu to work lol:
             $ionicHistory.clearHistory();
             $ionicSideMenuDelegate.canDragContent(true);
 
@@ -22,8 +24,10 @@ angular.module('IonicGulpSeed')
 
 
             function init() {
-                var mode = SettingsService.settings.mode;
-                var HSorMS = (SettingsService.settings.level == 1);
+                $scope.mode = SettingsService.settings.mode;
+                var mode = $scope.mode;
+                $scope.HSorMS = (SettingsService.settings.level == 1);
+                var HSorMS = $scope.HSorMS;
                 console.log(SettingsService.settings.level);
                 //mode: 0 is reader 1 is game mode
                 //level: 0 is MS 1 is HS
@@ -87,6 +91,13 @@ angular.module('IonicGulpSeed')
 
                 $scope.selectedDifficulty = $scope.difficulties[$scope.difficulties.length - 1];
 
+                $("select").focus(function() {
+                    this.selectedIndex = -1;
+                }).blur(function() {
+                    //if (this.selectedIndex == -2)
+                     //   this.selectedIndex = $(this).data("tempSelect");
+                })
+
                 function randInt(min, max) {
                     return Math.floor(Math.random() * (max - min + 1) + min);
                 }
@@ -102,8 +113,28 @@ angular.module('IonicGulpSeed')
                 $scope.loading = false;
                 $scope.progress = 0;
                 $scope.nextQuestion = function () {
-                    $scope.progress++;
-                    // if ($scope.progress != 4) return;
+                    /*
+                    PROGRESS: 0 - everything shown.
+                    1- tossup being read
+                    2- tossup frozen
+                    3 - full tossup + answer shown
+                    4 - bonus being read
+                    5- bonus frozen
+                    6 - full bonus + answer shown
+                     */
+                    if ($scope.mode == 0) { //reader mode
+                        $scope.progress = 0;
+                    }
+                    else if ($scope.mode == 1) { //game mode.
+                        $scope.progress++;
+                        if ($scope.progress <= 4) {
+                            return;
+                        }
+                        else {
+                            $scope.progress = 0;
+                        }
+                    }
+
                     $scope.loading = true;
                     var catNum = $scope.selectedCategory.index;
                     //console.log("CATNUM"+catNum+$scope.selectedCategory);
@@ -114,6 +145,7 @@ angular.module('IonicGulpSeed')
                         catNumNew = $scope.catValues[Math.floor(Math.random() * $scope.catValues.length)];
                         //picks a random index from the array.
                     }
+                    var maxDifficulty = $scope.HSorMS ? 17 : 18;
                     var diffNumFinal = 1;
                     switch (diffNum) {
                         case 0:
@@ -126,11 +158,11 @@ angular.module('IonicGulpSeed')
                             diffNumFinal = randInt(9, 12);
                             break;
                         case 3:
-                            diffNumFinal = randInt(13, 18);
+                            diffNumFinal = randInt(13, maxDifficulty);
                             break;
                         case -1:
                         default:
-                            diffNumFinal = randInt(1, 18);
+                            diffNumFinal = randInt(1, maxDifficulty);
                             break;
                     }
 
