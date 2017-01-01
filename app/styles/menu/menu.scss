@@ -1,3 +1,8 @@
+.blurry-text {
+  color: transparent;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
 .list.menu {
   position: relative;
   .tabs-large {
@@ -29,7 +34,7 @@
     height: 170px;
     padding: 15px;
     > div {
- 
+
     }
     span {
       display: inline-block;

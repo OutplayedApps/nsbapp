@@ -53,11 +53,21 @@ angular.module('IonicGulpSeed', ['ionic', 'ngCordova', 'ngResource', 'ngSanitize
                         controller: 'SettingsController'
                     }
                 }
+            })
+            .state('app.mainMenu', {
+                url: '/mainMenu',
+                cache: true,
+                views: {
+                    'viewContent': {
+                        templateUrl: 'templates/views/mainMenu.html',
+                        controller: 'MainMenuController'
+                    }
+                }
             });
 
 
         // redirects to default route for undefined routes
-        $urlRouterProvider.otherwise('/app/home');
+        $urlRouterProvider.otherwise('/app/mainMenu');
     });
 
 

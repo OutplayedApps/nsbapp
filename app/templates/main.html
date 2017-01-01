@@ -1,10 +1,11 @@
 <ion-side-menus>
     <!-- Center content -->
     <ion-side-menu-content>
+        <div ng-class="{'blurry-text': isLeftMenuOpen }">
+            <ion-nav-view name="viewContent">
 
-        <ion-nav-view name="viewContent">
-
-        </ion-nav-view>
+            </ion-nav-view>
+        </div>
     </ion-side-menu-content>
 
     <!-- Left menu -->
@@ -16,9 +17,13 @@
 
         <ion-content class="has-header" scroll="false">
             <div class="list menu">
-                <a menu-close class="item item-icon-left" ui-sref-active="active" ui-sref="app.home">
+                <a menu-close class="item item-icon-left" ui-sref-active="active" ui-sref="app.mainMenu">
                     <i class="icon ion-home"></i>
                     Main Menu
+                </a>
+                <a menu-close class="item item-icon-left" ui-sref-active="active" ui-sref="app.home">
+                    <i class="icon ion-social-buffer"></i>
+                    Back to Practice
                 </a>
                 <!--a menu-close class="item item-icon-left" ui-sref-active="active" ui-sref="app.settings">
                     <i class="icon ion-settings"></i>
@@ -46,8 +51,28 @@
                         <option selected>Reader mode</option>
                     </select>
                 </label-->
+
+                <div id="settingDifficultyWrapper">
+                    <div class="item item-divider">
+                        School Type
+                    </div>
+                    <ion-tabs class="item tabs-large tabs-default tabs-icon-top">
+
+                        <ion-tab title="Middle school" icon-on="ion-ios-bookmarks" icon-off="ion-ios-bookmarks"
+                                 on-select="toggleLevel(1)" class="tabMS">
+                            <!-- Tab 1 content -->
+                        </ion-tab>
+
+                        <ion-tab title="High school" icon-on="ion-university" icon-off="ion-university"
+                                 on-select="toggleLevel(2)" class="tabHS">
+                            <!-- Tab 2 content -->
+                        </ion-tab>
+
+                    </ion-tabs>
+                </div>
+
                 <div class="item item-divider">
-                    Quiz gameplay
+                    Quiz Gameplay
                 </div>
 
                 <ion-tabs class="item tabs-large tabs-stable tabs-icon-top">
@@ -73,24 +98,6 @@
                         In Game Mode, tossups and bonuses will be read to you as if it's an actual game. This is good for players who are practicing questions by themselves.
                     </div>
                 </label>
-                <div id="settingDifficultyWrapper">
-                    <div class="item item-divider">
-                        Difficulty level
-                    </div>
-                    <ion-tabs class="item tabs-large tabs-default tabs-icon-top">
-
-                        <ion-tab title="Middle school" icon-on="ion-ios-bookmarks" icon-off="ion-ios-bookmarks"
-                                 on-select="toggleLevel(1)" class="tabMS">
-                            <!-- Tab 1 content -->
-                        </ion-tab>
-
-                        <ion-tab title="High school" icon-on="ion-university" icon-off="ion-university"
-                                 on-select="toggleLevel(2)" class="tabHS">
-                            <!-- Tab 2 content -->
-                        </ion-tab>
-
-                    </ion-tabs>
-                </div>
 
 
 
