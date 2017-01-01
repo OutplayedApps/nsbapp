@@ -7,8 +7,12 @@
  * # SettingsController
  */
 angular.module('IonicGulpSeed')
-    .controller('MainMenuController', function($scope) {
-        console.log('lol');
+    .controller('MainMenuController', function($scope, $state) {
+        //console.log('lol');
         // do something with $scope
+
+        $scope.start = function() {
+            $state.go("app.home");
+        }
 
     });

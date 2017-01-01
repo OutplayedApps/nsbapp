@@ -11,6 +11,7 @@ angular.module('IonicGulpSeed')
     .controller('MainController', function($scope, $timeout,
                                            $ionicSideMenuDelegate, SettingsService, $ionicTabsDelegate) {
 
+
         // do something with $scope
         $scope.settings = SettingsService.settings;
         function selectTab(handle, index) {
@@ -27,14 +28,14 @@ angular.module('IonicGulpSeed')
         $scope.toggleMode = function(m) {
             $ionicSideMenuDelegate.toggleLeft(false);
             $scope.mode = m;
-            SettingsService.mode = m;
+            SettingsService.settings.mode = m;
             $scope.$broadcast("settingsChanged");
 
         }
         $scope.toggleLevel = function(l) {
             $ionicSideMenuDelegate.toggleLeft(false);
             $scope.level = l;
-            SettingsService.level = m;
+            SettingsService.settings.level = l;
             $scope.$broadcast("settingsChanged");
         }
         $scope.$watch(function () {
@@ -43,6 +44,9 @@ angular.module('IonicGulpSeed')
             function (ratio) {
                 $scope.isLeftMenuOpen = ratio;
             });
+        $scope.start = function() {
+
+        }
 
 
 

@@ -19,12 +19,25 @@ angular.module('IonicGulpSeed')
 
         var settings = {};
         settings.mode = 0;
-        settings.level = 0;
+        settings.level = 1;
+
+        //mode: 0 is reader 1 is game mode
+        //level: 0 is MS 1 is HS
         //todo: get from memory;
+        function setMode(m) {
+            settings.mode = m;
+        }
+
+        function setLevel(l) {
+            settings.level = l;
+        }
+
 
         // public api
         return {
-            settings: settings
+            settings: settings,
+            setMode: setMode,
+            setLevel: setLevel
         };
 
     });
