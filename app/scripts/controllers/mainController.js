@@ -28,12 +28,14 @@ angular.module('IonicGulpSeed')
             $ionicSideMenuDelegate.toggleLeft(false);
             $scope.mode = m;
             SettingsService.mode = m;
+            $scope.$broadcast("settingsChanged");
 
         }
         $scope.toggleLevel = function(l) {
             $ionicSideMenuDelegate.toggleLeft(false);
             $scope.level = l;
             SettingsService.level = m;
+            $scope.$broadcast("settingsChanged");
         }
         $scope.$watch(function () {
                 return $ionicSideMenuDelegate.isOpenLeft();
