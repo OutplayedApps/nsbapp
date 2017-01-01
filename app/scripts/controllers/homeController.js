@@ -8,8 +8,9 @@
  */
 angular.module('IonicGulpSeed')
     .controller('HomeController', function($scope, ExampleService, $ionicScrollDelegate, $ionicLoading, $ionicPopup,
-    SettingsService, $ionicPlatform, $ionicSideMenuDelegate) {
+    SettingsService, $ionicPlatform, $ionicSideMenuDelegate, $ionicHistory) {
         $ionicPlatform.ready(function () {
+            $ionicHistory.clearHistory();
             $ionicSideMenuDelegate.canDragContent(true);
 
             $scope.$on("settingsChanged", function (evt, data) {
@@ -80,7 +81,7 @@ angular.module('IonicGulpSeed')
                     {'name': 'Medium (5-8)', 'index': 1},
                     {'name': 'Hard (9-12)', 'index': 2},
                     {'name': 'Extreme (13+)', 'index': 3},
-                    {'name': 'Difficulty: All', 'index': 4}
+                    {'name': 'Difficulty: All', 'index': -1}
                 ];
 
 
@@ -125,11 +126,11 @@ angular.module('IonicGulpSeed')
                             diffNumFinal = randInt(9, 12);
                             break;
                         case 3:
-                            diffNumFinal = randInt(13, 17);
+                            diffNumFinal = randInt(13, 18);
                             break;
-                        case 4:
+                        case -1:
                         default:
-                            diffNumFinal = randInt(1, 17);
+                            diffNumFinal = randInt(1, 18);
                             break;
                     }
 
