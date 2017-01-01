@@ -8,18 +8,21 @@
  */
 angular.module('IonicGulpSeed')
     .controller('HomeController', function($scope, ExampleService, $ionicScrollDelegate, $ionicLoading, $ionicPopup,
-    SettingsService, $ionicPlatform, $ionicSideMenuDelegate, $ionicHistory) {
+    SettingsService, $ionicPlatform, $ionicSideMenuDelegate, $ionicHistory, $interval, $timeout) {
         $ionicPlatform.ready(function () {
 
             //required for side menu to work lol:
             $ionicHistory.clearHistory();
             $ionicSideMenuDelegate.canDragContent(true);
 
-            $scope.$on("settingsChanged", function (evt, data) {
-                init();
-                console.log("ok");
+            $timeout(function() {
+                $scope.$on("settingsChanged", function (evt, data) {
+                    //init();
+                    console.log("ok");
 
-            });
+                });
+                init();
+            }, 0);
 
 
 
@@ -109,12 +112,12 @@ angular.module('IonicGulpSeed')
                     return txt;
 
                 }
-
+                $scope.readSpeed = 200;
                 $scope.loading = false;
                 $scope.progress = 0;
                 $scope.nextQuestion = function () {
                     /*
-                    PROGRESS: 0 - everything shown.
+                    PROGRESS: 10 - everything shown.
                     1- tossup being read
                     2- tossup frozen
                     3 - full tossup + answer shown
@@ -126,13 +129,68 @@ angular.module('IonicGulpSeed')
                         $scope.progress = 0;
                     }
                     else if ($scope.mode == 1) { //game mode.
+                        console.log($scope.progress);
+                        var promise;
+                        var fullQuestion;
                         $scope.progress++;
-                        if ($scope.progress <= 4) {
-                            return;
-                        }
-                        else {
-                            $scope.progress = 0;
-                        }
+
+                        console.log("PROGRESS "+$scope.progress);
+                            switch ($scope.progress) {
+                                case 1:
+                                    break;
+                                case 2: //about to start 1
+                                    $scope.dataReal = {
+                                        tossupQ: $scope.data.tossupQ,
+                                        bonusQ: $scope.data.bonusQ
+                                    };
+
+                                    $scope.fullQuestion = $scope.dataReal.tossupQ.split(" ");
+                                    $scope.data.tossupQ = "";
+                                    var index = 0;
+                                    promise = $interval(function() {
+                                        $scope.data.tossupQ += " "+$scope.fullQuestion[index];
+                                        if (index == $scope.fullQuestion.length-1 || $scope.progress != 2) {
+                                            $interval.cancel(promise);
+                                            if ($scope.progress == 1)
+                                                $scope.nextQuestion();
+                                        }
+                                        index++;
+                                    }, $scope.readSpeed);
+                                    return;
+                                case 3:
+                                    $interval.cancel(promise);
+                                    //
+                                    return;
+                                case 4:
+                                    $scope.data.tossupQ = $scope.dataReal.tossupQ;
+                                    return;
+                                case 5:
+                                    $scope.fullQuestion = $scope.data.bonusQ.split(" ");
+                                    $scope.data.bonusQ = "";
+                                    var index = 0;
+                                    promise = $interval(function() {
+                                        $scope.data.bonusQ += " "+$scope.fullQuestion[index];
+                                        if (index == $scope.fullQuestion.length-1 || $scope.progress != 5) {
+                                            $interval.cancel(promise);
+                                            if ($scope.progress == 1)
+                                                $scope.nextQuestion();
+                                        }
+                                        index++;
+                                    }, $scope.readSpeed);
+                                    return;
+                                case 6:
+                                    $interval.cancel(promise);
+                                    return;
+                                case 7:
+                                    $scope.data.bonusQ = $scope.dataReal.bonusQ;
+                                    return;
+                                case 8:
+                                default:
+                                    $scope.progress = 0;
+                                    $scope.nextQuestion();
+                                    return;
+                            }
+
                     }
 
                     $scope.loading = true;
@@ -189,6 +247,8 @@ angular.module('IonicGulpSeed')
                                 $ionicScrollDelegate.$getByHandle('small').scrollTop();
                                 $scope.loading = false;
                                 //$scope.$broadcast('scroll.refreshComplete');
+                                if ($scope.mode == 1 & $scope.progress == 1)
+                                    $scope.nextQuestion();
                             })
 
                         }).catch(function (e) {
@@ -200,7 +260,7 @@ angular.module('IonicGulpSeed')
                 $scope.nextQuestion();
             }
 
-            init();
+
 
         });
     });

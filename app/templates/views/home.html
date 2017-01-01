@@ -46,24 +46,24 @@
             <ion-spinner></ion-spinner>
         </div>
         <div class="content">
-            <div>
-                <h5>TOSSUP
-                    <div class="questionInfo">
-                        Set {{data.setNum}}
-                        Round {{data.roundNum}}
-                    </div>
-                </h5>
-                <span ng-bind-html = "data.tossupQ"></span>
-            </div>
-            <div>
-                ANSWER: <span class=answer ng-bind-html = "data.tossupA"></span>
-            </div>
+                <div ng-show="(progress >=2 && progress <=4) || mode == 0">
+                    <h5>TOSSUP
+                        <div class="questionInfo" ng-hide="true">
+                            Set {{data.setNum}}
+                            Round {{data.roundNum}}
+                        </div>
+                    </h5>
+                    <span ng-bind-html = "data.tossupQ"></span>
+                </div>
+                <div ng-show="progress == 4 || mode == 0">
+                    ANSWER: <span class=answer ng-bind-html = "data.tossupA"></span>
+                </div>
 
-            <hr>
-            <div>
+            <hr ng-show="mode==0">
+            <div ng-show="(progress >= 5 && progress <=7) || mode == 0">
                 <h5>BONUS</h5> <span ng-bind-html="data.bonusQ"></span>
             </div>
-            <div>
+            <div ng-show="progress == 7 || mode == 0">
                 ANSWER: <span class=answer ng-bind-html="data.bonusA"></span>
             </div>
 
@@ -75,7 +75,11 @@
         <button id="buttonNext" class="button icon-right ion-chevron-right button-outline
         button-positive button-large button-block"
         ng-click="nextQuestion()">
-            Next question
+            <span ng-show="progress==1 || progress == 4 || progress == 7 || mode==0">Next question</span>
+            <span ng-show="progress==2 || progress == 5">Buzz</span>
+            <span ng-show="progress==3 || progress == 6">Show answer</span>
+
+
         </button>
     </ion-footer-bar>
 
