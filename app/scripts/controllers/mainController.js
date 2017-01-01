@@ -16,11 +16,11 @@ angular.module('IonicGulpSeed')
         //todo: get from memory.
         $scope.toggleMode = function(m) {
             $ionicSideMenuDelegate.toggleLeft(false);
-            if (m) $scope.mode = m;
+            $scope.mode = m;
         }
         $scope.toggleLevel = function(l) {
             $ionicSideMenuDelegate.toggleLeft(false);
-            if (l) $scope.level = l;
+            $scope.level = l;
         }
         $scope.$watch(function () {
                 return $ionicSideMenuDelegate.isOpenLeft();

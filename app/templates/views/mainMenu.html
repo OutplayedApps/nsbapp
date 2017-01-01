@@ -1,28 +1,98 @@
 <ion-view>
-    <ion-header-bar align-title="center" class="bar-positive">
+    <!--ion-header-bar align-title="center" class="bar-positive">
         <button class="button button-icon icon ion-navicon" menu-toggle="left"></button>
         <h1 class="title">Settings</h1>
-    </ion-header-bar>
+    </ion-header-bar-->
 
-    <ion-content>
-        <div class="list">
+    <ion-pane id="mainMenu">
+        <div class="list menu">
+            <div class="item" id="title">
+
+            </div>
+            <!--a menu-close class="item item-icon-left" ui-sref-active="active" ui-sref="app.settings">
+                <i class="icon ion-settings"></i>
+                Settings
+            </a-->
+
 
             <!-- connect toggles to controller using ng-model -->
 
-            <ion-toggle>
-                <span class="settings-item__text">
-                    Allow Push Notifications
-                </span>
-            </ion-toggle>
+            <!--label class="item item-input item-select">
+                <div class="input-label">
+                    Question set
+                </div>
+                <select ng-click="">
+                    <option>MS</option>
+                    <option selected>HS</option>
+                </select>
+            </label>
+            <label class="item item-input item-select">
+                <div class="input-label">
+                    Mode
+                </div><br>
+                <select>
+                    <option>Game mode!</option>
+                    <option selected>Reader mode</option>
+                </select>
+            </label-->
 
-            <ion-toggle>
-                <span class="settings-item__text">
-                    Allow cookies
-                </span>
-            </ion-toggle>
+            <div id="settingDifficultyWrapper">
+                <ion-tabs class="item tabs-large tabs-default tabs-icon-top">
 
+                    <ion-tab title="Middle school" icon-on="ion-ios-bookmarks" icon-off="ion-ios-bookmarks"
+                             on-select="toggleLevel(1)" class="tabMS">
+                        <!-- Tab 1 content -->
+                    </ion-tab>
+
+                    <ion-tab title="High school" icon-on="ion-university" icon-off="ion-university"
+                             on-select="toggleLevel(2)" class="tabHS">
+                        <!-- Tab 2 content -->
+                    </ion-tab>
+
+                </ion-tabs>
+            </div>
+
+
+            <ion-tabs class="item tabs-large tabs-stable tabs-icon-top">
+
+                <ion-tab title="Reader mode" icon-on="ion-ios-book" icon-off="ion-ios-book-outline"
+                         on-select="toggleMode(1)" class="tabReader">
+                    <!-- Tab 1 content -->
+                </ion-tab>
+
+                <ion-tab title="Game mode!" icon-on="ion-ios-game-controller-b" icon-off="ion-ios-game-controller-b-outline"
+                         on-select="toggleMode(2)" class="tabGame">
+                    <!-- Tab 2 content -->
+                </ion-tab>
+
+
+            </ion-tabs>
+
+            <!--label class="item item-input modeExplanation">
+                <div ng-show="mode==1">
+                    In Reader Mode, tossups and bonuses will all appear at once. This is ideal for coaches reading questions to different teams during actual rounds at practice or tournaments.
+                </div>
+                <div ng-show="mode==2">
+                    In Game Mode, tossups and bonuses will be read to you as if it's an actual game. This is good for players who are practicing questions by themselves.
+                </div>
+            </label-->
+
+            <label class="item item-input modeExplanation">
+                <button class="button button-full button-positive" ui-sref="app.home">
+                    Start!
+                </button>
+            </label>
+
+
+            <!--ion-toggle>
+        <span class="settings-item__text">
+            Allow cookies
+        </span>
+            </ion-toggle-->
 
         </div>
-    </ion-content>
+
+
+    </ion-pane>
 
 </ion-view>
