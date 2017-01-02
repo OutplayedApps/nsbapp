@@ -32,9 +32,9 @@
         "catDiff": "3.1"
       },
       "1_1_4": {
-        "tossupQ": "MATH  Short Answer  What term BEST describes 2 angles with 90º as the sum of their \r\nmeasurements?",
+        "tossupQ": "MATH  Short Answer  What term BEST describes 2 angles with 90º as the sum of their measurements?",
         "tossupA": "COMPLEMENTARY",
-        "bonusQ": "MATH  Short Answer  Divide the following and give your answer in scientific notation:   \r\n2\r\n14\r\n7\r\n)104(\r\n108\r\n×\r\n×",
+        "bonusQ": "MATH  Short Answer  Divide the following and give your answer in scientific notation: (8 &times; 10<sup>7</sup>)/(4 &times; 10<sup>4</sup>)<sup>1/2</sup>",
         "bonusA": "4 × 105",
         "category": 4,
         "setNum": 1,
@@ -102,9 +102,9 @@
         "catDiff": "3.1"
       },
       "1_1_11": {
-        "tossupQ": "MATH  Short Answer  Simplify the following expression, where a is not equal to zero if b = 0 \r\nor if b = –1:  ))((2bbaa",
-        "tossupA": "bba+2",
-        "bonusQ": "MATH  Short Answer  Giving your answer in inches and in simplest radical form, if the \r\nhypotenuse of a 45-45-90º triangle is 10 inches, find the length of the other sides:",
+        "tossupQ": "MATH  Short Answer  Simplify the following expression, where a is not equal to zero if b = 0 or if b = 1: (a<sup>b<sup>2</sup></sup>)(a<sup>b</sup>)",
+        "tossupA": "a<sup>b<sup>2</sup>+b</sup>",
+        "bonusQ": "MATH  Short Answer  Giving your answer in inches and in simplest radical form, if the hypotenuse of a 45-45-90º triangle is 10 inches, find the length of the other sides:",
         "bonusA": "52  (ACCEPT:  BOTH 52)",
         "category": 4,
         "setNum": 1,
@@ -175,7 +175,7 @@
         "tossupQ": "MATH  Short Answer  Giving your answer in terms of π and in inches, what is the arc-length of \r\na semi-circle whose diameter is 18 inches?",
         "tossupA": "9π \r\n \r\n(Solution: C = πd; ½(18π) = 9π)",
         "bonusQ": "MATH  Short Answer  What is the area, in square feet, of a triangle whose perpendicular height \r\nis 20 feet with a base of 12 feet?",
-        "bonusA": "120 \r\n \r\n(Solution: A = ½ bh = ½ (12)(20) = 120 ft2)",
+        "bonusA": "120 \r\n \r\n(Solution: A = ½ bh = ½ (12)(20) = 120 ft<sup>2</sup>)",
         "category": 4,
         "setNum": 1,
         "roundNum": 1,
@@ -544,7 +544,7 @@
       "2_8_5": {
         "tossupQ": "MATH  Short Answer  What is the equation of a line that has a slope of 4 and a y-intercept of 5?",
         "tossupA": "y = 4x + 5",
-        "bonusQ": "MATH  Short Answer  Factor the following expression as completely as possible:  x4 – 16",
+        "bonusQ": "MATH  Short Answer  Factor the following expression as completely as possible:  x<sup>4</sup> – 16",
         "bonusA": "(x – 2)(x + 2)(x2 + 4)",
         "category": 4,
         "setNum": 2,
@@ -694,8 +694,8 @@
       "2_8_20": {
         "tossupQ": "MATH  Short Answer  An arc of length 2π is cut off by a central angle of π4  radians.  What is \r\nthe radius of the circle?",
         "tossupA": "8 \r\n \r\n(Solution:  r = S/α;  = 2π / (π/4);  = 8)",
-        "bonusQ": "MATH  Short Answer  Simplify the following equation:  4499+−+xx",
-        "bonusA": "1+x  (ACCEPT:  x+1)",
+        "bonusQ": "MATH  Short Answer  Simplify the following equation:  &radic;(9x-9) - &radic;(4x+4)",
+        "bonusA": "&radic;(x+1)  (ACCEPT:  &radic;(1+x))",
         "category": 4,
         "setNum": 2,
         "roundNum": 8,
@@ -782,8 +782,8 @@
         "catDiff": "3.5"
       },
       "1_5_4": {
-        "tossupQ": "MATH  Short Answer  Simplify the following without the use of negative exponents:  \r\n26\r\n53\r\n10\r\n24\r\nzy\r\nyx−",
-        "tossupA": "–\r\n2\r\n3\r\n5\r\n12\r\nyz\r\nx",
+        "tossupQ": "MATH  Short Answer  Simplify the following without the use of negative exponents:  (-24x<sup>3</sup>y<sup>5</sup>)/(10y<sup>6</sup>z<sup>2</sup>)",
+        "tossupA": "(-12x<sup>3</sup>)/(5yz<sup>2</sup>)",
         "bonusQ": "MATH  Short Answer  It takes 20 minutes for Janis to prepare lunch.  When Kristen helps, it only \r\ntakes 12 minutes.  How many minutes would it take Kristen to prepare the same lunch if she worked \r\nalone?",
         "bonusA": "30 \r\n \r\n(Solution: 12/20 + 12/x = 1, x = 30 min)",
         "category": 4,
@@ -49753,8 +49753,8 @@
         "catDiff": "6.14"
       },
       "7_14_3": {
-        "tossupQ": "MATH Multiple Choice If a student takes a test consisting of 20 true-false questions and \r\nrandomly guesses at all of the answers, which of the following is equal to the probability that all \r\n20 guesses will be correct? \r\n \r\nW) (1/2)20 [one half to the power of 20] \r\nX) (1/2)10 [one half to the power of 10] \r\nY) 1/2(20) [the product of one half and 20] \r\nZ) 1/2",
-        "tossupA": "W) (1/2)20",
+        "tossupQ": "MATH Multiple Choice If a student takes a test consisting of 20 true-false questions and \r\nrandomly guesses at all of the answers, which of the following is equal to the probability that all \r\n20 guesses will be correct? \r\n \r\nW) (1/2)<sup>20</sup> [one half to the power of 20] \r\nX) (1/2)<sup>10</sup> [one half to the power of 10] \r\nY) 1/2(20) [the product of one half and 20] \r\nZ) 1/2",
+        "tossupA": "W) (1/2)<sup>20</sup>",
         "bonusQ": "MATH Short Answer The volume of a cube is 16√2. What is its surface area?",
         "bonusA": "48",
         "category": 4,
