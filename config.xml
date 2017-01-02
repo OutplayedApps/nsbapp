@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="com.epicfaace.nsbapp" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>National Science Bowl Quizzer</name>
+  <name>Science Bowl</name>
   <description>
     An app that helps people practice with National Science Bowl questions
     </description>

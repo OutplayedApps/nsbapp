@@ -17,7 +17,8 @@ angular.module('IonicGulpSeed')
 
             $timeout(function() {
                 $scope.$on("settingsChanged", function (evt, data) {
-                    //init();
+                    init();
+                    //$scope.nextQuestion();
                     console.log("ok");
 
                 });
@@ -29,6 +30,7 @@ angular.module('IonicGulpSeed')
             function init() {
                 $scope.mode = SettingsService.settings.mode;
                 var mode = $scope.mode;
+                console.log("MODE"+mode);
                 $scope.HSorMS = (SettingsService.settings.level == 1);
                 var HSorMS = $scope.HSorMS;
                 console.log(SettingsService.settings.level);
@@ -109,6 +111,8 @@ angular.module('IonicGulpSeed')
                     //console.log(txt);
                     txt = txt.replace(/(\n)/g, "");
                     txt = txt.replace(/([WXYZ]\))/g, "<br>$1");
+                    txt = txt.replace(/(.*[Ss]hort [Aa]nswer)/, "<b>$1</b>")
+                        .replace(/(.*[Mm]ultiple [Cc]hoice)/, "<b>$1</b>");
                     return txt;
 
                 }
@@ -134,7 +138,7 @@ angular.module('IonicGulpSeed')
                         var fullQuestion;
                         $scope.progress++;
 
-                        console.log("PROGRESS "+$scope.progress);
+                        //console.log("PROGRESS "+$scope.progress);
                             switch ($scope.progress) {
                                 case 1:
                                     break;
@@ -200,7 +204,8 @@ angular.module('IonicGulpSeed')
                     var diffNum = $scope.selectedDifficulty.index;
                     var catNumNew = catNum;
                     if (catNum == -1) {
-                        catNumNew = $scope.catValues[Math.floor(Math.random() * $scope.catValues.length)];
+                        while (catNumNew == -1)
+                            catNumNew = $scope.catValues[Math.floor(Math.random() * $scope.catValues.length)];
                         //picks a random index from the array.
                     }
                     var maxDifficulty = $scope.HSorMS ? 17 : 18;
@@ -237,6 +242,7 @@ angular.module('IonicGulpSeed')
                                     regularArray.push(data[i]);
                                 }
                                 $scope.data = randEle(regularArray);
+
                                 $scope.data.tossupQ = processToHTML($scope.data.tossupQ);
                                 $scope.data.bonusQ = processToHTML($scope.data.bonusQ);
                                 $scope.data.category = $scope.data.category;
