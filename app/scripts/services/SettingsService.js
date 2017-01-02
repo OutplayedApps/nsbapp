@@ -18,7 +18,7 @@ angular.module('IonicGulpSeed')
     .factory('SettingsService', function($window, $http, API_ENDPOINT) {
 
         var settings = {};
-        settings.mode = 0;
+        settings.mode = 1;
         settings.level = 1;
 
         //mode: 0 is reader 1 is game mode

@@ -163,8 +163,9 @@ angular.module('IonicGulpSeed')
                                     }, $scope.readSpeed);
                                     return;
                                 case 3:
+                                    //question paused, buzzing.
                                     $interval.cancel(promise);
-                                    //
+                                    $scope.timer.timeTU();
                                     return;
                                 case 4:
                                     $scope.data.tossupQ = $scope.dataReal.tossupQ;
@@ -185,9 +186,11 @@ angular.module('IonicGulpSeed')
                                     return;
                                 case 6:
                                     $interval.cancel(promise);
+                                    $scope.timer.timeBonus();
+                                    $scope.data.bonusQ = $scope.dataReal.bonusQ; //shows full bonus this time.
                                     return;
                                 case 7:
-                                    $scope.data.bonusQ = $scope.dataReal.bonusQ;
+
                                     return;
                                 case 8:
                                 default:
@@ -295,7 +298,7 @@ angular.module('IonicGulpSeed')
                 makeTimer(5);
             };
             $scope.timer.timeBonus = function() {
-                makeTimer(20);
+                makeTimer(6);
             };
             function makeTimer(numSecs) {
                 var intNum = (numSecs == 5) ? "1" : "2";
@@ -322,6 +325,9 @@ angular.module('IonicGulpSeed')
                         $scope.timer["timeout" + intNum] = $timeout(function() {
                             $scope.timer["time" + intNum] = null;
                             $scope.timer["timeUp"+intNum] = false;
+                            if ($scope.mode == 1) { //game mode.
+                                $scope.nextQuestion();
+                            }
                         }, 2000);
 
                     }

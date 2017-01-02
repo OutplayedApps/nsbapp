@@ -82,29 +82,33 @@
                 </button>
             </div>
 
+
+
         </div>
+
 
     </ion-content>
 
-
-    <!--button class="timerButton button button-small icon-left ion-ios-stopwatch-outline"
-            ng-click="timer.timeTU()" ng-class="{timeUp: timer.timeUp1}"
-            ng-show="mode == 1">
-        <span ng-show="!timer.time1">Start clock (5 s)</span>
+    <button class="timerButtonLarge button button-large button-assertive icon-left ion-ios-stopwatch-outline"
+            ng-click="" ng-class="{timeUp: timer.timeUp1, hidden: !(mode == 1 && progress==3) }">
         <span ng-show="timer.time1" ng-bind="timer.time1"></span>
-    </button-->
+    </button>
+
+
+
 
 
     <ion-footer-bar ng-class="{'footerBuzz': mode == 1}">
         <button id="buttonNext" class="button icon-right ion-chevron-right button-outline
         button-positive button-large button-block"
         ng-click="nextQuestion()" >
-            <span ng-show="mode==0">Next question</span>
+            <span ng-show="mode==0">Next Question</span>
             <span ng-show="progress==1">Loading...</span>
-            <span ng-show="progress==4">View bonus</span>
-            <span ng-show="progress == 7">Next question</span>
-            <span ng-show="progress==2 || progress == 5">Buzz</span>
-            <span ng-show="progress==3 || progress == 6">Show answer</span>
+            <span ng-show="progress==4">View Bonus</span>
+            <span ng-show="progress == 7">Next Question</span>
+            <span ng-show="progress==2" class="buzzText">Buzz</span>
+            <span ng-show="progress == 5">Skip to End</span>
+            <span ng-show="progress==3 || progress == 6">Show Answer</span>
         </button>
     </ion-footer-bar>
 

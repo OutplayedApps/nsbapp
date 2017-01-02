@@ -63,7 +63,14 @@ ion-footer-bar {
 
   #buttonNext {
     margin: 0px;
+
+      font-weight: bold;
+      font-variant:small-caps;
   }
+}
+
+select, ion-tabs, .list {
+  font-variant:small-caps;
 }
 
 #home {
@@ -90,8 +97,8 @@ ion-footer-bar {
 .buttonBuzz {
   height: 100%;
 }
-
 .content {
+
   h5 { //TOSSUP: or BONUS: text
     font-weight: bold;
   }
@@ -110,12 +117,49 @@ ion-footer-bar {
     //margin-left-min: 20px;
   }
 
-  .timerButton.timeUp {
-    background: red !important;
+  .timerButton {
+
     color: white;
     transform: scale(2.0);
     position: fixed;
     top: 50%;
-    left: 50%
+    left: 50%;
   }
+
+
+
+
+}
+
+.timerButtonLarge {
+  //float
+
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  width: 80%;
+  margin-left: -40%;
+  height: 20%;
+  font-size: 30pt;
+
+  transition: all .2s ease-in-out;
+  &.timeUp {
+    //margin-left: -100px;
+    //width: 200px;
+    //transform: scale(1.3);
+    font-size: 25pt;
+
+
+  }
+
+  &.hidden {
+    visibility: hidden;
+  }
+
+}
+
+.timeUp {
+
+  background: red !important;
+  color: white;
 }
