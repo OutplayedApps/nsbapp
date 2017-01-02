@@ -55634,9 +55634,9 @@
         "catDiff": "1.14"
       },
       "5_14_16": {
-        "tossupQ": "MATH Short Answer What is the degree of the polynomial 6x\r\n2\r\ny + 3yx\r\n4\r\n – 2x?",
+        "tossupQ": "MATH Short Answer What is the degree of the polynomial 6x<sup>2</sup>y + 3yx<sup>4</sup> – 2x?",
         "tossupA": "5",
-        "bonusQ": "MATH Short Answer Consider the system of two equations: 3x \u0000 4y = 23 and 2x  \u0000  5y  = \r\n20. What is the value of x + y?",
+        "bonusQ": "MATH Short Answer Consider the system of two equations: 3x - 4y = 23 and 2x  -  5y  = \r\n20. What is the value of x + y?",
         "bonusA": "3",
         "category": 4,
         "setNum": 5,
@@ -55684,9 +55684,9 @@
         "catDiff": "1.14"
       },
       "5_14_21": {
-        "tossupQ": "MATH Short Answer If a 20 meter tree casts a 203 meter shadow, what is the angle of \r\nelevation, in degrees, of the Sun?",
+        "tossupQ": "MATH Short Answer If a 20 meter tree casts a 20&radic;3 meter shadow, what is the angle of \r\nelevation, in degrees, of the Sun?",
         "tossupA": "30°",
-        "bonusQ": "MATH Short Answer Solve the inequality: 15x\r\n2 \r\n– 2 > x.",
+        "bonusQ": "MATH Short Answer Solve the inequality: 15x<sup>2</sup> - 2 > x.",
         "bonusA": "x < -1/3 OR x > 2/5 \r\n \r\n(NOTE: STUDENTS MUST GIVE BOTH ANSWERS)",
         "category": 4,
         "setNum": 5,
