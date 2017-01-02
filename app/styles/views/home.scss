@@ -110,11 +110,16 @@ select, ion-tabs, .list {
   }
   .timerButton {
     float: right;
-    width: 150px;
+    width: 120px;
     margin-bottom: 10px;
     margin-right: 0px;
     transition: all .2s ease-in-out;
     //margin-left-min: 20px;
+    &.timeUp {
+
+      background: red !important;
+      color: white;
+    }
   }
 
   /*.timerButton {
@@ -158,8 +163,4 @@ select, ion-tabs, .list {
 
 }
 
-.timeUp {
 
-  background: red !important;
-  color: white;
-}
