@@ -63,15 +63,27 @@
 
 
                 </ion-tabs>
+                <div ng-show="mode==1">
+                    <div class="item item-divider">
+                        Reading speed
+                    </div>
 
-                <label class="item item-input modeExplanation">
+                    <div class="item range range-positive">
+                        Slow
+                        <input type="range" min="0" max="200" ng-model="readSpeed"
+                        ng-change="updateReadSpeed">
+                        <i class="icon ion-ios-fastforward"></i>
+                    </div>
+                </div>
+
+                <!--label class="item item-input modeExplanation">
                     <div ng-show="mode==0">
                         In Reader Mode, tossups and bonuses will all appear at once. This is ideal for coaches reading questions to different teams during actual rounds at practice or tournaments.
                     </div>
                     <div ng-show="mode==1">
                         In Game Mode, tossups and bonuses will be read to you as if it's an actual game. This is good for players who are practicing questions by themselves.
                     </div>
-                </label>
+                </label-->
 
             </div>
         </ion-content>

@@ -35,18 +35,22 @@ angular.module('IonicGulpSeed')
         //todo: get from memory.
         var m, l;
         $scope.toggleMode = function(m) {
-            $ionicSideMenuDelegate.toggleLeft(false);
+            //$ionicSideMenuDelegate.toggleLeft(false);
             $scope.mode = m;
             SettingsService.settings.mode = m;
-            $scope.$broadcast("settingsChanged");
+            //$scope.$broadcast("settingsChanged");
             console.log("mode toggled");
 
         }
         $scope.toggleLevel = function(l) {
-            $ionicSideMenuDelegate.toggleLeft(false);
+            //$ionicSideMenuDelegate.toggleLeft(false);
             $scope.level = l;
             SettingsService.settings.level = l;
-            $scope.$broadcast("settingsChanged");
+            //$scope.$broadcast("settingsChanged");
+        }
+
+        $scope.updateReadSpeed = function() {
+            SettingsService.readSpeed = $scope.readSpeed;
         }
         /*$scope.$watch(function () {
                 return $ionicSideMenuDelegate.isOpenLeft();

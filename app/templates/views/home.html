@@ -13,7 +13,7 @@
                 </div>
                 <select ng-model="selectedCategory"
                         ng-options = "cat as cat.name for cat in categories track by cat.index"
-                        ng-change = "nextQuestion()">
+                        ng-change = "nextQuestion(true)">
                 </select>
 
             </label>
@@ -25,7 +25,7 @@
                         </div>
                         <select ng-model="selectedDifficulty"
                                 ng-options="diff as diff.name for diff in difficulties track by diff.index"
-                                ng-change = "nextQuestion()">
+                                ng-change = "nextQuestion(true)">
                         </select>
 
                     </label>
@@ -70,7 +70,7 @@
 
             <hr ng-show="mode==0" style="clear:both;">
             <div ng-show="(progress >= 5 && progress <=7) || mode == 0">
-                <h5>BONUS</h5> <span ng-bind-html="data.bonusQ"></span>
+                <h5>{{questionNum}}. BONUS</h5> <span ng-bind-html="data.bonusQ"></span>
             </div>
             <div ng-show="progress == 7 || mode == 0">
                 ANSWER: <span class=answer ng-bind-html="data.bonusA"></span>
