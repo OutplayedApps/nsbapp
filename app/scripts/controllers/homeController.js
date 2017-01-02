@@ -298,7 +298,7 @@ angular.module('IonicGulpSeed')
                 makeTimer(5);
             };
             $scope.timer.timeBonus = function() {
-                makeTimer(6);
+                makeTimer(20);
             };
             function makeTimer(numSecs) {
                 var intNum = (numSecs == 5) ? "1" : "2";
@@ -328,11 +328,11 @@ angular.module('IonicGulpSeed')
                             if ($scope.mode == 1) { //game mode.
                                 $scope.nextQuestion();
                             }
-                        }, 2000);
+                        }, ($scope.mode == 1)? 500: 2000); //timeUpTime is smaller in game mode.
 
                     }
                 }, interval);
-                console.log('timeTU');
+                //console.log('timeTU');
             }
         }
 
