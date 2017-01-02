@@ -161,7 +161,7 @@ angular.module('IonicGulpSeed')
                                         $scope.data.tossupQ += " "+$scope.fullQuestion[index];
                                         if (index == $scope.fullQuestion.length-1 || $scope.progress != 2) {
                                             $interval.cancel(promise);
-                                            if ($scope.progress == 1)
+                                            if ($scope.progress == 2)
                                                 $scope.nextQuestion();
                                         }
                                         index++;
@@ -183,7 +183,7 @@ angular.module('IonicGulpSeed')
                                         $scope.data.bonusQ += " "+$scope.fullQuestion[index];
                                         if (index == $scope.fullQuestion.length-1 || $scope.progress != 5) {
                                             $interval.cancel(promise);
-                                            if ($scope.progress == 1)
+                                            if ($scope.progress == 5)
                                                 $scope.nextQuestion();
                                         }
                                         index++;
