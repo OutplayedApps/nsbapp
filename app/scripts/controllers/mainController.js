@@ -8,19 +8,28 @@
  * This controller handles the side menu
  */
 angular.module('IonicGulpSeed')
-    .controller('MainController', function($scope, $timeout, $ionicViewService,
+    .controller('MainController', function($scope, $timeout, $ionicViewService, $rootScope,
                                            $ionicSideMenuDelegate, SettingsService, $ionicTabsDelegate) {
 
-
-        // do something with $scope
-        $scope.settings = SettingsService.settings;
-        function selectTab(handle, index) {
-            $timeout(function() {
-                $ionicTabsDelegate.$getByHandle(handle).select(index);
-            }, 0);
+/*$scope.$on("settingsChanged", function() {
+    updateTabs();
+})*/
+        function updateTabs() {
+            // do something with $scope
+            $scope.settings = SettingsService.settings;
+            function selectTab(handle, index) {
+                $timeout(function() {
+                    $ionicTabsDelegate.$getByHandle(handle).select(index);
+                }, 0);
+            }
+            selectTab("mode", $scope.settings.mode);
+            selectTab("level", $scope.settings.level);
         }
-        selectTab("mode", $scope.settings.mode);
-        selectTab("level", $scope.settings.level);
+
+        $rootScope.$on('$stateChangeSuccess',
+            function(event, toState, toParams, fromState, fromParams){ updateTabs();});
+
+
 
 
         //todo: get from memory.
@@ -30,6 +39,7 @@ angular.module('IonicGulpSeed')
             $scope.mode = m;
             SettingsService.settings.mode = m;
             $scope.$broadcast("settingsChanged");
+            console.log("mode toggled");
 
         }
         $scope.toggleLevel = function(l) {

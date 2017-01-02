@@ -18,6 +18,7 @@ angular.module('IonicGulpSeed')
             $timeout(function() {
                 $scope.$on("settingsChanged", function (evt, data) {
                     init();
+
                     //$scope.nextQuestion();
                     console.log("ok");
 
@@ -28,8 +29,10 @@ angular.module('IonicGulpSeed')
 
 
             function init() {
+
                 $scope.mode = SettingsService.settings.mode;
                 var mode = $scope.mode;
+                $scope.questionNum = (mode == 0) ? 0 : 1;
                 console.log("MODE"+mode);
                 $scope.HSorMS = (SettingsService.settings.level == 1);
                 var HSorMS = $scope.HSorMS;
@@ -129,9 +132,11 @@ angular.module('IonicGulpSeed')
                     5- bonus frozen
                     6 - full bonus + answer shown
                      */
+
                     $scope.initTimer();
                     if ($scope.mode == 0) { //reader mode
                         $scope.progress = 0;
+                        $scope.questionNum++;
                     }
                     else if ($scope.mode == 1) { //game mode.
                         console.log($scope.progress);
@@ -195,6 +200,7 @@ angular.module('IonicGulpSeed')
                                 case 8:
                                 default:
                                     $scope.progress = 0;
+                                    $scope.questionNum++;
                                     $scope.nextQuestion();
                                     return;
                             }

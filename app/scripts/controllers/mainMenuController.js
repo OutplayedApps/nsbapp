@@ -15,4 +15,5 @@ angular.module('IonicGulpSeed')
             $state.go("app.home");
         }
 
+
     });
