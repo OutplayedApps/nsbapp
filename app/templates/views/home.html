@@ -56,20 +56,44 @@
                     <span ng-bind-html = "data.tossupQ"></span>
                 </div>
                 <div ng-show="progress == 4 || mode == 0">
-                    ANSWER: <span class=answer ng-bind-html = "data.tossupA"></span>
+                    <div>
+                        ANSWER: <span class=answer ng-bind-html = "data.tossupA"></span>
+                    </div>
+
+                        <button class="timerButton button button-small icon-left ion-ios-stopwatch-outline"
+                                ng-click="timer.timeTU()" ng-class="{timeUp: timer.timeUp1}"
+                                ng-show="mode == 0">
+                            <span ng-show="!timer.time1">Start clock (5 s)</span>
+                            <span ng-show="timer.time1" ng-bind="timer.time1"></span>
+                        </button>
                 </div>
 
-            <hr ng-show="mode==0">
+            <hr ng-show="mode==0" style="clear:both;">
             <div ng-show="(progress >= 5 && progress <=7) || mode == 0">
                 <h5>BONUS</h5> <span ng-bind-html="data.bonusQ"></span>
             </div>
             <div ng-show="progress == 7 || mode == 0">
                 ANSWER: <span class=answer ng-bind-html="data.bonusA"></span>
+
+                <button class="timerButton button button-small icon-left ion-ios-stopwatch-outline" ng-click="timer.timeBonus()"
+                ng-class="{timeUp: timer.timeUp2}" ng-show="mode == 0">
+                    <span ng-show="!timer.time2">Start clock (20 s)</span>
+                    <span ng-show="timer.time2" ng-bind="timer.time2"></span>
+                </button>
             </div>
 
         </div>
 
     </ion-content>
+
+
+    <!--button class="timerButton button button-small icon-left ion-ios-stopwatch-outline"
+            ng-click="timer.timeTU()" ng-class="{timeUp: timer.timeUp1}"
+            ng-show="mode == 1">
+        <span ng-show="!timer.time1">Start clock (5 s)</span>
+        <span ng-show="timer.time1" ng-bind="timer.time1"></span>
+    </button-->
+
 
     <ion-footer-bar ng-class="{'footerBuzz': mode == 1}">
         <button id="buttonNext" class="button icon-right ion-chevron-right button-outline
@@ -81,8 +105,6 @@
             <span ng-show="progress == 7">Next question</span>
             <span ng-show="progress==2 || progress == 5">Buzz</span>
             <span ng-show="progress==3 || progress == 6">Show answer</span>
-
-
         </button>
     </ion-footer-bar>
 

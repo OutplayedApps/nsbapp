@@ -10,7 +10,7 @@ angular.module('IonicGulpSeed')
     .controller('HomeController', function($scope, ExampleService, $ionicScrollDelegate, $ionicLoading, $ionicPopup,
     SettingsService, $ionicPlatform, $ionicSideMenuDelegate, $ionicHistory, $interval, $timeout) {
         $ionicPlatform.ready(function () {
-
+            $ionicLoading.show(); //for a first time.
             //required for side menu to work lol:
             $ionicHistory.clearHistory();
             $ionicSideMenuDelegate.canDragContent(true);
@@ -129,6 +129,7 @@ angular.module('IonicGulpSeed')
                     5- bonus frozen
                     6 - full bonus + answer shown
                      */
+                    $scope.initTimer();
                     if ($scope.mode == 0) { //reader mode
                         $scope.progress = 0;
                     }
@@ -255,19 +256,79 @@ angular.module('IonicGulpSeed')
                                 //$scope.$broadcast('scroll.refreshComplete');
                                 if ($scope.mode == 1 & $scope.progress == 1)
                                     $scope.nextQuestion();
+                                if ($ionicLoading)  $ionicLoading.hide();
                             })
 
+
                         }).catch(function (e) {
+                        if ($ionicLoading)  $ionicLoading.hide();
                         $ionicPopup.alert({"title": "Error", "template": "Sorry, there was an error. " + e});
                         //todo: GO BACK.
                     });
                 };
 
                 $scope.nextQuestion();
+
             }
 
 
 
         });
+
+        var clearTimers = function() {
+            if ($scope.timer.int1) $interval.cancel($scope.timer.int1);
+            if ($scope.timer.timeout1) $timeout.cancel($scope.timer.timeout1);
+            if ($scope.timer.int2) $interval.cancel($scope.timer.int2);
+            if ($scope.timer.timeout2) $timeout.cancel($scope.timer.timeout2);
+            $scope.timer.time1 = null;
+            $scope.timer.time2 = null;
+            $scope.timer.timeUp1 = false;
+            $scope.timer.timeUp2 = false;
+        }
+
+        $scope.initTimer = function() {
+            if ($scope.timer) {
+                clearTimers();
+            }
+            $scope.timer = {};
+            $scope.timer.timeTU = function() {
+                makeTimer(5);
+            };
+            $scope.timer.timeBonus = function() {
+                makeTimer(20);
+            };
+            function makeTimer(numSecs) {
+                var intNum = (numSecs == 5) ? "1" : "2";
+                console.log("INNTNUM"+intNum);
+                if ($scope.timer["time" + intNum]) {
+                    //pause the timer. todo.
+
+                    return;
+                }
+                var duration = moment.duration(numSecs, 'seconds');
+                var interval = 10;
+                clearTimers();
+
+                $scope.timer["int" + intNum] = $interval(function(){
+                    duration = moment.duration(duration.asMilliseconds() - interval, 'milliseconds');
+                    //show how many hours, minutes and seconds are left
+                    //console.log(duration.asMilliseconds());
+                    $scope.timer["time" + intNum] = moment(duration.asMilliseconds()).format('s.S');
+                    //console.log('yea');
+                    if (duration.asMilliseconds() <= 0) {
+                        $interval.cancel($scope.timer["int" + intNum]);
+                        $scope.timer["time" + intNum] = "Time's up!";
+                        $scope.timer["timeUp"+intNum] = true;
+                        $scope.timer["timeout" + intNum] = $timeout(function() {
+                            $scope.timer["time" + intNum] = null;
+                            $scope.timer["timeUp"+intNum] = false;
+                        }, 2000);
+
+                    }
+                }, interval);
+                console.log('timeTU');
+            }
+        }
+
     });
 
