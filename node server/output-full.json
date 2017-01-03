@@ -44053,8 +44053,8 @@
         "catDiff": "1.13"
       },
       "4_13_8": {
-        "tossupQ": "MATH Short Answer Simplify y\r\n2\r\n y\r\n -3\r\n (read as y squared times y to the power of negative 3).",
-        "tossupA": "y\r\n1\r\n    ALSO ACCEPT: \r\n1y−",
+        "tossupQ": "MATH Short Answer Simplify (y<sup>2</sup>) (y<sup>-3</sup>) (read as y squared times y to the power of negative 3).",
+        "tossupA": "y<sup>-1</sup>    ALSO ACCEPT: 1/y",
         "bonusQ": "MATH Short Answer How many subsets does the set {a, b, c, d} have?",
         "bonusA": "16",
         "category": 4,
@@ -44083,9 +44083,9 @@
         "catDiff": "3.13"
       },
       "4_13_11": {
-        "tossupQ": "MATH Multiple Choice Which of the following values is smallest? \r\n \r\nW) 200 \r\nX) (-16)\r\n2\r\n (read as: open parenthesis negative 16 close parenthesis squared) \r\nY) 14\r\n2 \r\n(read as: 14 squared) \r\nZ) (1208)2 (read as: open parentheis120 over 8 close parenthesis squared)",
+        "tossupQ": "MATH Multiple Choice Which of the following values is smallest? \r\n \r\nW) 200 \r\nX) (-16)<sup>2</sup> (read as: open parenthesis negative 16 close parenthesis squared) \r\nY) 14<sup>2</sup> \r\n(read as: 14 squared) \r\nZ) (120/8)<sup>2</sup> (read as: open parentheis120 over 8 close parenthesis squared)",
         "tossupA": "Y) 14\r\n2",
-        "bonusQ": "MATH Short Answer The radius of the Earth is approximately 6.4 x 10\r\n6\r\n meters (read as: \r\n6.4 times 10 to the sixth). Giving your answer in scientific notation with one significant digit, what \r\nis the surface area of Earth in square meters?",
+        "bonusQ": "MATH Short Answer The radius of the Earth is approximately 6.4 x 10<sup>6</sup> meters (read as: \r\n6.4 times 10 to the sixth). Giving your answer in scientific notation with one significant digit, what \r\nis the surface area of Earth in square meters?",
         "bonusA": "5 × 1014",
         "category": 4,
         "setNum": 4,
@@ -44123,7 +44123,7 @@
         "catDiff": "0.13"
       },
       "4_13_15": {
-        "tossupQ": "MATH Short Answer Solve for x in simplest form: x\r\n2\r\n = 50.",
+        "tossupQ": "MATH Short Answer Solve for x in simplest form: 2x<sup>2</sup> = 50.",
         "tossupA": "5, -5",
         "bonusQ": "MATH Short Answer Factor completely over the integers: 15y² - y – 6.",
         "bonusA": "(5y + 3) (3y – 2)",
@@ -44153,7 +44153,7 @@
         "catDiff": "6.13"
       },
       "4_13_18": {
-        "tossupQ": "MATH Short Answer What is the largest integer smaller than ?",
+        "tossupQ": "MATH Short Answer What is the largest integer smaller than &radic;150?",
         "tossupA": "12",
         "bonusQ": "MATH Short Answer What is the multiplicative inverse of the rational number halfway \r\nbetween -1/3 and -1/4?",
         "bonusA": "-247",
@@ -44235,8 +44235,8 @@
       "6_7_1": {
         "tossupQ": "MATH Multiple Choice Given that time t has values 0, 1, and 2, and distance d has \r\ncorresponding respective values 60, 110, and 160, which of the following equations represents \r\nthe linear relationship between t and d? \r\n \r\nW) d = 50t \r\nX) d = 50t + 60 \r\nY) d = 60t \r\nZ) d = 60t + 50",
         "tossupA": "X) d = 50t + 60",
-        "bonusQ": "MATH Short Answer What is the inverse of the 2 by 2 matrix: �1−52−11� [the first row is 1, \r\nnegative 5 and second row is 2, negative 11]?",
-        "bonusA": "�11−52−1�",
+        "bonusQ": "MATH Short Answer What is the inverse of the 2 by 2 matrix:  [the first row is 1, \r\nnegative 5 and second row is 2, negative 11]?",
+        "bonusA": "11, −5, 2, −1",
         "category": 4,
         "setNum": 6,
         "roundNum": 7,
@@ -44415,7 +44415,7 @@
       "6_7_19": {
         "tossupQ": "MATH Short Answer On a history test, 10 students scored 80 and 10 students scored 72. \r\nWhat was the mean test score?",
         "tossupA": "76",
-        "bonusQ": "MATH Short Answer What are the coordinates of the vertex of y = x2 + 16x + 70?",
+        "bonusQ": "MATH Short Answer What are the coordinates of the vertex of y = x<sup>2</sup> + 16x + 70?",
         "bonusA": "(-8, 6)",
         "category": 4,
         "setNum": 6,
@@ -44475,7 +44475,7 @@
       "6_7_27": {
         "tossupQ": "MATH Short Answer Given a quadrilateral with interior angles of 95°, 85°, and 120°, what is \r\nthe measure in degrees of its fourth interior angle?",
         "tossupA": "60°",
-        "bonusQ": "MATH Short Answer Solve for v: v2 – 2v – 35 = 0.",
+        "bonusQ": "MATH Short Answer Solve for v: v<sup>2</sup> – 2v – 35 = 0.",
         "bonusA": "7, -5",
         "category": 4,
         "setNum": 6,
@@ -44513,10 +44513,10 @@
         "catDiff": "0.11"
       },
       "4_11_4": {
-        "tossupQ": "MATH Short Answer Expressing your answer in exponential form, simplify: (8\r\n5\r\n) (8\r\n5\r\n) (read \r\nas: 8 to the fifth times 8 to the fifth).",
-        "tossupA": "",
-        "bonusQ": "MATH Short Answer Express the following in simplest exponential form: () (3 +2)³ () \r\n(read as: 6 to the fourth times the quantity 3 plus 2 cubed times 6 cubed).",
-        "bonusA": "(67) (53) \r\n \r\n       ALSO ACCEPT: (2\r\n7\r\n)(3\r\n7\r\n)(5\r\n3\r\n)",
+        "tossupQ": "MATH Short Answer Expressing your answer in exponential form, simplify: (8<sup>5</sup>) (8<sup>5</sup>) (read \r\nas: 8 to the fifth times 8 to the fifth).",
+        "tossupA": "8<sup>10</sup>",
+        "bonusQ": "MATH Short Answer Express the following in simplest exponential form: (6<sup>4</sup>) (3 +2)³ (6<sup>3</sup>) \r\n(read as: 6 to the fourth times the quantity 3 plus 2 cubed times 6 cubed).",
+        "bonusA": "(6<sup>7</sup>)(5<sup>3</sup>) ALSO ACCEPT: (2<sup>7</sup>)(3<sup>7</sup>)(5<sup>3</sup>)",
         "category": 4,
         "setNum": 4,
         "roundNum": 11,
@@ -44783,7 +44783,7 @@
         "catDiff": "1.2"
       },
       "5_2_6": {
-        "tossupQ": "MATH Multiple Choice Which of the following is perpendicular to the line y = -2x + 6? \r\n \r\nW) 2y = x + 4 \r\nX) x + 2y = 4 \r\nY) y = 2x – 6 \r\nZ) y = -1\r\n2\r\nx – 6",
+        "tossupQ": "MATH Multiple Choice Which of the following is perpendicular to the line y = -2x + 6? \r\n \r\nW) 2y = x + 4 \r\nX) x + 2y = 4 \r\nY) y = 2x – 6 \r\nZ) y = -1/2\r\nx – 6",
         "tossupA": "W) 2y = x + 4",
         "bonusQ": "MATH Short Answer In simplest radical form, what is the area, in square units, of a right \r\ntriangle with a hypotenuse length of 12 and one leg with a length of 6?",
         "bonusA": "183",
@@ -44975,7 +44975,7 @@
       "5_2_27": {
         "tossupQ": "MATH Short Answer The volume of a cube is 27 cubic centimeters. What is the surface \r\narea, in square centimeters, of this cube?",
         "tossupA": "54",
-        "bonusQ": "MATH Short Answer Express the following in standard polynomial form: \r\n5x4y7 × zy × 11x2z2y (read as: 5x to the fourth y to the seventh times zy times 11 x squared z \r\nsquared y).",
+        "bonusQ": "MATH Short Answer Express the following in standard polynomial form: \r\n5x<sup>4</sup>y<sup>7</sup> × zy × 11x<sup>2</sup>z<sup>2</sup>y (read as: 5x to the fourth y to the seventh times zy times 11 x squared z \r\nsquared y).",
         "bonusA": "55x6y9z3",
         "category": 4,
         "setNum": 5,
@@ -45143,7 +45143,7 @@
         "catDiff": "6.15"
       },
       "5_15_17": {
-        "tossupQ": "MATH Short Answer What is the largest possible radius, in units, of a circle contained in \r\nthe interior of the ellipse 4x\r\n2 \r\n+ 9y\r\n2 \r\n= 36?",
+        "tossupQ": "MATH Short Answer What is the largest possible radius, in units, of a circle contained in \r\nthe interior of the ellipse 4x<sup>2</sup> \r\n+ 9y<sup>2</sup> \r\n= 36?",
         "tossupA": "2",
         "bonusQ": "MATH Short Answer For what positive integers a is it true that a – 7 divides a?",
         "bonusA": "6, 8, AND 14",
@@ -45205,7 +45205,7 @@
       "5_15_23": {
         "tossupQ": "MATH Multiple Choice A one-story building has floor dimensions of 400 feet by 100 feet. If \r\na square patio with sides of 28 feet occupies the center of the building, which of the following is \r\nthe area in square feet that remains for offices? \r\n \r\nW) 36,216 \r\nX) 37,216 \r\nY) 38,216 \r\nZ) 39,216",
         "tossupA": "Z) 39,216",
-        "bonusQ": "MATH Short Answer What are the coordinates of the foci of the hyperbola \r\n(x  -­‐  3)2\r\n64  \r\n  \u0000\u0000(y  +  2)\r\n2\r\n36\r\n  \r\n=  1?",
+        "bonusQ": "MATH Short Answer What are the coordinates of the foci of the hyperbola n(x-3)2<sup>2</sup>/64 - (y + 2)<sup>2</sup>/36 =  1?",
         "bonusA": "(-7, -2) AND (13, -2)",
         "category": 4,
         "setNum": 5,
@@ -45283,7 +45283,7 @@
         "catDiff": "1.7"
       },
       "5_7_6": {
-        "tossupQ": "MATH Multiple Choice Which of the following adjectives describes the function: y  =\r\n \r\n1\r\n3  \u0000 x2\r\n \r\n(read as: y equals 1 over open parenthesis 3 minus x squared close parenthesis)? \r\n \r\nW) Even \r\nX) Odd \r\nY) One-to-one \r\nZ) Polynomial",
+        "tossupQ": "MATH Multiple Choice Which of the following adjectives describes the function: y  =1/(3 - x2)\r\n(read as: y equals 1 over open parenthesis 3 minus x squared close parenthesis)? \r\n \r\nW) Even \r\nX) Odd \r\nY) One-to-one \r\nZ) Polynomial",
         "tossupA": "W) EVEN",
         "bonusQ": "MATH Short Answer Frodo drove 250 miles at an average speed of 50 miles per hour, and \r\nthe remaining 360 miles at an average speed of 60 miles per hour. To the nearest integer, what \r\nwas his average speed in miles per hour for the entire trip?",
         "bonusA": "55",
@@ -45395,7 +45395,7 @@
       "5_7_17": {
         "tossupQ": "MATH Short Answer What is the largest two-digit prime number?",
         "tossupA": "97",
-        "bonusQ": "MATH Short Answer What are the coordinates of the vertex of the parabola with equation \r\ny = x\r\n2\r\n + 6x + 4?",
+        "bonusQ": "MATH Short Answer What are the coordinates of the vertex of the parabola with equation \r\ny = x\r\n<sup>2</sup>\r\n + 6x + 4?",
         "bonusA": "(-3, -5)",
         "category": 4,
         "setNum": 5,
@@ -45963,8 +45963,8 @@
         "catDiff": "3.4"
       },
       "6_4_24": {
-        "tossupQ": "MATH Multiple Choice Which of the following proportions is NOT correct? \r\n \r\nW) 159=53            \r\n \r\nX) 3050=6001000             \r\n \r\nY) 824=416              \r\n \r\nZ) 4.28.4=510",
-        "tossupA": "Y) 824=416",
+        "tossupQ": "MATH Multiple Choice Which of the following proportions is NOT correct? \r\n \r\nW) 15/9=5/3            \r\n \r\nX) 30/50=600/1000             \r\n \r\nY) 8/24=4/16              \r\n \r\nZ) 4.2/8.4=5/10",
+        "tossupA": "Y) 8/24=4/16",
         "bonusQ": "MATH Short Answer The length of rectangle A is 24 centimeters, and the length of \r\nrectangle B is 96 centimeters. Given that the two rectangles are similar, what is the ratio of the \r\narea of A to the area of B?",
         "bonusA": "1:16 (ACCEPT: 1/16)",
         "category": 4,
