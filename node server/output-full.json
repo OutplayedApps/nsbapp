@@ -8785,7 +8785,7 @@
         "tossupQ": "MATH  Short Answer  Express 600º in radians as a reduced fraction in terms of π:",
         "tossupA": "10π/3",
         "bonusQ": "MATH  Short Answer  Giving your answers in terms of π and in inches squared, find the total \r\nsurface area of a closed right circular cone whose altitude is 8 inches and radius is 6 inches:",
-        "bonusA": "96π \r\n \r\n(Solution: l2 = 82 + 62, l = 10 in;  LSA = πrl = π(6)(10) = 60π;  SA = LA + B = 60π + π(6)2 = 96π in<sup>2</sup>)",
+        "bonusA": "96π \r\n \r\n(Solution: l<sup>2</sup> = 8<sup>2</sup> + 6<sup>2</sup>, l = 10 in;  LSA = πrl = π(6)(10) = 60π;  SA = LA + B = 60π + π(6)<sup>2</sup> = 96π in<sup>2</sup>)",
         "category": 4,
         "setNum": 1,
         "roundNum": 13,
@@ -9032,7 +9032,7 @@
         "catDiff": "3.11"
       },
       "1_11_4": {
-        "tossupQ": "MATH  Multiple Choice  The graph of the relation y = )25(2x−− is a: \r\n \r\nW)  circle \r\nX)  semi-circle \r\nY)  parabola \r\nZ)  straight line",
+        "tossupQ": "MATH  Multiple Choice  The graph of the relation y = -&radic;(25-x<sup>2</sup>) is a: \r\n \r\nW)  circle \r\nX)  semi-circle \r\nY)  parabola \r\nZ)  straight line",
         "tossupA": "X)  SEMI-CIRCLE",
         "bonusQ": "MATH  Short Answer  If y varies directly as x and z, and y = 12 when x = 4 and z = 5, find y \r\nwhen x = 10 and z = 20:",
         "bonusA": "120 \r\n \r\n(Solution: y= kxz; 12 = k(4)(5); k = 3/5;  y = 3/5(10)(20) = 120)",
@@ -9102,10 +9102,10 @@
         "catDiff": "3.11"
       },
       "1_11_11": {
-        "tossupQ": "MATH  Multiple Choice  Which of the following is a second quadrant angle in standard \r\nposition: \r\n \r\nW)  500º \r\nX)  –180º \r\nY)  –680º \r\nZ)  930º",
-        "tossupA": "W)  500º",
-        "bonusQ": "MATH  Short Answer  Giving your answer in simplest radical form, rationalize the denominator \r\nof the following expression:  \r\n)53(\r\n23\r\n−\r\n−",
-        "bonusA": "2\r\n10363+  ( ACCEPT:  )106(\r\n2\r\n3+)",
+        "tossupQ": "MATH  Multiple Choice  Which of the following is a second quadrant angle in standard \r\nposition: \r\n \r\nW)  500&deg; \r\nX)  –180&deg; \r\nY)  –680&deg; \r\nZ)  930&deg;",
+        "tossupA": "W)  500&deg;",
+        "bonusQ": "MATH  Short Answer  Giving your answer in simplest radical form, rationalize the denominator \r\nof the following expression:  (-3&radic;2)/(&radic;3-&radic;5)",
+        "bonusA": "(3&radic;6 + 3&radic;10)/2  ( ACCEPT:  (3/2)(&radic;6 + &radic;10)",
         "category": 4,
         "setNum": 1,
         "roundNum": 11,
@@ -9172,10 +9172,10 @@
         "catDiff": "3.11"
       },
       "1_11_18": {
-        "tossupQ": "MATH  Short Answer  Identify the type of conic section represented by the equation,  \r\nx2 + y2 + 10y + 16 = 0:",
-        "tossupA": "CIRCLE \r\n \r\n(Solution: x2 + (y + 5)2 = 9)",
+        "tossupQ": "MATH  Short Answer  Identify the type of conic section represented by the equation,  \r\nx<sup>2</sup> + y<sup>2</sup> + 10y + 16 = 0:",
+        "tossupA": "CIRCLE \r\n \r\n(Solution: x<sup>2</sup> + (y + 5)<sup>2</sup> = 9)",
         "bonusQ": "MATH  Short Answer  Find the area, in centimeters squared and in simplest radical form, of a \r\nregular or equilateral triangle whose circumcircle has a radius of 8 centimeters:",
-        "bonusA": "483 \r\n \r\n(Solution: apothem = 4; perimeter = (83)(3);  A = ½(4)(243) = 483 cm2)",
+        "bonusA": "48&radic;3 \r\n \r\n(Solution: apothem = 4; perimeter = (8&radic;3)(3);  A = ½(4)(24&radic;3) = 48&radic;3 cm<sup>2</sup>)",
         "category": 4,
         "setNum": 1,
         "roundNum": 11,
@@ -9242,10 +9242,10 @@
         "catDiff": "3.11"
       },
       "1_11_27": {
-        "tossupQ": "MATH  Short Answer  Simplify i17  (read as: i to the 17th power):",
-        "tossupA": "i \r\n \r\n(Solution: i17 = i1 = i)",
-        "bonusQ": "MATH  Short Answer  Solve the following equation for x:  21)2(72222=×−x",
-        "bonusA": "4 OR –4  (ACCEPT: 4±=x) \r\n \r\n(Solution: 7 + x2 – 2 = 21;  x = 4 and –4)",
+        "tossupQ": "MATH  Short Answer  Simplify i<sup>17</sup>  (read as: i to the 17th power):",
+        "tossupA": "i \r\n \r\n(Solution: i<sup>17</sup> = i<sup>1</sup> = i)",
+        "bonusQ": "MATH  Short Answer  Solve the following equation for x:  2<sup>7</sup>&times;2<sup>x<sup>2</sup>-2</sup> = 2<sup>31</sup>",
+        "bonusA": "4 OR –4  (ACCEPT: x=±4) \r\n \r\n(Solution: 7 + x<sup>2</sup> – 2 = 21;  x = 4 and –4)",
         "category": 4,
         "setNum": 1,
         "roundNum": 11,
@@ -9285,7 +9285,7 @@
         "tossupQ": "MATH  Multiple Choice  Which of the following is NOT true: \r\n \r\nW)  all central angles in a regular polygon are equal \r\nX)  irregular polygons are not considered to have centers and have no central angles \r\nY)  the circumcircle of a regular polygon is the circle that passes through at least one vertex \r\nZ)  all regular polygons are convex",
         "tossupA": "Y)  THE CIRCUMCIRCLE OF A REGULAR POLYGON IS THE CIRCLE THAT \r\nPASSES THROUGH AT LEAST ONE VERTEX",
         "bonusQ": "MATH  Short Answer  Find the sum of all interior angles, in degrees, in a regular polygon having \r\n100 sides:",
-        "bonusA": "17,640 \r\n \r\n(Solution:  (100 – 2)(180) = 17,640º)",
+        "bonusA": "17,640 \r\n \r\n(Solution:  (100 – 2)(180) = 17,640&deg;)",
         "category": 4,
         "setNum": 1,
         "roundNum": 8,
@@ -9353,9 +9353,9 @@
       },
       "1_8_11": {
         "tossupQ": "MATH  Short Answer  Find 2 mean proportionals between the numbers 3 and 24:",
-        "tossupA": "6 AND 12 \r\n \r\n(Solution: 3r3 = 24, r = 2)",
-        "bonusQ": "MATH  Short Answer  Find the numerical value of the geometric mean of the following 4 \r\nvalues:  21;  23;  28;  28",
-        "bonusA": "32  (DO NOT ACCEPT:  25) \r\n \r\n(Solution: 1 + 3 + 8 + 8 = 20/4 = 5;  25 = 32)",
+        "tossupA": "6 AND 12 \r\n \r\n(Solution: 3r<sup>3</sup> = 24, r = 2)",
+        "bonusQ": "MATH  Short Answer  Find the numerical value of the geometric mean of the following 4 \r\nvalues:  2<sup>1</sup>;  2<sup>3</sup>;  2<sup>8</sup>;  2<sup>8</sup>",
+        "bonusA": "32  (DO NOT ACCEPT:  2<sup>5</sup>) \r\n \r\n(Solution: 1 + 3 + 8 + 8 = 20/4 = 5;  2<sup>5</sup> = 32)",
         "category": 4,
         "setNum": 1,
         "roundNum": 8,
@@ -9424,7 +9424,7 @@
       "1_8_18": {
         "tossupQ": "MATH  Short Answer  There are 10 people on a bus who, when ranked from youngest to oldest, \r\nall differ from those on the bus closest in age to them by the same number of years.  If the youngest \r\nis 6 and the oldest is 51, what is the common difference in their age?",
         "tossupA": "5 \r\n \r\n(Solution: 6-11-16-21-26-31-36-41-46-51)",
-        "bonusQ": "MATH  Short Answer  Solve the following equation for all real values of x:  (x + 3)2 = 16",
+        "bonusQ": "MATH  Short Answer  Solve the following equation for all real values of x:  (x + 3)<sup>2</sup> = 16",
         "bonusA": "1 AND –7",
         "category": 4,
         "setNum": 1,
@@ -9493,7 +9493,7 @@
       },
       "1_8_27": {
         "tossupQ": "MATH  Short Answer  Giving your answer in standard form, give the equation of the circle with \r\ncenter at (0, 0) and diameter of 6:",
-        "tossupA": "x2 + y2 = 9",
+        "tossupA": "x<sup>2</sup> + y<sup>2</sup> = 9",
         "bonusQ": "MATH  Short Answer  What is the degree measure of the angle formed by 2 secants intersecting \r\noutside a circle if the measures of the intercepted arcs are 80º and 34º?",
         "bonusA": "23 \r\n \r\n(Solution: ½(80º – 34º) = 23º)",
         "category": 4,
@@ -9602,10 +9602,10 @@
         "catDiff": "3.2"
       },
       "1_2_11": {
-        "tossupQ": "MATH  Multiple Choice  One-fifth of 0.04% is equal to: \r\n \r\nW)  8 × 10–2 \r\nX)  8 × 10–3 \r\nY)  8 × 10–4 \r\nZ)  8 × 10–5",
-        "tossupA": "Z)  8 × 10–5 \r\n \r\n(Solution: (0.2)(0.0004) = 0.00008)",
+        "tossupQ": "MATH  Multiple Choice  One-fifth of 0.04% is equal to: \r\n \r\nW)  8 × 10<sup>-2</sup> \r\nX)  8 × 10<sup>-3</sup> \r\nY)  8 × 10<sup>-4</sup> \r\nZ)  8 × 10<sup>-5</sup>",
+        "tossupA": "Z)  8 × 10<sup>-5</sup> \r\n \r\n(Solution: (0.2)(0.0004) = 0.00008)",
         "bonusQ": "MATH  Short Answer  Find the prime factorization of 240:",
-        "bonusA": "2 × 2 × 2 × 2 × 3 × 5  (ACCEPT:  24 × 3 × 5)",
+        "bonusA": "2 × 2 × 2 × 2 × 3 × 5  (ACCEPT:  2<sup>4</sup> × 3 × 5)",
         "category": 4,
         "setNum": 1,
         "roundNum": 2,
@@ -9672,10 +9672,10 @@
         "catDiff": "3.2"
       },
       "1_2_18": {
-        "tossupQ": "MATH  Short Answer  Giving your answer in centimeters, what is the length of a side of a \r\nsquare whose diagonal measures 122 centimeters?",
+        "tossupQ": "MATH  Short Answer  Giving your answer in centimeters, what is the length of a side of a \r\nsquare whose diagonal measures 12&radic;2 centimeters?",
         "tossupA": "12",
         "bonusQ": "MATH  Short Answer  Multiply the following 4 numbers and give your answer in scientific \r\nnotation:  30,000 × 3,000 × 30 × 0.1",
-        "bonusA": "2.7 × 108",
+        "bonusA": "2.7 × 10<sup>8</sup>",
         "category": 4,
         "setNum": 1,
         "roundNum": 2,
@@ -9722,7 +9722,7 @@
         "catDiff": "2.2"
       },
       "1_2_23": {
-        "tossupQ": "MATH  Short Answer  Giving your answer in standard form, what is the last term in the \r\nbinomial expansion of the following:  (x + y)6",
+        "tossupQ": "MATH  Short Answer  Giving your answer in standard form, what is the last term in the \r\nbinomial expansion of the following:  (x + y)<sup>6</sup>",
         "tossupA": "y6",
         "bonusQ": "MATH  Short Answer  Simplify the following expression by combining like terms:   \r\n12.03A – 4.03B – 0.03(A – 40)",
         "bonusA": "12A – 4.03B + 1.2",
