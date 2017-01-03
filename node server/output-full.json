@@ -1165,7 +1165,7 @@
         "tossupQ": "PHYSICS  Multiple Choice  Which physical phenomenon explains the flotation of boats and air \r\nballoons: \r\n \r\nW)  Bernoulli’s principle \r\nX)  Archimedes principle \r\nY)  Newton's second law of motion \r\nZ)  Galileo’s law of displacement",
         "tossupA": "X)  ARCHIMEDES PRINCIPLE",
         "bonusQ": "PHYSICS  Short Answer  A runner, with her feet braced against her starting blocks, accelerates \r\nwith a horizontal magnitude of 5 meters per second squared.  How much horizontal force, in \r\nNewtons, must she exert on the blocks to produce this acceleration if the she has a mass of 70 \r\nkilograms?",
-        "bonusA": "350 NEWTONS  (ACCEPT:  350) \r\n \r\n(Solution:  F=MA; F=70x5; F=350)",
+        "bonusA": "350 NEWTONS  (ACCEPT:  350) \r\n \r\n(Solution:  F=MA; F=70 &times; 5; F=350)",
         "category": 3,
         "setNum": 2,
         "roundNum": 4,
@@ -13864,7 +13864,7 @@
       "7_14_12": {
         "tossupQ": "PHYSICS Multiple Choice A body with a 2 kilogram mass has position vector r = 3i + 2t 2j \r\nmeters. What is the velocity at t = 1 second? \r\n \r\nW) 1j  \r\nX) 4j  \r\nY) 3i + 4j \r\nZ) 1i + 1j",
         "tossupA": "X) 4j",
-        "bonusQ": "PHYSICS Multiple Choice Two objects with masses m1 and m2 are hanging vertically by \r\ndifferent springs of spring constants k1 and k2. If m1 = 3m2 and k1= 2k2, what is the ratio x1/x<sup>2</sup> \r\nof their stretches? \r\n \r\nW) 2/3 \r\nX) 3/2 \r\nY) 4 \r\nZ) 6",
+        "bonusQ": "PHYSICS Multiple Choice Two objects with masses m1 and m2 are hanging vertically by \r\ndifferent springs of spring constants k1 and k2. If m1 = 3m2 and k1= 2k2, what is the ratio x1/x<sub>2</sub> \r\nof their stretches? \r\n \r\nW) 2/3 \r\nX) 3/2 \r\nY) 4 \r\nZ) 6",
         "bonusA": "X) 3/2",
         "category": 3,
         "setNum": 7,
@@ -15852,7 +15852,7 @@
         "catDiff": "0.8"
       },
       "6_8_11": {
-        "tossupQ": "MATH  Short Answer  How many terms does the binomial expansion of (x<sup>2</sup> + 2y3)<sup>20</sup> contain?",
+        "tossupQ": "MATH  Short Answer  How many terms does the binomial expansion of (x<sup>2</sup> + 2y<sup>3</sup>)<sup>20</sup> contain?",
         "tossupA": "21",
         "bonusQ": "MATH  Multiple Choice  Which of the following functions has an oblique asymptote? \r\n \r\nW) f(x) = (x<sup>5</sup> + 1)/(x<sup>4</sup> + 3x<sup>2</sup> + 2) \r\n \r\nX) f(x) = (x<sup>2</sup> + 1)/(x<sup>3</sup> - x<sup>2</sup> - 1) \r\n \r\nY) f(x) = (4x<sup>2</sup> + x + 1)/x<sup>2</sup> \r\n \r\nZ) f(x) = x<sup>5</sup>/(x<sup>2</sup> - 1)",
         "bonusA": "W) f(x) = (x<sup>5</sup> + 1)/(x<sup>4</sup> + 3x<sup>2</sup> + 2)",
@@ -18245,15 +18245,15 @@
         "tossupQ": "MATH  Short Answer  If a = cos(x), what is cos(2x) in terms of a?",
         "tossupA": "2a\r\n2 \r\n– 1",
         "bonusQ": "MATH  Short Answer  A triangular prism has a base that is an equilateral triangle with sides \r\nof length x. If the height of the prism is x, express the volume of the prism in terms of x.",
-        "bonusA": "V=\r\n \r\nx3  3\r\n4",
+        "bonusA": "V=\r\n \r\nx<sup>3</sup>  3\r\n4",
         "category": 4,
         "setNum": 5,
         "roundNum": 2,
         "catDiff": "4.2"
       },
       "6_15_1": {
-        "tossupQ": "MATH  Short Answer  Expressing your answer in simplest form, if y = (x6) ln(x) [y equals x \r\nto the sixth power times the natural log of x], what is the derivative of y with respect to x?",
-        "tossupA": "6x5 ln(x) + x5",
+        "tossupQ": "MATH  Short Answer  Expressing your answer in simplest form, if y = (x<sup>6</sup>) ln(x) [y equals x \r\nto the sixth power times the natural log of x], what is the derivative of y with respect to x?",
+        "tossupA": "6x<sup>5</sup> ln(x) + x<sup>5</sup>",
         "bonusQ": "MATH  Short Answer  A national achievement test is administered. The test has a mean \r\nscore of 100 and a standard deviation of 15. If Vince’s z-score is 1.20, what is his score on the \r\ntest?",
         "bonusA": "118",
         "category": 4,
@@ -19134,7 +19134,7 @@
       "6_10_14": {
         "tossupQ": "MATH  Multiple Choice  Bacteria in a culture are growing exponentially, such that on day 0, \r\nthere are 100 bacteria, on day 1, there are 200 bacteria, and on day 2, there are 400 bacteria. \r\nWhich of the following equations expresses the number of bacteria, y, present at any time t? \r\n \r\nW) y = 100 + 2t [y equals 100 plus 2 to the power of t] \r\nX) y = 100(2t) [y equals 100 times the quantity 2 to the power of t] \r\nY) y = 2t [y equals 2 to the power of t] \r\nZ) y = 200(2t) [y equals 200 times the quantity 2 to the power of t]",
         "tossupA": "X) y = 100(2t)",
-        "bonusQ": "MATH  Short Answer  Find the remainder when f(x) = x6 + 5x5 – x3 + x – 6 is divided by  \r\n(x + 1).",
+        "bonusQ": "MATH  Short Answer  Find the remainder when f(x) = x<sup>6</sup> + 5x<sup>5</sup> – x<sup>3</sup> + x – 6 is divided by  \r\n(x + 1).",
         "bonusA": "-10",
         "category": 4,
         "setNum": 6,
@@ -19852,7 +19852,7 @@
         "catDiff": "3.16"
       },
       "1_16_11": {
-        "tossupQ": "MATH  Multiple Choice  At  x = \r\n2\r\n1−, the graph of  y = x3 is: \r\n  \r\nW)  increasing and concave up \r\nX)  increasing and concave down   \r\nY)  decreasing and concave up   \r\nZ)  decreasing and concave down",
+        "tossupQ": "MATH  Multiple Choice  At  x = \r\n2\r\n1−, the graph of  y = x<sup>3</sup> is: \r\n  \r\nW)  increasing and concave up \r\nX)  increasing and concave down   \r\nY)  decreasing and concave up   \r\nZ)  decreasing and concave down",
         "tossupA": "X)  INCREASING AND CONCAVE DOWN   \r\n \r\n(Solution: at the indicated value the 1st derivative is positive (implying increasing) and the 2nd  \r\nderivative is negative (implying concave down))",
         "bonusQ": "MATH  Short Answer  The point (3, 2) is reflected across the graph of y = 6 and the resulting \r\npoint is then reflected across the graph of y = x.  What are the coordinates of the final point?",
         "bonusA": "(10, 3) \r\n \r\n(Solution: the 1st reflection  (3,10);  2nd reflection interchanges the x and y coordinates)",
@@ -20044,7 +20044,7 @@
       "6_3_5": {
         "tossupQ": "MATH  Short Answer  How many distinct diagonals does a pentagon have?",
         "tossupA": "5",
-        "bonusQ": "MATH  Short Answer  The polynomial p(x) = x4 + 5x3 – 2x<sup>2</sup> – 24x has a zero at x = 2. Factor p \r\ncompletely.",
+        "bonusQ": "MATH  Short Answer  The polynomial p(x) = x<sup>4</sup> + 5x<sup>3</sup> – 2x<sup>2</sup> – 24x has a zero at x = 2. Factor p \r\ncompletely.",
         "bonusA": "x(x – 2)(x + 3)(x + 4)  \r\n \r\n[NOTE: EXPRESSIONS IN ANSWER CAN BE IN ANY ORDER]",
         "category": 4,
         "setNum": 6,
@@ -20105,7 +20105,7 @@
         "tossupQ": "MATH  Short Answer  What is the surface area of a cube with volume 8?",
         "tossupA": "24",
         "bonusQ": "MATH  Short Answer  In terms of x and in standard polynomial form, what is the volume of a \r\nright rectangular prism with dimensions (x + 4), (x + 1), and (x + 6)?",
-        "bonusA": "x3 + 11x<sup>2</sup> + 34x + 24",
+        "bonusA": "x<sup>3</sup> + 11x<sup>2</sup> + 34x + 24",
         "category": 4,
         "setNum": 6,
         "roundNum": 3,
@@ -20244,7 +20244,7 @@
       "6_3_27": {
         "tossupQ": "MATH  Short Answer  If ln [natural log of the quantity x cubed equals 6], what is \r\nln [the natural log of the quantity x squared]?",
         "tossupA": "4",
-        "bonusQ": "MATH  Short Answer  If f(x) = 4x3 – 4x<sup>2</sup> + 10, then what is f(-2) [f of negative 2]?",
+        "bonusQ": "MATH  Short Answer  If f(x) = 4x<sup>3</sup> – 4x<sup>2</sup> + 10, then what is f(-2) [f of negative 2]?",
         "bonusA": "-38",
         "category": 4,
         "setNum": 6,
@@ -22834,7 +22834,7 @@
       "7_11_9": {
         "tossupQ": "MATH Short Answer What is the area of a rhombus with diagonals of lengths 6 and 8?",
         "tossupA": "24",
-        "bonusQ": "MATH Multiple Choice A curve is given by the equation: x3 + 3y<sup>2</sup> = 4. What is the slope of the \r\ntangent line at the point with coordinates (1, 1)? \r\n \r\nW) -2 \r\nX) -1/2 \r\nY) 1/2 \r\nZ) 2",
+        "bonusQ": "MATH Multiple Choice A curve is given by the equation: x<sup>3</sup> + 3y<sup>2</sup> = 4. What is the slope of the \r\ntangent line at the point with coordinates (1, 1)? \r\n \r\nW) -2 \r\nX) -1/2 \r\nY) 1/2 \r\nZ) 2",
         "bonusA": "X) -1/2",
         "category": 4,
         "setNum": 7,
@@ -24024,7 +24024,7 @@
       "7_16_3": {
         "tossupQ": "MATH Multiple Choice The points on a scatter plot are extremely close to their least-squares \r\nregression line, which is expressed by the equation y = -2x + 3. The correlation coefficient r \r\nbetween x and y is closest to which of the following? \r\n \r\nW) -2 \r\nX) -1 \r\nY) 1/2 \r\nZ) 1",
         "tossupA": "X) -1",
-        "bonusQ": "MATH Short Answer For the implicit function xy<sup>2</sup> + x3y = 2, what is the slope of its tangent line \r\nat the point (1, 1)?",
+        "bonusQ": "MATH Short Answer For the implicit function xy<sup>2</sup> + x<sup>3</sup>y = 2, what is the slope of its tangent line \r\nat the point (1, 1)?",
         "bonusA": "-4/3",
         "category": 4,
         "setNum": 7,
@@ -24143,7 +24143,7 @@
       },
       "7_16_15": {
         "tossupQ": "MATH Short Answer Find an antiderivative for 푙푙(푒−푥2) [the natural log of the quantity e \r\nto the power of negative x squared].",
-        "tossupA": "-(1/3)x3 (ACCEPT: GIVEN ANSWER PLUS ANY CONSTANT)",
+        "tossupA": "-(1/3)x<sup>3</sup> (ACCEPT: GIVEN ANSWER PLUS ANY CONSTANT)",
         "bonusQ": "MATH Short Answer A curve is defined parametrically by x = cost [x equals cosine of t] and \r\ny = tant [y equals tangent of t]. What is dy/dx when t = π/6?",
         "bonusA": "-8/3",
         "category": 4,
@@ -24944,7 +24944,7 @@
       "5_5_20": {
         "tossupQ": "MATH  Multiple Choice  Which of the following can be constructed using only a compass \r\nand a straightedge? \r\n \r\nW) A line segment with one-third the length of a given line segment  \r\nX) A cube with twice the volume of a given cube \r\nY) An angle with one-third the measure of a given angle  \r\nZ) A square with the same area as that of a given circle",
         "tossupA": "W) A LINE SEGMENT WITH ONE-THIRD THE LENGTH OF A GIVEN LINE \r\nSEGMENT",
-        "bonusQ": "MATH  Short Answer  Let f(x) be a function with antiderivative g(x) satisfying g(1) = 2 and \r\ng(3) = 4. Calculate 2fxdx  - 5fxdx3\r\n1\r\n3\r\n1\r\n (read as: the integral from 1 to 3 of 2 f of x dx minus \r\nthe integral from 1 to 3 of 5 f of x dx).",
+        "bonusQ": "MATH  Short Answer  Let f(x) be a function with antiderivative g(x) satisfying g(1) = 2 and \r\ng(3) = 4. Calculate 2fxdx  - 5fxdx<sup>3</sup>\r\n1\r\n3\r\n1\r\n (read as: the integral from 1 to 3 of 2 f of x dx minus \r\nthe integral from 1 to 3 of 5 f of x dx).",
         "bonusA": "-6",
         "category": 4,
         "setNum": 5,
@@ -26273,7 +26273,7 @@
       },
       "4_1_3": {
         "tossupQ": "MATH  Short Answer  What is the greatest common factor of the terms in the expression \r\n3x\r\n5\r\ny\r\n2\r\n + 6x\r\n3\r\ny\r\n5\r\n (read as: 3 x to the fifth y squared plus 6 x cubed y to the fifth)?",
-        "tossupA": "23yx3",
+        "tossupA": "23yx<sup>3</sup>",
         "bonusQ": "MATH  Short Answer  At what value of x is there a minimum for the function f(x)= x\r\n2\r\n – 6x \r\n(read as: f of x equals x squared minus 6x)?",
         "bonusA": "x = 3",
         "category": 4,
@@ -28431,7 +28431,7 @@
         "catDiff": "5.6"
       },
       "5_6_19": {
-        "tossupQ": "MATH  Short Answer  Considering the function fx  =  2x3 + 5x<sup>2</sup>+ 4, what is the \r\ninstantaneous rate of change at the point (-1, 7)?",
+        "tossupQ": "MATH  Short Answer  Considering the function fx  =  2x<sup>3</sup> + 5x<sup>2</sup>+ 4, what is the \r\ninstantaneous rate of change at the point (-1, 7)?",
         "tossupA": "-4",
         "bonusQ": "MATH  Short Answer  Find all values of c such that the given function is continuous from \r\nnegative infinity to infinity: f(x) = c\r\n2\r\nx when x ≤ 2, and f(x) = (5/4)cx\r\n2 \r\n+ 3 when x > 2.",
         "bonusA": "-½, 3",
@@ -28903,8 +28903,8 @@
         "catDiff": "0.10"
       },
       "1_10_16": {
-        "tossupQ": "MATH Short Answer Simplify the following completely: (–2x<sup>2</sup>y3)3",
-        "tossupA": "–8x6y9",
+        "tossupQ": "MATH Short Answer Simplify the following completely: (–2x<sup>2</sup>y<sup>3</sup>)3",
+        "tossupA": "–8x<sup>6</sup>y<sup>9</sup>",
         "bonusQ": "MATH Short Answer The outdoor temperature at 6:00 AM is –8ºC. If it rises at a rate of 3ºC \r\nper hour, what is the temperature, in degrees Celsius, at noon?",
         "bonusA": "10",
         "category": 4,
@@ -28993,8 +28993,8 @@
         "catDiff": "0.10"
       },
       "1_10_27": {
-        "tossupQ": "MATH Short Answer Find the product of (x3y) (x<sup>2</sup>y)",
-        "tossupA": "x5y",
+        "tossupQ": "MATH Short Answer Find the product of (x<sup>3</sup>y) (x<sup>2</sup>y)",
+        "tossupA": "x<sup>5</sup>y",
         "bonusQ": "MATH Short Answer Find the following product and give your answer to the first decimal \r\nplace: \r\n2\r\n5\r\n3\r\n3\r\n5\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
         "bonusA": "0.6",
         "category": 4,
@@ -29836,7 +29836,7 @@
         "tossupQ": "MATH Multiple Choice Which of the following expressions is NOT a monomial: \r\n \r\nW) 3x<sup>2</sup>y \r\nX) x\r\n2\r\n1 \r\nY) x \r\nZ) x",
         "tossupA": "Y) x",
         "bonusQ": "MATH Short Answer Find the following product, giving your answer in simplified form:  \r\n(9xy<sup>2</sup> + 4)(5xy<sup>2</sup> – 3)",
-        "bonusA": "45x<sup>2</sup>y4 – 7xy<sup>2</sup> – 12",
+        "bonusA": "45x<sup>2</sup>y<sup>4</sup> – 7xy<sup>2</sup> – 12",
         "category": 4,
         "setNum": 1,
         "roundNum": 16,
@@ -29983,7 +29983,7 @@
         "catDiff": "0.16"
       },
       "1_16_24": {
-        "tossupQ": "MATH Short Answer What is the degree of the following monomial: 12x<sup>2</sup>y3z4",
+        "tossupQ": "MATH Short Answer What is the degree of the following monomial: 12x<sup>2</sup>y<sup>3</sup>z<sup>4</sup>",
         "tossupA": "9 \r\n \r\n(Solution: 2 + 3 + 4 = 9)",
         "bonusQ": "MATH Short Answer If the sum of the INTERIOR angles of a regular polygon is 540º, how \r\nmany sides does it have?",
         "bonusA": "5 \r\n \r\n(Solution: 180º(n – 2) = 540º, n = 5 sides)",
@@ -30104,9 +30104,9 @@
       },
       "1_14_11": {
         "tossupQ": "MATH Short Answer Express the following radical in simplified form for all positive values of \r\nx and y: )36(64yx",
-        "tossupA": "6x<sup>2</sup>y3",
-        "bonusQ": "MATH Short Answer Find the product of 25x times x5, giving your answer in its simplest \r\nradical form for all positive values of x:",
-        "bonusA": "xx5",
+        "tossupA": "6x<sup>2</sup>y<sup>3</sup>",
+        "bonusQ": "MATH Short Answer Find the product of 25x times x<sup>5</sup>, giving your answer in its simplest \r\nradical form for all positive values of x:",
+        "bonusA": "xx<sup>5</sup>",
         "category": 4,
         "setNum": 1,
         "roundNum": 14,
@@ -30325,7 +30325,7 @@
       "1_17_8": {
         "tossupQ": "MATH Short Answer What is the second term in the binomial expansion of (a+ b)5?",
         "tossupA": "5a4b",
-        "bonusQ": "MATH Short Answer Provide the prime factors over the integers for the following expression: \r\n16x<sup>2</sup> – 25y4",
+        "bonusQ": "MATH Short Answer Provide the prime factors over the integers for the following expression: \r\n16x<sup>2</sup> – 25y<sup>4</sup>",
         "bonusA": "(4x – 5y<sup>2</sup>)(4x + 5y<sup>2</sup>)",
         "category": 4,
         "setNum": 1,
@@ -31276,7 +31276,7 @@
         "tossupQ": "MATH Short Answer What is the x-intercept of a graph of the following equation: y = –7x + 7",
         "tossupA": "1 (ACCEPT: 1, 0)",
         "bonusQ": "MATH Short Answer Multiply the polynomial, 3x<sup>2</sup> – 4xy + y<sup>2</sup>, by –3xy, and simplify:",
-        "bonusA": "–9x3y + 12x<sup>2</sup>y<sup>2</sup> – 3xy3",
+        "bonusA": "–9x<sup>3</sup>y + 12x<sup>2</sup>y<sup>2</sup> – 3xy<sup>3</sup>",
         "category": 4,
         "setNum": 1,
         "roundNum": 12,
@@ -31475,7 +31475,7 @@
       "1_12_23": {
         "tossupQ": "MATH Short Answer Any triangle inscribed within a semicircle is always what type of triangle \r\nif one of its sides is the diameter of the semicircle?",
         "tossupA": "RIGHT",
-        "bonusQ": "MATH Short Answer Provide the prime factors over the integers for the following expression: \r\n25x4 – 16y<sup>2</sup>",
+        "bonusQ": "MATH Short Answer Provide the prime factors over the integers for the following expression: \r\n25x<sup>4</sup> – 16y<sup>2</sup>",
         "bonusA": "(5x<sup>2</sup> + 4y)(5x<sup>2</sup> – 4y)",
         "category": 4,
         "setNum": 1,
@@ -32773,7 +32773,7 @@
         "catDiff": "0.7"
       },
       "1_7_3": {
-        "tossupQ": "MATH Short Answer Divide x5 by x3 and simplify:",
+        "tossupQ": "MATH Short Answer Divide x<sup>5</sup> by x<sup>3</sup> and simplify:",
         "tossupA": "x<sup>2</sup>",
         "bonusQ": "MATH Short Answer Evaluate the following and give your answer as a mixed fraction in lowest \r\nterms: 9\r\n2\r\n1 – 5\r\n5\r\n2",
         "bonusA": "4\r\n10\r\n1",
@@ -33426,7 +33426,7 @@
         "tossupQ": "MATH Short Answer Simplify the following expression: \r\n15\r\n)515(yx+",
         "tossupA": "x + \r\n3\r\ny (ACCEPT: x + \r\n3\r\n1y)",
         "bonusQ": "MATH Short Answer Simplify the following completely: \r\n3–\r\n23)2(\r\nx\r\nxx",
-        "bonusA": "2x8",
+        "bonusA": "2x<sup>8</sup>",
         "category": 4,
         "setNum": 1,
         "roundNum": 13,
@@ -34176,7 +34176,7 @@
         "tossupQ": "PHYSICAL SCIENCE  Short Answer By passing current through a wire wrapped around \r\nan iron rod, William Sturgeon invented the:",
         "tossupA": "ELECTROMAGNET",
         "bonusQ": "PHYSICAL SCIENCE Short Answer In pursuit of an insect, a lizard, braced against a rock, \r\naccelerates with a horizontal magnitude of 15 meters per second squared. How much horizontal \r\nforce, in newtons, must the lizard exert on the rock to produce this acceleration if the lizard has a \r\nmass of 3 kilograms?",
-        "bonusA": "45 NEWTONS (ACCEPT: 45) \r\n \r\n(Solution: F=MA; F=3x15; F=45) \r\n \r\n \r\nJunior National Science Bowl Single Elimination 2 Page 9",
+        "bonusA": "45 NEWTONS (ACCEPT: 45) \r\n \r\n(Solution: F=MA; F=3 &times; 15; F=45) \r\n \r\n \r\nJunior National Science Bowl Single Elimination 2 Page 9",
         "category": 3,
         "setNum": 2,
         "roundNum": 9,
@@ -34225,7 +34225,7 @@
       "2_9_23": {
         "tossupQ": "MATH Short Answer The price of a postage stamp changes from 33 cents to 34 cents. \r\nWhat is the percent increase in price?",
         "tossupA": "3 (ACCEPT: 3.03)",
-        "bonusQ": "MATH Short Answer Simplify the following equation: 7x\r\n2\r\n x3",
+        "bonusQ": "MATH Short Answer Simplify the following equation: 7x\r\n2\r\n x<sup>3</sup>",
         "bonusA": "7 x (ACCEPT: 7(x)-1)",
         "category": 4,
         "setNum": 2,
@@ -44976,7 +44976,7 @@
         "tossupQ": "MATH Short Answer The volume of a cube is 27 cubic centimeters. What is the surface \r\narea, in square centimeters, of this cube?",
         "tossupA": "54",
         "bonusQ": "MATH Short Answer Express the following in standard polynomial form: \r\n5x<sup>4</sup>y<sup>7</sup> × zy × 11x<sup>2</sup>z<sup>2</sup>y (read as: 5x to the fourth y to the seventh times zy times 11 x squared z \r\nsquared y).",
-        "bonusA": "55x6y9z3",
+        "bonusA": "55x<sup>6</sup>y<sup>9</sup>z<sup>3</sup>",
         "category": 4,
         "setNum": 5,
         "roundNum": 2,
@@ -53927,7 +53927,7 @@
         "tossupQ": "MATH Multiple Choice For a set of two variable data, the correlation coefficient is r = -0.9 \r\nand the line of best fit is y = mx + b. Which of the following is a TRUE statement about m? \r\n \r\nW) m is greater than zero \r\nX) m is less than zero \r\nY) m is equal to zero \r\nZ) m can be any real number",
         "tossupA": "X) m IS LESS THAN ZERO",
         "bonusQ": "MATH Short Answer Factor completely: x\r\n5\r\n + y\r\n5\r\n.",
-        "bonusA": "x  +  y(x4\u0000 x3y  + x<sup>2</sup>y<sup>2</sup>  \u0000 xy3  + y4)",
+        "bonusA": "x  +  y(x<sup>4</sup>\u0000 x<sup>3</sup>y  + x<sup>2</sup>y<sup>2</sup>  \u0000 xy<sup>3</sup>  + y<sup>4</sup>)",
         "category": 4,
         "setNum": 5,
         "roundNum": 13,
