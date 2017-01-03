@@ -144,7 +144,7 @@ angular.module('IonicGulpSeed')
             //$scope.showSplash = true;
             $timeout(function() {
                 $scope.showSplash = false;
-            }, 3000)
+            }, 2000)
         });
 
     });
