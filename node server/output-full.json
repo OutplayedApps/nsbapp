@@ -5592,9 +5592,9 @@
         "catDiff": "2.1"
       },
       "3_1_10": {
-        "tossupQ": "PHYSICS  Multiple Choice. The amplitude of a sound wave most closely relates to its: \r\n \r\nW)  frequency \r\nX)  wavelength \r\nY)  loudness \r\nZ)  overtones  \r\n \r\nANSWER. Y)  LOUDNESS \r\n \r\nBONUS \r\n \r\n10)  PHYSICS Short Answer  What property of a sound wave most directly determines the pitch of a \r\nviolin’s note?",
-        "tossupA": "BONUS \r\n \r\n10)  PHYSICS Short Answer  What property of a sound wave most directly determines the pitch of a \r\nviolin’s note? \r\n \r\nANSWER:",
-        "bonusQ": "PHYSICS Short Answer  What property of a sound wave most directly determines the pitch of a \r\nviolin’s note?",
+        "tossupQ": "PHYSICS  Multiple Choice. The amplitude of a sound wave most closely relates to its: \r\n \r\nW)  frequency \r\nX)  wavelength \r\nY)  loudness \r\nZ)  overtones",
+        "tossupQ": "Y)  LOUDNESS",
+        "bonusQ": "BONUS  PHYSICS Short Answer  What property of a sound wave most directly determines the pitch of a \r\nviolin’s note? ",
         "bonusA": "FREQUENCY",
         "category": 3,
         "setNum": 3,
@@ -7254,8 +7254,8 @@
       "7_6_1": {
         "tossupQ": "BIOLOGY Multiple Choice Which of the following methods of dissemination of bacterial \r\ngenetic material is mismatched to its description?  \r\n \r\nW) Transduction: viral transfer of one cell’s DNA to another \r\nX) Binary fission: cellular division \r\nY) Conjugation: through physical interaction, a donor cell transfers genetic material to a \r\nrecipient cell  \r\nZ) Transformation: one bacteria engulfs another to integrate its DNA",
         "tossupA": "Z) TRANSFORMATION: ONE BACTERIA ENGULFS ANOTHER TO INTEGRATE \r\nITS DNA",
-        "bonusQ": "BONUS \r\n \r\n1)",
-        "bonusA": "1) BIOLOGY Multiple Choice In one form of epigenetics called genomic imprinting, DNA is \r\nsilenced by what mechanism? \r\n \r\nW) Methylation \r\nX) Acetylation [uh-SET-l-ay-shuhn] \r\nY) Phosphorylation [FOS-for-uh-lay-shuhn] \r\nZ) Ubiquitylation [yoo-bi-kwi-ty-LAY-shuhn] \r\n \r\nANSWER W) METHYLATION",
+        "bonusQ": "BIOLOGY Multiple Choice In one form of epigenetics called genomic imprinting, DNA is \r\nsilenced by what mechanism? \r\n \r\nW) Methylation \r\nX) Acetylation [uh-SET-l-ay-shuhn] \r\nY) Phosphorylation [FOS-for-uh-lay-shuhn] \r\nZ) Ubiquitylation [yoo-bi-kwi-ty-LAY-shuhn]",
+        "bonusA": "W) METHYLATION",
         "category": 1,
         "setNum": 7,
         "roundNum": 6,
@@ -7374,8 +7374,8 @@
       "7_6_13": {
         "tossupQ": "BIOLOGY Multiple Choice Which of the following portions of a gene could ultimately be \r\ntranslated to protein?  \r\n \r\nW) Exon \r\nX) Terminator \r\nY) Intron \r\nZ) Promoter",
         "tossupA": "W) EXON",
-        "bonusQ": "BONUS \r\n \r\n13)",
-        "bonusA": "13) BIOLOGY Multiple Choice What is the reason why many modern crop-producing plants, \r\nsuch as wheat, have much larger cell volumes than the ancestral wild plants from which they \r\nwere derived? \r\n \r\nW) Plants can tolerate trisomy [TRY-soh-mee] \r\nX) Plants can tolerate polyploidy [pol-ee-PLOI-dee] \r\nY) Plants have been genetically engineered \r\nZ) Plants tolerate gene duplications \r\n \r\nANSWER X) PLANTS CAN TOLERATE POLYPLOIDY",
+        "bonusQ": "BIOLOGY Multiple Choice What is the reason why many modern crop-producing plants, \r\nsuch as wheat, have much larger cell volumes than the ancestral wild plants from which they \r\nwere derived? \r\n \r\nW) Plants can tolerate trisomy [TRY-soh-mee] \r\nX) Plants can tolerate polyploidy [pol-ee-PLOI-dee] \r\nY) Plants have been genetically engineered \r\nZ) Plants tolerate gene duplications",
+        "bonusA": "X) PLANTS CAN TOLERATE POLYPLOIDY",
         "category": 1,
         "setNum": 7,
         "roundNum": 6,
@@ -9723,7 +9723,7 @@
       },
       "1_2_23": {
         "tossupQ": "MATH  Short Answer  Giving your answer in standard form, what is the last term in the \r\nbinomial expansion of the following:  (x + y)<sup>6</sup>",
-        "tossupA": "y6",
+        "tossupA": "y<sup>6</sup>",
         "bonusQ": "MATH  Short Answer  Simplify the following expression by combining like terms:   \r\n12.03A – 4.03B – 0.03(A – 40)",
         "bonusA": "12A – 4.03B + 1.2",
         "category": 4,
@@ -9852,10 +9852,10 @@
         "catDiff": "1.6"
       },
       "1_6_11": {
-        "tossupQ": "MATH  Short Answer  Solve the following equation for x over the integers:  x2 = 3x",
+        "tossupQ": "MATH  Short Answer  Solve the following equation for x over the integers:  x<sup>2</sup> = 3x",
         "tossupA": "0;  3",
-        "bonusQ": "MATH  Short Answer  Giving your answer as a fraction reduced to lowest terms, solve the \r\nfollowing equation for x:  \r\n2\r\n1\r\n6\r\n10\r\n4\r\n1\r\n3\r\n2+=−xx",
-        "bonusA": "–\r\n4\r\n3",
+        "bonusQ": "MATH  Short Answer  Giving your answer as a fraction reduced to lowest terms, solve the \r\nfollowing equation for x:  2/3 x - 1/4 = 10/6 x + 1/2",
+        "bonusA": "–3/4",
         "category": 4,
         "setNum": 1,
         "roundNum": 6,
@@ -9942,9 +9942,9 @@
         "catDiff": "0.6"
       },
       "1_6_20": {
-        "tossupQ": "MATH  Short Answer  Simplify the following rational expression:  \r\nxy\r\nxy\r\n59\r\n35\r\n2\r\n2\r\n+\r\n−",
-        "tossupA": "CANNOT BE FURTHER SIMPLIFIED  (ACCEPT:   \r\nxy\r\nxy\r\n59\r\n35\r\n2\r\n2\r\n+\r\n− or THE SAME)",
-        "bonusQ": "MATH  Short Answer  Factor the following expression completely:  12x2 + 24x – 36",
+        "tossupQ": "MATH  Short Answer  Simplify the following rational expression:  (5y - 3x<sup>2</sup>) / (9y<sup>2</sup> + 5x)",
+        "tossupA": "CANNOT BE FURTHER SIMPLIFIED  (ACCEPT:   (5y - 3x<sup>2</sup>) / (9y<sup>2</sup> + 5x) or THE SAME)",
+        "bonusQ": "MATH  Short Answer  Factor the following expression completely:  12x<sup>2</sup> + 24x – 36",
         "bonusA": "12(x + 3)(x – 1)  (ACCEPT:  12(x – 1)(x + 3))",
         "category": 4,
         "setNum": 1,
@@ -10032,10 +10032,10 @@
         "catDiff": "1.3"
       },
       "1_3_4": {
-        "tossupQ": "MATH  Short Answer  Simplify the following, giving your answer in proper scientific notation:  (6.0 \r\n× 1012)(2.0 × 1010)2",
-        "tossupA": "2.4 × 1033",
-        "bonusQ": "MATH  Short Answer  Factor the following expression completely:  81x2 + 180xy + 100y2",
-        "bonusA": "(9x + 10y)2",
+        "tossupQ": "MATH  Short Answer  Simplify the following, giving your answer in proper scientific notation:  (6.0 \r\n× 10<sup>12</sup>)(2.0 × 10<sup>10</sup>)<sup>2</sup>",
+        "tossupA": "2.4 × 10<sup>33</sup>",
+        "bonusQ": "MATH  Short Answer  Factor the following expression completely:  81x<sup>2</sup> + 180xy + 100y<sup>2</sup>",
+        "bonusA": "(9x + 10y)<sup>2</sup>",
         "category": 4,
         "setNum": 1,
         "roundNum": 3,
@@ -10102,10 +10102,10 @@
         "catDiff": "1.3"
       },
       "1_3_11": {
-        "tossupQ": "MATH  Short Answer  Giving your answer as a proper fraction, what is the cube root of \r\n343\r\n125?",
-        "tossupA": "7\r\n5",
-        "bonusQ": "MATH  Short Answer  Find the following product, giving your answer in standard form:   \r\n(4x3 + x)(7x3 + 4x2)",
-        "bonusA": "28x6 + 16x5 + 7x4 + 4x3  (ACCEPT:  x3(28x3 + 16x2 + 7x + 4))",
+        "tossupQ": "MATH  Short Answer  Giving your answer as a proper fraction, what is the cube root of 343/125?",
+        "tossupA": "7/5",
+        "bonusQ": "MATH  Short Answer  Find the following product, giving your answer in standard form:   \r\n(4x<sup>3</sup> + x)(7x<sup>3</sup> + 4x<sup>2</sup>)",
+        "bonusA": "28x<sup>6</sup> + 16x<sup>5</sup> + 7x<sup>4</sup> + 4x<sup>3</sup>  (ACCEPT:  x<sup>3</sup>(28x<sup>3</sup> + 16x<sup>2</sup> + 7x + 4))",
         "category": 4,
         "setNum": 1,
         "roundNum": 3,
@@ -10174,8 +10174,8 @@
       "1_3_18": {
         "tossupQ": "MATH  Multiple Choice  If triangle ABD is congruent with triangle EFG, which of the following \r\nMUST be true: \r\n \r\nW)  side AB is congruent to side EF \r\nX)  side AD is congruent to side FG \r\nY)  measure of angle B = measure of angle G \r\nZ)  measure of angle A = measure of angle G",
         "tossupA": "W)  SIDE AB IS CONGRUENT TO SIDE EF",
-        "bonusQ": "MATH  Short Answer  Simplify the following rational expression by combining like terms, \r\nassuming x is not equal to 4:  \r\n)4(\r\n)16(\r\n2\r\n2\r\nxx\r\nx\r\n−\r\n−",
-        "bonusA": "x\r\nx4+−  (ACCEPT:  \r\nx\r\nx\r\n−\r\n+4  or \r\nx\r\nx)4(+− or \r\nx\r\nx4−−)",
+        "bonusQ": "MATH  Short Answer  Simplify the following rational expression by combining like terms, \r\nassuming x is not equal to 4:  (x<sup>2</sup> - 16)/(4x - x<sup>2</sup>)",
+        "bonusA": "-(x+4)/x  (ACCEPT:  (x+4)/-x  (-x-4)/x",
         "category": 4,
         "setNum": 1,
         "roundNum": 3,
@@ -10294,7 +10294,7 @@
       "7_12_5": {
         "tossupQ": "MATH Multiple Choice How many two digit positive integers have at least one 6 as a digit? \r\n \r\nW) 17 \r\nX) 18 \r\nY) 19 \r\nZ) 20",
         "tossupA": "X) 18",
-        "bonusQ": "MATH Short Answer Solve the following base-10 logarithmic equation for x:  \r\nlog(x2 + 3x) + log(5x) = 1 + log(2x) [log base 10 of open parenthesis x squared plus 3x \r\nclose parenthesis plus log base 10 of 5x equals 1 plus log base 10 of 2x].",
+        "bonusQ": "MATH Short Answer Solve the following base-10 logarithmic equation for x:  \r\nlog(x<sup>2</sup> + 3x) + log(5x) = 1 + log(2x) [log base 10 of open parenthesis x squared plus 3x \r\nclose parenthesis plus log base 10 of 5x equals 1 plus log base 10 of 2x].",
         "bonusA": "1 (DO NOT ACCEPT: -4)",
         "category": 4,
         "setNum": 7,
@@ -10402,7 +10402,7 @@
         "catDiff": "1.12"
       },
       "7_12_16": {
-        "tossupQ": "MATH Short Answer The graph of the following equation is an example of what conic \r\nsection: 2푥2=2푦2+13?",
+        "tossupQ": "MATH Short Answer The graph of the following equation is an example of what conic \r\nsection: 2x<sup>2</sup> = 2y<sup>2</sup> + 13?",
         "tossupA": "HYPERBOLA",
         "bonusQ": "MATH Short Answer How many integers between 1 and 1000 inclusive are NOT divisible by \r\neither 2 or 5?",
         "bonusA": "400",
@@ -10473,7 +10473,7 @@
       },
       "7_12_23": {
         "tossupQ": "MATH Short Answer If a family has four children, what is the probability of having exactly 3 \r\ngirls?",
-        "tossupA": "¼ (ACCEPT: 0.25 OR 25%)",
+        "tossupA": "1/4 (ACCEPT: 0.25 OR 25%)",
         "bonusQ": "MATH Short Answer Let a = 0.845454545... be an infinite repeating decimal with the digits 4 \r\nand 5 repeating. If a is written as a fraction in lowest terms, by how much does the denominator \r\nexceed the numerator?",
         "bonusA": "17",
         "category": 4,
@@ -10624,8 +10624,8 @@
       "2_6_13": {
         "tossupQ": "MATH  Multiple Choice  A parallelogram whose adjacent sides are unequal is called a: \r\n \r\nW)  rhombus \r\nX)  rhomboid \r\nY)  deltoid \r\nZ)  rectangle",
         "tossupA": "X)  RHOMBOID",
-        "bonusQ": "MATH  Short Answer  Use the Binomial Theorem to expand and simplify the following \r\nequation:  (x – 1)4",
-        "bonusA": "x4 – 4x3 + 6x2 – 4x +1",
+        "bonusQ": "MATH  Short Answer  Use the Binomial Theorem to expand and simplify the following \r\nequation:  (x – 1)<sup>4</sup>",
+        "bonusA": "x<sup>4</sup> – 4x<sup>3</sup> + 6x<sup>2</sup> – 4x +1",
         "category": 4,
         "setNum": 2,
         "roundNum": 6,
@@ -10704,8 +10704,8 @@
       "2_6_21": {
         "tossupQ": "MATH  Short Answer  What is the longest chord of a circle also known as?",
         "tossupA": "DIAMETER OF THE CIRCLE  (ACCEPT:  DIAMETER)",
-        "bonusQ": "MATH  Short Answer  Solve the following equation for b:  \r\nd\r\ndc\r\nb\r\nba)()(+=+",
-        "bonusA": "b = \r\nc\r\nad",
+        "bonusQ": "MATH  Short Answer  Solve the following equation for b:  (a+b)/b = (c+d)/d",
+        "bonusA": "b = ad/c",
         "category": 4,
         "setNum": 2,
         "roundNum": 6,
@@ -10852,10 +10852,10 @@
         "catDiff": "3.4"
       },
       "1_4_11": {
-        "tossupQ": "MATH  Short Answer  Simplify the following expression:  5221xx",
-        "tossupA": "109x  (ACCEPT:  109x)",
+        "tossupQ": "MATH  Short Answer  Simplify the following expression:  x<sup>1/2</sup><sup>2/5</sup>",
+        "tossupA": "x<sup>9/10</sup>  (ACCEPT:  10th root of x<sup>9</sup>)",
         "bonusQ": "MATH  Short Answer  What is the slope of a line perpendicular to the line given by the graph of \r\nthe equation, –5x = –6y + 4",
-        "bonusA": "–\r\n5\r\n6",
+        "bonusA": "-6/5",
         "category": 4,
         "setNum": 1,
         "roundNum": 4,
@@ -10924,7 +10924,7 @@
       "1_4_18": {
         "tossupQ": "MATH  Multiple Choice  Which of the following is NOT a Pythagorean triple: \r\n \r\nW)  15, 20, 25 \r\nX)  10, 24, 26 \r\nY)  16, 24, 30 \r\nZ)  33, 44, 55",
         "tossupA": "Y)  16, 24, 30",
-        "bonusQ": "MATH  Short Answer  Evaluate the following expression when a = \r\n3\r\n1, b = 4, c = –1, and  \r\nd = –5:   2[3a – (b + c) – 4d]",
+        "bonusQ": "MATH  Short Answer  Evaluate the following expression when a = 1/3, b = 4, c = –1, and  \r\nd = –5:   2[3a – (b + c) – 4d]",
         "bonusA": "36",
         "category": 4,
         "setNum": 1,
@@ -11044,8 +11044,8 @@
       "2_9_5": {
         "tossupQ": "MATH  Short Answer  What is the most common name for the theorem proved by Gauss which \r\nstates that “every polynomial of degree n  ≥ 1 with real or complex coefficients has n real or \r\ncomplex roots”?",
         "tossupA": "THE FUNDAMENTAL THEOREM OF ALGEBRA",
-        "bonusQ": "MATH  Short Answer  Simplify the following fractional radicand to an expression that has the \r\nlowest whole number radicand:  \r\n3\r\n2",
-        "bonusA": "6\r\n3\r\n1",
+        "bonusQ": "MATH  Short Answer  Simplify the following fractional radicand to an expression that has the \r\nlowest whole number radicand:  &radic;(2/3)",
+        "bonusA": "1/3 &radic;6",
         "category": 4,
         "setNum": 2,
         "roundNum": 9,
@@ -11122,7 +11122,7 @@
         "catDiff": "0.9"
       },
       "2_9_13": {
-        "tossupQ": "MATH  Short Answer  Simplify the ratio of the following factorial:  4!6!   (read as: 4 factorial \r\ndivided by 6 factorial)",
+        "tossupQ": "MATH  Short Answer  Simplify the ratio of the following factorials:  4!/6!   (read as: 4 factorial \r\ndivided by 6 factorial)",
         "tossupA": "1/30  (ACCEPT:  0.033)",
         "bonusQ": "MATH  Short Answer  A recipe calls for flour, sugar and butter to be mixed in a ratio of \r\n 7 to 5 to 2, respectively.  Assuming there is enough sugar and butter to use all the flour and 20 \r\npounds of flour is available, how many pounds of the mixture can be made?",
         "bonusA": "40",
@@ -11282,7 +11282,7 @@
         "catDiff": "1.9"
       },
       "1_9_4": {
-        "tossupQ": "MATH  Multiple Choice  If 5xe = 30, which of the following is the value of x, assuming that the \r\nnatural log of 2 = 0.7, and the natural log of 15 = 2.7: \r\n \r\nW)  15 \r\nX)  16 \r\nY)  17 \r\nZ)  18",
+        "tossupQ": "MATH  Multiple Choice  If e<sup>x/5</sup> = 30, which of the following is the value of x, assuming that the \r\nnatural log of 2 = 0.7, and the natural log of 15 = 2.7: \r\n \r\nW)  15 \r\nX)  16 \r\nY)  17 \r\nZ)  18",
         "tossupA": "Y)  17 \r\n \r\n(Solution: x/5 = ln 15 + ln 2 = 3.4;  x/5 = 3.4; x = 17)",
         "bonusQ": "MATH  Short Answer  If the area of a regular pentagon is 280 square centimeters, what is the \r\nlength, in centimeters, of each side if the apothem is 16 centimeters?",
         "bonusA": "7 \r\n \r\n(Solution:  A = ½ ap;  280 = ½ (16)(p); p = 35/5 = 7 cm)",
@@ -11542,8 +11542,8 @@
         "catDiff": "0.10"
       },
       "2_10_5": {
-        "tossupQ": "MATH  Short Answer  Convert to both radians and degrees the angle that equals one-half of 3π4  \r\nradians:",
-        "tossupA": "3π8  AND 67.5°",
+        "tossupQ": "MATH  Short Answer  Convert to both radians and degrees the angle that equals one-half of 3π/4  \r\nradians:",
+        "tossupA": "3π/8  AND 67.5°",
         "bonusQ": "MATH  Short Answer  A merchant wants to mix 2 types of sugar that sell for $0.40 per gram and \r\n$0.60 per gram, respectively.  If he wants a mixture of 5 grams that sells for $0.58 per gram, how \r\nmany grams of each should he mix?",
         "bonusA": "0.5 GRAMS OF $0.40  PLUS  4.5 GRAMS OF $0.60",
         "category": 4,
@@ -11622,7 +11622,7 @@
         "catDiff": "0.10"
       },
       "2_10_13": {
-        "tossupQ": "MATH  Short Answer  The sine of θ (read as: theta) is positive if the angle terminates in what \r\ntwo Quadrants of the Cartesian coordinate system?",
+        "tossupQ": "MATH  Short Answer  The sine of θ (read as: theta) is positive if the angle terminates in what \r\ntwo quadrants of the Cartesian coordinate system?",
         "tossupA": "I AND II  (ACCEPT:  1 AND 2)",
         "bonusQ": "MATH  Short Answer  What is the slope of a line that passes through the points (5, 3) and  \r\n(-1, 1)?",
         "bonusA": "1/3",
@@ -11795,7 +11795,7 @@
         "tossupQ": "MATH  Short Answer  In algebra, what is a second degree polynomial equation most commonly \r\ncalled?",
         "tossupA": "QUADRATIC  (ACCEPT:  QUADRATIC EQUATION)",
         "bonusQ": "MATH  Short Answer  What is the area of an equilateral triangle whose side is 6?",
-        "bonusA": "93   (ACCEPT:  15 – 16) \r\n \r\n(Solution:  A = 39\r\n4\r\n32=s)",
+        "bonusA": "9&radic;3   (ACCEPT:  15 – 16) \r\n \r\n(Solution:  A = s<sup>2</sup>&radic;3/4 = 9&radic;3",
         "category": 4,
         "setNum": 2,
         "roundNum": 5,
@@ -11874,7 +11874,7 @@
       "2_5_13": {
         "tossupQ": "MATH  Short Answer  What is the sum of the interior angles of a 6-sided polygon?",
         "tossupA": "720°",
-        "bonusQ": "MATH  Short Answer  Find the solution set of the following equation:  \r\n)14(\r\n2\r\n)32(\r\n2\r\n+\r\n=\r\n−xx",
+        "bonusQ": "MATH  Short Answer  Find the solution set of the following equation:  2/(2x-3) = 2/(4x+1)",
         "bonusA": "–2",
         "category": 4,
         "setNum": 2,
@@ -11953,9 +11953,9 @@
       },
       "2_5_21": {
         "tossupQ": "MATH  Short Answer  Convert 300° into radians:",
-        "tossupA": "5π3",
+        "tossupA": "5π/3",
         "bonusQ": "MATH  Short Answer  Find the following number:  When the number, one-half of the number, \r\nand one-quarter of the number are added, and then 8 is subtracted, the result is 2 less than twice the \r\nnumber:",
-        "bonusA": "-24 \r\n \r\n(Solution:  n + 1/2n + 1/4n – 8 = 2n -2)",
+        "bonusA": "-24 \r\n \r\n(Solution:  n + 1/2 n + 1/4 n – 8 = 2n -2)",
         "category": 4,
         "setNum": 2,
         "roundNum": 5,
@@ -12045,7 +12045,7 @@
         "tossupQ": "MATH  Short Answer  The number 22.5 is 5 percent of what number?",
         "tossupA": "450",
         "bonusQ": "MATH  Multiple Choice  Which of the following numbers is divisible by 9: \r\n \r\nW)  3191 \r\nX)  3527 \r\nY)  212,526 \r\nZ)  439,327",
-        "bonusA": "Y)  212,526 \r\n \r\n(Solution:  sum of the numbers divisible by 9)",
+        "bonusA": "Y)  212,526 \r\n \r\n(Solution:  sum of the digits divisible by 9)",
         "category": 4,
         "setNum": 2,
         "roundNum": 2,
@@ -12122,8 +12122,8 @@
         "catDiff": "0.2"
       },
       "2_2_13": {
-        "tossupQ": "MATH  Multiple Choice  Which of the following is a rational number: \r\n \r\nW)  1+4 \r\nX)  2+5 \r\nY)  6 \r\nZ)  π",
-        "tossupA": "W)  1+4",
+        "tossupQ": "MATH  Multiple Choice  Which of the following is a rational number: \r\n \r\nW)  1+&radic;4 \r\nX)  2+&radic;5 \r\nY)  &radic;6 \r\nZ)  π",
+        "tossupA": "W)  1+&radic;4",
         "bonusQ": "MATH  Short Answer  If the average of 5 numbers is 16, what is the sum of the 5 numbers?",
         "bonusA": "80",
         "category": 4,
@@ -12202,10 +12202,10 @@
         "catDiff": "0.2"
       },
       "2_2_21": {
-        "tossupQ": "MATH  Short Answer  Convert 5π3  radians into degrees:",
+        "tossupQ": "MATH  Short Answer  Convert 5π/3  radians into degrees:",
         "tossupA": "300°",
         "bonusQ": "MATH  Short Answer  What are the median, mean and mode of the following set of numbers:  \r\n2, 3, 3, 8, 8, 8, 10, 14",
-        "bonusA": "MEDIAN = 8.;  MEAN = 7;  MODE = 8",
+        "bonusA": "MEDIAN = 8;  MEAN = 7;  MODE = 8",
         "category": 4,
         "setNum": 2,
         "roundNum": 2,
@@ -12294,8 +12294,8 @@
       "2_12_5": {
         "tossupQ": "MATH  Multiple Choice  Which of the following Venn diagrams would best represent a \r\nrelationship where sets A and B have no elements in common: \r\n \r\nW)  2 non-overlapping shaded circles \r\nX)  portions of circles A and B are overlapped and the intersection point is shaded \r\nY)  circle A is entirely within circle B and only circle A is shaded \r\nZ)  only circle A is shown",
         "tossupA": "W)  2 NON-OVERLAPPING SHADED CIRCLES",
-        "bonusQ": "BONUS \r\n \r\n5)",
-        "bonusA": "5)  MATH  Short Answer  Use the Binomial Theorem to expand and simplify the following \r\nequation:  (1 – 2x)3 \r\n \r\nANSWER :  1 – 6x + 12x2 – 8x3",
+        "bonusQ": "MATH  Short Answer  Use the Binomial Theorem to expand and simplify the following \r\nequation:  (1 – 2x)<sup>2</sup>",
+        "bonusA": "1 – 6x + 12x2 – 8x3",
         "category": 4,
         "setNum": 2,
         "roundNum": 12,
@@ -37263,8 +37263,8 @@
         "catDiff": "4.10"
       },
       "2_10_3": {
-        "tossupQ": "MATH Multiple Choice Which of the following is a binomial? \r\nW) \r\n2\r\n2x \r\nX)   252−+xx\r\nY) π  \r\nZ)  2−x\r\n \r\nANSWER : Z) 2−x\r\n \r\nBONUS \r\n \r\n3) MATH Short Answer What are all the integral factors of the number 22?",
-        "tossupA": "BONUS \r\n \r\n3) MATH Short Answer What are all the integral factors of the number 22? \r\n \r\nANSWER:",
+        "tossupQ": "MATH Multiple Choice Which of the following is a binomial? \r\nW) \r\n2\r\n2x \r\nX)   252−+xx\r\nY) π  \r\nZ)  2−x\r\n",
+        "tossupA": "Z) 2−x\r\n",
         "bonusQ": "MATH Short Answer What are all the integral factors of the number 22?",
         "bonusA": "1, 2, 11, 22 (ACCEPT: + or - 1, 2, 11, 22)",
         "category": 4,
@@ -40266,7 +40266,7 @@
         "tossupQ": "ENERGY Multiple Choice When the ambient temperature increases, the value of resistance \r\nfor a typical resistor: \r\n \r\nW) Is greater \r\nX) Is smaller \r\nY) Does not change \r\nZ) May change depending on the flow of charges",
         "tossupA": "W) IS GREATER",
         "bonusQ": "ENERGY Multiple Choice At high temperatures, the capacitance of a capacitor will: \r\n \r\nW) Not increase, because the magnetic field is too strong \r\nX) Not increase because the value of capacitance is unaffected by temperature \r\nY) Increase slightly \r\nZ) Increase greatly",
-        "bonusA": "X) NOT INCREASE BECAUSE THE VALUE OF CAPACITANCE IS UNAFFECTED \r\nBY TEMPERATURE \r\n \r\n \r\n \r\nTOSS- UP \r\n \r\n4) EARTH AND SPACE SCIENCE Multiple Choice Which of the following natural resources is \r\nmost abundant in the continental United States? \r\n \r\nW) Natural gas \r\nX) Petroleum \r\nY) Coal \r\nZ) Uranium \r\n \r\nANSWER: Y) COAL \r\n \r\nBONUS \r\n \r\n4) EARTH AND SPACE SCIENCE Short Answer What is the term for the structural geologic \r\nfeature in which there is an increased dip in otherwise gently dipping strata? \r\n \r\nANSWER: MONOCLINE",
+        "bonusA": "X) NOT INCREASE BECAUSE THE VALUE OF CAPACITANCE IS UNAFFECTED \r\nBY TEMPERATURE",
         "category": 5,
         "setNum": 4,
         "roundNum": 15,
