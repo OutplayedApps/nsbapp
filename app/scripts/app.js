@@ -63,17 +63,17 @@ angular.module('IonicGulpSeed', ['ionic', 'ngCordova', 'ngResource', 'ngSanitize
                         controller: 'MainController'
                 //    }
                 //}
-            })
-            .state('about', {
+            });
+            /*.state('about', {
                 url: '/about',
                 cache: true,
                 //views: {
                 //    'viewContent': {
-                        templateUrl: 'templates/views/about.html'//,
-                        //controller: 'MainMenuController'
+                        templateUrl: 'templates/views/about.html',//,
+                        controller: 'AboutController'
                  //   }
                 //}
-            });
+            });*/
 
 
         // redirects to default route for undefined routes
