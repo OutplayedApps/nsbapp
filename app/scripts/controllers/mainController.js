@@ -109,6 +109,33 @@ angular.module('IonicGulpSeed')
         }
 
 
+        $scope.showHelpPopup = function() {
+            var myPopup = $ionicPopup.show({
+                templateUrl: 'templates/views/help.html',
+                title: 'Help',
+                //subTitle: 'Please use normal things',
+                scope: $scope,
+                buttons: [
+                    { text: 'Close',
+                        type: 'button-dark button-outline'
+                    },
+                    /*{
+                     text: '<b>Save</b>',
+                     type: 'button-positive',
+                     onTap: function(e) {
+                     if (!$scope.data.wifi) {
+                     //don't allow the user to close unless he enters wifi password
+                     e.preventDefault();
+                     } else {
+                     return $scope.data.wifi;
+                     }
+                     }
+                     }*/
+                ],
+                cssClass: 'popupAbout'
+            });
+        }
+
 
 
     });

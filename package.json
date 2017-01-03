@@ -68,7 +68,8 @@
   "cordovaPlugins": [
     "cordova-plugin-splashscreen",
     "cordova-plugin-whitelist",
-    "cordova-plugin-admobpro"
+    "cordova-plugin-admobpro",
+    "cordova-plugin-facebookads"
   ],
   "cordovaPlatforms": []
 }

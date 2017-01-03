@@ -35,7 +35,7 @@ angular.module('IonicGulpSeed')
 
 
         };
-        var showAd = function() {
+        var showAdOld = function() {
             // select the right Ad Id according to platform
             var admobid = {};
             if( /(android)/i.test(navigator.userAgent) ) { // for android & amazon-fireos
@@ -54,10 +54,76 @@ angular.module('IonicGulpSeed')
                     interstitial: 'ca-app-pub-xxx/kkk'
                 };
             }
-            if(AdMob) AdMob.createBanner({
+            if (AdMob) AdMob.createBanner({
                 adId: admobid.banner,
                 position: AdMob.AD_POSITION.TOP_CENTER,
                 autoShow: true });
+        }
+
+        var showAd = function() {
+            var ad_units = {
+                ios : {
+                    banner:"your_ad_place_id",
+                    interstitial:"your_ad_place_id",
+                    nativeAd:"372948276430920_372948909764190"
+                },
+                android : {
+                    banner:"your_ad_place_id",
+                    interstitial:"your_ad_place_id",
+                    nativeAd:"372948276430920_372948909764190"
+                }
+            };
+
+// select the right Ad Id according to platform
+            var adid = (/(android)/i.test(navigator.userAgent)) ? ad_units.android : ad_units.ios;
+
+// set your hashed device id if testing on device (optional)
+            if(FacebookAds) FacebookAds.setOptions({
+                isTesting: true,
+                deviceHash: "18B9918C46B6A383E3D79973DBB9204D"
+            });
+
+            if(FacebookAds) FacebookAds.createBanner( adid.banner );
+
+            return;
+            //var nativeId = null;
+            /*function updateClickArea() {
+                if (nativeId != null) {
+                    // change the click area
+                    var offset = $("#nativead").offset();
+                    var y = offset.top - $(window).scrollTop();
+                    var x = offset.left - $(window).scrollLeft();
+                    var w = $("#nativead").width();
+                    var h = $("#nativead").height();
+                    if (FacebookAds) FacebookAds.setNativeAdClickArea(nativeId, x, y, w, h);
+                    //}
+                }
+            }*/
+
+            var nativeId;
+            document.addEventListener('onAdLoaded',function(data) {
+                console.debug(data);
+                if (data.adType == "native") {
+                    var adRes = data.adRes;
+                    //alert( JSON.stringify(adRes) );
+
+                    // show ad
+                    //var nativeId = data.adId;
+                    var nativeAdContent = adRes.title + '<br/>'
+                            + adRes.body
+                            + "<br/>rating: " + adRes.rating + ", " + adRes.buttonText + "<br/>"
+                            + adRes.socialContext + "<br/>"
+                            + "<img src='" + adRes.icon.url + "' width='" + adRes.icon.width + "' height='" + adRes.icon.height + "'/><br/>"
+                        //+ "<img src='" + adRes.coverImage.url + "' width='" + adRes.coverImage.width + "' height='" + adRes.coverImage.height + "'/>"
+                        ;
+                    console.log(nativeAdContent);
+                    $('#nativeAd').html(nativeAdContent);
+
+                    updateClickArea();
+                }
+            });
+
+            if(FacebookAds) FacebookAds.createNativeAd(adid.nativeAd);
         }
 
         // public api

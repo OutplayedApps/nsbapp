@@ -1,4 +1,4 @@
-<ion-view id="home" hide-back-button="true" hide-nav-bar="true">
+<ion-view id="home" hide-back-button="true" hide-nav-bar="false">
     <ion-header-bar align-title="center" class="bar-positive">
     <button class="button button-icon icon ion-navicon" menu-toggle="left" style="display: block;"></button>
         <h1 class="title">Science Bowl</h1>
@@ -80,6 +80,12 @@
                     <span ng-show="!timer.time2">Start clock (20 s)</span>
                     <span ng-show="timer.time2" ng-bind="timer.time2"></span>
                 </button>
+            </div>
+
+            <div id="nativeAd" style="width:100%;">
+            </div>
+
+
             </div>
 
 
