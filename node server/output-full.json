@@ -40855,7 +40855,7 @@
       "4_17_13": {
         "tossupQ": "MATH Short Answer What is the sum of all positive integer factors of 6?",
         "tossupA": "12",
-        "bonusQ": "MATH Short Answer Assuming all functions are defined, and expressing your answer in \r\nsimplest form, evaluate (n\r\n2\r\n + 7n – 8)/(n – 1) x (n\r\n2\r\n – 4)/(n\r\n2\r\n + 6n – 16) \r\nRead as: open parenthesis n squared plus 7n minus 8 close parenthesis over open parenthesis \r\nn minus 1 close parenthesis times the quantity open parenthesis n squared minus 4 close \r\nparenthesis over open parenthesis n squared plus 6n minus 16 close parenthesis.",
+        "bonusQ": "MATH Short Answer Assuming all functions are defined, and expressing your answer in \r\nsimplest form, evaluate (n<radic>2</radic> + 7n – 8)/(n – 1) x (n<radic>2</radic> – 4)/(n<radic>2</radic> + 6n – 16) \r\nRead as: open parenthesis n squared plus 7n minus 8 close parenthesis over open parenthesis \r\nn minus 1 close parenthesis times the quantity open parenthesis n squared minus 4 close \r\nparenthesis over open parenthesis n squared plus 6n minus 16 close parenthesis.",
         "bonusA": "n + 2",
         "category": 4,
         "setNum": 4,
@@ -40925,8 +40925,8 @@
       "4_17_20": {
         "tossupQ": "MATH Short Answer What are the x-intercepts for the function f(x) = x² - x - 12?",
         "tossupA": "(4, 0) AND (-3, 0) (ACCEPT: 4 AND -3)",
-        "bonusQ": "MATH Short Answer Find the reference angle to angle A =",
-        "bonusA": "",
+        "bonusQ": "MATH Short Answer Find the reference angle to angle A =21 pi/8",
+        "bonusA": "3 pi/8",
         "category": 4,
         "setNum": 4,
         "roundNum": 17,
@@ -40963,7 +40963,7 @@
         "catDiff": "0.17"
       },
       "4_17_24": {
-        "tossupQ": "MATH Multiple Choice Which of the following is true about the function \r\n4\r\n5\r\n6+=3xy\r\n? \r\nW) The function is odd \r\nX) The function is even \r\nY) The function is positive \r\nZ) The function is neither odd nor even",
+        "tossupQ": "MATH Multiple Choice Which of the following is true about the function y=6/5x<radic>3</radic>+4? W) The function is odd \r\nX) The function is even \r\nY) The function is positive \r\nZ) The function is neither odd nor even",
         "tossupA": "Z) THE FUNCTION IS NEITHER ODD NOR EVEN",
         "bonusQ": "MATH Short Answer What is the radius in units of a cone with a volume of 384π cubic \r\nunits and a height of 8 units?",
         "bonusA": "12",
@@ -41133,7 +41133,7 @@
         "catDiff": "3.12"
       },
       "4_12_16": {
-        "tossupQ": "MATH Short Answer \r\nSolve\t\r  for\t\r  a:  a\t\r  -­‐\t\r  29\t\r  =    2\t\r  3\t\r  \t\r  \r\n \r\n(read as: the quantity a minus two over 9 equals two thirds)",
+        "tossupQ": "MATH Short Answer \r\nSolve\t\r  for\t\r  a:  (a\t\r  -­‐\t\r  -2)/9\t\r  =    2\t\r/3\t\r  \t\r  \r\n \r\n(read as: the quantity a minus two over 9 equals two thirds)",
         "tossupA": "8",
         "bonusQ": "MATH Short Answer You are going to meet a friend at a movie theater which is 4 miles \r\nfrom your house. You are riding your bike at an average rate of 10 miles per hour. Your friend \r\nlives 1.5 miles from the movie theater and walks at an average rate of 3 miles per hour. How \r\nmany minutes ahead of you should your friend leave so that you meet at the movie theater at \r\nthe same time?",
         "bonusA": "6",
@@ -41253,7 +41253,7 @@
         "catDiff": "1.4"
       },
       "4_4_3": {
-        "tossupQ": "MATH Short Answer Simplify completely the fraction \r\n23\r\n11\r\n.",
+        "tossupQ": "MATH Short Answer Simplify completely the fraction \r\n23/\r\n11\r\n.",
         "tossupA": "23\r\n11",
         "bonusQ": "MATH Multiple Choice If you were to graph the inequality x < -7 (read as: x is less than \r\nnegative 7) on a number line, what would it look like? \r\n \r\nW) It would have an open circle at -7 and a ray extending from -7 on the right to negative infinity \r\non the left \r\nX) It would have a closed circle at -7 and a ray extending from -7 on the right to negative infinity \r\non the left \r\nY) It would have an open circle at 7 and a ray extending from 7 on the right to negative infinity \r\non the left \r\nZ) It would have open circles at -7 and 7 and be shaded in between them",
         "bonusA": "W) IT WOULD HAVE AN OPEN CIRCLE AT -7 AND A RAY EXTENDING FROM -7 \r\nON THE RIGHT TO NEGATIVE INFINITY ON THE LEFT",
@@ -41623,7 +41623,7 @@
         "catDiff": "0.16"
       },
       "4_16_15": {
-        "tossupQ": "MATH Multiple Choice Which of the following values is smallest? \r\n \r\nW) 4! (read as: four factorial) \r\nX) 5\r\n2\r\n \r\nY)\t\r  |!100|\t\r    x\t\r  4\t\r  (read\t\r  as:\t\r  the\t\r  absolute\t\r  value\t\r  of\t\r  the\t\r  square\t\r  root\t\r  of\t\r  100\t\r  times\t\r  4)\t\r  \r\n \r\nZ) |√625| (read as: the absolute value of the square root of 625)",
+        "tossupQ": "MATH Multiple Choice Which of the following values is smallest? \r\n \r\nW) 4! (read as: four factorial) \r\nX) 5<radic>2</radic> Y)\t\r  |$radic;100|\t\r    x\t\r  4\t\r  (read\t\r  as:\t\r  the\t\r  absolute\t\r  value\t\r  of\t\r  the\t\r  square\t\r  root\t\r  of\t\r  100\t\r  times\t\r  4)\t\r  \r\n \r\nZ) |√625| (read as: the absolute value of the square root of 625)",
         "tossupA": "W) 4!",
         "bonusQ": "MATH Short Answer What is the sum of the numbers 1 through 250?",
         "bonusA": "31,375",
@@ -41653,9 +41653,9 @@
         "catDiff": "1.16"
       },
       "4_16_18": {
-        "tossupQ": "MATH Short Answer What is the degree of the polynomial 7x\r\n2\r\ny\r\n4\r\n + 6x+ 7y + 10 (read as: 7 \r\nx squared y to the fourth plus 6 x plus 7 y plus 10)?",
+        "tossupQ": "MATH Short Answer What is the degree of the polynomial 7x<radic>2</radic>y<radic>4</radic> + 6x+ 7y + 10 (read as: 7 \r\nx squared y to the fourth plus 6 x plus 7 y plus 10)?",
         "tossupA": "6",
-        "bonusQ": "MATH Short Answer What is the equation of the axis of symmetry for the parabola:       \r\ny = 2x\r\n2\r\n – 3x – 5?",
+        "bonusQ": "MATH Short Answer What is the equation of the axis of symmetry for the parabola:       \r\ny = 2x<radic>2</radic> – 3x – 5?",
         "bonusA": "x = 3/4 OR x = 0.75",
         "category": 4,
         "setNum": 4,
@@ -41783,8 +41783,8 @@
         "catDiff": "0.12"
       },
       "3_12_6": {
-        "tossupQ": "MATH Short Answer Express the following radical in its simplest rationalized form: \r\n8\r\n3",
-        "tossupA": "4\r\n23",
+        "tossupQ": "MATH Short Answer Express the following radical in its simplest rationalized form: 3/&radic;8",
+        "tossupA": "3&radic;2/4",
         "bonusQ": "MATH Short Answer Giving your answer in terms of pi, what is the volume, in cubic meters, of \r\na right circular cone that has a height of 10 meters and a radius of 3 meters?",
         "bonusA": "30π",
         "category": 4,
@@ -41833,10 +41833,10 @@
         "catDiff": "0.12"
       },
       "3_12_11": {
-        "tossupQ": "MATH Short Answer Remove all negative exponents and simplify the following expression: \r\nx\r\nzyx\r\n4\r\n4430−",
-        "tossupA": "3\r\n4\r\nxy\r\nz\r\n (ACCEPT: \r\nxy\r\nz\r\n3\r\n4\r\n)",
-        "bonusQ": "MATH Short Answer Expand the following expression, giving your answer in standard \r\nbinomial form: (4x\r\n4\r\ny\r\n2\r\n + 3)\r\n2",
-        "bonusA": "16x\r\n8\r\ny\r\n4\r\n + 24x\r\n4\r\ny\r\n2\r\n + 9",
+        "tossupQ": "MATH Short Answer Remove all negative exponents and simplify the following expression: 4x<radic>0</radic>y<radic>-3</radic>z<radic>4</radic>/4x",
+        "tossupA": "z<radic>4</radic>/xy<radic>3</radic>",
+        "bonusQ": "MATH Short Answer Expand the following expression, giving your answer in standard \r\nbinomial form: (4x<radic>4</radic>y<radic>2</radic> + 3)<radic>2</radic>",
+        "bonusA": "16x<radic>8</radic>y<radic>4</radic> + 24x<radic>4</radic>y<radic>2</radic> + 9",
         "category": 4,
         "setNum": 3,
         "roundNum": 12,
@@ -41933,10 +41933,10 @@
         "catDiff": "0.12"
       },
       "3_12_21": {
-        "tossupQ": "MATH Short Answer Order the following 4 radicals from the smallest to the largest: \r\n3\r\n2\r\n; \r\n3\r\n2\r\n; \r\n3\r\n; \r\n2",
-        "tossupA": "3\r\n2\r\n; \r\n2\r\n; \r\n3\r\n; 3\r\n2",
-        "bonusQ": "MATH Short Answer Multiply the following 2 radicals, giving your answer to the nearest \r\nwhole number: \r\n)162)(43(\r\n33",
-        "bonusA": "24 \r\n \r\n(Solution: 3×2×\r\n24646164\r\n333\r\n==!\r\n)",
+        "tossupQ": "MATH Short Answer Order the following 4 radicals from the smallest to the largest: 3$radic;2; cube root of 2; $radic;3; $radic;2",
+        "tossupA": "cube root of 2; $radic;2; $radic;3; 3$radic;2",
+        "bonusQ": "MATH Short Answer Multiply the following 2 radicals, giving your answer to the nearest \r\nwhole number: 3 cube root of 4 times 2 cube root of 16,
+        "bonusA": "24 ,
         "category": 4,
         "setNum": 3,
         "roundNum": 12,
@@ -42003,8 +42003,8 @@
         "catDiff": "0.15"
       },
       "3_15_3": {
-        "tossupQ": "MATH Short Answer Provide the prime factors over the integers for the following expression:  \r\nx\r\n3\r\n + 8",
-        "tossupA": "(x + 2) and (x\r\n2\r\n – 2x + 4)  (DO NOT ACCEPT (x + 2) times (x\r\n2\r\n – 2x + 4))",
+        "tossupQ": "MATH Short Answer Provide the prime factors over the integers for the following expression:  \r\nx\r\n<sup>3</sup>\r\n + 8",
+        "tossupA": "(x + 2) and (x\r\n<sup>2</sup>\r\n – 2x + 4)  (DO NOT ACCEPT (x + 2) times (x\r\n<sup>2</sup>\r\n – 2x + 4))",
         "bonusQ": "MATH Short Answer In how many different ways can a team of 6 students be selected from a \r\ngroup of 10 students?",
         "bonusA": "210 \r\n \r\n(Solution: \r\nn\r\nC\r\n r\r\n = n!/[r!(n-r)!] = 10!/[6!(10 – 6)!] = 210)",
         "category": 4,
@@ -42103,10 +42103,10 @@
         "catDiff": "0.15"
       },
       "3_15_13": {
-        "tossupQ": "MATH Short Answer Solve the following logarithmic equation for x: log\r\nx \r\n25\r\n1\r\n= –2",
+        "tossupQ": "MATH Short Answer Solve the following logarithmic equation for x: log\r\n<sub>x</sub> \r\n25\r\n<sup>-1</sup>\r\n= –2",
         "tossupA": "5",
         "bonusQ": "MATH Short Answer Find the surface area, in terms of pi in inches squared, of a closed right \r\ncircular cylinder given that its radius is 3 inches and its length or height is 10 inches:",
-        "bonusA": "78π \r\n \r\n(Solution: SA = 2πr\r\n2\r\n + 2πrh; SA = 2(π)(3\r\n2\r\n) + 2(π)(3)(10) = 78π)",
+        "bonusA": "78π \r\n \r\n(Solution: SA = 2πr\r\n<sup>2</sup>\r\n + 2πrh; SA = 2(π)(3\r\n<sup>2</sup>\r\n) + 2(π)(3)(10) = 78π)",
         "category": 4,
         "setNum": 3,
         "roundNum": 15,
@@ -42153,10 +42153,10 @@
         "catDiff": "0.15"
       },
       "3_15_18": {
-        "tossupQ": "MATH Multiple Choice Which of the following is the equation of a parabola whose graph \r\nopens downward: \r\n \r\nW) y = –x\r\n2\r\n \r\nX) y = x\r\n3\r\n \r\nY) y = x\r\n2\r\n + 2 \r\nZ) y = x\r\n2\r\n – 2",
-        "tossupA": "W) y = –x\r\n2",
+        "tossupQ": "MATH Multiple Choice Which of the following is the equation of a parabola whose graph \r\nopens downward: \r\n \r\nW) y = –x<sup>2</sup> X) y = x<sup>3</sup>Y) y = x<sup>2</sup> + 2 \r\nZ) y = x<sup>2</sup> – 2",
+        "tossupA": "W) y = –x<sup>2</sup>",
         "bonusQ": "MATH Short Answer A rectangular water storage tank measures 30 meters long, 10 meters \r\nwide and 12 meters deep. If water is leaking out at a constant rate of 0.5 cubic meters per minute, \r\nhow many hours will it take for the water level to drop one meter?",
-        "bonusA": "10 \r\n \r\n(Solution: 300m\r\n3\r\n/(0.5m\r\n3\r\n/min) = 600 min/(60 min/hr) = 10 hrs)",
+        "bonusA": "10 \r\n \r\n(Solution: 300m\r\n<sup>3</sup>\r\n/(0.5m\r\n<sup>2</sup>\r\n/min) = 600 min/(60 min/hr) = 10 hrs)",
         "category": 4,
         "setNum": 3,
         "roundNum": 15,
@@ -42335,7 +42335,7 @@
       "5_4_11": {
         "tossupQ": "MATH Short Answer In a group of 30 students, 20 take French, 15 take Spanish, and 5 \r\ntake neither language. How many students take both French and Spanish?",
         "tossupA": "10",
-        "bonusQ": "MATH Short Answer Simplify the following expression completely if the denominator ≠ 0: \r\nx3+ 2x2y  +  xy2\r\nx\r\n2\r\n+ yx\r\n (read as: open parenthesis x cubed plus 2 x squared y plus x y squared close \r\nparenthesis over open parenthesis x squared plus yx close parenthesis).",
+        "bonusQ": "MATH Short Answer Simplify the following expression completely if the denominator ≠ 0: (\r\nx<sup>3</sup>+ 2x<sup>2</sup>y  +  xy<sup>2</sup>)/(\r\nx\r\n<sup>2</sup>\r\n+ yx\r\n) (read as: open parenthesis x cubed plus 2 x squared y plus x y squared close \r\nparenthesis over open parenthesis x squared plus yx close parenthesis).",
         "bonusA": "x + y",
         "category": 4,
         "setNum": 5,
@@ -42385,7 +42385,7 @@
       "5_4_16": {
         "tossupQ": "MATH Short Answer What is the smallest non-negative integer which is divisible by each \r\nof 2, 3 and 4?",
         "tossupA": "0",
-        "bonusQ": "MATH Short Answer Providing your answer in terms of pi and in square units, what is the \r\narea of the shape described by the equation x2+ y2=  2?",
+        "bonusQ": "MATH Short Answer Providing your answer in terms of pi and in square units, what is the \r\narea of the shape described by the equation x<sup>2</sup>+ y<sup>2</sup>=  2?",
         "bonusA": "2π",
         "category": 4,
         "setNum": 5,
@@ -42683,7 +42683,7 @@
         "catDiff": "1.6"
       },
       "5_6_21": {
-        "tossupQ": "MATH Short Answer Evaluate the complex expression (3i)\r\n2\r\n (the quantity 3 i squared) .",
+        "tossupQ": "MATH Short Answer Evaluate the complex expression (3i)<sup>2</sup> (the quantity 3 i squared) .",
         "tossupA": "-9",
         "bonusQ": "MATH Short Answer Solve the following inequality: 4 – x < 6 + 3x.",
         "bonusA": "x > -1/2",
@@ -42763,7 +42763,7 @@
         "catDiff": "6.2"
       },
       "6_2_4": {
-        "tossupQ": "MATH Short Answer When \r\n \r\n10−4 is written in decimal form, how many zeroes are to the right \r\nof the decimal?",
+        "tossupQ": "MATH Short Answer When \r\n \r\n10<sup>-4</sup> is written in decimal form, how many zeroes are to the right \r\nof the decimal?",
         "tossupA": "3",
         "bonusQ": "MATH Short Answer A gumball machine contains 30 green, 14 red, and 12 blue gumballs. \r\nProviding your answer as a fraction in lowest terms, if you put enough money in for one \r\ngumball, what is the probability that you will get a red gumball?",
         "bonusA": "14",
@@ -42824,7 +42824,7 @@
       },
       "6_2_10": {
         "tossupQ": "MATH Short Answer Providing your answer as a fraction in lowest terms, what is the \r\nprobability that, if you toss a standard die once, you roll a two?",
-        "tossupA": "16",
+        "tossupA": "1/6",
         "bonusQ": "MATH Short Answer If Chris weighs 15 pounds more than Stephanie, and together they \r\nweigh 99 pounds, what is Chris’ weight in pounds?",
         "bonusA": "57",
         "category": 4,
@@ -42946,7 +42946,7 @@
         "tossupQ": "MATH Short Answer The measures of two acute angles in a right triangle are in the ratio \r\n2:7 [2 to 7]. What are the measures in degrees of these two angles?",
         "tossupA": "20° AND 70°",
         "bonusQ": "MATH Short Answer Express the product of the two binomials 3x + 4 and 2x +1 in \r\nstandard polynomial form.",
-        "bonusA": "6x2 + 11x + 4",
+        "bonusA": "6x<sup>2</sup> + 11x + 4",
         "category": 4,
         "setNum": 6,
         "roundNum": 2,
@@ -43015,7 +43015,7 @@
       "6_5_4": {
         "tossupQ": "MATH Short Answer What is the slope of the line through the points (17, -13) and (17, 8)?",
         "tossupA": "UNDEFINED (ACCEPT: NO SLOPE)",
-        "bonusQ": "MATH Short Answer Consider the following equation: 푦= 24푥 − 36푥2 [y equals open \r\nparenthesis 24 x minus 36 close parenthesis over x squared]. When y = 3, what are the \r\npossible values for x?",
+        "bonusQ": "MATH Short Answer Consider the following equation: y= (24x − 36)<sup>2</sup> [y equals open \r\nparenthesis 24 x minus 36 close parenthesis over x squared]. When y = 3, what are the \r\npossible values for x?",
         "bonusA": "6 AND 2",
         "category": 4,
         "setNum": 6,
@@ -43133,7 +43133,7 @@
         "catDiff": "3.5"
       },
       "6_5_16": {
-        "tossupQ": "MATH Multiple Choice The equation 푥24+ 푦29=1 [x squared over 4 plus y squared over \r\n9 equals 1] has a graph that is an example of which of the following shapes? \r\n \r\nW) Parabola \r\nX) Ellipse \r\nY) Circle \r\nZ) Torus",
+        "tossupQ": "MATH Multiple Choice The equation x<sup>2</sup>4+ y<sup>2</sup>/9=1 [x squared over 4 plus y squared over \r\n9 equals 1] has a graph that is an example of which of the following shapes? \r\n \r\nW) Parabola \r\nX) Ellipse \r\nY) Circle \r\nZ) Torus",
         "tossupA": "X) ELLIPSE",
         "bonusQ": "MATH Short Answer Eight National Science Bowl contestants meet for the first time. Each \r\nshakes the hand of the other seven, except for one pair of contestants who refuse to shake \r\neach other’s hands. How many handshakes are exchanged?",
         "bonusA": "27",
@@ -43193,7 +43193,7 @@
         "catDiff": "3.5"
       },
       "6_5_22": {
-        "tossupQ": "MATH Multiple Choice Which of the following is the smallest integer greater than 10112 [101 \r\nto the power of one half]? \r\n \r\nW) 9 \r\nX) 10 \r\nY) 11 \r\nZ) 12",
+        "tossupQ": "MATH Multiple Choice Which of the following is the smallest integer greater than 101<sup>1/2</sup> [101 \r\nto the power of one half]? \r\n \r\nW) 9 \r\nX) 10 \r\nY) 11 \r\nZ) 12",
         "tossupA": "Y) 11",
         "bonusQ": "MATH Short Answer Given two coplanar angles whose sides are all noncollinear. What are \r\nall of the different numbers of points in which the angles can intersect?",
         "bonusA": "0, 1, 2, 3, AND 4",
@@ -43255,7 +43255,7 @@
       "4_14_3": {
         "tossupQ": "MATH Multiple Choice Which of the following can be equal to positive 4? \r\n \r\nW) |-3| x |1| (read as: the absolute value of negative 3 times the absolute value of 1) \r\nX) \r\n3\r\n2\r\n(read as: 2 cubed) \r\nY) \r\n16−\r\n(read as: the square root of negative 16) \r\nZ) \r\n24\r\n (read as: the square root of 4 squared)",
         "tossupA": "Z)\r\n24",
-        "bonusQ": "MATH Short Answer A triangle has an area of 9y\r\n2\r\n - 9y -10. The base of the triangle is 3y - 5. \r\nIn terms of y, what is the height of the triangle?",
+        "bonusQ": "MATH Short Answer A triangle has an area of 9y<sup>2</sup> - 9y -10. The base of the triangle is 3y - 5. \r\nIn terms of y, what is the height of the triangle?",
         "bonusA": "6y + 4",
         "category": 4,
         "setNum": 4,
@@ -43363,9 +43363,9 @@
         "catDiff": "0.14"
       },
       "4_14_14": {
-        "tossupQ": "MATH Short Answer \r\nWhat\t\r  is\t\r  !344\t\r  (read\t\r  as:\t\r  the\t\r  fourth\t\r  root\t\r  of\t\r  3\t\r  to\t\r  the\t\r  fourth)?",
+        "tossupQ": "MATH Short Answer \r\nWhat\t\r  is\t\r    the\t\r  fourth\t\r  root\t\r  of\t\r  3\t\r  to\t\r  the\t\r  fourth?",
         "tossupA": "3 (DO NOT ACCEPT: – 3)",
-        "bonusQ": "MATH Short Answer If n is positive, write the following in standard polynomial form:    \r\n(5n\r\n2\r\n – 500) ÷ (n + 10) (read as: the quantity 5 n squared minus 500 divided by the quantity n \r\nplus 10)?",
+        "bonusQ": "MATH Short Answer If n is positive, write the following in standard polynomial form:    \r\n(5n<sup>2</sup> – 500) ÷ (n + 10) (read as: the quantity 5 n squared minus 500 divided by the quantity n \r\nplus 10)?",
         "bonusA": "5n - 50",
         "category": 4,
         "setNum": 4,
@@ -43473,8 +43473,8 @@
         "catDiff": "0.14"
       },
       "4_14_27": {
-        "tossupQ": "MATH Multiple Choice Which of the following is a polynomial? \r\n \r\nW) a2 - 4a + 3 (read as: a squared minus 4 over a plus 3) \r\n \r\nX) 3a\r\n2\r\n - a\r\n-2\r\n + 1 (read as: 3 a squared minus a to the minus 2 plus one)\r\n \r\n \r\nY) 15a\r\n2 \r\n- a\r\n1.5\r\n - 3 (read as: 15 a squared minus a to the 1.5 minus three) \r\nZ) a\r\n3",
-        "tossupA": "Z) a\r\n3",
+        "tossupQ": "MATH Multiple Choice Which of the following is a polynomial? \r\n \r\nW) a<sup>2</sup> - 4/(a + 3) (read as: a squared minus 4 over a plus 3) \r\n \r\nX) 3a<sup>2</sup> - a<sup>-2</sup> + 1 (read as: 3 a squared minus a to the minus 2 plus one)\r\n \r\n \r\nY) 15a<sup>2</sup> \r\n- a<sup>1.5</sup> - 3 (read as: 15 a squared minus a to the 1.5 minus three) \r\nZ) a<sup>3</sup>",
+        "tossupA": "Z) a<sup>3</sup>",
         "bonusQ": "MATH Short Answer What is the equation of the line, in slope intercept form, which passes \r\nthrough the points (-3, 2) and (-5, 6)?",
         "bonusA": "y = -2x - 4",
         "category": 4,
@@ -43583,7 +43583,7 @@
         "catDiff": "0.3"
       },
       "6_3_11": {
-        "tossupQ": "MATH Short Answer If |200−푥|=10 [the absolute value of the quantity 200 minus x \r\nequals 10], what are the possible values for x?",
+        "tossupQ": "MATH Short Answer If |200−x|=10 [the absolute value of the quantity 200 minus x \r\nequals 10], what are the possible values for x?",
         "tossupA": "190 AND 210",
         "bonusQ": "MATH Short Answer Solve the inequality -5 + |p +2| ≥ 0 [negative 5 plus the absolute \r\nvalue of the quantity p plus 2 is greater than or equal to 0].",
         "bonusA": "p ≤ -7 OR p ≥ 3 (MUST GIVE BOTH ANSWERS)",
@@ -43663,9 +43663,9 @@
         "catDiff": "0.3"
       },
       "6_3_19": {
-        "tossupQ": "MATH Short Answer Evaluate 12푦5푥 [the fraction with numerator 12 y and denominator 5 \r\nx] when y = 2 and x = 0.",
+        "tossupQ": "MATH Short Answer Evaluate 12y/5x [the fraction with numerator 12 y and denominator 5 \r\nx] when y = 2 and x = 0.",
         "tossupA": "UNDEFINED",
-        "bonusQ": "MATH Multiple Choice Between which of the following two whole numbers does √5153 [the \r\ncube root of 515] fall? \r\n \r\nW) 5 and 6 \r\nX) 6 and 7 \r\nY) 7 and 8 \r\nZ) 8 and 9",
+        "bonusQ": "MATH Multiple Choice Between which of the following two whole numbers does [the \r\ncube root of 515] fall? \r\n \r\nW) 5 and 6 \r\nX) 6 and 7 \r\nY) 7 and 8 \r\nZ) 8 and 9",
         "bonusA": "Z) 8 AND 9",
         "category": 4,
         "setNum": 6,
@@ -43725,7 +43725,7 @@
       "6_3_27": {
         "tossupQ": "MATH Short Answer What is twenty and 55 hundredths expressed as a decimal, a mixed \r\nnumber in simplest form, and a percent?",
         "tossupA": "20.55, 20 11/20, 2055%",
-        "bonusQ": "MATH Multiple Choice For positive values of x, the function f(x) = 푥6 − 푥3푥2 [the fraction with \r\nnumerator x to the sixth minus x cubed and denominator x squared] is which of the \r\nfollowing types?    \r\n  \r\nW) Quartic \r\nX) Cubic \r\nY) Hyperbolic \r\nZ) Parabolic",
+        "bonusQ": "MATH Multiple Choice For positive values of x, the function f(x) = (x<sup>6</sup> − x<sup>3</sup>)/x<sup>2</sup> [the fraction with \r\nnumerator x to the sixth minus x cubed and denominator x squared] is which of the \r\nfollowing types?    \r\n  \r\nW) Quartic \r\nX) Cubic \r\nY) Hyperbolic \r\nZ) Parabolic",
         "bonusA": "W) QUARTIC",
         "category": 4,
         "setNum": 6,
