@@ -46286,7 +46286,7 @@
         "tossupQ": "MATH Short Answer In simplest form, what is the fifth number in the following geometric \r\nsequence: 1, -2/3, 4/9, -8/27?",
         "tossupA": "16/81",
         "bonusQ": "MATH Short Answer If y = 5x – 12, find the inverse of this function.",
-        "bonusA": "푦=푥 + 125",
+        "bonusA": "y=(x + 12)/5",
         "category": 4,
         "setNum": 6,
         "roundNum": 11,
@@ -46333,7 +46333,7 @@
         "catDiff": "0.11"
       },
       "6_11_11": {
-        "tossupQ": "MATH Multiple Choice Which of the following values of x makes the following equation \r\ntrue: 2푥 = 18 [2 to the power of x equals one eighth]? \r\n \r\nW) -4 \r\nX) -3 \r\nY) 1/3 \r\nZ) 4",
+        "tossupQ": "MATH Multiple Choice Which of the following values of x makes the following equation \r\ntrue: 2<sup>x</sup> = 1/8 [2 to the power of x equals one eighth]? \r\n \r\nW) -4 \r\nX) -3 \r\nY) 1/3 \r\nZ) 4",
         "tossupA": "X) -3",
         "bonusQ": "MATH Short Answer If 6 painters can paint 48 doors in 2 hours, then, in minutes, how long \r\nwould it take a painter to paint 3 doors?",
         "bonusA": "45",
@@ -46493,7 +46493,7 @@
         "catDiff": "6.8"
       },
       "6_8_2": {
-        "tossupQ": "MATH Short Answer Find the value of c that completes the square of r2 + 32r + c.",
+        "tossupQ": "MATH Short Answer Find the value of c that completes the square of r<sup>2</sup> + 32r + c.",
         "tossupA": "256",
         "bonusQ": "MATH Short Answer Given that one liter of water weighs one kilogram, providing your \r\nanswer in terms of pi and in simplest form, what is the weight in kilograms of the water \r\ncontained in a full cylindrical container with a radius of 50 centimeters and a height of 1 meter?",
         "bonusA": "250π",
@@ -46673,9 +46673,9 @@
         "catDiff": "1.8"
       },
       "6_8_20": {
-        "tossupQ": "MATH Short Answer Simplify 1,000,0001/6 [one million to the power of one sixth].",
+        "tossupQ": "MATH Short Answer Simplify 1,000,000<sup>1/6</sup> [one million to the power of one sixth].",
         "tossupA": "10",
-        "bonusQ": "MATH Short Answer Evaluate f(x) = -x3 + 6x + 7 [f of x equals negative x cubed plus 6 x \r\nplus 7] at x = 6.",
+        "bonusQ": "MATH Short Answer Evaluate f(x) = -x<sup>3</sup> + 6x + 7 [f of x equals negative x cubed plus 6 x \r\nplus 7] at x = 6.",
         "bonusA": "-173",
         "category": 4,
         "setNum": 6,
@@ -46715,7 +46715,7 @@
       "6_8_24": {
         "tossupQ": "MATH Short Answer What is the x intercept of the line -3x + y = 3?",
         "tossupA": "(-1, 0) (ACCEPT: -1)",
-        "bonusQ": "MATH Short Answer What are the largest possible domain and range, respectively, of \r\ny = 5+√푥−2 [y equals 5 plus the square root of the quantity x minus 2]?",
+        "bonusQ": "MATH Short Answer What are the largest possible domain and range, respectively, of \r\ny = 5+√(x-2) [y equals 5 plus the square root of the quantity x minus 2]?",
         "bonusA": "DOMAIN x ≥ 2; RANGE y ≥ 5",
         "category": 4,
         "setNum": 6,
@@ -46765,7 +46765,7 @@
       "6_6_4": {
         "tossupQ": "MATH Short Answer If the first eight numbers of the Fibonacci sequence are 0, 1, 1, 2, 3, 5, 8, \r\nand 13, what is the next number in this sequence?",
         "tossupA": "21",
-        "bonusQ": "MATH Short Answer Solve: -x3/2 = -27 [negative x to the power of three halves equals \r\nnegative 27].",
+        "bonusQ": "MATH Short Answer Solve: -x<sup>3/2</sup> = -27 [negative x to the power of three halves equals \r\nnegative 27].",
         "bonusA": "9",
         "category": 4,
         "setNum": 6,
@@ -47125,7 +47125,7 @@
       "7_1_15": {
         "tossupQ": "MATH Multiple Choice Adam drove 126 miles in 2 hours and 15 minutes. What was his \r\naverage speed in miles per hour? \r\n \r\nW) 46 \r\nX) 56 \r\nY) 59 \r\nZ) 63",
         "tossupA": "X) 56",
-        "bonusQ": "MATH Short Answer Find all real numbers that satisfy the inequality |3−2푥|>7 [the \r\nabsolute value of the quantity 3 minus 2 x is greater than 7].",
+        "bonusQ": "MATH Short Answer Find all real numbers that satisfy the inequality |3−2x|>7 [the \r\nabsolute value of the quantity 3 minus 2 x is greater than 7].",
         "bonusA": "x < -2 OR x > 5 (MUST GIVE BOTH ANSWERS)",
         "category": 4,
         "setNum": 7,
@@ -47343,7 +47343,7 @@
         "catDiff": "1.12"
       },
       "6_12_12": {
-        "tossupQ": "MATH Short Answer What values cannot be part of the domain for the following function: \r\nf(x) = 푥(푥 − 2)(푥 + 3)(푥 − 5) [f of x equals the fraction with numerator x times the quantity x minus 2 \r\nand denominator open parenthesis, x plus 3, close parenthesis, open parenthesis, x \r\nminus 5, close parenthesis]?",
+        "tossupQ": "MATH Short Answer What values cannot be part of the domain for the following function: \r\nf(x) = x(x − 2)/(x + 3)(x − 5) [f of x equals the fraction with numerator x times the quantity x minus 2 \r\nand denominator open parenthesis, x plus 3, close parenthesis, open parenthesis, x \r\nminus 5, close parenthesis]?",
         "tossupA": "-3 AND 5",
         "bonusQ": "MATH Short Answer You have a sugar cone that has a radius of 3 inches, and a height of \r\n8 inches. You drop a perfect sphere of ice cream with a radius of 3 inches onto the cone so that \r\nthe ball of ice cream is now half in the cone, half out. Providing your answer in terms of pi, what \r\nis the volume in cubic inches of the air space left in the cone?",
         "bonusA": "6π",
@@ -47523,7 +47523,7 @@
         "catDiff": "1.2"
       },
       "7_2_5": {
-        "tossupQ": "MATH Short Answer Once it breaks through the ground, a type of flower grows ¾ of an inch a \r\nday. How many days will it take to reach a height of 6 feet?",
+        "tossupQ": "MATH Short Answer Once it breaks through the ground, a type of flower grows 3/4 of an inch a \r\nday. How many days will it take to reach a height of 6 feet?",
         "tossupA": "96",
         "bonusQ": "MATH Short Answer Identify all of the following five block letters that have rotational \r\nsymmetry: M, T, S, O, X.",
         "bonusA": "S, O, AND X",
@@ -47733,8 +47733,8 @@
         "catDiff": "6.2"
       },
       "6_16_1": {
-        "tossupQ": "MATH Short Answer Factor completely over the integers: x3 – 27.",
-        "tossupA": "(x – 3)(x2 + 3x + 9)",
+        "tossupQ": "MATH Short Answer Factor completely over the integers: x<sup>3</sup> – 27.",
+        "tossupA": "(x – 3)(x<sup>2</sup> + 3x + 9)",
         "bonusQ": "MATH Short Answer Three fair six sided dice are rolled. Providing your answer as a fraction \r\nin lowest terms, what is the probability they will sum to 4?",
         "bonusA": "3/216",
         "category": 4,
@@ -47785,7 +47785,7 @@
       "6_16_6": {
         "tossupQ": "MATH Short Answer Providing your answer as a fraction in lowest terms, 32 square inches \r\nis equal to how many square feet?",
         "tossupA": "29",
-        "bonusQ": "MATH Short Answer What are the vertex, axis of symmetry, and maximum value, \r\nrespectively, of f(x) = -6x2 + 12x – 4?",
+        "bonusQ": "MATH Short Answer What are the vertex, axis of symmetry, and maximum value, \r\nrespectively, of f(x) = -6x<sup>2</sup> + 12x – 4?",
         "bonusA": "VERTEX: (1, 2); AXIS OF SYMMETRY: x = 1; MAXIMUM VALUE: 2",
         "category": 4,
         "setNum": 6,
@@ -47924,7 +47924,7 @@
       },
       "6_16_20": {
         "tossupQ": "MATH Short Answer Given an ellipse with vertices (10, 0) and (-10, 0) and co-vertices   \r\n(0, 9) and (0, -9), what is the standard form equation of the ellipse?",
-        "tossupA": "푥2100+ 푦281=1",
+        "tossupA": "x<sup>2</sup>/100+ y<sup>2</sup>/81=1",
         "bonusQ": "MATH Short Answer What is the equation in standard form of the plane with y-intercept 2 \r\nand XZ trace \r\n2x + z = 8?",
         "bonusA": "2x + 4y + z = 8",
         "category": 4,
@@ -48013,7 +48013,7 @@
         "catDiff": "6.14"
       },
       "6_14_4": {
-        "tossupQ": "MATH Multiple Choice Which of the following best describes the graph of this system of \r\nequations: y = 34 x + 2 and y = 43 x + 4? \r\n \r\nW) They are parallel \r\nX) They are perpendicular \r\nY) They are skewed \r\nZ) They intersect at one point",
+        "tossupQ": "MATH Multiple Choice Which of the following best describes the graph of this system of \r\nequations: y = 3/4 x + 2 and y = 4/3 x + 4? \r\n \r\nW) They are parallel \r\nX) They are perpendicular \r\nY) They are skewed \r\nZ) They intersect at one point",
         "tossupA": "Z) THEY INTERSECT AT ONE POINT",
         "bonusQ": "MATH Short Answer Find the discriminant of the following equation, and then state the \r\nnumber of rational, irrational, and imaginary solutions, respectively: 6n2 + n – 3 = 7 + 2n.",
         "bonusA": "DISCRIMINANT = 241; TWO IRRATIONAL SOLUTIONS (ACCEPT: 0 RATIONAL, 2 \r\nIRRATIONAL, 0 IMAGINARY or 0, 2, 0)",
@@ -48073,10 +48073,10 @@
         "catDiff": "6.14"
       },
       "6_14_10": {
-        "tossupQ": "MATH Short Answer What is log5 625 [log base 5 of 625]?",
+        "tossupQ": "MATH Short Answer What is log<sub>5</sub> 625 [log base 5 of 625]?",
         "tossupA": "4",
-        "bonusQ": "MATH Multiple Choice A parabola, when graphed on a coordinate plane, has a vertex at  \r\n(-1, 3) and opens to the right. Which of the following could possibly be the equation for this \r\nparabola? \r\n \r\nW) x = y2 + 2y – 2  \r\nX) x = y2 + 2y + 4 \r\nY) x = y2 –6y + 8 \r\nZ) x = y2 – 6y + 10",
-        "bonusA": "Y) x = y2 –6y + 8",
+        "bonusQ": "MATH Multiple Choice A parabola, when graphed on a coordinate plane, has a vertex at  \r\n(-1, 3) and opens to the right. Which of the following could possibly be the equation for this \r\nparabola? \r\n \r\nW) x = y<sup>2</sup> + 2y – 2  \r\nX) x = y<sup>2</sup> + 2y + 4 \r\nY) x = y<sup>2</sup> –6y + 8 \r\nZ) x = y<sup>2</sup> – 6y + 10",
+        "bonusA": "Y) x = y<sup>2</sup> –6y + 8",
         "category": 4,
         "setNum": 6,
         "roundNum": 14,
@@ -48133,9 +48133,9 @@
         "catDiff": "6.14"
       },
       "6_14_16": {
-        "tossupQ": "MATH Multiple Choice Which of the following is equal to the imaginary number i3? \r\n \r\nW) -1 \r\nX) 1 \r\nY) i \r\nZ) -i",
+        "tossupQ": "MATH Multiple Choice Which of the following is equal to the imaginary number i<sup>3</sup>? \r\n \r\nW) -1 \r\nX) 1 \r\nY) i \r\nZ) -i",
         "tossupA": "Z) -i",
-        "bonusQ": "MATH Short Answer What are the largest possible real domain and range, respectively, of \r\nthe following function: f(x) = 4푥 + 1 [f of x equals 4 over the quantity x plus 1]?",
+        "bonusQ": "MATH Short Answer What are the largest possible real domain and range, respectively, of \r\nthe following function: f(x) = 4/(x + 1) [f of x equals 4 over the quantity x plus 1]?",
         "bonusA": "DOMAIN = ALL REALS EXCEPT -1; RANGE = ALL REALS EXCEPT 0",
         "category": 4,
         "setNum": 6,
@@ -48195,8 +48195,8 @@
       "6_14_22": {
         "tossupQ": "MATH Short Answer What is √1,600 divided by √0.04?",
         "tossupA": "200",
-        "bonusQ": "MATH Short Answer Classify the following conic section and provide its equation in vertex \r\nform: -x2 + 10x + y – 21 = 0.",
-        "bonusA": "PARABOLA; y = (x – 5)2 – 4",
+        "bonusQ": "MATH Short Answer Classify the following conic section and provide its equation in vertex \r\nform: -x<sup>2</sup> + 10x + y – 21 = 0.",
+        "bonusA": "PARABOLA; y = (x – 5)<sup>2</sup> – 4",
         "category": 4,
         "setNum": 6,
         "roundNum": 14,
@@ -48303,8 +48303,8 @@
         "catDiff": "3.5"
       },
       "7_5_8": {
-        "tossupQ": "MATH Short Answer Solve the following equation for x over the real numbers: x -2 = 81.",
-        "tossupA": "푥=±1/9",
+        "tossupQ": "MATH Short Answer Solve the following equation for x over the real numbers: x<sup>-2</sup> = 81.",
+        "tossupA": "x=±1/9",
         "bonusQ": "MATH Short Answer Find the following sum of fractions: 3/5 + 5/3 + 2/6.",
         "bonusA": "13/5 (ACCEPT: 2 3/5, 2.6)",
         "category": 4,
@@ -48525,7 +48525,7 @@
       "7_6_5": {
         "tossupQ": "MATH Short Answer What is the probability that a randomly chosen person has his or her \r\nnext birthday on a weekend?",
         "tossupA": "2/7",
-        "bonusQ": "MATH Short Answer If 푎+푏푏 = 3.5, what is 푎푏?",
+        "bonusQ": "MATH Short Answer If (a+b)/b = 3.5, what is a/b?",
         "bonusA": "2.5 (ACCEPT: 5/2)",
         "category": 4,
         "setNum": 7,
@@ -48573,7 +48573,7 @@
         "catDiff": "1.6"
       },
       "7_6_10": {
-        "tossupQ": "MATH Multiple Choice On the graph of the function y = (x + 2)2, what is the x-value of the \r\npoint with the least y-value? \r\n \r\nW) -2 \r\nX) 0 \r\nY) 2 \r\nZ) 4",
+        "tossupQ": "MATH Multiple Choice On the graph of the function y = (x + 2)<sup>2</sup>, what is the x-value of the \r\npoint with the least y-value? \r\n \r\nW) -2 \r\nX) 0 \r\nY) 2 \r\nZ) 4",
         "tossupA": "W) -2",
         "bonusQ": "MATH Short Answer In terms of n, what is the number of diagonals that can be drawn from \r\nany one vertex of a convex polygon with n sides?",
         "bonusA": "n – 3",
@@ -48635,7 +48635,7 @@
       "7_6_16": {
         "tossupQ": "MATH Short Answer What is the least integer between -44.5 and -15.7?",
         "tossupA": "-44",
-        "bonusQ": "MATH Short Answer For the equation y = x2 + 6x – 3, what is the axis of symmetry of its \r\ngraph?",
+        "bonusQ": "MATH Short Answer For the equation y = x<sup>2</sup> + 6x – 3, what is the axis of symmetry of its \r\ngraph?",
         "bonusA": "x = -3",
         "category": 4,
         "setNum": 7,
@@ -48853,7 +48853,7 @@
         "catDiff": "5.3"
       },
       "7_3_13": {
-        "tossupQ": "MATH Short Answer In the following proportion, solve for x over the real numbers: \r\n (푥−1)8=6(푥+1).",
+        "tossupQ": "MATH Short Answer In the following proportion, solve for x over the real numbers: \r\n (x−1)/8=6/(x+1).",
         "tossupA": "±7",
         "bonusQ": "MATH Short Answer Dividing a certain number by 2 yields the same result as subtracting 15 \r\nfrom 3 times the number. Find the number.",
         "bonusA": "6",
@@ -49023,7 +49023,7 @@
         "catDiff": "1.10"
       },
       "7_10_5": {
-        "tossupQ": "MATH Multiple Choice Given the equation 푥2=√푥, which of the following conclusions is \r\ntrue? \r\n \r\nW) The equation is true for all real x \r\nX) The equation is true when x = 0 \r\nY) The equation is true when x is negative \r\nZ) The equation is true for no real x",
+        "tossupQ": "MATH Multiple Choice Given the equation x<sup>2</sup>=√x, which of the following conclusions is \r\ntrue? \r\n \r\nW) The equation is true for all real x \r\nX) The equation is true when x = 0 \r\nY) The equation is true when x is negative \r\nZ) The equation is true for no real x",
         "tossupA": "X) THE EQUATION IS TRUE WHEN x = 0",
         "bonusQ": "MATH Short Answer If the area of a sector of a circle with a central angle of 60º is 24π, what \r\nis the radius of the circle?",
         "bonusA": "12",
@@ -49206,7 +49206,7 @@
         "tossupQ": "MATH Short Answer If the area of square is numerically the same as the length of its \r\ndiagonal, what is the length of its side?",
         "tossupA": "√2",
         "bonusQ": "MATH Short Answer What is the equation, in slope intercept form, of the perpendicular \r\nbisector of the segment whose endpoints are (-3, 5) and (7, 9)?",
-        "bonusA": "푦=−52푥+12",
+        "bonusA": "y=−52x+12",
         "category": 4,
         "setNum": 7,
         "roundNum": 10,
@@ -49253,7 +49253,7 @@
         "catDiff": "1.4"
       },
       "7_4_3": {
-        "tossupQ": "MATH Multiple Choice Which of the following is a real number that does NOT have a \r\nreciprocal? \r\n \r\nW) -1 \r\nX) 0 \r\nY) 1 \r\nZ) 휋",
+        "tossupQ": "MATH Multiple Choice Which of the following is a real number that does NOT have a \r\nreciprocal? \r\n \r\nW) -1 \r\nX) 0 \r\nY) 1 \r\nZ) pi",
         "tossupA": "X) 0",
         "bonusQ": "MATH Short Answer What is the total surface area of a cylinder with a base radius of 2 and a \r\nheight equal to the diameter of the base?",
         "bonusA": "24π",
@@ -49385,8 +49385,8 @@
       "7_4_16": {
         "tossupQ": "MATH Short Answer Subtract -97 + a from 3 + a.",
         "tossupA": "100",
-        "bonusQ": "MATH Short Answer Express the following in scientific notation: (6 × 107)�6 ×1011�(3 × 108) [the fraction \r\nwith numerator 6 times 10 to the 7th times 6 times 10 to the 11th and denominator 3 times \r\n10 to the 8th]?",
-        "bonusA": "1.2 x 1011",
+        "bonusQ": "MATH Short Answer Express the following in scientific notation: (6 × 10<sup>7</sup>)(6 × 10<sup>11</sup>)/(3 × 10<sup>8</sup>) [the fraction \r\nwith numerator 6 times 10 to the 7th times 6 times 10 to the 11th and denominator 3 times \r\n10 to the 8th]?",
+        "bonusA": "1.2 x 10<sup>11</sup>",
         "category": 4,
         "setNum": 7,
         "roundNum": 4,
@@ -49504,7 +49504,7 @@
       },
       "7_9_3": {
         "tossupQ": "MATH Short Answer The minute hand of a clock is 2 inches long. How many inches does its \r\ntip travel in 30 minutes?",
-        "tossupA": "2휋",
+        "tossupA": "2pi",
         "bonusQ": "MATH Short Answer A rectangle is 20 inches on its shorter side. Its diagonal makes an angle \r\nof 30° with the longer side. How long in inches is the diagonal?",
         "bonusA": "40",
         "category": 4,
@@ -49623,8 +49623,8 @@
         "catDiff": "6.9"
       },
       "7_9_15": {
-        "tossupQ": "MATH Short Answer Find the value of k for which the quadratic equation x2 - x + k = 0 has a \r\nrepeated root.",
-        "tossupA": "k = ¼",
+        "tossupQ": "MATH Short Answer Find the value of k for which the quadratic equation x<sup>2</sup> - x + k = 0 has a \r\nrepeated root.",
+        "tossupA": "k = 1/4",
         "bonusQ": "MATH Short Answer A jar contains 50 buttons. Exactly 10% are green, 20% are blue, 30% \r\nare yellow, and the rest are orange. What is the probability of randomly picking first a blue \r\nbutton, replacing it, and then picking an orange button?",
         "bonusA": "225 (ACCEPT: 0.08 OR 8%)",
         "category": 4,
@@ -49983,8 +49983,8 @@
         "catDiff": "3.14"
       },
       "7_11_1": {
-        "tossupQ": "MATH Short Answer Assuming that a and b are non-negative, simplify √72푎4푏3 [the square \r\nroot of the quantity 72 a to the fourth b cubed].",
-        "tossupA": "6푎2푏√2푏",
+        "tossupQ": "MATH Short Answer Assuming that a and b are non-negative, simplify √(72a<sup>4</sup>b<sup>3</sup>) [the square \r\nroot of the quantity 72 a to the fourth b cubed].",
+        "tossupA": "6a<sup>2</sup>b√(2b)",
         "bonusQ": "MATH Short Answer If x, y, and z are three consecutive integers with x < y < z, evaluate the \r\nproduct (x - y)(x - z)(y - z) [open parenthesis x minus y close parenthesis open parenthesis \r\nx minus z close parenthesis open parenthesis y minus z close parenthesis] .",
         "bonusA": "−2",
         "category": 4,
@@ -50043,7 +50043,7 @@
         "catDiff": "5.11"
       },
       "7_11_7": {
-        "tossupQ": "MATH Short Answer Providing your answer in scientific notation, simplify the quotient 240,0002×10−6 \r\n[240 thousand over open parenthesis 2 times 10 to the power of negative 6 close \r\nparenthesis].",
+        "tossupQ": "MATH Short Answer Providing your answer in scientific notation, simplify the quotient 240,000/(2×10<sup>-6</sup>) \r\n[240 thousand over open parenthesis 2 times 10 to the power of negative 6 close \r\nparenthesis].",
         "tossupA": "1.2×1011",
         "bonusQ": "MATH Short Answer The sum of six integers is what percentage of the average of the six \r\nintegers?",
         "bonusA": "600%",
@@ -50163,7 +50163,7 @@
         "catDiff": "6.11"
       },
       "7_11_19": {
-        "tossupQ": "MATH Short Answer Determine the value of the function �푓푔�(4) [f over g of 4], if \r\n 푓(푥)=푥2+2푥 and g(x) = 3x - 5.",
+        "tossupQ": "MATH Short Answer Determine the value of the function (f/g)(4) [f over g of 4], if \r\n f(x)=x<sup>2</sup>+2x and g(x) = 3x - 5.",
         "tossupA": "24/7 (ACCEPT: 3 3/7)",
         "bonusQ": "MATH Multiple Choice If 150% of 5c is b, what percentage of 2b is c? \r\n \r\nW) 5 12% \r\nX) 6 23% \r\nY) 15% \r\nZ) 75%",
         "bonusA": "X) 6 23%",
@@ -50423,7 +50423,7 @@
         "catDiff": "3.13"
       },
       "7_13_20": {
-        "tossupQ": "MATH Short Answer What is the coefficient of x2 in the expansion of (2푥−3)3 [open \r\nparenthesis 2 x minus 3 close parenthesis cubed]?",
+        "tossupQ": "MATH Short Answer What is the coefficient of x<sup>2</sup> in the expansion of (2x−3)<sup>3</sup> [open \r\nparenthesis 2 x minus 3 close parenthesis cubed]?",
         "tossupA": "-36",
         "bonusQ": "MATH Short Answer What is the minimum Fahrenheit temperature in degrees that will make \r\nthe Celsius temperature greater than or equal to 50 degrees?",
         "bonusA": "122°",
@@ -50513,7 +50513,7 @@
         "catDiff": "3.17"
       },
       "6_17_4": {
-        "tossupQ": "MATH Short Answer What is the eccentricity of the figure with equation x = 2y2?",
+        "tossupQ": "MATH Short Answer What is the eccentricity of the figure with equation x = 2y<sup>2</sup>?",
         "tossupA": "1",
         "bonusQ": "MATH Short Answer Quadrilateral ABCD has the following properties: angles D and BCA \r\nare right angles, CD = 7 meters, AD = 6 meters, and AB = 13 meters. Expressed in simplest \r\nform, what is the length of BC, in meters?",
         "bonusA": "2√21",
@@ -50694,7 +50694,7 @@
       },
       "6_17_22": {
         "tossupQ": "MATH Short Answer What is the standard form of the equation of the circle with center \r\n(-1, 0) and radius 4?",
-        "tossupA": "(x + 1)2 + y2 = 16",
+        "tossupA": "(x + 1)<sup>2</sup> + y<sup>2</sup> = 16",
         "bonusQ": "MATH Short Answer If you travel from your house 15 miles due east, return, then proceed \r\nto travel 15 miles due west and return, what are your average speed and the magnitude of your \r\naverage velocity in miles per hour, if your travels occurred over a 6-hour period?",
         "bonusA": "AVERAGE SPEED = 10, MAGNITUDE OF AVERAGE VELOCITY = 0",
         "category": 4,
@@ -50713,9 +50713,9 @@
         "catDiff": "6.17"
       },
       "6_17_24": {
-        "tossupQ": "MATH Multiple Choice How many real numbers b are there such that the equation \r\n3푥+ 3−푥=푏 [3 to the power of x plus 3 to the power of negative x equals b] has a unique \r\nreal solution x? \r\n \r\nW) There are no such values of b \r\nX) There is exactly one such value of b \r\nY) There are exactly two such values of b \r\nZ) There are infinitely many such values of b",
+        "tossupQ": "MATH Multiple Choice How many real numbers b are there such that the equation \r\n3<sup>x</sup>+ 3<sup>-x</sup>=b [3 to the power of x plus 3 to the power of negative x equals b] has a unique \r\nreal solution x? \r\n \r\nW) There are no such values of b \r\nX) There is exactly one such value of b \r\nY) There are exactly two such values of b \r\nZ) There are infinitely many such values of b",
         "tossupA": "X) THERE IS EXACTLY ONE SUCH VALUE OF b",
-        "bonusQ": "MATH Multiple Choice Given a is a fixed real number that is greater than one, how many \r\nreal numbers b are there such that the equation 푎푥+ 푎−푥=푏 [a to the power of x plus a to \r\nthe power of negative x equals b] has a unique real solution x? \r\n \r\nW) There are no such values of b \r\nX) There is exactly one such value of b \r\nY) There are infinitely many such values of b \r\nZ) The number of such values of b depends on the value of a",
+        "bonusQ": "MATH Multiple Choice Given a is a fixed real number that is greater than one, how many \r\nreal numbers b are there such that the equation \r\na<sup>x</sup>+ a<sup>-x</sup>=b [a to the power of x plus a to \r\nthe power of negative x equals b] has a unique real solution x? \r\n \r\nW) There are no such values of b \r\nX) There is exactly one such value of b \r\nY) There are infinitely many such values of b \r\nZ) The number of such values of b depends on the value of a",
         "bonusA": "Y) THERE ARE INFINITELY MANY SUCH VALUES OF b",
         "category": 4,
         "setNum": 6,
@@ -50773,7 +50773,7 @@
         "catDiff": "0.15"
       },
       "6_15_5": {
-        "tossupQ": "MATH Short Answer What is the numerical value of 852 [85 squared]?",
+        "tossupQ": "MATH Short Answer What is the numerical value of 85<sup>2</sup> [85 squared]?",
         "tossupA": "7225",
         "bonusQ": "MATH Short Answer Three fair standard dice are rolled. Given that one of the numbers \r\nrolled is even, as a fraction in lowest terms, what is the probability that at least two of them are \r\neven?",
         "bonusA": "4/7",
@@ -50915,8 +50915,8 @@
       "6_15_19": {
         "tossupQ": "MATH Multiple Choice Which of the following lists is NOT the beginning of an arithmetic \r\nsequence? \r\n \r\nW) -1, 0, 1, 2 \r\nX) 3, 5, 7, 9 \r\nY) 3, 6, 12, 24 \r\nZ) 8, 6, 4, 2",
         "tossupA": "Y) 3, 6, 12, 24",
-        "bonusQ": "MATH Multiple Choice Which of the following real-number functions is continuous at \r\nx = -1? \r\n \r\nW) x + 1x3 + 1 [the fraction with numerator x plus 1 and denominator x cubed plus 1] \r\nX) 15x + 1 [the fraction with numerator 15 and denominator x plus 1] \r\nY) x2 + 3x + 5x2 + 3x - 4 [the fraction with numerator x squared plus 3 x plus 5 and denominator x \r\nsquared plus 3 x minus 4] \r\nZ) √푥3−7 [the square root of the quantity x cubed minus 7]",
-        "bonusA": "Y) x2 + 3x + 5x2 + 3x - 4",
+        "bonusQ": "MATH Multiple Choice Which of the following real-number functions is continuous at \r\nx = -1? \r\n \r\nW) (x + 1)/(x<sup>3</sup> + 1) [the fraction with numerator x plus 1 and denominator x cubed plus 1] \r\nX) 15/(x + 1) [the fraction with numerator 15 and denominator x plus 1] \r\nY)  (x<sup>2</sup> + 3x +5)/(x<sup>2</sup> + 3x - 4) [the fraction with numerator x squared plus 3 x plus 5 and denominator x \r\nsquared plus 3 x minus 4] \r\nZ) √(x<sup>3</sup>−7) [the square root of the quantity x cubed minus 7]",
+        "bonusA": "Y) (x<sup>2</sup> + 3x +5)/(x<sup>2</sup> + 3x - 4)",
         "category": 4,
         "setNum": 6,
         "roundNum": 15,
@@ -50995,8 +50995,8 @@
       "6_9_2": {
         "tossupQ": "MATH Short Answer A colony of bacteria is growing in a culture under controlled conditions \r\nwith a doubling period of two days. If, on a given day, there are 100 bacteria present, how many \r\nbacteria will there be 8 days later?",
         "tossupA": "1600",
-        "bonusQ": "MATH Short Answer What is the vertex form of the equation y = x2 + 16x + 71?",
-        "bonusA": "y = (x + 8)2 + 7",
+        "bonusQ": "MATH Short Answer What is the vertex form of the equation y = x<sup>2</sup> + 16x + 71?",
+        "bonusA": "y = (x + 8)<sup>2</sup> + 7",
         "category": 4,
         "setNum": 6,
         "roundNum": 9,
@@ -51013,9 +51013,9 @@
         "catDiff": "3.9"
       },
       "6_9_4": {
-        "tossupQ": "MATH Short Answer Find g(1) [g of 1] when g(a) = 33푎−2 [g of a equals 3 to the power of \r\nthe quantity 3 a minus 2].",
+        "tossupQ": "MATH Short Answer Find g(1) [g of 1] when g(a) = 3<sup>3a-2</sup> [g of a equals 3 to the power of \r\nthe quantity 3 a minus 2].",
         "tossupA": "3",
-        "bonusQ": "MATH Short Answer Providing your answer in simplest radical form, where does the graph \r\nof y = 2x2 – 5x – 1 cross the x-axis?",
+        "bonusQ": "MATH Short Answer Providing your answer in simplest radical form, where does the graph \r\nof y = 2x<sup>2</sup> – 5x – 1 cross the x-axis?",
         "bonusA": "5 + √334 AND 5 – √334",
         "category": 4,
         "setNum": 6,
@@ -51073,7 +51073,7 @@
         "catDiff": "3.9"
       },
       "6_9_10": {
-        "tossupQ": "MATH Short Answer What is the determinant of the 2 by 2 matrix �−5342� [first row \r\nnegative 5, 3 and second row 4, 2]?",
+        "tossupQ": "MATH Short Answer What is the determinant of the 2 by 2 matrix  [first row \r\nnegative 5, 3 and second row 4, 2]?",
         "tossupA": "-22",
         "bonusQ": "MATH Short Answer Rebekah wants to fill a spherical piñata with candy. If the radius of \r\nher piñata is 6 inches, providing your answer in terms of pi, what is the volume in cubic inches \r\nof her piñata?",
         "bonusA": "288π",
@@ -51603,8 +51603,8 @@
         "catDiff": "1.2"
       },
       "4_2_13": {
-        "tossupQ": "MATH Multiple Choice Simplify: \r\n2a +2b + 2c\r\n4 (read as: the quantity of 2a plus 2b plus 2c divided by 4). \r\n \r\n \r\nW) abc2 \r\n \r\nX) a + b + c2 \r\n \r\nY) 2(abc)2 \r\n \r\nZ) 2(a + b + c)",
-        "tossupA": "X) a + b + c2",
+        "tossupQ": "MATH Multiple Choice Simplify: (\r\n2a +2b + 2c\r\n)/4 (read as: the quantity of 2a plus 2b plus 2c divided by 4). \r\n \r\n \r\nW) abc/2 \r\n \r\nX) (a + b + c)/2 \r\n \r\nY) 2(abc)/2 \r\n \r\nZ) 2(a + b + c)",
+        "tossupA": "X) (a + b + c)/2",
         "bonusQ": "MATH Short Answer Simplify 8 x 23 + 8 x 7 + 8 x 5 (read as: 8 times 23 plus 8 times 7 plus \r\n8 times 5). Express the answer as a natural number.",
         "bonusA": "280",
         "category": 4,
@@ -51633,10 +51633,10 @@
         "catDiff": "3.2"
       },
       "4_2_16": {
-        "tossupQ": "MATH Short Answer Simplify:",
+        "tossupQ": "MATH Short Answer Simplify: 3f+7-2f-3",
         "tossupA": "f + 4",
         "bonusQ": "MATH Short Answer What is the multiplicative inverse, in simplest form, of 43 times 25?",
-        "bonusA": "(read as: one, one thousand seventy-five ten thousandths, or 1 over 1075)",
+        "bonusA": "1/1075(read as: one, one thousand seventy-five ten thousandths, or 1 over 1075)",
         "category": 4,
         "setNum": 4,
         "roundNum": 2,
@@ -51993,9 +51993,9 @@
         "catDiff": "6.9"
       },
       "5_9_2": {
-        "tossupQ": "MATH Short Answer How many x-intercepts are there in the parabola with the equation: \r\ny = 7x2 + 4x + 12?",
+        "tossupQ": "MATH Short Answer How many x-intercepts are there in the parabola with the equation: \r\ny = 7x<sup>2</sup> + 4x + 12?",
         "tossupA": "0",
-        "bonusQ": "MATH Short Answer What is the greatest integer less than or equal to log\r\n3\r\n (200)?",
+        "bonusQ": "MATH Short Answer What is the greatest integer less than or equal to log<sub>3</sub> (200)?",
         "bonusA": "4",
         "category": 4,
         "setNum": 5,
@@ -52133,7 +52133,7 @@
         "catDiff": "1.9"
       },
       "5_9_16": {
-        "tossupQ": "MATH Short Answer Simplify 12 + (25 \u0000 16 )\r\n2\r\n(read as: 12 plus open parenthesis the \r\nsquare root of 25 minus the square root of 16 close parenthesis squared).",
+        "tossupQ": "MATH Short Answer Simplify 12 + (25 - &radic;16 )\r\n2\r\n(read as: 12 plus open parenthesis the \r\nsquare root of 25 minus the square root of 16 close parenthesis squared).",
         "tossupA": "13",
         "bonusQ": "MATH Short Answer Sam pays $33 each for 47 watches. How many must he sell for $37 \r\neach to begin making a profit?",
         "bonusA": "42",
@@ -52443,9 +52443,9 @@
         "catDiff": "6.12"
       },
       "5_12_22": {
-        "tossupQ": "MATH Multiple Choice The equation x2  \u0000  3y2+ 2x  \u0000\u00004y  \u0000  8  = 0 graphs as which of the \r\nfollowing conic sections? \r\n \r\nW) Hyperbola \r\nX) Ellipse \r\nY) Parabola \r\nZ) Circle",
+        "tossupQ": "MATH Multiple Choice The equation x<sup>2</sup> - 3y<sup>2</sup>+ 2x  - 4y  -  8  = 0 graphs as which of the \r\nfollowing conic sections? \r\n \r\nW) Hyperbola \r\nX) Ellipse \r\nY) Parabola \r\nZ) Circle",
         "tossupA": "W) HYPERBOLA",
-        "bonusQ": "MATH Short Answer How many vertical asymptotes does the function \r\n f(x) =\r\n \r\nx2\u0000 2x \u0000 3\r\nx4\u0000 13x2 + 36\r\n (read as: f of x equals open parenthesis x squared minus 2x minus 3 close \r\nparenthesis over open parenthesis x to the fourth minus 13 x squared plus 36 close \r\nparenthesis) have?",
+        "bonusQ": "MATH Short Answer How many vertical asymptotes does the function \r\n f(x) =(\r\n \r\nx<sup>2</sup> - 2x - 3\r\n)/(x<sup>4</sup> - 13x<sup>2</sup> + 36\r\n) (read as: f of x equals open parenthesis x squared minus 2x minus 3 close \r\nparenthesis over open parenthesis x to the fourth minus 13 x squared plus 36 close \r\nparenthesis) have?",
         "bonusA": "3",
         "category": 4,
         "setNum": 5,
@@ -52583,7 +52583,7 @@
         "catDiff": "1.10"
       },
       "5_10_11": {
-        "tossupQ": "MATH Multiple Choice Which of the following inequalities has a finite solution set over the \r\nintegers? \r\n \r\nW) x\r\n2\r\n + 5x + 6 > 0 \r\nX) |x + 2| > 4 (read as: the absolute value of the quantity x plus 2 is greater than 4) \r\nY) 9x – 7 < 3x + 14 \r\nZ) x\r\n2\r\n – 4x + 3 < 0",
+        "tossupQ": "MATH Multiple Choice Which of the following inequalities has a finite solution set over the \r\nintegers? \r\n \r\nW) x<sup>2</sup> + 5x + 6 > 0 \r\nX) |x + 2| > 4 (read as: the absolute value of the quantity x plus 2 is greater than 4) \r\nY) 9x – 7 < 3x + 14 \r\nZ) x<sup>2</sup> – 4x + 3 < 0",
         "tossupA": "Z) x\r\n2\r\n – 4x + 3 < 0",
         "bonusQ": "MATH Short Answer Alice stands 30 feet away from a building and looks up to the top of it. \r\nThe angle of elevation is 45 degrees. If she is 5 feet tall, how tall is the building in feet?",
         "bonusA": "35",
@@ -52793,7 +52793,7 @@
         "catDiff": "6.11"
       },
       "5_11_7": {
-        "tossupQ": "MATH Multiple Choice Which of the following best represents the sum of the reciprocals of \r\nall positive integers? \r\n \r\nW) 2 \r\nX) π\r\n2\r\n/6 \r\nY) 9 \r\nZ) Infinity",
+        "tossupQ": "MATH Multiple Choice Which of the following best represents the sum of the reciprocals of \r\nall positive integers? \r\n \r\nW) 2 \r\nX) π<sup>2</sup>/6 \r\nY) 9 \r\nZ) Infinity",
         "tossupA": "Z) INFINITY",
         "bonusQ": "MATH Multiple Choice A cylindrical tin can has a diameter of 4 inches and a height of 5 \r\ninches. Approximately how much more volume, in cubic inches, would it have if the diameter \r\nwere increased to 6 inches? \r\n \r\nW) 63 \r\nX) 79 \r\nY) 141 \r\nZ) 157",
         "bonusA": "X) 79",
@@ -52935,7 +52935,7 @@
       "5_11_21": {
         "tossupQ": "MATH Short Answer If each side of a rectangle is decreased by 10%, by what percentage \r\nis the area decreased?",
         "tossupA": "19%",
-        "bonusQ": "MATH Short Answer The lengths of three sides of a triangle are represented by 2x  \u0000  5, \r\n5x  +  3, and 4x  +  9. Providing your answer as an improper fraction in simplest form, if the \r\nperimeter is 50 units, what is the length of the shortest side?",
+        "bonusQ": "MATH Short Answer The lengths of three sides of a triangle are represented by 2x  -  5, \r\n5x  +  3, and 4x  +  9. Providing your answer as an improper fraction in simplest form, if the \r\nperimeter is 50 units, what is the length of the shortest side?",
         "bonusA": "31/11",
         "category": 4,
         "setNum": 5,
@@ -52985,7 +52985,7 @@
       "5_3_1": {
         "tossupQ": "MATH Short Answer The painting “Starry Night” by Vincent van Gogh is approximately 70 \r\ncentimeters tall and 100 centimeters wide. If you buy a reproduction that is 20 centimeters wide, \r\nhow many centimeters tall would it be?",
         "tossupA": "14",
-        "bonusQ": "MATH Short Answer What real numbers cannot be part of the domain of the following \r\nfunction: f(x) =\r\n x\r\nx2  + 3x  \u0000  10\r\n (read as: f of x equals x over open parenthesis x squared plus 3x \r\nminus 10 close parenthesis).",
+        "bonusQ": "MATH Short Answer What real numbers cannot be part of the domain of the following \r\nfunction: f(x) = x/(x<sup>2</sup>  + 3x - 10)(read as: f of x equals x over open parenthesis x squared plus 3x \r\nminus 10 close parenthesis).",
         "bonusA": "-5 AND 2",
         "category": 4,
         "setNum": 5,
@@ -53045,7 +53045,7 @@
       "5_3_7": {
         "tossupQ": "MATH Short Answer In terms of pi, what is the volume, in cubic centimeters, of a right \r\ncircular cone with a radius of 2 centimeters and a height of 9 centimeters?",
         "tossupA": "12 π",
-        "bonusQ": "MATH Short Answer Consider two parallel lines cut by a transversal. If one pair of alternate \r\ninterior angles have measures summing to 108\r\no\r\n, what is the value, in degrees, of one of the \r\nother alternate interior angles?",
+        "bonusQ": "MATH Short Answer Consider two parallel lines cut by a transversal. If one pair of alternate \r\ninterior angles have measures summing to 108 degrees, what is the value, in degrees, of one of the \r\nother alternate interior angles?",
         "bonusA": "126°",
         "category": 4,
         "setNum": 5,
@@ -53156,7 +53156,7 @@
       "5_3_18": {
         "tossupQ": "MATH Short Answer Five National Science Bowl contestants meet for the first time. Each \r\none shakes the hand of the other four contestants. How many handshakes are exchanged?",
         "tossupA": "10",
-        "bonusQ": "MATH Short Answer What are the coordinates of the point of intersection of the graphs of \r\nthe two lines y  =  3x\u0000\u0000  5 and y  =  5x  +  9?",
+        "bonusQ": "MATH Short Answer What are the coordinates of the point of intersection of the graphs of \r\nthe two lines y  =  3x -  5 and y  =  5x  +  9?",
         "bonusA": "(-7, -26)",
         "category": 4,
         "setNum": 5,
@@ -53384,7 +53384,7 @@
         "catDiff": "3.13"
       },
       "6_13_16": {
-        "tossupQ": "MATH Short Answer To which real number is 푖8 equivalent?",
+        "tossupQ": "MATH Short Answer To which real number is i<sup>8</sup> equivalent?",
         "tossupA": "1",
         "bonusQ": "MATH Short Answer John sails his 10 meter sailboat due west for 10 kilometers, then due \r\nnorth for 7 kilometers, then another 14 kilometers due west. How far in kilometers is John from \r\nhis original position?",
         "bonusA": "25",
@@ -53445,7 +53445,7 @@
       },
       "6_13_22": {
         "tossupQ": "MATH Short Answer A circle of radius r is inscribed in a square. What is the area of the \r\nsquare in terms of r?",
-        "tossupA": "4r2",
+        "tossupA": "4r<sup>2</sup>",
         "bonusQ": "MATH Short Answer What are the coordinates of the image of the point (2, -4) after a 90° \r\nrotation clockwise around the origin?",
         "bonusA": "(-4, -2)",
         "category": 4,
@@ -53506,7 +53506,7 @@
       "7_8_3": {
         "tossupQ": "MATH Multiple Choice If x/2, x/5, and x/7 are whole numbers, x may be which of the \r\nfollowing? \r\n \r\nW) 20 \r\nX) 70 \r\nY) 100 \r\nZ) 8000",
         "tossupA": "X) 70",
-        "bonusQ": "MATH Short Answer Solve the following equation for x over the real numbers: 1푥2=25?",
+        "bonusQ": "MATH Short Answer Solve the following equation for x over the real numbers: 1/x<sup>2</sup>=25?",
         "bonusA": "1/5 AND -1/5 (ACCEPT: 0.2 AND -0.2)",
         "category": 4,
         "setNum": 7,
@@ -53566,7 +53566,7 @@
       "7_8_9": {
         "tossupQ": "MATH Short Answer What fractional part of a week is equivalent to 4 hours?",
         "tossupA": "1/42",
-        "bonusQ": "MATH Short Answer Factor completely over the integers: x3 + 3x2 – 4x – 12.",
+        "bonusQ": "MATH Short Answer Factor completely over the integers: x<sup>3</sup> + 3x<sup>2</sup> – 4x – 12.",
         "bonusA": "(x - 2)(x + 2)( x + 3)",
         "category": 4,
         "setNum": 7,
@@ -53636,7 +53636,7 @@
       "7_8_16": {
         "tossupQ": "MATH Multiple Choice The price of an item was reduced by 10%, and then later reduced by \r\n20%. The two reductions were equivalent to a single reduction of which of the following \r\npercentages? \r\n \r\nW) 15% \r\nX) 28% \r\nY) 30% \r\nZ) 72%",
         "tossupA": "X) 28%",
-        "bonusQ": "MATH Multiple Choice If the operation “star” is defined by 푎∗푏=푎푏−푏푎 [a star b equals a \r\nto the b minus b to the a], which of the following is the largest? \r\n \r\nW) 2*5 [2 star 5] \r\nX) 3*2 [3 star 2] \r\nY) 3*4 [3 star 4] \r\nZ) 4*3 [4 star 3]",
+        "bonusQ": "MATH Multiple Choice If the operation “star” is defined by a*b = a<sup>b</sup>-b<sup>a</sup>[a star b equals a \r\nto the b minus b to the a], which of the following is the largest? \r\n \r\nW) 2*5 [2 star 5] \r\nX) 3*2 [3 star 2] \r\nY) 3*4 [3 star 4] \r\nZ) 4*3 [4 star 3]",
         "bonusA": "Y) 3*4",
         "category": 4,
         "setNum": 7,
@@ -53734,7 +53734,7 @@
         "catDiff": "6.8"
       },
       "5_13_1": {
-        "tossupQ": "MATH Short Answer Find a number x different from 3 such that x\r\n  \r\n+\r\n  \r\n1\r\nx\r\n=\r\n  \r\n3\r\n  \r\n+\r\n  \r\n1\r\n3\r\n (read as: x \r\nplus 1 over x equals 3 plus one third).",
+        "tossupQ": "MATH Short Answer Find a number x different from 3 such that x+1/x=3+1/3 (read as: x \r\nplus 1 over x equals 3 plus one third).",
         "tossupA": "1/3",
         "bonusQ": "MATH Short Answer Solve the system of inequalities 3x – 2 > 7 and 4x – 13 > 15.",
         "bonusA": "x > 7",
@@ -54184,9 +54184,9 @@
         "catDiff": "1.1"
       },
       "5_1_21": {
-        "tossupQ": "MATH Short Answer Identify the real zeros of the function fx  =  x2\u0000 4 (read as: f of x \r\nequals the square root of the quantity x squared minus 4).",
+        "tossupQ": "MATH Short Answer Identify the real zeros of the function f(x)  =  &radic;(x<sup>2</sup> - 4) (read as: f of x \r\nequals the square root of the quantity x squared minus 4).",
         "tossupA": "-2 AND 2",
-        "bonusQ": "MATH Multiple Choice Which of the following points lies on the curve with equation \r\ny = 2x3\u0000 |5x  |  + 3 (read as: y equals 2 x cubed minus the absolute value of 5 x plus 3? \r\n \r\nW) (-2, 29) \r\nX) (-2, 1) \r\nY) (-2, 9) \r\nZ) (-2, -23)",
+        "bonusQ": "MATH Multiple Choice Which of the following points lies on the curve with equation \r\ny = 2x<sup>3</sup> - |5x + 3| (read as: y equals 2 x cubed minus the absolute value of 5 x plus 3? \r\n \r\nW) (-2, 29) \r\nX) (-2, 1) \r\nY) (-2, 9) \r\nZ) (-2, -23)",
         "bonusA": "Z) (-2, -23)",
         "category": 4,
         "setNum": 5,
@@ -54344,7 +54344,7 @@
         "catDiff": "6.8"
       },
       "5_8_12": {
-        "tossupQ": "MATH Short Answer Evaluate: 10!\r\n8!3!\r\n (read as: 10 factorial over the quantity 8 factorial times \r\n3 factorial).",
+        "tossupQ": "MATH Short Answer Evaluate: 10!/(8!3!)\r\n (read as: 10 factorial over the quantity 8 factorial times \r\n3 factorial).",
         "tossupA": "15",
         "bonusQ": "MATH Short Answer Harry bought a shirt that was marked 50% off the sale price, which \r\nwas 40% off the original price. Providing your answer as a decimal to the nearest tenth, after \r\npaying a tax of 8%, what percent of the original sticker price did he pay?",
         "bonusA": "32.4%",
@@ -54544,7 +54544,7 @@
         "catDiff": "5.7"
       },
       "7_7_7": {
-        "tossupQ": "MATH Multiple Choice Solve for x over the real numbers: |푥−5|≧−7 [the absolute value \r\nof the quantity x minus 5 is greater than or equal to negative 7. \r\n \r\nW) x > -2 \r\nX) 푥≧ −2 and 푥≦12 \r\nY) Null set \r\nZ) All real numbers",
+        "tossupQ": "MATH Multiple Choice Solve for x over the real numbers: |x−5|≧−7 [the absolute value \r\nof the quantity x minus 5 is greater than or equal to negative 7. \r\n \r\nW) x > -2 \r\nX) x≧ −2 and x≦12 \r\nY) Null set \r\nZ) All real numbers",
         "tossupA": "Z) ALL REAL NUMBERS",
         "bonusQ": "MATH Short Answer Dan’s truck averages 20 miles per gallon of gasoline, and his car \r\naverages 30 miles per gallon. At these rates, how many more gallons of gasoline does his truck \r\nneed than his car to make a 540-mile trip?",
         "bonusA": "9",
@@ -54604,8 +54604,8 @@
         "catDiff": "5.7"
       },
       "7_7_13": {
-        "tossupQ": "MATH Multiple Choice A side of a square is represented by (x – 5). Which of the following \r\nexpressions represents the area of the square? \r\n \r\nW) x2 – 25 \r\nX) x2 + 25 \r\nY) x2 – 10x + 25 \r\nZ) x2 + 10x + 25",
-        "tossupA": "Y) x2 – 10x + 25",
+        "tossupQ": "MATH Multiple Choice A side of a square is represented by (x – 5). Which of the following \r\nexpressions represents the area of the square? \r\n \r\nW) x<sup>2</sup> – 25 \r\nX) x<sup>2</sup> + 25 \r\nY) x<sup>2</sup> – 10x + 25 \r\nZ) x<sup>2</sup> + 10x + 25",
+        "tossupA": "Y) x<sup>2</sup> – 10x + 25",
         "bonusQ": "MATH Multiple Choice If (x – y)/(x + y) = 2/3, what is the ratio of x to y? \r\n \r\nW) 5:1 \r\nX) 5:3 \r\nY) 3:5 \r\nZ) 1:5",
         "bonusA": "W) 5:1",
         "category": 4,
@@ -54826,7 +54826,7 @@
       "7_15_10": {
         "tossupQ": "MATH Multiple Choice A triangle with sides of length 3, 5, and 6 is classified as which of the \r\nfollowing? \r\n \r\nW) Acute \r\nX) Right \r\nY) Obtuse \r\nZ) The classification can’t be determined from the information given",
         "tossupA": "Y) OBTUSE",
-        "bonusQ": "MATH Short Answer If 푓(푥)=푥2+2푥 for 푥>0, and 푔(푥)=2푥−5, determine the value of \r\n푔−1�푓−1(15)� [g inverse of f inverse of 15].",
+        "bonusQ": "MATH Short Answer If f(x)=x<sup>2</sup>+2x for x>0, and g(x)=2x−5, determine the value of \r\ng<sup>-1</sup>(f<sup>-1</sup>(15)) [g inverse of f inverse of 15].",
         "bonusA": "4",
         "category": 4,
         "setNum": 7,
@@ -54884,8 +54884,8 @@
         "catDiff": "1.15"
       },
       "7_15_16": {
-        "tossupQ": "MATH Multiple Choice The product of two polynomials is 푥5−1. One of the polynomials is \r\nx – 1. What is the other polynomial? \r\n \r\nW) 푥4−푥3+푥2−푥+1 \r\nX) 푥4−푥2+1 \r\nY) 푥4+푥3+푥2+푥+1 \r\nZ) 푥4+푥2+1",
-        "tossupA": "Y) 푥4+푥3+푥2+푥+1",
+        "tossupQ": "MATH Multiple Choice The product of two polynomials is x<sup>5</sup>−1. One of the polynomials is \r\nx – 1. What is the other polynomial? \r\n \r\nW) x<sup>4</sup>−x<sup>3</sup>+x<sup>2</sup>−x+1 \r\nX) x<sup>4</sup>-x<sup>2</sup>+1 \r\nY) x<sup>4</sup>+x<sup>3</sup>+x<sup>2</sup>+x+1 \r\nZ) x<sup>4</sup>+x<sup>2</sup>+1",
+        "tossupA": "Y) x<sup>4</sup>+x<sup>3</sup>+x<sup>2</sup>+x+1",
         "bonusQ": "MATH Short Answer The circumference of the base of a right circular cylinder is 7 pi units. \r\nThe volume of the cylinder is 98 pi units squared. What is the height of the cylinder, in units?",
         "bonusA": "8",
         "category": 4,
@@ -55066,7 +55066,7 @@
       "7_12_9": {
         "tossupQ": "MATH Short Answer If two standard dice are rolled and two coins are flipped, how many \r\nequally likely outcomes are in the sample space?",
         "tossupA": "144",
-        "bonusQ": "MATH Short Answer Solve the following equation for x over the real numbers: 푥2+8푥=4.",
+        "bonusQ": "MATH Short Answer Solve the following equation for x over the real numbers: x<sup>2</sup>+8x=4.",
         "bonusA": "−4±2√5",
         "category": 4,
         "setNum": 7,
@@ -55184,8 +55184,8 @@
         "catDiff": "0.12"
       },
       "7_12_21": {
-        "tossupQ": "MATH Multiple Choice If x lies between 1 and 2, which of the following is the smallest? \r\n \r\nW) −1푥 \r\nX) −푥2 \r\nY) −푥 \r\nZ) −√푥",
-        "tossupA": "X) −푥2",
+        "tossupQ": "MATH Multiple Choice If x lies between 1 and 2, which of the following is the smallest? \r\n \r\nW) −1/x \r\nX) −x<sup>2</sup> \r\nY) −x \r\nZ) −√x",
+        "tossupA": "X) −x<sup>2</sup>",
         "bonusQ": "MATH Short Answer Find all points of intersection of the graphs of the two equations \r\nx2 + y2 = 20 and x – y = 2.",
         "bonusA": "(4, 2) AND (-2,-4)",
         "category": 4,
@@ -55284,10 +55284,10 @@
         "catDiff": "1.16"
       },
       "5_16_6": {
-        "tossupQ": "MATH Multiple Choice For what real values of x is the function x2  \u0000 6x  \u0000  40 defined? \r\n \r\nW) -10 < x < 4 \r\nX) -4 < x < 10 \r\nY) All x that do not lie in the closed interval from -10 to 4 \r\nZ) All x that do not lie in the open interval -4 to 10",
+        "tossupQ": "MATH Multiple Choice For what real values of x is the function $radic(x2  - 6x  -  40) defined? \r\n \r\nW) -10 < x < 4 \r\nX) -4 < x < 10 \r\nY) All x that do not lie in the closed interval from -10 to 4 \r\nZ) All x that do not lie in the open interval -4 to 10",
         "tossupA": "Z) ALL x THAT DO NOT LIE IN THE OPEN INTERVAL -4 TO 10",
         "bonusQ": "MATH Short Answer Michelle can mow a lawn in 5 hours, Steven can mow a lawn in 4 \r\nhours, and Bill can mow it in 3 1/2 hours. As a mixed number in simplest form, how long will it \r\ntake them in hours to mow the lawn together?",
-        "bonusA": "1 37\r\n103",
+        "bonusA": "1 37/103",
         "category": 4,
         "setNum": 5,
         "roundNum": 16,
@@ -55347,7 +55347,7 @@
         "tossupQ": "MATH Short Answer What is the absolute value of the complex number 4 – 3i?",
         "tossupA": "5",
         "bonusQ": "MATH Short Answer Given f(x) = x, express a single function g(x) that results from the \r\ntransformations on f(x) in the following order: a horizontal shift of 5 units to the left, a vertical \r\nstretch by a factor of 3, and a reflection over the y-axis.",
-        "bonusA": "g(x) = 3 -x + 5",
+        "bonusA": "g(x) = 3 (-x + 5)",
         "category": 4,
         "setNum": 5,
         "roundNum": 16,
@@ -55426,7 +55426,7 @@
       "5_16_20": {
         "tossupQ": "MATH Short Answer What is the name of the fractal that is built by starting with an \r\nequilateral triangle, removing the inner third of each side, building another equilateral triangle at \r\nthe location where the side was removed, and then repeating the process indefinitely?",
         "tossupA": "KOCH SNOWFLAKE (ACCEPT: KOCH ISLAND)",
-        "bonusQ": "MATH Short Answer If the real functions f and g are defined by f = 1\r\nx\r\n2\r\n\u0000 6\r\n and g =  3x  \u0000  9   , \r\nwhat is the domain of the composite function f(g(x))?",
+        "bonusQ": "MATH Short Answer If the real functions f and g are defined by f = 1/(x<sup>2</sup> - 6)\r\n and g =  &radic;(3x - 9)   , \r\nwhat is the domain of the composite function f(g(x))?",
         "bonusA": "[3, 5) ∪ (5, ∞) OR ALL x ≥ 3, x ≠ 5",
         "category": 4,
         "setNum": 5,
@@ -55496,7 +55496,7 @@
       "5_14_2": {
         "tossupQ": "MATH Short Answer A tic-tac-toe game is played by placing Xs or Os at consecutive lattice \r\npoints of a coordinate system. If your opponent had marks at (-1, -2) and (1, -4), what are the \r\ncoordinates of the point where you would place your mark in order to block your opponent?",
         "tossupA": "(0, -3)",
-        "bonusQ": "MATH Short Answer Solve the inequality 3\r\n3x – 2\r\n > 1 (read as: 3 to the power of the quantity \r\n3x minus 2 is greater than 1).",
+        "bonusQ": "MATH Short Answer Solve the inequality 3<sup>3x – 2</sup> > 1 (read as: 3 to the power of the quantity \r\n3x minus 2 is greater than 1).",
         "bonusA": "x > 2/3",
         "category": 4,
         "setNum": 5,
@@ -55574,14 +55574,14 @@
         "catDiff": "5.14"
       },
       "5_14_10": {
-        "tossupQ": "MATH Multiple Choice If f(x) = 1/x, then f \r\n−\r\n1 \r\n(x) (read as: f inverse of x) equals which of the \r\nfollowing? \r\n \r\nW) x – 1 \r\nX) x \r\nY) 1\r\nx\r\n2\r\n \r\nZ) 1\r\nx",
-        "tossupA": "Z) 1\r\nx",
+        "tossupQ": "MATH Multiple Choice If f(x) = 1/x, then f <sup>-1</sup>(x) (read as: f inverse of x) equals which of the \r\nfollowing? \r\n \r\nW) x – 1 \r\nX) x \r\nY) 1/x<sup>2</sup> \r\nZ)1/x",
+        "tossupA": "Z) 1/x",
         "bonusQ": "MATH Short Answer If local sales tax is 9%, and tax is rounded to the nearest cent, what is \r\nthe most a purchase can cost, before tax, to not exceed a total of $25 including tax?",
         "bonusA": "$22.94",
         "category": 4,
         "setNum": 5,
         "roundNum": 14,
-        "catDiff": "4.14"
+        "catDiff":  "4.14"
       },
       "5_14_11": {
         "tossupQ": "EARTH AND SPACE SCIENCE Short Answer As sea ice melts, the Earth reflects less \r\nsunlight back into space, resulting in further warming and more loss of ice. What kind of \r\nfeedback relationship is this?",
