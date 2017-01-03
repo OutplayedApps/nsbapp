@@ -14,7 +14,7 @@
       "1_1_2": {
         "tossupQ": "CHEMISTRY  Multiple Choice  An aqueous solution in which the concentration of OH– ions is \r\ngreater than that of H+ ions is: \r\n \r\nW)  basic \r\nX)  acidic \r\nY)  neutral \r\nZ)  in equilibrium",
         "tossupA": "W)  BASIC",
-        "bonusQ": "CHEMISTRY  Short Answer  Find the mass of 1 mole of cuprous oxide, or Cu2O.  Assume the \r\natomic mass of copper is 64 and oxygen is 16.",
+        "bonusQ": "CHEMISTRY  Short Answer  Find the mass of 1 mole of cuprous oxide, or Cu<sub>2</sub>O.  Assume the \r\natomic mass of copper is 64 and oxygen is 16.",
         "bonusA": "144",
         "category": 2,
         "setNum": 1,
@@ -193,7 +193,7 @@
       },
       "1_1_20": {
         "tossupQ": "GENERAL SCIENCE  Short Answer  What gas is most directly responsible for the bends or \r\ndecompression sickness that divers may experience?",
-        "tossupA": "NITROGEN  (ACCEPT:  N2)",
+        "tossupA": "NITROGEN  (ACCEPT:  N<sub>2</sub>)",
         "bonusQ": "GENERAL SCIENCE  Short Answer  In degrees Celsius to the nearest whole number, what is \r\nthe normal core body temperature of a human being?",
         "bonusA": "37",
         "category": 6,
@@ -223,7 +223,7 @@
       },
       "1_1_23": {
         "tossupQ": "CHEMISTRY  Short Answer  According to standard chemical nomenclature and indicating the \r\nproper charge, what is the formula for hydrogen sulfide?",
-        "tossupA": "H2S",
+        "tossupA": "H<sub>2</sub>S",
         "bonusQ": "CHEMISTRY  Short Answer  Of the following group of 4 cations, which are the LARGEST \r\nand SMALLEST ions, respectively:  K+;  Na+;  Rb+;  Li+",
         "bonusA": "LARGEST = Rb+;  SMALLEST =  Li+  (ACCEPT:  RUBIDIUM AND LITHIUM)",
         "category": 2,
@@ -275,7 +275,7 @@
         "tossupQ": "PHYSICS  Short Answer  What is the unit for electric current equal to 1 coulomb per second?",
         "tossupA": "AMPERE  (ACCEPT:  AMP)",
         "bonusQ": "PHYSICS  Multiple Choice  Which of the following is the most dense at standard temperature \r\nand pressure: \r\n \r\nW)  10 kilograms of pure water \r\nX)  10 kilograms of tungsten \r\nY)  2 kilograms of silver \r\nZ)  1 kilogram of mercury",
-        "bonusA": "X)  10 KILOGRAMS OF TUNGSTEN  \r\n \r\n(Solution:  W = 19.3 g/cc, Hg = 13.5 g/cc, Ag = 10.5 g/cc, H2O = 1.0 g/cc)",
+        "bonusA": "X)  10 KILOGRAMS OF TUNGSTEN  \r\n \r\n(Solution:  W = 19.3 g/cc, Hg = 13.5 g/cc, Ag = 10.5 g/cc, H<sub>2</sub>O = 1.0 g/cc)",
         "category": 3,
         "setNum": 2,
         "roundNum": 1,
@@ -672,8 +672,8 @@
         "catDiff": "3.8"
       },
       "2_8_18": {
-        "tossupQ": "CHEMISTRY  Multiple Choice  Which of the following is considered a nonpolar molecule: \r\n \r\nW)  H2S  \r\nX)  NH3 \r\nY)  NO2 \r\nZ)  BeH2",
-        "tossupA": "Z)  BeH2",
+        "tossupQ": "CHEMISTRY  Multiple Choice  Which of the following is considered a nonpolar molecule: \r\n \r\nW)  H<sub>2</sub>S  \r\nX)  NH<sub>3</sub> \r\nY)  NO<sub>2</sub> \r\nZ)  BeH<sub>2</sub>",
+        "tossupA": "Z)  BeH<sub>2</sub>",
         "bonusQ": "CHEMISTRY  Short Answer  What general term describes a substance whose electrons are all \r\nspin-paired and that are weakly repelled by magnetic fields?",
         "bonusA": "DIAMAGNETIC",
         "category": 2,
@@ -752,7 +752,7 @@
         "catDiff": "1.8"
       },
       "1_5_1": {
-        "tossupQ": "CHEMISTRY  Multiple Choice  The conversion of solid CaSO4 into solid CaO and SO2 gas is an \r\nexample of what class of chemical reaction: \r\n \r\nW)  decomposition  \r\nX)  hydrolysis  \r\nY)  combustion  \r\nZ)  single replacement",
+        "tossupQ": "CHEMISTRY  Multiple Choice  The conversion of solid CaSO<sub>4</sub> into solid CaO and SO<sub>2</sub> gas is an \r\nexample of what class of chemical reaction: \r\n \r\nW)  decomposition  \r\nX)  hydrolysis  \r\nY)  combustion  \r\nZ)  single replacement",
         "tossupA": "W)  DECOMPOSITION",
         "bonusQ": "CHEMISTRY  Short Answer  What is the oxidation number of chromium in the chromate ion, or \r\nCrO42–?",
         "bonusA": "6  (ACCEPT:  +6)  (DO NOT ACCEPT:  –6)",
@@ -894,8 +894,8 @@
       "1_5_15": {
         "tossupQ": "CHEMISTRY  Multiple Choice  The electronegativity of oxygen is 3.4 and the electronegativity \r\nof calcium is 1.0.  Which of the following best describes the formation of the calcium oxide: \r\n \r\nW)  2 electrons are transferred from calcium to oxygen \r\nX)  2 electrons are transferred from oxygen to calcium \r\nY)  2 electrons are shared between calcium and oxygen \r\nZ)  1 electron is shared and another is transferred from calcium to oxygen",
         "tossupA": "W)  2 ELECTRONS ARE TRANSFERRED FROM CALCIUM TO OXYGEN",
-        "bonusQ": "CHEMISTRY  Short Answer  What is the chemical formula for the conjugate base of HNO2?",
-        "bonusA": "NO2–",
+        "bonusQ": "CHEMISTRY  Short Answer  What is the chemical formula for the conjugate base of HNO<sub>2</sub>?",
+        "bonusA": "NO<sub>2</sub>–",
         "category": 2,
         "setNum": 1,
         "roundNum": 5,
@@ -964,7 +964,7 @@
       "1_5_22": {
         "tossupQ": "CHEMISTRY  Multiple Choice  Which of the following ions does NOT have a noble gas \r\nelectron configuration in ionic compounds: \r\n \r\nW)  Ca2+ \r\nX)  F– \r\nY)  Al3+ \r\nZ)  Na–",
         "tossupA": "Z)  Na–",
-        "bonusQ": "CHEMISTRY  Multiple Choice  Charles law is particularly useful in explaining which of the \r\nfollowing: \r\n \r\nW)  dry air is more dense than humid air \r\nX)  CO2 escapes from a bottle of soda when opened  \r\nY)  the change in enthalpy when nitrogen and oxygen react to form nitrogen dioxide \r\nZ)  a hot-air balloon rises when the air in the balloon is heated",
+        "bonusQ": "CHEMISTRY  Multiple Choice  Charles law is particularly useful in explaining which of the \r\nfollowing: \r\n \r\nW)  dry air is more dense than humid air \r\nX)  CO<sub>2</sub> escapes from a bottle of soda when opened  \r\nY)  the change in enthalpy when nitrogen and oxygen react to form nitrogen dioxide \r\nZ)  a hot-air balloon rises when the air in the balloon is heated",
         "bonusA": "Z)  A HOT-AIR BALLOON RISES WHEN THE AIR IN THE BALLOON IS \r\nHEATED \r\n \r\n(Solution: W = Avogadro’s law; X = Henry’s law; Y = Hess’s law)",
         "category": 2,
         "setNum": 1,
@@ -1512,7 +1512,7 @@
         "catDiff": "1.10"
       },
       "1_10_2": {
-        "tossupQ": "CHEMISTRY  Multiple Choice  Which of the following is a diprotic acid: \r\n \r\nW)  H2C2O4 \r\nX)  H3PO4 \r\nY)  HCl \r\nZ)  HNO2",
+        "tossupQ": "CHEMISTRY  Multiple Choice  Which of the following is a diprotic acid: \r\n \r\nW)  H2C2O4 \r\nX)  H3PO4 \r\nY)  HCl \r\nZ)  HNO<sub>2</sub>",
         "tossupA": "W)  H2C2O4 \r\n \r\n(Solution: oxalic acid with 2 acidic H atoms)",
         "bonusQ": "CHEMISTRY  Multiple Choice  Which of the following statements is NOT true: \r\n \r\nW)  an ideal gas cannot undergo condensation \r\nX)  the less mass a particle has, the faster it will effuse \r\nY)  when a gas is compressed, its temperature always increases \r\nZ)  a gas is easier to compress than a liquid",
         "bonusA": "Y)  WHEN A GAS IS COMPRESSED, ITS TEMPERATURE ALWAYS INCREASES",
@@ -1844,8 +1844,8 @@
       "2_16_10": {
         "tossupQ": "CHEMISTRY  Short Answer  A 2s orbital has 2 regions of maximum probability where \r\nelectrons can be found separated by a spherical surface of 0 probability that is called what?",
         "tossupA": "NODE  (ACCEPT:  NODAL SURFACE)",
-        "bonusQ": "CHEMISTRY  Short Answer  A tank contains the following mixture of gases:  14grams \r\ndiatomic H2, 56 grams diatomic N2, and  8 grams diatomic He2.  To the first decimal place, what is \r\nthe mole fraction of each gas in the mixture?",
-        "bonusA": "H2 = 0.7;  N2 = 0.2;  He2 = 0.1  (ACCEPT:  Hydrogen=0.7; Nitrogen=0.2; Helium=0.1) \r\n \r\n(Solution:  H2=14g/2g/mol=7mol;  N2=56g/28g/m=2;  He2=8/8=1;  7/10=0.7;  2/10=.02;  1/10=0.1)",
+        "bonusQ": "CHEMISTRY  Short Answer  A tank contains the following mixture of gases:  14grams \r\ndiatomic H2, 56 grams diatomicN<sub>2</sub>, and  8 grams diatomic He2.  To the first decimal place, what is \r\nthe mole fraction of each gas in the mixture?",
+        "bonusA": "H2 = 0.7; N<sub>2</sub> = 0.2;  He2 = 0.1  (ACCEPT:  Hydrogen=0.7; Nitrogen=0.2; Helium=0.1) \r\n \r\n(Solution:  H2=14g/2g/mol=7mol; N<sub>2</sub>=56g/28g/m=2;  He2=8/8=1;  7/10=0.7;  2/10=.02;  1/10=0.1)",
         "category": 2,
         "setNum": 2,
         "roundNum": 16,
@@ -2113,7 +2113,7 @@
       },
       "2_3_12": {
         "tossupQ": "ASTRONOMY  Short Answer  What gas makes up most of  the atmosphere of Mars?",
-        "tossupA": "CARBON DIOXIDE  (ACCEPT:  CO2)",
+        "tossupA": "CARBON DIOXIDE  (ACCEPT:  CO<sub>2</sub>)",
         "bonusQ": "ASTRONOMY  Short Answer  Longitude is to right ascension as latitude is to:",
         "bonusA": "DECLINATION",
         "category": 0,
@@ -3154,8 +3154,8 @@
       "1_7_16": {
         "tossupQ": "CHEMISTRY  Short Answer  According to VSEPR bonding theory, what type of geometry \r\ndoes a molecule have when the central atom is surrounded by 4 bonded groups, such as in methane?",
         "tossupA": "TETRAHEDRAL",
-        "bonusQ": "CHEMISTRY  Multiple Choice  Which of the following is considered a weak acid: \r\n \r\nW)  HCO2H \r\nX)  HClO4 \r\nY)  HNO3 \r\nZ)  HBr",
-        "bonusA": "W)  HCO2H",
+        "bonusQ": "CHEMISTRY  Multiple Choice  Which of the following is considered a weak acid: \r\n \r\nW)  HCO<sub>2</sub>H \r\nX)  HClO4 \r\nY)  HNO3 \r\nZ)  HBr",
+        "bonusA": "W)  HCO<sub>2</sub>H",
         "category": 2,
         "setNum": 1,
         "roundNum": 7,
@@ -6745,7 +6745,7 @@
         "tossupQ": "CHEMISTRY  Short Answer  What is the only amino acid that is not optically active?",
         "tossupA": "GLYCINE",
         "bonusQ": "CHEMISTRY  Short Answer  Consider two tanks that are connected by a closed valve.  Tank A \r\ncontains 6 liters of nitrogen gas at a pressure of 24 atmospheres and tank B contains 2 liters of \r\noxygen gas at a pressure of 16 atmospheres.  If the temperature is constant and the valve is opened, \r\nwhat is the pressure, in atmospheres, of the gas mixture at equilibrium?",
-        "bonusA": "22 \r\n \r\n(Solution:  P\r\n1\r\nV\r\n1\r\n = P\r\n2\r\nV\r\n2\r\n;  (24atm)(6L) = (P\r\nN2\r\n)(8L) = 18atm; (16atm)(2L) = (P\r\nO2\r\n)(8L) = 4atm;  P\r\ntotal \r\n \r\n= 18 + 4 = 22atm)",
+        "bonusA": "22 \r\n \r\n(Solution:  P\r\n1\r\nV\r\n1\r\n = P\r\n2\r\nV\r\n2\r\n;  (24atm)(6L) = (P\r\N<sub>2</sub>\r\n)(8L) = 18atm; (16atm)(2L) = (P\r\nO<sub>2</sub>\r\n)(8L) = 4atm;  P\r\ntotal \r\n \r\n= 18 + 4 = 22atm)",
         "category": 2,
         "setNum": 3,
         "roundNum": 15,
@@ -7612,7 +7612,7 @@
         "catDiff": "1.10"
       },
       "7_10_12": {
-        "tossupQ": "CHEMISTRY Short Answer Providing your answer as a whole number, what is the overall \r\norder of the reaction governed by the rate law R = k[NO2]2[Br2] [R equals k times the \r\nconcentration of N-O-2 squared times the concentration of bromine]?",
+        "tossupQ": "CHEMISTRY Short Answer Providing your answer as a whole number, what is the overall \r\norder of the reaction governed by the rate law R = k[NO<sub>2</sub>]2[Br<sub>2</sub>] [R equals k times the \r\nconcentration of N-O-2 squared times the concentration of bromine]?",
         "tossupA": "3 (ACCEPT: THIRD OR THIRD ORDER)",
         "bonusQ": "CHEMISTRY Short Answer Hydrogen and chlorine are reacted in a 500 milliliter flask to \r\nform hydrogen chloride. It takes 0.08 seconds for the amount of chlorine to change by -0.005 \r\nmoles. Providing your answers as decimals, determine the rate of conversion, in moles per \r\nsecond, and the rate of reaction, in molarity per second.",
         "bonusA": "RATE OF CONVERSION = 0.0625; RATE OF REACTION = 0.125",
@@ -8445,7 +8445,7 @@
         "tossupQ": "ENERGY Multiple Choice The first solid-state quantum process was created at Yale \r\nUniversity in 2009. The two qubits, artificial atoms, were made up of a billion atoms acting like a \r\nsingle atom that could occupy two different energy states. The billion atoms were comprised of \r\nwhat element? \r\n \r\nW) Silicon  \r\nX) Aluminum  \r\nY) Titanium \r\nZ) Copper",
         "tossupA": "X) ALUMINUM",
         "bonusQ": "ENERGY Short Answer Water is the product of four-electron transfer in a polymer \r\nelectrolyte membrane fuel cell; what is the product of two-electron transfer?",
-        "bonusA": "HYDROGEN PEROXIDE (ACCEPT: H2O2)",
+        "bonusA": "HYDROGEN PEROXIDE (ACCEPT: H2O<sub>2</sub>)",
         "category": 5,
         "setNum": 7,
         "roundNum": 17,
@@ -8675,7 +8675,7 @@
         "tossupQ": "CHEMISTRY Multiple Choice Which of the following does NOT have an index of hydrogen \r\ndeficiency of 3?  \r\n \r\nW) Spiropentane [spy-roh-PEN-tayn] \r\nX) Norbornene [nohr-bohr-NEEN] \r\nY) 1,3-cyclohexadiene [1 comma 3-sy-kloh-HEK-suh-deen] \r\nZ) trans-1,3,5-hexatriene [trans-1-comma-3-comma-5-hek-SUH-treen]",
         "tossupA": "W) SPIROPENTANE",
         "bonusQ": "CHEMISTRY Short Answer What is the oxidizing agent typically used in hydroboration-\r\noxidation?",
-        "bonusA": "HYDROGEN PEROXIDE (ACCEPT: HYDROPEROXIDE ANION, H2O2)",
+        "bonusA": "HYDROGEN PEROXIDE (ACCEPT: HYDROPEROXIDE ANION, H2O<sub>2</sub>)",
         "category": 2,
         "setNum": 7,
         "roundNum": 1,
@@ -8825,7 +8825,7 @@
         "tossupQ": "BIOLOGY  Multiple Choice  Which of the following is NOT true of globular proteins in \r\nmammals: \r\n \r\nW)  most are soluble in water \r\nX)  some serve as transport molecules in the plasma \r\nY)  plasma enzymes typically have an optimal operating pH of about 6.8 to 7.0 \r\nZ)  most protein hormones are globular",
         "tossupA": "Y)  PLASMA ENZYMES TYPICALLY HAVE AN OPTIMAL OPERATING PH OF \r\nABOUT 6.8 TO 7.0",
         "bonusQ": "BIOLOGY  Short Answer  During photorespiration, the plant enzyme RuBisCO (read as: rue-\r\nBIS-ko) will bind what molecular substance rather than carbon dioxide?",
-        "bonusA": "OXYGEN  (ACCEPT:  O2)",
+        "bonusA": "OXYGEN  (ACCEPT:  O<sub>2</sub>)",
         "category": 1,
         "setNum": 1,
         "roundNum": 13,
@@ -8904,7 +8904,7 @@
       "1_13_16": {
         "tossupQ": "CHEMISTRY  Multiple Choice  An organic compound with the formula C6H14 is an:  \r\n \r\nW)  alkane \r\nX)  alkene \r\nY)  alkyne \r\nZ)  arene",
         "tossupA": "W)  ALKANE \r\n(Solution: alkanes = CnH2n+2)",
-        "bonusQ": "CHEMISTRY  Multiple Choice  Which of the following gases has the highest effusion rate \r\nthrough a pinhole opening from one compartment to another and at room temperature: \r\n \r\nW)  argon \r\nX)  CO2 \r\nY)  SO2 \r\nZ)  helium",
+        "bonusQ": "CHEMISTRY  Multiple Choice  Which of the following gases has the highest effusion rate \r\nthrough a pinhole opening from one compartment to another and at room temperature: \r\n \r\nW)  argon \r\nX)  CO<sub>2</sub> \r\nY)  SO<sub>2</sub> \r\nZ)  helium",
         "bonusA": "Z)  HELIUM",
         "category": 2,
         "setNum": 1,
@@ -9053,7 +9053,7 @@
       },
       "1_11_6": {
         "tossupQ": "GENERAL SCIENCE  Multiple Choice  Ed the entomologist is setting up mosquito traps in a \r\nfarmer’s field in Nebraska.  Which of the following would be the BEST mosquito attractant to \r\nensure he traps the greatest number and variety of mosquitoes: \r\n \r\nW)  oxygen  \r\nX)  nitrogen  \r\nY)  dry ice \r\nZ)  methane",
-        "tossupA": "Y)  DRY ICE \r\n \r\n(Solution: mosquitoes attracted to CO2)",
+        "tossupA": "Y)  DRY ICE \r\n \r\n(Solution: mosquitoes attracted to CO<sub>2</sub>)",
         "bonusQ": "GENERAL SCIENCE  Short Answer  Rounded to the nearest whole number, convert 3,000 \r\nmeters per second into kilometers per hour:",
         "bonusA": "10,800",
         "category": 6,
@@ -9074,8 +9074,8 @@
       "1_11_8": {
         "tossupQ": "CHEMISTRY  Multiple Choice  Carbon monoxide, or CO, will be adsorbed (read as: ADD-\r\nsorbed) onto the surface of which of the following metals the MOST strongly: \r\n \r\nW)  iron \r\nX)  nickel \r\nY)  cobalt \r\nZ)  gold",
         "tossupA": "W)  IRON",
-        "bonusQ": "CHEMISTRY  Short Answer  Arrange the following 3 choices in order of increasing bond \r\nenergies:  O2;  N2;  F2",
-        "bonusA": "F2;  O2;  N2",
+        "bonusQ": "CHEMISTRY  Short Answer  Arrange the following 3 choices in order of increasing bond \r\nenergies:  O<sub>2</sub>; N<sub>2</sub>;  F<sub>2</sub>",
+        "bonusA": "F<sub>2</sub>;  O<sub>2</sub>; N<sub>2</sub>",
         "category": 2,
         "setNum": 1,
         "roundNum": 11,
@@ -9144,8 +9144,8 @@
       "1_11_15": {
         "tossupQ": "CHEMISTRY  Multiple Choice  The molal (read as: moe-lahl) is a concentration unit that is \r\nmost appropriately used in experimental designs that determine: \r\n \r\nW)  freezing point depression \r\nX)  osmotic pressure \r\nY)  density \r\nZ)  vapor pressure lowering",
         "tossupA": "W)  FREEZING POINT DEPRESSION",
-        "bonusQ": "CHEMISTRY  Short Answer  A 4.0 gram sample of calcium chloride contains 6.0 × 1022 \r\ncations.  Giving your answer in scientific notation to the nearest whole number, determine the \r\nnumber of anions in 2 grams of CaCl2.  Assume the atomic mass of calcium is 40 and chloride is 35.",
-        "bonusA": "6 × 1022 \r\n \r\n(Solution: (2g CaCl2)(6.0 × 1022 Ca2+/4g CaCl2)(2 Cl–/1 Ca2+) = 6.0 × 1022 Cl–)",
+        "bonusQ": "CHEMISTRY  Short Answer  A 4.0 gram sample of calcium chloride contains 6.0 × 1022 \r\ncations.  Giving your answer in scientific notation to the nearest whole number, determine the \r\nnumber of anions in 2 grams of CaCl<sub>2</sub>.  Assume the atomic mass of calcium is 40 and chloride is 35.",
+        "bonusA": "6 × 1022 \r\n \r\n(Solution: (2g CaCl<sub>2</sub>)(6.0 × 1022 Ca2+/4g CaCl<sub>2</sub>)(2 Cl–/1 Ca2+) = 6.0 × 1022 Cl–)",
         "category": 2,
         "setNum": 1,
         "roundNum": 11,
@@ -9394,8 +9394,8 @@
       "1_8_15": {
         "tossupQ": "CHEMISTRY  Multiple Choice  A sample of gas is heated from 300K to 500K.  If the container \r\nis sealed and of fixed volume, which of the following will remain constant: \r\n \r\nW)  the average kinetic energy of the gas molecules \r\nX)  the average speed of the gas molecules \r\nY)  the density of the gas \r\nZ)  the pressure of the gas",
         "tossupA": "Y)  THE DENSITY OF THE GAS",
-        "bonusQ": "CHEMISTRY  Multiple Choice  Which of the following does NOT have the electron \r\nconfiguration of argon: \r\n \r\nW)  O2– \r\nX)  Cl– \r\nY)  S2– \r\nZ)  K+",
-        "bonusA": "W)  O2– \r\n \r\n(Solution: O2– has configuration of neon)",
+        "bonusQ": "CHEMISTRY  Multiple Choice  Which of the following does NOT have the electron \r\nconfiguration of argon: \r\n \r\nW)  O<sub>2</sub>– \r\nX)  Cl– \r\nY)  S2– \r\nZ)  K+",
+        "bonusA": "W)  O<sub>2</sub>– \r\n \r\n(Solution: O<sub>2</sub>– has configuration of neon)",
         "category": 2,
         "setNum": 1,
         "roundNum": 8,
@@ -9463,7 +9463,7 @@
       },
       "1_8_22": {
         "tossupQ": "CHEMISTRY  Short Answer  In the electrolysis of a copper chloride solution, what forms at the \r\ncathode and anode, respectively?",
-        "tossupA": "CATHODE = COPPER  (ACCEPT:  Cu);  ANODE = CHLORINE  (ACCEPT:  \r\nCHLORINE GAS or Cl2)",
+        "tossupA": "CATHODE = COPPER  (ACCEPT:  Cu);  ANODE = CHLORINE  (ACCEPT:  \r\nCHLORINE GAS or Cl<sub>2</sub>)",
         "bonusQ": "CHEMISTRY  Short Answer  According to standard chemical nomenclature, what is the \r\nformula for ammonium sulfate?",
         "bonusA": "(NH4)2SO4",
         "category": 2,
@@ -9695,7 +9695,7 @@
         "tossupQ": "GENERAL SCIENCE  Multiple Choice  Anthropogenic means: \r\n \r\nW)  generated by humans \r\nX)  created many years ago \r\nY)  carried in primate genes \r\nZ)  harmful to elderly people",
         "tossupA": "W)  GENERATED BY HUMANS",
         "bonusQ": "GENERAL SCIENCE  Short Answer  The primary anthropogenic cause of acid rain is the  \r\nemission of what 2 gases?",
-        "bonusA": "SULFUR OXIDES;  NITROGEN OXIDES  (in any order)   \r\n(ACCEPT:  SULFUR DIOXIDE or SO2 AND NITROGEN DIOXIDE or NO2)    \r\n(DO NOT ACCEPT:  SULFURIC ACID or NITRIC ACID)",
+        "bonusA": "SULFUR OXIDES;  NITROGEN OXIDES  (in any order)   \r\n(ACCEPT:  SULFUR DIOXIDE or SO<sub>2</sub> AND NITROGEN DIOXIDE or NO<sub>2</sub>)    \r\n(DO NOT ACCEPT:  SULFURIC ACID or NITRIC ACID)",
         "category": 6,
         "setNum": 1,
         "roundNum": 2,
@@ -9972,7 +9972,7 @@
         "catDiff": "3.6"
       },
       "1_6_23": {
-        "tossupQ": "CHEMISTRY  Multiple Choice  Which of the following is NOT true: \r\n \r\nW)  hydrogen gas found in nature exists as a monatomic molecule \r\nX)  when 2 oxygen atoms combine to form O2, energy is released \r\nY)  when chlorine gains 1 electron, it becomes larger \r\nZ)  noble gases tend not to bond because of their stable valence configurations",
+        "tossupQ": "CHEMISTRY  Multiple Choice  Which of the following is NOT true: \r\n \r\nW)  hydrogen gas found in nature exists as a monatomic molecule \r\nX)  when 2 oxygen atoms combine to form O<sub>2</sub>, energy is released \r\nY)  when chlorine gains 1 electron, it becomes larger \r\nZ)  noble gases tend not to bond because of their stable valence configurations",
         "tossupA": "W)  HYDROGEN GAS FOUND IN NATURE EXISTS AS A MONATOMIC \r\nMOLECULE",
         "bonusQ": "CHEMISTRY  Short Answer  Knowing that the chemical name for gypsum is calcium sulfate \r\ndihydrate, gypsum is what percent water by weight?  Assume the atomic masses of calcium = 40; \r\nsulfur = 32 and oxygen = 16.",
         "bonusA": "21 \r\n \r\n(Solution: CaSO4•2H2O)",
@@ -10594,7 +10594,7 @@
       "2_6_10": {
         "tossupQ": "CHEMISTRY  Multiple Choice  Hydrogen bonding is due to a combination of forces, the most \r\nimportant of which is what type of interaction: \r\n \r\nW)  dipole-dipole \r\nX)  dipole-induced dipole  \r\nY)  induced dipole-induced  \r\nZ)  induced",
         "tossupA": "W)  DIPOLE-DIPOLE",
-        "bonusQ": "CHEMISTRY  Multiple Choice  Which of the following compounds contains a coordinate \r\ncovalent bond: \r\n \r\nW)  NH4+ \r\nX)  N2H4 \r\nY)  N2 \r\nZ)  NH3",
+        "bonusQ": "CHEMISTRY  Multiple Choice  Which of the following compounds contains a coordinate \r\ncovalent bond: \r\n \r\nW)  NH4+ \r\nX) N<sub>2</sub>H4 \r\nY) N<sub>2</sub> \r\nZ)  NH3",
         "bonusA": "W)  NH4+",
         "category": 2,
         "setNum": 2,
@@ -11334,7 +11334,7 @@
       "1_9_9": {
         "tossupQ": "CHEMISTRY  Multiple Choice  Which of the following is one of the main reasons why \r\noxygenates are used as gasoline additives:  \r\n \r\nW)  allow for more complete combustion \r\nX)  decrease sulfur buildup in engine pistons \r\nY)  prevent water condensation in stored fuels \r\nZ)  corrosion inhibition",
         "tossupA": "W)  ALLOW FOR MORE COMPLETE COMBUSTION",
-        "bonusQ": "CHEMISTRY  Short Answer  Consider the following equilibrium reaction,  \r\nPCl5(gas) ↔ PCl3(gas) + Cl2(gas).  If a 2 mole sample of PCl5 dissociates to give 0.2 moles of Cl2  \r\nat equilibrium, find the molar amounts, to the 1st decimal place, of PCl5 at equilibrium:",
+        "bonusQ": "CHEMISTRY  Short Answer  Consider the following equilibrium reaction,  \r\nPCl5(gas) ↔ PCl3(gas) + Cl<sub>2</sub>(gas).  If a 2 mole sample of PCl5 dissociates to give 0.2 moles of Cl<sub>2</sub>  \r\nat equilibrium, find the molar amounts, to the 1st decimal place, of PCl5 at equilibrium:",
         "bonusA": "1.8 \r\n \r\n(Solution: 2 – 0.2 = 1.8)",
         "category": 2,
         "setNum": 1,
@@ -11402,10 +11402,10 @@
         "catDiff": "3.9"
       },
       "1_9_16": {
-        "tossupQ": "CHEMISTRY  Multiple Choice  The reaction CuCl2 + Na2S  CuS + 2NaCl2, is an example of \r\nwhat class of chemical reaction: \r\n \r\nW)  synthesis \r\nX)  single replacement \r\nY)  double replacement \r\nZ)  decomposition",
+        "tossupQ": "CHEMISTRY  Multiple Choice  The reaction CuCl<sub>2</sub> + Na2S  CuS + 2NaCl<sub>2</sub>, is an example of \r\nwhat class of chemical reaction: \r\n \r\nW)  synthesis \r\nX)  single replacement \r\nY)  double replacement \r\nZ)  decomposition",
         "tossupA": "Y)  DOUBLE REPLACEMENT",
-        "bonusQ": "CHEMISTRY  Short Answer  Name all of the following 4 species that contain an odd number \r\nof electrons:  O21–;  O22–;  SO2;  CO",
-        "bonusA": "O21–",
+        "bonusQ": "CHEMISTRY  Short Answer  Name all of the following 4 species that contain an odd number \r\nof electrons:  O<sub>2</sub>1–;  O<sub>2</sub>2–;  SO<sub>2</sub>;  CO",
+        "bonusA": "O<sub>2</sub>1–",
         "category": 2,
         "setNum": 1,
         "roundNum": 9,
@@ -11765,7 +11765,7 @@
         "tossupQ": "CHEMISTRY  Multiple Choice  If you were looking to purchase magnesium sulfate in a retail \r\nstore in the U.S., which of the following would you be correct in buying: \r\n \r\nW)  alum \r\nX)  cream of tartar \r\nY)  soda ash \r\nZ)  Epsom salt",
         "tossupA": "Z)  EPSOM SALT",
         "bonusQ": "CHEMISTRY  Short Answer  Using proper chemical nomenclature, finish balancing the \r\nfollowing equation:  Fe2O3 + 3CO yields what, assuming the iron is totally reduced:",
-        "bonusA": "2Fe + 3CO2",
+        "bonusA": "2Fe + 3CO<sub>2</sub>",
         "category": 2,
         "setNum": 2,
         "roundNum": 5,
@@ -12584,7 +12584,7 @@
       "1_12_9": {
         "tossupQ": "CHEMISTRY  Multiple Choice  A lead chromate solution is typically what color: \r\n \r\nW)  blue  \r\nX)  red \r\nY)  yellow  \r\nZ)  green",
         "tossupA": "Y)  YELLOW",
-        "bonusQ": "CHEMISTRY  Multiple Choice  Which of the following molecules exhibits a dipole moment: \r\n \r\nW)  CH4 \r\nX)  H2S \r\nY)  CO2 \r\nZ)  SO3",
+        "bonusQ": "CHEMISTRY  Multiple Choice  Which of the following molecules exhibits a dipole moment: \r\n \r\nW)  CH4 \r\nX)  H2S \r\nY)  CO<sub>2</sub> \r\nZ)  SO3",
         "bonusA": "X)  H2S",
         "category": 2,
         "setNum": 1,
@@ -12652,7 +12652,7 @@
         "catDiff": "3.12"
       },
       "1_12_16": {
-        "tossupQ": "CHEMISTRY  Multiple Choice  When dissociated in water, which of the following acids has its \r\ndissociation equilibrium shifted farthest to the right: \r\n \r\nW)  HClO \r\nX)  HClO2 \r\nY)  HClO3 \r\nZ)  HClO4",
+        "tossupQ": "CHEMISTRY  Multiple Choice  When dissociated in water, which of the following acids has its \r\ndissociation equilibrium shifted farthest to the right: \r\n \r\nW)  HClO \r\nX)  HClO<sub>2</sub> \r\nY)  HClO3 \r\nZ)  HClO4",
         "tossupA": "Z)  HClO4",
         "bonusQ": "CHEMISTRY  Short Answer  Arrange the following 4 bonds in order of decreasing polarity:   \r\nBr–Br;  K–Br;  P–Cl;  Li–F",
         "bonusA": "Li–F;  K–Br;  P–Cl;  Br–Br",
@@ -12844,8 +12844,8 @@
       "2_13_10": {
         "tossupQ": "CHEMISTRY  Multiple Choice  Which of the following is incorrect: \r\n \r\nW)  C5H11CHO is an aldehyde \r\nX)  C11H20 is an alkane \r\nY)  C5H11OH is an alcohol \r\nZ)  C5H11NH2 is an amine",
         "tossupA": "X)  C11H20 IS AN ALKANE",
-        "bonusQ": "CHEMISTRY  Short Answer  Order the following 4 ionic solids in terms of their lattice \r\nenergies, going from the highest to the lowest:  LiF;  MgI2;  KF;  NaF",
-        "bonusA": "MgI2;  LiF;  NaF;  KF",
+        "bonusQ": "CHEMISTRY  Short Answer  Order the following 4 ionic solids in terms of their lattice \r\nenergies, going from the highest to the lowest:  LiF;  MgI<sub>2</sub>;  KF;  NaF",
+        "bonusA": "MgI<sub>2</sub>;  LiF;  NaF;  KF",
         "category": 2,
         "setNum": 2,
         "roundNum": 13,
@@ -12984,7 +12984,7 @@
       "2_13_24": {
         "tossupQ": "CHEMISTRY  Multiple Choice  The starch amylopectin is: \r\n \r\nW)  unbranched with alpha 1,6 linkages between the monomers \r\nX)  highly branched with alpha 1,4 linkages at its branch points \r\nY)  highly branched with alpha 1,6 linkages at its branch points \r\nZ)  unbranched with alpha 1,4 linkages between the monomers",
         "tossupA": "Y)  HIGHLY BRANCHED WITH ALPHA 1,6 LINKAGES AT ITS BRANCH \r\nPOINTS",
-        "bonusQ": "CHEMISTRY  Short Answer  In the following reaction, H2 + Cl2 → 2HCl, assume the bond \r\ndissociation of H2 is 430 kilojoules per mole, of Cl2 is 240 kilojoules per mole, and of HCl is 400 \r\nkilojoules per mole.  What is the standard enthalpy change, or ∆H°, (read as: delta H degree) for the \r\nreaction, in kilojoules:",
+        "bonusQ": "CHEMISTRY  Short Answer  In the following reaction, H2 + Cl<sub>2</sub> → 2HCl, assume the bond \r\ndissociation of H2 is 430 kilojoules per mole, of Cl<sub>2</sub> is 240 kilojoules per mole, and of HCl is 400 \r\nkilojoules per mole.  What is the standard enthalpy change, or ∆H°, (read as: delta H degree) for the \r\nreaction, in kilojoules:",
         "bonusA": "-130 \r\n \r\n(Solution:  ∆H° = (DH-H + DCl-Cl) – (2DHCl);  = (430 + 240) – 800;  = -130kJ)",
         "category": 2,
         "setNum": 2,
@@ -13142,10 +13142,10 @@
         "catDiff": "0.17"
       },
       "1_17_15": {
-        "tossupQ": "CHEMISTRY  Multiple Choice  Consider the following equilibrium reaction,  \r\nFeO(solid) + CO(gas) ↔  Fe(solid) + CO2(gas), where ∆H (read as: delta H) equals –10 kilojoules.  Which \r\nof the following would have a similar effect on the equilibrium position as lowering the temperature:  \r\n \r\nW)  adding iron \r\nX)  increasing pressure \r\nY)  removing carbon dioxide \r\nZ)  removing carbon monoxide",
+        "tossupQ": "CHEMISTRY  Multiple Choice  Consider the following equilibrium reaction,  \r\nFeO(solid) + CO(gas) ↔  Fe(solid) + CO<sub>2</sub>(gas), where ∆H (read as: delta H) equals –10 kilojoules.  Which \r\nof the following would have a similar effect on the equilibrium position as lowering the temperature:  \r\n \r\nW)  adding iron \r\nX)  increasing pressure \r\nY)  removing carbon dioxide \r\nZ)  removing carbon monoxide",
         "tossupA": "Y)  REMOVING CARBON DIOXIDE \r\n \r\n(Solution: shifts to the right)",
         "bonusQ": "CHEMISTRY  Short Answer  In the electrolysis of water, if a very small amount of sodium \r\nsulfate is added to the water, give the equation for the half reaction that occurs at the ANODE.  \r\nMake sure to indicate proper charges and the state of each substance, such as solid, liquid, aqueous, \r\nor gas:",
-        "bonusA": "2H2O(liquid)  O2(gas) + 4H+(aqueous) + 4e–",
+        "bonusA": "2H2O(liquid)  O<sub>2</sub>(gas) + 4H+(aqueous) + 4e–",
         "category": 2,
         "setNum": 1,
         "roundNum": 17,
@@ -13192,7 +13192,7 @@
         "catDiff": "0.17"
       },
       "1_17_20": {
-        "tossupQ": "GENERAL SCIENCE  Multiple Choice  Which of the following is NOT true regarding the \r\nburning of biodiesel versus gasoline in automobile engines: \r\n \r\nW)  biodiesel combustion does not emit SO2 \r\nX)  biodiesel contains more oxygen than gasoline \r\nY)  the CO2 released when biodiesel is burned is the same CO2 the plants removed from the \r\natmosphere as they grew \r\nZ)  the energy content per gallon of biodiesel is approximately 28% lower than that of ethanol",
+        "tossupQ": "GENERAL SCIENCE  Multiple Choice  Which of the following is NOT true regarding the \r\nburning of biodiesel versus gasoline in automobile engines: \r\n \r\nW)  biodiesel combustion does not emit SO<sub>2</sub> \r\nX)  biodiesel contains more oxygen than gasoline \r\nY)  the CO<sub>2</sub> released when biodiesel is burned is the same CO<sub>2</sub> the plants removed from the \r\natmosphere as they grew \r\nZ)  the energy content per gallon of biodiesel is approximately 28% lower than that of ethanol",
         "tossupA": "Z)  THE ENERGY CONTENT PER GALLON OF BIODIESEL IS \r\nAPPROXIMATELY 28% LOWER THAN THAT OF ETHANOL",
         "bonusQ": "GENERAL SCIENCE  Short Answer  A physician orders 0.1 gram of a drug be administered to \r\na patient.  If it is only available as 20 milligrams per 5 milliliters, how many milliliters needs to be \r\nadministered?",
         "bonusA": "25 \r\n \r\n(Solution: (100mg/20mg)(5mL) = 25 mL)",
@@ -13222,7 +13222,7 @@
         "catDiff": "1.17"
       },
       "1_17_23": {
-        "tossupQ": "CHEMISTRY  Short Answer  What is the overall reaction order for the following rate law:   \r\nrate = k[NH4+][NO2–]   (read as: k times the concentration of NH4+ times the concentration of NO2–)",
+        "tossupQ": "CHEMISTRY  Short Answer  What is the overall reaction order for the following rate law:   \r\nrate = k[NH4+][NO<sub>2</sub>–]   (read as: k times the concentration of NH4+ times the concentration of NO<sub>2</sub>–)",
         "tossupA": "2  (ACCEPT:  2nd ORDER) \r\n \r\n(Solution: exponents 1 + 1 = 2)",
         "bonusQ": "CHEMISTRY  Short Answer  Calculate the one-atmosphere boiling point elevation, in degrees \r\nCelsius to the 2nd decimal place, for a solution made by dissolving 1 gram of solute in 0.1 kilograms \r\nof water.  Assume the formula weight of the solute is 300 and the boiling point depression constant \r\nis 2.0ºC per molal..",
         "bonusA": "0.07  (ACCEPT:  0.06) \r\n \r\n(Solution:  moles solute = 1g/300g/mol = 0.003m; m = 0.0033 moles solute /0.1kg = 0.033m;  \r\nΔTb = Kb(m) = (2.0ºC/m)(0.033m) = 0.066ºC)",
@@ -13264,7 +13264,7 @@
       "2_15_2": {
         "tossupQ": "BIOLOGY  Multiple Choice  Species similarity is partly based on DNA hybridization studies that \r\ndetermine: \r\n \r\nW)  similarity in where restriction enzymes cleave \r\nX)  determining exact nucleotide sequences \r\nY)  generating a restriction enzyme map \r\nZ)  degree of base pairing between DNA strands",
         "tossupA": "Z)  DEGREE OF BASE PAIRING BETWEEN DNA STRANDS",
-        "bonusQ": "BIOLOGY  Short Answer  In the Calvin cycle, for each 6 CO2 fixed how many PGAL are \r\ntypically formed?",
+        "bonusQ": "BIOLOGY  Short Answer  In the Calvin cycle, for each 6 CO<sub>2</sub> fixed how many PGAL are \r\ntypically formed?",
         "bonusA": "12",
         "category": 1,
         "setNum": 2,
@@ -14125,7 +14125,7 @@
         "tossupQ": "PHYSICS  Multiple Choice  Which of the following would a Leyden jar most likely be \r\nconsidered: \r\n \r\nW)  an electroscope \r\nX)  a capacitor \r\nY)  a resistor \r\nZ)  a Tesla cage",
         "tossupA": "X)  A CAPACITOR",
         "bonusQ": "PHYSICS  Short Answer  How many joules of energy are used by an electrical appliance \r\noperating on 8 amps of current flowing through a 20-ohm resistance circuit for 5 minutes?",
-        "bonusA": "384,000  \r\n \r\n(Solution:  E = I2 R × T = (8A)2 × 20 ohms × 300 s = 384,000 joules)",
+        "bonusA": "384,000  \r\n \r\n(Solution:  E = I<sup>2</sup> R × T = (8A)<sup>2</sup> × 20 ohms × 300 s = 384,000 joules)",
         "category": 3,
         "setNum": 1,
         "roundNum": 14,
@@ -15023,7 +15023,7 @@
       },
       "2_7_3": {
         "tossupQ": "BIOLOGY  Short Answer  What is the substrate for which catalase has the greatest affinity?",
-        "tossupA": "HYDROGEN PEROXIDE   (ACCEPT:  H2O2)",
+        "tossupA": "HYDROGEN PEROXIDE   (ACCEPT:  H2O<sub>2</sub>)",
         "bonusQ": "BIOLOGY  Multiple Choice  Which of the following kinds of microscopy will most commonly \r\nemploy freeze fracture preparation of tissue specimens: \r\n \r\nW)  bright field microscopy \r\nX)  scanning electron microscopy \r\nY)  Normarsky microscopy \r\nZ)  transmission electron microscopy",
         "bonusA": "X)   SCANNING ELECTRON MICROSCOPY",
         "category": 1,
@@ -15444,7 +15444,7 @@
       "7_8_20": {
         "tossupQ": "CHEMISTRY Multiple Choice The Michaelis-Menten assumptions are integral to \r\nunderstanding the kinetics of enzyme-based reactions. Which of the following is NOT one of \r\nthese assumptions? \r\n \r\nW) Substrate is present in slightly greater quantities than the enzyme \r\nX) In a steady state, the concentration of the intermediate is always constant \r\nY) Rate is highest when enzyme catalytic sites are saturated with substrate \r\nZ) The reaction between the substrate and the enzyme is reversible",
         "tossupA": "W) SUBSTRATE IS PRESENT IN SLIGHTLY GREATER QUANTITIES THAN THE \r\nENZYME",
-        "bonusQ": "CHEMISTRY Short Answer Hydrazine, N2H4, is manufactured at extremely high pressures \r\nand temperatures using ammonia gas and producing hydrogen gas. If 22.4 liters of ammonia \r\ngas are used to make hydrazine, how many liters of hydrazine gas are produced?",
+        "bonusQ": "CHEMISTRY Short Answer Hydrazine,N<sub>2</sub>H4, is manufactured at extremely high pressures \r\nand temperatures using ammonia gas and producing hydrogen gas. If 22.4 liters of ammonia \r\ngas are used to make hydrazine, how many liters of hydrazine gas are produced?",
         "bonusA": "11.2",
         "category": 2,
         "setNum": 7,
@@ -15674,8 +15674,8 @@
       "7_13_18": {
         "tossupQ": "CHEMISTRY Multiple Choice Dr. Ecniecs, the evil genius, has released multiple dangerous \r\nweather balloons into the atmosphere, filled with his new concoction - Boomgas! If the density of \r\nBoomgas drops below one third of its density at room temperature, it will explode with the force \r\nof 1/10th of an atomic bomb. Which of the following disposal methods would force the balloons \r\nto explode? \r\n \r\nW) Throwing weighted balloons into the sea  \r\nX) Releasing the balloons into space  \r\nY) Cryogenically storing the balloons in liquid nitrogen  \r\nZ) Venting Boomgas from the balloons",
         "tossupA": "X) RELEASING THE BALLOONS INTO SPACE",
-        "bonusQ": "CHEMISTRY Multiple Choice Consider the following reaction: 5H2O(l)+ S2O32- + 4Cl2 (aq) → \r\n[yields] 8Cl-(aq) + 2SO42-(aq) + 10H+. What is the oxidizing agent in this reaction? \r\n \r\nW) Cl- \r\nX) S2O32- \r\nY) Cl2 \r\nZ) H2O",
-        "bonusA": "Y) Cl2 \r\n  \r\n[(L) = LIQUID; (AQ) = AQUEOUS]",
+        "bonusQ": "CHEMISTRY Multiple Choice Consider the following reaction: 5H2O(l)+ S2O32- + 4Cl<sub>2</sub> (aq) → \r\n[yields] 8Cl-(aq) + 2SO42-(aq) + 10H+. What is the oxidizing agent in this reaction? \r\n \r\nW) Cl- \r\nX) S2O32- \r\nY) Cl<sub>2</sub> \r\nZ) H2O",
+        "bonusA": "Y) Cl<sub>2</sub> \r\n  \r\n[(L) = LIQUID; (AQ) = AQUEOUS]",
         "category": 2,
         "setNum": 7,
         "roundNum": 13,
@@ -17755,7 +17755,7 @@
         "tossupQ": "CHEMISTRY  Short Answer  Which two of the following 5 amino acids are classified as basic \r\nbecause of the structure of their side chains:   \r\narginine;  glycine;  glutamic acid;  phenylalanine;  lysine",
         "tossupA": "ARGININE;  LYSINE",
         "bonusQ": "CHEMISTRY  Short Answer  At 250K, the pressure of oxygen in a 1-liter container is 0.40 \r\natmospheres.  If 0.10 moles of carbon dioxide are added to the container, what will be the new \r\npressure, in atmospheres rounded to the first decimal place?",
-        "bonusA": "2.5  (ACCEPT:  2.4) \r\n \r\n(Soln: P\r\nCO2\r\n = (nRT/V) = [(0.10mol)(0.0821L-atm/K-mol)(250K)]/1L = 2.05 atm; P\r\nT \r\n= 0.40 + 2.05 = \r\n2.45atm = 2.5 atm)",
+        "bonusA": "2.5  (ACCEPT:  2.4) \r\n \r\n(Soln: P\r\nCO<sub>2</sub>\r\n = (nRT/V) = [(0.10mol)(0.0821L-atm/K-mol)(250K)]/1L = 2.05 atm; P\r\nT \r\n= 0.40 + 2.05 = \r\n2.45atm = 2.5 atm)",
         "category": 2,
         "setNum": 3,
         "roundNum": 17,
@@ -18692,7 +18692,7 @@
         "catDiff": "4.3"
       },
       "7_3_20": {
-        "tossupQ": "CHEMISTRY Multiple Choice At high temperatures, nitrogen (N2) and oxygen (O2) gases \r\nreact to form nitric oxide (NO) in a highly endothermic process. In a closed vessel, the three \r\ncompounds form an equilibrium [ee-kwuh-LIB-ree-uhm]. Which of the following changes to the \r\nvessel will result in the production of more NO?  \r\n \r\nW) Addition of helium at constant volume  \r\nX) Adding a catalyst \r\nY) Increasing the temperature of the vessel  \r\nZ) Removing oxygen from the vessel",
+        "tossupQ": "CHEMISTRY Multiple Choice At high temperatures, nitrogen N<sub>2</sub>) and oxygen (O<sub>2</sub>) gases \r\nreact to form nitric oxide (NO) in a highly endothermic process. In a closed vessel, the three \r\ncompounds form an equilibrium [ee-kwuh-LIB-ree-uhm]. Which of the following changes to the \r\nvessel will result in the production of more NO?  \r\n \r\nW) Addition of helium at constant volume  \r\nX) Adding a catalyst \r\nY) Increasing the temperature of the vessel  \r\nZ) Removing oxygen from the vessel",
         "tossupA": "Y) INCREASING THE TEMPERATURE OF THE VESSEL",
         "bonusQ": "CHEMISTRY Short Answer Dinitrogen tetroxide is a powerful oxidizer and can be used with \r\nhydrazine fuels to propel rockets. What is the point group of dinitrogen tetroxide?",
         "bonusA": "D2h",
@@ -19185,7 +19185,7 @@
         "tossupQ": "CHEMISTRY  Short Answer  How many modes of vibration would a non-linear molecule \r\nwith 9 atoms exhibit?",
         "tossupA": "21",
         "bonusQ": "CHEMISTRY  Short Answer  When an acid is added to any metal carbonate, such as \r\nbarium carbonate, what gas is always formed?",
-        "bonusA": "CARBON DIOXIDE (ACCEPT: CO2)",
+        "bonusA": "CARBON DIOXIDE (ACCEPT: CO<sub>2</sub>)",
         "category": 2,
         "setNum": 6,
         "roundNum": 10,
@@ -19244,7 +19244,7 @@
       "6_10_27": {
         "tossupQ": "CHEMISTRY  Short Answer  By number, name all of the following four nonmetal oxides that \r\nhave bent molecular geometries: 1) sulfur dioxide, 2) carbon dioxide, 3) nitrogen dioxide, 4) \r\nsulfur trioxide.",
         "tossupA": "1, 3",
-        "bonusQ": "CHEMISTRY  Multiple Choice  Given that the standard enthalpy [EN-thal-pee] of formation \r\nfor solid calcium carbonate is -1200 kilojoules per mole, for solid calcium oxide is -600 kilojoules \r\nper mole, and for gaseous carbon dioxide is -400 kilojoules per mole, which of the following is \r\nthe standard enthalpy change in kilojoules per mole for the reaction:  \r\nCaCO3 (s)  [yields] CaO (s) + CO2 (g)?  \r\n \r\nW) -400  \r\nX) -200 \r\nY) 200 \r\nZ) 600",
+        "bonusQ": "CHEMISTRY  Multiple Choice  Given that the standard enthalpy [EN-thal-pee] of formation \r\nfor solid calcium carbonate is -1200 kilojoules per mole, for solid calcium oxide is -600 kilojoules \r\nper mole, and for gaseous carbon dioxide is -400 kilojoules per mole, which of the following is \r\nthe standard enthalpy change in kilojoules per mole for the reaction:  \r\nCaCO3 (s)  [yields] CaO (s) + CO<sub>2</sub> (g)?  \r\n \r\nW) -400  \r\nX) -200 \r\nY) 200 \r\nZ) 600",
         "bonusA": "Y) 200  \r\n \r\n[NOTE: (S) = SOLID; (G) = GASEOUS]",
         "category": 2,
         "setNum": 6,
@@ -19514,7 +19514,7 @@
       "1_15_2": {
         "tossupQ": "CHEMISTRY  Multiple Choice  Which of the following is NOT true: \r\n \r\nW)  a reaction that requires free energy is spontaneous \r\nX)  gases, as a group, have higher entropies than liquids \r\nY)  standard molar entropies of pure substances are always positive values \r\nZ)  spontaneous processes involve non-equilibrium conditions",
         "tossupA": "W)  A REACTION THAT REQUIRES FREE ENERGY IS SPONTANEOUS",
-        "bonusQ": "CHEMISTRY  Short Answer  Consider the reaction, N2(gas) + 3H2(gas)  2NH3(gas).  If the \r\nconcentration of ammonia increases from 0.3 molar to 0.9 molar in a 10-minute period, find the \r\naverage rate of reaction over this time interval.  Give your answer to the 2nd decimal place in moles \r\nper liter minute:",
+        "bonusQ": "CHEMISTRY  Short Answer  Consider the reaction,N<sub>2</sub>(gas) + 3H2(gas)  2NH3(gas).  If the \r\nconcentration of ammonia increases from 0.3 molar to 0.9 molar in a 10-minute period, find the \r\naverage rate of reaction over this time interval.  Give your answer to the 2nd decimal place in moles \r\nper liter minute:",
         "bonusA": "0.03 \r\n(Solution: rate = ∆[NH3]/2∆t = 0.6M/2(10min) = 0.03 mole/L-min)",
         "category": 2,
         "setNum": 1,
@@ -19654,8 +19654,8 @@
       "1_15_16": {
         "tossupQ": "CHEMISTRY  Multiple Choice  Which of the following substances has the greatest density: \r\n \r\nW)  hexane  \r\nX)  methylene chloride \r\nY)  diethyl ether \r\nZ)  ethyl acetate",
         "tossupA": "X)  METHYLENE CHLORIDE \r\n \r\n(Solution: halogenated solvents possess a higher density than non-halogenated ones)",
-        "bonusQ": "CHEMISTRY  Multiple Choice  Which of the following molecules is most likely to have a zero \r\ndipole moment based on its molecular shape: \r\n \r\nW)  PF3 \r\nX)  H2O \r\nY)  PCl3 \r\nZ)  BeF2",
-        "bonusA": "Z)  BeF2",
+        "bonusQ": "CHEMISTRY  Multiple Choice  Which of the following molecules is most likely to have a zero \r\ndipole moment based on its molecular shape: \r\n \r\nW)  PF3 \r\nX)  H2O \r\nY)  PCl3 \r\nZ)  BeF<sub>2</sub>",
+        "bonusA": "Z)  BeF<sub>2</sub>",
         "category": 2,
         "setNum": 1,
         "roundNum": 15,
@@ -19724,8 +19724,8 @@
       "1_15_23": {
         "tossupQ": "CHEMISTRY  Short Answer  What chemical term is given to the formations that occur in water \r\nwhen a hydrophilic head and a hydrophobic tail organize into spheres that orient the tails within the \r\nsphere?",
         "tossupA": "MICELLE",
-        "bonusQ": "CHEMISTRY  Short Answer  Using proper chemical nomenclature, finish balancing the \r\nfollowing combustion reaction for the gaseous products of carbon dioxide and water:   \r\n2C4H10(gas) + 13O2(gas)  what?",
-        "bonusA": "8CO2 + 10H2O  (products in any order)",
+        "bonusQ": "CHEMISTRY  Short Answer  Using proper chemical nomenclature, finish balancing the \r\nfollowing combustion reaction for the gaseous products of carbon dioxide and water:   \r\n2C4H10(gas) + 13O<sub>2</sub>(gas)  what?",
+        "bonusA": "8CO<sub>2</sub> + 10H2O  (products in any order)",
         "category": 2,
         "setNum": 1,
         "roundNum": 15,
@@ -19863,7 +19863,7 @@
       },
       "1_16_12": {
         "tossupQ": "GENERAL SCIENCE  Multiple Choice  According to EPA nationwide emission trends for \r\ncommon air pollutants and excluding fires and dust, which of the following  accounted for the least \r\namount of emissions in the past 5 years: \r\n \r\nW)  volatile organic compounds \r\nX)  carbon monoxide \r\nY)  sulfur dioxide \r\nZ)  particulate matter",
-        "tossupA": "Z)  PARTICULATE MATTER \r\n \r\n(Solution: VOC ~ 15;  CO ~ 81 mT/yr;  SO2 ~ 13;  particulates ~ 3)",
+        "tossupA": "Z)  PARTICULATE MATTER \r\n \r\n(Solution: VOC ~ 15;  CO ~ 81 mT/yr;  SO<sub>2</sub> ~ 13;  particulates ~ 3)",
         "bonusQ": "GENERAL SCIENCE  Short Answer   Without leap days every 4 years, the winter solstice \r\nwould start on what month and day after 70 years?",
         "bonusA": "JANUARY 7  (ACCEPT:  JANUARY 6 TO 8) \r\n \r\n(Solution: 17 days later)",
         "category": 6,
@@ -19904,8 +19904,8 @@
       "1_16_16": {
         "tossupQ": "CHEMISTRY  Short Answer  For the following 3 processes, predict whether the change in \r\nenthalpy, or ∆Sº (read as: delta S naught), is positive or negative, respectively: \r\n 1) decomposition of ammonium nitrate \r\n 2) sublimation of dry ice \r\n 3) condensation of gaseous iodine to liquid iodine",
         "tossupA": "1) +;  2) +;  3) –",
-        "bonusQ": "CHEMISTRY  Short Answer  Consider the following equilibrium reaction,  \r\nPCl5(gas) ↔ PCl3(gas) + Cl2(gas).  If a 1-liter flask contains 0.02 moles of PCl3 and 0.02 moles of Cl2 at \r\nequilibrium, how many moles of PCl5 are in the flask.  Assume the equilibrium constant is 5 × 10–2.",
-        "bonusA": "8 × 10–3  (ACCEPT:  0.008) \r\n \r\n(Solution: Kc = [PCl3][Cl2]/[PCl5] = (0.02)(0.02)/(0.05) = 0.008 moles)",
+        "bonusQ": "CHEMISTRY  Short Answer  Consider the following equilibrium reaction,  \r\nPCl5(gas) ↔ PCl3(gas) + Cl<sub>2</sub>(gas).  If a 1-liter flask contains 0.02 moles of PCl3 and 0.02 moles of Cl<sub>2</sub> at \r\nequilibrium, how many moles of PCl5 are in the flask.  Assume the equilibrium constant is 5 × 10–2.",
+        "bonusA": "8 × 10–3  (ACCEPT:  0.008) \r\n \r\n(Solution: Kc = [PCl3][Cl<sub>2</sub>]/[PCl5] = (0.02)(0.02)/(0.05) = 0.008 moles)",
         "category": 2,
         "setNum": 1,
         "roundNum": 16,
@@ -22183,7 +22183,7 @@
       },
       "6_5_19": {
         "tossupQ": "CHEMISTRY  Short Answer  When baking cupcakes, a common ingredient used to make \r\nthe batter rise is baking soda. What is the gas produced that causes the batter to rise?",
-        "tossupA": "CARBON DIOXIDE (ACCEPT: CO2)",
+        "tossupA": "CARBON DIOXIDE (ACCEPT: CO<sub>2</sub>)",
         "bonusQ": "CHEMISTRY  Short Answer  What is the conjugate acid of the acetate ion?",
         "bonusA": "ACETIC ACID (ACCEPT: ETHANOIC ACID)",
         "category": 2,
@@ -29446,7 +29446,7 @@
         "tossupQ": "GENERAL SCIENCE Short Answer What is the common name for the antiseptic, found in \r\nmany homes, that decomposes into water and oxygen?",
         "tossupA": "HYDROGEN PEROXIDE",
         "bonusQ": "GENERAL SCIENCE Short Answer What is the chemical formula for hydrogen peroxide?",
-        "bonusA": "H2O2",
+        "bonusA": "H2O<sub>2</sub>",
         "category": 6,
         "setNum": 1,
         "roundNum": 1,
@@ -29535,7 +29535,7 @@
       "1_9_4": {
         "tossupQ": "PHYSICAL SCIENCE Multiple Choice A fifty-fifty solution of distilled water and pure ethanol \r\nwill appear: \r\n \r\nW) clear \r\nX) cloudy \r\nY) purple \r\nZ) heterogeneous",
         "tossupA": "W) CLEAR",
-        "bonusQ": "PHYSICAL SCIENCE Multiple Choice Which of the following chemical names is NOT \r\ncorrectly matched with its chemical formula: \r\n \r\nW) H2SO4 and sulfuric acid \r\nX) HCl and hydrochloric acid \r\nY) BeCl2 and boron dichloride \r\nZ) SO2 and sulfur dioxide",
+        "bonusQ": "PHYSICAL SCIENCE Multiple Choice Which of the following chemical names is NOT \r\ncorrectly matched with its chemical formula: \r\n \r\nW) H2SO4 and sulfuric acid \r\nX) HCl and hydrochloric acid \r\nY) BeCl<sub>2</sub> and boron dichloride \r\nZ) SO<sub>2</sub> and sulfur dioxide",
         "bonusA": "Y) BeCL2 AND BORON DICHLORIDE",
         "category": 3,
         "setNum": 1,
@@ -29685,7 +29685,7 @@
       "1_9_19": {
         "tossupQ": "PHYSICAL SCIENCE Short Answer Giving your answer in scientific notation to the second \r\ndecimal place, how many molecules are in 10 moles of H2O?",
         "tossupA": "6.02 × 1024 \r\n \r\n(Solution: (10 mol H2O)(6.023 × 1023 molecules/mole) = 6.023 × 1024 molecules)",
-        "bonusQ": "PHYSICAL SCIENCE Short Answer Using proper chemical formulas, finish balancing the \r\nfollowing equation: N2 + 3H2  what?",
+        "bonusQ": "PHYSICAL SCIENCE Short Answer Using proper chemical formulas, finish balancing the \r\nfollowing equation:N<sub>2</sub> + 3H2  what?",
         "bonusA": "2NH3",
         "category": 3,
         "setNum": 1,
@@ -30645,8 +30645,8 @@
       "1_18_15": {
         "tossupQ": "PHYSICAL SCIENCE Multiple Choice Which of the following would be the most logical \r\nchoice for neutralizing a small amount of basic sodium hydroxide that was spilled on a lab bench: \r\n \r\nW) citric acid \r\nX) mercury pillow \r\nY) concentrated sulfuric acid \r\nZ) concentrated hydrochloric acid",
         "tossupA": "W) CITRIC ACID",
-        "bonusQ": "PHYSICAL SCIENCE Short Answer When the following chemical equation is balanced, the \r\ncoefficient of oxygen will be what value: CH4 + O2  CO2 + H2O",
-        "bonusA": "2 \r\n \r\n(Solution: CH4 + 2O2  CO2 + 2H2O)",
+        "bonusQ": "PHYSICAL SCIENCE Short Answer When the following chemical equation is balanced, the \r\ncoefficient of oxygen will be what value: CH4 + O<sub>2</sub>  CO<sub>2</sub> + H2O",
+        "bonusA": "2 \r\n \r\n(Solution: CH4 + 2O<sub>2</sub>  CO<sub>2</sub> + 2H2O)",
         "category": 3,
         "setNum": 1,
         "roundNum": 18,
@@ -30746,7 +30746,7 @@
         "tossupQ": "PHYSICAL SCIENCE Short Answer If the half-life of a given isotope is 7 days, what fraction \r\nof the original isotope will be left after 14 days?",
         "tossupA": "4\r\n1",
         "bonusQ": "PHYSICAL SCIENCE Short Answer Using proper chemical formulas, finish balancing the \r\nfollowing equation: Ba(OH)2 + 2HCl  what?",
-        "bonusA": "BaCl2 + 2H2O",
+        "bonusA": "BaCl<sub>2</sub> + 2H2O",
         "category": 3,
         "setNum": 1,
         "roundNum": 18,
@@ -31403,7 +31403,7 @@
         "catDiff": "1.12"
       },
       "1_12_16": {
-        "tossupQ": "PHYSICAL SCIENCE Multiple Choice Which of the following molecules is considered the \r\nmost polar: \r\n \r\nW) CH4 \r\nX) HF \r\nY) F2 \r\nZ) CO2",
+        "tossupQ": "PHYSICAL SCIENCE Multiple Choice Which of the following molecules is considered the \r\nmost polar: \r\n \r\nW) CH4 \r\nX) HF \r\nY) F<sub>2</sub> \r\nZ) CO<sub>2</sub>",
         "tossupA": "X) HF",
         "bonusQ": "PHYSICAL SCIENCE Short Answer In addition to oxygen and sodium, what other element is \r\na major constituent of borax?",
         "bonusA": "BORON",
@@ -34693,7 +34693,7 @@
         "catDiff": "0.15"
       },
       "1_15_20": {
-        "tossupQ": "PHYSICAL SCIENCE Multiple Choice Which of the following best describes the following \r\nreaction: 2Mg + O2  2MgO \r\n \r\nW) combination \r\nX) decomposition \r\nY) single replacement \r\nZ) combustion",
+        "tossupQ": "PHYSICAL SCIENCE Multiple Choice Which of the following best describes the following \r\nreaction: 2Mg + O<sub>2</sub>  2MgO \r\n \r\nW) combination \r\nX) decomposition \r\nY) single replacement \r\nZ) combustion",
         "tossupA": "W) COMBINATION",
         "bonusQ": "PHYSICAL SCIENCE Short Answer Name all of the following 3 substances that will likely \r\nform a weak electrolyte when dissolved in pure water:  \r\nacetic acid; magnesium chloride; sodium hydroxide",
         "bonusA": "ACETIC ACID",
@@ -37003,8 +37003,8 @@
         "catDiff": "4.8"
       },
       "2_8_2": {
-        "tossupQ": "LIFE SCIENCE Multiple Choice A summary reaction for photosynthesis is: \r\n \r\nW) CO2 + O2 + H2O and light yields carbohydrate + O2\r\nX) CO2 + H2O and light yields carbohydrate + O2\r\nY) CO2 + H2O and light yields carbohydrate + H2O \r\nZ)  CO2 + O2 + H2O and light yields carbohydrate + H2O",
-        "tossupA": "X) CO2 + H2O AND LIGHT YIELDS CARBOHYDRATE + O2",
+        "tossupQ": "LIFE SCIENCE Multiple Choice A summary reaction for photosynthesis is: \r\n \r\nW) CO<sub>2</sub> + O<sub>2</sub> + H2O and light yields carbohydrate + O<sub>2</sub>\r\nX) CO<sub>2</sub> + H2O and light yields carbohydrate + O<sub>2</sub>\r\nY) CO<sub>2</sub> + H2O and light yields carbohydrate + H2O \r\nZ)  CO<sub>2</sub> + O<sub>2</sub> + H2O and light yields carbohydrate + H2O",
+        "tossupA": "X) CO<sub>2</sub> + H2O AND LIGHT YIELDS CARBOHYDRATE + O<sub>2</sub>",
         "bonusQ": "LIFE SCIENCE Multiple Choice It is generally believed that most of the oxygen in the air \r\ntoday came from: \r\n \r\nW) oxidation of carbon molecules containing oxygen \r\nX) release of oxygen from volcanic vents \r\nY) photosynthesis \r\nZ) forest fires",
         "bonusA": "Y) PHOTOSYNTHESIS \r\nJunior National Science Bowl Single Elimination 1 Page 1",
         "category": 1,
@@ -37566,7 +37566,7 @@
         "tossupQ": "PHYSICAL SCIENCE Short Answer The amount of heat needed to increase the temperature \r\nof 1.00 gram of water from 14.5°C to 15.5°C is defined as what unit of measurement?",
         "tossupA": "CALORIE",
         "bonusQ": "PHYSICAL SCIENCE Short Answer What is the chemical formula for hydrogen peroxide?",
-        "bonusA": "H2O2 \r\n \r\nJunior National Science Bowl Round Robin 4 Page 4",
+        "bonusA": "H2O<sub>2</sub> \r\n \r\nJunior National Science Bowl Round Robin 4 Page 4",
         "category": 3,
         "setNum": 2,
         "roundNum": 4,
@@ -42754,7 +42754,7 @@
       },
       "6_2_3": {
         "tossupQ": "GENERAL SCIENCE Short Answer What is the molecular formula for magnesium chloride?",
-        "tossupA": "MgCl2",
+        "tossupA": "MgCl<sub>2</sub>",
         "bonusQ": "GENERAL SCIENCE Multiple Choice Which of the following elements is contained in least \r\nsignificant concentrations in manganese nodules found on the ocean floor? \r\n \r\nW) Iron \r\nX) Plutonium \r\nY) Nickel \r\nZ) Manganese",
         "bonusA": "X) PLUTONIUM",
         "category": 6,
@@ -43085,7 +43085,7 @@
       "6_5_11": {
         "tossupQ": "GENERAL SCIENCE Short Answer What kind of circuit consists of multiple different \r\ncomponents, but has only one path for the current to follow?",
         "tossupA": "SERIES",
-        "bonusQ": "GENERAL SCIENCE Short Answer Given the balanced chemical equation 4P + 5O2     \r\nyields 2P2Ox, what should x equal?",
+        "bonusQ": "GENERAL SCIENCE Short Answer Given the balanced chemical equation 4P + 5O<sub>2</sub>     \r\nyields 2P2Ox, what should x equal?",
         "bonusA": "5",
         "category": 6,
         "setNum": 6,
@@ -43933,7 +43933,7 @@
         "catDiff": "0.1"
       },
       "6_1_21": {
-        "tossupQ": "PHYSICAL SCIENCE Multiple Choice Which of the following is an example of a \r\ncompound? \r\n \r\nW) O2 \r\nX) O3 \r\nY) HCl \r\nZ) Cl2",
+        "tossupQ": "PHYSICAL SCIENCE Multiple Choice Which of the following is an example of a \r\ncompound? \r\n \r\nW) O<sub>2</sub> \r\nX) O3 \r\nY) HCl \r\nZ) Cl<sub>2</sub>",
         "tossupA": "Y) HCl",
         "bonusQ": "PHYSICAL SCIENCE Multiple Choice Which of the following properties is NOT a property \r\nof a covalent molecular compound? \r\n \r\nW) Low melting point \r\nX) Low boiling point \r\nY) Good electrical conductivity \r\nZ) Poor thermal conductivity",
         "bonusA": "Y) GOOD ELECTRICAL CONDUCTIVITY",
@@ -45795,8 +45795,8 @@
       "6_4_7": {
         "tossupQ": "GENERAL SCIENCE Short Answer On a velocity graph, what is the acceleration when the \r\nline is level and horizontal?",
         "tossupA": "ZERO",
-        "bonusQ": "GENERAL SCIENCE Multiple Choice Which of the following represents a synthesis \r\nreaction? \r\n \r\nW) Zn + HCl      [yields] ZnCl2 + H2 \r\nX) AgNO3 + HCl      AgCl + HNO3 \r\nY) 2KClO3      2KCl + 3O2 \r\nZ) N2 + 3H2       2NH3",
-        "bonusA": "Z) N2 + 3H2       2NH3",
+        "bonusQ": "GENERAL SCIENCE Multiple Choice Which of the following represents a synthesis \r\nreaction? \r\n \r\nW) Zn + HCl      [yields] ZnCl<sub>2</sub> + H2 \r\nX) AgNO3 + HCl      AgCl + HNO3 \r\nY) 2KClO3      2KCl + 3O<sub>2</sub> \r\nZ)N<sub>2</sub> + 3H2       2NH3",
+        "bonusA": "Z)N<sub>2</sub> + 3H2       2NH3",
         "category": 6,
         "setNum": 6,
         "roundNum": 4,
@@ -46685,7 +46685,7 @@
       "6_8_21": {
         "tossupQ": "GENERAL SCIENCE Multiple Choice A population splits and part of the group occupies a \r\ndifferent niche [NICH] from the parent group and can no longer interbreed with the parent \r\npopulation. Which of the following describes this process? \r\n \r\nW) Genetic drift \r\nX) Speciation \r\nY) Endemism \r\nZ) Invasion",
         "tossupA": "X) SPECIATION",
-        "bonusQ": "GENERAL SCIENCE Short Answer Given the equation H2 + Cl2      [yields] 2HCl + \r\nheat, if the reaction were performed with fluorine instead of chlorine, how many moles of H2 \r\nwould be required to yield two moles of HF?",
+        "bonusQ": "GENERAL SCIENCE Short Answer Given the equation H2 + Cl<sub>2</sub>      [yields] 2HCl + \r\nheat, if the reaction were performed with fluorine instead of chlorine, how many moles of H2 \r\nwould be required to yield two moles of HF?",
         "bonusA": "ONE",
         "category": 6,
         "setNum": 6,
@@ -48335,7 +48335,7 @@
       "7_5_11": {
         "tossupQ": "LIFE SCIENCE Multiple Choice The cancer that is frequently associated with asbestos \r\nexposure is which of the following? \r\n \r\nW) Melanoma \r\nX) Myeloma [my-uh-LOH-muh] \r\nY) Mesothelioma \r\nZ) Multiple sclerosis",
         "tossupA": "Y) MESOTHELIOMA",
-        "bonusQ": "LIFE SCIENCE Short Answer In pea plants, tall is dominant over short. Suppose you cross \r\na tall pea plant with a short pea plant. The first generations of offspring or the F1 generation are \r\nall tall. You then cross two of these F1 generation pea plants to create a new generation of \r\noffspring, the F2 generation. What fraction of the F2 generation pea plants will be tall?",
+        "bonusQ": "LIFE SCIENCE Short Answer In pea plants, tall is dominant over short. Suppose you cross \r\na tall pea plant with a short pea plant. The first generations of offspring or the F1 generation are \r\nall tall. You then cross two of these F1 generation pea plants to create a new generation of \r\noffspring, the F<sub>2</sub> generation. What fraction of the F<sub>2</sub> generation pea plants will be tall?",
         "bonusA": "3/4",
         "category": 1,
         "setNum": 7,
@@ -51255,7 +51255,7 @@
       "6_10_3": {
         "tossupQ": "GENERAL SCIENCE Multiple Choice In which of the following locations do most ocean \r\ntrenches occur? \r\n \r\nW) Mid-ocean ridge \r\nX) Abyssal plains \r\nY) Continental shelf \r\nZ) Convergent boundaries",
         "tossupA": "Z) CONVERGENT BOUNDARIES",
-        "bonusQ": "GENERAL SCIENCE Short Answer Given the combustion equation 2C4H10 + 13O2 →         \r\n[yields] 8CO2 + 10H2O, how many moles of water can be produced by reacting 12.5 moles of \r\nC4H10 with excess oxygen?",
+        "bonusQ": "GENERAL SCIENCE Short Answer Given the combustion equation 2C4H10 + 13O<sub>2</sub> →         \r\n[yields] 8CO<sub>2</sub> + 10H2O, how many moles of water can be produced by reacting 12.5 moles of \r\nC4H10 with excess oxygen?",
         "bonusA": "62.5",
         "category": 6,
         "setNum": 6,
@@ -54564,7 +54564,7 @@
         "catDiff": "3.7"
       },
       "7_7_9": {
-        "tossupQ": "GENERAL SCIENCE Multiple Choice Which of the following types of reaction is represented \r\nby the example: N2 + 3H2 → [yields] 2NH3? \r\n \r\nW) Decomposition \r\nX) Combustion \r\nY) Synthesis \r\nZ) Substitution",
+        "tossupQ": "GENERAL SCIENCE Multiple Choice Which of the following types of reaction is represented \r\nby the example:N<sub>2</sub> + 3H2 → [yields] 2NH3? \r\n \r\nW) Decomposition \r\nX) Combustion \r\nY) Synthesis \r\nZ) Substitution",
         "tossupA": "Y) SYNTHESIS",
         "bonusQ": "GENERAL SCIENCE Multiple Choice Suppose you want to ripen fruit by exposing it to a \r\nplant hormone. Which of the following would be most effective? \r\n \r\nW) Auxins [AWK-sins] \r\nX) Gibbberellins [jib-uh-REL-ins] \r\nY) Cytokinins [sy-tuh-KY-nins] \r\nZ) Ethylene gas",
         "bonusA": "Z) ETHYLENE GAS",
@@ -54654,8 +54654,8 @@
         "catDiff": "1.7"
       },
       "7_7_18": {
-        "tossupQ": "GENERAL SCIENCE Multiple Choice Which of the following is NOT required for \r\nphotosynthesis to occur? \r\n \r\nW) CO2 \r\nX) H2O \r\nY) C6H12O2 \r\nZ) Photons",
-        "tossupA": "Y) C6H12O2",
+        "tossupQ": "GENERAL SCIENCE Multiple Choice Which of the following is NOT required for \r\nphotosynthesis to occur? \r\n \r\nW) CO<sub>2</sub> \r\nX) H2O \r\nY) C6H12O<sub>2</sub> \r\nZ) Photons",
+        "tossupA": "Y) C6H12O<sub>2</sub>",
         "bonusQ": "GENERAL SCIENCE Multiple Choice Suppose a chemical reaction occurs, and a reddish \r\nbrown gas is released. Which of the following could possibly be this gas? \r\n \r\nW) Chlorine \r\nX) Bromine \r\nY) Iodine \r\nZ) Argon",
         "bonusA": "X) BROMINE",
         "category": 6,
@@ -54937,7 +54937,7 @@
         "tossupQ": "GENERAL SCIENCE Multiple Choice Vernal pools are which of the following? \r\n \r\nW) Ponds that are found throughout the Mediterranean region \r\nX) Wetlands that come and go with the seasons \r\nY) Water bodies that are dry in the summer \r\nZ) Lakes that shift slightly every year",
         "tossupA": "X) WETLANDS THAT COME AND GO WITH THE SEASONS",
         "bonusQ": "GENERAL SCIENCE Short Answer What form of nitrogen results from the reactions \r\ncatalyzed by denitrifying bacteria?",
-        "bonusA": "MOLECULAR (ACCEPT: N2)",
+        "bonusA": "MOLECULAR (ACCEPT:N<sub>2</sub>)",
         "category": 6,
         "setNum": 7,
         "roundNum": 15,
