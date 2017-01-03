@@ -17,10 +17,25 @@ html, body {
     height: 200px;
     background-size: contain;
     background-repeat: no-repeat;
-    margin: 10%;
+
     background-position-x: center;
     width: 80%;
+
+    @media only screen and (min-height:615px) {
+      height:200px;
+      margin: 10% auto;
+    }
+
+    @media only screen and (min-height:0px) and (max-height: 615px) {
+      height:150px;
+      margin: 5% auto;
+    }
+    @media only screen and (max-height:560px) {
+      height:100px;
+      margin: 2% auto;
+    }
   }
+
 
   .tabs-large {
     //height: 400px;
