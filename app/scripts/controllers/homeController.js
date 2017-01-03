@@ -185,7 +185,7 @@ angular.module('IonicGulpSeed')
                                         bonusQ: $scope.data.bonusQ
                                     };
 
-                                    $scope.fullQuestion = $scope.dataReal.tossupQ.split(/[ ,+,-,×,\/]/); //math split.
+                                    $scope.fullQuestion = $scope.dataReal.tossupQ.split(/ /);
                                     $scope.data.tossupQ = "";
                                     var index = 0;
                                     var initialReadSpeed = 1000/SettingsService.settings.readSpeed;
