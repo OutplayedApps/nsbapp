@@ -20,7 +20,7 @@ angular.module('IonicGulpSeed')
         var settings = {};
         settings.mode = 1;
         settings.level = 1;
-        settings.readSpeed = 1;
+        settings.readSpeed = 5;
 
         //mode: 0 is reader 1 is game mode
         //level: 0 is MS 1 is HS

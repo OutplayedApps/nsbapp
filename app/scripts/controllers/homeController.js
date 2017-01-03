@@ -46,9 +46,7 @@ angular.module('IonicGulpSeed')
                             $scope.$broadcast("settingsChanged");
                             console.log("I SHOULD ONLY DO THIS ONCE");
                         }
-                        else {
-                            //$scope.pauseEverything = false;
-                        }
+                        $scope.pauseEverything = false;
 
                     }
                 });
@@ -146,7 +144,7 @@ angular.module('IonicGulpSeed')
                     return txt;
 
                 }
-                $scope.readSpeed = 200;
+                console.log("SPEEEE"+1000/SettingsService.settings.readSpeed);
                 $scope.loading = false;
                 $scope.progress = 0;
                 $scope.nextQuestion = function (actuallyGoToNext) {
@@ -187,20 +185,32 @@ angular.module('IonicGulpSeed')
                                     $scope.fullQuestion = $scope.dataReal.tossupQ.split(" ");
                                     $scope.data.tossupQ = "";
                                     var index = 0;
-                                    promise = $interval(function() {
-                                        if ($scope.pauseEverything) return;
-                                        console.log("PAUSEAAA"+$scope.pauseEverything);
-                                        $scope.data.tossupQ += " "+$scope.fullQuestion[index];
-                                        if (index == $scope.fullQuestion.length-1 || $scope.progress != 2) {
-                                            $interval.cancel(promise);
-                                            if ($scope.progress == 2) {
-                                                $scope.nextQuestion();
-                                                console.log("2 HAS BEEN CALLED");
-                                            }
+                                    var initialReadSpeed = 1000/SettingsService.settings.readSpeed;
 
+                                    var updateTossupPosition = function() {
+                                    if ($scope.pauseEverything) {
+                                        return;
+                                    }
+                                    console.log("PAUSEAAA"+$scope.pauseEverything);
+                                    $scope.data.tossupQ += " "+$scope.fullQuestion[index];
+                                    if (index == $scope.fullQuestion.length-1 || $scope.progress != 2) {
+                                        $interval.cancel(promise);
+                                        if ($scope.progress == 2) {
+                                            $scope.nextQuestion();
+                                            console.log("2 HAS BEEN CALLED");
                                         }
-                                        index++;
-                                    }, $scope.readSpeed);
+                                    }
+                                    if (1000/SettingsService.settings.readSpeed != initialReadSpeed) {
+                                        //if speed has changed.
+                                        initialReadSpeed = 1000/SettingsService.settings.readSpeed;
+                                        console.log("updating speed to "+initialReadSpeed);
+                                        $interval.cancel(promise);
+                                        promise = $interval(updateTossupPosition, initialReadSpeed);
+                                    }
+                                    index++;
+                                }
+                                    promise = $interval(updateTossupPosition, initialReadSpeed);
+
                                     return;
                                 case 3:
                                     //question paused, buzzing.
@@ -227,7 +237,7 @@ angular.module('IonicGulpSeed')
 
                                         }
                                         index++;
-                                    }, $scope.readSpeed);
+                                    }, 1000/SettingsService.settings.readSpeed);
                                     return;
                                 case 6:
                                     $interval.cancel(promise);

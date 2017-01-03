@@ -47,10 +47,12 @@ angular.module('IonicGulpSeed')
             $scope.level = l;
             SettingsService.settings.level = l;
             //$scope.$broadcast("settingsChanged");
-        }
+        };
 
+        $("#readSpeedRange").val(SettingsService.settings.readSpeed);
         $scope.updateReadSpeed = function() {
-            SettingsService.readSpeed = $scope.readSpeed;
+            SettingsService.settings.readSpeed = $("#readSpeedRange").val();
+            console.log("SPEED CHANGED"+SettingsService.settings.readSpeed, $scope.readSpeed);
         }
         /*$scope.$watch(function () {
                 return $ionicSideMenuDelegate.isOpenLeft();

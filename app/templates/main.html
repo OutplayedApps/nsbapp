@@ -70,8 +70,7 @@
 
                     <div class="item range range-positive">
                         Slow
-                        <input type="range" min="0" max="200" ng-model="readSpeed"
-                        ng-change="updateReadSpeed">
+                        <input type="range" id="readSpeedRange" min="1" max="10" step=".1" ng-model="readSpeed" ng-change="updateReadSpeed()">
                         <i class="icon ion-ios-fastforward"></i>
                     </div>
                 </div>
