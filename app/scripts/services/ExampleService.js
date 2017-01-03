@@ -35,11 +35,36 @@ angular.module('IonicGulpSeed')
 
 
         };
+        var showAd = function() {
+            // select the right Ad Id according to platform
+            var admobid = {};
+            if( /(android)/i.test(navigator.userAgent) ) { // for android & amazon-fireos
+                admobid = {
+                    banner: 'ca-app-pub-9328159054616225/3119613792', // or DFP format "/6253334/dfp_example_ad"
+                    interstitial: 'ca-app-pub-xxx/yyy'
+                };
+            } else if(/(ipod|iphone|ipad)/i.test(navigator.userAgent)) { // for ios
+                admobid = {
+                    banner: 'ca-app-pub-9328159054616225/3119613792', // or DFP format "/6253334/dfp_example_ad"
+                    interstitial: 'ca-app-pub-xxx/kkk'
+                };
+            } else { // for windows phone
+                admobid = {
+                    banner: 'ca-app-pub-9328159054616225/3119613792', // or DFP format "/6253334/dfp_example_ad"
+                    interstitial: 'ca-app-pub-xxx/kkk'
+                };
+            }
+            if(AdMob) AdMob.createBanner({
+                adId: admobid.banner,
+                position: AdMob.AD_POSITION.TOP_CENTER,
+                autoShow: true });
+        }
 
         // public api
         return {
             doSomethingAsync: doSomethingAsync,
-            fetchQuestions: fetchQuestions
+            fetchQuestions: fetchQuestions,
+            showAd: showAd
         };
 
     });

@@ -14,7 +14,7 @@ angular.module('IonicGulpSeed')
             //required for side menu to work lol:
             $ionicHistory.clearHistory();
             $ionicSideMenuDelegate.canDragContent(true);
-
+            ExampleService.showAd();
 
             $scope.$on( "$ionicView.enter", function( scopes, states ) {
                console.log("ENTERED");
