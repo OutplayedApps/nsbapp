@@ -89,7 +89,7 @@ angular.module('IonicGulpSeed')
                 scope: $scope,
                 buttons: [
                     { text: 'Close',
-                        type: 'button-dark button-outline'
+                        type: 'button-positive'
                     },
                     /*{
                         text: '<b>Save</b>',
@@ -117,7 +117,7 @@ angular.module('IonicGulpSeed')
                 scope: $scope,
                 buttons: [
                     { text: 'Close',
-                        type: 'button-dark button-outline'
+                        type: 'button-positive'
                     },
                     /*{
                      text: '<b>Save</b>',
