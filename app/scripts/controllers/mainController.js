@@ -35,7 +35,7 @@ angular.module('IonicGulpSeed')
             $(($scope.settings.mode == 0) ? ".tabGame" : ".tabReader").click();
             $(($scope.settings.level == 0) ? ".tabMS" : ".tabHS").click();
 
-            console.log($scope.settings.mode,"Is the mode");
+            console.log($scope.settings.level,"Is the level");
         }
 
         $rootScope.$on('$stateChangeSuccess',

@@ -39,7 +39,7 @@ angular.module('IonicGulpSeed')
                 }
                     if (!open) {
                         console.log("changed");
-
+                        console.log(SettingsService.settings.level, $scope.level);
                         if (SettingsService.settings.mode != $scope.mode ||
                             SettingsService.settings.level != $scope.level) {
 
@@ -59,7 +59,8 @@ angular.module('IonicGulpSeed')
                 var mode = $scope.mode;
                 $scope.questionNum = (mode == 0) ? 0 : 1;
                 console.log("MODE"+mode);
-                $scope.HSorMS = (SettingsService.settings.level == 1);
+                $scope.level = SettingsService.settings.level;
+                $scope.HSorMS = ($scope.level == 1);
                 var HSorMS = $scope.HSorMS;
                 console.log(SettingsService.settings.level);
                 //mode: 0 is reader 1 is game mode
