@@ -18502,9 +18502,9 @@
         "catDiff": "2.15"
       },
       "7_3_1": {
-        "tossupQ": "MATH Short Answer If 푙푙푙1002푥\r\nP \r\n= 2 [log base 10 of 100 to the power of 2x equals 2], what \r\nis the value of x?",
+        "tossupQ": "MATH Short Answer If [log base 10 of 100 to the power of 2x equals 2], what \r\nis the value of x?",
         "tossupA": "12 (ACCEPT: 0.5)",
-        "bonusQ": "MATH Short Answer Simplify the following expression: sec23휋4−csc2휋4−cos24휋 [secant \r\nsquared of 3 pi over 4 minus cosecant squared of pi over 4 minus cosine squared of 4 \r\npi].",
+        "bonusQ": "MATH Short Answer Simplify the following expression: [secant \r\nsquared of 3 pi over 4 minus cosecant squared of pi over 4 minus cosine squared of 4 \r\npi].",
         "bonusA": "-1",
         "category": 4,
         "setNum": 7,
@@ -18624,7 +18624,7 @@
       "7_3_13": {
         "tossupQ": "MATH Multiple Choice What is the general solution to the differential equation: \r\ndy/dx = 2x + 1 [dy dx equals 2x plus 1]? \r\n \r\nW) y = x<sup>2</sup> + x + c \r\nX) y = ½ x<sup>2</sup> + c \r\nY) y = 2 + c \r\nZ) y = 2x + c",
         "tossupA": "W) y = x<sup>2</sup> + x + c",
-        "bonusQ": "MATH Short Answer Simplify: x1/2 (x1/2 + x1/2) [x to the power of one half times open \r\nparenthesis x to the power of one half plus x to the power of one half close parenthesis].",
+        "bonusQ": "MATH Short Answer Simplify: x<sup>1/2</sup> (x<sup>1/2</sup> + x<sup>1/2</sup>).",
         "bonusA": "2x",
         "category": 4,
         "setNum": 7,
@@ -18682,7 +18682,7 @@
         "catDiff": "3.3"
       },
       "7_3_19": {
-        "tossupQ": "MATH Multiple Choice What is the derivative of y = (3x + 1)2 [y equals 3x plus 1 quantity \r\nsquared]? \r\n \r\nW) 18x + 6 \r\nX) 18x  \r\nY) 6x + 1 \r\nZ) 6x + 2",
+        "tossupQ": "MATH Multiple Choice What is the derivative of y = (3x + 1)<sup>2</sup> [y equals 3x plus 1 quantity \r\nsquared]? \r\n \r\nW) 18x + 6 \r\nX) 18x  \r\nY) 6x + 1 \r\nZ) 6x + 2",
         "tossupA": "W) 18x + 6",
         "bonusQ": "MATH Short Answer What is the equation, in slope-intercept form, of the perpendicular \r\nbisector of the line segment with endpoints (4, 10) and (-6, 8)?",
         "bonusA": "y = -5x + 4",
@@ -18782,7 +18782,7 @@
         "catDiff": "3.1"
       },
       "6_1_4": {
-        "tossupQ": "MATH  Multiple Choice  For all real numbers, the expression   [the square root \r\nof the quantity x squared minus 4 x plus 4] equals which of the following? \r\n \r\nW) x  2 \r\nX) x  2x + 2 \r\nY) |x  2| [the absolute value of the quantity x minus 2] \r\nZ) x + 2",
+        "tossupQ": "MATH  Multiple Choice  For all real numbers, the expression &radic;(x<sup>2</sup> - 4x + 4) equals which of the following? \r\n \r\nW) x - 2 \r\nX) x - 2x + 2 \r\nY) |x - 2| \r\nZ) x + 2",
         "tossupA": "Y) |x  2|",
         "bonusQ": "MATH  Short Answer  What are the coordinates of the vertex of the graph of y = 2x<sup>2</sup> + 8x – 3?",
         "bonusA": "(-2, -11)",
@@ -18842,9 +18842,9 @@
         "catDiff": "3.1"
       },
       "6_1_10": {
-        "tossupQ": "MATH  Multiple Choice  The equation -3 + |-2x - 5| = k [negative 3 plus the absolute value \r\nof the quantity negative 2x minus 5 equals k] has no solution if k equals which of the \r\nfollowing? \r\n \r\nW) -5 \r\nX) -3 \r\nY) 0  \r\nZ) 7",
+        "tossupQ": "MATH  Multiple Choice  The equation -3 + |-2x - 5| = k has no solution if k equals which of the \r\nfollowing? \r\n \r\nW) -5 \r\nX) -3 \r\nY) 0  \r\nZ) 7",
         "tossupA": "W) -5",
-        "bonusQ": "MATH  Multiple Choice  Which of the following statements is NOT true? \r\n \r\nW) cos(-x) = cos(x) [cosine of negative x equals cosine of x] \r\nX) tan(-x) = tan(x) [tangent of negative x equals tangent of x] \r\nY) The amplitude of y = -2 cos(t) is equal to 2 \r\nZ) The range of y = -5 sin(t) is [-5 , 5] [the closed interval from negative 5 to 5]",
+        "bonusQ": "MATH  Multiple Choice  Which of the following statements is NOT true? \r\n \r\nW) cos(-x) = cos(x) \r\nX) tan(-x) = tan(x) \r\nY) The amplitude of y = -2 cos(t) is equal to 2 \r\nZ) The range of y = -5 sin(t) is [-5 , 5] [the closed interval from negative 5 to 5]",
         "bonusA": "X) tan(-x) = tan(x)",
         "category": 4,
         "setNum": 6,
@@ -18904,7 +18904,7 @@
       "6_1_16": {
         "tossupQ": "MATH  Short Answer  If the graph of the function f lies in quadrant IV, then in which \r\nquadrant does the graph of the inverse of f lie?",
         "tossupA": "II (ACCEPT: 2 OR SECOND)",
-        "bonusQ": "MATH  Short Answer  What is the period of the function f(x) = sin((π/6) x + π/4) [f of x \r\nequals the sine of the quantity pi over 6 times x plus pi over 4]?",
+        "bonusQ": "MATH  Short Answer  What is the period of the function f(x) = sin((π/6) x + π/4)?",
         "bonusA": "12",
         "category": 4,
         "setNum": 6,
@@ -18962,9 +18962,9 @@
         "catDiff": "3.1"
       },
       "6_1_22": {
-        "tossupQ": "MATH  Multiple Choice  Which of the following is an equivalent form of 2/(3 + i) [2 over the \r\nquantity 3 plus i]? \r\n \r\nW) (3 – i)/4 [open parenthesis 3 minus i,close parenthesis, over 4] \r\nX) (3 – i)/5 [open parenthesis 3 minus i,close parenthesis, over 5] \r\nY) (4 – i)/4 [open parenthesis 4 minus i,close parenthesis, over 4] \r\nZ) (4 – i)/5 [open parenthesis 4 minus i,close parenthesis, over 5]",
+        "tossupQ": "MATH  Multiple Choice  Which of the following is an equivalent form of 2/(3 + i) ? \r\n \r\nW) (3 – i)/4 \r\nX) (3 – i)/5  \r\nY) (4 – i)/4  \r\nZ) (4 – i)/5 ",
         "tossupA": "X) (3 – i)/5",
-        "bonusQ": "MATH  Multiple Choice  Which of the following points is on the graph of the inverse of the \r\nfunction f(x) = 10x + 2 [f of x equals 10 to the power of the quantity x plus 2]? \r\n \r\nW) (100, 0) \r\nX) (0, 100) \r\nY) (10, 0) \r\nZ) (0, 10)",
+        "bonusQ": "MATH  Multiple Choice  Which of the following points is on the graph of the inverse of the \r\nfunction f(x) = 10<sup>x + 2</sup>? \r\n \r\nW) (100, 0) \r\nX) (0, 100) \r\nY) (10, 0) \r\nZ) (0, 10)",
         "bonusA": "W) (100, 0)",
         "category": 4,
         "setNum": 6,
@@ -19002,10 +19002,10 @@
         "catDiff": "1.1"
       },
       "6_10_1": {
-        "tossupQ": "MATH  Multiple Choice  In the graph of the function f(x) =sin () [f of x equals three \r\nhalves the sine of the quantity x over 2], at which of the following x coordinates would f(x) = \r\n0? \r\n \r\nW) π/2 \r\nX) π \r\nY) 2π \r\nZ) 3π/2",
+        "tossupQ": "MATH  Multiple Choice  In the graph of the function f(x) = 3/2 sin (x+2), at which of the following x coordinates would f(x) = \r\n0? \r\n \r\nW) π/2 \r\nX) π \r\nY) 2π \r\nZ) 3π/2",
         "tossupA": "Y) 2π",
         "bonusQ": "MATH  Short Answer  Expressing the answer in simplest form, solve  [the \r\nabsolute value of the quantity 2r minus 13 fourths is less than 5 halves].",
-        "bonusA": "3/8 < r <    (ACCEPT: 3/8 < r <  )",
+        "bonusA": "3/8 < r <  2 7/8 (ACCEPT: 3/8 < r < 23/8 )",
         "category": 4,
         "setNum": 6,
         "roundNum": 10,
@@ -19132,8 +19132,8 @@
         "catDiff": "0.10"
       },
       "6_10_14": {
-        "tossupQ": "MATH  Multiple Choice  Bacteria in a culture are growing exponentially, such that on day 0, \r\nthere are 100 bacteria, on day 1, there are 200 bacteria, and on day 2, there are 400 bacteria. \r\nWhich of the following equations expresses the number of bacteria, y, present at any time t? \r\n \r\nW) y = 100 + 2t [y equals 100 plus 2 to the power of t] \r\nX) y = 100(2t) [y equals 100 times the quantity 2 to the power of t] \r\nY) y = 2t [y equals 2 to the power of t] \r\nZ) y = 200(2t) [y equals 200 times the quantity 2 to the power of t]",
-        "tossupA": "X) y = 100(2t)",
+        "tossupQ": "MATH  Multiple Choice  Bacteria in a culture are growing exponentially, such that on day 0, \r\nthere are 100 bacteria, on day 1, there are 200 bacteria, and on day 2, there are 400 bacteria. \r\nWhich of the following equations expresses the number of bacteria, y, present at any time t? \r\n \r\nW) y = 100 + 2<sup>t</sup> \r\nX) y = 100(2<sup>t</sup>) \r\nY) y = 2<sup>t</sup> \r\nZ) y = 200(2<sup>t</sup>)",
+        "tossupA": "X) y = 100(2<sup>t</sup>)",
         "bonusQ": "MATH  Short Answer  Find the remainder when f(x) = x<sup>6</sup> + 5x<sup>5</sup> – x<sup>3</sup> + x – 6 is divided by  \r\n(x + 1).",
         "bonusA": "-10",
         "category": 4,
@@ -19194,7 +19194,7 @@
       "6_10_20": {
         "tossupQ": "MATH  Short Answer  What is the solution to the following system of three equations: \r\nequation one: 2x – y + 3z = 8; equation two: x – 6y – z = 0; and equation three: -6x + 3y – 9z = \r\n24?",
         "tossupA": "NO SOLUTION",
-        "bonusQ": "MATH  Short Answer  What is the remainder when  is divided by ?",
+        "bonusQ": "MATH  Short Answer  What is the remainder when 2x<sup>3</sup> - x<sup>2</sup> + 3x - 4 is divided by x + 3?",
         "bonusA": "-76",
         "category": 4,
         "setNum": 6,
@@ -19284,7 +19284,7 @@
       "3_7_4": {
         "tossupQ": "MATH  Short Answer  If a 6-foot tall person who is standing next to a vertical pole casts a \r\nshadow of 8 feet and the pole casts a shadow of 40 feet, how many feet tall is the pole?",
         "tossupA": "30 \r\n \r\n(Solution:  x/40 = 6/8; x = 30ft)",
-        "bonusQ": "MATH  Short Answer  Solve the following equation for x:  \r\n18\r\n20\r\n)10(\r\n)9(=\r\n+\r\n+\r\nx\r\nx",
+        "bonusQ": "MATH  Short Answer  Solve the following equation for x:  (x+9)/(x+10) = 20/18",
         "bonusA": "-19",
         "category": 4,
         "setNum": 3,
@@ -19352,10 +19352,10 @@
         "catDiff": "3.7"
       },
       "3_7_11": {
-        "tossupQ": "MATH  Short Answer  Remove all negative exponents and simplify the following expression \r\nfor all non-zero values of x, y, and z:  \r\n)2(\r\n)2(\r\n543\r\n0312\r\n!!!\r\n!\r\nzyx\r\nzyx",
-        "tossupA": "2\r\n543\r\nzyx\r\n  (ACCEPT:   2/543 1zyx\r\n)",
+        "tossupQ": "MATH  Short Answer  Remove all negative exponents and simplify the following expression \r\nfor all non-zero values of x, y, and z:  (2x<sup>2</sup>y<sup>-1</sup>z<sup>3</sup>)<sup>0</sup>/(2x<sup>-3</sup>y<sup>-4</sup>z<sup>-5</sup>)",
+        "tossupA": "x<sup>3</sup>y<sup>4</sup>z<sup>5</sup>/2",
         "bonusQ": "MATH  Short Answer  What is the slope-intercept equation of the line that passes through the \r\npoint (4, -1) and is parallel to the line with equation 2x – 3y = 9?",
-        "bonusA": "y =  2/3 x – \r\n3\r\n11",
+        "bonusA": "y =  2/3 x – 11/3",
         "category": 4,
         "setNum": 3,
         "roundNum": 7,
@@ -19422,8 +19422,8 @@
         "catDiff": "3.7"
       },
       "3_7_18": {
-        "tossupQ": "MATH  Short Answer  Remove all negative exponents and simplify the following expression \r\nfor all non-zero values of x:   25/5 )32(−−x",
-        "tossupA": "24\r\n1\r\nx",
+        "tossupQ": "MATH  Short Answer  Remove all negative exponents and simplify the following expression \r\nfor all non-zero values of x:   (-32x<sup>5</sup>)<sup>-2/5</sup>",
+        "tossupA": "1/(4x<sup>2</sup>)",
         "bonusQ": "MATH  Multiple Choice  Which of the following is a prime polynomial over the integers: \r\n \r\nW)  5x<sup>2</sup> – 8x + 2 \r\nX)  4x<sup>2</sup> – 4x – 8 \r\nY)  3x<sup>2</sup> – 4x – 4 \r\nZ)  3x<sup>2</sup> – 10x<sup>2</sup> + 3x",
         "bonusA": "W)  5x<sup>2</sup> – 8x + 2 \r\n(Solution:  it cannot be factored)",
         "category": 4,
@@ -19535,7 +19535,7 @@
         "tossupQ": "MATH  Multiple Choice  A data set has a mean of 10 and variance of 10.  If every set element is \r\nmultiplied by 2, which of the following is TRUE of the new mean and variance:  \r\n \r\nW)  mean is 20, variance is 40 \r\nX)  mean is 20, variance is 10 \r\nY)  mean is 20, variance is 20 \r\nZ)  mean is 10, variance is 20",
         "tossupA": "W)  MEAN IS 20, VARIANCE IS 40",
         "bonusQ": "MATH  Short Answer  Convert the angle, 18º18’36” (read as: 18 degrees, 18 minutes, 36 \r\nseconds) to degrees, to the second decimal place:",
-        "bonusA": "18.31 \r\n \r\n(Solution: \r\n3600\r\n36\r\n60\r\n1818++ = 18.31)",
+        "bonusA": "18.31 \r\n \r\n(Solution: 18 + 18/60 + 36/3600 = 18.31)",
         "category": 4,
         "setNum": 1,
         "roundNum": 15,
@@ -19602,10 +19602,10 @@
         "catDiff": "1.15"
       },
       "1_15_11": {
-        "tossupQ": "MATH  Multiple Choice  The graph of r = 3 secant (θ) (read as: r = 3 secant theta) is a: \r\n \r\nW)  parabola \r\nX)  circle    \r\nY)  hyperbola    \r\nZ)  line",
+        "tossupQ": "MATH  Multiple Choice  The graph of r = 3 secant (θ) is a: \r\n \r\nW)  parabola \r\nX)  circle    \r\nY)  hyperbola    \r\nZ)  line",
         "tossupA": "Z)  LINE",
-        "bonusQ": "MATH  Short Answer  Give the resulting vector for the cross product of vector 0,0,1 with \r\nvector 1,0,0:",
-        "bonusA": "0,1,0−",
+        "bonusQ": "MATH  Short Answer  Give the resulting vector for the cross product of vector &lt;0,0,1&gt; with \r\nvector &lt;1,0,0&gt;:",
+        "bonusA": "&lt;0, -1, 0&gt;",
         "category": 4,
         "setNum": 1,
         "roundNum": 15,
@@ -19674,8 +19674,8 @@
       "1_15_18": {
         "tossupQ": "MATH  Short Answer  What is the angle formed, in degrees, between the hour and minute hand \r\nof an analog clock at 10:30 AM?",
         "tossupA": "135",
-        "bonusQ": "MATH  Short Answer  Arrange the following 4 radicals in order of increasing value: \r\n612;  663;  32;  48",
-        "bonusA": "32;  612;  48;  663",
+        "bonusQ": "MATH  Short Answer  Arrange the following 4 radicals in order of increasing value: \r\n <sup>6</sup>&radic;12; <sup>6</sup>&radic;63; <sup>3</sup>&radic;2; <sup>4</sup>&radic;8",
+        "bonusA": "<sup>3</sup>&radic;2; <sup>6</sup>&radic;12; <sup>4</sup>&radic; 8<sup>6</sup>&radic;63",
         "category": 4,
         "setNum": 1,
         "roundNum": 15,
@@ -19852,7 +19852,7 @@
         "catDiff": "3.16"
       },
       "1_16_11": {
-        "tossupQ": "MATH  Multiple Choice  At  x = \r\n2\r\n1−, the graph of  y = x<sup>3</sup> is: \r\n  \r\nW)  increasing and concave up \r\nX)  increasing and concave down   \r\nY)  decreasing and concave up   \r\nZ)  decreasing and concave down",
+        "tossupQ": "MATH  Multiple Choice  At  x = -1/2, the graph of  y = x<sup>3</sup> is: \r\n  \r\nW)  increasing and concave up \r\nX)  increasing and concave down   \r\nY)  decreasing and concave up   \r\nZ)  decreasing and concave down",
         "tossupA": "X)  INCREASING AND CONCAVE DOWN   \r\n \r\n(Solution: at the indicated value the 1st derivative is positive (implying increasing) and the 2nd  \r\nderivative is negative (implying concave down))",
         "bonusQ": "MATH  Short Answer  The point (3, 2) is reflected across the graph of y = 6 and the resulting \r\npoint is then reflected across the graph of y = x.  What are the coordinates of the final point?",
         "bonusA": "(10, 3) \r\n \r\n(Solution: the 1st reflection  (3,10);  2nd reflection interchanges the x and y coordinates)",
@@ -19942,7 +19942,7 @@
         "catDiff": "0.16"
       },
       "1_16_20": {
-        "tossupQ": "MATH  Short Answer  Of the following 5 functions identify all that are NOT differentiable for \r\nall real numbers:  | x | (read as: absolute value of x);  cosine(x);  tangent(x);   ex;   the greatest integer \r\nfunction",
+        "tossupQ": "MATH  Short Answer  Of the following 5 functions identify all that are NOT differentiable for \r\nall real numbers:  | x | (read as: absolute value of x);  cosine(x);  tangent(x);   e<sup>x</sup>;   the greatest integer \r\nfunction",
         "tossupA": "| x |;  TAN(x);  THE GREATEST INTEGER FUNCTION",
         "bonusQ": "MATH  Short Answer  The curve defined by the equation, Ax<sup>2</sup> + Bx + Cy<sup>2</sup> + Dy + E =0, can be \r\nan ellipse if which of the constants are positive?",
         "bonusA": "A AND C",
