@@ -16513,7 +16513,7 @@
       },
       "4_2_2": {
         "tossupQ": "MATH  Short Answer  Given a standard deck of 52 cards, what is the probability, expressed \r\nas a fraction in lowest terms, that the first card dealt is a heart?",
-        "tossupA": "",
+        "tossupA": "1/4",
         "bonusQ": "MATH  Short Answer  An ichthyologist wants to know the fish population of a pond. She \r\ncatches 60 fish, tags them, and releases them. Two weeks later, she catches 50 fish and 7 of \r\nthem have tags. Based on the data, what is the best estimate of the fish population of the pond? \r\nRound your answer to the nearest hundred.",
         "bonusA": "400",
         "category": 4,
@@ -16672,8 +16672,8 @@
         "catDiff": "2.2"
       },
       "4_2_18": {
-        "tossupQ": "MATH  Short Answer  If 8x\r\n3\r\n – 4y = -16x, express y as a function of x in simplest form.",
-        "tossupA": "y = 2x\r\n3\r\n + 4x",
+        "tossupQ": "MATH  Short Answer  If 8x<sup>3</sup> – 4y = -16x, express y as a function of x in simplest form.",
+        "tossupA": "y = 2x<sup>3</sup> + 4x",
         "bonusQ": "MATH  Multiple Choice  Solve the quadratic equation \r\n0823=−+xx<sup>2</sup>\r\n. \r\n \r\nW) \r\n4 or  2−=x\r\n \r\nX) \r\n12or 8−=x\r\n \r\nY) \r\n4/3 or 2−=x\r\n \r\nZ) \r\n4/3 or 8−=x",
         "bonusA": "Y) x = -2 OR 4/3",
         "category": 4,
@@ -16785,7 +16785,7 @@
         "tossupQ": "MATH  Short Answer  Given that tangent θ = \r\n4\r\n3!\r\n, find the possible values of sine θ:",
         "tossupA": "5\r\n3\r\n AND \r\n5\r\n3!",
         "bonusQ": "MATH  Short Answer  Divide and simplify the following 2 polynomials, combining like terms: \r\n)2(\r\n)8(\r\n3\r\n!\r\n!\r\nx\r\nx",
-        "bonusA": "x\r\n2\r\n + 2x + 4",
+        "bonusA": "x<sup>2</sup> + 2x + 4",
         "category": 4,
         "setNum": 3,
         "roundNum": 8,
@@ -16854,7 +16854,7 @@
       "3_8_11": {
         "tossupQ": "MATH  Multiple Choice  Which of the following is NOT a regular polyhedron: \r\n \r\nW)  regular tetrahedron \r\nX)  cube \r\nY)  regular icosahedron \r\nZ)  regular hexadecagon",
         "tossupA": "Z)  REGULAR HEXADECAGON",
-        "bonusQ": "MATH  Short Answer  Solve the following quadratic inequality for x:  x\r\n2\r\n + 5x + 4 ≥ 0",
+        "bonusQ": "MATH  Short Answer  Solve the following quadratic inequality for x:  x<sup>2</sup> + 5x + 4 ≥ 0",
         "bonusA": "x ≥ –1 OR x ≤ –4  (must give both answers)",
         "category": 4,
         "setNum": 3,
@@ -18054,7 +18054,7 @@
       "5_2_6": {
         "tossupQ": "MATH  Short Answer  What is the multiplicative identity of the complex numbers in standard \r\na + bi form?",
         "tossupA": "1 + 0i (ACCEPT: 1)",
-        "bonusQ": "MATH  Short Answer  Factor the following polynomial completely over the real numbers:  \r\nx\r\n3\r\n + 3x\r\n2\r\n – 5x – 15.",
+        "bonusQ": "MATH  Short Answer  Factor the following polynomial completely over the real numbers:  \r\nx<sup>3</sup> + 3x<sup>2</sup> – 5x – 15.",
         "bonusA": "(x + 3)(x +5)(x -5) (IN ANY ORDER)",
         "category": 4,
         "setNum": 5,
@@ -19424,8 +19424,8 @@
       "3_7_18": {
         "tossupQ": "MATH  Short Answer  Remove all negative exponents and simplify the following expression \r\nfor all non-zero values of x:  \r\n5\r\n25\r\n)32(−−x",
         "tossupA": "24\r\n1\r\nx",
-        "bonusQ": "MATH  Multiple Choice  Which of the following is a prime polynomial over the integers: \r\n \r\nW)  5x\r\n2\r\n – 8x + 2 \r\nX)  4x\r\n2\r\n – 4x – 8 \r\nY)  3x\r\n2\r\n – 4x – 4 \r\nZ)  3x\r\n2\r\n – 10x\r\n2\r\n + 3x",
-        "bonusA": "W)  5x\r\n2\r\n – 8x + 2 \r\n(Solution:  it cannot be factored)",
+        "bonusQ": "MATH  Multiple Choice  Which of the following is a prime polynomial over the integers: \r\n \r\nW)  5x<sup>2</sup> – 8x + 2 \r\nX)  4x<sup>2</sup> – 4x – 8 \r\nY)  3x<sup>2</sup> – 4x – 4 \r\nZ)  3x<sup>2</sup> – 10x<sup>2</sup> + 3x",
+        "bonusA": "W)  5x<sup>2</sup> – 8x + 2 \r\n(Solution:  it cannot be factored)",
         "category": 4,
         "setNum": 3,
         "roundNum": 7,
@@ -20304,7 +20304,7 @@
       "5_13_6": {
         "tossupQ": "MATH  Short Answer  If sin(2x) = 0.4, then what does (cosx + sinx)\r\n2\r\n equal?",
         "tossupA": "1.4",
-        "bonusQ": "MATH  Short Answer  Give the interval or intervals of values of x for which the graph of the \r\nfunction f(x) = 5 – x\r\n2\r\n is above the graph of g(x)= 2x – 3?",
+        "bonusQ": "MATH  Short Answer  Give the interval or intervals of values of x for which the graph of the \r\nfunction f(x) = 5 – x<sup>2</sup> is above the graph of g(x)= 2x – 3?",
         "bonusA": "(-4, 2)",
         "category": 4,
         "setNum": 5,
@@ -20842,9 +20842,9 @@
         "catDiff": "5.1"
       },
       "5_1_10": {
-        "tossupQ": "MATH  Short Answer  If f(x) = x\r\n2\r\n – 3 and g(x) = 6 − x, what is the value of f(g(16)) (read as: \r\nf of g of 16)?",
+        "tossupQ": "MATH  Short Answer  If f(x) = x<sup>2</sup> – 3 and g(x) = 6 − x, what is the value of f(g(16)) (read as: \r\nf of g of 16)?",
         "tossupA": "1",
-        "bonusQ": "MATH  Short Answer  According to Descartes’s Rule of Signs, what are the possible \r\nnumbers of positive real roots that the following equation might have: x\r\n5\r\n – 7x\r\n3\r\n + 15x\r\n2\r\n + 3 = 10?",
+        "bonusQ": "MATH  Short Answer  According to Descartes’s Rule of Signs, what are the possible \r\nnumbers of positive real roots that the following equation might have: x<sup>5</sup> – 7x<sup>3</sup> + 15x<sup>2</sup> + 3 = 10?",
         "bonusA": "1 OR 3 (MUST GIVE BOTH ANSWERS)",
         "category": 4,
         "setNum": 5,
@@ -21352,7 +21352,7 @@
         "catDiff": "1.9"
       },
       "3_9_11": {
-        "tossupQ": "MATH  Short Answer  What is the degree of the following monomial:  –6x\r\n2\r\ny\r\n4\r\nz\r\n3",
+        "tossupQ": "MATH  Short Answer  What is the degree of the following monomial:  –6x<sup>2</sup>y<sup>4</sup>z\r\n3",
         "tossupA": "9",
         "bonusQ": "MATH  Short Answer  Find the number of sides in a regular polygon if each interior angle \r\nmeasures 176 degrees:",
         "bonusA": "90 \r\n \r\n(Solution: (n – 2)180º = 176n;  n = 90)",
@@ -21424,7 +21424,7 @@
       "3_9_18": {
         "tossupQ": "MATH  Short Answer  Giving your answer in simplest radical form, rationalize the denominator \r\nof the following expression:  \r\n)3(\r\n1\r\nx−",
         "tossupA": "x\r\nx\r\n−\r\n+\r\n9\r\n3",
-        "bonusQ": "MATH  Short Answer  Solve the following equation for x over the set of complex numbers, \r\ngiving your answer in simplest form:  x\r\n2\r\n – 10x + 34 = 0",
+        "bonusQ": "MATH  Short Answer  Solve the following equation for x over the set of complex numbers, \r\ngiving your answer in simplest form:  x<sup>2</sup> – 10x + 34 = 0",
         "bonusA": "5 ± 3i  (ACCEPT:  5 + 3i  AND 5 – 3i)",
         "category": 4,
         "setNum": 3,
@@ -21602,7 +21602,7 @@
         "catDiff": "1.6"
       },
       "3_6_11": {
-        "tossupQ": "MATH  Short Answer  Solve the following equation for x:   \r\nx\r\n2\r\n – 20x + 19 = 0",
+        "tossupQ": "MATH  Short Answer  Solve the following equation for x:   \r\nx<sup>2</sup> – 20x + 19 = 0",
         "tossupA": "19 AND 1",
         "bonusQ": "MATH  Short Answer  Express the following radical in its simplest radical form:  \r\n)80(2\r\n342\r\ncba!",
         "bonusA": "ccab58\r\n2\r\n!",
@@ -21854,7 +21854,7 @@
       "3_12_11": {
         "tossupQ": "MATH  Multiple Choice  Which of the following are coterminal angles in standard position \r\n(read slowly): \r\n \r\nW)  550º and 185º \r\nX)  80° and –190° \r\nY)  1160° and 800° \r\nZ)  181° and –118°",
         "tossupA": "Y)  1160° AND 800° \r\n \r\n(Solution:  80 +3(360º) = 1160º;  80 +2(360º) = 800º)",
-        "bonusQ": "MATH  Short Answer  Solve the following equation for x, expressing your answer in simplest \r\nradical form over the real numbers:  x\r\n4\r\n – 9x\r\n2\r\n + 8 = 0",
+        "bonusQ": "MATH  Short Answer  Solve the following equation for x, expressing your answer in simplest \r\nradical form over the real numbers:  x<sup>4</sup> – 9x<sup>2</sup> + 8 = 0",
         "bonusA": "22±\r\n AND ±1  (ACCEPT ALL:  \r\n22+\r\n, \r\n22−\r\n, +1, -1)",
         "category": 4,
         "setNum": 3,
@@ -22475,7 +22475,7 @@
         "tossupQ": "MATH  Short Answer  Evaluate log  (read as: log of the quantity 10 to the x times 100 \r\nover 10 thousand) \r\n \r\nW) 2 - x \r\nX) x - 2 \r\nY) x + 3 \r\nZ) 10x",
         "tossupA": "X) x – 2",
         "bonusQ": "MATH  Short Answer  Find the polynomial with real coefficients, leading coefficient 1,  and \r\nleast degree that has 2 + 3i as a zero.",
-        "bonusA": "x\r\n2\r\n – 4x +13",
+        "bonusA": "x<sup>2</sup> – 4x +13",
         "category": 4,
         "setNum": 4,
         "roundNum": 16,
@@ -22614,7 +22614,7 @@
       "4_5_12": {
         "tossupQ": "MATH  Short Answer  Solve the following equation for x: log₂ x = 5 (read as: log base 2 of x \r\nequals 5).",
         "tossupA": "32",
-        "bonusQ": "MATH  Short Answer  Consider the polynomial 5x\r\n2\r\n + 13x + 10. How many and what kind of \r\nroots does it have?",
+        "bonusQ": "MATH  Short Answer  Consider the polynomial 5x<sup>2</sup> + 13x + 10. How many and what kind of \r\nroots does it have?",
         "bonusA": "TWO COMPLEX ROOTS",
         "category": 4,
         "setNum": 4,
@@ -23354,8 +23354,8 @@
       "5_7_11": {
         "tossupQ": "MATH  Multiple Choice  Which of the following is NOT a property of the normal p.d.f.?   \r\n \r\nW) The p.d.f. is symmetric \r\nX) The p.d.f. has two inflection points \r\nY) The variance has to be positive \r\nZ) The domain of the p.d.f. is non-negative real numbers",
         "tossupA": "Z) THE DOMAIN OF THE P.D.F. IS NON-NEGATIVE REAL NUMBERS",
-        "bonusQ": "MATH  Short Answer  If f(x) = 2x – 1 and g(x) = 6 + 2x – x\r\n2\r\n, what is the standard polynomial \r\nform for g(f(x)) (read as: g of f of x)?",
-        "bonusA": "-4x\r\n2\r\n + 8x + 3",
+        "bonusQ": "MATH  Short Answer  If f(x) = 2x – 1 and g(x) = 6 + 2x – x<sup>2</sup>, what is the standard polynomial \r\nform for g(f(x)) (read as: g of f of x)?",
+        "bonusA": "-4x<sup>2</sup> + 8x + 3",
         "category": 4,
         "setNum": 5,
         "roundNum": 7,
@@ -23605,7 +23605,7 @@
         "tossupQ": "MATH  Multiple Choice  If a population distribution is illustrated as a symmetrical bell shape \r\ncurve, then the median and the mean are: \r\n \r\nW)  not the same  \r\nX)  uncertain \r\nY)  variable \r\nZ)  the same",
         "tossupA": "Z)  THE SAME",
         "bonusQ": "MATH  Short Answer  Giving your answer in standard form, what is the fourth term in the \r\nbinomial expansion of the following:  (4x + y)\r\n4",
-        "bonusA": "16xy\r\n3 \r\n (ACCEPT:  16y\r\n3\r\nx)",
+        "bonusA": "16xy\r\n3 \r\n (ACCEPT:  16y<sup>3</sup>x)",
         "category": 4,
         "setNum": 3,
         "roundNum": 11,
@@ -23672,7 +23672,7 @@
         "catDiff": "1.11"
       },
       "3_11_18": {
-        "tossupQ": "MATH  Multiple Choice  Which of the following has a graph that is a parabola that opens \r\ndownward: \r\n \r\nW)  f(x) = 3x + 1 \r\nX)  f(x) = x\r\n2\r\n – 2  \r\nY)  f(x) = –x\r\n2\r\n  \r\nZ)  f(x) = x\r\n3",
+        "tossupQ": "MATH  Multiple Choice  Which of the following has a graph that is a parabola that opens \r\ndownward: \r\n \r\nW)  f(x) = 3x + 1 \r\nX)  f(x) = x<sup>2</sup> – 2  \r\nY)  f(x) = –x<sup>2</sup>  \r\nZ)  f(x) = x\r\n3",
         "tossupA": "Y)  f(x) = –x\r\n2",
         "bonusQ": "MATH  Short Answer  Find the 101\r\nst\r\n term in the arithmetic sequence whose first three terms are \r\n5, 11, and 17:",
         "bonusA": "605 \r\n \r\n(Solution:  a\r\nn\r\n = a\r\n1\r\n + (n – 1)d;  = 5 + (101 – 1)(6) = 605)",
@@ -23803,7 +23803,7 @@
       },
       "3_10_6": {
         "tossupQ": "MATH  Short Answer  Expand the following expression, giving your answer in standard \r\nbinomial form:  (6x + 3y)\r\n2",
-        "tossupA": "36x\r\n2\r\n + 36xy + 9y\r\n2",
+        "tossupA": "36x<sup>2</sup> + 36xy + 9y\r\n2",
         "bonusQ": "MATH  Short Answer  Consider a blue circle inscribed in a white square.  If the radius of the \r\ncircle is 10 centimeters, what is the area of all visible white portions of the square, to the nearest \r\nwhole number in centimeters squared?",
         "bonusA": "86 \r\n \r\n(Solution: A square = 20\r\n2\r\n = 400;  A circle = πr\r\n2\r\n = 100π = 314;  400 – 314 = 86cm\r\n2\r\n)",
         "category": 4,
@@ -23852,8 +23852,8 @@
         "catDiff": "3.10"
       },
       "3_10_11": {
-        "tossupQ": "MATH  Short Answer  Factor the following expression:   \r\n49x\r\n2\r\n – 169y\r\n4",
-        "tossupA": "(7x + 13y\r\n2\r\n)( 7x – 13y\r\n2\r\n)",
+        "tossupQ": "MATH  Short Answer  Factor the following expression:   \r\n49x<sup>2</sup> – 169y\r\n4",
+        "tossupA": "(7x + 13y<sup>2</sup>)( 7x – 13y<sup>2</sup>)",
         "bonusQ": "MATH  Short Answer  If $1000 is placed in a savings account that pays 6% annual interest \r\ncompounded semiannually, what is the total amount of money in the account at the end of 1 year, to \r\nthe nearest dollar?",
         "bonusA": "$1061.00 \r\n \r\n(Solution: A = P[1 + (r/n)]\r\nnt\r\n;  = $1,000[1 + (0.06/2)]\r\n(2x1)\r\n = $1060.90)",
         "category": 4,
@@ -23924,7 +23924,7 @@
       "3_10_18": {
         "tossupQ": "MATH  Multiple Choice  Which of the following is NOT a geometric sequence: \r\n \r\nW)  30, 6, \r\n5\r\n6\r\n... \r\nX)  a\r\n2\r\n, a\r\n3\r\nb, a\r\n4\r\nb\r\n2\r\n... \r\nY)  6, 13, 20... \r\nZ)  \r\n2\r\n3\r\n, \r\n4\r\n3\r\n, \r\n8\r\n3\r\n...",
         "tossupA": "Y)  6, 13, 20...",
-        "bonusQ": "MATH  Short Answer  Find the product of the following, giving your answer without negative \r\nexponents:  (x\r\n-2\r\n + y)(x\r\n2\r\n – y\r\n-2\r\n)",
+        "bonusQ": "MATH  Short Answer  Find the product of the following, giving your answer without negative \r\nexponents:  (x\r\n-2\r\n + y)(x<sup>2</sup> – y\r\n-2\r\n)",
         "bonusA": "y\r\nyx\r\nyx\r\n111\r\n2\r\n22\r\n!+!\r\n     (Note:  the terms can be given in any order)",
         "category": 4,
         "setNum": 3,
@@ -24672,10 +24672,10 @@
         "catDiff": "5.13"
       },
       "4_13_18": {
-        "tossupQ": "MATH  Short Answer  What are the x-intercepts of y = x\r\n2\r\n – 15x + 54?",
+        "tossupQ": "MATH  Short Answer  What are the x-intercepts of y = x<sup>2</sup> – 15x + 54?",
         "tossupA": "6 AND 9",
-        "bonusQ": "MATH  Multiple Choice  Which of the following equations does not have real solutions? \r\n \r\nW) -3x\r\n2 \r\n+ 3 = 0 \r\nX) x\r\n2\r\n – 5x + 2 = 0 \r\nY) 4x\r\n2\r\n – 3x – 0.25 = 0 \r\nZ) x\r\n2\r\n – x + 1 = 0",
-        "bonusA": "Z) x\r\n2\r\n – x + 1 = 0",
+        "bonusQ": "MATH  Multiple Choice  Which of the following equations does not have real solutions? \r\n \r\nW) -3x\r\n2 \r\n+ 3 = 0 \r\nX) x<sup>2</sup> – 5x + 2 = 0 \r\nY) 4x<sup>2</sup> – 3x – 0.25 = 0 \r\nZ) x<sup>2</sup> – x + 1 = 0",
+        "bonusA": "Z) x<sup>2</sup> – x + 1 = 0",
         "category": 4,
         "setNum": 4,
         "roundNum": 13,
@@ -25004,8 +25004,8 @@
       "5_3_1": {
         "tossupQ": "MATH  Short Answer  What is the circumference of the circle with equation                           \r\n(x + 3)\r\n2\r\n + (y − 5)\r\n2\r\n = 25 ?",
         "tossupA": "10π",
-        "bonusQ": "MATH  Multiple Choice  Which of the following is the sum of the first three nonzero terms of \r\nthe Taylor series of sin(x) around 0? \r\n \r\nW) x + x\r\n3\r\n/3! + x\r\n5\r\n/5! (read as: x plus x cubed over 3 factorial plus x to the fifth over 5 factorial) \r\nX) x − x\r\n3\r\n/3! + x\r\n5\r\n/5!  \r\nY) 1 − x\r\n2\r\n/2! + x\r\n4\r\n/4!  \r\nZ) 1 + x\r\n2\r\n/2! + x\r\n4\r\n/4!",
-        "bonusA": "X) x − x\r\n3\r\n/3! + x\r\n5\r\n/5!",
+        "bonusQ": "MATH  Multiple Choice  Which of the following is the sum of the first three nonzero terms of \r\nthe Taylor series of sin(x) around 0? \r\n \r\nW) x + x<sup>3</sup>/3! + x<sup>5</sup>/5! (read as: x plus x cubed over 3 factorial plus x to the fifth over 5 factorial) \r\nX) x − x<sup>3</sup>/3! + x<sup>5</sup>/5!  \r\nY) 1 − x<sup>2</sup>/2! + x<sup>4</sup>/4!  \r\nZ) 1 + x<sup>2</sup>/2! + x<sup>4</sup>/4!",
+        "bonusA": "X) x − x<sup>3</sup>/3! + x<sup>5</sup>/5!",
         "category": 4,
         "setNum": 5,
         "roundNum": 3,
@@ -25064,7 +25064,7 @@
       "5_3_7": {
         "tossupQ": "MATH  Short Answer  In degrees, what is the smallest angle x > 0 such that  \r\nsin(x) + cos(2x) = 1?",
         "tossupA": "30°",
-        "bonusQ": "MATH  Short Answer  Considering the function f(x) = x\r\n2\r\n, use a left Riemann sum with 4 equal \r\nsubintervals to estimate the integral from 2 to 10 to the nearest integer.",
+        "bonusQ": "MATH  Short Answer  Considering the function f(x) = x<sup>2</sup>, use a left Riemann sum with 4 equal \r\nsubintervals to estimate the integral from 2 to 10 to the nearest integer.",
         "bonusA": "240",
         "category": 4,
         "setNum": 5,
@@ -25252,7 +25252,7 @@
         "catDiff": "1.3"
       },
       "5_8_1": {
-        "tossupQ": "MATH  Short Answer  What is the inverse function of f(x) = x\r\n5\r\n + 1 (read as: f of x equals x to \r\nthe fifth plus 1)?",
+        "tossupQ": "MATH  Short Answer  What is the inverse function of f(x) = x<sup>5</sup> + 1 (read as: f of x equals x to \r\nthe fifth plus 1)?",
         "tossupA": "f \r\n−\r\n1\r\n(x) = x  \u00001\r\n5",
         "bonusQ": "MATH  Multiple Choice  For a function, f(x) (read as: f of x), suppose that f is continuous on \r\nthe closed interval [-1, 3], differentiable on the open interval (-1, 3), and that f(-1) = -2 and  \r\nf(3) = 2. Which of the following is the value of the derivative for at least one value, c, on the \r\nopen interval (-1, 3)? \r\nW) -1 \r\nX) 0 \r\nY) 1 \r\nZ) 2",
         "bonusA": "Y) 1",
@@ -25312,7 +25312,7 @@
         "catDiff": "2.8"
       },
       "5_8_7": {
-        "tossupQ": "MATH  Short Answer  If f(x) = x  \u0000  2\r\nx\r\n2\r\n  \u0000 4\r\n (read as: f of x equals open parenthesis x minus 2 close \r\nparenthesis over open parenthesis x squared minus 4 close parenthesis) at which value or \r\nvalues of x does the graph of f(x) have a vertical asymptote?",
+        "tossupQ": "MATH  Short Answer  If f(x) = x  \u0000  2\r\nx<sup>2</sup>  \u0000 4\r\n (read as: f of x equals open parenthesis x minus 2 close \r\nparenthesis over open parenthesis x squared minus 4 close parenthesis) at which value or \r\nvalues of x does the graph of f(x) have a vertical asymptote?",
         "tossupA": "-2",
         "bonusQ": "MATH  Short Answer  Given: u(4) = -2 and u’(4) = 3 (read as: u of 4 equals negative 2, and u \r\nprime of 4 equals 3). If f(x) = xu(x) (read as: f of x equals x u of x), then evaluate f’(4) (read as: f \r\nprime of 4).",
         "bonusA": "10",
@@ -25452,7 +25452,7 @@
         "catDiff": "1.8"
       },
       "5_8_21": {
-        "tossupQ": "MATH  Multiple Choice  Which of the following is a function for which f(-x) = -f(x) (read as: f \r\nof negative x equals negative f of x)? \r\n \r\nW) sin(x)  \r\nX) x\r\n2\r\n \r\nY) cos(x) \r\nZ) e\r\nx",
+        "tossupQ": "MATH  Multiple Choice  Which of the following is a function for which f(-x) = -f(x) (read as: f \r\nof negative x equals negative f of x)? \r\n \r\nW) sin(x)  \r\nX) x<sup>2</sup> \r\nY) cos(x) \r\nZ) e\r\nx",
         "tossupA": "W) sin(x)",
         "bonusQ": "MATH  Short Answer The four lateral faces of a square pyramid are equilateral triangles. If \r\nthe area of the base is 49 square centimeters, what is the total surface area, in square \r\ncentimeters, in simplest radical form?",
         "bonusA": "49 + 493 (ACCEPT: 49(1 + 3))",
@@ -25612,7 +25612,7 @@
         "catDiff": "3.8"
       },
       "4_8_12": {
-        "tossupQ": "MATH  Multiple Choice  If x = 4 and y = 2, which of the following expressions is undefined? \r\n \r\nW) 3x +  \r\nX) 2y + 4x \r\nY) xy – x\r\n2\r\n \r\nZ) x +",
+        "tossupQ": "MATH  Multiple Choice  If x = 4 and y = 2, which of the following expressions is undefined? \r\n \r\nW) 3x +  \r\nX) 2y + 4x \r\nY) xy – x<sup>2</sup> \r\nZ) x +",
         "tossupA": "W) 3x +",
         "bonusQ": "MATH  Multiple Choice  Which of the following functions is continuous at x = -1? \r\n \r\nW)  \r\nX)  \r\nY)  \r\nZ)",
         "bonusA": "Y)",
@@ -26104,7 +26104,7 @@
       "5_4_11": {
         "tossupQ": "MATH  Short Answer  What is the numerical value of 115\r\n2\r\n?",
         "tossupA": "13225",
-        "bonusQ": "MATH  Short Answer  What is the coefficient corresponding to x\r\n3\r\n in the binomial expansion \r\nof (x + 2)\r\n5\r\n (read as: the quantity x plus 2 to the power of 5)?",
+        "bonusQ": "MATH  Short Answer  What is the coefficient corresponding to x<sup>3</sup> in the binomial expansion \r\nof (x + 2)\r\n5\r\n (read as: the quantity x plus 2 to the power of 5)?",
         "bonusA": "40",
         "category": 4,
         "setNum": 5,
@@ -26272,9 +26272,9 @@
         "catDiff": "5.1"
       },
       "4_1_3": {
-        "tossupQ": "MATH  Short Answer  What is the greatest common factor of the terms in the expression \r\n3x\r\n5\r\ny\r\n2\r\n + 6x\r\n3\r\ny\r\n5\r\n (read as: 3 x to the fifth y squared plus 6 x cubed y to the fifth)?",
+        "tossupQ": "MATH  Short Answer  What is the greatest common factor of the terms in the expression \r\n3x<sup>5</sup>y<sup>2</sup> + 6x<sup>3</sup>y<sup>5</sup> (read as: 3 x to the fifth y squared plus 6 x cubed y to the fifth)?",
         "tossupA": "23yx<sup>3</sup>",
-        "bonusQ": "MATH  Short Answer  At what value of x is there a minimum for the function f(x)= x\r\n2\r\n – 6x \r\n(read as: f of x equals x squared minus 6x)?",
+        "bonusQ": "MATH  Short Answer  At what value of x is there a minimum for the function f(x)= x<sup>2</sup> – 6x \r\n(read as: f of x equals x squared minus 6x)?",
         "bonusA": "x = 3",
         "category": 4,
         "setNum": 4,
@@ -26424,7 +26424,7 @@
       "4_1_18": {
         "tossupQ": "MATH  Short Answer  Given the equation 2x – y + 5 = 0, find the slope and y-intercept of \r\nthe line it represents.",
         "tossupA": "SLOPE = 2; Y-INTERCEPT = 5 OR (0, 5)",
-        "bonusQ": "MATH  Multiple Choice  The equation x\r\n2\r\n + y\r\n2\r\n = 121 with x > 0 and y < 0 would result in the \r\ngraph of: \r\n \r\nW) A semicircle below the x-axis \r\nX) A quarter circle in the 2\r\nnd\r\n quadrant \r\nY) A quarter circle in the 4\r\nth\r\n quadrant \r\nZ) A complete circle with a radius of 11",
+        "bonusQ": "MATH  Multiple Choice  The equation x<sup>2</sup> + y<sup>2</sup> = 121 with x > 0 and y < 0 would result in the \r\ngraph of: \r\n \r\nW) A semicircle below the x-axis \r\nX) A quarter circle in the 2\r\nnd\r\n quadrant \r\nY) A quarter circle in the 4\r\nth\r\n quadrant \r\nZ) A complete circle with a radius of 11",
         "bonusA": "Y) A QUARTER CIRCLE IN THE 4\r\nTH\r\n QUADRANT",
         "category": 4,
         "setNum": 4,
@@ -26683,7 +26683,7 @@
       "4_14_19": {
         "tossupQ": "MATH  Short Answer  If N represents the number of sides for a regular polygon that \r\ntessellates the plane, how many different values of N are there?",
         "tossupA": "3",
-        "bonusQ": "MATH  Short Answer  Find the limit as x approaches -2 of (x\r\n3\r\n + 8)/(2x + 4) (read as: the \r\nquantity x cubed plus 8 divided by the quantity 2x plus 4).",
+        "bonusQ": "MATH  Short Answer  Find the limit as x approaches -2 of (x<sup>3</sup> + 8)/(2x + 4) (read as: the \r\nquantity x cubed plus 8 divided by the quantity 2x plus 4).",
         "bonusA": "6",
         "category": 4,
         "setNum": 4,
@@ -26901,7 +26901,7 @@
         "catDiff": "1.12"
       },
       "5_12_16": {
-        "tossupQ": "MATH  Multiple Choice  Which of the following statements is TRUE about the function  \r\nf(x) = sin(x)\r\nx\r\n2\r\n (read as: f of x equals sine of x over x squared)? \r\n \r\nW) The graph of the function passes through the origin \r\nX) The function has a vertical asymptote  \r\nY) The function does not have a horizontal asymptote \r\nZ) The graph of the function is symmetric about the x-axis",
+        "tossupQ": "MATH  Multiple Choice  Which of the following statements is TRUE about the function  \r\nf(x) = sin(x)\r\nx<sup>2</sup> (read as: f of x equals sine of x over x squared)? \r\n \r\nW) The graph of the function passes through the origin \r\nX) The function has a vertical asymptote  \r\nY) The function does not have a horizontal asymptote \r\nZ) The graph of the function is symmetric about the x-axis",
         "tossupA": "X) THE FUNCTION HAS A VERTICAL ASYMPTOTE",
         "bonusQ": "MATH  Short Answer  Providing your answer in simplest radical form, what is the \r\neccentricity of the hyperbola (x  \u0000  2)2\r\n4\r\n  \u0000\r\n (y  +  3)\r\n29=  1 (read as: open parenthesis x minus 2 close \r\nparenthesis squared over 4 minus open parenthesis y plus 3 close parenthesis squared over 9 \r\nequals 1)?",
         "bonusA": "13\r\n2",
@@ -27013,7 +27013,7 @@
       "5_14_2": {
         "tossupQ": "MATH  Short Answer  What is the maximum number of spheres with a radius of 1 that can fit \r\ninside a cube with edge lengths of 6?",
         "tossupA": "27",
-        "bonusQ": "MATH  Short Answer  Find all points of inflection and extrema, including type, of the function \r\nf(x) = ex+ e  \u0000x\r\n2\r\n.",
+        "bonusQ": "MATH  Short Answer  Find all points of inflection and extrema, including type, of the function \r\nf(x) = ex+ e  \u0000x<sup>2</sup>.",
         "bonusA": "RELATIVE MINIMUM (ACCEPT: MINIMUM) AT (0, 1)  \r\n \r\n[DO NOT ACCEPT: (0, 1) ALONE]",
         "category": 4,
         "setNum": 5,
@@ -27151,7 +27151,7 @@
         "catDiff": "1.14"
       },
       "5_14_16": {
-        "tossupQ": "MATH  Short Answer  If x\r\n2\r\n + y\r\n2\r\n = 5\r\n2\r\n, find dy\r\ndx\r\n in terms of x and y in simplest form.",
+        "tossupQ": "MATH  Short Answer  If x<sup>2</sup> + y<sup>2</sup> = 5\r\n2\r\n, find dy\r\ndx\r\n in terms of x and y in simplest form.",
         "tossupA": "-x\r\ny",
         "bonusQ": "MATH  Short Answer  A rectangle has both a changing height and a changing width, but the \r\nheight and width change so that the area of the rectangle is always 200 square feet. What is the \r\nrate of change of the width of the rectangle in feet per second when the height is 5 feet, if the \r\nheight is decreasing at that moment at the rate of 0.5 feet per second?",
         "bonusA": "4",
@@ -27511,7 +27511,7 @@
         "catDiff": "2.11"
       },
       "5_11_2": {
-        "tossupQ": "MATH  Short Answer  At what value of x is the tangent to the curve f(x) = 3x\r\n2\r\n – 2x + 1  \r\na horizontal line?",
+        "tossupQ": "MATH  Short Answer  At what value of x is the tangent to the curve f(x) = 3x<sup>2</sup> – 2x + 1  \r\na horizontal line?",
         "tossupA": "1/3",
         "bonusQ": "MATH  Short Answer  If f(x) = x (read as: f of x equals the square root of x) over the domain \r\nof all nonnegative real numbers and if g(x) = cosx over the domain of closed interval [-π, π], \r\nthen what is the domain of f composed with g?",
         "bonusA": "[-π/2, π/2]",
@@ -27653,7 +27653,7 @@
       "5_11_16": {
         "tossupQ": "MATH  Short Answer  If fx,  y  =  xy  +  3xy<sup>2</sup> (read as: f of x, y equals xy plus 3xy squared), \r\nwhat is the partial derivative of f with respect to y?",
         "tossupA": "x + 6xy",
-        "bonusQ": "MATH  Short Answer  Approximate the area under f(x) = x\r\n2\r\n + 1 from x = 0 to x = 8 using a \r\nmid-point Riemann sum with four equal subintervals.",
+        "bonusQ": "MATH  Short Answer  Approximate the area under f(x) = x<sup>2</sup> + 1 from x = 0 to x = 8 using a \r\nmid-point Riemann sum with four equal subintervals.",
         "bonusA": "176",
         "category": 4,
         "setNum": 5,
@@ -27701,7 +27701,7 @@
         "catDiff": "1.11"
       },
       "5_11_21": {
-        "tossupQ": "MATH  Short Answer  What is the limit of (3x\r\n2\r\n + 6x)/(5 + 3x + x\r\n2\r\n) (read as: open parenthesis \r\n3x squared plus 6x close parenthesis over open parenthesis 5 plus 3x plus x squared close \r\nparenthesis) as x goes to infinity?",
+        "tossupQ": "MATH  Short Answer  What is the limit of (3x<sup>2</sup> + 6x)/(5 + 3x + x<sup>2</sup>) (read as: open parenthesis \r\n3x squared plus 6x close parenthesis over open parenthesis 5 plus 3x plus x squared close \r\nparenthesis) as x goes to infinity?",
         "tossupA": "3",
         "bonusQ": "MATH  Short Answer  Given f(x) = tanx/secx, find f’(2π/3) (read as: Given f of x equals \r\ntangent of x over secant of x, find f prime of 2 pi over 3).",
         "bonusA": "-1/2",
@@ -28451,9 +28451,9 @@
         "catDiff": "1.6"
       },
       "5_6_21": {
-        "tossupQ": "MATH  Short Answer  What is the derivative of the integral of x\r\n4\r\n with respect to x?",
+        "tossupQ": "MATH  Short Answer  What is the derivative of the integral of x<sup>4</sup> with respect to x?",
         "tossupA": "x\r\n4",
-        "bonusQ": "MATH  Short Answer  Find the radius and the center, respectively, of the circle with the \r\nequation: x\r\n2\r\n + y\r\n2 \r\n− 16x + 12y + 75 = 0?",
+        "bonusQ": "MATH  Short Answer  Find the radius and the center, respectively, of the circle with the \r\nequation: x<sup>2</sup> + y\r\n2 \r\n− 16x + 12y + 75 = 0?",
         "bonusA": "RADIUS = 5; CENTER = (8, -6)",
         "category": 4,
         "setNum": 5,
@@ -29833,7 +29833,7 @@
         "catDiff": "0.16"
       },
       "1_16_9": {
-        "tossupQ": "MATH Multiple Choice Which of the following expressions is NOT a monomial: \r\n \r\nW) 3x<sup>2</sup>y \r\nX) x\r\n2\r\n1 \r\nY) x \r\nZ) x",
+        "tossupQ": "MATH Multiple Choice Which of the following expressions is NOT a monomial: \r\n \r\nW) 3x<sup>2</sup>y \r\nX) x<sup>2</sup>1 \r\nY) x \r\nZ) x",
         "tossupA": "Y) x",
         "bonusQ": "MATH Short Answer Find the following product, giving your answer in simplified form:  \r\n(9xy<sup>2</sup> + 4)(5xy<sup>2</sup> – 3)",
         "bonusA": "45x<sup>2</sup>y<sup>4</sup> – 7xy<sup>2</sup> – 12",
@@ -34225,7 +34225,7 @@
       "2_9_23": {
         "tossupQ": "MATH Short Answer The price of a postage stamp changes from 33 cents to 34 cents. \r\nWhat is the percent increase in price?",
         "tossupA": "3 (ACCEPT: 3.03)",
-        "bonusQ": "MATH Short Answer Simplify the following equation: 7x\r\n2\r\n x<sup>3</sup>",
+        "bonusQ": "MATH Short Answer Simplify the following equation: 7x<sup>2</sup> x<sup>3</sup>",
         "bonusA": "7 x (ACCEPT: 7(x)-1)",
         "category": 4,
         "setNum": 2,
@@ -35255,8 +35255,8 @@
       "3_3_2": {
         "tossupQ": "MATH Multiple Choice Which of the following is NOT true: \r\n \r\nW) 5 × 0 = 0 \r\nX) 2 × ½ = 5 ÷ 5 \r\nY) \r\n0\r\n5\r\n0=\r\n \r\nZ) \r\n5\r\n0\r\n5=",
         "tossupA": "Z) \r\n5\r\n0\r\n5=",
-        "bonusQ": "MATH Short Answer Simplify the following: (x\r\n3\r\ny\r\n4\r\nz\r\n2\r\n) × (2y\r\n3\r\n)\r\n0",
-        "bonusA": "x\r\n3\r\ny\r\n4\r\nz\r\n2",
+        "bonusQ": "MATH Short Answer Simplify the following: (x<sup>3</sup>y<sup>4</sup>z<sup>2</sup>) × (2y<sup>3</sup>)\r\n0",
+        "bonusA": "x<sup>3</sup>y<sup>4</sup>z\r\n2",
         "category": 4,
         "setNum": 3,
         "roundNum": 3,
@@ -35826,7 +35826,7 @@
         "tossupQ": "MATH Short Answer Give the slope of the following: 3x – 4y = 12",
         "tossupA": "4\r\n3",
         "bonusQ": "MATH Short Answer What is the slope of a line passing through the points (16, –10) and (11, \r\n0)?",
-        "bonusA": "–2 \r\n \r\n(Solution: m = y\r\n2\r\n – y\r\n1\r\n/x\r\n2\r\n – x\r\n1\r\n = (0 + 10)/(11 – 16) = –2)",
+        "bonusA": "–2 \r\n \r\n(Solution: m = y<sup>2</sup> – y\r\n1\r\n/x<sup>2</sup> – x\r\n1\r\n = (0 + 10)/(11 – 16) = –2)",
         "category": 4,
         "setNum": 3,
         "roundNum": 9,
@@ -35926,7 +35926,7 @@
         "tossupQ": "MATH Short Answer In how many different ways can 5 different puppets be ordered across a \r\nshelf?",
         "tossupA": "120 \r\n \r\n(Solution: 5! = 120)",
         "bonusQ": "MATH Short Answer Expand the following expression, giving your answer in standard \r\nbinomial form: (5x – 25)\r\n2",
-        "bonusA": "25x\r\n2\r\n – 250x + 625",
+        "bonusA": "25x<sup>2</sup> – 250x + 625",
         "category": 4,
         "setNum": 3,
         "roundNum": 9,
@@ -36634,7 +36634,7 @@
       },
       "3_8_15": {
         "tossupQ": "MATH Short Answer Find the midpoint of the line segment joining the following pair of \r\npoints: (4, 1) and (12, 7)",
-        "tossupA": "(8, 4) \r\n \r\n(Solution: midpoint x = (x\r\n1\r\n + x\r\n2\r\n)/2 = (4 + 12)/2 = 8; midpoint y = (y\r\n1\r\n + y\r\n2\r\n)/2 = ( 1 + 7)/2 = 4)",
+        "tossupA": "(8, 4) \r\n \r\n(Solution: midpoint x = (x\r\n1\r\n + x<sup>2</sup>)/2 = (4 + 12)/2 = 8; midpoint y = (y\r\n1\r\n + y<sup>2</sup>)/2 = ( 1 + 7)/2 = 4)",
         "bonusQ": "MATH Short Answer If one endpoint of a given line segment is at point (-2, 1) and the \r\nmidpoint is at (8, 1), find the other endpoint:",
         "bonusA": "(18, 1)",
         "category": 4,
@@ -36686,7 +36686,7 @@
         "tossupQ": "MATH Short Answer What is the greatest common factor and the least common multiple of \r\nthe following 3 numbers, respectively: 3, 6, and 8",
         "tossupA": "GCF = 1; LCM = 24",
         "bonusQ": "MATH Short Answer Find the product of the following 2 binomials, giving your answer in \r\nstandard form: (–x – 3y)(–x + 3y)",
-        "bonusA": "x\r\n2\r\n – 9y\r\n2",
+        "bonusA": "x<sup>2</sup> – 9y\r\n2",
         "category": 4,
         "setNum": 3,
         "roundNum": 8,
@@ -36735,7 +36735,7 @@
       "3_8_27": {
         "tossupQ": "MATH Short Answer Simplify the following, giving your answer in standard form: \r\nx\r\nxx)(2+",
         "tossupA": "1 + x (ACCEPT: x + 1)",
-        "bonusQ": "MATH Short Answer Divide the polynomial, x\r\n2\r\n + 12x + 32, by the quantity x + 4:",
+        "bonusQ": "MATH Short Answer Divide the polynomial, x<sup>2</sup> + 12x + 32, by the quantity x + 4:",
         "bonusA": "x + 8",
         "category": 4,
         "setNum": 3,
@@ -38635,7 +38635,7 @@
       "4_1_15": {
         "tossupQ": "MATH Short Answer Evaluate\r\n1)35(8+××\r\n (read as: the square root of open parenthesis \r\n8 times 5 times 3 plus 1 close parenthesis).",
         "tossupA": "11",
-        "bonusQ": "MATH Short Answer Providing your answer as a decimal to the nearest tenth, evaluate \r\nx\r\nx\r\n5\r\n36\r\n−\r\n+\r\n (read as: open absolute value, open parenthesis 6x + 3 close parenthesis divided by   \r\n-5x, close absolute value) for \r\n6=x\r\n.",
+        "bonusQ": "MATH Short Answer Providing your answer as a decimal to the nearest tenth, evaluate \r\nx\r\nx<sup>5</sup>36\r\n−\r\n+\r\n (read as: open absolute value, open parenthesis 6x + 3 close parenthesis divided by   \r\n-5x, close absolute value) for \r\n6=x\r\n.",
         "bonusA": "1.3",
         "category": 4,
         "setNum": 4,
@@ -39373,7 +39373,7 @@
         "catDiff": "0.14"
       },
       "3_14_14": {
-        "tossupQ": "MATH Short Answer What is the degree of the following polynomial: 7x\r\n4\r\ny –5x\r\n3\r\ny\r\n3\r\n + 3xy\r\n3 \r\n– 4",
+        "tossupQ": "MATH Short Answer What is the degree of the following polynomial: 7x<sup>4</sup>y –5x<sup>3</sup>y<sup>3</sup> + 3xy\r\n3 \r\n– 4",
         "tossupA": "6 \r\n \r\n(Solution: the degree of the term with the largest degree, 3 + 3)",
         "bonusQ": "MATH Short Answer Giving your answer in terms of pi, what is the volume of a cone with a \r\nheight of 8 meters and a base whose diameter is 6 meters?",
         "bonusA": "24π \r\n \r\n(Solution: V = ⅓πr\r\n2\r\nh = ⅓(π)(3\r\n2\r\n)(8) = 24π)",
@@ -39473,8 +39473,8 @@
         "catDiff": "0.14"
       },
       "3_14_24": {
-        "tossupQ": "MATH Short Answer If the fourth term in the binomial expansion of (x + y)\r\n7\r\n is 35x\r\n4\r\ny\r\n3\r\n, what is \r\nthe 5th term?",
-        "tossupA": "35x\r\n3\r\ny\r\n4\r\n (ACCEPT: 35y\r\n4\r\nx\r\n3\r\n)",
+        "tossupQ": "MATH Short Answer If the fourth term in the binomial expansion of (x + y)\r\n7\r\n is 35x<sup>4</sup>y<sup>3</sup>, what is \r\nthe 5th term?",
+        "tossupA": "35x<sup>3</sup>y<sup>4</sup> (ACCEPT: 35y<sup>4</sup>x<sup>3</sup>)",
         "bonusQ": "MATH Short Answer In simplest terms, give the 6\r\nth\r\n term of the geometric sequence whose \r\nsecond term is –3 and whose third term is \r\n2\r\n3\r\n:",
         "bonusA": "–\r\n16\r\n3\r\n  \r\n \r\n(Solution: a\r\nx \r\n= a(r)\r\nx-1\r\n; a\r\n6\r\n = 6(\r\n2\r\n1!\r\n)\r\n5\r\n; a = –\r\n16\r\n3\r\n)",
         "category": 4,
@@ -39504,7 +39504,7 @@
       },
       "3_11_2": {
         "tossupQ": "MATH Short Answer Add and simplify the following 2 polynomials, giving your answer in \r\nstandard form: \r\n)1093()1069(\r\n2323\r\nxxxxxx!+!+++",
-        "tossupA": "6x\r\n3\r\n – 4x\r\n2\r\n + 19x",
+        "tossupA": "6x<sup>3</sup> – 4x<sup>2</sup> + 19x",
         "bonusQ": "MATH Short Answer Give the height, to the nearest whole meter, of the triangle that has an area \r\nof 54 square meters and whose base is 4-times its height:",
         "bonusA": "5",
         "category": 4,
@@ -39656,7 +39656,7 @@
         "tossupQ": "MATH Multiple Choice Which of the following is equivalent to the radical expression, \r\n)18(\r\n18\r\n  Read as: square root of open parenthesis 18 to the 18\r\nth\r\n power closed parenthesis \r\n \r\nW) 3\r\n3\r\n \r\nX) 9\r\n9\r\n \r\nY) 18\r\n3\r\n \r\nZ) 18\r\n9",
         "tossupA": "Z) 18\r\n9",
         "bonusQ": "MATH Short Answer Give the third term in the binomial expansion of the following:  \r\n(x + y)\r\n5",
-        "bonusA": "10x\r\n3\r\ny\r\n2",
+        "bonusA": "10x<sup>3</sup>y\r\n2",
         "category": 4,
         "setNum": 3,
         "roundNum": 11,
@@ -39703,7 +39703,7 @@
         "catDiff": "0.11"
       },
       "3_11_22": {
-        "tossupQ": "MATH Short Answer Factor the following polynomial over the integers:  \r\n49x\r\n2\r\n – 64",
+        "tossupQ": "MATH Short Answer Factor the following polynomial over the integers:  \r\n49x<sup>2</sup> – 64",
         "tossupA": "(7x + 8)(7x – 8)",
         "bonusQ": "MATH Short Answer Consider a distribution of 7 scores with a median of 20. If the lowest \r\nscore value is decreased by 4, what will the new median value be for this distribution of 7 scores?",
         "bonusA": "20",
@@ -39883,10 +39883,10 @@
         "catDiff": "0.13"
       },
       "3_13_15": {
-        "tossupQ": "MATH Multiple Choice Which of the following equations has a graph that is a circle: \r\n \r\nW) x\r\n2\r\n + y\r\n2\r\n = 25 \r\nX) 4y = 3x + 2 \r\nY) y = x\r\n2\r\n \r\nZ) x – 3 = 0",
-        "tossupA": "W) x\r\n2\r\n + y\r\n2\r\n = 25",
+        "tossupQ": "MATH Multiple Choice Which of the following equations has a graph that is a circle: \r\n \r\nW) x<sup>2</sup> + y<sup>2</sup> = 25 \r\nX) 4y = 3x + 2 \r\nY) y = x<sup>2</sup> \r\nZ) x – 3 = 0",
+        "tossupA": "W) x<sup>2</sup> + y<sup>2</sup> = 25",
         "bonusQ": "MATH Short Answer Find the distance between and give the coordinates of the midpoint \r\nbetween the following points: (12, 8) and (18, 8)",
-        "bonusA": "DISTANCE = 6; MIDPOINT = (15, 8) \r\n \r\n(Solution: d = \r\n()()\r\n2\r\n12\r\n2\r\n12\r\nyyxx!+!\r\n; \r\n()()\r\n22\r\n881218!+!\r\n= 6);  \r\nmidpoint x = (x\r\n1\r\n + x\r\n2\r\n)/2 = (12 + 18)/2 = 15 ; midpoint y = (y\r\n1\r\n + y\r\n2\r\n)/2 = (8 + 8)/2 = 8)",
+        "bonusA": "DISTANCE = 6; MIDPOINT = (15, 8) \r\n \r\n(Solution: d = \r\n()()\r\n2\r\n12\r\n2\r\n12\r\nyyxx!+!\r\n; \r\n()()\r\n22\r\n881218!+!\r\n= 6);  \r\nmidpoint x = (x\r\n1\r\n + x<sup>2</sup>)/2 = (12 + 18)/2 = 15 ; midpoint y = (y\r\n1\r\n + y<sup>2</sup>)/2 = (8 + 8)/2 = 8)",
         "category": 4,
         "setNum": 3,
         "roundNum": 13,
@@ -39934,7 +39934,7 @@
       },
       "3_13_20": {
         "tossupQ": "MATH Short Answer Expand the following expression, giving your answer in standard \r\nbinomial form: (4x + 3y)\r\n2",
-        "tossupA": "16x\r\n2\r\n + 24xy + 9y\r\n2",
+        "tossupA": "16x<sup>2</sup> + 24xy + 9y\r\n2",
         "bonusQ": "MATH Short Answer How many different outcomes are possible if eight hydrogen fuel cars \r\ncompete in a race for which first, second, and third prizes will be awarded and no ties are possible?",
         "bonusA": "336 \r\n \r\n(Solution: P(8,3) = 8!/(8-3)! = 8!/5! = 336)",
         "category": 4,
@@ -45983,7 +45983,7 @@
         "catDiff": "1.4"
       },
       "5_5_1": {
-        "tossupQ": "MATH Multiple Choice Which of the following does NOT represent a function? \r\n \r\nW) x = 4 \r\nX) y = 4 \r\nY) y = x\r\n2\r\n \r\nZ) y = 2x – 8",
+        "tossupQ": "MATH Multiple Choice Which of the following does NOT represent a function? \r\n \r\nW) x = 4 \r\nX) y = 4 \r\nY) y = x<sup>2</sup> \r\nZ) y = 2x – 8",
         "tossupA": "W) x = 4",
         "bonusQ": "MATH Short Answer You have a right circular cylinder with a radius of 6 inches and a height \r\nof 6 inches. You drop a ball with a radius of 3 inches into the cylinder. How much empty space, \r\nin cubic inches and in terms of π, remains in the cylinder?",
         "bonusA": "180π",
@@ -52076,7 +52076,7 @@
         "tossupQ": "MATH Short Answer What is the smallest angle of rotational symmetry possible in an \r\nequilateral triangle?",
         "tossupA": "120",
         "bonusQ": "MATH Short Answer The graph of the equation y  =  3x<sup>2</sup>\u0000 2x  +  4 is translated 3 units to the \r\nleft and 4 units up. What is the equation of the new graph in standard polynomial form?",
-        "bonusA": "y  =  3x\r\n2\r\n + 16x + 29",
+        "bonusA": "y  =  3x<sup>2</sup> + 16x + 29",
         "category": 4,
         "setNum": 5,
         "roundNum": 9,
@@ -52584,7 +52584,7 @@
       },
       "5_10_11": {
         "tossupQ": "MATH Multiple Choice Which of the following inequalities has a finite solution set over the \r\nintegers? \r\n \r\nW) x<sup>2</sup> + 5x + 6 > 0 \r\nX) |x + 2| > 4 (read as: the absolute value of the quantity x plus 2 is greater than 4) \r\nY) 9x – 7 < 3x + 14 \r\nZ) x<sup>2</sup> – 4x + 3 < 0",
-        "tossupA": "Z) x\r\n2\r\n – 4x + 3 < 0",
+        "tossupA": "Z) x<sup>2</sup> – 4x + 3 < 0",
         "bonusQ": "MATH Short Answer Alice stands 30 feet away from a building and looks up to the top of it. \r\nThe angle of elevation is 45 degrees. If she is 5 feet tall, how tall is the building in feet?",
         "bonusA": "35",
         "category": 4,
@@ -53926,7 +53926,7 @@
       "5_13_20": {
         "tossupQ": "MATH Multiple Choice For a set of two variable data, the correlation coefficient is r = -0.9 \r\nand the line of best fit is y = mx + b. Which of the following is a TRUE statement about m? \r\n \r\nW) m is greater than zero \r\nX) m is less than zero \r\nY) m is equal to zero \r\nZ) m can be any real number",
         "tossupA": "X) m IS LESS THAN ZERO",
-        "bonusQ": "MATH Short Answer Factor completely: x\r\n5\r\n + y\r\n5\r\n.",
+        "bonusQ": "MATH Short Answer Factor completely: x<sup>5</sup> + y<sup>5</sup>.",
         "bonusA": "x  +  y(x<sup>4</sup>\u0000 x<sup>3</sup>y  + x<sup>2</sup>y<sup>2</sup>  \u0000 xy<sup>3</sup>  + y<sup>4</sup>)",
         "category": 4,
         "setNum": 5,
