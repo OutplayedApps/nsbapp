@@ -54,20 +54,30 @@ angular.module('IonicGulpSeed', ['ionic', 'ngCordova', 'ngResource', 'ngSanitize
                     }
                 }
             })
-            .state('app.mainMenu', {
+            .state('mainMenu', {
                 url: '/mainMenu',
                 cache: true,
-                views: {
-                    'viewContent': {
+                //views: {
+                //    'viewContent': {
                         templateUrl: 'templates/views/mainMenu.html',
-                        controller: 'MainMenuController'
-                    }
-                }
+                        controller: 'MainController'
+                //    }
+                //}
+            })
+            .state('about', {
+                url: '/about',
+                cache: true,
+                //views: {
+                //    'viewContent': {
+                        templateUrl: 'templates/views/about.html'//,
+                        //controller: 'MainMenuController'
+                 //   }
+                //}
             });
 
 
         // redirects to default route for undefined routes
-        $urlRouterProvider.otherwise('/app/mainMenu');
+        $urlRouterProvider.otherwise('/mainMenu');
     });
 
 

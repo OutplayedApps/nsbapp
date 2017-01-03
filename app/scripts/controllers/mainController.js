@@ -8,33 +8,41 @@
  * This controller handles the side menu
  */
 angular.module('IonicGulpSeed')
-    .controller('MainController', function($scope, $timeout, $ionicViewService, $rootScope,
+    .controller('MainController', function($scope, $timeout, $ionicViewService, $rootScope, $ionicPopup, $state,
                                            $ionicSideMenuDelegate, SettingsService, $ionicTabsDelegate) {
 
-/*$scope.$on("settingsChanged", function() {
-    updateTabs();
-})*/
+        /*$scope.$on("settingsChanged", function() {
+         updateTabs();
+         })*/
+        //main menu stuffs:
+        $ionicSideMenuDelegate.canDragContent(false);
+        $scope.start = function() {
+            $state.go("app.home");
+        }
+
+
         function updateTabs() {
             // do something with $scope
             $scope.settings = SettingsService.settings;
             function selectTab(handle, index) {
-                $timeout(function() {
+                $timeout(function () {
                     $ionicTabsDelegate.$getByHandle(handle).select(index);
                 }, 0);
             }
+
             selectTab("mode", $scope.settings.mode);
             selectTab("level", $scope.settings.level);
         }
 
         $rootScope.$on('$stateChangeSuccess',
-            function(event, toState, toParams, fromState, fromParams){ updateTabs();});
-
-
+            function (event, toState, toParams, fromState, fromParams) {
+                updateTabs();
+            });
 
 
         //todo: get from memory.
         var m, l;
-        $scope.toggleMode = function(m) {
+        $scope.toggleMode = function (m) {
             //$ionicSideMenuDelegate.toggleLeft(false);
             $scope.mode = m;
             SettingsService.settings.mode = m;
@@ -42,7 +50,7 @@ angular.module('IonicGulpSeed')
             console.log("mode toggled");
 
         }
-        $scope.toggleLevel = function(l) {
+        $scope.toggleLevel = function (l) {
             //$ionicSideMenuDelegate.toggleLeft(false);
             $scope.level = l;
             SettingsService.settings.level = l;
@@ -50,22 +58,23 @@ angular.module('IonicGulpSeed')
         };
 
         $("#readSpeedRange").val(SettingsService.settings.readSpeed);
-        $scope.updateReadSpeed = function() {
+        $scope.updateReadSpeed = function () {
             SettingsService.settings.readSpeed = $("#readSpeedRange").val();
-            console.log("SPEED CHANGED"+SettingsService.settings.readSpeed, $scope.readSpeed);
+            console.log("SPEED CHANGED" + SettingsService.settings.readSpeed, $scope.readSpeed);
         }
         /*$scope.$watch(function () {
-                return $ionicSideMenuDelegate.isOpenLeft();
-            },
-            function (ratio) {
-                $scope.isLeftMenuOpen = ratio;
-            });*/
-        $scope.start = function() {
+         return $ionicSideMenuDelegate.isOpenLeft();
+         },
+         function (ratio) {
+         $scope.isLeftMenuOpen = ratio;
+         });*/
+        $scope.start = function () {
             $ionicViewService.nextViewOptions({
                 disableBack: true
             });
             $state.go("app.home");
         }
+
 
 
 

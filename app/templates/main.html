@@ -21,6 +21,10 @@
                     <i class="icon ion-home"></i>
                     Main Menu
                 </a>
+                <a menu-close class="item item-icon-left" ui-sref="about">
+                    <i class="icon ion-ios-information-outline"></i>
+                    About
+                </a>
                 <a menu-close class="item item-icon-left" ui-sref-active="active" ui-sref="app.home">
                     <i class="icon ion-social-buffer"></i>
                     Back to Practice
@@ -70,7 +74,7 @@
 
                     <div class="item range range-positive">
                         Slow
-                        <input type="range" id="readSpeedRange" min="1" max="10" step=".1" ng-model="readSpeed" ng-change="updateReadSpeed()">
+                        <input type="range" id="readSpeedRange" min="1" max="7" step=".1" ng-model="readSpeed" ng-change="updateReadSpeed()">
                         <i class="icon ion-ios-fastforward"></i>
                     </div>
                 </div>
