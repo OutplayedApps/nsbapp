@@ -16674,7 +16674,7 @@
       "4_2_18": {
         "tossupQ": "MATH  Short Answer  If 8x<sup>3</sup> – 4y = -16x, express y as a function of x in simplest form.",
         "tossupA": "y = 2x<sup>3</sup> + 4x",
-        "bonusQ": "MATH  Multiple Choice  Solve the quadratic equation \r\n0823=−+xx<sup>2</sup>\r\n. \r\n \r\nW) \r\n4 or  2−=x\r\n \r\nX) \r\n12or 8−=x\r\n \r\nY) \r\n4/3 or 2−=x\r\n \r\nZ) \r\n4/3 or 8−=x",
+        "bonusQ": "MATH  Multiple Choice  Solve the quadratic equation 3x<sup>2</sup> + 2x - 8 = 0. W) x = 2 or -4 X) x = 8 or -12 Y) x = -2 or 4/3 Z) x = 8 or -4/3",
         "bonusA": "Y) x = -2 OR 4/3",
         "category": 4,
         "setNum": 4,
@@ -16782,9 +16782,9 @@
         "catDiff": "1.8"
       },
       "3_8_4": {
-        "tossupQ": "MATH  Short Answer  Given that tangent θ = \r\n4\r\n3!\r\n, find the possible values of sine θ:",
+        "tossupQ": "MATH  Short Answer  Given that tangent θ =  3/4 , find the possible values of sine θ:",
         "tossupA": "5\r\n3\r\n AND \r\n5\r\n3!",
-        "bonusQ": "MATH  Short Answer  Divide and simplify the following 2 polynomials, combining like terms: \r\n)2(\r\n)8(\r\n3\r\n!\r\n!\r\nx\r\nx",
+        "bonusQ": "MATH  Short Answer  Divide and simplify the following 2 polynomials, combining like terms: \r\n)2(\r\n)8( /3 !\r\nx\r\nx",
         "bonusA": "x<sup>2</sup> + 2x + 4",
         "category": 4,
         "setNum": 3,
@@ -17722,7 +17722,7 @@
         "catDiff": "2.6"
       },
       "4_6_23": {
-        "tossupQ": "MATH  Multiple Choice  Which of the following is not equal to  (read as: 5 squared to \r\nthe power of 3)? \r\n \r\nW) \r\n()235\r\n(read as: 5 cubed to the power of 2) \r\nX) \r\n5\r\n5\r\n \r\nY) \r\n6\r\n5\r\n \r\nZ) \r\n()()3355\r\n (read as: 5 cubed times 5 cubed)",
+        "tossupQ": "MATH  Multiple Choice  Which of the following is not equal to  (read as: 5 squared to \r\nthe power of 3)? \r\n \r\nW) \r\n()235\r\n(read as: 5 cubed to the power of 2) \r\nX)  5/5  \r\nY)  5/6  \r\nZ) \r\n()()3355\r\n (read as: 5 cubed times 5 cubed)",
         "tossupA": "X) 5\r\n5",
         "bonusQ": "MATH  Short Answer  Where does the graph of  cross the x-axis?",
         "bonusA": "AND  (ACCEPT: )",
@@ -17805,7 +17805,7 @@
         "tossupQ": "GENERAL SCIENCE  Multiple Choice  Which of the following is NOT true: \r\n \r\nW)  electron tunneling is a phenomenon known since the early formulations of quantum mechanics \r\nX)  interstellar dust is now believed to constitute less than 1% of the mass in the interstellar medium \r\nY)  antibiotic resistance in bacteria can arise from bacteria incorporating exogenous DNA into their \r\ngenomes \r\nZ)  plant auxin is typically produced in bud scales and has the restricted role of cellular elongation",
         "tossupA": "Z)  PLANT AUXIN IS TYPICALLY PRODUCED IN BUD SCALES AND HAS THE \r\nRESTRICTED ROLE OF CELLULAR ELONGATION",
         "bonusQ": "GENERAL SCIENCE  Short Answer  If the magic sum for a magic square is 15 and the top row \r\nof the magic square consists of  the numbers 2, 9 and 4 and the top two numbers of the left column \r\nfrom the top down are 2 and 7, what are the 3 rows, from top to bottom?",
-        "bonusA": "816\r\n357\r\n492\r\n  (must be exact and read as  2, 9, 4   7, 5, 3   6, 1, 8)",
+        "bonusA": "816 492/357   (must be exact and read as  2, 9, 4   7, 5, 3   6, 1, 8)",
         "category": 6,
         "setNum": 3,
         "roundNum": 17,
@@ -17922,7 +17922,7 @@
         "catDiff": "1.17"
       },
       "3_17_18": {
-        "tossupQ": "MATH  Short Answer  Give the center point and the vertices of the horizontal axis and vertical \r\naxis of the ellipse for the following equation:  \r\n1\r\n9\r\n)2(\r\n16\r\n)1(\r\n22\r\n=!++yx",
+        "tossupQ": "MATH  Short Answer  Give the center point and the vertices of the horizontal axis and vertical \r\naxis of the ellipse for the following equation:   9/1 )2(\r\n16\r\n)1(\r\n22\r\n=!++yx",
         "tossupA": "CENTER = (–1, 2);  HORIZONTAL = (–5, 2) AND (3, 2);   \r\nVERTICAL = (–1, –1) AND (–1, 5)",
         "bonusQ": "MATH  Short Answer  Differentiate and simplify the following with respect to x:  y = \r\nx\r\nxln\r\n  \r\n(read as: natural log of x divided by x)",
         "bonusA": "2\r\nln1\r\nx\r\nx!\r\n       (ALSO ACCEPT [-(lnx) +1]/x\r\n2",
@@ -19353,9 +19353,9 @@
       },
       "3_7_11": {
         "tossupQ": "MATH  Short Answer  Remove all negative exponents and simplify the following expression \r\nfor all non-zero values of x, y, and z:  \r\n)2(\r\n)2(\r\n543\r\n0312\r\n!!!\r\n!\r\nzyx\r\nzyx",
-        "tossupA": "2\r\n543\r\nzyx\r\n  (ACCEPT:  \r\n543\r\n2\r\n1zyx\r\n)",
+        "tossupA": "2\r\n543\r\nzyx\r\n  (ACCEPT:   2/543 1zyx\r\n)",
         "bonusQ": "MATH  Short Answer  What is the slope-intercept equation of the line that passes through the \r\npoint (4, -1) and is parallel to the line with equation 2x – 3y = 9?",
-        "bonusA": "y = \r\n3\r\n2\r\nx – \r\n3\r\n11",
+        "bonusA": "y =  2/3 x – \r\n3\r\n11",
         "category": 4,
         "setNum": 3,
         "roundNum": 7,
@@ -19422,7 +19422,7 @@
         "catDiff": "3.7"
       },
       "3_7_18": {
-        "tossupQ": "MATH  Short Answer  Remove all negative exponents and simplify the following expression \r\nfor all non-zero values of x:  \r\n5\r\n25\r\n)32(−−x",
+        "tossupQ": "MATH  Short Answer  Remove all negative exponents and simplify the following expression \r\nfor all non-zero values of x:   25/5 )32(−−x",
         "tossupA": "24\r\n1\r\nx",
         "bonusQ": "MATH  Multiple Choice  Which of the following is a prime polynomial over the integers: \r\n \r\nW)  5x<sup>2</sup> – 8x + 2 \r\nX)  4x<sup>2</sup> – 4x – 8 \r\nY)  3x<sup>2</sup> – 4x – 4 \r\nZ)  3x<sup>2</sup> – 10x<sup>2</sup> + 3x",
         "bonusA": "W)  5x<sup>2</sup> – 8x + 2 \r\n(Solution:  it cannot be factored)",
@@ -21674,8 +21674,8 @@
       "3_6_18": {
         "tossupQ": "MATH  Short Answer  Subtract the following complex numbers, giving your answer in standard \r\nform:  (11 – 4i) – (–3 + 3i)",
         "tossupA": "14 – 7i",
-        "bonusQ": "MATH  Short Answer  Solve the following inequality for x, giving your answer in fractional \r\nform:  \r\n2\r\n6\r\n5\r\n3\r\n2\r\n3\r\n1!<+xx",
-        "bonusA": "x > \r\n3\r\n16\r\n  (ACCEPT:  x >  5\r\n3\r\n1\r\n)",
+        "bonusQ": "MATH  Short Answer  Solve the following inequality for x, giving your answer in fractional \r\nform:   6/2 5 2/3 3\r\n1!<+xx",
+        "bonusA": "x >  16/3   (ACCEPT:  x >  5 1/3 )",
         "category": 4,
         "setNum": 3,
         "roundNum": 6,
@@ -23922,10 +23922,10 @@
         "catDiff": "3.10"
       },
       "3_10_18": {
-        "tossupQ": "MATH  Multiple Choice  Which of the following is NOT a geometric sequence: \r\n \r\nW)  30, 6, \r\n5\r\n6\r\n... \r\nX)  a\r\n2\r\n, a\r\n3\r\nb, a\r\n4\r\nb\r\n2\r\n... \r\nY)  6, 13, 20... \r\nZ)  \r\n2\r\n3\r\n, \r\n4\r\n3\r\n, \r\n8\r\n3\r\n...",
+        "tossupQ": "MATH  Multiple Choice  Which of the following is NOT a geometric sequence: \r\n \r\nW)  30, 6,  6/5 ... \r\nX)  a\r\n2\r\n, a\r\n3\r\nb, a\r\n4\r\nb\r\n2\r\n... \r\nY)  6, 13, 20... \r\nZ)   3/2 ,  3/4 ,  3/8 ...",
         "tossupA": "Y)  6, 13, 20...",
         "bonusQ": "MATH  Short Answer  Find the product of the following, giving your answer without negative \r\nexponents:  (x\r\n-2\r\n + y)(x<sup>2</sup> – y\r\n-2\r\n)",
-        "bonusA": "y\r\nyx\r\nyx\r\n111\r\n2\r\n22\r\n!+!\r\n     (Note:  the terms can be given in any order)",
+        "bonusA": "y\r\nyx\r\nyx 2/111 22\r\n!+!\r\n     (Note:  the terms can be given in any order)",
         "category": 4,
         "setNum": 3,
         "roundNum": 10,
@@ -24944,7 +24944,7 @@
       "5_5_20": {
         "tossupQ": "MATH  Multiple Choice  Which of the following can be constructed using only a compass \r\nand a straightedge? \r\n \r\nW) A line segment with one-third the length of a given line segment  \r\nX) A cube with twice the volume of a given cube \r\nY) An angle with one-third the measure of a given angle  \r\nZ) A square with the same area as that of a given circle",
         "tossupA": "W) A LINE SEGMENT WITH ONE-THIRD THE LENGTH OF A GIVEN LINE \r\nSEGMENT",
-        "bonusQ": "MATH  Short Answer  Let f(x) be a function with antiderivative g(x) satisfying g(1) = 2 and \r\ng(3) = 4. Calculate 2fxdx  - 5fxdx<sup>3</sup>\r\n1\r\n3\r\n1\r\n (read as: the integral from 1 to 3 of 2 f of x dx minus \r\nthe integral from 1 to 3 of 5 f of x dx).",
+        "bonusQ": "MATH  Short Answer  Let f(x) be a function with antiderivative g(x) satisfying g(1) = 2 and \r\ng(3) = 4. Calculate 2fxdx  - 5fxdx<sup>3</sup> 3/1 1\r\n (read as: the integral from 1 to 3 of 2 f of x dx minus \r\nthe integral from 1 to 3 of 5 f of x dx).",
         "bonusA": "-6",
         "category": 4,
         "setNum": 5,
@@ -25854,7 +25854,7 @@
       "3_4_11": {
         "tossupQ": "MATH  Short Answer  Boolean algebra involves ideas or subjects that have how many possible \r\nstates?",
         "tossupA": "2",
-        "bonusQ": "MATH  Short Answer  What is the least common denominator of the following 3 fractions: \r\n5\r\n2\r\n, \r\n6\r\n7\r\n and \r\n12\r\n7",
+        "bonusQ": "MATH  Short Answer  What is the least common denominator of the following 3 fractions:  2/5 ,  7/6  and \r\n12\r\n7",
         "bonusA": "60",
         "category": 4,
         "setNum": 3,
@@ -25925,7 +25925,7 @@
         "tossupQ": "MATH  Short Answer  Simplify the following, giving your answer in simplest radical form:  \r\n96x\r\n (read as: the ninth root of x to the sixth power)",
         "tossupA": "32x",
         "bonusQ": "MATH  Short Answer  Multiply the following, giving your answer in standard form and without \r\nnegative exponents or radicals: \r\n23232)(ba+",
-        "bonusA": "3\r\n4\r\n3\r\n2\r\n3\r\n2\r\n3\r\n4\r\n2bbaa++",
+        "bonusA": "3 3/4 2 2/3 3\r\n4\r\n2bbaa++",
         "category": 4,
         "setNum": 3,
         "roundNum": 4,
@@ -28995,7 +28995,7 @@
       "1_10_27": {
         "tossupQ": "MATH Short Answer Find the product of (x<sup>3</sup>y) (x<sup>2</sup>y)",
         "tossupA": "x<sup>5</sup>y",
-        "bonusQ": "MATH Short Answer Find the following product and give your answer to the first decimal \r\nplace: \r\n2\r\n5\r\n3\r\n3\r\n5\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+        "bonusQ": "MATH Short Answer Find the following product and give your answer to the first decimal \r\nplace:  5/2 3\r\n3\r\n5\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
         "bonusA": "0.6",
         "category": 4,
         "setNum": 1,
@@ -29705,7 +29705,7 @@
       "1_9_21": {
         "tossupQ": "MATH Short Answer Solve the following inequality for x: 3(x + 1) ≥ 9",
         "tossupA": "x ≥ 2",
-        "bonusQ": "MATH Short Answer Evaluate the following complex fraction, giving your answer as an \r\nimproper fraction in lowest terms: \r\n2\r\n11\r\n7\r\n12\r\n−\r\n−",
+        "bonusQ": "MATH Short Answer Evaluate the following complex fraction, giving your answer as an \r\nimproper fraction in lowest terms:  11/2 7\r\n12\r\n−\r\n−",
         "bonusA": "7\r\n26",
         "category": 4,
         "setNum": 1,
@@ -30005,7 +30005,7 @@
       "1_14_1": {
         "tossupQ": "MATH Multiple Choice The graph of which of the following equations has a negative slope: \r\n \r\nW) y = 2x – 4 \r\nX) y = – 2x + 4 \r\nY) y = – 4 \r\nZ) x = – 2",
         "tossupA": "X) y = – 2x + 4",
-        "bonusQ": "MATH Short Answer Simplify the following completely: \r\n224\r\n326\r\n2\r\n20\r\nzyx\r\nzyx−",
+        "bonusQ": "MATH Short Answer Simplify the following completely:  326/224 2\r\n20\r\nzyx\r\nzyx−",
         "bonusA": "–10x<sup>2</sup>z",
         "category": 4,
         "setNum": 1,
@@ -33245,7 +33245,7 @@
       "1_5_27": {
         "tossupQ": "MATH Short Answer If a car travels at a rate of 50 miles per hour, what is the distance, in \r\nmiles, traveled in 5 hours?",
         "tossupA": "250 \r\n \r\n(Solution: d = rt = (50mi/hr)(5 hr) = 250 miles)",
-        "bonusQ": "MATH Short Answer Giving your answer in exponential form, simplify the following \r\nexpression: \r\n2\r\n43\r\n10\r\n1010×",
+        "bonusQ": "MATH Short Answer Giving your answer in exponential form, simplify the following \r\nexpression:  43/2 10\r\n1010×",
         "bonusA": "105",
         "category": 4,
         "setNum": 1,
@@ -33264,7 +33264,7 @@
       },
       "1_13_2": {
         "tossupQ": "MATH Short Answer Expand the following expression, giving your answer in standard form: \r\n(x – \r\n4\r\n1)2",
-        "tossupA": "x<sup>2</sup> – \r\n16\r\n1\r\n2\r\n+x (ACCEPT: x<sup>2</sup> – \r\n16\r\n1\r\n2\r\n1+x)",
+        "tossupA": "x<sup>2</sup> –  1/16 2\r\n+x (ACCEPT: x<sup>2</sup> –  1/16 2\r\n1+x)",
         "bonusQ": "MATH Short Answer If $1,000 is invested at a simple interest rate of 10% annually, at the end \r\nof 3 years, what is the total interest earned?",
         "bonusA": "$300 \r\n \r\n(Solution: I = Prt = (1000)(0.10)(3) = $300.00)",
         "category": 4,
@@ -33365,8 +33365,8 @@
       "1_13_12": {
         "tossupQ": "MATH Short Answer Express the following radical in simplified form for all positive values \r\nof x: \r\n\r\n\r\n\r\n\r\n16\r\n2x",
         "tossupA": "4\r\nx (ACCEPT: \r\n4\r\n1x)",
-        "bonusQ": "MATH Short Answer Add the following rational expressions, giving your answer in reduced \r\nform: \r\n\r\n\r\n\r\n+\r\n\r\n\r\n\r\n\r\n2\r\n3\r\n2\r\n6\r\nxx",
-        "bonusA": "2\r\n)1(3\r\nx\r\nx+  (ACCEPT: 3x + \r\n2\r\n3\r\nx\r\n or 3x + 3x–2)",
+        "bonusQ": "MATH Short Answer Add the following rational expressions, giving your answer in reduced \r\nform: \r\n\r\n\r\n\r\n+\r\n\r\n\r\n\r\n 3/2 2\r\n6\r\nxx",
+        "bonusA": "2\r\n)1(3\r\nx\r\nx+  (ACCEPT: 3x +  3/2 x\r\n or 3x + 3x–2)",
         "category": 4,
         "setNum": 1,
         "roundNum": 13,
@@ -35013,8 +35013,8 @@
         "catDiff": "0.2"
       },
       "3_2_3": {
-        "tossupQ": "MATH Short Answer What are the multiplicative inverse and additive inverse of \r\n3\r\n5!\r\n, \r\nrespectively?",
-        "tossupA": "MULTIPLICATIVE INVERSE = \r\n5\r\n3!\r\n; ADDITIVE INVERSE = \r\n3\r\n5",
+        "tossupQ": "MATH Short Answer What are the multiplicative inverse and additive inverse of  5/3 , \r\nrespectively?",
+        "tossupA": "MULTIPLICATIVE INVERSE =  3/5 ; ADDITIVE INVERSE = \r\n3\r\n5",
         "bonusQ": "MATH Short Answer If 12 gallons of gasoline costs $36.00, what would 1 quart cost, in cents?",
         "bonusA": "75 CENTS",
         "category": 4,
@@ -35305,7 +35305,7 @@
       "3_3_7": {
         "tossupQ": "MATH Short Answer If 10% of a certain number is 240, what is 25% of the original number?",
         "tossupA": "600",
-        "bonusQ": "MATH Short Answer Giving your answer as a proper fraction in its simplest form, subtract the \r\nfollowing two fractions: \r\n12\r\n14\r\n8\r\n4!",
+        "bonusQ": "MATH Short Answer Giving your answer as a proper fraction in its simplest form, subtract the \r\nfollowing two fractions:  14/12 8\r\n4!",
         "bonusA": "3\r\n2!",
         "category": 4,
         "setNum": 3,
@@ -35545,7 +35545,7 @@
       "3_4_6": {
         "tossupQ": "MATH Short Answer Giving your answer as a proper fraction in its simplest form, multiply the \r\nfollowing two fractions: \r\n)\r\n11\r\n6()\r\n6\r\n5(!\"!",
         "tossupA": "11\r\n5",
-        "bonusQ": "MATH Short Answer Giving your answer as a mixed fraction reduced to its lowest terms, \r\nsubtract the following fractions: \r\n)\r\n9\r\n12\r\n9\r\n5()\r\n9\r\n1\r\n9\r\n8(!!!",
+        "bonusQ": "MATH Short Answer Giving your answer as a mixed fraction reduced to its lowest terms, \r\nsubtract the following fractions: \r\n) 12/9 9\r\n5() 1/9 9\r\n8(!!!",
         "bonusA": "1\r\n9\r\n5",
         "category": 4,
         "setNum": 3,
@@ -36586,7 +36586,7 @@
         "tossupQ": "MATH Short Answer Giving your answer in the simplest form, what is the slope-intercept \r\nequation of the line with a slope of 4 and passing through the point (0, 15)?",
         "tossupA": "y = 4x + 15",
         "bonusQ": "MATH Short Answer Find the solution set for the following inequality: 15 – x ≥ 3x + 6",
-        "bonusA": "X ≤ \r\n4\r\n9\r\n  \r\n(ACCEPT THE STATEMENT: ALL NUMBERS LESS THAN OR EQUAL TO \r\n4\r\n9\r\n or 2\r\n4\r\n1\r\n)",
+        "bonusA": "X ≤  9/4   \r\n(ACCEPT THE STATEMENT: ALL NUMBERS LESS THAN OR EQUAL TO  9/4  or 2 1/4 )",
         "category": 4,
         "setNum": 3,
         "roundNum": 8,
@@ -37393,7 +37393,7 @@
         "catDiff": "3.10"
       },
       "2_10_16": {
-        "tossupQ": "MATH Short Answer Add the following: =++\r\n12\r\n11\r\n3\r\n12\r\n2\r\n13",
+        "tossupQ": "MATH Short Answer Add the following: =++ 11/12 3 2/12 13",
         "tossupA": "12\r\n116",
         "bonusQ": "MATH Short Answer What is the average speed, in miles per hour, of a person who travels \r\n120 miles in 3 hours, 40 miles the next 3 hours, and 36 miles the following 2 hours?",
         "bonusA": "24.5 (ACCEPT: 24 – 25) \r\nJunior National Science Bowl Single Elimination 3 Page 8",
@@ -38183,7 +38183,7 @@
         "catDiff": "0.7"
       },
       "2_7_20": {
-        "tossupQ": "MATH Short Answer What is the least common denominator for the following operation:  \r\n5\r\n4\r\n3\r\n2\r\n2\r\n1++",
+        "tossupQ": "MATH Short Answer What is the least common denominator for the following operation:   4/5 3 2/2 1++",
         "tossupA": "30",
         "bonusQ": "MATH Short Answer If in a sequence of natural numbers, starting with 2, you begin \r\neliminating every second number after 2, then every third number after 3, then every fourth \r\nnumber after 4, and so on, what type of numbers will be left?",
         "bonusA": "PRIME NUMBERS \r\n \r\n \r\nJunior National Science Bowl Round Robin 7 Page 10",
@@ -38963,7 +38963,7 @@
         "catDiff": "1.5"
       },
       "4_5_23": {
-        "tossupQ": "MATH Short Answer One half plus a number n equals \r\n12\r\n39\r\n. What is n as a mixed number \r\nin simplest form?",
+        "tossupQ": "MATH Short Answer One half plus a number n equals  39/12 . What is n as a mixed number \r\nin simplest form?",
         "tossupA": "2 ¾",
         "bonusQ": "MATH Short Answer Put these values in order from least to greatest: 0.99, 1.25, 14/15, \r\n0.0099, -17.",
         "bonusA": "-17, 0.0099, 14/15, 0.99, 1.25",
@@ -39475,8 +39475,8 @@
       "3_14_24": {
         "tossupQ": "MATH Short Answer If the fourth term in the binomial expansion of (x + y)\r\n7\r\n is 35x<sup>4</sup>y<sup>3</sup>, what is \r\nthe 5th term?",
         "tossupA": "35x<sup>3</sup>y<sup>4</sup> (ACCEPT: 35y<sup>4</sup>x<sup>3</sup>)",
-        "bonusQ": "MATH Short Answer In simplest terms, give the 6\r\nth\r\n term of the geometric sequence whose \r\nsecond term is –3 and whose third term is \r\n2\r\n3\r\n:",
-        "bonusA": "–\r\n16\r\n3\r\n  \r\n \r\n(Solution: a\r\nx \r\n= a(r)\r\nx-1\r\n; a\r\n6\r\n = 6(\r\n2\r\n1!\r\n)\r\n5\r\n; a = –\r\n16\r\n3\r\n)",
+        "bonusQ": "MATH Short Answer In simplest terms, give the 6\r\nth\r\n term of the geometric sequence whose \r\nsecond term is –3 and whose third term is  3/2 :",
+        "bonusA": "– 3/16   \r\n \r\n(Solution: a\r\nx \r\n= a(r)\r\nx-1\r\n; a\r\n6\r\n = 6( 1/2 )\r\n5\r\n; a = – 3/16 )",
         "category": 4,
         "setNum": 3,
         "roundNum": 14,
@@ -39603,7 +39603,7 @@
         "catDiff": "0.11"
       },
       "3_11_12": {
-        "tossupQ": "MATH Multiple Choice If k is an integer greater than 1, which of the following is greater than \r\n1: \r\n \r\nW) –(–k)\r\n3\r\n   Read as: negative - open parenthesis - negative k - closed parenthesis - to the third power \r\nX) –(k)\r\n3  Read as: negative - open parenthesis - k - closed parenthesis - to the third power\r\n \r\nY) \r\n3\r\n1\r\n)(\r\n!\r\nk\r\n  Read as: open parenthesis - k - closed parenthesis - to the negative one-third power \r\nZ) \r\n3\r\nk!\r\n Read as: negative - open absolute value - k - closed absolute value - to the third power",
+        "tossupQ": "MATH Multiple Choice If k is an integer greater than 1, which of the following is greater than \r\n1: \r\n \r\nW) –(–k)\r\n3\r\n   Read as: negative - open parenthesis - negative k - closed parenthesis - to the third power \r\nX) –(k)\r\n3  Read as: negative - open parenthesis - k - closed parenthesis - to the third power\r\n \r\nY)  1/3 )(\r\n!\r\nk\r\n  Read as: open parenthesis - k - closed parenthesis - to the negative one-third power \r\nZ) \r\n3\r\nk!\r\n Read as: negative - open absolute value - k - closed absolute value - to the third power",
         "tossupA": "W) –(–k)\r\n3",
         "bonusQ": "MATH Short Answer Giving your answer in the simplest form, what is the slope-intercept \r\nequation of the line passing through the points (3, 8) and (2, 3)?",
         "bonusA": "y = 5x – 7",
@@ -39886,7 +39886,7 @@
         "tossupQ": "MATH Multiple Choice Which of the following equations has a graph that is a circle: \r\n \r\nW) x<sup>2</sup> + y<sup>2</sup> = 25 \r\nX) 4y = 3x + 2 \r\nY) y = x<sup>2</sup> \r\nZ) x – 3 = 0",
         "tossupA": "W) x<sup>2</sup> + y<sup>2</sup> = 25",
         "bonusQ": "MATH Short Answer Find the distance between and give the coordinates of the midpoint \r\nbetween the following points: (12, 8) and (18, 8)",
-        "bonusA": "DISTANCE = 6; MIDPOINT = (15, 8) \r\n \r\n(Solution: d = \r\n()()\r\n2\r\n12\r\n2\r\n12\r\nyyxx!+!\r\n; \r\n()()\r\n22\r\n881218!+!\r\n= 6);  \r\nmidpoint x = (x\r\n1\r\n + x<sup>2</sup>)/2 = (12 + 18)/2 = 15 ; midpoint y = (y\r\n1\r\n + y<sup>2</sup>)/2 = (8 + 8)/2 = 8)",
+        "bonusA": "DISTANCE = 6; MIDPOINT = (15, 8) \r\n \r\n(Solution: d = \r\n()() 12/2 2\r\n12\r\nyyxx!+!\r\n; \r\n()()\r\n22\r\n881218!+!\r\n= 6);  \r\nmidpoint x = (x\r\n1\r\n + x<sup>2</sup>)/2 = (12 + 18)/2 = 15 ; midpoint y = (y\r\n1\r\n + y<sup>2</sup>)/2 = (8 + 8)/2 = 8)",
         "category": 4,
         "setNum": 3,
         "roundNum": 13,
@@ -39985,7 +39985,7 @@
       "3_13_27": {
         "tossupQ": "MATH Short Answer Evaluate the following radical expression: –\r\n16\r\n (read as: the \r\nnegative square root of the square root of 16)",
         "tossupA": "–2",
-        "bonusQ": "MATH Short Answer Simplify the following expression if x represents a negative quantity: \r\n4\r\n14\r\n)16(x!",
+        "bonusQ": "MATH Short Answer Simplify the following expression if x represents a negative quantity:  14/4 )16(x!",
         "bonusA": "2x",
         "category": 4,
         "setNum": 3,
@@ -40683,9 +40683,9 @@
         "catDiff": "3.6"
       },
       "4_6_21": {
-        "tossupQ": "MATH Multiple Choice If a 4-inch plant grows at the rate of \r\n4\r\n1\r\n inch per day, what will its \r\nheight be in 27 days? \r\n \r\nW) 6\r\n4\r\n3\r\n inches \r\nX) 7 inches \r\nY) 10\r\n4\r\n3\r\n inches \r\nZ) 11 inches",
-        "tossupA": "Y) 10\r\n4\r\n3\r\n INCHES",
-        "bonusQ": "MATH Short Answer If a 4-inch plant grows at the rate of \r\n4\r\n1\r\n inch per day, in how many \r\ndays will the plant reach 48 inches?",
+        "tossupQ": "MATH Multiple Choice If a 4-inch plant grows at the rate of  1/4  inch per day, what will its \r\nheight be in 27 days? \r\n \r\nW) 6 3/4  inches \r\nX) 7 inches \r\nY) 10 3/4  inches \r\nZ) 11 inches",
+        "tossupA": "Y) 10 3/4  INCHES",
+        "bonusQ": "MATH Short Answer If a 4-inch plant grows at the rate of  1/4  inch per day, in how many \r\ndays will the plant reach 48 inches?",
         "bonusA": "176",
         "category": 4,
         "setNum": 4,
@@ -43253,7 +43253,7 @@
         "catDiff": "1.14"
       },
       "4_14_3": {
-        "tossupQ": "MATH Multiple Choice Which of the following can be equal to positive 4? \r\n \r\nW) |-3| x |1| (read as: the absolute value of negative 3 times the absolute value of 1) \r\nX) \r\n3\r\n2\r\n(read as: 2 cubed) \r\nY) \r\n16−\r\n(read as: the square root of negative 16) \r\nZ) \r\n24\r\n (read as: the square root of 4 squared)",
+        "tossupQ": "MATH Multiple Choice Which of the following can be equal to positive 4? \r\n \r\nW) |-3| x |1| (read as: the absolute value of negative 3 times the absolute value of 1) \r\nX)  2/3 (read as: 2 cubed) \r\nY) \r\n16−\r\n(read as: the square root of negative 16) \r\nZ) \r\n24\r\n (read as: the square root of 4 squared)",
         "tossupA": "Z)\r\n24",
         "bonusQ": "MATH Short Answer A triangle has an area of 9y<sup>2</sup> - 9y -10. The base of the triangle is 3y - 5. \r\nIn terms of y, what is the height of the triangle?",
         "bonusA": "6y + 4",
