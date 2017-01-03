@@ -17835,7 +17835,7 @@
         "tossupQ": "PHYSICS  Multiple Choice  Which of the following is NOT true: \r\n \r\nW)  electrons are directly affected by the strong nuclear force \r\nX)  general relativity predicts the existence of black holes \r\nY)  a deuterium atom has two nucleons  \r\nZ)  many cosmologists believe that neutrinos make up about as much mass as all the stars in the \r\nuniverse",
         "tossupA": "W)  ELECTRONS ARE DIRECTLY AFFECTED BY THE STRONG NUCLEAR \r\nFORCE",
         "bonusQ": "PHYSICS  Short Answer  Ashley, who weighs 450 newtons, is with her dad at the playground, \r\nand she is sitting on a swing that is 0.60 meters above the ground.  Her dad pulls her back and lets \r\nher go when the swing is 1.1 meters above the ground.  How fast, in meters per second to the first \r\ndecimal place, is Ashley moving when the swing passes through its lowest position?",
-        "bonusA": "3.1  (ACCEPT:  3.2) \r\n \r\n(Solution:  PE\r\ng\r\n = Fd = (450N)(0.6 – 1.1m) = -225J.  KE = -PE\r\ng\r\n = ½mv\r\n2\r\n à v = \r\nm\r\nKE2\r\n= \r\n2\r\n/8.9/450\r\n)225(2\r\nsmN\r\nJ\r\n= 3.13 m/s)",
+        "bonusA": "3.1  (ACCEPT:  3.2) \r\n \r\n(Solution:  PE\r\ng\r\n = Fd = (450N)(0.6 – 1.1m) = -225J.  KE = -PE\r\ng\r\n = ½mv<sup>2</sup> à v = \r\nm\r\nKE2\r\n= \r\n2\r\n/8.9/450\r\n)225(2\r\nsmN\r\nJ\r\n= 3.13 m/s)",
         "category": 3,
         "setNum": 3,
         "roundNum": 17,
@@ -20522,10 +20522,10 @@
         "catDiff": "2.10"
       },
       "4_10_3": {
-        "tossupQ": "MATH  Multiple Choice Find the derivative of 2xe<sup>x</sup> (read as: 2x e to the x). \r\n \r\nW) \r\nxe22x+\r\n \r\nX) 2xe<sup>x</sup> + e<sup>x</sup> \r\nY) 2xe<sup>x</sup> + 2e<sup>x</sup>  \r\nZ) 2xe\r\nx",
-        "tossupA": "Y) 2xe<sup>x</sup> + 2e\r\nx",
+        "tossupQ": "MATH  Multiple Choice Find the derivative of 2xe<sup>x</sup> (read as: 2x e to the x). \r\n \r\nW) 2e<sup>x</sup> + 2x \r\nX) 2xe<sup>x</sup> + e<sup>x</sup> \r\nY) 2xe<sup>x</sup> + 2e<sup>x</sup>  \r\nZ) 2xe<sup>x</sup>",
+        "tossupA": "Y) 2xe<sup>x</sup> + 2e<sup>x</sup>",
         "bonusQ": "MATH  Short Answer  What matrix is the multiplicative inverse of the 2 by 2 matrix   \r\n(read as: row 1: 3, 1; row 2: 5, 2).",
-        "bonusA": "",
+        "bonusA": "Row 1: 2, -1; Row 2: -5, 3",
         "category": 4,
         "setNum": 4,
         "roundNum": 10,
@@ -22422,8 +22422,8 @@
         "catDiff": "3.16"
       },
       "4_16_18": {
-        "tossupQ": "MATH  Short Answer  Expressing your answer in simplest radical form; evaluate   \r\n(read as: sine of the quantity 7 pi over 4).",
-        "tossupA": "",
+        "tossupQ": "MATH  Short Answer  Expressing your answer in simplest radical form; evaluate sine of the quantity 7 pi over 4.",
+        "tossupA": "-&radic;2/2",
         "bonusQ": "MATH  Multiple Choice  In the use of a statistical test, which of the following constitutes a \r\nType I (read as: type one) error? \r\n \r\nW)  rejecting a true null hypothesis \r\nX)  accepting a false null hypothesis \r\nY)  using a sample size that is too small for the test \r\nZ)  comparing samples that differ too much in size",
         "bonusA": "W)  REJECTING A TRUE NULL HYPOTHESIS",
         "category": 4,
@@ -22722,8 +22722,8 @@
         "catDiff": "0.5"
       },
       "4_5_23": {
-        "tossupQ": "MATH  Short Answer  What is   + (- ) as a fraction in simplest form?",
-        "tossupA": "",
+        "tossupQ": "MATH  Short Answer  What is 3/4 + (-5/6) as a fraction in simplest form?",
+        "tossupA": "-1/12",
         "bonusQ": "MATH  Multiple Choice  Which of the following numbers is relatively prime with 15?   \r\n \r\nW) 348 \r\nX) 350 \r\nY) 352 \r\nZ) 354",
         "bonusA": "Y) 352",
         "category": 4,
@@ -24712,10 +24712,10 @@
         "catDiff": "1.13"
       },
       "4_13_22": {
-        "tossupQ": "MATH  Short Answer  What is the reference angle for ?",
-        "tossupA": "",
-        "bonusQ": "MATH  Short Answer  Given coordinates A (1,2), B (7,1), C (3,0), and D (4,6), find the angle \r\nin degrees between   and .",
-        "bonusA": "",
+        "tossupQ": "MATH  Short Answer  What is the reference angle for 7pi/6?",
+        "tossupA": "pi/6",
+        "bonusQ": "MATH  Short Answer  Given coordinates A (1,2), B (7,1), C (3,0), and D (4,6), find the angle \r\nin degrees between AB and CD.",
+        "bonusA": "90&deg;",
         "category": 4,
         "setNum": 4,
         "roundNum": 13,
@@ -26522,10 +26522,10 @@
         "catDiff": "3.14"
       },
       "4_14_3": {
-        "tossupQ": "3)",
-        "tossupA": "",
-        "bonusQ": "3)",
-        "bonusA": "3) EARTH AND SPACE  Multiple Choice  If you measure the solar altitude at noon and find it to \r\nbe 90°, at which of the following locations could you be? \r\n \r\nW) Congo, in sub-Saharan Africa \r\nX) France, in Western Europe",
+        "tossupQ": "EARTH AND SPACE  Multiple Choice  If you measure the solar altitude at noon and find it to \r\nbe 90°, at which of the following locations could you be? \r\n \r\nW) Congo, in sub-Saharan Africa \r\nX) France, in Western Europe Y) Buenos Aires, Argentina, in southeastern South America Z) Tokyo, Japan, off the coast of eastern Asia",
+        "tossupA": "W) CONGO, IN SUB-SAHARAN AFRICA",
+        "bonusQ": "EARTH AND SPACE Short Answer If where you live, the sun rises at 75° northeast on the horizon, in May, and the solar altitude is less than 90° at the equinox, in which hemisphere do you live?",
+        "bonusA": "NORTHERN HEMISPHERE",
         "setNum": 4,
         "roundNum": 14,
         "catDiff": "undefined.14"
@@ -33746,7 +33746,7 @@
         "tossupQ": "EARTH SCIENCE Multiple choice The Tropic of Cancer lies at which of the following \r\nlatitudes: \r\n \r\nW) 23 ½° North \r\nX) 23 ½° South \r\nY) 26 ½° North \r\nZ) 26 ½° South",
         "tossupA": "W) 23 ½° NORTH",
         "bonusQ": "EARTH SCIENCE Short Answer Magma that reached the Earth’s surface is called what?",
-        "bonusA": "LAVA \r\n \r\n \r\nJunior National Science Bowl Round Robin 1 Page 13",
+        "bonusA": "LAVA",
         "category": 0,
         "setNum": 2,
         "roundNum": 1,
@@ -39356,7 +39356,7 @@
         "tossupQ": "PHYSICAL SCIENCE Multiple Choice Which of the following can transfer heat through a \r\nvacuum: \r\n \r\nW) convection \r\nX) conduction \r\nY) radiation \r\nZ) sublimation",
         "tossupA": "Y) RADIATION",
         "bonusQ": "PHYSICAL SCIENCE Short Answer Consider a 2.0 kilogram rock that falls vertically from a \r\nledge and strikes the ground with a velocity of 50 meters per second. If friction is ignored, what was \r\nthe gravitational potential energy, in joules, of the rock when it was on the ledge in relation to the \r\nplace where it struck the ground?",
-        "bonusA": "2500 \r\n(Solution: ½mv\r\n2\r\n = ½(2)(50)\r\n2\r\n = ½ × 2 × 2500 = 2500 J)",
+        "bonusA": "2500 \r\n(Solution: ½mv<sup>2</sup> = ½(2)(50)\r\n2\r\n = ½ × 2 × 2500 = 2500 J)",
         "category": 3,
         "setNum": 3,
         "roundNum": 14,
@@ -40886,7 +40886,7 @@
         "tossupQ": "MATH Short Answer How many positive factors does the number 1051 have?",
         "tossupA": "2",
         "bonusQ": "MATH Short Answer In right triangle ABC, angle A = 60°, angle C = 90°, and side AB = 10 \r\ncentimeters. What is the length of side BC in centimeters?",
-        "bonusA": "",
+        "bonusA": "5&radic;3",
         "category": 4,
         "setNum": 4,
         "roundNum": 17,
