@@ -24,20 +24,26 @@ angular.module('IonicGulpSeed')
         function updateTabs() {
             // do something with $scope
             $scope.settings = SettingsService.settings;
-            function selectTab(handle, index) {
+            /*function selectTab(handle, index) {
                 $timeout(function () {
                     $ionicTabsDelegate.$getByHandle(handle).select(index);
                 }, 0);
             }
 
             selectTab("mode", $scope.settings.mode);
-            selectTab("level", $scope.settings.level);
+            selectTab("level", $scope.settings.level);*/
+            $(($scope.settings.mode == 0) ? ".tabGame" : ".tabReader").click();
+            $(($scope.settings.level == 0) ? ".tabMS" : ".tabHS").click();
+
+            console.log($scope.settings.mode,"Is the mode");
         }
 
         $rootScope.$on('$stateChangeSuccess',
             function (event, toState, toParams, fromState, fromParams) {
                 updateTabs();
             });
+
+        updateTabs();
 
 
         //todo: get from memory.

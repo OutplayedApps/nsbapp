@@ -265,7 +265,7 @@ angular.module('IonicGulpSeed')
                     var diffNum = $scope.selectedDifficulty.index;
                     var catNumNew = catNum;
                     if (catNum == -1) {
-                        while (catNumNew == -1)
+                        while (catNumNew == -1 || catNumNew ==6 || catNumNew == 7) //excludes gen sci, compsci
                             catNumNew = $scope.catValues[Math.floor(Math.random() * $scope.catValues.length)];
                         //picks a random index from the array.
                     }

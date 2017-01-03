@@ -1,11 +1,10 @@
 
-    <ion-view hide-nav-bar="true">
     <!--ion-header-bar align-title="center" class="bar-positive">
         <button class="button button-icon icon ion-navicon" menu-toggle="left"></button>
         <h1 class="title">Settings</h1>
     </ion-header-bar-->
 
-    <ion-pane id="mainMenu">
+    <ion-view id="mainMenu">
         <div class="list menu">
             <div class="item" id="title">
 
@@ -30,14 +29,14 @@
 
             <ion-tabs class="item tabs-large tabs-stable tabs-icon-top" delegate-handle="mode">
 
+                <ion-tab title="Game mode" icon-on="ion-ios-game-controller-b" icon-off="ion-ios-game-controller-b-outline"
+                         on-select="toggleMode(1)" class="tabGame">
+                    <!-- Tab 2 content -->
+                </ion-tab>
+
                 <ion-tab title="Reader mode" icon-on="ion-ios-book" icon-off="ion-ios-book-outline"
                          on-select="toggleMode(0)" class="tabReader">
                     <!-- Tab 1 content -->
-                </ion-tab>
-
-                <ion-tab title="Game mode!" icon-on="ion-ios-game-controller-b" icon-off="ion-ios-game-controller-b-outline"
-                         on-select="toggleMode(1)" class="tabGame">
-                    <!-- Tab 2 content -->
                 </ion-tab>
 
 
@@ -58,12 +57,16 @@
                 </button>
             </label>
 
-            <label class="item item-input buttonLabel buttonAboutLabel">
-                <button class="button button-outline button-stable item-icon-left buttonAbout" ng-click="showAboutPopup()">
-                    <i class="icon ion-ios-information-outline"></i>
-                    About
-                </button>
-            </label>
+            <ion-footer-bar class="mainFooter">
+                <div class="buttons">
+                    <button class="button icon button-outline button-dark item-icon-left ion-help-circled" ng-click="showHelpPopup()">
+                        Help
+                    </button>
+                    <button class="button icon button-outline button-dark item-icon-left ion-ios-information-outline" ng-click="showAboutPopup()">
+                        About
+                    </button>
+                </div>
+            </ion-footer-bar>
 
 
 
@@ -76,5 +79,4 @@
         </div>
 
 
-    </ion-pane>
     </ion-view>
