@@ -30,7 +30,7 @@ html, body {
       height:150px;
       margin: 5% auto;
     }
-    @media only screen and (max-height:560px) {
+    @media only screen and (max-height:450px) {
       height:100px;
       margin: 2% auto;
     }
@@ -38,7 +38,22 @@ html, body {
 
 
   .tabs-large {
-    //height: 400px;
+    height:80px;
+    width: 80%;
+    margin: auto;
+    @media only screen and (max-height:500px) {
+      @media only screen and (min-width:531px) {
+        width: 50%;
+        float: left;
+        margin-bottom: 10px;
+        @media only screen and (min-height:320px) {
+          margin-bottom: 20px;
+        }
+      }
+      @media only screen and (max-width:531px) {
+        padding: 0px;
+      }
+    }
 
     .tabs {
 
@@ -60,12 +75,23 @@ html, body {
     }
   }
 
-  .buttonLabel {
+  .buttonLabel { //start button
     padding: 15px;
+    //height: 30px;
+
+
+    @media only screen and (max-height:580px) {
+      height:45px;
+      margin-top: 10px;
+    }
 
 }
   .mainFooter {
     height: 60px;
+
+    @media only screen and (max-height:400px) {
+      height:40px;
+    }
     .buttons {
       width: 100%;
     }
