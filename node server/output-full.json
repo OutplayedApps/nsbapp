@@ -545,7 +545,7 @@
         "tossupQ": "MATH  Short Answer  What is the equation of a line that has a slope of 4 and a y-intercept of 5?",
         "tossupA": "y = 4x + 5",
         "bonusQ": "MATH  Short Answer  Factor the following expression as completely as possible:  x<sup>4</sup> – 16",
-        "bonusA": "(x – 2)(x + 2)(x2 + 4)",
+        "bonusA": "(x – 2)(x + 2)(x<sup>2</sup> + 4)",
         "category": 4,
         "setNum": 2,
         "roundNum": 8,
@@ -1873,8 +1873,8 @@
       },
       "2_16_13": {
         "tossupQ": "MATH  Multiple Choice  If the cosine θ = ½ (read: θ as theta) and θ terminates in Quadrant I of \r\nthe Cartesian coordinate system, in a unit circle find sine θ: W) &radic;3/(2&radic;2) X) 2/&radic;3 Y) (&radic;3)/2 Z) 2&radic;3",
-        "tossupA": "Y) (&radic;3)/2 \r\n(Solution:  r<sup>2</sup> = x<sup>2</sup> + y<sup>2</sup>;  1<sup>2</sup> = (1/2)<sup>2</sup> + y<sup>2</sup>;  y2 = 3/4;  = &radic;3/2)",
-        "bonusQ": "MATH  Short Answer  Find the solution set of the following inequality:   x2 + 4x < 5",
+        "tossupA": "Y) (&radic;3)/2 \r\n(Solution:  r<sup>2</sup> = x<sup>2</sup> + y<sup>2</sup>;  1<sup>2</sup> = (1/2)<sup>2</sup> + y<sup>2</sup>;  y<sup>2</sup> = 3/4;  = &radic;3/2)",
+        "bonusQ": "MATH  Short Answer  Find the solution set of the following inequality:   x<sup>2</sup> + 4x < 5",
         "bonusA": "-5 < x < 1",
         "category": 4,
         "setNum": 2,
@@ -3105,7 +3105,7 @@
         "tossupQ": "MATH  Short Answer  Giving your answer as up, down, left, or right, the graph of the equation \r\nx = 5y – 8y<sup>2</sup> – 1 opens in what direction?",
         "tossupA": "LEFT",
         "bonusQ": "MATH  Short Answer  If $10,000 is placed in a savings account that pays 5% interest \r\ncompounded annually, what is the total amount of money in the account at the end of 2 years, to the \r\nnearest dollar?",
-        "bonusA": "$11,025 \r\n \r\n(Solution: A = P[1 + (r/n)]<sup>nt</sup>;  = $10,000[1 + (0.05/1)]<sup>(1x2)</sup> = $11,025)",
+        "bonusA": "$11,025 \r\n \r\n(Solution: A = P[1 + (r/n)]<sup>nt</sup>;  = $10,000[1 + (0.05/1)]<sup>(1x<sup>2</sup>)</sup> = $11,025)",
         "category": 4,
         "setNum": 1,
         "roundNum": 7,
@@ -7244,7 +7244,7 @@
       "7_9_27": {
         "tossupQ": "PHYSICS Multiple Choice Which of the following is true when light enters a denser medium \r\nand is refracted?  \r\n \r\nW) Wavelength remains unchanged \r\nX) Wave speed increases \r\nY) Wavelength increases \r\nZ) Frequency remains unchanged",
         "tossupA": "Z) FREQUENCY REMAINS UNCHANGED",
-        "bonusQ": "PHYSICS Short Answer A one-dimensional electrical potential has the form V(x) = 4x2 - x. \r\nWhat is the electrical field associated with this potential in terms of x?",
+        "bonusQ": "PHYSICS Short Answer A one-dimensional electrical potential has the form V(x) = 4x<sup>2</sup> - x. \r\nWhat is the electrical field associated with this potential in terms of x?",
         "bonusA": "-8x + 1 (DO NOT ACCEPT: 8x - 1)",
         "category": 3,
         "setNum": 7,
@@ -7693,7 +7693,7 @@
       },
       "7_10_20": {
         "tossupQ": "MATH Multiple Choice What is the derivative with respect to x of the integral \r\nfrom 4 to x of t squared dt? \r\n \r\nW) x<sup>2</sup> \r\nX) (1/3)x<sup>3</sup> \r\nY) (64/3)x \r\nZ) 16x<sup>2</sup>",
-        "tossupA": "W) x2",
+        "tossupA": "W) x<sup>2</sup>",
         "bonusQ": "MATH Short Answer What are the vertical and horizontal asymptotes, respectively, of  \r\nf(x) = (x<sup>2</sup> - √3)/(x<sup>2</sup> – 2x - 15) [f of x equals the fraction with numerator x squared minus the \r\nsquare root of 3 and denominator x squared minus 2x minus 15]?",
         "bonusA": "VERTICAL: x = -3, x = 5; HORIZONTAL: y = 1",
         "category": 4,
@@ -13864,7 +13864,7 @@
       "7_14_12": {
         "tossupQ": "PHYSICS Multiple Choice A body with a 2 kilogram mass has position vector r = 3i + 2t 2j \r\nmeters. What is the velocity at t = 1 second? \r\n \r\nW) 1j  \r\nX) 4j  \r\nY) 3i + 4j \r\nZ) 1i + 1j",
         "tossupA": "X) 4j",
-        "bonusQ": "PHYSICS Multiple Choice Two objects with masses m1 and m2 are hanging vertically by \r\ndifferent springs of spring constants k1 and k2. If m1 = 3m2 and k1= 2k2, what is the ratio x1/x2 \r\nof their stretches? \r\n \r\nW) 2/3 \r\nX) 3/2 \r\nY) 4 \r\nZ) 6",
+        "bonusQ": "PHYSICS Multiple Choice Two objects with masses m1 and m2 are hanging vertically by \r\ndifferent springs of spring constants k1 and k2. If m1 = 3m2 and k1= 2k2, what is the ratio x1/x<sup>2</sup> \r\nof their stretches? \r\n \r\nW) 2/3 \r\nX) 3/2 \r\nY) 4 \r\nZ) 6",
         "bonusA": "X) 3/2",
         "category": 3,
         "setNum": 7,
@@ -14902,7 +14902,7 @@
         "catDiff": "1.13"
       },
       "6_13_16": {
-        "tossupQ": "PHYSICS  Multiple Choice  Work W is done to extend a spring beyond its natural length by \r\na small distance x. Assuming a spring constant of 1, which of the following is the magnitude of \r\nthe maximum force done by the person stretching the spring?    \r\n \r\nW) x \r\nX) x/2W \r\nY) 2W/x \r\nZ) 2W/x2",
+        "tossupQ": "PHYSICS  Multiple Choice  Work W is done to extend a spring beyond its natural length by \r\na small distance x. Assuming a spring constant of 1, which of the following is the magnitude of \r\nthe maximum force done by the person stretching the spring?    \r\n \r\nW) x \r\nX) x/2W \r\nY) 2W/x \r\nZ) 2W/x<sup>2</sup>",
         "tossupA": "Y) 2W/x",
         "bonusQ": "PHYSICS  Short Answer  If a spaceship moving at relativistic speed v appears to be \r\nshortened to 4/5 its original length, what is its speed as a fraction of the speed of light, c, in \r\nlowest terms?",
         "bonusA": "3c/5 OR (3/5)c",
@@ -15852,7 +15852,7 @@
         "catDiff": "0.8"
       },
       "6_8_11": {
-        "tossupQ": "MATH  Short Answer  How many terms does the binomial expansion of (x2 + 2y3)<sup>20</sup> contain?",
+        "tossupQ": "MATH  Short Answer  How many terms does the binomial expansion of (x<sup>2</sup> + 2y3)<sup>20</sup> contain?",
         "tossupA": "21",
         "bonusQ": "MATH  Multiple Choice  Which of the following functions has an oblique asymptote? \r\n \r\nW) f(x) = (x<sup>5</sup> + 1)/(x<sup>4</sup> + 3x<sup>2</sup> + 2) \r\n \r\nX) f(x) = (x<sup>2</sup> + 1)/(x<sup>3</sup> - x<sup>2</sup> - 1) \r\n \r\nY) f(x) = (4x<sup>2</sup> + x + 1)/x<sup>2</sup> \r\n \r\nZ) f(x) = x<sup>5</sup>/(x<sup>2</sup> - 1)",
         "bonusA": "W) f(x) = (x<sup>5</sup> + 1)/(x<sup>4</sup> + 3x<sup>2</sup> + 2)",
@@ -16674,7 +16674,7 @@
       "4_2_18": {
         "tossupQ": "MATH  Short Answer  If 8x\r\n3\r\n – 4y = -16x, express y as a function of x in simplest form.",
         "tossupA": "y = 2x\r\n3\r\n + 4x",
-        "bonusQ": "MATH  Multiple Choice  Solve the quadratic equation \r\n0823=−+xx2\r\n. \r\n \r\nW) \r\n4 or  2−=x\r\n \r\nX) \r\n12or 8−=x\r\n \r\nY) \r\n4/3 or 2−=x\r\n \r\nZ) \r\n4/3 or 8−=x",
+        "bonusQ": "MATH  Multiple Choice  Solve the quadratic equation \r\n0823=−+xx<sup>2</sup>\r\n. \r\n \r\nW) \r\n4 or  2−=x\r\n \r\nX) \r\n12or 8−=x\r\n \r\nY) \r\n4/3 or 2−=x\r\n \r\nZ) \r\n4/3 or 8−=x",
         "bonusA": "Y) x = -2 OR 4/3",
         "category": 4,
         "setNum": 4,
@@ -17284,7 +17284,7 @@
       "6_7_4": {
         "tossupQ": "MATH  Multiple Choice  The equation -mx + 1 = 13 – 4(x + 3) [negative m x plus 1 equals \r\n13 minus 4 times the quantity x plus 3] is an identity if m equals which of the following? \r\n \r\nW) -4 \r\nX) -1 \r\nY) 1 \r\nZ) 4",
         "tossupA": "Z) 4",
-        "bonusQ": "MATH  Multiple Choice  If f(x) = -2x2 + 8x – 4, which of the following is true? \r\n \r\nW) f is not a one to one function  \r\nX) The graph of f opens upward \r\nY) The graph of f has no x-intercept \r\nZ) The maximum value of f(x) is -4",
+        "bonusQ": "MATH  Multiple Choice  If f(x) = -2x<sup>2</sup> + 8x – 4, which of the following is true? \r\n \r\nW) f is not a one to one function  \r\nX) The graph of f opens upward \r\nY) The graph of f has no x-intercept \r\nZ) The maximum value of f(x) is -4",
         "bonusA": "W) f IS NOT A ONE TO ONE FUNCTION",
         "category": 4,
         "setNum": 6,
@@ -17344,7 +17344,7 @@
       "6_7_10": {
         "tossupQ": "MATH  Short Answer  What is the solution set of the inequality (x – 1) 2 ≤ 0 [the quantity x \r\nminus one squared is less than or equal to zero]?",
         "tossupA": "1",
-        "bonusQ": "MATH  Multiple Choice  If function f is defined by f(x) = (4x2 – 12x)/(x2 – 9) [f of x equals a \r\nfraction with numerator 4 x squared minus 12 x and denominator x squared minus 9], \r\nthen at x = 3, which of the following is true? \r\n \r\nW) The graph of f has a vertical asymptote \r\nX) The graph of f has a hole on the x axis \r\nY) The graph of f has a hole at (3, 2) \r\nZ) f(x) = 0",
+        "bonusQ": "MATH  Multiple Choice  If function f is defined by f(x) = (4x<sup>2</sup> – 12x)/(x<sup>2</sup> – 9) [f of x equals a \r\nfraction with numerator 4 x squared minus 12 x and denominator x squared minus 9], \r\nthen at x = 3, which of the following is true? \r\n \r\nW) The graph of f has a vertical asymptote \r\nX) The graph of f has a hole on the x axis \r\nY) The graph of f has a hole at (3, 2) \r\nZ) f(x) = 0",
         "bonusA": "Y) THE GRAPH OF F HAS A HOLE AT (3, 2)",
         "category": 4,
         "setNum": 6,
@@ -17404,7 +17404,7 @@
       "6_7_16": {
         "tossupQ": "MATH  Multiple Choice  The lines defined by y = 2x and 2y = -x are which of the following? \r\n \r\nW) Parallel \r\nX) Perpendicular \r\nY) Horizontal \r\nZ) Vertical",
         "tossupA": "X) PERPENDICULAR",
-        "bonusQ": "MATH  Short Answer  Providing your answers as fractions in lowest terms, what are the x-\r\nintercepts of the graph of y = 12x2 – 5x – 2?",
+        "bonusQ": "MATH  Short Answer  Providing your answers as fractions in lowest terms, what are the x-\r\nintercepts of the graph of y = 12x<sup>2</sup> – 5x – 2?",
         "bonusA": "2/3 AND -1/4",
         "category": 4,
         "setNum": 6,
@@ -18382,7 +18382,7 @@
         "catDiff": "0.15"
       },
       "6_15_14": {
-        "tossupQ": "MATH  Short Answer  What is the radius of the circle with equation  \r\nx2 + 6x + y2 8y 11= 0?",
+        "tossupQ": "MATH  Short Answer  What is the radius of the circle with equation  \r\nx<sup>2</sup> + 6x + y<sup>2</sup> 8y 11= 0?",
         "tossupA": "6",
         "bonusQ": "MATH  Short Answer  Providing your answer as an improper fraction in lowest terms, solve \r\nthe following equation for x over the real numbers:  [9 to the power of 2x equals \r\n27 to the power of the quantity 3x minus 4].",
         "bonusA": "12/5",
@@ -18622,8 +18622,8 @@
         "catDiff": "5.3"
       },
       "7_3_13": {
-        "tossupQ": "MATH Multiple Choice What is the general solution to the differential equation: \r\ndy/dx = 2x + 1 [dy dx equals 2x plus 1]? \r\n \r\nW) y = x2 + x + c \r\nX) y = ½ x2 + c \r\nY) y = 2 + c \r\nZ) y = 2x + c",
-        "tossupA": "W) y = x2 + x + c",
+        "tossupQ": "MATH Multiple Choice What is the general solution to the differential equation: \r\ndy/dx = 2x + 1 [dy dx equals 2x plus 1]? \r\n \r\nW) y = x<sup>2</sup> + x + c \r\nX) y = ½ x<sup>2</sup> + c \r\nY) y = 2 + c \r\nZ) y = 2x + c",
+        "tossupA": "W) y = x<sup>2</sup> + x + c",
         "bonusQ": "MATH Short Answer Simplify: x1/2 (x1/2 + x1/2) [x to the power of one half times open \r\nparenthesis x to the power of one half plus x to the power of one half close parenthesis].",
         "bonusA": "2x",
         "category": 4,
@@ -18784,7 +18784,7 @@
       "6_1_4": {
         "tossupQ": "MATH  Multiple Choice  For all real numbers, the expression   [the square root \r\nof the quantity x squared minus 4 x plus 4] equals which of the following? \r\n \r\nW) x  2 \r\nX) x  2x + 2 \r\nY) |x  2| [the absolute value of the quantity x minus 2] \r\nZ) x + 2",
         "tossupA": "Y) |x  2|",
-        "bonusQ": "MATH  Short Answer  What are the coordinates of the vertex of the graph of y = 2x2 + 8x – 3?",
+        "bonusQ": "MATH  Short Answer  What are the coordinates of the vertex of the graph of y = 2x<sup>2</sup> + 8x – 3?",
         "bonusA": "(-2, -11)",
         "category": 4,
         "setNum": 6,
@@ -19944,7 +19944,7 @@
       "1_16_20": {
         "tossupQ": "MATH  Short Answer  Of the following 5 functions identify all that are NOT differentiable for \r\nall real numbers:  | x | (read as: absolute value of x);  cosine(x);  tangent(x);   ex;   the greatest integer \r\nfunction",
         "tossupA": "| x |;  TAN(x);  THE GREATEST INTEGER FUNCTION",
-        "bonusQ": "MATH  Short Answer  The curve defined by the equation, Ax2 + Bx + Cy2 + Dy + E =0, can be \r\nan ellipse if which of the constants are positive?",
+        "bonusQ": "MATH  Short Answer  The curve defined by the equation, Ax<sup>2</sup> + Bx + Cy<sup>2</sup> + Dy + E =0, can be \r\nan ellipse if which of the constants are positive?",
         "bonusA": "A AND C",
         "category": 4,
         "setNum": 1,
@@ -20044,7 +20044,7 @@
       "6_3_5": {
         "tossupQ": "MATH  Short Answer  How many distinct diagonals does a pentagon have?",
         "tossupA": "5",
-        "bonusQ": "MATH  Short Answer  The polynomial p(x) = x4 + 5x3 – 2x2 – 24x has a zero at x = 2. Factor p \r\ncompletely.",
+        "bonusQ": "MATH  Short Answer  The polynomial p(x) = x4 + 5x3 – 2x<sup>2</sup> – 24x has a zero at x = 2. Factor p \r\ncompletely.",
         "bonusA": "x(x – 2)(x + 3)(x + 4)  \r\n \r\n[NOTE: EXPRESSIONS IN ANSWER CAN BE IN ANY ORDER]",
         "category": 4,
         "setNum": 6,
@@ -20105,7 +20105,7 @@
         "tossupQ": "MATH  Short Answer  What is the surface area of a cube with volume 8?",
         "tossupA": "24",
         "bonusQ": "MATH  Short Answer  In terms of x and in standard polynomial form, what is the volume of a \r\nright rectangular prism with dimensions (x + 4), (x + 1), and (x + 6)?",
-        "bonusA": "x3 + 11x2 + 34x + 24",
+        "bonusA": "x3 + 11x<sup>2</sup> + 34x + 24",
         "category": 4,
         "setNum": 6,
         "roundNum": 3,
@@ -20244,7 +20244,7 @@
       "6_3_27": {
         "tossupQ": "MATH  Short Answer  If ln [natural log of the quantity x cubed equals 6], what is \r\nln [the natural log of the quantity x squared]?",
         "tossupA": "4",
-        "bonusQ": "MATH  Short Answer  If f(x) = 4x3 – 4x2 + 10, then what is f(-2) [f of negative 2]?",
+        "bonusQ": "MATH  Short Answer  If f(x) = 4x3 – 4x<sup>2</sup> + 10, then what is f(-2) [f of negative 2]?",
         "bonusA": "-38",
         "category": 4,
         "setNum": 6,
@@ -20612,7 +20612,7 @@
         "catDiff": "1.10"
       },
       "4_10_12": {
-        "tossupQ": "MATH  Multiple Choice  What are the solutions for x in the following equation: \r\n82=−xx2\r\n?   \r\n \r\nW)  0 \r\nX) 0 and 2 \r\nY) 4 and -2 \r\nZ) -4 and 2",
+        "tossupQ": "MATH  Multiple Choice  What are the solutions for x in the following equation: \r\n82=−xx<sup>2</sup>\r\n?   \r\n \r\nW)  0 \r\nX) 0 and 2 \r\nY) 4 and -2 \r\nZ) -4 and 2",
         "tossupA": "Y) 4 AND -2",
         "bonusQ": "MATH  Short Answer  Solve for x in simplest form for \r\n2232=+xx\r\n.",
         "bonusA": "3\r\n71±−=x\r\n (ACCEPT:  -1/3 ± /3)",
@@ -21014,7 +21014,7 @@
       "4_17_2": {
         "tossupQ": "MATH  Short Answer  Find (read as: the limit as x approaches infinity of the \r\nquantity x squared plus 10 over the quantity 7 x squared minus 5)",
         "tossupA": "1/7",
-        "bonusQ": "MATH  Short Answer  Find the equation of the line in slope intercept form of the tangent \r\nto\r\n423y+−=xx2\r\nat \r\n1=x\r\n.",
+        "bonusQ": "MATH  Short Answer  Find the equation of the line in slope intercept form of the tangent \r\nto\r\n423y+−=xx<sup>2</sup>\r\nat \r\n1=x\r\n.",
         "bonusA": "14+=xy",
         "category": 4,
         "setNum": 4,
@@ -22052,7 +22052,7 @@
         "catDiff": "2.5"
       },
       "6_5_6": {
-        "tossupQ": "MATH  Multiple Choice  Which of the following is NOT an even function? \r\n \r\nW) cosx \r\nX) cos(x2) \r\nY) sinx \r\nZ) sin(x2)",
+        "tossupQ": "MATH  Multiple Choice  Which of the following is NOT an even function? \r\n \r\nW) cosx \r\nX) cos(x<sup>2</sup>) \r\nY) sinx \r\nZ) sin(x<sup>2</sup>)",
         "tossupA": "Y) sinx",
         "bonusQ": "MATH  Short Answer  Given that x and y are real numbers, solve for x and y:  \r\n2y + ix = 4 + x – i.",
         "bonusA": "x = -1; y = 3/2",
@@ -22132,7 +22132,7 @@
         "catDiff": "0.5"
       },
       "6_5_14": {
-        "tossupQ": "MATH  Short Answer  What are the solutions to x2 – 5x + 6 = 0?",
+        "tossupQ": "MATH  Short Answer  What are the solutions to x<sup>2</sup> – 5x + 6 = 0?",
         "tossupA": "2 AND 3",
         "bonusQ": "MATH  Short Answer  Find an equation of the graph that results from reflecting the graph of \r\ny =   over the y-axis, and then shifting the graph 3 units to the left.",
         "bonusA": "y =  (ACCEPT: y = )",
@@ -22834,7 +22834,7 @@
       "7_11_9": {
         "tossupQ": "MATH Short Answer What is the area of a rhombus with diagonals of lengths 6 and 8?",
         "tossupA": "24",
-        "bonusQ": "MATH Multiple Choice A curve is given by the equation: x3 + 3y2 = 4. What is the slope of the \r\ntangent line at the point with coordinates (1, 1)? \r\n \r\nW) -2 \r\nX) -1/2 \r\nY) 1/2 \r\nZ) 2",
+        "bonusQ": "MATH Multiple Choice A curve is given by the equation: x3 + 3y<sup>2</sup> = 4. What is the slope of the \r\ntangent line at the point with coordinates (1, 1)? \r\n \r\nW) -2 \r\nX) -1/2 \r\nY) 1/2 \r\nZ) 2",
         "bonusA": "X) -1/2",
         "category": 4,
         "setNum": 7,
@@ -22894,7 +22894,7 @@
       "7_11_15": {
         "tossupQ": "MATH Short Answer A point rotates around a circle at the rate of 40° per second. Convert \r\nthis to revolutions per minute.",
         "tossupA": "203  (ACCEPT: 6 2/3)",
-        "bonusQ": "MATH Short Answer Given: x2 + y2 = 34 in the first quadrant and dxdt = 5, find dydt when x = 3.",
+        "bonusQ": "MATH Short Answer Given: x<sup>2</sup> + y<sup>2</sup> = 34 in the first quadrant and dxdt = 5, find dydt when x = 3.",
         "bonusA": "-3",
         "category": 4,
         "setNum": 7,
@@ -22952,7 +22952,7 @@
         "catDiff": "3.11"
       },
       "7_11_21": {
-        "tossupQ": "MATH Multiple Choice A hypersphere is described by a set of points such that w2 + x2 + y2 + \r\nz2 = 36. Which of the following statements is NOT true? \r\n \r\nW) (1, 2, 3, 1) lies inside the hypersphere \r\nX) (1, 5, 5, 1) lies outside the hypersphere \r\nY) (3, 3, 3, 3) lies on the hypersphere \r\nZ) (1, 2, 5, 1) lies outside the hypersphere",
+        "tossupQ": "MATH Multiple Choice A hypersphere is described by a set of points such that w2 + x<sup>2</sup> + y<sup>2</sup> + \r\nz<sup>2</sup> = 36. Which of the following statements is NOT true? \r\n \r\nW) (1, 2, 3, 1) lies inside the hypersphere \r\nX) (1, 5, 5, 1) lies outside the hypersphere \r\nY) (3, 3, 3, 3) lies on the hypersphere \r\nZ) (1, 2, 5, 1) lies outside the hypersphere",
         "tossupA": "Z) (1, 2, 5, 1) LIES OUTSIDE THE HYPERSPHERE",
         "bonusQ": "MATH Short Answer Evaluate sin15° [sine of 15 degrees].",
         "bonusA": "√64−√24 (ACCEPT: √6−√24)",
@@ -23012,7 +23012,7 @@
         "catDiff": "2.15"
       },
       "7_15_2": {
-        "tossupQ": "MATH Short Answer What is the slope-intercept form of the equation of the line  \r\nthat is tangent to the circle with equation x2 + y2 = 25 at the point (-3, 4)?",
+        "tossupQ": "MATH Short Answer What is the slope-intercept form of the equation of the line  \r\nthat is tangent to the circle with equation x<sup>2</sup> + y<sup>2</sup> = 25 at the point (-3, 4)?",
         "tossupA": "y = (¾)x + 25/4",
         "bonusQ": "MATH Multiple Choice Given the two sequences s1 with nth term  2푛+6  and s2 with nth term  \r\n푛\r\n5+푛, which of the following statements is correct? \r\n \r\nW) s1 and s2 are both increasing \r\nX) s1 is increasing and s2 is decreasing \r\nY) s1 is decreasing and s2 is increasing \r\nZ) s1 and s2 are both decreasing",
         "bonusA": "Y) s1 IS DECREASING AND s2 IS INCREASING",
@@ -24024,7 +24024,7 @@
       "7_16_3": {
         "tossupQ": "MATH Multiple Choice The points on a scatter plot are extremely close to their least-squares \r\nregression line, which is expressed by the equation y = -2x + 3. The correlation coefficient r \r\nbetween x and y is closest to which of the following? \r\n \r\nW) -2 \r\nX) -1 \r\nY) 1/2 \r\nZ) 1",
         "tossupA": "X) -1",
-        "bonusQ": "MATH Short Answer For the implicit function xy2 + x3y = 2, what is the slope of its tangent line \r\nat the point (1, 1)?",
+        "bonusQ": "MATH Short Answer For the implicit function xy<sup>2</sup> + x3y = 2, what is the slope of its tangent line \r\nat the point (1, 1)?",
         "bonusA": "-4/3",
         "category": 4,
         "setNum": 7,
@@ -24202,7 +24202,7 @@
         "catDiff": "3.16"
       },
       "7_16_21": {
-        "tossupQ": "MATH Multiple Choice What is the largest possible real domain of the function h(x) = ln(x2 – \r\n9) [h of x equals the natural log of the quantity x squared minus 9]? \r\n \r\nW) (−∞,∞) \r\nX) (−∞,−3)∪(3,∞) [the open interval from negative infinity to negative 3 union the open \r\ninterval from 3 to positive infinity] \r\nY) (−3,3) \r\nZ) (3,∞)",
+        "tossupQ": "MATH Multiple Choice What is the largest possible real domain of the function h(x) = ln(x<sup>2</sup> – \r\n9) [h of x equals the natural log of the quantity x squared minus 9]? \r\n \r\nW) (−∞,∞) \r\nX) (−∞,−3)∪(3,∞) [the open interval from negative infinity to negative 3 union the open \r\ninterval from 3 to positive infinity] \r\nY) (−3,3) \r\nZ) (3,∞)",
         "tossupA": "X) (−∞,−3)∪(3,∞)",
         "bonusQ": "MATH Short Answer Solve the following equation for x over the interval 0 ≤ x < 2π:  \r\n2sin2x − sinx – 1 = 0 [2 sine squared of x minus sine of x minus 1 equals 0].",
         "bonusA": "π/2 , 7π/6, AND 11π/6",
@@ -24304,7 +24304,7 @@
       "6_14_6": {
         "tossupQ": "MATH  Short Answer  What is the limit of  as x approaches 0?",
         "tossupA": "1",
-        "bonusQ": "MATH  Short Answer  Given the equation 9x2 + 4y2 + 54x – 8y + 49 = 0, what kind of shape is \r\nits graph, and what are the coordinates of its center?",
+        "bonusQ": "MATH  Short Answer  Given the equation 9x<sup>2</sup> + 4y<sup>2</sup> + 54x – 8y + 49 = 0, what kind of shape is \r\nits graph, and what are the coordinates of its center?",
         "bonusA": "ELLIPSE, (-3, 1)",
         "category": 4,
         "setNum": 6,
@@ -25422,7 +25422,7 @@
         "catDiff": "3.8"
       },
       "5_8_18": {
-        "tossupQ": "MATH  Short Answer  What is the name of the type of surface generated by the equation  \r\nz  =  x2+  y2?",
+        "tossupQ": "MATH  Short Answer  What is the name of the type of surface generated by the equation  \r\nz  =  x<sup>2</sup>+  y<sup>2</sup>?",
         "tossupA": "ELLIPTIC PARABOLOID",
         "bonusQ": "MATH  Short Answer  If the probability of event A is 0.25, the probability of event B is 0.5, \r\nand the probability of the union of A and B is 0.55, expressing your answer as a decimal to the \r\nnearest tenth, what is the probability of the intersection of A and B?",
         "bonusA": "0.2",
@@ -26154,7 +26154,7 @@
       "5_4_16": {
         "tossupQ": "MATH  Multiple Choice  Which of the following statements is NOT true about Taylor series? \r\n \r\nW) Taylor series are defined for infinitely differentiable functions \r\nX) All Taylor series are power series \r\nY) All Taylor series are convergent \r\nZ) The first n terms of a Taylor series approximate a function with a polynomial",
         "tossupA": "Y) ALL TAYLOR SERIES ARE CONVERGENT",
-        "bonusQ": "MATH  Short Answer  Considering the function fx  =  3x2- 4x  +  1, what is the average rate of \r\nchange from x = 2 to x = 5?",
+        "bonusQ": "MATH  Short Answer  Considering the function fx  =  3x<sup>2</sup>- 4x  +  1, what is the average rate of \r\nchange from x = 2 to x = 5?",
         "bonusA": "17",
         "category": 4,
         "setNum": 5,
@@ -27591,9 +27591,9 @@
         "catDiff": "5.11"
       },
       "5_11_10": {
-        "tossupQ": "MATH  Short Answer  Providing your answer as an improper fraction in simplest form, what \r\nis the slope of the line tangent to the graph of x2\r\n3\r\n (read as: the cube root of x squared) at the \r\npoint with coordinates of (-1/8, 1/4)?",
+        "tossupQ": "MATH  Short Answer  Providing your answer as an improper fraction in simplest form, what \r\nis the slope of the line tangent to the graph of x<sup>2</sup>\r\n3\r\n (read as: the cube root of x squared) at the \r\npoint with coordinates of (-1/8, 1/4)?",
         "tossupA": "-4/3",
-        "bonusQ": "MATH  Short Answer  Evaluate the integral: 36 \u0000 x20\r\n\u00006\r\n dx (read as: the integral from -6 to \r\n0 of the square root of open parenthesis 36 minus x squared close parenthesis d x).",
+        "bonusQ": "MATH  Short Answer  Evaluate the integral: 36 \u0000 x<sup>2</sup>0\r\n\u00006\r\n dx (read as: the integral from -6 to \r\n0 of the square root of open parenthesis 36 minus x squared close parenthesis d x).",
         "bonusA": "9π",
         "category": 4,
         "setNum": 5,
@@ -27651,7 +27651,7 @@
         "catDiff": "1.11"
       },
       "5_11_16": {
-        "tossupQ": "MATH  Short Answer  If fx,  y  =  xy  +  3xy2 (read as: f of x, y equals xy plus 3xy squared), \r\nwhat is the partial derivative of f with respect to y?",
+        "tossupQ": "MATH  Short Answer  If fx,  y  =  xy  +  3xy<sup>2</sup> (read as: f of x, y equals xy plus 3xy squared), \r\nwhat is the partial derivative of f with respect to y?",
         "tossupA": "x + 6xy",
         "bonusQ": "MATH  Short Answer  Approximate the area under f(x) = x\r\n2\r\n + 1 from x = 0 to x = 8 using a \r\nmid-point Riemann sum with four equal subintervals.",
         "bonusA": "176",
@@ -28431,7 +28431,7 @@
         "catDiff": "5.6"
       },
       "5_6_19": {
-        "tossupQ": "MATH  Short Answer  Considering the function fx  =  2x3 + 5x2+ 4, what is the \r\ninstantaneous rate of change at the point (-1, 7)?",
+        "tossupQ": "MATH  Short Answer  Considering the function fx  =  2x3 + 5x<sup>2</sup>+ 4, what is the \r\ninstantaneous rate of change at the point (-1, 7)?",
         "tossupA": "-4",
         "bonusQ": "MATH  Short Answer  Find all values of c such that the given function is continuous from \r\nnegative infinity to infinity: f(x) = c\r\n2\r\nx when x ≤ 2, and f(x) = (5/4)cx\r\n2 \r\n+ 3 when x > 2.",
         "bonusA": "-½, 3",
@@ -28903,7 +28903,7 @@
         "catDiff": "0.10"
       },
       "1_10_16": {
-        "tossupQ": "MATH Short Answer Simplify the following completely: (–2x2y3)3",
+        "tossupQ": "MATH Short Answer Simplify the following completely: (–2x<sup>2</sup>y3)3",
         "tossupA": "–8x6y9",
         "bonusQ": "MATH Short Answer The outdoor temperature at 6:00 AM is –8ºC. If it rises at a rate of 3ºC \r\nper hour, what is the temperature, in degrees Celsius, at noon?",
         "bonusA": "10",
@@ -28993,7 +28993,7 @@
         "catDiff": "0.10"
       },
       "1_10_27": {
-        "tossupQ": "MATH Short Answer Find the product of (x3y) (x2y)",
+        "tossupQ": "MATH Short Answer Find the product of (x3y) (x<sup>2</sup>y)",
         "tossupA": "x5y",
         "bonusQ": "MATH Short Answer Find the following product and give your answer to the first decimal \r\nplace: \r\n2\r\n5\r\n3\r\n3\r\n5\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
         "bonusA": "0.6",
@@ -29135,8 +29135,8 @@
       "1_6_14": {
         "tossupQ": "MATH Multiple Choice Which of the following best describes two angles that share a \r\ncommon side and a common vertex and do not overlap: \r\n \r\nW) adjacent \r\nX) parallel \r\nY) alternate \r\nZ) vertical",
         "tossupA": "W) ADJACENT",
-        "bonusQ": "MATH Short Answer Subtract the following 2 polynomials and simplify:  \r\n(6x2 – 7x + 13) – (–x2 + 4x – 3)",
-        "bonusA": "7x2 – 11x + 16",
+        "bonusQ": "MATH Short Answer Subtract the following 2 polynomials and simplify:  \r\n(6x<sup>2</sup> – 7x + 13) – (–x<sup>2</sup> + 4x – 3)",
+        "bonusA": "7x<sup>2</sup> – 11x + 16",
         "category": 4,
         "setNum": 1,
         "roundNum": 6,
@@ -29833,10 +29833,10 @@
         "catDiff": "0.16"
       },
       "1_16_9": {
-        "tossupQ": "MATH Multiple Choice Which of the following expressions is NOT a monomial: \r\n \r\nW) 3x2y \r\nX) x\r\n2\r\n1 \r\nY) x \r\nZ) x",
+        "tossupQ": "MATH Multiple Choice Which of the following expressions is NOT a monomial: \r\n \r\nW) 3x<sup>2</sup>y \r\nX) x\r\n2\r\n1 \r\nY) x \r\nZ) x",
         "tossupA": "Y) x",
-        "bonusQ": "MATH Short Answer Find the following product, giving your answer in simplified form:  \r\n(9xy2 + 4)(5xy2 – 3)",
-        "bonusA": "45x2y4 – 7xy2 – 12",
+        "bonusQ": "MATH Short Answer Find the following product, giving your answer in simplified form:  \r\n(9xy<sup>2</sup> + 4)(5xy<sup>2</sup> – 3)",
+        "bonusA": "45x<sup>2</sup>y4 – 7xy<sup>2</sup> – 12",
         "category": 4,
         "setNum": 1,
         "roundNum": 16,
@@ -29983,7 +29983,7 @@
         "catDiff": "0.16"
       },
       "1_16_24": {
-        "tossupQ": "MATH Short Answer What is the degree of the following monomial: 12x2y3z4",
+        "tossupQ": "MATH Short Answer What is the degree of the following monomial: 12x<sup>2</sup>y3z4",
         "tossupA": "9 \r\n \r\n(Solution: 2 + 3 + 4 = 9)",
         "bonusQ": "MATH Short Answer If the sum of the INTERIOR angles of a regular polygon is 540º, how \r\nmany sides does it have?",
         "bonusA": "5 \r\n \r\n(Solution: 180º(n – 2) = 540º, n = 5 sides)",
@@ -30006,7 +30006,7 @@
         "tossupQ": "MATH Multiple Choice The graph of which of the following equations has a negative slope: \r\n \r\nW) y = 2x – 4 \r\nX) y = – 2x + 4 \r\nY) y = – 4 \r\nZ) x = – 2",
         "tossupA": "X) y = – 2x + 4",
         "bonusQ": "MATH Short Answer Simplify the following completely: \r\n224\r\n326\r\n2\r\n20\r\nzyx\r\nzyx−",
-        "bonusA": "–10x2z",
+        "bonusA": "–10x<sup>2</sup>z",
         "category": 4,
         "setNum": 1,
         "roundNum": 14,
@@ -30104,7 +30104,7 @@
       },
       "1_14_11": {
         "tossupQ": "MATH Short Answer Express the following radical in simplified form for all positive values of \r\nx and y: )36(64yx",
-        "tossupA": "6x2y3",
+        "tossupA": "6x<sup>2</sup>y3",
         "bonusQ": "MATH Short Answer Find the product of 25x times x5, giving your answer in its simplest \r\nradical form for all positive values of x:",
         "bonusA": "xx5",
         "category": 4,
@@ -30155,7 +30155,7 @@
       "1_14_16": {
         "tossupQ": "MATH Multiple Choice Which of the following is closest in value to 792: \r\n \r\nW) 6084 \r\nX) 6241 \r\nY) 6399 \r\nZ) 6400",
         "tossupA": "X) 6241",
-        "bonusQ": "MATH Short Answer Solve the following equation for x: 9x2 + 12x = –4",
+        "bonusQ": "MATH Short Answer Solve the following equation for x: 9x<sup>2</sup> + 12x = –4",
         "bonusA": "–\r\n3\r\n2",
         "category": 4,
         "setNum": 1,
@@ -30325,8 +30325,8 @@
       "1_17_8": {
         "tossupQ": "MATH Short Answer What is the second term in the binomial expansion of (a+ b)5?",
         "tossupA": "5a4b",
-        "bonusQ": "MATH Short Answer Provide the prime factors over the integers for the following expression: \r\n16x2 – 25y4",
-        "bonusA": "(4x – 5y2)(4x + 5y2)",
+        "bonusQ": "MATH Short Answer Provide the prime factors over the integers for the following expression: \r\n16x<sup>2</sup> – 25y4",
+        "bonusA": "(4x – 5y<sup>2</sup>)(4x + 5y<sup>2</sup>)",
         "category": 4,
         "setNum": 1,
         "roundNum": 17,
@@ -30383,8 +30383,8 @@
         "catDiff": "0.17"
       },
       "1_17_14": {
-        "tossupQ": "MATH Multiple Choice The graph of which of the following equations passes through \r\nquadrants one and two: \r\n \r\nW) x – 2 = 0 \r\nX) y = x2 \r\nY) x = 5y \r\nZ) y + 3 = 0",
-        "tossupA": "X) y = x2",
+        "tossupQ": "MATH Multiple Choice The graph of which of the following equations passes through \r\nquadrants one and two: \r\n \r\nW) x – 2 = 0 \r\nX) y = x<sup>2</sup> \r\nY) x = 5y \r\nZ) y + 3 = 0",
+        "tossupA": "X) y = x<sup>2</sup>",
         "bonusQ": "MATH Short Answer Paul is getting dressed for graduation. He has 2 choices of pants, 3 \r\nchoices of shirts, and 4 choices of shoes. How many different wardrobes consisting of pants, shirts \r\nand shoes are possible?",
         "bonusA": "24",
         "category": 4,
@@ -30596,7 +30596,7 @@
         "tossupQ": "PHYSICAL SCIENCE Short Answer How many times as much kinetic energy does a falling \r\nrock have if it triples its velocity?",
         "tossupA": "9",
         "bonusQ": "PHYSICAL SCIENCE Multiple Choice Which of the following has the GREATEST kinetic \r\nenergy for an object moving in a straight path: \r\n \r\nW) a mass of 2 kg with a velocity of 10 meters per second \r\nX) a mass of 4 kg with a velocity of 8 meters per second \r\nY) a mass of 6 kg with a velocity of 6 meters per second \r\nZ) a mass of 8 kg with a velocity of 4 meters per second",
-        "bonusA": "X) A MASS OF 4 KG WITH A VELOCITY OF 8 METERS PER SECOND \r\n \r\n(Solution: KE = ½ mass × velocity2)",
+        "bonusA": "X) A MASS OF 4 KG WITH A VELOCITY OF 8 METERS PER SECOND \r\n \r\n(Solution: KE = ½ mass × velocity<sup>2</sup>)",
         "category": 3,
         "setNum": 1,
         "roundNum": 18,
@@ -30713,7 +30713,7 @@
         "catDiff": "0.18"
       },
       "1_18_22": {
-        "tossupQ": "MATH Short Answer Classify the graph of, y = x2 – 6x – 2, as a circle, parabola, straight line, \r\nor ellipse:",
+        "tossupQ": "MATH Short Answer Classify the graph of, y = x<sup>2</sup> – 6x – 2, as a circle, parabola, straight line, \r\nor ellipse:",
         "tossupA": "PARABOLA",
         "bonusQ": "MATH Short Answer A 20-centimeter long straw in the shape of an open right circular \r\ncylinder has a diameter of 2 centimeters. If the straw is exactly one-quarter filled with water, how \r\nmany cubic centimeters, rounded to the first decimal place and using π = 3.14, of water are in the \r\nstraw?",
         "bonusA": "15.7 \r\n \r\n(Solution: V = πr2h = π(12)(20) = 62.8; 62.8/4 = 15.7 cm3)",
@@ -31275,8 +31275,8 @@
       "1_12_3": {
         "tossupQ": "MATH Short Answer What is the x-intercept of a graph of the following equation: y = –7x + 7",
         "tossupA": "1 (ACCEPT: 1, 0)",
-        "bonusQ": "MATH Short Answer Multiply the polynomial, 3x2 – 4xy + y2, by –3xy, and simplify:",
-        "bonusA": "–9x3y + 12x2y2 – 3xy3",
+        "bonusQ": "MATH Short Answer Multiply the polynomial, 3x<sup>2</sup> – 4xy + y<sup>2</sup>, by –3xy, and simplify:",
+        "bonusA": "–9x3y + 12x<sup>2</sup>y<sup>2</sup> – 3xy3",
         "category": 4,
         "setNum": 1,
         "roundNum": 12,
@@ -31475,8 +31475,8 @@
       "1_12_23": {
         "tossupQ": "MATH Short Answer Any triangle inscribed within a semicircle is always what type of triangle \r\nif one of its sides is the diameter of the semicircle?",
         "tossupA": "RIGHT",
-        "bonusQ": "MATH Short Answer Provide the prime factors over the integers for the following expression: \r\n25x4 – 16y2",
-        "bonusA": "(5x2 + 4y)(5x2 – 4y)",
+        "bonusQ": "MATH Short Answer Provide the prime factors over the integers for the following expression: \r\n25x4 – 16y<sup>2</sup>",
+        "bonusA": "(5x<sup>2</sup> + 4y)(5x<sup>2</sup> – 4y)",
         "category": 4,
         "setNum": 1,
         "roundNum": 12,
@@ -32484,9 +32484,9 @@
       },
       "1_11_24": {
         "tossupQ": "MATH Short Answer Expand the following expression, giving your answer in standard form: \r\n(x + 10)2",
-        "tossupA": "x2 + 20x + 100",
+        "tossupA": "x<sup>2</sup> + 20x + 100",
         "bonusQ": "MATH Short Answer Find the following product, giving your answer in standard form:  \r\n(2x + y)(x + y)",
-        "bonusA": "2x2 + 3xy + y2",
+        "bonusA": "2x<sup>2</sup> + 3xy + y<sup>2</sup>",
         "category": 4,
         "setNum": 1,
         "roundNum": 11,
@@ -32663,7 +32663,7 @@
         "catDiff": "0.8"
       },
       "1_8_17": {
-        "tossupQ": "MATH Short Answer How many terms are in the following variable expression and what is \r\nthe coefficient of the second term: 5x2 – x – 12yz2 + 9",
+        "tossupQ": "MATH Short Answer How many terms are in the following variable expression and what is \r\nthe coefficient of the second term: 5x<sup>2</sup> – x – 12yz<sup>2</sup> + 9",
         "tossupA": "TERMS = 4; COEFFICIENT = –1",
         "bonusQ": "MATH Short Answer Sue and Sierra are making necklaces. If Sue makes an average of 3 \r\nevery 30 minutes and Sierra averages 6 every hour, how many necklaces do they average every hour \r\nif they work together?",
         "bonusA": "12 \r\n \r\n(Solution: 3/0.5 + 6/1 = 12)",
@@ -32774,7 +32774,7 @@
       },
       "1_7_3": {
         "tossupQ": "MATH Short Answer Divide x5 by x3 and simplify:",
-        "tossupA": "x2",
+        "tossupA": "x<sup>2</sup>",
         "bonusQ": "MATH Short Answer Evaluate the following and give your answer as a mixed fraction in lowest \r\nterms: 9\r\n2\r\n1 – 5\r\n5\r\n2",
         "bonusA": "4\r\n10\r\n1",
         "category": 4,
@@ -33264,7 +33264,7 @@
       },
       "1_13_2": {
         "tossupQ": "MATH Short Answer Expand the following expression, giving your answer in standard form: \r\n(x – \r\n4\r\n1)2",
-        "tossupA": "x2 – \r\n16\r\n1\r\n2\r\n+x (ACCEPT: x2 – \r\n16\r\n1\r\n2\r\n1+x)",
+        "tossupA": "x<sup>2</sup> – \r\n16\r\n1\r\n2\r\n+x (ACCEPT: x<sup>2</sup> – \r\n16\r\n1\r\n2\r\n1+x)",
         "bonusQ": "MATH Short Answer If $1,000 is invested at a simple interest rate of 10% annually, at the end \r\nof 3 years, what is the total interest earned?",
         "bonusA": "$300 \r\n \r\n(Solution: I = Prt = (1000)(0.10)(3) = $300.00)",
         "category": 4,
@@ -33695,7 +33695,7 @@
       "2_1_20": {
         "tossupQ": "MATH Multiple Choice Four divided by zero is: \r\n \r\nW) 4 \r\nX) undefined \r\nY) 0 \r\nZ) infinity",
         "tossupA": "X) UNDEFINED",
-        "bonusQ": "MATH Short Answer Find the value of x2 – y2 when x = -5 and y = -2:",
+        "bonusQ": "MATH Short Answer Find the value of x<sup>2</sup> – y<sup>2</sup> when x = -5 and y = -2:",
         "bonusA": "21 \r\nJunior National Science Bowl Round Robin 1 Page 10",
         "category": 4,
         "setNum": 2,
@@ -34445,7 +34445,7 @@
       "2_2_20": {
         "tossupQ": "MATH Multiple Choice Four divided by zero is: \r\n \r\nW) 4 \r\nX) undefined \r\nY) 0 \r\nZ) infinity",
         "tossupA": "X) UNDEFINED",
-        "bonusQ": "MATH Short Answer Find the value of x2 – y2 when x = -5 and y = -2:",
+        "bonusQ": "MATH Short Answer Find the value of x<sup>2</sup> – y<sup>2</sup> when x = -5 and y = -2:",
         "bonusA": "21 \r\nJunior National Science Bowl Round Robin 2 Page 10",
         "category": 4,
         "setNum": 2,
@@ -36995,7 +36995,7 @@
       "2_8_1": {
         "tossupQ": "MATH Multiple Choice For numbers < 10 (read as: less than or equal to 10), and not \r\nincluding the number 1, how many are prime numbers? \r\n \r\nW) 3 \r\nX) 4 \r\nY) 5 \r\nZ) 2",
         "tossupA": "X) 4  (Solution: primes are 2, 3, 5, 7)",
-        "bonusQ": "MATH Short Answer Factor the expression: x2 + 3x – 10",
+        "bonusQ": "MATH Short Answer Factor the expression: x<sup>2</sup> + 3x – 10",
         "bonusA": "(x + 5)(x – 2)",
         "category": 4,
         "setNum": 2,
@@ -37065,7 +37065,7 @@
       "2_8_8": {
         "tossupQ": "MATH Multiple Choice Which of the following is NOT true: \r\n \r\nW) all natural numbers are whole numbers \r\nX) all whole numbers are integers \r\nY) all integers are rational numbers \r\nZ) all numbers can be both a rational number and an irrational number",
         "tossupA": "Z) ALL NUMBERS CAN BE BOTH A RATIONAL NUMBER AND AN \r\nIRRATIONAL NUMBER",
-        "bonusQ": "MATH Short Answer Factor the following equation: x2 – 6x + 5 = 0",
+        "bonusQ": "MATH Short Answer Factor the following equation: x<sup>2</sup> – 6x + 5 = 0",
         "bonusA": "(x – 5) (x – 1) = 0 \r\nJunior National Science Bowl Single Elimination 1 Page 4",
         "category": 4,
         "setNum": 2,
@@ -37254,7 +37254,7 @@
       },
       "2_10_2": {
         "tossupQ": "MATH Short Answer Factor the following quadratic equation: 962++xx",
-        "tossupA": "or () ()()33++xx23+x",
+        "tossupA": "or () ()()33++xx<sup>2</sup>3+x",
         "bonusQ": "MATH Short Answer If you count from 1 to 100, how many 9's will you pass on the way?",
         "bonusA": "20 \r\nJunior National Science Bowl Single Elimination 3 Page 1",
         "category": 4,
@@ -38005,8 +38005,8 @@
       "2_7_2": {
         "tossupQ": "MATH Short Answer What is the square root of 0.49?",
         "tossupA": "0.7",
-        "bonusQ": "MATH Short Answer Simplify the following algebraic expression: 3x2 + 4 – (3x + 2 – x2)",
-        "bonusA": "4x2 – 3x + 2 \r\nJunior National Science Bowl Round Robin 7 Page 1",
+        "bonusQ": "MATH Short Answer Simplify the following algebraic expression: 3x<sup>2</sup> + 4 – (3x + 2 – x<sup>2</sup>)",
+        "bonusA": "4x<sup>2</sup> – 3x + 2 \r\nJunior National Science Bowl Round Robin 7 Page 1",
         "category": 4,
         "setNum": 2,
         "roundNum": 7,
@@ -38336,7 +38336,7 @@
         "tossupQ": "MATH Short Answer Identify the quotient, dividend, and divisor for 15 ÷ 3:",
         "tossupA": "QUOTIENT = 5; DIVIDEND = 15; DIVISOR = 3",
         "bonusQ": "MATH Short Answer Give the product of (x + 7) 2 in standard form:",
-        "bonusA": "x2 + 14 x + 49 \r\n \r\nJunior National Science Bowl Round Robin 5 Page 5",
+        "bonusA": "x<sup>2</sup> + 14 x + 49 \r\n \r\nJunior National Science Bowl Round Robin 5 Page 5",
         "category": 4,
         "setNum": 2,
         "roundNum": 5,
@@ -45283,7 +45283,7 @@
         "catDiff": "1.7"
       },
       "5_7_6": {
-        "tossupQ": "MATH Multiple Choice Which of the following adjectives describes the function: y  =1/(3 - x2)\r\n(read as: y equals 1 over open parenthesis 3 minus x squared close parenthesis)? \r\n \r\nW) Even \r\nX) Odd \r\nY) One-to-one \r\nZ) Polynomial",
+        "tossupQ": "MATH Multiple Choice Which of the following adjectives describes the function: y  =1/(3 - x<sup>2</sup>)\r\n(read as: y equals 1 over open parenthesis 3 minus x squared close parenthesis)? \r\n \r\nW) Even \r\nX) Odd \r\nY) One-to-one \r\nZ) Polynomial",
         "tossupA": "W) EVEN",
         "bonusQ": "MATH Short Answer Frodo drove 250 miles at an average speed of 50 miles per hour, and \r\nthe remaining 360 miles at an average speed of 60 miles per hour. To the nearest integer, what \r\nwas his average speed in miles per hour for the entire trip?",
         "bonusA": "55",
@@ -49563,7 +49563,7 @@
         "catDiff": "6.9"
       },
       "7_9_9": {
-        "tossupQ": "MATH Short Answer What is the equation of the line tangent to the circle x2 + y2 = 9 at the \r\npoint with coordinates (3, 0)?",
+        "tossupQ": "MATH Short Answer What is the equation of the line tangent to the circle x<sup>2</sup> + y<sup>2</sup> = 9 at the \r\npoint with coordinates (3, 0)?",
         "tossupA": "x = 3",
         "bonusQ": "MATH Short Answer The angle of elevation of the top of a tall building from a point 600 feet \r\nfrom its base is 60°. To the nearest 50 feet, how tall is the building?",
         "bonusA": "1050",
@@ -52075,7 +52075,7 @@
       "5_9_10": {
         "tossupQ": "MATH Short Answer What is the smallest angle of rotational symmetry possible in an \r\nequilateral triangle?",
         "tossupA": "120",
-        "bonusQ": "MATH Short Answer The graph of the equation y  =  3x2\u0000 2x  +  4 is translated 3 units to the \r\nleft and 4 units up. What is the equation of the new graph in standard polynomial form?",
+        "bonusQ": "MATH Short Answer The graph of the equation y  =  3x<sup>2</sup>\u0000 2x  +  4 is translated 3 units to the \r\nleft and 4 units up. What is the equation of the new graph in standard polynomial form?",
         "bonusA": "y  =  3x\r\n2\r\n + 16x + 29",
         "category": 4,
         "setNum": 5,
@@ -53927,7 +53927,7 @@
         "tossupQ": "MATH Multiple Choice For a set of two variable data, the correlation coefficient is r = -0.9 \r\nand the line of best fit is y = mx + b. Which of the following is a TRUE statement about m? \r\n \r\nW) m is greater than zero \r\nX) m is less than zero \r\nY) m is equal to zero \r\nZ) m can be any real number",
         "tossupA": "X) m IS LESS THAN ZERO",
         "bonusQ": "MATH Short Answer Factor completely: x\r\n5\r\n + y\r\n5\r\n.",
-        "bonusA": "x  +  y(x4\u0000 x3y  + x2y2  \u0000 xy3  + y4)",
+        "bonusA": "x  +  y(x4\u0000 x3y  + x<sup>2</sup>y<sup>2</sup>  \u0000 xy3  + y4)",
         "category": 4,
         "setNum": 5,
         "roundNum": 13,
@@ -54426,7 +54426,7 @@
       "5_8_20": {
         "tossupQ": "MATH Multiple Choice If a polyhedron had seven faces, exactly six of which were \r\ntriangles, which of the following could it be? \r\n \r\nW) Hexagonal prism \r\nX) Hexagonal pyramid \r\nY) Pentagonal prism \r\nZ) Pentagonal pyramid",
         "tossupA": "X) HEXAGONAL PYRAMID",
-        "bonusQ": "MATH Short Answer Solve for real numbers x if 9x- x2 > 0 (read as: the square root of \r\nthe quantity 9x minus x squared is greater than 0).",
+        "bonusQ": "MATH Short Answer Solve for real numbers x if 9x- x<sup>2</sup> > 0 (read as: the square root of \r\nthe quantity 9x minus x squared is greater than 0).",
         "bonusA": "0 < x < 9",
         "category": 4,
         "setNum": 5,
@@ -55186,7 +55186,7 @@
       "7_12_21": {
         "tossupQ": "MATH Multiple Choice If x lies between 1 and 2, which of the following is the smallest? \r\n \r\nW) −1/x \r\nX) −x<sup>2</sup> \r\nY) −x \r\nZ) −√x",
         "tossupA": "X) −x<sup>2</sup>",
-        "bonusQ": "MATH Short Answer Find all points of intersection of the graphs of the two equations \r\nx2 + y2 = 20 and x – y = 2.",
+        "bonusQ": "MATH Short Answer Find all points of intersection of the graphs of the two equations \r\nx<sup>2</sup> + y<sup>2</sup> = 20 and x – y = 2.",
         "bonusA": "(4, 2) AND (-2,-4)",
         "category": 4,
         "setNum": 7,
@@ -55284,7 +55284,7 @@
         "catDiff": "1.16"
       },
       "5_16_6": {
-        "tossupQ": "MATH Multiple Choice For what real values of x is the function $radic(x2  - 6x  -  40) defined? \r\n \r\nW) -10 < x < 4 \r\nX) -4 < x < 10 \r\nY) All x that do not lie in the closed interval from -10 to 4 \r\nZ) All x that do not lie in the open interval -4 to 10",
+        "tossupQ": "MATH Multiple Choice For what real values of x is the function $radic(x<sup>2</sup>  - 6x  -  40) defined? \r\n \r\nW) -10 < x < 4 \r\nX) -4 < x < 10 \r\nY) All x that do not lie in the closed interval from -10 to 4 \r\nZ) All x that do not lie in the open interval -4 to 10",
         "tossupA": "Z) ALL x THAT DO NOT LIE IN THE OPEN INTERVAL -4 TO 10",
         "bonusQ": "MATH Short Answer Michelle can mow a lawn in 5 hours, Steven can mow a lawn in 4 \r\nhours, and Bill can mow it in 3 1/2 hours. As a mixed number in simplest form, how long will it \r\ntake them in hours to mow the lawn together?",
         "bonusA": "1 37/103",
