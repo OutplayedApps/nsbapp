@@ -2995,7 +2995,7 @@
         "tossupQ": "PHYSICS  Short Answer  What is the angular velocity, in radians per second, of a wagon wheel \r\nwith a diameter of 2 meters and a surface velocity of 3 meters per second?",
         "tossupA": "3  \r\n \r\n(Solution:  Τ = v/r = 3/1 = 3 rad/sec)",
         "bonusQ": "PHYSICS  Short Answer  The dread pirate Roberts orders his crew into a 100 kilogram rowboat \r\nto sail to an island to look for buried treasure.  If the rowboat has a capacity of 1.10 cubic meters and \r\nis in freshwater, how many 50 kilogram pirates can board the rowboat before it would sink?",
-        "bonusA": "20 \r\n \r\n(Solution:  Fb = DgV = (1000 kg/m\r\n3\r\n)(9.8m/s\r\n2\r\n)(1.10m\r\n3\r\n) = 10,780N;  10,780N – (100kg)(9.8m/s\r\n2\r\n) = \r\n9,800N.  Each person weighs (50kg)( 9.8m/s\r\n2\r\n) = 490N;  9800N/490N = 20 pirates)",
+        "bonusA": "20 \r\n \r\n(Solution:  Fb = DgV = (1000 kg/m\r\n3\r\n)(9.8m/s<sup>2</sup>)(1.10m\r\n3\r\n) = 10,780N;  10,780N – (100kg)(9.8m/s<sup>2</sup>) = \r\n9,800N.  Each person weighs (50kg)( 9.8m/s<sup>2</sup>) = 490N;  9800N/490N = 20 pirates)",
         "category": 3,
         "setNum": 3,
         "roundNum": 14,
@@ -4234,8 +4234,8 @@
       "4_7_24": {
         "tossupQ": "ENERGY  Multiple Choice  Ocean thermal energy conversion systems convert solar \r\nradiation to electric power. Which of the following describes the source of energy in ocean \r\nthermal energy conversion systems? \r\n \r\nW) Magma below the ocean floor  \r\nX) Oceanic thermal vents  \r\nY) Wave motion \r\nZ) The difference in temperatures between surface and deep waters",
         "tossupA": "Z) THE DIFFERENCE IN TEMPERATURES BETWEEN SURFACE AND DEEP \r\nWATERS",
-        "bonusQ": "ENERGY  Multiple Choice  What is the minimum temperature difference, in degrees \r\nCelsius, needed to develop an ocean thermal energy conversion system? \r\n \r\nW) 10 ̊ \r\nX) 15 ̊ \r\nY) 20 ̊ \r\nZ) 25 ̊",
-        "bonusA": "Y) 20 ̊",
+        "bonusQ": "ENERGY  Multiple Choice  What is the minimum temperature difference, in degrees \r\nCelsius, needed to develop an ocean thermal energy conversion system? \r\n \r\nW) 10 &deg; \r\nX) 15 &deg; \r\nY) 20 &deg; \r\nZ) 25 &deg;",
+        "bonusA": "Y) 20 &deg;",
         "category": 5,
         "setNum": 4,
         "roundNum": 7,
@@ -6725,7 +6725,7 @@
         "tossupQ": "CHEMISTRY  Short Answer  What rule states that electrons occupy all the orbitals of a given \r\nsubshell singly before pairing begins and that these unpaired electrons have parallel spins?",
         "tossupA": "HUND’S RULE  (ACCEPT:  HUND’S RULE OF MAXIMUM MULTIPLICITY)",
         "bonusQ": "CHEMISTRY  Short Answer  Knowing that gallium is in group 13 and Period 4, give the \r\nsimplified ground-state electron configuration, starting with the last filled noble gas configuration of \r\nargon:",
-        "bonusA": "[Ar]4s\r\n2\r\n3d\r\n10\r\n4p\r\n1\r\n  (ACCEPT:  [Ar]3d\r\n10\r\n4s\r\n2\r\n4p\r\n1\r\n or 4s\r\n2\r\n3d\r\n10\r\n4p\r\n1\r\n or 3d\r\n10\r\n4s\r\n2\r\n4p\r\n1\r\n)",
+        "bonusA": "[Ar]4s<sup>2</sup>3d\r\n10\r\n4p\r\n1\r\n  (ACCEPT:  [Ar]3d\r\n10\r\n4s<sup>2</sup>4p\r\n1\r\n or 4s<sup>2</sup>3d\r\n10\r\n4p\r\n1\r\n or 3d\r\n10\r\n4s<sup>2</sup>4p\r\n1\r\n)",
         "category": 2,
         "setNum": 3,
         "roundNum": 15,
@@ -7574,7 +7574,7 @@
       "7_10_8": {
         "tossupQ": "MATH Short Answer Starting with point (4, 2) in the coordinate plane, reflect it across the x-\r\naxis, then rotate it 180&deg; around the origin, and finally, translate it vertically up by 2 units. What \r\nare the coordinates of the point’s final location?",
         "tossupA": "(-4, 4)",
-        "bonusQ": "MATH Short Answer If z<sub>1</sub> = 4 + 3i and z<sub>2</sub> = i3, find the product of z<sub>1</sub>, z<sub>2</sub>, and the conjugate of \r\nz<sub>1</sub>.",
+        "bonusQ": "MATH Short Answer If z<sub>1</sub> = 4 + 3i and z<sub>2</sub> = i<sup>3</sup>, find the product of z<sub>1</sub>, z<sub>2</sub>, and the conjugate of \r\nz<sub>1</sub>.",
         "bonusA": "-25 i",
         "category": 4,
         "setNum": 7,
@@ -8654,7 +8654,7 @@
       "7_1_16": {
         "tossupQ": "ENERGY Short Answer What physical property is exploited when separating volatiles via \r\nfractional distillation?",
         "tossupA": "BOILING POINT (ACCEPT: BOILING TEMPERATURE, VAPOR PRESSURE)",
-        "bonusQ": "ENERGY Short Answer At 23o Celsius and 1 atmosphere, what are the physical states, \r\nrespectively, of ethane, butane, and octane?",
+        "bonusQ": "ENERGY Short Answer At 23&deg; Celsius and 1 atmosphere, what are the physical states, \r\nrespectively, of ethane, butane, and octane?",
         "bonusA": "ETHANE = GAS, BUTANE = GAS, OCTANE = LIQUID",
         "category": 5,
         "setNum": 7,
@@ -12855,7 +12855,7 @@
         "tossupQ": "PHYSICS  Short Answer  Murray Gell-Mann coined the name of these point-like entities that \r\nmake up hadrons from a novel by James Joyce:",
         "tossupA": "QUARKS",
         "bonusQ": "PHYSICS  Short Answer  To the nearest meter per second, what is the speed of sound in air if \r\nthe temperature of the air is 15°C?",
-        "bonusA": "340  (ACCEPT:  341 METERS PER SECOND) \r\n \r\n(Solution:  add 0.6 meters/sec to 331 or 332 m/sec for each increase in 1°C above 0oC)",
+        "bonusA": "340  (ACCEPT:  341 METERS PER SECOND) \r\n \r\n(Solution:  add 0.6 meters/sec to 331 or 332 m/sec for each increase in 1°C above 0&deg;C)",
         "category": 3,
         "setNum": 2,
         "roundNum": 13,
@@ -13924,7 +13924,7 @@
       "7_14_18": {
         "tossupQ": "PHYSICS Multiple Choice If the tension in a stretched string is multiplied by a factor of 9, \r\nthe speed of the transverse wave is multiplied by what factor? \r\n \r\nW) 1/9  \r\nX) 1/3 \r\nY) 3  \r\nZ) 9",
         "tossupA": "Y) 3",
-        "bonusQ": "PHYSICS Multiple Choice Assuming the Boltzmann constant k = 1.38 × 10-23 joules per \r\nKelvin, what is the average translational kinetic energy in joules of molecules of an ideal gas at \r\n127o Celsius?  \r\n \r\nW) 2.6 ×10-21  \r\nX) 8.28 × 10-21 \r\nY) 2.6 ×10-22  \r\nZ) 8.28 ×10-22",
+        "bonusQ": "PHYSICS Multiple Choice Assuming the Boltzmann constant k = 1.38 × 10-23 joules per \r\nKelvin, what is the average translational kinetic energy in joules of molecules of an ideal gas at \r\n127&deg; Celsius?  \r\n \r\nW) 2.6 ×10-21  \r\nX) 8.28 × 10-21 \r\nY) 2.6 ×10-22  \r\nZ) 8.28 ×10-22",
         "bonusA": "X) 8.28 ×10-21",
         "category": 3,
         "setNum": 7,
@@ -16783,8 +16783,8 @@
       },
       "3_8_4": {
         "tossupQ": "MATH  Short Answer  Given that tangent θ =  3/4 , find the possible values of sine θ:",
-        "tossupA": "5\r\n3\r\n AND \r\n5\r\n3!",
-        "bonusQ": "MATH  Short Answer  Divide and simplify the following 2 polynomials, combining like terms: \r\n)2(\r\n)8( /3 !\r\nx\r\nx",
+        "tossupA": "3/5 AND -3/5",
+        "bonusQ": "MATH  Short Answer  Divide and simplify the following 2 polynomials, combining like terms: (x<sup>3</sup> - 8)/(x - 2)",
         "bonusA": "x<sup>2</sup> + 2x + 4",
         "category": 4,
         "setNum": 3,
@@ -16922,10 +16922,10 @@
         "catDiff": "1.8"
       },
       "3_8_18": {
-        "tossupQ": "MATH  Short Answer  Solve the following logarithmic equation for x:  log\r\n4\r\n x = 4  (read as: log \r\nbase 4 of x equals 4)",
-        "tossupA": "256 \r\n \r\n(Solution:  4\r\n4\r\n = 256)",
-        "bonusQ": "MATH  Short Answer  Find the 9\r\nth\r\n term of the geometric sequence whose first 3 terms are 3, 6, \r\nand 12:",
-        "bonusA": "768 \r\n \r\n(Solution:  a\r\nx \r\n= a(r)\r\nx-1\r\n;  a\r\n9\r\n = 3(2)\r\n8\r\n;  a = 768)",
+        "tossupQ": "MATH  Short Answer  Solve the following logarithmic equation for x:  log \r\nbase 4 of x equals 4",
+        "tossupA": "256 \r\n \r\n(Solution:  4<sup>4</sup> = 256)",
+        "bonusQ": "MATH  Short Answer  Find the 9th term of the geometric sequence whose first 3 terms are 3, 6, \r\nand 12:",
+        "bonusA": "768 \r\n \r\n(Solution:  a<sub>x</sub> \r\n= a(r)<sup>x-1</sup>;  a<sub>9</sub> = 3(2)<sup>8</sup>;  a = 768)",
         "category": 4,
         "setNum": 3,
         "roundNum": 8,
@@ -17462,10 +17462,10 @@
         "catDiff": "2.7"
       },
       "6_7_22": {
-        "tossupQ": "MATH  Short Answer  What is the value of i4?",
+        "tossupQ": "MATH  Short Answer  What is the value of i<sup>4</sup>?",
         "tossupA": "1",
-        "bonusQ": "MATH  Multiple Choice  The hyperbola with equation   = 1 possesses which of the \r\nfollowing characteristics? \r\n \r\nW) It opens left and right and has asymptotes y = x and y = x \r\nX) It opens up and down and has asymptotes y = x and y = x \r\nY) It opens left and right and has asymptotes y =  x and y = x \r\nZ) It opens up and down and has asymptotes y =  x and y = x",
-        "bonusA": "X) IT OPENS UP AND DOWN AND HAS ASYMPTOTES y = x AND y = x",
+        "bonusQ": "MATH  Multiple Choice  The hyperbola with equation y<sup>2</sup>/25 - x<sup>2</sup>/16  = 1 possesses which of the \r\nfollowing characteristics? \r\n \r\nW) It opens left and right and has asymptotes y = 5/6 x and y = -5/6 x \r\nX) It opens up and down and has asymptotes y = 5/6 x and y = -5/6 x \r\nY) It opens left and right and has asymptotes y = 6/5 x and y = -6/5 x \r\nZ) It opens up and down and has asymptotes y = 6/5 x and y = -6/5 x",
+        "bonusA": "X) IT OPENS UP AND DOWN AND HAS ASYMPTOTES y = 5/6 x AND y = -5/6 x",
         "category": 4,
         "setNum": 6,
         "roundNum": 7,
@@ -17514,7 +17514,7 @@
       "4_6_2": {
         "tossupQ": "MATH  Short Answer  If the side lengths of a triangle are 3 meters, 4 meters, and 5 meters, \r\nthen what is the area in square meters?",
         "tossupA": "6",
-        "bonusQ": ") MATH  Multiple Choice  If two angles of a triangle inscribed in a circle are 40 ̊ and 110 ̊, \r\nwhat is the degree measure of the arc intercepted by the third angle? \r\n \r\nW) 15  \r\nX) 30 \r\nY) 60 \r\nZ) 210",
+        "bonusQ": ") MATH  Multiple Choice  If two angles of a triangle inscribed in a circle are 40 &deg; and 110 &deg;, \r\nwhat is the degree measure of the arc intercepted by the third angle? \r\n \r\nW) 15  \r\nX) 30 \r\nY) 60 \r\nZ) 210,
         "bonusA": "Y) 60",
         "category": 4,
         "setNum": 4,
@@ -17584,7 +17584,7 @@
       "4_6_9": {
         "tossupQ": "MATH  Short Answer  What is the greatest common factor of 120 and 165?",
         "tossupA": "15",
-        "bonusQ": "MATH  Short Answer  Simplify the following expression: (tan x + cot x)(sin x cos x) (read as: \r\nopen parenthesis tangent x plus cotangent x close parenthesis times open parenthesis sine x \r\ncosine x close parenthesis).",
+        "bonusQ": "MATH  Short Answer  Simplify the following expression: (tan x + cot x)(sin x cos x)",
         "bonusA": "1",
         "category": 4,
         "setNum": 4,
@@ -17653,7 +17653,7 @@
       },
       "4_6_16": {
         "tossupQ": "PHYSICS  Short Answer  The NASA “Vomit Comet” allows passengers to feel the effects of \r\nweightlessness by ascending to 30,000 feet and then dropping downward at what acceleration?",
-        "tossupA": "g (ACCEPT: 9.8 m/s\r\n2\r\n, THE ACCELERATION DUE TO GRAVITY)",
+        "tossupA": "g (ACCEPT: 9.8 m/s<sup>2</sup>, THE ACCELERATION DUE TO GRAVITY)",
         "bonusQ": "PHYSICS  Multiple Choice  Imagine that you tie a ball on the end of a long string and swing \r\nit around your head in a horizontal circle. If you let go of the string, where will the ball go \r\ninitially? \r\n \r\nW) It will hit you in the head \r\nX) It will fall at your feet \r\nY) It will fly up in the air \r\nZ) It will continue in the direction in which it was traveling when you let go",
         "bonusA": "Z) IT WILL CONTINUE IN THE DIRECTION IN WHICH IT WAS TRAVELING \r\nWHEN YOU LET GO",
         "category": 3,
@@ -17674,8 +17674,8 @@
       "4_6_18": {
         "tossupQ": "MATH  Short Answer  Using one exterior angle per vertex, what is the sum in degrees of the \r\nmeasures of the exterior angles of a convex dodecagon?",
         "tossupA": "360",
-        "bonusQ": "MATH  Multiple Choice  Given that a is not a multiple of π, the expression (cos a / tan a )  \r\n(1 – cos\r\n2\r\n a) (read as: cosine of a over tangent of a times the quantity 1 minus cosine squared of \r\na) is equivalent to which of the following expressions? \r\n \r\nW) cos a \r\nX) cos\r\n2\r\n a  sin a  \r\nY) sin\r\n2\r\n a  cos\r\n2\r\n a \r\nZ) cos\r\n2\r\n a",
-        "bonusA": "X) cos\r\n2\r\n a  sin a",
+        "bonusQ": "MATH  Multiple Choice  Given that a is not a multiple of π, the expression (cos a / tan a )  \r\n(1 – cos<sup>2</sup> a) is equivalent to which of the following expressions? \r\n \r\nW) cos a \r\nX) cos<sup>2</sup> a  sin a  \r\nY) sin<sup>2</sup> a  cos<sup>2</sup> a \r\nZ) cos<sup>2</sup> a",
+        "bonusA": "X) cos<sup>2</sup> a  sin a",
         "category": 4,
         "setNum": 4,
         "roundNum": 6,
@@ -17722,10 +17722,10 @@
         "catDiff": "2.6"
       },
       "4_6_23": {
-        "tossupQ": "MATH  Multiple Choice  Which of the following is not equal to  (read as: 5 squared to \r\nthe power of 3)? \r\n \r\nW) \r\n()235\r\n(read as: 5 cubed to the power of 2) \r\nX)  5/5  \r\nY)  5/6  \r\nZ) \r\n()()3355\r\n (read as: 5 cubed times 5 cubed)",
-        "tossupA": "X) 5\r\n5",
-        "bonusQ": "MATH  Short Answer  Where does the graph of  cross the x-axis?",
-        "bonusA": "AND  (ACCEPT: )",
+        "tossupQ": "MATH  Multiple Choice  Which of the following is not equal to  (5 squared to \r\nthe power of 3)? \r\n \r\nW) 5 cubed to the power of 2 \r\nX)  5<sup>5</sup>  \r\nY)  5<sup>6</sup>  \r\nZ) 5 cubed times 5 cubed",
+        "tossupA": "X) 5<sup>5</sup>",
+        "bonusQ": "MATH  Short Answer  Where does the graph of 2x<sup>2</sup> - 5x - 1 cross the x-axis?",
+        "bonusA": "(5+&radic;33)/4 AND (5-&radic;33)/4 (ACCEPT: (5±&radic;33)/4)",
         "category": 4,
         "setNum": 4,
         "roundNum": 6,
@@ -17784,8 +17784,8 @@
       "3_17_4": {
         "tossupQ": "MATH  Multiple Choice  By definition, a quadrantal angle is an angle in standard position where \r\nits terminal side: \r\n \r\nW)  lies on a coordinate axis \r\nX)  is a central angle \r\nY)  lies only in quadrants one and three \r\nZ)  lies only in quadrants two and four",
         "tossupA": "W)  LIES ON A COORDINATE AXIS",
-        "bonusQ": "MATH  Short Answer  Find the following indefinite integral:  \r\n∫dxxex\r\n (read as: the integral of x \r\ntimes e to the x power, dx)",
-        "bonusA": "xe\r\nx\r\n – e\r\nx\r\n + C",
+        "bonusQ": "MATH  Short Answer  Find the following indefinite integral:  (the integral of x \r\ntimes e to the x power, dx)",
+        "bonusA": "xe<sup>x</sup> – e<sup>x</sup> + C",
         "category": 4,
         "setNum": 3,
         "roundNum": 17,
@@ -17852,8 +17852,8 @@
         "catDiff": "1.17"
       },
       "3_17_11": {
-        "tossupQ": "MATH  Short Answer  Differentiate and simplify the following with respect to x:  y = \r\nx\r\ne",
-        "tossupA": "x\r\ne\r\nx\r\n2",
+        "tossupQ": "MATH  Short Answer  Differentiate and simplify the following with respect to x:  y = e<sup>&radic;x</sup>",
+        "tossupA": "e<sup>&radic;x</sup>/(2&radic;x)",
         "bonusQ": "MATH  Short Answer  For a triangle whose side b = 6 and c = 8 and the angle formed by those \r\nsides is 45º, find the area of the triangle, to the nearest whole number:",
         "bonusA": "17 \r\n \r\n(Solution:  K = ½ bc sin A;  = ½ (6)(8)(0.707) = 16.97 = 17)",
         "category": 4,
@@ -17922,10 +17922,10 @@
         "catDiff": "1.17"
       },
       "3_17_18": {
-        "tossupQ": "MATH  Short Answer  Give the center point and the vertices of the horizontal axis and vertical \r\naxis of the ellipse for the following equation:   9/1 )2(\r\n16\r\n)1(\r\n22\r\n=!++yx",
+        "tossupQ": "MATH  Short Answer  Give the center point and the vertices of the horizontal axis and vertical \r\naxis of the ellipse for the following equation:   (x+1)<sup>2</sup>/16 + (y-2)<sup>2</sup>/9 = 1",
         "tossupA": "CENTER = (–1, 2);  HORIZONTAL = (–5, 2) AND (3, 2);   \r\nVERTICAL = (–1, –1) AND (–1, 5)",
-        "bonusQ": "MATH  Short Answer  Differentiate and simplify the following with respect to x:  y = \r\nx\r\nxln\r\n  \r\n(read as: natural log of x divided by x)",
-        "bonusA": "2\r\nln1\r\nx\r\nx!\r\n       (ALSO ACCEPT [-(lnx) +1]/x\r\n2",
+        "bonusQ": "MATH  Short Answer  Differentiate and simplify the following with respect to x:  y = tje natural log of x divided by x)",
+        "bonusA": "(1- ln x)/x<sup>2</sup>",
         "category": 4,
         "setNum": 3,
         "roundNum": 17,
@@ -18104,7 +18104,7 @@
       "5_2_11": {
         "tossupQ": "MATH  Short Answer  What is the exponent of 5 in the prime factorization of 325?",
         "tossupA": "2",
-        "bonusQ": "MATH  Short Answer  For which real values of x does the following the series converge:  \r\nxn\r\nn!\r\n∞n=0 (read as the summation from n equals 0 to infinity of [pause] x to the power of n over n \r\nfactorial)?",
+        "bonusQ": "MATH  Short Answer  For which real values of x does the following the series converge: (the summation from n equals 0 to infinity of, x to the power of n over n \r\nfactorial)?",
         "bonusA": "ALL REAL NUMBERS",
         "category": 4,
         "setNum": 5,
@@ -18164,7 +18164,7 @@
       "5_2_17": {
         "tossupQ": "MATH  Multiple Choice  Which of the following decreases when 5 is subtracted from each \r\nitem of a data set? \r\n \r\nW) Standard deviation \r\nX) Range \r\nY) Mean \r\nZ) Variance",
         "tossupA": "Y) MEAN",
-        "bonusQ": "MATH  Short Answer  Providing your answer as an improper fraction in simplest form in \r\nterms of π, what is the volume of the solid generated when the area bounded by y = x\r\n3 \r\n, x = 2, \r\nand the x axis is revolved around the x-axis?",
+        "bonusQ": "MATH  Short Answer  Providing your answer as an improper fraction in simplest form in \r\nterms of π, what is the volume of the solid generated when the area bounded by y = x<sup>3</sup> \r\n, x = 2, \r\nand the x axis is revolved around the x-axis?",
         "bonusA": "128/7 π",
         "category": 4,
         "setNum": 5,
@@ -18224,8 +18224,8 @@
       "5_2_23": {
         "tossupQ": "MATH  Short Answer  Which two mathematicians are generally credited with the invention \r\nof calculus?",
         "tossupA": "LEIBNIZ AND NEWTON",
-        "bonusQ": "MATH  Multiple Choice  Which of the following 2 by 2 matrices is equivalent to a clockwise \r\nrotation of 90 degrees? \r\n \r\nW)   0−1  1  0 (read as: row 1: 0, -1; row 2: 1, 0) \r\nX)   01  −10   (read as: row 1: 1, 1; row 2: -1, 0) \r\nY)   0−1−1  0 (read as: row 1: 0, -1; row 2: -1, 0) \r\nZ)   0  1    1  0   (read as: row 1: 0, 1; row 2: 1, 0)",
-        "bonusA": "X)   01  −10",
+        "bonusQ": "MATH  Multiple Choice  Which of the following 2 by 2 matrices is equivalent to a clockwise \r\nrotation of 90 degrees? \r\n \r\nW)   (row 1: 0, -1; row 2: 1, 0) \r\nX) (row 1: 0, 1; row 2: -1, 0) \r\nY)   (row 1: 0, -1; row 2: -1, 0) \r\nZ)  (row 1: 0, 1; row 2: 1, 0)",
+        "bonusA": "X) (row 1: 1, 1; row 2: -1, 0)",
         "category": 4,
         "setNum": 5,
         "roundNum": 2,
@@ -18243,9 +18243,9 @@
       },
       "5_2_27": {
         "tossupQ": "MATH  Short Answer  If a = cos(x), what is cos(2x) in terms of a?",
-        "tossupA": "2a\r\n2 \r\n– 1",
+        "tossupA": "2a<sup>2</sup> \r\n– 1",
         "bonusQ": "MATH  Short Answer  A triangular prism has a base that is an equilateral triangle with sides \r\nof length x. If the height of the prism is x, express the volume of the prism in terms of x.",
-        "bonusA": "V=\r\n \r\nx<sup>3</sup>  3\r\n4",
+        "bonusA": "V=(x<sup>2</sup>&radic;3)/4",
         "category": 4,
         "setNum": 5,
         "roundNum": 2,
@@ -18302,10 +18302,10 @@
         "catDiff": "2.15"
       },
       "6_15_6": {
-        "tossupQ": "MATH  Multiple Choice  Which of the following best represents the conversion of the \r\nrectangular coordinates (3, 4) into polar coordinates? \r\n \r\nW) (5, 37o) \r\nX) (37o, 5) \r\nY) (5, 53o) \r\nZ) (53o, 5)",
-        "tossupA": "Y) (5, 53o)",
+        "tossupQ": "MATH  Multiple Choice  Which of the following best represents the conversion of the \r\nrectangular coordinates (3, 4) into polar coordinates? \r\n \r\nW) (5, 37&deg;) \r\nX) (37&deg;, 5) \r\nY) (5, 53&deg;) \r\nZ) (53&deg;, 5)",
+        "tossupA": "Y) (5, 53&deg;)",
         "bonusQ": "MATH  Short Answer  Evaluate  [the integral from the square root of 2 \r\nto the 3 times the square root of 2 of the quantity 3 x squared plus 6 dx] in simplest radical \r\nform.",
-        "bonusA": "",
+        "bonusA": "64&sqrt;2",
         "category": 4,
         "setNum": 6,
         "roundNum": 15,
@@ -18382,7 +18382,7 @@
         "catDiff": "0.15"
       },
       "6_15_14": {
-        "tossupQ": "MATH  Short Answer  What is the radius of the circle with equation  \r\nx<sup>2</sup> + 6x + y<sup>2</sup> 8y 11= 0?",
+        "tossupQ": "MATH  Short Answer  What is the radius of the circle with equation  \r\nx<sup>2</sup> + 6x + y<sup>2</sup> - 8y - 11= 0?",
         "tossupA": "6",
         "bonusQ": "MATH  Short Answer  Providing your answer as an improper fraction in lowest terms, solve \r\nthe following equation for x over the real numbers:  [9 to the power of 2x equals \r\n27 to the power of the quantity 3x minus 4].",
         "bonusA": "12/5",
@@ -18444,7 +18444,7 @@
       "6_15_20": {
         "tossupQ": "MATH  Multiple Choice  Which of the following values for a and b provide a counterexample \r\nto the statement “If 4 divides a + b, then 4 divides a or 4 divides b.” \r\n \r\nW) a = 5 and b = 7 \r\nX) a = 5 and b = 6 \r\nY) a = 4 and b = 8 \r\nZ) a = 4 and b = 6",
         "tossupA": "W) a = 5 AND b = 7",
-        "bonusQ": "MATH  Short Answer  Providing your answer as an improper fraction in lowest terms, what \r\nis the area under the curve bounded by the x-axis, x = 4 and y = ?",
+        "bonusQ": "MATH  Short Answer  Providing your answer as an improper fraction in lowest terms, what \r\nis the area under the curve bounded by the x-axis, x = 4 and y = &radic;x ?",
         "bonusA": "16/3",
         "category": 4,
         "setNum": 6,
@@ -19332,7 +19332,7 @@
         "catDiff": "1.7"
       },
       "3_7_9": {
-        "tossupQ": "CHEMISTRY  Multiple Choice  Which of the following is NOT true of halogens: \r\n \r\nW)  iodine is the least reactive of the stable halogens \r\nX)  elemental halogens exist as diatomic molecules containing single covalent bonds \r\nY)  their outermost electron configuration is represented by ns\r\n2\r\nnp\r\n6\r\n  \r\nZ)  halides of typical metals are ionic",
+        "tossupQ": "CHEMISTRY  Multiple Choice  Which of the following is NOT true of halogens: \r\n \r\nW)  iodine is the least reactive of the stable halogens \r\nX)  elemental halogens exist as diatomic molecules containing single covalent bonds \r\nY)  their outermost electron configuration is represented by ns<sup>2</sup>np\r\n6\r\n  \r\nZ)  halides of typical metals are ionic",
         "tossupA": "Y)  THEIR OUTERMOST ELECTRON CONFIGURATION IS REPRESENTED BY \r\nNS\r\n2\r\nNP\r\n6",
         "bonusQ": "CHEMISTRY  Short Answer  If the total number of moles of gas in a mixture of oxygen and \r\nnitrogen gases is 12 moles, and the mole fraction of oxygen is 0.6, how many moles of oxygen gas \r\nare present, to the first decimal place?",
         "bonusA": "7.2 \r\n \r\n(Solution:  X\r\nO\r\n = n\r\nO\r\n/n\r\nt\r\n;  0.6 = n\r\nO\r\n/12 mol = 7.2 mol)",
@@ -19485,7 +19485,7 @@
         "tossupQ": "PHYSICS  Short Answer  How many times as intense is 60 decibels than 30 decibels?",
         "tossupA": "1,000",
         "bonusQ": "PHYSICS  Short Answer  What is the minimal force, in newtons to the first decimal place, that a \r\nmother must exert to vertically lift her 4 kilogram baby out of her play pen?",
-        "bonusA": "39.2 \r\n \r\n(Solution: w = mg = (4kg)(9.8m/s\r\n2\r\n) = 39.2N)",
+        "bonusA": "39.2 \r\n \r\n(Solution: w = mg = (4kg)(9.8m/s<sup>2</sup>) = 39.2N)",
         "category": 3,
         "setNum": 3,
         "roundNum": 7,
@@ -20522,8 +20522,8 @@
         "catDiff": "2.10"
       },
       "4_10_3": {
-        "tossupQ": "MATH  Multiple Choice Find the derivative of 2xe\r\nx\r\n (read as: 2x e to the x). \r\n \r\nW) \r\nxe22x+\r\n \r\nX) 2xe\r\nx\r\n + e\r\nx\r\n \r\nY) 2xe\r\nx\r\n + 2e\r\nx\r\n  \r\nZ) 2xe\r\nx",
-        "tossupA": "Y) 2xe\r\nx\r\n + 2e\r\nx",
+        "tossupQ": "MATH  Multiple Choice Find the derivative of 2xe<sup>x</sup> (read as: 2x e to the x). \r\n \r\nW) \r\nxe22x+\r\n \r\nX) 2xe<sup>x</sup> + e<sup>x</sup> \r\nY) 2xe<sup>x</sup> + 2e<sup>x</sup>  \r\nZ) 2xe\r\nx",
+        "tossupA": "Y) 2xe<sup>x</sup> + 2e\r\nx",
         "bonusQ": "MATH  Short Answer  What matrix is the multiplicative inverse of the 2 by 2 matrix   \r\n(read as: row 1: 3, 1; row 2: 5, 2).",
         "bonusA": "",
         "category": 4,
@@ -20544,7 +20544,7 @@
       "4_10_5": {
         "tossupQ": "EARTH AND SPACE  Multiple Choice  Which of the following best explains why eliminating \r\none trophic level in an ecosystem often results in a decrease in organisms two trophic levels \r\ndown? \r\n \r\nW) Abundance of prey in the eliminated trophic level \r\nX) Increased predation by organisms one trophic level down \r\nY) Increased predation by organisms two trophic levels down \r\nZ) Increased predator diversity",
         "tossupA": "X) INCREASED PREDATION BY ORGANISMS ONE TROPHIC LEVEL DOWN",
-        "bonusQ": "EARTH AND SPACE  Multiple Choice  What property of diatoms make them useful as \r\nclimate proxies? \r\n \r\nW) The chemical makeup of their shells reflects the water chemistry at their time of formation \r\nX) The narrow temperature range in which they exist makes them markers for paleo0ocean \r\ntemperatures \r\nY) Their well-preserved digestive system provide ample evidence for ancient food webs \r\nZ) Their limited diversity and low adaptability make them key indicators of specific aquatic \r\nenvironments",
+        "bonusQ": "EARTH AND SPACE  Multiple Choice  What property of diatoms make them useful as \r\nclimate proxies? \r\n \r\nW) The chemical makeup of their shells reflects the water chemistry at their time of formation \r\nX) The narrow temperature range in which they exist makes them markers for paleo0&deg;cean \r\ntemperatures \r\nY) Their well-preserved digestive system provide ample evidence for ancient food webs \r\nZ) Their limited diversity and low adaptability make them key indicators of specific aquatic \r\nenvironments",
         "bonusA": "W) THE CHEMICAL MAKEUP OF THEIR SHELLS REFLECTS THE WATER \r\nCHEMISTRY AT THEIR TIME OF FORMATION",
         "category": 0,
         "setNum": 4,
@@ -21323,7 +21323,7 @@
       },
       "3_9_8": {
         "tossupQ": "PHYSICS  Short Answer  What is the acceleration, in meters per second squared, of a  \r\n10-kilogram snow sled that is on a frictionless horizontal surface if a horizontal force of 500 newtons \r\nis applied to it?",
-        "tossupA": "50  \r\n \r\n(Solution:  A = F/M;  A = 500/10; A = 50 m/sec\r\n2\r\n)",
+        "tossupA": "50  \r\n \r\n(Solution:  A = F/M;  A = 500/10; A = 50 m/sec<sup>2</sup>)",
         "bonusQ": "PHYSICS  Multiple Choice  What is the speed of light in meters per second for monochromatic \r\nlight of 780 nanometers in glass with a refractive index of 1.55: \r\n \r\nW)  1.5 × 10\r\n8 \r\n \r\nX)  1.9 × 10\r\n8\r\n \r\nY)  4.65 × 10\r\n7\r\n \r\nZ)  4.65 × 10\r\n8",
         "bonusA": "X) 1.9 × 10\r\n8 (Solution: 3.00 × 10\r\n8\r\n/1.55 = 1.9 × 10\r\n8\r\n)",
         "category": 3,
@@ -21715,7 +21715,7 @@
         "tossupQ": "PHYSICS  Short Answer  How many nodes are there in the first overtone in a standing wave of \r\na vibrating guitar string?",
         "tossupA": "3",
         "bonusQ": "PHYSICS  Short Answer  If g = 9.8 meters per second squared, to the first decimal place and in \r\nnewtons, how many newtons of force are required to keep a 500 kilogram slab of granite moving \r\nacross a horizontal surface at constant speed if there is a kinetic frictional coefficient of 0.10 \r\nbetween the surface and the slab?",
-        "bonusA": "490 \r\n \r\n(Solution:  0.1 × 500kg × 9.8m/s\r\n2\r\n = 490N)",
+        "bonusA": "490 \r\n \r\n(Solution:  0.1 × 500kg × 9.8m/s<sup>2</sup> = 490N)",
         "category": 3,
         "setNum": 3,
         "roundNum": 6,
@@ -21745,7 +21745,7 @@
         "tossupQ": "CHEMISTRY  Multiple Choice  Which of the following is NOT true: \r\n \r\nW)  actinides are characterized by occupying the f-block of the periodic table \r\nX)  lanthanides are characterized by occupying the d-block of the periodic table \r\nY)  alkali metals are the most reactive of all metallic elements \r\nZ)  actinides are metals",
         "tossupA": "X)  LANTHANIDES ARE CHARACTERIZED BY OCCUPYING THE D-BLOCK \r\nOF THE PERIODIC TABLE",
         "bonusQ": "CHEMISTRY  Short Answer  In standard chemical nomenclature, what is the complete electron \r\nconfiguration for the sodium ion, Na\r\n+\r\n?",
-        "bonusA": "1s\r\n2\r\n2s\r\n2\r\n2p\r\n6\r\n  (ACCEPT:  1s\r\n2\r\n2s\r\n2\r\n2p\r\n6\r\n3s\r\n0\r\n)",
+        "bonusA": "1s<sup>2</sup>2s<sup>2</sup>2p\r\n6\r\n  (ACCEPT:  1s<sup>2</sup>2s<sup>2</sup>2p\r\n6\r\n3s\r\n0\r\n)",
         "category": 2,
         "setNum": 3,
         "roundNum": 6,
@@ -22084,7 +22084,7 @@
       "6_5_9": {
         "tossupQ": "PHYSICS  Multiple Choice  An object of mass m sits on a flat table. The Earth pulls on the \r\nobject with force mg. Which of the following is the corresponding reaction force? \r\n  \r\nW) The table pushing down on the floor with force mg \r\nX) The object pushing down on the table with force mg \r\nY) The object pulling upward on the Earth with force mg \r\nZ) The table pushing up on the object with force mg",
         "tossupA": "Y) THE OBJECT PULLING UPWARD ON THE EARTH WITH FORCE mg",
-        "bonusQ": "PHYSICS  Short Answer  A projectile is fired from a gun at an angle of 45o with respect to the \r\nhorizontal. Given 9.8 meters per second squared as the acceleration due to gravity, and \r\nneglecting air resistance, what are the magnitude and direction of the acceleration of the \r\nprojectile when it reaches its maximum height?",
+        "bonusQ": "PHYSICS  Short Answer  A projectile is fired from a gun at an angle of 45&deg; with respect to the \r\nhorizontal. Given 9.8 meters per second squared as the acceleration due to gravity, and \r\nneglecting air resistance, what are the magnitude and direction of the acceleration of the \r\nprojectile when it reaches its maximum height?",
         "bonusA": "9.8 METERS PER SECOND SQUARED, DOWNWARD (ACCEPT: -9.8 METERS \r\nPER SECOND SQUARED)",
         "category": 3,
         "setNum": 6,
@@ -24864,7 +24864,7 @@
       "5_5_12": {
         "tossupQ": "MATH  Short Answer  By number, identify which one of the following statements is TRUE \r\nregarding the set of means of samples of size n from a given population: 1) the mean of the set \r\nof sample means varies inversely as the square root of n; 2) the variance of the set of sample \r\nmeans varies directly as n; or 3) the standard deviation of the set of sample means varies \r\ninversely as the square root of n.",
         "tossupA": "3",
-        "bonusQ": "MATH  Short Answer  Convert the complex number -2 - 2i3 to trigonometric form.",
+        "bonusQ": "MATH  Short Answer  Convert the complex number -2 - 2i<sup>3</sup> to trigonometric form.",
         "bonusA": "4 cos4π\r\n3\r\n+ isin4π\r\n3",
         "category": 4,
         "setNum": 5,
@@ -25905,7 +25905,7 @@
         "tossupQ": "CHEMISTRY  Short Answer  What simple alcohol is commercially produced by reacting \r\ncarbon monoxide and hydrogen gas under pressure and heat and in the presence of a catalyst?",
         "tossupA": "METHANOL  (ACCEPT:  CH\r\n3\r\nOH or METHYL ALCOHOL or WOOD ALCOHOL) \r\n \r\n(Solution:  CO + 2H\r\n2\r\n à CH\r\n3\r\nOH)",
         "bonusQ": "CHEMISTRY  Short Answer  In standard chemical nomenclature, what is the ground-state \r\nelectron configuration for fluorine?",
-        "bonusA": "1s\r\n2\r\n2s\r\n2\r\n2p\r\n5\r\n  (ACCEPT:  [He]2s\r\n2\r\n2p\r\n5\r\n)",
+        "bonusA": "1s<sup>2</sup>2s<sup>2</sup>2p\r\n5\r\n  (ACCEPT:  [He]2s<sup>2</sup>2p\r\n5\r\n)",
         "category": 2,
         "setNum": 3,
         "roundNum": 4,
@@ -26164,7 +26164,7 @@
       "5_4_17": {
         "tossupQ": "CHEMISTRY  Multiple Choice  Which of the following statements is TRUE of ceramics? \r\n \r\nW) They are homogeneous  \r\nX) They are heterogeneous (read as: heh-teh-roh-JEE-nee-is)  \r\nY) They are chelates \r\nZ) They are a form of glass",
         "tossupA": "X) THEY ARE HETEROGENEOUS",
-        "bonusQ": "CHEMISTRY  Multiple Choice  Which of the following elements has the valence electron \r\nconfiguration of 3s\r\n2\r\n3p\r\n3\r\n? \r\n \r\nW) Phosphorus \r\nX) Oxygen \r\nY) Bromine \r\nZ) Nitrogen",
+        "bonusQ": "CHEMISTRY  Multiple Choice  Which of the following elements has the valence electron \r\nconfiguration of 3s<sup>2</sup>3p\r\n3\r\n? \r\n \r\nW) Phosphorus \r\nX) Oxygen \r\nY) Bromine \r\nZ) Nitrogen",
         "bonusA": "W) PHOSPHORUS",
         "category": 2,
         "setNum": 5,
@@ -27482,9 +27482,9 @@
       },
       "3_16_24": {
         "tossupQ": "PHYSICS  Short Answer  If a 100-kilogram bear climbs from the bottom to the top of a vertical \r\n10-meter tree in 10 seconds, what is the bear’s average power output, in watts?",
-        "tossupA": "980 \r\n \r\n(Solution:  P = mgd/t = [(100kg)(10m/s\r\n2\r\n)(9.8m)]/10s = 980W)",
+        "tossupA": "980 \r\n \r\n(Solution:  P = mgd/t = [(100kg)(10m/s<sup>2</sup>)(9.8m)]/10s = 980W)",
         "bonusQ": "PHYSICS  Short Answer  Two masses are hung in a physics lab.  These are tied to opposite \r\nends of a weightless string which passes over a frictionless pulley.  If the masses are released from \r\nrest and mass #1 = 1 kilogram and mass #2 = 2 kilograms, what is the acceleration, to the first \r\ndecimal place, of mass #1 and in what direction, up or down?",
-        "bonusA": "3.3 AND UP  (ACCEPT:  3.2 AND UP) \r\n \r\n(Solution:  F\r\nnet\r\n = F\r\ng1\r\n – F\r\ng2\r\n = m\r\n1\r\ng\r\n1\r\n = m\r\n2\r\ng\r\n2\r\n = (2 kg)(9.8m/s) – (1kg)(9.8m/s) = 9.8N;  a = F/m = \r\n9.8N/3kg = 3.27 m/s\r\n2\r\n)",
+        "bonusA": "3.3 AND UP  (ACCEPT:  3.2 AND UP) \r\n \r\n(Solution:  F\r\nnet\r\n = F\r\ng1\r\n – F\r\ng2\r\n = m\r\n1\r\ng\r\n1\r\n = m\r\n2\r\ng\r\n2\r\n = (2 kg)(9.8m/s) – (1kg)(9.8m/s) = 9.8N;  a = F/m = \r\n9.8N/3kg = 3.27 m/s<sup>2</sup>)",
         "category": 3,
         "setNum": 3,
         "roundNum": 16,
@@ -28461,7 +28461,7 @@
         "catDiff": "4.6"
       },
       "5_6_22": {
-        "tossupQ": "CHEMISTRY  Short Answer  What element corresponds to the electron configuration \r\n1s\r\n2\r\n2s\r\n2\r\n2p\r\n5\r\n?",
+        "tossupQ": "CHEMISTRY  Short Answer  What element corresponds to the electron configuration \r\n1s<sup>2</sup>2s<sup>2</sup>2p\r\n5\r\n?",
         "tossupA": "FLUORINE",
         "bonusQ": "CHEMISTRY  Multiple Choice  In which of the following sets of elements would all members \r\nbe expected to have very similar chemical properties? \r\n \r\nW) Neon, oxygen, and fluorine \r\nX) Argon, bromine, and krypton \r\nY) Magnesium, calcium, and barium \r\nZ) Aluminum, silicon, and phosphorus",
         "bonusA": "Y) MAGNESIUM, CALCIUM, AND BARIUM",
@@ -35676,7 +35676,7 @@
         "tossupQ": "PHYSICAL SCIENCE Short Answer What are the most common SI units used for the \r\nacceleration of an object?",
         "tossupA": "METERS PER SECOND SQUARED",
         "bonusQ": "PHYSICAL SCIENCE Short Answer Neglecting friction, what is the acceleration, in meters \r\nper second squared, of a 20-kilogram iron block across a horizontal surface if 700 newtons is applied \r\nto the block?",
-        "bonusA": "35 \r\n \r\n(Solution: A = F/M; A = 700/20; A = 35 m/sec\r\n2\r\n)",
+        "bonusA": "35 \r\n \r\n(Solution: A = F/M; A = 700/20; A = 35 m/sec<sup>2</sup>)",
         "category": 3,
         "setNum": 3,
         "roundNum": 4,
@@ -42895,7 +42895,7 @@
       "6_2_17": {
         "tossupQ": "PHYSICAL SCIENCE Short Answer During a head-on car collision, what physical quantity \r\nremains constant for all passengers not wearing seat belts?",
         "tossupA": "SPEED (ACCEPT: VELOCITY)",
-        "bonusQ": "PHYSICAL SCIENCE Short Answer Neglecting the effect of air resistance, what is the \r\nshape of the trajectory of a projectile launched at a 75 ̊ angle from ground level?",
+        "bonusQ": "PHYSICAL SCIENCE Short Answer Neglecting the effect of air resistance, what is the \r\nshape of the trajectory of a projectile launched at a 75 &deg; angle from ground level?",
         "bonusA": "PARABOLA",
         "category": 3,
         "setNum": 6,
@@ -55267,7 +55267,7 @@
         "tossupQ": "PHYSICAL SCIENCE Multiple Choice Which of the following distinguishes fermions from \r\nbosons? \r\n \r\nW) Speed \r\nX) Spin \r\nY) Mass \r\nZ) Charge",
         "tossupA": "X) SPIN",
         "bonusQ": "PHYSICAL SCIENCE Short Answer Using the noble gas abbreviation, what is the electron \r\nconfiguration of the S\r\n2\r\n−\r\n ion?",
-        "bonusA": "[Ne]3s\r\n2\r\n3p\r\n6",
+        "bonusA": "[Ne]3s<sup>2</sup>3p\r\n6",
         "category": 3,
         "setNum": 5,
         "roundNum": 16,
