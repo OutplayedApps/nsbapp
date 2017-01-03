@@ -20,6 +20,7 @@ angular.module('IonicGulpSeed')
 
             $scope.$on( "$ionicView.enter", function( scopes, states ) {
                console.log("ENTERED");
+                init();
             });
             $timeout(function() {
                 $scope.$on("settingsChanged", function (evt, data) {
@@ -29,7 +30,7 @@ angular.module('IonicGulpSeed')
                     console.log("ok");
 
                 });
-                init();
+                //init();
             }, 0);
 
             $scope.$watch(function() {
@@ -127,12 +128,12 @@ angular.module('IonicGulpSeed')
 
                 $scope.selectedDifficulty = $scope.difficulties[$scope.difficulties.length - 1];
 
-                $("select").focus(function() {
+                /*$("select").focus(function() {
                     this.selectedIndex = -1;
                 }).blur(function() {
                     //if (this.selectedIndex == -2)
                      //   this.selectedIndex = $(this).data("tempSelect");
-                })
+                })*/
 
                 function randInt(min, max) {
                     return Math.floor(Math.random() * (max - min + 1) + min);
