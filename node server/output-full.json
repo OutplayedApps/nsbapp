@@ -12295,7 +12295,7 @@
         "tossupQ": "MATH  Multiple Choice  Which of the following Venn diagrams would best represent a \r\nrelationship where sets A and B have no elements in common: \r\n \r\nW)  2 non-overlapping shaded circles \r\nX)  portions of circles A and B are overlapped and the intersection point is shaded \r\nY)  circle A is entirely within circle B and only circle A is shaded \r\nZ)  only circle A is shown",
         "tossupA": "W)  2 NON-OVERLAPPING SHADED CIRCLES",
         "bonusQ": "MATH  Short Answer  Use the Binomial Theorem to expand and simplify the following \r\nequation:  (1 – 2x)<sup>2</sup>",
-        "bonusA": "1 – 6x + 12x2 – 8x3",
+        "bonusA": "1 – 6x + 12x<sup>2</sup> – 8x<sup>3</sup>",
         "category": 4,
         "setNum": 2,
         "roundNum": 12,
@@ -12444,8 +12444,8 @@
       "2_12_20": {
         "tossupQ": "MATH  Short Answer  What is the most common statistical term for the assumption, when \r\ncomparing sample means, that there is no significant difference between the two samples?",
         "tossupA": "NULL HYPOTHESIS",
-        "bonusQ": "MATH  Multiple Choice  Using the Cartesian coordinate system, find the distance between the \r\npoints (-4, 3) and (2, 6): \r\n \r\nW)  35 \r\nX)  12 \r\nY)  3 \r\nZ)  53",
-        "bonusA": "W)  35",
+        "bonusQ": "MATH  Multiple Choice  Using the Cartesian coordinate system, find the distance between the \r\npoints (-4, 3) and (2, 6): \r\n \r\nW)  3&radic;5 \r\nX)  &radic;12 \r\nY)  3 \r\nZ)  5&radic;3",
+        "bonusA": "W)  3&radic;5",
         "category": 4,
         "setNum": 2,
         "roundNum": 12,
@@ -12604,7 +12604,7 @@
       "1_12_11": {
         "tossupQ": "MATH  Multiple Choice  Which of the following is NOT true of matrices: \r\n \r\nW)  a square matrix that has an inverse is called invertible \r\nX)  a matrix does not have to have an inverse \r\nY)  a matrix that does not have an inverse is called non-singular \r\nZ)  a matrix must be square in order to have an inverse",
         "tossupA": "Y)  A MATRIX THAT DOES NOT HAVE AN INVERSE IS CALLED NON-\r\nSINGULAR \r\n \r\n(Solution: it’s called singular)",
-        "bonusQ": "MATH  Short Answer  Giving your answer as an ordered pair, find the solution of the system of \r\nthe following 2 equations:  x = \r\n3\r\n2y – 2 and x = y – 3:",
+        "bonusQ": "MATH  Short Answer  Giving your answer as an ordered pair, find the solution of the system of \r\nthe following 2 equations:  x = 2/3 y – 2 and x = y – 3:",
         "bonusA": "(0, 3)",
         "category": 4,
         "setNum": 1,
@@ -12672,10 +12672,10 @@
         "catDiff": "1.12"
       },
       "1_12_18": {
-        "tossupQ": "MATH  Short Answer  By words or number, name all of the following 3 statements that are \r\nTRUE for the function,  f(x) = –3x2 – 2x – 2 = 0: \r\n 1) there are no real zeros \r\n 2) the graph is a parabola opening downward \r\n 3) the graph has no x-intercepts",
+        "tossupQ": "MATH  Short Answer  By words or number, name all of the following 3 statements that are \r\nTRUE for the function,  f(x) = –3x<sup>2</sup> – 2x – 2 = 0: \r\n 1) there are no real zeros \r\n 2) the graph is a parabola opening downward \r\n 3) the graph has no x-intercepts",
         "tossupA": "ALL",
-        "bonusQ": "MATH  Short Answer  Factor the following expression completely over the integers:  x4 – 16",
-        "bonusA": "(x – 2)(x + 2)(x2 + 4)",
+        "bonusQ": "MATH  Short Answer  Factor the following expression completely over the integers:  x<sup>4</sup> – 16",
+        "bonusA": "(x – 2)(x + 2)(x<sup>2</sup> + 4)",
         "category": 4,
         "setNum": 1,
         "roundNum": 12,
@@ -12955,7 +12955,7 @@
         "tossupQ": "MATH  Multiple Choice  Which of the following is NOT true about statistical correlation: \r\n \r\nW)  correlation typically distinguishes between explanatory and response variables \r\nX)  the correlation “r” always lies between +1 and -1 \r\nY)  a negative correlation indicates a negative association \r\nZ)  correlation is usually strongly affected by outlying observations",
         "tossupA": "W)  CORRELATION TYPICALLY DISTINGUISHES BETWEEN EXPLANATORY \r\nAND RESPONSE VARIABLES",
         "bonusQ": "MATH  Short Answer  What is the sine of the angle θ (pronounced: theta) whose terminal side \r\npasses through the points (4, -3)?",
-        "bonusA": "-3/5  (ACCEPT:  -0.6) \r\n \r\n(Solution:  first find r = (42 + 32)1/2 = 5;  sin θ = y/r; = -3/5)",
+        "bonusA": "-3/5  (ACCEPT:  -0.6) \r\n \r\n(Solution:  first find r = (4<sup>2</sup> + 3<sup>2</sup>)<sup>1/2</sup> = 5;  sin θ = y/r; = -3/5)",
         "category": 4,
         "setNum": 2,
         "roundNum": 13,
@@ -13035,7 +13035,7 @@
         "tossupQ": "MATH  Multiple Choice  Which of the following is TRUE about any two successive terms in the \r\nFibonacci sequence: \r\n \r\nW)  their product is a Fibonacci number \r\nX)  they are either both odd or both even \r\nY)  they are relatively prime \r\nZ)  their quotient is the golden ratio",
         "tossupA": "Y)  THEY ARE RELATIVELY PRIME",
         "bonusQ": "MATH  Short Answer  Find the inverse of the 2-by-2 matrix whose rows are 3, 5 and 7, –2.  Give \r\nyour answer in rows.",
-        "bonusA": "41\r\n3,\r\n41\r\n7,\r\n41\r\n5,\r\n41\r\n2−",
+        "bonusA": "Row 1: 2/41, 5/41. Row 2: 7/41, -3/41.",
         "category": 4,
         "setNum": 1,
         "roundNum": 17,
@@ -13102,9 +13102,9 @@
         "catDiff": "3.17"
       },
       "1_17_11": {
-        "tossupQ": "MATH  Multiple Choice  Which of the following is the equation for the tangent line for y = x4 at \r\nthe point (1, 1): \r\n \r\nW)  y = 4x – 3  \r\nX)  y = 4x – 1  \r\nY)  y = 4x + 1  \r\nZ)  y = 4x + 3",
-        "tossupA": "W)  y = 4x – 3 \r\n \r\n(Solution: using the derivative, y’ = 4x3, the slope of the tangent line at x = 1 is 4.  The line must pass \r\nthrough (1, 1) so y – 1 = 4(x – 1))",
-        "bonusQ": "MATH  Short Answer  What are the coordinates of the hole in the graph of the function, \r\ng(x) = \r\n)2(\r\n)82(2\r\n−\r\n−\r\nx\r\nx?",
+        "tossupQ": "MATH  Multiple Choice  Which of the following is the equation for the tangent line for y = x<sup>4</sup> at \r\nthe point (1, 1): \r\n \r\nW)  y = 4x – 3  \r\nX)  y = 4x – 1  \r\nY)  y = 4x + 1  \r\nZ)  y = 4x + 3",
+        "tossupA": "W)  y = 4x – 3 \r\n \r\n(Solution: using the derivative, y’ = 4x<sup>3</sup>, the slope of the tangent line at x = 1 is 4.  The line must pass \r\nthrough (1, 1) so y – 1 = 4(x – 1))",
+        "bonusQ": "MATH  Short Answer  What are the coordinates of the hole in the graph of the function, \r\ng(x) = (2x<sup>2</sup> - 8)/(x-2)?",
         "bonusA": "(2, 8)   \r\n \r\n(Solution: simplifies to 2(x + 2); graph looks like a line except at the indicated hole)",
         "category": 4,
         "setNum": 1,
@@ -13172,7 +13172,7 @@
         "catDiff": "3.17"
       },
       "1_17_18": {
-        "tossupQ": "MATH  Short Answer  How many solutions are there for the equation, cosine 4x = \r\n2\r\n1, for the \r\ninterval 0 ≤ x < 2π?",
+        "tossupQ": "MATH  Short Answer  How many solutions are there for the equation, cosine 4x = 1/2, for the \r\ninterval 0 ≤ x < 2π?",
         "tossupA": "8 \r\n \r\n(Solution: 4 cycles, 2 solutions per cycle)",
         "bonusQ": "MATH  Short Answer  Cards numbered 1 through 10 lie on a table.  If two cards are picked at \r\nrandom, without replacement, what is the probability, as a fraction in lowest terms, that the two \r\ncards will have values within one of each other?",
         "bonusA": "1/5   \r\n \r\n(Solution:  9/(10 nCr 2) = 9/45 = 1/5)",
@@ -13292,9 +13292,9 @@
         "catDiff": "0.15"
       },
       "2_15_5": {
-        "tossupQ": "MATH  Multiple Choice  Simplify the following trigonometric equation for a right triangle ABC \r\nwhose right angle is at B:  (cosecant2A – 1) × cosine(90° - A)sine(90° - A)  \r\n \r\nW)  sine A \r\nX)  cosine A \r\nY)  tangent A \r\nZ)  cotangent A",
-        "tossupA": "Z)  COTANGENT A \r\n \r\n(Solution:  cot2A × (sinA/cosA);  = cot2A tan A;  = cot A)",
-        "bonusQ": "MATH  Short Answer  The monthly revenue, in dollars, for sales of widgets is given by the \r\nequation R(q) = 8.5q – 0.02q2, where q is the number of widgets made per month.  The cost for \r\ncreating the widgets is given by the equation, C(q) = 200 + 0.5q dollars.  A maximum of 400 \r\nwidgets can be made in 1 month.  How many widgets should be made each month to maximize the \r\nprofit, as given by the revenue minus the cost?",
+        "tossupQ": "MATH  Multiple Choice  Simplify the following trigonometric equation for a right triangle ABC \r\nwhose right angle is at B:  (cosecant<sup>2</sup>A – 1) × cosine(90° - A) / sine(90° - A)  \r\n \r\nW)  sine A \r\nX)  cosine A \r\nY)  tangent A \r\nZ)  cotangent A",
+        "tossupA": "Z)  COTANGENT A \r\n \r\n(Solution:  cot<sup>2</sup>A × (sinA/cosA);  = cot<sup>2</sup>A tan A;  = cot A)",
+        "bonusQ": "MATH  Short Answer  The monthly revenue, in dollars, for sales of widgets is given by the \r\nequation R(q) = 8.5q – 0.02q<sup>2</sup>, where q is the number of widgets made per month.  The cost for \r\ncreating the widgets is given by the equation, C(q) = 200 + 0.5q dollars.  A maximum of 400 \r\nwidgets can be made in 1 month.  How many widgets should be made each month to maximize the \r\nprofit, as given by the revenue minus the cost?",
         "bonusA": "200",
         "category": 4,
         "setNum": 2,
@@ -13374,8 +13374,8 @@
       "2_15_13": {
         "tossupQ": "MATH  Short Answer  In 1931, who disproved that axioms of arithmetic were consistent and \r\ncould sufficiently prove or disprove any mathematical conjecture?",
         "tossupA": "KURT GÖDEL  (ACCEPT:  GÖDEL)",
-        "bonusQ": "MATH  Short Answer  What is the derivative of the following expression with respect to the \r\nvariable x:  212354xx−  (Read as:  4x to the 3/2 power minus 5x to the ½ power)",
-        "bonusA": "21215.26−−xx  (ACCEPT:  6x0.5 – 2.5x  –0.5)",
+        "bonusQ": "MATH  Short Answer  What is the derivative of the following expression with respect to the \r\nvariable x:  4x<sup>3/2</sup> - 5x<sup>1/2</sup>  (Read as:  4x to the 3/2 power minus 5x to the ½ power)",
+        "bonusA": "6x<sup>1/2</sup> - 2.5x<sup>1/2</sup>  (ACCEPT:  6x<sup>0.5</sup> - 2.5x<sup>0.5</sup>)",
         "category": 4,
         "setNum": 2,
         "roundNum": 15,
@@ -13544,7 +13544,7 @@
       "2_17_5": {
         "tossupQ": "MATH  Short Answer  Using the Greek-derived names, what 5 polyhedra are often called \r\nplatonic solids?",
         "tossupA": "TETRAHEDRON,  HEXAHEDRON,  OCTAHEDRON,  DODECAHEDRON,  \r\nICOSAHEDRON  (accept in any order)",
-        "bonusQ": "MATH  Short Answer  Assuming that x ≠ 0, solve the following equation for x:  \r\n20\r\n4\r\n8\r\n3\r\n7\r\n2\r\n3=++\r\nxxx",
+        "bonusQ": "MATH  Short Answer  Assuming that x ≠ 0, solve the following equation for x:  3/(2x) + 7/(3x) + 8/(4x) = 20",
         "bonusA": "x = 7/24  (ACCEPT:  x = 70/240 OR 3.43)",
         "category": 4,
         "setNum": 2,
@@ -13624,7 +13624,7 @@
       "2_17_13": {
         "tossupQ": "MATH  Multiple Choice  Which of the following eccentricities describes a hyperbola: \r\n \r\nW)  e = 0 \r\nX)  0 < e < 1 \r\nY)  e = 1 \r\nZ)  e > 1",
         "tossupA": "Z)  e > 1",
-        "bonusQ": "MATH  Short Answer  Solve the following equation for y:  \r\n3\r\n)125(4\r\n5\r\n)93(−−=−+yyy",
+        "bonusQ": "MATH  Short Answer  Solve the following equation for y:  y + (3y-9)/5 = 4 - (5y-12)/3",
         "bonusA": "y = 3",
         "category": 4,
         "setNum": 2,
@@ -13694,8 +13694,8 @@
       "2_17_20": {
         "tossupQ": "MATH  Multiple Choice  Which of the following is TRUE about tests of significance: \r\n \r\nW)  a type 1 error rejects the null hypothesis when it is true \r\nX)  a type 1 error accepts the null hypothesis when it is true \r\nY)  a type 2 error rejects the null hypothesis when it is true \r\nZ)  a type 2 has no relationship to the null hypothesis",
         "tossupA": "W)  A TYPE 1 ERROR REJECTS THE NULL HYPOTHESIS WHEN IT IS TRUE",
-        "bonusQ": "MATH  Short Answer  Calculate the following indefinite integral:  I = ∫+dxx)22cos( \r\n(read as: the integral of the cosine of the sum of 2x + 2, dx)",
-        "bonusA": "Cx++)22sin(\r\n2\r\n1",
+        "bonusQ": "MATH  Short Answer  Calculate the following indefinite integral:  I =  the integral of the cosine of the sum of 2x + 2, dx",
+        "bonusA": "1/2 * sin(2x+2) + C",
         "category": 4,
         "setNum": 2,
         "roundNum": 17,
@@ -13772,9 +13772,9 @@
         "catDiff": "1.14"
       },
       "7_14_3": {
-        "tossupQ": "MATH Short Answer Given 푔(푥)=5+푥2sin (푥2) [g of x equals 5 plus the fraction with \r\nnumerator x squared and denominator sine of the quantity x squared], find lim푥→0푔(푥) \r\n[the limit as x approaches zero of g of x].",
+        "tossupQ": "MATH Short Answer Given g of x equals 5 plus the fraction with \r\nnumerator x squared and denominator sine of the quantity x squared, find the limit as x approaches zero of g of x.",
         "tossupA": "6",
-        "bonusQ": "MATH Multiple Choice What is dy/dx for x2 + y2 = 2 at the point with coordinates (1, 1)? \r\n \r\nW) -1 \r\nX) -1/2 \r\nY) 0 \r\nZ) 3/2",
+        "bonusQ": "MATH Multiple Choice What is dy/dx for x<sup>2</sup> + y<sup>2</sup> = 2 at the point with coordinates (1, 1)? \r\n \r\nW) -1 \r\nX) -1/2 \r\nY) 0 \r\nZ) 3/2",
         "bonusA": "W) -1",
         "category": 4,
         "setNum": 7,
@@ -13832,10 +13832,10 @@
         "catDiff": "1.14"
       },
       "7_14_9": {
-        "tossupQ": "MATH Multiple Choice What is the principal value in radians for 푐푐푐−1(−√32) [inverse cosine \r\nof negative square root of 3 over 2]? \r\n \r\nW) −휋6  \r\nX) −휋3 \r\nY) 5휋6  \r\nZ) 11휋6",
-        "tossupA": "Y) 5휋6",
+        "tossupQ": "MATH Multiple Choice What is the principal value in radians for the inverse cosine \r\nof negative square root of 3 over 2? \r\n \r\nW) −pi/6  \r\nX) −pi/3 \r\nY) 5pi/6  \r\nZ) 11pi/6",
+        "tossupA": "Y) 5pi/6",
         "bonusQ": "MATH Short Answer Find tan(arccos (2x)) [the tangent of the arc-cosine of 2x] in terms of \r\nx.",
-        "bonusA": "√1−4푥2/2푥",
+        "bonusA": "√(1-4x<sup>2</sup>)/(2x)",
         "category": 4,
         "setNum": 7,
         "roundNum": 14,
@@ -13902,10 +13902,10 @@
         "catDiff": "2.14"
       },
       "7_14_16": {
-        "tossupQ": "MATH Short Answer Solve for x: 14−√3−푥=9 [14 minus the square root of the \r\nquantity 3 minus x equals 9].",
+        "tossupQ": "MATH Short Answer Solve for x: 14−√(3-x) = 9 [14 minus the square root of the \r\nquantity 3 minus x equals 9].",
         "tossupA": "-22",
         "bonusQ": "MATH Short Answer A circle of radius 2 is centered at the point (2, 3). What is the slope of \r\nthe line tangent to the circle at the point where x = 3 and y is greater than 3?",
-        "bonusA": "−√33 (DO NOT ACCEPT: −1√3)",
+        "bonusA": "−√3/3 (DO NOT ACCEPT: −1/√3)",
         "category": 4,
         "setNum": 7,
         "roundNum": 14,
@@ -13954,7 +13954,7 @@
       "7_14_21": {
         "tossupQ": "MATH Short Answer What is the scalar product of the vectors 2i - 3j + 2k and i + 2j + 2k?",
         "tossupA": "0",
-        "bonusQ": "MATH Short Answer What are the equations of all asymptotes -- vertical, horizontal, or \r\noblique -- for the graph of the function 푓(푥)=푥2−3푥푥−1 [f of x equals the fraction with numerator \r\nx squared minus 3x and denominator x minus 1]?",
+        "bonusQ": "MATH Short Answer What are the equations of all asymptotes -- vertical, horizontal, or \r\noblique -- for the graph of the function f of x equals the fraction with numerator \r\nx squared minus 3x and denominator x minus 1?",
         "bonusA": "x = 1, y = x - 2",
         "category": 4,
         "setNum": 7,
@@ -14032,10 +14032,10 @@
         "catDiff": "3.14"
       },
       "1_14_4": {
-        "tossupQ": "MATH  Multiple Choice  Which of the following represents the inverse function of f(x) = x3 + 5: \r\n \r\nW)  (x – 5)3 \r\nX)  x3 – 5  \r\nY)  31)5(−x \r\nZ)  \r\n3\r\n5\r\n1\r\n\r\n\r\n\r\n\r\n−x",
-        "tossupA": "Y)  31)5(−x",
+        "tossupQ": "MATH  Multiple Choice  Which of the following represents the inverse function of f(x) = x<sup>3</sup> + 5: \r\n \r\nW)  (x – 5)<sup>3</sup> \r\nX)  x<sup>3</sup> – 5  \r\nY)  (x-5)<sup>1/3</sup>  Z)  (1/(x-5))<sup>3</sup>",
+        "tossupA": "Y)  (x-5)<sup>1/3</sup>",
         "bonusQ": "MATH  Short Answer  Giving your answer in meters squared, find the total surface area of a \r\nright prism whose base is a right triangle with legs of length 3 meters and 4 meters and whose \r\naltitude is 2 meters:",
-        "bonusA": "36 \r\n \r\n(Solution: 3:4:5; Pbase = 3+4+5 = 12m; A = ½bh = 6 m2;  TA = LA + 2B = (12)(2) + 2(6) = 36 m2)",
+        "bonusA": "36 \r\n \r\n(Solution: 3:4:5; P<sub>base</sub> = 3+4+5 = 12m; A = ½bh = 6 m<sup>2</sup>;  TA = LA + 2B = (12)(2) + 2(6) = 36 m<sup>2</sup>)",
         "category": 4,
         "setNum": 1,
         "roundNum": 14,
@@ -14102,10 +14102,10 @@
         "catDiff": "3.14"
       },
       "1_14_11": {
-        "tossupQ": "MATH  Multiple Choice  Which of the following is a quadratic equation with a root of \r\nmultiplicity of 2: \r\n \r\nW)  9x2 – 30x2 + 25 = 0 \r\nX)  x2 + 2x – 15 = 0 \r\nY)  6x2 – 11x – 2 = 0 \r\nZ)  4x2 – 1 = 0",
-        "tossupA": "W)  9x2 – 30x2 + 25 = 0 \r\n \r\n(Solution: x = 5/3)",
-        "bonusQ": "MATH  Short Answer  Given f(x) = x2 + 2x + 3, express f(x + 1) in standard polynomial form:",
-        "bonusA": "x2 + 4x + 6",
+        "tossupQ": "MATH  Multiple Choice  Which of the following is a quadratic equation with a root of \r\nmultiplicity of 2: \r\n \r\nW)  9x<sup>2</sup> – 30x + 25 = 0 \r\nX)  x<sup>2</sup> + 2x – 15 = 0 \r\nY)  6x<sup>2</sup> – 11x – 2 = 0 \r\nZ)  4x<sup>2</sup> – 1 = 0",
+        "tossupA": "W)  9x<sup>2</sup> – 30x + 25 = 0 \r\n \r\n(Solution: x = 5/3)",
+        "bonusQ": "MATH  Short Answer  Given f(x) = x<sup>2</sup> + 2x + 3, express f(x + 1) in standard polynomial form:",
+        "bonusA": "x<sup>2</sup> + 4x + 6",
         "category": 4,
         "setNum": 1,
         "roundNum": 14,
@@ -14174,8 +14174,8 @@
       "1_14_18": {
         "tossupQ": "MATH  Short Answer  In the algebra of real-valued functions, give the name or number of all of \r\nthe following 3 choices that the implied domain usually excludes:   \r\n 1) numbers causing division by zero \r\n 2) numbers causing imaginary numbers in the range \r\n 3) numbers causing irrational numbers in the range",
         "tossupA": "1 AND 2",
-        "bonusQ": "MATH  Short Answer  Add the following rational expressions and give your answer in fully \r\nfactored form:  \r\n)6(\r\n4\r\n)2(−\r\n+\r\n+x\r\nx\r\nx\r\nx",
-        "bonusA": ")2)(6(\r\n)25(\r\n+−\r\n+\r\nxx\r\nxx  (ACCEPT: \r\n)6)(2(\r\n)25(\r\n−+\r\n+\r\nxx\r\nxx)",
+        "bonusQ": "MATH  Short Answer  Add the following rational expressions and give your answer in fully \r\nfactored form:  x/(x+2) + 4x/(x-6)",
+        "bonusA": "x(5x+2)/((x+2)(x-6)) ",
         "category": 4,
         "setNum": 1,
         "roundNum": 14,
@@ -14302,8 +14302,8 @@
         "catDiff": "1.9"
       },
       "6_9_6": {
-        "tossupQ": "MATH  Short Answer  In the three by three matrix,  [such that row one \r\ncontains negative 2, 2, and 0; row two contains 4, 1, and negative 5; row three contains 8, \r\n3, and 7], which is the  [x sub 2, 3] element?",
-        "tossupA": "5",
+        "tossupQ": "MATH  Short Answer  In the three by three matrix, such that row one \r\ncontains negative 2, 2, and 0; row two contains 4, 1, and negative 5; row three contains 8, \r\n3, and 7 which is the  [x sub 2, 3] element?",
+        "tossupA": "-5",
         "bonusQ": "MATH  Short Answer  If the squared length of the diagonal of one face of a cube is 162, what \r\nis the surface area in square units of the cube?",
         "bonusA": "486",
         "category": 4,
@@ -14362,9 +14362,9 @@
         "catDiff": "1.9"
       },
       "6_9_12": {
-        "tossupQ": "MATH  Multiple Choice  Which of the following equations is that of a line perpendicular to  \r\n3x – 7y = 5? \r\n \r\nW) 3x + 7y = 10                   \r\nX) 7x + 3y = 10                  \r\nY) 7x – 3y = 10                   \r\nZ) 3x – 7y = 10",
+        "tossupQ": "MATH  Multiple Choice  Which of the following equations is that of a line perpendicular to  \r\n3x – 7y = 5? \r\n \r\nW) 3x + 7y = 10  \r\nX) 7x + 3y = 10 \r\nY) 7x – 3y = 10   \r\nZ) 3x – 7y = 10",
         "tossupA": "X) 7x + 3y = 10",
-        "bonusQ": "MATH  Short Answer  What is the multiplicity of the zero 1 in the polynomial  \r\np(x) = x4 + x3  9x2 + 11x  4?",
+        "bonusQ": "MATH  Short Answer  What is the multiplicity of the zero 1 in the polynomial  \r\np(x) = x<sup>4</sup> + x<sup>3</sup> - 9x<sup>2</sup> + 11x - 4?",
         "bonusA": "3",
         "category": 4,
         "setNum": 6,
@@ -14443,7 +14443,7 @@
       },
       "6_9_20": {
         "tossupQ": "MATH  Short Answer  In terms of a, b, c, and d, what is the slope of the line 3x + 2by = cd?",
-        "tossupA": "3/2b",
+        "tossupA": "3/(2b)",
         "bonusQ": "MATH  Multiple Choice  Which of the following points lies in the solution set for the system \r\nof two inequalities: 2y – x ≥ -6 and 2y – 3x < -6? \r\n \r\nW) (-4, -1) \r\nX) (3, 1) \r\nY) (0, -3) \r\nZ) (4, 3)",
         "bonusA": "X) (3, 1)",
         "category": 4,
@@ -14492,7 +14492,7 @@
         "catDiff": "1.9"
       },
       "6_9_27": {
-        "tossupQ": "MATH  Short Answer  How many points of intersection do the graphs of the functions  \r\nf(x) = x 2 and g(x) = 2 x have?",
+        "tossupQ": "MATH  Short Answer  How many points of intersection do the graphs of the functions  \r\nf(x) = x<sup>2</sup> and g(x) = 2<sup>x</sup> have?",
         "tossupA": "3",
         "bonusQ": "MATH  Short Answer  Evaluate the following:  [the integral from 0 to 2 of 1 \r\nover t times e to the power of the natural log of t dt].",
         "bonusA": "2",
@@ -14534,7 +14534,7 @@
       "6_12_4": {
         "tossupQ": "MATH  Short Answer  What is the sum of the infinite geometric series with a first term of 1/3 \r\nand a second term of 1/9?",
         "tossupA": "1/2 (ACCEPT: 0.5)",
-        "bonusQ": "MATH  Short Answer  How many real solutions does the following equation have:  \r\n(x2 + 1)2 + 2(x2 + 1) - 3 = 0 [x squared plus 1 quantity squared plus 2 times open \r\nparenthesis x squared plus 1 close parenthesis minus 3 equals zero]?",
+        "bonusQ": "MATH  Short Answer  How many real solutions does the following equation have:  \r\n(x<sup>2</sup> + 1)<sup>2</sup> + 2(x<sup>2</sup> + 1) - 3 = 0 [x squared plus 1 quantity squared plus 2 times open \r\nparenthesis x squared plus 1 close parenthesis minus 3 equals zero]?",
         "bonusA": "ONE",
         "category": 4,
         "setNum": 6,
@@ -14652,10 +14652,10 @@
         "catDiff": "3.12"
       },
       "6_12_16": {
-        "tossupQ": "MATH  Short Answer  If the graph of y = (x – 2)2 – 3 [y equals open parenthesis x minus 2 \r\nclose parenthesis squared minus three] is translated 5 units up and 2 units to the right, what \r\nis the vertex of the new parabola obtained?",
+        "tossupQ": "MATH  Short Answer  If the graph of y = (x – 2)<sup>2</sup> – 3 [y equals open parenthesis x minus 2 \r\nclose parenthesis squared minus three] is translated 5 units up and 2 units to the right, what \r\nis the vertex of the new parabola obtained?",
         "tossupA": "(4, 2)",
-        "bonusQ": "MATH  Short Answer  Solve  for x in standard  form.",
-        "bonusA": "i",
+        "bonusQ": "MATH  Short Answer  Solve [3x - 2ix = 5] for x in standard a + bi form.",
+        "bonusA": "15/13 + 10/13 i",
         "category": 4,
         "setNum": 6,
         "roundNum": 12,
@@ -14712,7 +14712,7 @@
         "catDiff": "2.12"
       },
       "6_12_22": {
-        "tossupQ": "MATH  Multiple Choice  For f(x) = x2 + 2x + 4, which of the following statements is NOT \r\ntrue? \r\n \r\nW) f(x) has a maximum value \r\nX) The graph of f is not a line \r\nY) The graph of f has no x-intercepts \r\nZ) The graph of f has a y-intercept",
+        "tossupQ": "MATH  Multiple Choice  For f(x) = x<sup>2</sup> + 2x + 4, which of the following statements is NOT \r\ntrue? \r\n \r\nW) f(x) has a maximum value \r\nX) The graph of f is not a line \r\nY) The graph of f has no x-intercepts \r\nZ) The graph of f has a y-intercept",
         "tossupA": "W) f(x) HAS A MAXIMUM VALUE",
         "bonusQ": "MATH  Short Answer  The volume of an open-ended circular cylinder is 32π cubic \r\ncentimeters, and its base has a radius of 4 meters. What is the surface area of the cylinder, in \r\nterms of π and in square meters?",
         "bonusA": "16π",
@@ -14792,7 +14792,7 @@
         "catDiff": "0.13"
       },
       "6_13_5": {
-        "tossupQ": "MATH  Short Answer  If logb(5) = c [log base b of 5 equals c], then what does b 4c [b to the \r\npower of 4 c] equal?",
+        "tossupQ": "MATH  Short Answer  If log<sub>b</sub>(5) = c [log base b of 5 equals c], then what does b<sup>4c</sup> [b to the \r\npower of 4 c] equal?",
         "tossupA": "625",
         "bonusQ": "MATH  Short Answer  The three sides of a triangle are 5 centimeters, 6 centimeters, and 8 \r\ncentimeters. What is the cosine of the smallest angle in reduced fractional form?",
         "bonusA": "25/32",
@@ -14952,7 +14952,7 @@
         "catDiff": "5.13"
       },
       "6_13_21": {
-        "tossupQ": "MATH  Short Answer  How many points of intersection exist for the graphs of y = 2x [y \r\nequals 2 to the power of x] and y = -x2 + 2?",
+        "tossupQ": "MATH  Short Answer  How many points of intersection exist for the graphs of y = 2<sup>x</sup> [y \r\nequals 2 to the power of x] and y = -x<sup>2</sup> + 2?",
         "tossupA": "2",
         "bonusQ": "MATH  Short Answer  A different universe has nine spatial dimensions. If an object travels \r\nfour meters in all nine dimensions, then what is the object’s displacement in meters in this \r\nuniverse?",
         "bonusA": "12",
@@ -15043,9 +15043,9 @@
       },
       "2_7_5": {
         "tossupQ": "MATH  Short Answer  Find the derivative of the following function:  f(x) = sin (ln x)  (read as: f \r\nof x equals the sine of the natural log of x)",
-        "tossupA": "x\r\nx)cos(ln",
-        "bonusQ": "MATH  Multiple Choice  Using the Cartesian coordinate system, find the distance between the \r\npoints (2, 3) and (-3, 1): \r\n \r\nW)  29  \r\nX)  7 \r\nY)  5 \r\nZ)  39",
-        "bonusA": "W)  29",
+        "tossupA": "cos(ln x) / x",
+        "bonusQ": "MATH  Multiple Choice  Using the Cartesian coordinate system, find the distance between the \r\npoints (2, 3) and (-3, 1): \r\n \r\nW)  &radic;29  \r\nX)  &radic;7 \r\nY)  &radic;5 \r\nZ)  &radic;39",
+        "bonusA": "W)  &radic;29",
         "category": 4,
         "setNum": 2,
         "roundNum": 7,
@@ -15124,7 +15124,7 @@
       "2_7_13": {
         "tossupQ": "MATH  Short Answer  What percent of a normally distributed sample lies within 2 standard \r\ndeviations of the mean?",
         "tossupA": "95%",
-        "bonusQ": "MATH  Short Answer  What is the smallest integer that satisfies the following inequality:  \r\n5\r\n32\r\n>+xx",
+        "bonusQ": "MATH  Short Answer  What is the smallest integer that satisfies the following inequality:  x/2 + x/3 > 5",
         "bonusA": "7",
         "category": 4,
         "setNum": 2,
@@ -15205,7 +15205,7 @@
         "tossupQ": "MATH  Short Answer  What parameter, usually signified by a lower case r, describes the \r\ndirection and strength of a straight-line relationship between two quantifiable variables?",
         "tossupA": "CORRELATION  (ACCEPT:  PEARSON’S CORRELATION or CORRELATION \r\nCOEFFICIENT or PEARSON’S R, or THE PEARSON PRODUCT MOMENT CORRELATION)",
         "bonusQ": "MATH  Short Answer  In terms of π, what is the area of a sector in a circle whose central angle \r\nis 40° bounded by two radii of 6?",
-        "bonusA": "4π \r\n \r\n(Solution:  A = n/360 × πr2;  = 40/360 × 36π = 4π)",
+        "bonusA": "4π \r\n \r\n(Solution:  A = n/360 × πr<sup>2</sup>;  = 40/360 × 36π = 4π)",
         "category": 4,
         "setNum": 2,
         "roundNum": 7,
@@ -15252,9 +15252,9 @@
         "catDiff": "1.7"
       },
       "7_8_1": {
-        "tossupQ": "MATH Multiple Choice A positive three digit integer n is chosen at random, with each three \r\ndigit number having an equal chance of being chosen. What is the probability that log2n [log \r\nbase 2 of n] is an integer? \r\n \r\nW) 3/899 \r\nX) 1/300 \r\nY) 1/222 \r\nZ) 1/150",
+        "tossupQ": "MATH Multiple Choice A positive three digit integer n is chosen at random, with each three \r\ndigit number having an equal chance of being chosen. What is the probability that log<sub>2</sub>n [log \r\nbase 2 of n] is an integer? \r\n \r\nW) 3/899 \r\nX) 1/300 \r\nY) 1/222 \r\nZ) 1/150",
         "tossupA": "X) 1/300",
-        "bonusQ": "MATH Short Answer A point moves on the curve 6x2 – 3y2 = 18 so that its y-coordinate \r\nincreases at a constant rate of 12 meters per second. At what rate, in meters per second, is the \r\nx-coordinate changing when the point is at (3, 2√3 )?",
+        "bonusQ": "MATH Short Answer A point moves on the curve 6x<sup>2</sup> – 3y<sup>2</sup> = 18 so that its y-coordinate \r\nincreases at a constant rate of 12 meters per second. At what rate, in meters per second, is the \r\nx-coordinate changing when the point is at (3, 2√3 )?",
         "bonusA": "4√3",
         "category": 4,
         "setNum": 7,
@@ -15312,7 +15312,7 @@
         "catDiff": "5.8"
       },
       "7_8_7": {
-        "tossupQ": "MATH Short Answer If f(x) = 2 – x [f of x equals 2 minus x], find f(f ‘(x)) [f of f prime of x].",
+        "tossupQ": "MATH Short Answer If f(x) = 2 – x [f of x equals 2 minus x], find f(f '(x)) [f of f prime of x].",
         "tossupA": "3",
         "bonusQ": "MATH Short Answer Express the following in terms of a single trigonometric function, given \r\nthat all fractions are defined: (secx + cscx)/(1 + tanx) [the fraction with numerator secant of x \r\nplus cosecant of x and denominator 1 plus the tangent of x].",
         "bonusA": "cscx (ACCEPT: 1/sinx)",
@@ -15372,8 +15372,8 @@
         "catDiff": "5.8"
       },
       "7_8_13": {
-        "tossupQ": "MATH Multiple Choice Given 푓(푥)=√7푥2−3 [f of x equals the square root of the \r\nquantity 7 x squared minus 3], which of the following are u(x) and g(u) such that  \r\nf(x) = g(u(x)) [f of x equals g of u of x]? \r\n \r\nW) u(x) = 7x2 − \r\n2T3T\r\n3 and 푔(푢)=√푢 \r\nX) u(x) = √푥 and g(u) = 7u2 −\r\n2T3T\r\n 3  \r\nY) u(x) = √7푥2−3 [u of x equals the square root of the quantity 7 x squared minus 3] and \r\n푔(푢)=√푢  \r\nZ) u(x) = √7푥−3  and g(u) = 푢2",
-        "tossupA": "W) u(x) = 7x2 −\r\n2T3T\r\n 3 AND 푔(푢)=√푢",
+        "tossupQ": "MATH Multiple Choice Given f(x) = &radic;(7x<sup>2</sup>-3), which of the following are u(x) and g(u) such that  \r\nf(x) = g(u(x)) [f of x equals g of u of x]? \r\n \r\nW) u(x) = 7x<sup>2</sup> - 3 and g(u) = &radic;u \r\nX) u(x) = &radic;x and g(u) = 7u<sup>2</sup> - 3  \r\nY) u(x) = &radic;(7x<sup>2</sup>-3) and g(u) = &radic;u  \r\nZ) u(x) = &radic;(7x-3) and g(u) = u<sup>2</sup>",
+        "tossupA": "W) u(x) = 7x<sup>2</sup> - 3 and g(u) = &radic;u ",
         "bonusQ": "MATH Short Answer Mother Goose divided her estate among her four favorite friends \r\naccording to the following specifications: \r\n• Humpty Dumpty shall receive half of the estate, less $9000; \r\n• Simple Simon shall receive one third of the estate, less $3000; \r\n• Little Jack Horner shall receive exactly one fourth of the estate; \r\n• Little Miss Muffet shall receive one sixth of the estate, plus $3000. \r\nWhat was the total dollar value of Mother Goose’s estate?",
         "bonusA": "$36,000",
         "category": 4,
@@ -15502,8 +15502,8 @@
         "catDiff": "1.8"
       },
       "7_13_1": {
-        "tossupQ": "MATH Short Answer Let 푦=푒푥2[e to the power of x squared]. Find dy/dx.",
-        "tossupA": "2푥푒푥2",
+        "tossupQ": "MATH Short Answer Let y = [e to the power of x squared]. Find dy/dx.",
+        "tossupA": "2xe<sup>x<sup>2</sup></sup>",
         "bonusQ": "MATH Short Answer How many distinct permutations can be made from the letters in the \r\nword INFINITY?",
         "bonusA": "3360",
         "category": 4,
@@ -15562,9 +15562,9 @@
         "catDiff": "5.13"
       },
       "7_13_7": {
-        "tossupQ": "MATH Short Answer Solve for x: ln(x + 1) - 1 = 0 [the natural log of open parenthesis x \r\nplus 1 close parenthesis minus 1 equals 0].",
+        "tossupQ": "MATH Short Answer Solve for x: ln(x + 1) - 1 = 0.",
         "tossupA": "e - 1",
-        "bonusQ": "MATH Short Answer Assuming y2 + 3x2y = 7x2 – 5 implicitly defines y as a function of x, find \r\ndy/dx at the point (3, 2).",
+        "bonusQ": "MATH Short Answer Assuming y<sup>2</sup> + 3x<sup>2</sup>y = 7x<sup>2</sup> – 5 implicitly defines y as a function of x, find \r\ndy/dx at the point (3, 2).",
         "bonusA": "6/31",
         "category": 4,
         "setNum": 7,
@@ -15622,7 +15622,7 @@
         "catDiff": "5.13"
       },
       "7_13_13": {
-        "tossupQ": "MATH Short Answer Given 푔(푥)=1−cos(푥)푥2 [g of x equals the fraction with numerator 1 \r\nminus cosine of x and denominator x squared], find lim푥→0푔(푥) [the limit as x approaches \r\n0 of g of x].",
+        "tossupQ": "MATH Short Answer Given g of x equals the fraction with numerator 1 \r\nminus cosine of x and denominator x squared, find the limit as x approaches \r\n0 of g of x.",
         "tossupA": "1/2",
         "bonusQ": "MATH Short Answer A store has been buying a certain type of calculator at $25 and selling \r\nthem at $40. At this price, they have been selling 50 calculators per month. The owner of the \r\nstore wishes to increase the price of the calculator and estimates that for each $1 increase in \r\nprice, 3 fewer calculators will be sold each month. Determine the price, to the nearest dollar, \r\nthat maximizes profit.",
         "bonusA": "$41",
@@ -15682,10 +15682,10 @@
         "catDiff": "2.13"
       },
       "7_13_19": {
-        "tossupQ": "MATH Short Answer Given 푓(푥)=푙푙√푒푥 [f of x equals the natural log of the square root \r\nof the quantity e to the x], find its first derivative with respect to x.",
+        "tossupQ": "MATH Short Answer Given [f of x equals the natural log of the square root \r\nof the quantity e to the x], find its first derivative with respect to x.",
         "tossupA": "1/2",
-        "bonusQ": "MATH Short Answer Providing your answer in slope intercept form, what is the equation of \r\nthe line tangent to the graph of 푦=푒2푥푥2 [y equals the fraction with numerator e to the power \r\nof 2x and denominator x squared] where x = 1?",
-        "bonusA": "y = e2 (ACCEPT: y = 0x + e2)",
+        "bonusQ": "MATH Short Answer Providing your answer in slope intercept form, what is the equation of \r\nthe line tangent to the graph of [y equals the fraction with numerator e to the power \r\nof 2x and denominator x squared] where x = 1?",
+        "bonusA": "y = e<sup>2</sup> (ACCEPT: y = 0x + e<sup>2</sup>)",
         "category": 4,
         "setNum": 7,
         "roundNum": 13,
@@ -15792,8 +15792,8 @@
         "catDiff": "0.8"
       },
       "6_8_5": {
-        "tossupQ": "MATH  Short Answer  If g(u) =  [g of u equals the integral from 0 to u of \r\nsecant squared of t dt], find g’(u) [g prime of u].",
-        "tossupA": "sec2u",
+        "tossupQ": "MATH  Short Answer  If g(u) =  [the integral from 0 to u of \r\nsecant squared of t dt], find g’(u) [g prime of u].",
+        "tossupA": "sec<sup>2</sup>u",
         "bonusQ": "MATH  Short Answer  Factor completely the expression: 5rs + 25r – 3s – 15.",
         "bonusA": "(s + 5)(5r – 3)",
         "category": 4,
@@ -15852,10 +15852,10 @@
         "catDiff": "0.8"
       },
       "6_8_11": {
-        "tossupQ": "MATH  Short Answer  How many terms does the binomial expansion of (x2 + 2y3)20 [open \r\nparenthesis x squared plus 2 y cubed close parenthesis to the power of 20] contain?",
+        "tossupQ": "MATH  Short Answer  How many terms does the binomial expansion of (x2 + 2y3)<sup>20</sup> contain?",
         "tossupA": "21",
-        "bonusQ": "MATH  Multiple Choice  Which of the following functions has an oblique asymptote? \r\n \r\nW) f(x) = (x5 + 1)/(x4 + 3x2 + 2) [f of x equals open parenthesis x to the fifth plus 1 close \r\nparenthesis over open parenthesis x to the fourth plus 3 x squared plus 2 close \r\nparenthesis] \r\n \r\nX) f(x) = (x2 + 1)/(x3 - x2 - 1) [f of x equals open parenthesis x squared plus 1 close \r\nparenthesis over open parenthesis x cubed minus x squared minus 1 close parenthesis] \r\n \r\nY) f(x) = (4x2 + x + 1)/x2 [f of x equals open parenthesis 4 x squared plus x plus 1 close \r\nparenthesis over x squared] \r\n \r\nZ) f(x) = x5/(x2 - 1) [f of x equals x to the fifth over open parenthesis x squared minus 1 \r\nclose parenthesis]",
-        "bonusA": "W) f(x) = (x5 + 1)/(x4 + 3x2 + 2)",
+        "bonusQ": "MATH  Multiple Choice  Which of the following functions has an oblique asymptote? \r\n \r\nW) f(x) = (x<sup>5</sup> + 1)/(x<sup>4</sup> + 3x<sup>2</sup> + 2) \r\n \r\nX) f(x) = (x<sup>2</sup> + 1)/(x<sup>3</sup> - x<sup>2</sup> - 1) \r\n \r\nY) f(x) = (4x<sup>2</sup> + x + 1)/x<sup>2</sup> \r\n \r\nZ) f(x) = x<sup>5</sup>/(x<sup>2</sup> - 1)",
+        "bonusA": "W) f(x) = (x<sup>5</sup> + 1)/(x<sup>4</sup> + 3x<sup>2</sup> + 2)",
         "category": 4,
         "setNum": 6,
         "roundNum": 8,
@@ -15874,8 +15874,8 @@
       "6_8_13": {
         "tossupQ": "MATH  Short Answer  Given f(x) = x + 1 and g(x) = 3x, what is f(g(x)) [f of g of x]?",
         "tossupA": "3x + 1",
-        "bonusQ": "MATH  Short Answer  If g(b) = 6b3 – 4b2 + b + 4b -1 [g of b equals 6 b cubed minus 4 b \r\nsquared plus b plus 4 b to the negative 1], what is g’(b) [g prime of b]?",
-        "bonusA": "18b2 – 8b + 1 – 4b-2 (ACCEPT: 18b2 – 8b + 1 –  )",
+        "bonusQ": "MATH  Short Answer  If g(b) = 6b<sup>3</sup> – 4b<sup>2</sup> + b + 4b <sup>-1</sup> , what is g’(b) [g prime of b]?",
+        "bonusA": "18b<sup>2</sup> – 8b + 1 – 4b<sup>-2</sup>  (ACCEPT: 18b<sup>2</sup> – 8b + 1 - 4/b<sup>2</sup> )",
         "category": 4,
         "setNum": 6,
         "roundNum": 8,
@@ -15932,7 +15932,7 @@
         "catDiff": "0.8"
       },
       "6_8_19": {
-        "tossupQ": "MATH  Multiple Choice  Which of the following is an identity? \r\n \r\nW) cos(2x) = 2 cos(x)[cosine of 2x equals 2 cosine of x] \r\nX) sin(2x) = 2 sin(x) cos(x) [sine of 2 x equals 2 sine of x cosine of x] \r\n Y) cos(x + y) = cos(x) + cos(y) [cosine of the quantity x plus y equals cosine of x plus \r\ncosine of y] \r\nZ) sin(x - y) = sin(x) - sin(y) [sine of the quantity x minus y equals sine of x minus sine of y]",
+        "tossupQ": "MATH  Multiple Choice  Which of the following is an identity? \r\n \r\nW) cos(2x) = 2 cos(x) \r\nX) sin(2x) = 2 sin(x) cos(x)  \r\n Y) cos(x + y) = cos(x) + cos(y)  \r\nZ) sin(x - y) = sin(x) - sin(y)",
         "tossupA": "X) sin(2x) = 2 sin(x) cos(x)",
         "bonusQ": "MATH  Short Answer  For Valentine’s Day, Adam bought several dozen roses and several \r\ndozen carnations. The roses cost $15 per dozen, and the carnations cost $8 per dozen. Adam \r\nbought a total of 17 dozen flowers and paid a total of $192. How many dozen roses did he buy?",
         "bonusA": "8",
@@ -16042,10 +16042,10 @@
         "catDiff": "0.14"
       },
       "2_14_5": {
-        "tossupQ": "MATH  Multiple Choice Which of the following trigonometric relationships is TRUE: \r\n \r\nW)  sine θ × cotangent θ = 1    (read θ as theta) \r\nX)  tangent θ × cotangent θ = 1 \r\nY)  secant θ – cosine θ = 1 \r\nZ)  sine θ + cosecant θ = 1",
+        "tossupQ": "MATH  Multiple Choice Which of the following trigonometric relationships is TRUE: \r\n \r\nW)  sine θ × cotangent θ = 1   \r\nX)  tangent θ × cotangent θ = 1 \r\nY)  secant θ – cosine θ = 1 \r\nZ)  sine θ + cosecant θ = 1",
         "tossupA": "X)  TANGENT θ × COTANGENT θ = 1",
         "bonusQ": "MATH  Short Answer  Given the points, (0, 0) and (–4/5, 3/5), find the distance between them:",
-        "bonusA": "1  (ACCEPT: 1) \r\n \r\n(Solution:  r2 = (x1 – 0)2 + (y1 – 0)2;  = (–4/5)2 + (3/5)2;  = 1)",
+        "bonusA": "1  (ACCEPT: 1) \r\n \r\n(Solution:  r2 = (x1 – 0)<sup>2</sup> + (y1 – 0)<sup>2</sup>;  = (–4/5)<sup>2</sup> + (3/5)<sup>2</sup>;  = 1)",
         "category": 4,
         "setNum": 2,
         "roundNum": 14,
@@ -16124,7 +16124,7 @@
       "2_14_13": {
         "tossupQ": "MATH  Multiple Choice  For a population of 100 individuals with a normal distribution, how \r\nmany individuals will be found to fall greater than 1 standard deviation above the mean: \r\n \r\nW)  12 \r\nX)  16 \r\nY)  32 \r\nZ)  68",
         "tossupA": "X)  16",
-        "bonusQ": "MATH  Short Answer  Solving for x, find the roots of the following equation:  x2 – 2x – 2 = 0",
+        "bonusQ": "MATH  Short Answer  Solving for x, find the roots of the following equation:  x<sup>2</sup> – 2x – 2 = 0",
         "bonusA": "x = 1 ± 3   (ACCEPT:  x = 1 + 3  AND  x = 1 - 3)",
         "category": 4,
         "setNum": 2,
@@ -16202,9 +16202,9 @@
         "catDiff": "0.14"
       },
       "2_14_21": {
-        "tossupQ": "MATH  Short Answer  Find sin 2θ (read as: sine 2 theta) given that tan θ (read as:  tangent \r\ntheta) equals minus three-fourths and θ is in the second quadrant:",
-        "tossupA": "– \r\n25\r\n24 \r\n \r\n(Solution:  sin θ = 3/5;  cos θ = -4/5;  sin 2θ = 2 sin θ cos θ; = 2(3/5)(-4/5) = -24/25)",
-        "bonusQ": "MATH  Short Answer  Find the solution set of the following equation:  x2 + 6x + 6 = 0",
+        "tossupQ": "MATH  Short Answer  Find sin 2θ (read as: sine 2 theta) given that tangent \r\ntheta) equals minus three-fourths and θ is in the second quadrant:",
+        "tossupA": "-24/25 \r\n \r\n(Solution:  sin θ = 3/5;  cos θ = -4/5;  sin 2θ = 2 sin θ cos θ; = 2(3/5)(-4/5) = -24/25)",
+        "bonusQ": "MATH  Short Answer  Find the solution set of the following equation:  x<sup>2</sup> + 6x + 6 = 0",
         "bonusA": "-3 ± 3",
         "category": 4,
         "setNum": 2,
@@ -16282,9 +16282,9 @@
         "catDiff": "3.11"
       },
       "6_11_4": {
-        "tossupQ": "MATH  Multiple Choice  Which of the following is equivalent to sin24ºcos17º + cos24ºsin17º \r\n[sine of 24 degrees times cosine of 17 degrees plus cosine of 24 degrees times sine of 17 \r\ndegrees]? \r\n \r\nW) Sine of 7º \r\nX) Cosine of 41º \r\nY) Sine of 41º \r\nZ) Tangent of 41º",
+        "tossupQ": "MATH  Multiple Choice  Which of the following is equivalent to sin24ºcos17º + cos24ºsin17º? \r\n \r\nW) Sine of 7º \r\nX) Cosine of 41º \r\nY) Sine of 41º \r\nZ) Tangent of 41º",
         "tossupA": "Y) SINE OF 41º",
-        "bonusQ": "MATH  Short Answer  Solve for x: 5 +  = x + 7 [5 plus the square root of the \r\nquantity x plus 14 equals x plus 7].",
+        "bonusQ": "MATH  Short Answer  Solve for x: 5 + &radic;(x+14) = x + 7.",
         "bonusA": "2 (DO NOT ACCEPT: -5)",
         "category": 4,
         "setNum": 6,
@@ -16344,7 +16344,7 @@
       "6_11_10": {
         "tossupQ": "MATH  Short Answer  If the exterior angle of a base angle of an isosceles [eye-SOS-uh-\r\nlees] triangle measures 141º, what is the measure of the vertex angle?",
         "tossupA": "102°",
-        "bonusQ": "MATH  Short Answer  If f(x) = -2x - ex [f of x equals negative 2x minus e to the x], what is \r\nthe range of f’ [the derivative of f]?",
+        "bonusQ": "MATH  Short Answer  If f(x) = -2x - e<sup>x</sup> [f of x equals negative 2x minus e to the x], what is \r\nthe range of f’ [the derivative of f]?",
         "bonusA": "(-∞, -2) (ACCEPT: x < -2 or THE OPEN INTERVAL FROM NEGATIVE INFINITY TO \r\n-2)",
         "category": 4,
         "setNum": 6,
@@ -16403,7 +16403,7 @@
       },
       "6_11_16": {
         "tossupQ": "MATH  Short Answer  Providing your answer as a fraction in lowest terms, if a family has \r\nexactly four children, what is the probability of having three girls and one boy?",
-        "tossupA": "¼",
+        "tossupA": "1/4",
         "bonusQ": "MATH  Short Answer  If the radius of a spherical balloon is expanding at the rate of 5 inches \r\nper second, assuming the initial volume is 0 and providing your answer as an improper fraction \r\nin lowest terms, what is its volume in inches cubed in terms of π after 2 seconds?",
         "bonusA": "4000π/3",
         "category": 4,
@@ -16462,9 +16462,9 @@
         "catDiff": "3.11"
       },
       "6_11_22": {
-        "tossupQ": "MATH  Multiple Choice  Given triangle ABC with right angle A, angle B with a measure of \r\n30o, and AC equal to , which of the following is the length of side AB? \r\n \r\nW) 9 \r\nX) 6 \r\nY) 9 \r\nZ) 12",
+        "tossupQ": "MATH  Multiple Choice  Given triangle ABC with right angle A, angle B with a measure of \r\n30&deg;, and AC equal to 3&radic;3, which of the following is the length of side AB? \r\n \r\nW) 9 \r\nX) 6&radic;3 \r\nY) 9&radic;3 \r\nZ) 12&radic;3",
         "tossupA": "W) 9",
-        "bonusQ": "MATH  Short Answer  What are the radius and the coordinates of the center of the circle \r\nwith equation x2 + 6x + y2 + 8y = 0?",
+        "bonusQ": "MATH  Short Answer  What are the radius and the coordinates of the center of the circle \r\nwith equation x<sup>2</sup> + 6x + y<sup>2</sup> + 8y = 0?",
         "bonusA": "RADIUS = 5; CENTER = (-3, -4)",
         "category": 4,
         "setNum": 6,
