@@ -138,7 +138,23 @@ angular.module('IonicGulpSeed')
             });
         }
 
+        $scope.hideSplash = false;
+//        $ionicPlatform.ready(function () {
+        $scope.showSplash = function() {
+            //listener();
+            if (navigator.splashscreen) {
+                navigator.splashscreen.hide();
+                //hides first splash screen.
+            }
+            console.log("SPLASHING");
+            //$scope.showSplash = true;
+            $timeout(function() {
+                $scope.hideSplash = true;
+            }, 2200);
+        };
+
         document.addEventListener('deviceready', function() {
+        //$ionicPlatform.ready(function () {
             $scope.updated = 0;
             try {
                 codePush.sync(function (status) {
@@ -152,39 +168,33 @@ angular.module('IonicGulpSeed')
                         case SyncStatus.INSTALLING_UPDATE:
                             console.log("installing  update");
                             break;
-                        case SyncStatus.UP_TO_DATE:
-                        case SyncStatus.UPDATE_INSTALLED:
+                        //case SyncStatus.UP_TO_DATE:
+                        //case SyncStatus.UPDATE_INSTALLED:
                         default:
                             console.log("done with CODEPUSH.");
                             $scope.updated = 1;
+                            $scope.showSplash();
                             break;
                     }
                 });
             }
             catch (e) {
-                console.log("CODEPUSH FAILED"+e);
+                console.log("CODEPUSH FAILED" + e);
                 $scope.updated = 1;
+                $scope.showSplash();
             }
+
         }, false);
 
-        $scope.hideSplash = false;
-        $ionicPlatform.ready(function () {
-            var listener;
-            //listener = $scope.$watch('updated', function() {
-            //    if (!$scope.updated) return;
-                listener();
-                if (navigator.splashscreen) {
-                    navigator.splashscreen.hide();
-                    //hides first splash screen.
-                }
-                console.log("SPLASHING");
-                //$scope.showSplash = true;
-                $timeout(function() {
-                    $scope.hideSplash = true;
-                }, 3000)
-            //});
+        if (! window.device) {
+            $scope.showSplash();
+        }
 
-        });
-        console.warn("CODE PUSH V1.0.0");
+
+
+
+
+        //});
+        //alert("CODE PUSH V1.0.0");
 
     });
