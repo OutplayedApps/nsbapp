@@ -1123,7 +1123,7 @@
       },
       "2_4_13": {
         "tossupQ": "MATH  Short Answer  What is the formula for the volume of a sphere?",
-        "tossupA": "3\r\n4πr<sup>3</sup>  (read as:  four third pi radius cubed)",
+        "tossupA": "4/3 πr<sup>3</sup>",
         "bonusQ": "MATH  Short Answer  Subtract the following 2 polynomials: (-4x<sup>3</sup>y + 2x<sup>3</sup>y<sup>2</sup> + 2x<sup>2</sup>y<sup>3</sup> + 2y) – (4x<sup>3</sup>y – 7x<sup>3</sup>y<sup>2</sup> + x<sup>2</sup>y<sup>3</sup> – y)",
         "bonusA": "–8x<sup>3</sup>y + 9x<sup>3</sup>y<sup>2</sup> + x<sup>2</sup>y<sup>3</sup> + 3y",
         "category": 4,
@@ -4052,7 +4052,7 @@
         "catDiff": "2.7"
       },
       "4_7_6": {
-        "tossupQ": "PHYSICS  Multiple Choice  The mass of a raindrop is 4 milligrams. Which of the following \r\nrepresents the correct mass in grams of the raindrop? \r\n \r\nW) 4 × 10\r\n-3\r\n \r\nX) 4 × 10\r\n-1\r\n \r\nY) 4 × 10\r\n3\r\n \r\nZ) 4 × 10\r\n6",
+        "tossupQ": "PHYSICS  Multiple Choice  The mass of a raindrop is 4 milligrams. Which of the following \r\nrepresents the correct mass in grams of the raindrop? \r\n \r\nW) 4 × 10\r\n-3\r\n \r\nX) 4 × 10\r\n-1\r\n \r\nY) 4 × 10<sup>3</sup> \r\nZ) 4 × 10<sup>6</sup>",
         "tossupA": "W) 4 × 10\r\n-3",
         "bonusQ": "PHYSICS  Multiple Choice  A freely falling object has a constant acceleration of 9.8 meters \r\nper second squared. Which of the following is correct? \r\n \r\nW) The object’s displacement changes by 9.8 meters every second squared \r\nX) The object’s acceleration increases by 9.8 meters per second squared each second \r\nY) The object travels 9.8 meters each second \r\nZ) The object’s speed increases by 9.8 meters per second each second",
         "bonusA": "Z) THE OBJECT’S SPEED INCREASES BY 9.8 METERS PER SECOND EACH \r\nSECOND",
@@ -5625,7 +5625,7 @@
         "tossupQ": "GENERAL SCIENCE Short Answer  In the mks system, what are the 3 fundamental units?",
         "tossupA": "METERS;  KILOGRAMS;  SECONDS",
         "bonusQ": "GENERAL SCIENCE  Short Answer  Giving your answer in scientific notation, convert 10 \r\nsquare meters into square millimeters:",
-        "bonusA": "1 × 10\r\n7\r\n  (DO NOT ACCEPT: 10\r\n7\r\n)",
+        "bonusA": "1 × 10<sup>7</sup>  (DO NOT ACCEPT: 10<sup>7</sup>)",
         "category": 6,
         "setNum": 3,
         "roundNum": 1,
@@ -6383,7 +6383,7 @@
       },
       "3_13_14": {
         "tossupQ": "ASTRONOMY  Short Answer  If the temperature of an object is doubled, and all other things \r\nremain the same, how many times as fast will it radiate energy?",
-        "tossupA": "16  (ACCEPT:  2\r\n4\r\n)",
+        "tossupA": "16  (ACCEPT:  2<sup>4</sup>)",
         "bonusQ": "ASTRONOMY  Short Answer  How many sidereal minutes are in 4 sidereal hours?",
         "bonusA": "240",
         "category": 0,
@@ -19304,8 +19304,8 @@
       "3_7_6": {
         "tossupQ": "GENERAL SCIENCE  Multiple Choice  As a close relative to the bacteria that cause botulism \r\nand gas gangrene, which of the following bacteria are a growing concern in hospitals, killing patients \r\nwho have been treated with antibiotics: \r\n \r\nW)  Bacillus anthracis (read as: an-THRAY-sis) \r\nX)  Clostridium difficile \r\nY)  Treponema pallidium  (read as: Trep-oh-KNEE-mah pal-LID-ee-um) \r\nZ)  Vibrio cholera",
         "tossupA": "X)  CLOSTRIDIUM DIFFICILE",
-        "bonusQ": "GENERAL SCIENCE  Multiple Choice  The length of the longest side of a U.S. dollar bill is \r\nabout how many nanometers in length: \r\n \r\nW)  70 million  \r\nX)  1.10 × 10\r\n6\r\n  \r\nY)  1.55 × 10\r\n8\r\n  \r\nZ)  600 million",
-        "bonusA": "Y)  1.55 × 10\r\n8",
+        "bonusQ": "GENERAL SCIENCE  Multiple Choice  The length of the longest side of a U.S. dollar bill is \r\nabout how many nanometers in length: \r\n \r\nW)  70 million  \r\nX)  1.10 × 10<sup>6</sup>  \r\nY)  1.55 × 10<sup>8</sup>  \r\nZ)  600 million",
+        "bonusA": "Y)  1.55 × 10<sup>8</sup>",
         "category": 6,
         "setNum": 3,
         "roundNum": 7,
@@ -21324,8 +21324,8 @@
       "3_9_8": {
         "tossupQ": "PHYSICS  Short Answer  What is the acceleration, in meters per second squared, of a  \r\n10-kilogram snow sled that is on a frictionless horizontal surface if a horizontal force of 500 newtons \r\nis applied to it?",
         "tossupA": "50  \r\n \r\n(Solution:  A = F/M;  A = 500/10; A = 50 m/sec<sup>2</sup>)",
-        "bonusQ": "PHYSICS  Multiple Choice  What is the speed of light in meters per second for monochromatic \r\nlight of 780 nanometers in glass with a refractive index of 1.55: \r\n \r\nW)  1.5 × 10\r\n8 \r\n \r\nX)  1.9 × 10\r\n8\r\n \r\nY)  4.65 × 10\r\n7\r\n \r\nZ)  4.65 × 10\r\n8",
-        "bonusA": "X) 1.9 × 10\r\n8 (Solution: 3.00 × 10\r\n8\r\n/1.55 = 1.9 × 10\r\n8\r\n)",
+        "bonusQ": "PHYSICS  Multiple Choice  What is the speed of light in meters per second for monochromatic \r\nlight of 780 nanometers in glass with a refractive index of 1.55: \r\n \r\nW)  1.5 × 10\r\n8 \r\n \r\nX)  1.9 × 10<sup>8</sup> \r\nY)  4.65 × 10<sup>7</sup> \r\nZ)  4.65 × 10<sup>8</sup>",
+        "bonusA": "X) 1.9 × 10\r\n8 (Solution: 3.00 × 10<sup>8</sup>/1.55 = 1.9 × 10<sup>8</sup>)",
         "category": 3,
         "setNum": 3,
         "roundNum": 9,
@@ -21585,7 +21585,7 @@
         "tossupQ": "CHEMISTRY  Multiple Choice  According to the Arrhenius theory, an Arrhenius acid is any \r\nsubstance that does which of the following in a chemical reaction: \r\n \r\nW)  donates a pair of electrons \r\nX)  accepts a pair of electrons \r\nY)  produces H\r\n+\r\n ions in aqueous solution \r\nZ)  produces OH\r\n–\r\n ions in aqueous solution",
         "tossupA": "Y)  PRODUCES H\r\n+\r\n IONS IN AQUEOUS SOLUTION",
         "bonusQ": "CHEMISTRY  Short Answer  If you were to evaporate 1 liter or kilogram of water, how many \r\ncalories of latent heat are stored in the vapor?",
-        "bonusA": "540,000  (ACCEPT:  5.4 × 10\r\n5\r\n) \r\n \r\n(Solution:  lat heat\r\nvap\r\n = 540cal/g)",
+        "bonusA": "540,000  (ACCEPT:  5.4 × 10<sup>5</sup>) \r\n \r\n(Solution:  lat heat\r\nvap\r\n = 540cal/g)",
         "category": 2,
         "setNum": 3,
         "roundNum": 6,
@@ -21623,7 +21623,7 @@
       },
       "3_6_13": {
         "tossupQ": "GENERAL SCIENCE  Short Answer  One metric ton equals how many grams?",
-        "tossupA": "ONE MILLION  (ACCEPT:  1 × 10\r\n6\r\n or 10\r\n6\r\n)",
+        "tossupA": "ONE MILLION  (ACCEPT:  1 × 10<sup>6</sup> or 10\r\n6\r\n)",
         "bonusQ": "GENERAL SCIENCE  Short Answer  Gout in humans is the result of the precipitation of what \r\nsubstance in joints?",
         "bonusA": "URIC ACID  (ACCEPT:  LITHIC ACID or TRIKETOPURINE)",
         "category": 6,
@@ -23014,7 +23014,7 @@
       "7_15_2": {
         "tossupQ": "MATH Short Answer What is the slope-intercept form of the equation of the line  \r\nthat is tangent to the circle with equation x<sup>2</sup> + y<sup>2</sup> = 25 at the point (-3, 4)?",
         "tossupA": "y = 3/4 x + 25/4",
-        "bonusQ": "MATH Multiple Choice Given the two sequences s1 with nth term  2푛+6  and s2 with nth term  \r\n푛\r\n5+푛, which of the following statements is correct? \r\n \r\nW) s1 and s2 are both increasing \r\nX) s1 is increasing and s2 is decreasing \r\nY) s1 is decreasing and s2 is increasing \r\nZ) s1 and s2 are both decreasing",
+        "bonusQ": "MATH Multiple Choice Given the two sequences s1 with nth term  2/(n+6) and s2 with nth term  n/(5+n), which of the following statements is correct? \r\n \r\nW) s1 and s2 are both increasing \r\nX) s1 is increasing and s2 is decreasing \r\nY) s1 is decreasing and s2 is increasing \r\nZ) s1 and s2 are both decreasing",
         "bonusA": "Y) s1 IS DECREASING AND s2 IS INCREASING",
         "category": 4,
         "setNum": 7,
@@ -23074,8 +23074,8 @@
       "7_15_8": {
         "tossupQ": "MATH Short Answer If the graph of the complex number z = 3 + 4i is rotated 90° \r\ncounterclockwise, what complex number is represented by the result?",
         "tossupA": "-4 + 3i",
-        "bonusQ": "MATH Multiple Choice Which of the following is a solution for x of the equation 2푥−2=휋푥 [2 \r\nto the quantity x minus 2 equals pi to the x]? \r\n \r\nW) 푙푙푙(4)푙푙푙(2)−푙푙푙(휋) [the fraction with numerator log of 4 and denominator log of 2 minus log of \r\npi]  \r\nX) 푙푙푙(4)푙푙푙(휋)−푙푙푙(2) [the fraction with numerator log of 4 and denominator log of pi minus log of \r\n2] \r\nY) 푙푙푙(휋)−푙푙푙(2)푙푙푙(4) [the fraction with numerator log of pi minus log of 2 and denominator log of \r\n4] \r\n \r\nZ) 푙푙푙(2)−푙푙푙(휋)푙푙푙(4) [the fraction with numerator log of 2 minus log of pi and denominator log of \r\n4]",
-        "bonusA": "W) 푙푙푙(4)푙푙푙(2)−푙푙푙(휋)",
+        "bonusQ": "MATH Multiple Choice Which of the following is a solution for x of the equation 2<sup>x-2</sup> = pi<sup>x</sup> ? \r\n \r\nW) (log 4)/(log 2 - log pi) X) (log 4)/(log pi - log 2) Y) (log pi - log 2)/(log 4) Z) (log 2 - log pi)/(log 4)",
+        "bonusA": "W) (log 4)/(log 2 - log pi)",
         "category": 4,
         "setNum": 7,
         "roundNum": 15,
@@ -23134,8 +23134,8 @@
       "7_15_14": {
         "tossupQ": "MATH Multiple Choice A jar contains 500 jellybeans, 100 each of red, white, blue, orange, \r\nand green. If you reach in without looking, how many jellybeans must you grab to be certain that \r\nat least five are of the same color?  \r\n \r\nW) 6 \r\nX) 21 \r\nY) 25 \r\nZ) 26",
         "tossupA": "X) 21",
-        "bonusQ": "MATH Short Answer Find h(t) if 2h'(t) - h(t) = 0 [2h prime of t minus h of t equals zero] \r\nand h(0) = 10.",
-        "bonusA": "h(t) = 10 e(1/2)t  (ACCEPT: 10 e(1/2)t )",
+        "bonusQ": "MATH Short Answer Find h(t) if 2h'(t) - h(t) = 0  \r\nand h(0) = 10.",
+        "bonusA": "h(t) = 10 e<sup>(1/2)t</sup>",
         "category": 4,
         "setNum": 7,
         "roundNum": 15,
@@ -23194,8 +23194,8 @@
       "7_15_20": {
         "tossupQ": "MATH Multiple Choice Box A contains 4 chips numbered 1 through 4 and Box B contains 5 \r\nchips numbered 1 through 5. A chip is drawn from each box and the product of the two values \r\ndrawn is denoted by x. What is the probability that x is even? \r\n \r\nW) 1/2 \r\nX) 2/3 \r\nY) 7/10 \r\nZ) 3/4",
         "tossupA": "Y) 7/10",
-        "bonusQ": "MATH Short Answer Find an antiderivative for 푦=푥푥−푥\r\n1T\r\n.",
-        "bonusA": "-(x + 1) e-x (ACCEPT: -xe-x - e-x, OR EITHER ANSWER +/- ANY CONSTANT)",
+        "bonusQ": "MATH Short Answer Find an antiderivative for xe<sup>-x</sup>.",
+        "bonusA": "-(x + 1) e<sup>-x</sup> (ACCEPT: -xe<sup>-x</sup> - e<sup>-x</sup>, OR EITHER ANSWER +/- ANY CONSTANT)",
         "category": 4,
         "setNum": 7,
         "roundNum": 15,
@@ -23302,7 +23302,7 @@
         "catDiff": "1.7"
       },
       "5_7_6": {
-        "tossupQ": "MATH  Multiple Choice  Which of the following is NOT true about the function y = |x| (read as: \r\ny equals the absolute value of x)? \r\n \r\nW) It is symmetric around the y-axis \r\nX) The derivative of the function does not exist at x = 0 \r\nY) It is monotonic \r\nZ) The integral of the function over the real line is unbounded",
+        "tossupQ": "MATH  Multiple Choice  Which of the following is NOT true about the function y = |x| ? \r\n \r\nW) It is symmetric around the y-axis \r\nX) The derivative of the function does not exist at x = 0 \r\nY) It is monotonic \r\nZ) The integral of the function over the real line is unbounded",
         "tossupA": "Y) IT IS MONOTONIC",
         "bonusQ": "MATH  Short Answer  Suppose that g is the inverse function of f, f(-1) = 2 (read as: f of \r\nnegative 1 equals 2), and f’(-1) = -2 (read as: f prime of negative 1 equals negative 2). Find g’(2) \r\n(read as: g prime of 2).",
         "bonusA": "-1/2",
@@ -23334,7 +23334,7 @@
       "5_7_9": {
         "tossupQ": "PHYSICS  Short Answer  By name or number, identify how antimatter interacts gravitationally \r\nwith ordinary matter: 1) it is attracted, 2) it is repelled, or 3) there is no interaction.",
         "tossupA": "IT IS ATTRACTED (ACCEPT: 1)",
-        "bonusQ": "PHYSICS  Short Answer  A solid conducting sphere with a radius of 5 centimeters has a \r\ncharge of 5 microcoulombs. Given Coulomb’s constant as 9.0 × 10\r\n9\r\n newton meters squared per \r\ncoulomb squared, what is the magnitude of the electric field in newtons per coulomb at a \r\ndistance of 5 centimeters from the surface of the sphere?",
+        "bonusQ": "PHYSICS  Short Answer  A solid conducting sphere with a radius of 5 centimeters has a \r\ncharge of 5 microcoulombs. Given Coulomb’s constant as 9.0 × 10<sup>9</sup> newton meters squared per \r\ncoulomb squared, what is the magnitude of the electric field in newtons per coulomb at a \r\ndistance of 5 centimeters from the surface of the sphere?",
         "bonusA": "4,500,000",
         "category": 3,
         "setNum": 5,
@@ -23535,7 +23535,7 @@
         "tossupQ": "MATH  Short Answer  A circle has a radius of 8 centimeters.  Find the central angle, in degrees, \r\nof a sector of a circle if its arc length is 2π centimeters:",
         "tossupA": "45 \r\n \r\n(Solution:  arc/circumference = n/360;  n = 45º)",
         "bonusQ": "MATH  Multiple Choice  Which of the following is closest to the radius of a sphere, in meters, \r\ngiven that its volume is 400 cubic meters: \r\n \r\nW)  2.15 \r\nX)  4.57 \r\nY)  6.28 \r\nZ)  9.76",
-        "bonusA": "X)  4.57 \r\n \r\n(Solution:  V = 4/3πr\r\n3\r\n;  400 = 4/3(3.14)(r)\r\n3\r\n; r = \r\n35.95\r\n = 4.57)",
+        "bonusA": "X)  4.57 \r\n \r\n(Solution:  V = 4/3πr<sup>3</sup>;  400 = 4/3(3.14)(r)<sup>3</sup>; r = <sup>3</sup>&radic;(95.5) = 4.57)",
         "category": 4,
         "setNum": 3,
         "roundNum": 11,
@@ -23604,8 +23604,8 @@
       "3_11_11": {
         "tossupQ": "MATH  Multiple Choice  If a population distribution is illustrated as a symmetrical bell shape \r\ncurve, then the median and the mean are: \r\n \r\nW)  not the same  \r\nX)  uncertain \r\nY)  variable \r\nZ)  the same",
         "tossupA": "Z)  THE SAME",
-        "bonusQ": "MATH  Short Answer  Giving your answer in standard form, what is the fourth term in the \r\nbinomial expansion of the following:  (4x + y)\r\n4",
-        "bonusA": "16xy\r\n3 \r\n (ACCEPT:  16y<sup>3</sup>x)",
+        "bonusQ": "MATH  Short Answer  Giving your answer in standard form, what is the fourth term in the \r\nbinomial expansion of the following:  (4x + y)<sup>4</sup>",
+        "bonusA": "16xy<sup>3</sup> (ACCEPT:  16y<sup>3</sup>x)",
         "category": 4,
         "setNum": 3,
         "roundNum": 11,
@@ -23672,10 +23672,10 @@
         "catDiff": "1.11"
       },
       "3_11_18": {
-        "tossupQ": "MATH  Multiple Choice  Which of the following has a graph that is a parabola that opens \r\ndownward: \r\n \r\nW)  f(x) = 3x + 1 \r\nX)  f(x) = x<sup>2</sup> – 2  \r\nY)  f(x) = –x<sup>2</sup>  \r\nZ)  f(x) = x\r\n3",
-        "tossupA": "Y)  f(x) = –x\r\n2",
-        "bonusQ": "MATH  Short Answer  Find the 101\r\nst\r\n term in the arithmetic sequence whose first three terms are \r\n5, 11, and 17:",
-        "bonusA": "605 \r\n \r\n(Solution:  a\r\nn\r\n = a\r\n1\r\n + (n – 1)d;  = 5 + (101 – 1)(6) = 605)",
+        "tossupQ": "MATH  Multiple Choice  Which of the following has a graph that is a parabola that opens \r\ndownward: \r\n \r\nW)  f(x) = 3x + 1 \r\nX)  f(x) = x<sup>2</sup> – 2  \r\nY)  f(x) = –x<sup>2</sup>  \r\nZ)  f(x) = x<sup>3</sup>",
+        "tossupA": "Y)  f(x) = –x<sup>2</sup>",
+        "bonusQ": "MATH  Short Answer  Find the 101st\r\n term in the arithmetic sequence whose first three terms are \r\n5, 11, and 17:",
+        "bonusA": "605 \r\n \r\n(Solution:  a<sub>n</sub> = a<sub>1</sub>+ (n – 1)d;  = 5 + (101 – 1)(6) = 605)",
         "category": 4,
         "setNum": 3,
         "roundNum": 11,
@@ -23802,7 +23802,7 @@
         "catDiff": "0.10"
       },
       "3_10_6": {
-        "tossupQ": "MATH  Short Answer  Expand the following expression, giving your answer in standard \r\nbinomial form:  (6x + 3y)\r\n2",
+        "tossupQ": "MATH  Short Answer  Expand the following expression, giving your answer in standard \r\nbinomial form:  (6x + 3y)<sup>2</sup>",
         "tossupA": "36x<sup>2</sup> + 36xy + 9y\r\n2",
         "bonusQ": "MATH  Short Answer  Consider a blue circle inscribed in a white square.  If the radius of the \r\ncircle is 10 centimeters, what is the area of all visible white portions of the square, to the nearest \r\nwhole number in centimeters squared?",
         "bonusA": "86 \r\n \r\n(Solution: A square = 20\r\n2\r\n = 400;  A circle = πr\r\n2\r\n = 100π = 314;  400 – 314 = 86cm\r\n2\r\n)",
@@ -26773,8 +26773,8 @@
       "5_12_3": {
         "tossupQ": "PHYSICS  Multiple Choice  Consider charges +Q and +4Q, separated by 3 meters. At which \r\nof the following points on a line between the two charges can a charge –Q be placed so that it \r\nwill experience no electrostatic force? \r\n \r\nW) 1 meter from +Q \r\nX) 1 meter from +4Q \r\nY) 0.6 meter from +Q \r\nZ) 0.6 meter from +4Q",
         "tossupA": "W) 1 METER FROM +Q",
-        "bonusQ": "PHYSICS  Short Answer  A bucket is filled with water to a depth of 20 centimeters. A layer of \r\noil 30 centimeters thick with a specific gravity of 0.7 is poured on top of the water. Given that 1 \r\natmosphere is 1.01 × 10\r\n5\r\n pascals and providing your answer in scientific notation with three \r\nsignificant digits, what is the absolute pressure, in pascals, at the bottom of the container?",
-        "bonusA": "1.05 × 10\r\n5",
+        "bonusQ": "PHYSICS  Short Answer  A bucket is filled with water to a depth of 20 centimeters. A layer of \r\noil 30 centimeters thick with a specific gravity of 0.7 is poured on top of the water. Given that 1 \r\natmosphere is 1.01 × 10<sup>5</sup> pascals and providing your answer in scientific notation with three \r\nsignificant digits, what is the absolute pressure, in pascals, at the bottom of the container?",
+        "bonusA": "1.05 × 10<sup>5</sup>",
         "category": 3,
         "setNum": 5,
         "roundNum": 12,
@@ -27111,7 +27111,7 @@
         "catDiff": "0.14"
       },
       "5_14_12": {
-        "tossupQ": "PHYSICS  Multiple Choice  If the coulomb constant is 9 × 10\r\n9\r\n newton meters squared per \r\ncoulomb squared, what force, in newtons, will two particles with charges of +2 and -2 coulombs \r\nkept 2 meters apart exert on each other? \r\n \r\nW) 4.5 × 10\r\n9\r\n away from each other  \r\nX) 4.5 × 10\r\n9\r\n toward each other \r\nY) 9.0 ×  10\r\n9\r\n toward each other \r\nZ) 1.8 ×  10\r\n10\r\n toward each other",
+        "tossupQ": "PHYSICS  Multiple Choice  If the coulomb constant is 9 × 10<sup>9</sup> newton meters squared per \r\ncoulomb squared, what force, in newtons, will two particles with charges of +2 and -2 coulombs \r\nkept 2 meters apart exert on each other? \r\n \r\nW) 4.5 × 10<sup>9</sup> away from each other  \r\nX) 4.5 × 10<sup>9</sup> toward each other \r\nY) 9.0 ×  10\r\n9\r\n toward each other \r\nZ) 1.8 ×  10\r\n10\r\n toward each other",
         "tossupA": "Y) 9.0 ×  10\r\n9\r\n TOWARD EACH OTHER",
         "bonusQ": "PHYSICS  Short Answer  Pam buys a pendulum clock at a discount store and discovers \r\nwhen she gets home that it loses 6 minutes each day. If the pendulum has a period of 2 \r\nseconds, by how much must the length be changed, to the nearest centimeter, so that the clock \r\nkeeps accurate time?",
         "bonusA": "1",
@@ -27574,7 +27574,7 @@
         "tossupQ": "PHYSICS  Short Answer  A thermodynamic process that takes place at a constant pressure \r\ncan be described by what adjective?",
         "tossupA": "ISOBARIC",
         "bonusQ": "PHYSICS  Short Answer  Using 9.8 meters per second squared for g and expressing your \r\nanswer in scientific notation to one significant digit, what is the water pressure, in newtons per \r\nsquare meter, at a depth of 2 meters in a swimming pool?",
-        "bonusA": "2 × 10\r\n4",
+        "bonusA": "2 × 10<sup>4</sup>",
         "category": 3,
         "setNum": 5,
         "roundNum": 11,
@@ -27674,7 +27674,7 @@
         "tossupQ": "ENERGY  Short Answer  What kind of chemical reaction is used to produce methane from \r\nalgae decomposition?",
         "tossupA": "ANAEROBIC DIGESTION (ACCEPT: GASIFICATION, PROLYSIS)",
         "bonusQ": "ENERGY  Short Answer  You’re designing a battery pack filled with many cell phone lithium-\r\nion batteries capable of storing 500 megawatt hours of energy. If the battery operates at a \r\nconstant voltage of 3.6 volts, providing your answer in scientific notation with two significant \r\nfigures, what capacity in ampere hours would you need to store 500 megawatt hours of energy?",
-        "bonusA": "1.4 × 10\r\n8",
+        "bonusA": "1.4 × 10<sup>8</sup>",
         "category": 5,
         "setNum": 5,
         "roundNum": 11,
@@ -27783,7 +27783,7 @@
       "5_15_4": {
         "tossupQ": "ENERGY  Short Answer  What specific compound has emerged as a potential redox active \r\nmaterial choice for two-step thermochemical cycling due to its rapid fuel production kinetics and \r\nhigh selectivity?",
         "tossupA": "CERIUM (IV) OXIDE (ACCEPT: CeO\r\n2\r\n, CERIA, CERIC OXIDE)  \r\n(DO NOT ACCEPT: CERIUM OXIDE, CERIUM (III) OXIDE, CERIUM (II) OXIDE)",
-        "bonusQ": "ENERGY  Short Answer  A nuclear power plant is situated on the bank of a river. The power \r\nplant produces 200 megawatts of power and releases 1.5 × 10\r\n13 \r\njoules of heat per day into the \r\nriver through the cooling system. If the flow rate of the river is 5.0 × 10\r\n4\r\n kilograms per second \r\nand the specific heat of water is 4.2 × 10\r\n3 \r\njoules per kilogram degree Celsius, what is the \r\nmaximum temperature increase of the river water due to the cooling system, in degrees Celsius \r\nto the nearest integer?",
+        "bonusQ": "ENERGY  Short Answer  A nuclear power plant is situated on the bank of a river. The power \r\nplant produces 200 megawatts of power and releases 1.5 × 10\r\n13 \r\njoules of heat per day into the \r\nriver through the cooling system. If the flow rate of the river is 5.0 × 10<sup>4</sup> kilograms per second \r\nand the specific heat of water is 4.2 × 10\r\n3 \r\njoules per kilogram degree Celsius, what is the \r\nmaximum temperature increase of the river water due to the cooling system, in degrees Celsius \r\nto the nearest integer?",
         "bonusA": "1",
         "category": 5,
         "setNum": 5,
@@ -27834,7 +27834,7 @@
         "tossupQ": "PHYSICS  Multiple Choice  Which of the following best represents a closed system? \r\n \r\nW) A 2-liter bottle filled with aquatic plants, a fish, water, and a bit of air, sealed with a tight lid \r\nand placed in a window \r\nX) A terrarium with a closed lid, some plants, and a live boa constrictor \r\nY) The Earth  \r\nZ) The universe",
         "tossupA": "Z) THE UNIVERSE",
         "bonusQ": "PHYSICS  Short Answer   An electron microscope enables observation of detail on a virus \r\ndown to 6 nanometers. Given h as 6.6 x 10\r\n−\r\n34\r\n joule seconds and the mass of the electron as 9.1 \r\nx 10\r\n−\r\n31 \r\nkilograms, providing your answer in scientific notation with two significant digits, how fast, \r\nin meters per second, must an electron in the microscope be moving to observe detail of this \r\nsize?",
-        "bonusA": "1.2 × 10\r\n5",
+        "bonusA": "1.2 × 10<sup>5</sup>",
         "category": 3,
         "setNum": 5,
         "roundNum": 15,
@@ -28714,7 +28714,7 @@
         "tossupQ": "PHYSICS  Multiple Choice  If g\r\nE\r\n and g\r\nM\r\n are the accelerations due to gravity on the surfaces \r\nof Earth and the Moon respectively, and if Millikan’s oil drop experiment could be performed on \r\nthe two surfaces, the ratio of the electronic charge on the Moon to the electronic charge on the \r\nEarth would be which of the following? \r\n \r\nW) g\r\nE\r\n/g\r\nM\r\n  \r\nX) 1 \r\nY) g\r\nM\r\n/g\r\nE\r\n  \r\nZ) (g\r\nM\r\n/g\r\nE\r\n)\r\n2",
         "tossupA": "X) 1",
         "bonusQ": "PHYSICS  Short Answer  Providing your answer in scientific notation with two significant \r\ndigits, how much energy in joules is required to heat a clay pizza baking stone with mass of 4.8 \r\nkilograms and a specific heat of 860 joules per kilogram Kelvin from 25° Celsius to 235° \r\nCelsius?",
-        "bonusA": "8.7 × 10\r\n5",
+        "bonusA": "8.7 × 10<sup>5</sup>",
         "category": 3,
         "setNum": 5,
         "roundNum": 10,
@@ -35123,8 +35123,8 @@
         "catDiff": "4.2"
       },
       "3_2_14": {
-        "tossupQ": "GENERAL SCIENCE Short Answer Convert the following value into standard scientific \r\nnotation: 0.00634 × 10\r\n8",
-        "tossupA": "6.34 × 10\r\n5",
+        "tossupQ": "GENERAL SCIENCE Short Answer Convert the following value into standard scientific \r\nnotation: 0.00634 × 10<sup>8</sup>",
+        "tossupA": "6.34 × 10<sup>5</sup>",
         "bonusQ": "GENERAL SCIENCE Short Answer Multiply the following 2 values, giving your answer in \r\nthe correct number of significant figures: 10.1 × 1.201",
         "bonusA": "12.1",
         "category": 6,
@@ -35556,7 +35556,7 @@
         "tossupQ": "GENERAL SCIENCE Multiple Choice Which of the following is NOT true of metric volumes: \r\n \r\nW) a liter is larger than a centiliter \r\nX) a milliliter is smaller than a picoliter \r\nY) a deciliter is smaller than a liter \r\nZ) a microliter is smaller than a milliliter",
         "tossupA": "X) A MILLILITER IS SMALLER THAN A PICOLITER",
         "bonusQ": "GENERAL SCIENCE Short Answer Giving your answer in proper scientific notation with the \r\ncorrect number of significant digits, convert 800 kilometers per hour into meters per hour:",
-        "bonusA": "8 × 10\r\n5",
+        "bonusA": "8 × 10<sup>5</sup>",
         "category": 6,
         "setNum": 3,
         "roundNum": 4,
@@ -40481,6 +40481,16 @@
         "setNum": 4,
         "roundNum": 15,
         "catDiff": "3.15"
+      },
+      "4_15_27": {
+        "tossupQ": "EARTH AND SPACE SCIENCE Multiple Choice Which of the following natural resources is \r\nmost abundant in the continental United States? \r\n \r\nW) Natural gas \r\nX) Petroleum \r\nY) Coal \r\nZ) Uranium \r\n \r\n",
+        "tossupA": "Y) COAL",
+        "bonusQ": "EARTH AND SPACE SCIENCE Short Answer What is the term for the structural geologic \r\nfeature in which there is an increased dip in otherwise gently dipping strata? \r\n \r\n",
+        "bonusA": "MONOCLINE",
+        "category": 0,
+        "setNum": 4,
+        "roundNum": 15,
+        "catDiff": "4.15"
       },
       "4_6_1": {
         "tossupQ": "LIFE SCIENCE Multiple Choice If you are looking at a specimen with a compound \r\nmicroscope using a 40X objective and a 10X eyepiece, what would be the total magnification? \r\n \r\nW) 4 times \r\nX) 40 times \r\nY) 44 times \r\nZ) 400 times",
