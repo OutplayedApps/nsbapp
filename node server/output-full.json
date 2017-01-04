@@ -39376,7 +39376,7 @@
         "tossupQ": "MATH Short Answer What is the degree of the following polynomial: 7x<sup>4</sup>y –5x<sup>3</sup>y<sup>3</sup> + 3xy<sup>3</sup> \r\n– 4",
         "tossupA": "6 \r\n \r\n(Solution: the degree of the term with the largest degree, 3 + 3)",
         "bonusQ": "MATH Short Answer Giving your answer in terms of pi, what is the volume of a cone with a \r\nheight of 8 meters and a base whose diameter is 6 meters?",
-        "bonusA": "24π ,
+        "bonusA": "24π",
         "category": 4,
         "setNum": 3,
         "roundNum": 14,
@@ -40481,6 +40481,16 @@
         "setNum": 4,
         "roundNum": 15,
         "catDiff": "3.15"
+      },
+      "4_15_27": {   
+        "tossupQ": "EARTH AND SPACE SCIENCE Multiple Choice Which of the following natural resources is \r\nmost abundant in the continental United States? \r\n \r\nW) Natural gas \r\nX) Petroleum \r\nY) Coal \r\nZ) Uranium \r\n \r\n",   
+        "tossupA": "Y) COAL",   
+        "bonusQ": "EARTH AND SPACE SCIENCE Short Answer What is the term for the structural geologic \r\nfeature in which there is an increased dip in otherwise gently dipping strata? \r\n \r\n",   
+        "bonusA": "MONOCLINE",    
+        "category": 0,    
+        "setNum": 4,    
+        "roundNum": 15,   
+        "catDiff": "4.15"   
       },
       "4_6_1": {
         "tossupQ": "LIFE SCIENCE Multiple Choice If you are looking at a specimen with a compound \r\nmicroscope using a 40X objective and a 10X eyepiece, what would be the total magnification? \r\n \r\nW) 4 times \r\nX) 40 times \r\nY) 44 times \r\nZ) 400 times",
