@@ -138,17 +138,53 @@ angular.module('IonicGulpSeed')
             });
         }
 
+        document.addEventListener('deviceready', function() {
+            $scope.updated = 0;
+            try {
+                codePush.sync(function (status) {
+                    switch (status) {
+                        case SyncStatus.DOWNLOADING_PACKAGE:
+                            console.log("downloadgin");
+                            break;
+                        case SyncStatus.CHECKING_FOR_UPDATE:
+                            console.log("checking for update");
+                            break;
+                        case SyncStatus.INSTALLING_UPDATE:
+                            console.log("installing  update");
+                            break;
+                        case SyncStatus.UP_TO_DATE:
+                        case SyncStatus.UPDATE_INSTALLED:
+                        default:
+                            console.log("done with CODEPUSH.");
+                            $scope.updated = 1;
+                            break;
+                    }
+                });
+            }
+            catch (e) {
+                console.log("CODEPUSH FAILED"+e);
+                $scope.updated = 1;
+            }
+        }, false);
+
         $scope.hideSplash = false;
         $ionicPlatform.ready(function () {
-            if (navigator.splashscreen) {
-                navigator.splashscreen.hide();
-                //hides first splash screen.
-            }
-            console.log("SPLASHING");
-            //$scope.showSplash = true;
-            $timeout(function() {
-                $scope.hideSplash = true;
-            }, 3000)
+            var listener;
+            //listener = $scope.$watch('updated', function() {
+            //    if (!$scope.updated) return;
+                listener();
+                if (navigator.splashscreen) {
+                    navigator.splashscreen.hide();
+                    //hides first splash screen.
+                }
+                console.log("SPLASHING");
+                //$scope.showSplash = true;
+                $timeout(function() {
+                    $scope.hideSplash = true;
+                }, 3000)
+            //});
+
         });
+        console.warn("CODE PUSH V1.0.0");
 
     });
