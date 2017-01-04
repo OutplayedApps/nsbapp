@@ -69,7 +69,8 @@
     "cordova-plugin-splashscreen",
     "cordova-plugin-whitelist",
     "cordova-plugin-admobpro",
-    "cordova-plugin-facebookads"
+    "cordova-plugin-facebookads",
+    "cordova-plugin-nativeaudio"
   ],
   "cordovaPlatforms": []
 }
