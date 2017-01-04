@@ -191,35 +191,7 @@ angular.module('IonicGulpSeed')
                                         bonusQ: $scope.data.bonusQ
                                     };*/
 
-                                    $scope.fullQuestion = $scope.dataReal.tossupQ.split(/ /);
-                                    $scope.data.tossupQ = "";
-                                    $scope.data.bonusQ = $scope.dataReal.tossupQ;
-                                    var index = 0;
-                                    var initialReadSpeed = 1000/SettingsService.settings.readSpeed;
-
-                                    var updateTossupPosition = function() {
-                                        if ($scope.pauseEverything) {
-                                            return;
-                                        }
-                                        console.log("PAUSEAAA"+$scope.pauseEverything);
-                                        $scope.data.tossupQ += " "+$scope.fullQuestion[index];
-                                        if (index == $scope.fullQuestion.length-1 || $scope.progress != 2) {
-                                            $interval.cancel($scope.promise);
-                                            if ($scope.progress == 2) {
-                                                $scope.nextQuestion();
-                                                console.log("2 HAS BEEN CALLED");
-                                            }
-                                        }
-                                        if (1000/SettingsService.settings.readSpeed != initialReadSpeed) {
-                                            //if speed has changed.
-                                            initialReadSpeed = 1000/SettingsService.settings.readSpeed;
-                                            console.log("updating speed to "+initialReadSpeed);
-                                            $interval.cancel($scope.promise);
-                                            $scope.promise = $interval(updateTossupPosition, initialReadSpeed);
-                                        }
-                                        index++;
-                                    }
-                                    $scope.promise = $interval(updateTossupPosition, initialReadSpeed);
+                                    readQuestion('tossup');
 
                                     return;
                                 case 3:
@@ -233,22 +205,7 @@ angular.module('IonicGulpSeed')
                                     $scope.data.tossupA = $scope.dataReal.tossupA;
                                     return;
                                 case 5:
-                                    $scope.fullQuestion = $scope.dataReal.bonusQ.split(" ");
-                                    $scope.data.bonusQ = "";
-                                    var index = 0;
-                                    $scope.promise = $interval(function() {
-                                        if ($scope.pauseEverything) return;
-                                        $scope.data.bonusQ += " "+$scope.fullQuestion[index];
-                                        if (index == $scope.fullQuestion.length-1 || $scope.progress != 5) {
-                                            $interval.cancel($scope.promise);
-                                            if ($scope.progress == 5) {
-                                                $scope.nextQuestion();
-                                                console.log("5 HAS BEEN CALLED");
-                                            }
-
-                                        }
-                                        index++;
-                                    }, 1000/SettingsService.settings.readSpeed);
+                                    readQuestion('bonus');
                                     return;
                                 case 6:
                                     $interval.cancel($scope.promise);
@@ -277,7 +234,7 @@ angular.module('IonicGulpSeed')
                     var catNumNew = catNum;
                     if (catNum == -1) {
                         while (catNumNew == -1 || catNumNew ==6 || catNumNew == 7) //excludes gen sci, compsci
-                            catNumNew = $scope.catValues[Math.floor(Math.random() * $scope.catValues.length)];
+                            catNumNew  = $scope.catValues[Math.floor(Math.random() * $scope.catValues.length)];
                         //picks a random index from the array.
                     }
                     var maxDifficulty = $scope.HSorMS ? 17 : 18;
@@ -439,7 +396,7 @@ angular.module('IonicGulpSeed')
                     return;
                 }
                 //console.log("PAUSEAAA"+$scope.pauseEverything);
-                console.log("SCOPE DATA TOSSUPQ is "+ $scope.data.bonusQ);
+                //console.log("SCOPE DATA TOSSUPQ is "+ $scope.data.bonusQ);
                 $scope.data[optsQ] += " "+$scope.fullQuestion[index];
                 if (index == $scope.fullQuestion.length-1 || $scope.progress != prog) {
                     $interval.cancel($scope.promise);

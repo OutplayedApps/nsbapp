@@ -137,8 +137,9 @@ angular.module('IonicGulpSeed')
                 cssClass: 'popupAbout'
             });
         }
-
+        window.scope = $scope;
         $scope.hideSplash = false;
+        $scope.updated = 0;
         $ionicPlatform.ready(function () {
             $scope.showSplash = function () {
                 //listener();
@@ -148,24 +149,32 @@ angular.module('IonicGulpSeed')
                 }
                 console.log("SPLASHING");
                 //$scope.showSplash = true;
+                $scope.timeOutShown = false;
                 $timeout(function () {
-                    if ($scope.updated) {
-                        $scope.hideSplash = true;
-                    }
-                    else  {
-                        $scope.$watch('updated', function() {
+                    $scope.timeOutShown = true;
+                    $scope.hideSplash = true;
+
+                    //if ($scope.updated) {
+                    //    $scope.hideSplash = true;
+                    //}
+                    //else {
+
+                        /*$scope.$watch(function() {
+                            return $scope.updated;
+                        }, function (variable) {
+                            console.log("watching");
                             if ($scope.updated) {
                                 $scope.hideSplash = true;
                             }
-                        })
-                    }
+                        });*/
+                    //}
                 }, 2200);
             };
             $scope.showSplash();
-        });
+            });
 
-        document.addEventListener('deviceready', function() {
-        //$ionicPlatform.ready(function () {
+            document.addEventListener('deviceready', function() {
+            //$ionicPlatform.ready(function () {
             $scope.updated = 0;
             try {
                 codePush.sync(function (status) {
@@ -179,11 +188,11 @@ angular.module('IonicGulpSeed')
                         case SyncStatus.INSTALLING_UPDATE:
                             console.log("installing  update");
                             break;
-                        //case SyncStatus.UP_TO_DATE:
-                        //case SyncStatus.UPDATE_INSTALLED:
+
                         default:
                             console.log("done with CODEPUSH.");
-                            $scope.updated = 1;
+                            //$scope.updated = 1;
+                            //$scope.hideSplash = true;
                             break;
                     }
                 });
@@ -191,20 +200,23 @@ angular.module('IonicGulpSeed')
             catch (e) {
                 console.log("CODEPUSH FAILED" + e);
                 $scope.updated = 1;
-                $scope.showSplash();
+                if ($scope.timeOutShown) $scope.hideSplash = true;
+                //$scope.showSplash();
             }
 
-        }, false);
+            //}, false);
 
-        if (! window.device) {
-            $scope.updated = 1;
-        }
+            if (!window.device) {
+                $scope.updated = 1;
+                if ($scope.timeOutShown) $scope.hideSplash = true;
+            }
+        });
 
 
 
 
 
         //});
-        //alert("CODE PUSH V1.0.0");
+        console.warn("CODE PUSH V1.0.0");
 
     });
