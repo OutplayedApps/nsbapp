@@ -35874,7 +35874,7 @@
       },
       "3_9_14": {
         "tossupQ": "MATH Short Answer What is the total number of unique subsets of a set with 5 elements?",
-        "tossupA": "32 \r\n \r\n(Solution: 2\r\n5\r\n = 32)",
+        "tossupA": "32 \r\n \r\n(Solution: 2\r\n<sup>5</sup>\r\n = 32)",
         "bonusQ": "MATH Short Answer Rounded to the nearest whole number, find the distance between two \r\npoints whose coordinates are (7, 5) and (9, 15)?",
         "bonusA": "10",
         "category": 4,
@@ -35925,8 +35925,8 @@
       "3_9_19": {
         "tossupQ": "MATH Short Answer In how many different ways can 5 different puppets be ordered across a \r\nshelf?",
         "tossupA": "120 \r\n \r\n(Solution: 5! = 120)",
-        "bonusQ": "MATH Short Answer Expand the following expression, giving your answer in standard \r\nbinomial form: (5x – 25)\r\n2",
-        "bonusA": "25x\r\n2\r\n – 250x + 625",
+        "bonusQ": "MATH Short Answer Expand the following expression, giving your answer in standard \r\nbinomial form: (5x – 25)\r\n<sup>2</sup>",
+        "bonusA": "25x\r\n<sup>2</sup>\r\n – 250x + 625",
         "category": 4,
         "setNum": 3,
         "roundNum": 9,
@@ -35973,10 +35973,10 @@
         "catDiff": "0.9"
       },
       "3_9_24": {
-        "tossupQ": "MATH Short Answer Solve the following logarithmic equation for x: log 2\r\n(x + 1)\r\n = log 8",
+        "tossupQ": "MATH Short Answer Solve the following logarithmic equation for x: log 2\r\n<sup>(x+1)</sup>\r\n = log 8",
         "tossupA": "2",
-        "bonusQ": "MATH Short Answer Give the following sum as a single logarithm: log\r\n3\r\n 10 + log\r\n3\r\n 3",
-        "bonusA": "log\r\n3\r\n 30",
+        "bonusQ": "MATH Short Answer Give the following sum as a single logarithm: log\r\n<sup>3</sup>\r\n 10 + log\r\n<sup>3</sup>\r\n 3",
+        "bonusA": "log\r\n<sup>3</sup>\r\n 30",
         "category": 4,
         "setNum": 3,
         "roundNum": 9,
@@ -36023,10 +36023,10 @@
         "catDiff": "0.6"
       },
       "3_6_4": {
-        "tossupQ": "MATH Short Answer Evaluate the following radical: –\r\n000,160",
+        "tossupQ": "MATH Short Answer Evaluate the following radical: –&radic;(16,000)",
         "tossupA": "–400",
-        "bonusQ": "MATH Short Answer Arrange the following 4 fractions from the LARGEST to the \r\nSMALLEST: \r\n12\r\n2;\r\n4\r\n10;\r\n12\r\n7;\r\n18\r\n13",
-        "bonusA": "12\r\n2;\r\n12\r\n7;\r\n18\r\n13;\r\n4\r\n10",
+        "bonusQ": "MATH Short Answer Arrange the following 4 fractions from the LARGEST to the \r\nSMALLEST: \r\n13/18\r\n;\r\n7\r\n12;\r\n10\r\n4;\r\n2\r\n12",
+        "bonusA": "10\r\n/4;\r\n13\r\n/18;\r\n7/\r\n12;\r\n2/\r\n12",
         "category": 4,
         "setNum": 3,
         "roundNum": 6,
@@ -36176,7 +36176,7 @@
         "tossupQ": "MATH Short Answer If two sides of a parallelogram are 8 and 9 centimeters, respectively, find \r\nthe perimeter, in centimeters:",
         "tossupA": "34",
         "bonusQ": "MATH Short Answer Rounded to the nearest meter, if side A of a right triangle measures 6 \r\nmeters and side B measures 9 meters, what is the length of the hypotenuse?",
-        "bonusA": "11 \r\n \r\n(Solution: 6\r\n2\r\n + 9\r\n2\r\n = c\r\n2\r\n; c = 11)",
+        "bonusA": "11",
         "category": 4,
         "setNum": 3,
         "roundNum": 6,
@@ -36313,7 +36313,7 @@
         "catDiff": "0.10"
       },
       "3_10_8": {
-        "tossupQ": "MATH Short Answer Evaluate the following radical: –\r\n)\r\n9\r\n144(",
+        "tossupQ": "MATH Short Answer Evaluate the following radical: –&radic(144/9)",
         "tossupA": "–4",
         "bonusQ": "MATH Short Answer Giving your answer in slope-intercept form, what is the equation of the \r\nline passing through the point (2, 1) that is parallel to the line with the equation 3y + 12x = 6?",
         "bonusA": "y = -4x + 6",
@@ -36365,8 +36365,8 @@
       "3_10_13": {
         "tossupQ": "MATH Short Answer Give the numerical value of 25 factorial divided by 24 factorial:",
         "tossupA": "25",
-        "bonusQ": "MATH Short Answer Express the following radical in its simplest radical form if all variables \r\nrepresent positive quantities: \r\n)16(5\r\n42\r\ncba",
-        "bonusA": "cab\r\n2\r\n20",
+        "bonusQ": "MATH Short Answer Express the following radical in its simplest radical form if all variables \r\nrepresent positive quantities: 5 &radic;(16a<sup>2</sup>b<sup>4</sup>c)",
+        "bonusA": "20ab<sup>2</sup>&radic;c",
         "category": 4,
         "setNum": 3,
         "roundNum": 10,
@@ -36413,8 +36413,8 @@
         "catDiff": "0.10"
       },
       "3_10_18": {
-        "tossupQ": "MATH Short Answer Find the value of the following logarithmic expression: log\r\n25\r\n 5",
-        "tossupA": "½ (ACCEPT: 0.5)",
+        "tossupQ": "MATH Short Answer Find the value of the following logarithmic expression: log\r\n<sub>25</sub>\r\n 5",
+        "tossupA": "1/2 (ACCEPT: 0.5)",
         "bonusQ": "MATH Short Answer What is the surface area of a closed box, in centimeters, with a width of \r\n6, height of 4, and length of 10 centimeters, respectively?",
         "bonusA": "248 \r\n \r\n(Solution: A = 2lw + 2lh + 2wh = 2(10)(6) + 2(10)(4) + 2(6)(4) = 248 cm)",
         "category": 4,
@@ -36586,7 +36586,7 @@
         "tossupQ": "MATH Short Answer Giving your answer in the simplest form, what is the slope-intercept \r\nequation of the line with a slope of 4 and passing through the point (0, 15)?",
         "tossupA": "y = 4x + 15",
         "bonusQ": "MATH Short Answer Find the solution set for the following inequality: 15 – x ≥ 3x + 6",
-        "bonusA": "X ≤ \r\n4\r\n9\r\n  \r\n(ACCEPT THE STATEMENT: ALL NUMBERS LESS THAN OR EQUAL TO \r\n4\r\n9\r\n or 2\r\n4\r\n1\r\n)",
+        "bonusA": "X ≤ 9/4 (ACCEPT THE STATEMENT: ALL NUMBERS LESS THAN OR EQUAL TO 9/4 or 2&frac14;)",
         "category": 4,
         "setNum": 3,
         "roundNum": 8,
@@ -36634,7 +36634,7 @@
       },
       "3_8_15": {
         "tossupQ": "MATH Short Answer Find the midpoint of the line segment joining the following pair of \r\npoints: (4, 1) and (12, 7)",
-        "tossupA": "(8, 4) \r\n \r\n(Solution: midpoint x = (x\r\n1\r\n + x\r\n2\r\n)/2 = (4 + 12)/2 = 8; midpoint y = (y\r\n1\r\n + y\r\n2\r\n)/2 = ( 1 + 7)/2 = 4)",
+        "tossupA": "(8, 4) ",
         "bonusQ": "MATH Short Answer If one endpoint of a given line segment is at point (-2, 1) and the \r\nmidpoint is at (8, 1), find the other endpoint:",
         "bonusA": "(18, 1)",
         "category": 4,
@@ -36686,7 +36686,7 @@
         "tossupQ": "MATH Short Answer What is the greatest common factor and the least common multiple of \r\nthe following 3 numbers, respectively: 3, 6, and 8",
         "tossupA": "GCF = 1; LCM = 24",
         "bonusQ": "MATH Short Answer Find the product of the following 2 binomials, giving your answer in \r\nstandard form: (–x – 3y)(–x + 3y)",
-        "bonusA": "x\r\n2\r\n – 9y\r\n2",
+        "bonusA": "x<sup>2</sup> – 9y<sup>2</sup>",
         "category": 4,
         "setNum": 3,
         "roundNum": 8,
@@ -36733,9 +36733,9 @@
         "catDiff": "0.8"
       },
       "3_8_27": {
-        "tossupQ": "MATH Short Answer Simplify the following, giving your answer in standard form: \r\nx\r\nxx)(2+",
+        "tossupQ": "MATH Short Answer Simplify the following, giving your answer in standard form: (x+x<sup>2</sup>)/x",
         "tossupA": "1 + x (ACCEPT: x + 1)",
-        "bonusQ": "MATH Short Answer Divide the polynomial, x\r\n2\r\n + 12x + 32, by the quantity x + 4:",
+        "bonusQ": "MATH Short Answer Divide the polynomial, x<sup>2</sup> + 12x + 32, by the quantity x + 4:",
         "bonusA": "x + 8",
         "category": 4,
         "setNum": 3,
@@ -36936,7 +36936,7 @@
         "tossupQ": "MATH Short Answer If one of 2 complementary angles is 32º greater than the other, how \r\nmany degrees is the larger angle?",
         "tossupA": "61",
         "bonusQ": "MATH Short Answer Find the area of a triangle, in meters squared, given a base of 10 meters \r\nand height of 5 meters:",
-        "bonusA": "25 \r\n \r\n(Solution: A = ½(b)(h) = ½ (10)(5) = 25 m\r\n2\r\n)",
+        "bonusA": "25 \r\n \r\n(Solution: A = ½(b)(h) = ½ (10)(5) = 25 m\r\n<sup>2</sup>\r\n)",
         "category": 4,
         "setNum": 3,
         "roundNum": 5,
@@ -36995,7 +36995,7 @@
       "2_8_1": {
         "tossupQ": "MATH Multiple Choice For numbers < 10 (read as: less than or equal to 10), and not \r\nincluding the number 1, how many are prime numbers? \r\n \r\nW) 3 \r\nX) 4 \r\nY) 5 \r\nZ) 2",
         "tossupA": "X) 4  (Solution: primes are 2, 3, 5, 7)",
-        "bonusQ": "MATH Short Answer Factor the expression: x2 + 3x – 10",
+        "bonusQ": "MATH Short Answer Factor the expression: x<sup>2</sup> + 3x – 10",
         "bonusA": "(x + 5)(x – 2)",
         "category": 4,
         "setNum": 2,
@@ -37065,7 +37065,7 @@
       "2_8_8": {
         "tossupQ": "MATH Multiple Choice Which of the following is NOT true: \r\n \r\nW) all natural numbers are whole numbers \r\nX) all whole numbers are integers \r\nY) all integers are rational numbers \r\nZ) all numbers can be both a rational number and an irrational number",
         "tossupA": "Z) ALL NUMBERS CAN BE BOTH A RATIONAL NUMBER AND AN \r\nIRRATIONAL NUMBER",
-        "bonusQ": "MATH Short Answer Factor the following equation: x2 – 6x + 5 = 0",
+        "bonusQ": "MATH Short Answer Factor the following equation: x<sup>2</sup> – 6x + 5 = 0",
         "bonusA": "(x – 5) (x – 1) = 0 \r\nJunior National Science Bowl Single Elimination 1 Page 4",
         "category": 4,
         "setNum": 2,
@@ -37113,7 +37113,7 @@
         "catDiff": "6.8"
       },
       "2_8_13": {
-        "tossupQ": "MATH Short Answer In standard form, give the product of (a + b)2:",
+        "tossupQ": "MATH Short Answer In standard form, give the product of (a + b)<sup>2</sup>:",
         "tossupA": "a2 + 2ab + b2",
         "bonusQ": "MATH Short Answer Solve the following equation: 2x + 4 = 6 + 2x",
         "bonusA": "NO SOLUTION (ACCEPT: FALSE, CONTRADICTION, DEFECTIVE \r\nEQUATION, ETC.)",
@@ -37196,7 +37196,7 @@
         "tossupQ": "MATH Multiple Choice The equation, x = -4, is which of the following: \r\n \r\nW) a true statement \r\nX) a false statement \r\nY) a conditional equation \r\nZ) an equivalent equation",
         "tossupA": "Y) A CONDITIONAL EQUATION",
         "bonusQ": "MATH Short Answer Express the square root of 75 in its simplest radical form:",
-        "bonusA": "53",
+        "bonusA": "5&radic;3",
         "category": 4,
         "setNum": 2,
         "roundNum": 8,
@@ -37253,8 +37253,8 @@
         "catDiff": "6.10"
       },
       "2_10_2": {
-        "tossupQ": "MATH Short Answer Factor the following quadratic equation: 962++xx",
-        "tossupA": "or () ()()33++xx23+x",
+        "tossupQ": "MATH Short Answer Factor the following quadratic equation: x<sup>2</sup>+6x+9",
+        "tossupA": "(x+3)(x+3) or (x+3)<sup>2</sup>",
         "bonusQ": "MATH Short Answer If you count from 1 to 100, how many 9's will you pass on the way?",
         "bonusA": "20 \r\nJunior National Science Bowl Single Elimination 3 Page 1",
         "category": 4,
@@ -37263,8 +37263,8 @@
         "catDiff": "4.10"
       },
       "2_10_3": {
-        "tossupQ": "MATH Multiple Choice Which of the following is a binomial? \r\nW) \r\n2\r\n2x \r\nX)   252−+xx\r\nY) π  \r\nZ)  2−x\r\n",
-        "tossupA": "Z) 2−x\r\n",
+        "tossupQ": "MATH Multiple Choice Which of the following is a binomial? \r\nW) x<sup>2</sup>/2 X) x<sup>2</sup>+5x-2 Y) π  \r\nZ)  x-2\r\n",
+        "tossupA": "Z) x-2\r\n",
         "bonusQ": "MATH Short Answer What are all the integral factors of the number 22?",
         "bonusA": "1, 2, 11, 22 (ACCEPT: + or - 1, 2, 11, 22)",
         "category": 4,
@@ -37393,8 +37393,8 @@
         "catDiff": "3.10"
       },
       "2_10_16": {
-        "tossupQ": "MATH Short Answer Add the following: =++\r\n12\r\n11\r\n3\r\n12\r\n2\r\n13",
-        "tossupA": "12\r\n116",
+        "tossupQ": "MATH Short Answer Add the following: 3&frac12; + 2&frac13; + 1<sup>1</sup>&frasl;<sub>12</sub>",
+        "tossupA": "16<sup>11</sup>&frasl;<sub>12</sub>",
         "bonusQ": "MATH Short Answer What is the average speed, in miles per hour, of a person who travels \r\n120 miles in 3 hours, 40 miles the next 3 hours, and 36 miles the following 2 hours?",
         "bonusA": "24.5 (ACCEPT: 24 – 25) \r\nJunior National Science Bowl Single Elimination 3 Page 8",
         "category": 4,
@@ -37616,7 +37616,7 @@
         "tossupQ": "MATH Short Answer Solve the following equation: \r\n6\r\nx = -8",
         "tossupA": "-48",
         "bonusQ": "MATH Short Answer Find the area of a circle when the radius equals 10:",
-        "bonusA": "314 \r\n \r\n(Solution: A = πr2)",
+        "bonusA": "314 \r\n \r\n(Solution: A = πr<sup>2</sup>)",
         "category": 4,
         "setNum": 2,
         "roundNum": 4,
@@ -37734,7 +37734,7 @@
       },
       "2_4_27": {
         "tossupQ": "MATH Short Answer What is the standard formula for the surface area of a sphere?",
-        "tossupA": "4πr2",
+        "tossupA": "4πr<sup>2</sup>",
         "bonusQ": "MATH Short Answer Multiply the following 5 numbers: (-2)(-5)(-4)(-3)(-1)",
         "bonusA": "-120 \r\nJunior National Science Bowl Round Robin 4 Page 13",
         "category": 4,
@@ -37843,8 +37843,8 @@
         "catDiff": "3.3"
       },
       "4_3_11": {
-        "tossupQ": "MATH Short Answer Express \r\n14\r\n50\r\n as a simplified mixed number.",
-        "tossupA": "3\r\n7\r\n4",
+        "tossupQ": "MATH Short Answer Express 50/14 as a simplified mixed number.",
+        "tossupA": "3&frac;4/7",
         "bonusQ": "MATH Short Answer At the oil spill in the Gulf of Mexico, underwater robots dove down in \r\nthe water 5000 feet. If the robot dove down another 3000 feet, then rose up 6500 feet, where \r\nwould the robot be in relation to sea level?",
         "bonusA": "-1500 (ACCEPT: 1500 BELOW SEA LEVEL)",
         "category": 4,
@@ -37883,7 +37883,7 @@
         "catDiff": "0.3"
       },
       "4_3_15": {
-        "tossupQ": "MATH Multiple Choice In the Pythagorean theorem, a\r\n2 \r\n+ b\r\n2 \r\n= c\r\n2\r\n. If all side lengths are \r\nsmaller than 1 unit long, which of the following is largest? \r\n \r\nW) a\r\n2\r\n \r\nX) b\r\n2\r\n \r\nY) c\r\n2\r\n \r\nZ) c",
+        "tossupQ": "MATH Multiple Choice In the Pythagorean theorem, a<sup>2</sup>+ b<sup>2</sup> = c<sup>2</sup>. If all side lengths are \r\nsmaller than 1 unit long, which of the following is largest? \r\n \r\nW) a<sup>2</sup> X) b<sup>2</sup> Y) c<sup>2</sup> Z) c",
         "tossupA": "Z) c",
         "bonusQ": "MATH Short Answer What is the length of the hypotenuse in a right triangle with legs of \r\nlength 7 and 24?",
         "bonusA": "25",
@@ -38005,8 +38005,8 @@
       "2_7_2": {
         "tossupQ": "MATH Short Answer What is the square root of 0.49?",
         "tossupA": "0.7",
-        "bonusQ": "MATH Short Answer Simplify the following algebraic expression: 3x2 + 4 – (3x + 2 – x2)",
-        "bonusA": "4x2 – 3x + 2 \r\nJunior National Science Bowl Round Robin 7 Page 1",
+        "bonusQ": "MATH Short Answer Simplify the following algebraic expression: 3x<sup>2</sup> + 4 – (3x + 2 – x<sup>2</sup>)",
+        "bonusA": "4x<sup>2</sup> – 3x + 2 \r\nJunior National Science Bowl Round Robin 7 Page 1",
         "category": 4,
         "setNum": 2,
         "roundNum": 7,
@@ -38083,8 +38083,8 @@
         "catDiff": "3.7"
       },
       "2_7_10": {
-        "tossupQ": "MATH Short Answer Reduce \r\n54\r\n18to its lowest fraction:",
-        "tossupA": "3\r\n1",
+        "tossupQ": "MATH Short Answer Reduce 18/54 to its lowest fraction:",
+        "tossupA": "1/3",
         "bonusQ": "MATH Short Answer Find the value of 4x – 6y if x = -2 and y = -3:",
         "bonusA": "10 \r\n \r\nJunior National Science Bowl Round Robin 7 Page 5",
         "category": 4,
@@ -38183,7 +38183,7 @@
         "catDiff": "0.7"
       },
       "2_7_20": {
-        "tossupQ": "MATH Short Answer What is the least common denominator for the following operation:  \r\n5\r\n4\r\n3\r\n2\r\n2\r\n1++",
+        "tossupQ": "MATH Short Answer What is the least common denominator for the following operation:  &frac12;+&frac23;+&frac45;",
         "tossupA": "30",
         "bonusQ": "MATH Short Answer If in a sequence of natural numbers, starting with 2, you begin \r\neliminating every second number after 2, then every third number after 3, then every fourth \r\nnumber after 4, and so on, what type of numbers will be left?",
         "bonusA": "PRIME NUMBERS \r\n \r\n \r\nJunior National Science Bowl Round Robin 7 Page 10",
@@ -38335,8 +38335,8 @@
       "2_5_10": {
         "tossupQ": "MATH Short Answer Identify the quotient, dividend, and divisor for 15 ÷ 3:",
         "tossupA": "QUOTIENT = 5; DIVIDEND = 15; DIVISOR = 3",
-        "bonusQ": "MATH Short Answer Give the product of (x + 7) 2 in standard form:",
-        "bonusA": "x2 + 14 x + 49 \r\n \r\nJunior National Science Bowl Round Robin 5 Page 5",
+        "bonusQ": "MATH Short Answer Give the product of (x + 7)<sup>2</sup> in standard form:",
+        "bonusA": "x<sup>2</sup> + 14 x + 49 \r\n \r\nJunior National Science Bowl Round Robin 5 Page 5",
         "category": 4,
         "setNum": 2,
         "roundNum": 5,
@@ -38633,9 +38633,9 @@
         "catDiff": "0.1"
       },
       "4_1_15": {
-        "tossupQ": "MATH Short Answer Evaluate\r\n1)35(8+××\r\n (read as: the square root of open parenthesis \r\n8 times 5 times 3 plus 1 close parenthesis).",
+        "tossupQ": "MATH Short Answer Evaluate &radic;(8*5*3+1) (read as: the square root of open parenthesis \r\n8 times 5 times 3 plus 1 close parenthesis).",
         "tossupA": "11",
-        "bonusQ": "MATH Short Answer Providing your answer as a decimal to the nearest tenth, evaluate \r\nx\r\nx\r\n5\r\n36\r\n−\r\n+\r\n (read as: open absolute value, open parenthesis 6x + 3 close parenthesis divided by   \r\n-5x, close absolute value) for \r\n6=x\r\n.",
+        "bonusQ": "MATH Short Answer Providing your answer as a decimal to the nearest tenth, evaluate |(6x+3)/-5x| (read as: open absolute value, open parenthesis 6x + 3 close parenthesis divided by   \r\n-5x, close absolute value) for \r\n6=x\r\n.",
         "bonusA": "1.3",
         "category": 4,
         "setNum": 4,
@@ -38665,7 +38665,7 @@
       "4_1_18": {
         "tossupQ": "MATH Short Answer Simplify 8/52 to a fraction in simplest terms.",
         "tossupA": "2/13",
-        "bonusQ": "MATH Short Answer Express \r\n2\r\n3.4)(1/5+\r\n (read as: open parenthesis one fifth plus 3.4 close \r\nparenthesis divided by two) as a fraction in lowest terms.",
+        "bonusQ": "MATH Short Answer Express (1/5+3.4)/2 (read as: open parenthesis one fifth plus 3.4 close \r\nparenthesis divided by two) as a fraction in lowest terms.",
         "bonusA": "9/5",
         "category": 4,
         "setNum": 4,
@@ -38963,7 +38963,7 @@
         "catDiff": "1.5"
       },
       "4_5_23": {
-        "tossupQ": "MATH Short Answer One half plus a number n equals \r\n12\r\n39\r\n. What is n as a mixed number \r\nin simplest form?",
+        "tossupQ": "MATH Short Answer One half plus a number n equals 39/12. What is n as a mixed number \r\nin simplest form?",
         "tossupA": "2 ¾",
         "bonusQ": "MATH Short Answer Put these values in order from least to greatest: 0.99, 1.25, 14/15, \r\n0.0099, -17.",
         "bonusA": "-17, 0.0099, 14/15, 0.99, 1.25",
@@ -39273,10 +39273,10 @@
         "catDiff": "0.14"
       },
       "3_14_4": {
-        "tossupQ": "MATH Multiple Choice Which of the following BEST describes the graph of the following \r\nequation, (x – 1)\r\n2\r\n + (y + 2)\r\n2\r\n = 9 \r\n \r\nW) straight line \r\nX) parabola \r\nY) ellipse \r\nZ) circle",
+        "tossupQ": "MATH Multiple Choice Which of the following BEST describes the graph of the following \r\nequation, (x – 1)\r\n<sup>2</sup>\r\n + (y + 2)\r\n<sup>2</sup>\r\n = 9 \r\n \r\nW) straight line \r\nX) parabola \r\nY) ellipse \r\nZ) circle",
         "tossupA": "Z) CIRCLE",
         "bonusQ": "MATH Short Answer Find the lateral surface area, in square meters, of a right circular cylinder \r\nwith radius 4 meters and height 10 meters. Use π = 3.14 and give your answer rounded to the \r\nnearest whole number:",
-        "bonusA": "251 \r\n \r\n(Solution: LA = 2πrh; = 2(3.14)(4)(10) = 251.2 m\r\n2\r\n)",
+        "bonusA": "251 \r\n \r\n(Solution: LA = 2πrh; = 2(3.14)(4)(10) = 251.2 m\r\n<sup>2</sup>\r\n)",
         "category": 4,
         "setNum": 3,
         "roundNum": 14,
@@ -39325,8 +39325,8 @@
       "3_14_9": {
         "tossupQ": "MATH Short Answer In how many ways can 5 different people be standing around a circular \r\ntable?",
         "tossupA": "24 \r\n \r\n(Solution: circular permutation, (n-1)! = (5-1)! = 4! = 24)",
-        "bonusQ": "MATH Short Answer Express the following in its simplest radical form:  \r\n(5 + \r\n2\r\n)(7 – \r\n2\r\n)",
-        "bonusA": "33 + 2\r\n2\r\n (ACCEPT: 2\r\n2\r\n + 33)",
+        "bonusQ": "MATH Short Answer Express the following in its simplest radical form:  \r\n(5 + \r\n&radic;2\r\n)(7 – \r\n&radic;2\r\n)",
+        "bonusA": "33 + 2\r\n&radic;2\r\n (ACCEPT: 2\r\n&radic;2\r\n + 33)",
         "category": 4,
         "setNum": 3,
         "roundNum": 14,
@@ -39373,10 +39373,10 @@
         "catDiff": "0.14"
       },
       "3_14_14": {
-        "tossupQ": "MATH Short Answer What is the degree of the following polynomial: 7x\r\n4\r\ny –5x\r\n3\r\ny\r\n3\r\n + 3xy\r\n3 \r\n– 4",
+        "tossupQ": "MATH Short Answer What is the degree of the following polynomial: 7x<sup>4</sup>y –5x<sup>3</sup>y<sup>3</sup> + 3xy<sup>3</sup> \r\n– 4",
         "tossupA": "6 \r\n \r\n(Solution: the degree of the term with the largest degree, 3 + 3)",
         "bonusQ": "MATH Short Answer Giving your answer in terms of pi, what is the volume of a cone with a \r\nheight of 8 meters and a base whose diameter is 6 meters?",
-        "bonusA": "24π \r\n \r\n(Solution: V = ⅓πr\r\n2\r\nh = ⅓(π)(3\r\n2\r\n)(8) = 24π)",
+        "bonusA": "24π ,
         "category": 4,
         "setNum": 3,
         "roundNum": 14,
@@ -39473,10 +39473,10 @@
         "catDiff": "0.14"
       },
       "3_14_24": {
-        "tossupQ": "MATH Short Answer If the fourth term in the binomial expansion of (x + y)\r\n7\r\n is 35x\r\n4\r\ny\r\n3\r\n, what is \r\nthe 5th term?",
-        "tossupA": "35x\r\n3\r\ny\r\n4\r\n (ACCEPT: 35y\r\n4\r\nx\r\n3\r\n)",
-        "bonusQ": "MATH Short Answer In simplest terms, give the 6\r\nth\r\n term of the geometric sequence whose \r\nsecond term is –3 and whose third term is \r\n2\r\n3\r\n:",
-        "bonusA": "–\r\n16\r\n3\r\n  \r\n \r\n(Solution: a\r\nx \r\n= a(r)\r\nx-1\r\n; a\r\n6\r\n = 6(\r\n2\r\n1!\r\n)\r\n5\r\n; a = –\r\n16\r\n3\r\n)",
+        "tossupQ": "MATH Short Answer If the fourth term in the binomial expansion of (x + y)<sup>7</sup> is 35x<sup>4</sup>y<sup>3</sup>, what is \r\nthe 5th term?",
+        "tossupA": "35x<sup>3</sup>y<sup>4</sup> (ACCEPT: 35y<sup>4</sup>x<sup>3</sup>)",
+        "bonusQ": "MATH Short Answer In simplest terms, give the 6\r\nth\r\n term of the geometric sequence whose \r\nsecond term is –3 and whose third term is 3/2:",
+        "bonusA": "-3/16",
         "category": 4,
         "setNum": 3,
         "roundNum": 14,
@@ -39503,8 +39503,8 @@
         "catDiff": "0.11"
       },
       "3_11_2": {
-        "tossupQ": "MATH Short Answer Add and simplify the following 2 polynomials, giving your answer in \r\nstandard form: \r\n)1093()1069(\r\n2323\r\nxxxxxx!+!+++",
-        "tossupA": "6x\r\n3\r\n – 4x\r\n2\r\n + 19x",
+        "tossupQ": "MATH Short Answer Add and simplify the following 2 polynomials, giving your answer in \r\nstandard form: (9x<sup>3</sup>+6x<sup>2</sup>+10x)+(-3x<sup>3</sup>+9x-10x<sup>2</sup>)",
+        "tossupA": "6x<sup>3</sup> – 4x<sup>2</sup> + 19x",
         "bonusQ": "MATH Short Answer Give the height, to the nearest whole meter, of the triangle that has an area \r\nof 54 square meters and whose base is 4-times its height:",
         "bonusA": "5",
         "category": 4,
@@ -39553,9 +39553,9 @@
         "catDiff": "0.11"
       },
       "3_11_7": {
-        "tossupQ": "MATH Short Answer Add the following radicals, giving your answer in simplest radical form: \r\n1233+",
-        "tossupA": "35",
-        "bonusQ": "MATH Short Answer Solve the following inequality for x: ⏐2x – 3⏐ < 9 (read as: open \r\nabsolute value, 2x minus 3, close absolute value, is less than 9)",
+        "tossupQ": "MATH Short Answer Add the following radicals, giving your answer in simplest radical form: 3&radic;3+&radic;12",
+        "tossupA": "5&radic;3",
+        "bonusQ": "MATH Short Answer Solve the following inequality for x: ⏐2x – 3⏐ < 9 (read as: open \r\nabsolute value, 2x minus 3, close absolute value, is less than 9)",
         "bonusA": "–3 < x < 6 (ACCEPT: X IS GREATER THAN –3 AND LESS THAN 6)",
         "category": 4,
         "setNum": 3,
@@ -39603,8 +39603,8 @@
         "catDiff": "0.11"
       },
       "3_11_12": {
-        "tossupQ": "MATH Multiple Choice If k is an integer greater than 1, which of the following is greater than \r\n1: \r\n \r\nW) –(–k)\r\n3\r\n   Read as: negative - open parenthesis - negative k - closed parenthesis - to the third power \r\nX) –(k)\r\n3  Read as: negative - open parenthesis - k - closed parenthesis - to the third power\r\n \r\nY) \r\n3\r\n1\r\n)(\r\n!\r\nk\r\n  Read as: open parenthesis - k - closed parenthesis - to the negative one-third power \r\nZ) \r\n3\r\nk!\r\n Read as: negative - open absolute value - k - closed absolute value - to the third power",
-        "tossupA": "W) –(–k)\r\n3",
+        "tossupQ": "MATH Multiple Choice If k is an integer greater than 1, which of the following is greater than \r\n1: \r\n \r\nW) –(–k)\r\n<sup>3</sup>\r\n   Read as: negative - open parenthesis - negative k - closed parenthesis - to the third power \r\nX) –(k)\r\n<sup>3</sup>  Read as: negative - open parenthesis - k - closed parenthesis - to the third power\r\n \r\nY) (k)<sup>1/3</sup>  Read as: open parenthesis - k - closed parenthesis - to the negative one-third power \r\nZ) -|k|<sup>3</sup> Read as: negative - open absolute value - k - closed absolute value - to the third power",
+        "tossupA": "W) –(–k)\r\n<sup>3</sup>",
         "bonusQ": "MATH Short Answer Giving your answer in the simplest form, what is the slope-intercept \r\nequation of the line passing through the points (3, 8) and (2, 3)?",
         "bonusA": "y = 5x – 7",
         "category": 4,
@@ -39653,10 +39653,10 @@
         "catDiff": "0.11"
       },
       "3_11_17": {
-        "tossupQ": "MATH Multiple Choice Which of the following is equivalent to the radical expression, \r\n)18(\r\n18\r\n  Read as: square root of open parenthesis 18 to the 18\r\nth\r\n power closed parenthesis \r\n \r\nW) 3\r\n3\r\n \r\nX) 9\r\n9\r\n \r\nY) 18\r\n3\r\n \r\nZ) 18\r\n9",
-        "tossupA": "Z) 18\r\n9",
-        "bonusQ": "MATH Short Answer Give the third term in the binomial expansion of the following:  \r\n(x + y)\r\n5",
-        "bonusA": "10x\r\n3\r\ny\r\n2",
+        "tossupQ": "MATH Multiple Choice Which of the following is equivalent to the radical expression, &radic;(18<sup>18</sup>) Read as: square root of open parenthesis 18 to the 18\r\nth\r\n power closed parenthesis \r\n \r\nW) 3<sup>3</sup> X) 9<sup>9</sup> Y) 18<sup>3</sup> Z) 18<sup>4</sup>",
+        "tossupA": "Z) 18<sup>9</sup>",
+        "bonusQ": "MATH Short Answer Give the third term in the binomial expansion of the following:  (x + y)<sup>5</sup>",
+        "bonusA": "10x<sup>3</sup>y<sup>2</sup>",
         "category": 4,
         "setNum": 3,
         "roundNum": 11,
@@ -39703,7 +39703,7 @@
         "catDiff": "0.11"
       },
       "3_11_22": {
-        "tossupQ": "MATH Short Answer Factor the following polynomial over the integers:  \r\n49x\r\n2\r\n – 64",
+        "tossupQ": "MATH Short Answer Factor the following polynomial over the integers:  \r\n49x\r\n<sup>2</sup>\r\n – 64",
         "tossupA": "(7x + 8)(7x – 8)",
         "bonusQ": "MATH Short Answer Consider a distribution of 7 scores with a median of 20. If the lowest \r\nscore value is decreased by 4, what will the new median value be for this distribution of 7 scores?",
         "bonusA": "20",
@@ -39833,7 +39833,7 @@
         "catDiff": "0.13"
       },
       "3_13_10": {
-        "tossupQ": "MATH Short Answer Solve the following radical equation for x, when x is a real number: \r\n2)2(\r\n4\r\n=!x",
+        "tossupQ": "MATH Short Answer Solve the following radical equation for x, when x is a real number: &#8732;(x-2) = 2",
         "tossupA": "18",
         "bonusQ": "MATH Short Answer If the surface area of a right rectangular prism is 188 cubic centimeters \r\nand its length is 6 centimeters and its height is 7 centimeters, find its width, to the nearest whole \r\ncentimeter:",
         "bonusA": "4",
@@ -39933,8 +39933,8 @@
         "catDiff": "0.13"
       },
       "3_13_20": {
-        "tossupQ": "MATH Short Answer Expand the following expression, giving your answer in standard \r\nbinomial form: (4x + 3y)\r\n2",
-        "tossupA": "16x\r\n2\r\n + 24xy + 9y\r\n2",
+        "tossupQ": "MATH Short Answer Expand the following expression, giving your answer in standard \r\nbinomial form: (4x + 3y)<sup>2</sup>",
+        "tossupA": "16x<sup>2</sup> + 24xy + 9y<sup>2</sup>",
         "bonusQ": "MATH Short Answer How many different outcomes are possible if eight hydrogen fuel cars \r\ncompete in a race for which first, second, and third prizes will be awarded and no ties are possible?",
         "bonusA": "336 \r\n \r\n(Solution: P(8,3) = 8!/(8-3)! = 8!/5! = 336)",
         "category": 4,
@@ -39983,9 +39983,9 @@
         "catDiff": "0.13"
       },
       "3_13_27": {
-        "tossupQ": "MATH Short Answer Evaluate the following radical expression: –\r\n16\r\n (read as: the \r\nnegative square root of the square root of 16)",
+        "tossupQ": "MATH Short Answer Evaluate the following radical expression: –&radic;(&radic;16) (read as: the \r\nnegative square root of the square root of 16)",
         "tossupA": "–2",
-        "bonusQ": "MATH Short Answer Simplify the following expression if x represents a negative quantity: \r\n4\r\n14\r\n)16(x!",
+        "bonusQ": "MATH Short Answer Simplify the following expression if x represents a negative quantity: -(16x<sup>4</sup>)<sup>1/4</sup>",
         "bonusA": "2x",
         "category": 4,
         "setNum": 3,
@@ -40314,7 +40314,7 @@
       },
       "4_15_8": {
         "tossupQ": "MATH Short Answer Convert 50 degrees Fahrenheit to Celsius.",
-        "tossupA": "10\r\no\r\n CELSIUS",
+        "tossupA": "10 degrees CELSIUS",
         "bonusQ": "MATH Short Answer A pyramid is 14 meters tall and has a square base that is \r\napproximately 15 meters on a side. What is its volume in cubic meters?",
         "bonusA": "1050",
         "category": 4,
@@ -40493,7 +40493,7 @@
         "catDiff": "1.6"
       },
       "4_6_2": {
-        "tossupQ": "MATH Multiple Choice Express in decimal form: 0.99 - (read as: 99 hun-DREDTHS minus \r\nthree fourths). \r\n \r\nW) 0.24 \r\nX) 0.75 \r\nY) 0.9825 \r\nZ) 0.9975",
+        "tossupQ": "MATH Multiple Choice Express in decimal form: 0.99 - 3/4(read as: 99 hun-DREDTHS minus \r\nthree fourths). \r\n \r\nW) 0.24 \r\nX) 0.75 \r\nY) 0.9825 \r\nZ) 0.9975",
         "tossupA": "W) 0.24",
         "bonusQ": "MATH Short Answer Simplify: 0.99 - 0.0099 (read as: 99 hun-DREDTHS minus 99 ten \r\nthous-ANDTHS).",
         "bonusA": "0.9801",
@@ -40683,8 +40683,8 @@
         "catDiff": "3.6"
       },
       "4_6_21": {
-        "tossupQ": "MATH Multiple Choice If a 4-inch plant grows at the rate of \r\n4\r\n1\r\n inch per day, what will its \r\nheight be in 27 days? \r\n \r\nW) 6\r\n4\r\n3\r\n inches \r\nX) 7 inches \r\nY) 10\r\n4\r\n3\r\n inches \r\nZ) 11 inches",
-        "tossupA": "Y) 10\r\n4\r\n3\r\n INCHES",
+        "tossupQ": "MATH Multiple Choice If a 4-inch plant grows at the rate of 1/4 inch per day, what will its \r\nheight be in 27 days? \r\n \r\nW) 6 &frac34; inches \r\nX) 7 inches \r\nY) 10 &frac34; inches \r\nZ) 11 inches",
+        "tossupA": "Y) 10 &frac34; INCHES",
         "bonusQ": "MATH Short Answer If a 4-inch plant grows at the rate of \r\n4\r\n1\r\n inch per day, in how many \r\ndays will the plant reach 48 inches?",
         "bonusA": "176",
         "category": 4,
