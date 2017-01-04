@@ -20182,9 +20182,9 @@
         "catDiff": "0.3"
       },
       "6_3_19": {
-        "tossupQ": "MATH  Short Answer  For what values of x is the function f(x)=  [f of x equals the \r\nfraction with numerator x squared and denominator x squared minus 4 x plus 4] NOT \r\ndefined?",
+        "tossupQ": "MATH  Short Answer  For what values of x is the function f(x)=  [the \r\nfraction with numerator x squared and denominator x squared minus 4 x plus 4] NOT \r\ndefined?",
         "tossupA": "2",
-        "bonusQ": "MATH  Multiple Choice  Which of the following inequalities has NO solutions? \r\n \r\nW) 7x + 4 > 3 \r\nX) |x – 1| > -10 [the absolute value of the quantity x minus 1 is greater than negative 10] \r\nY) |x + 3| < -2 [the absolute value of the quantity x plus 3 is less than negative 2] \r\nZ) -100x + 5 ≥ 8",
+        "bonusQ": "MATH  Multiple Choice  Which of the following inequalities has NO solutions? \r\n \r\nW) 7x + 4 > 3 \r\nX) |x – 1| > -10 \r\nY) |x + 3| < -2 \r\nZ) -100x + 5 ≥ 8",
         "bonusA": "Y) |x + 3| < -2",
         "category": 4,
         "setNum": 6,
@@ -20242,9 +20242,9 @@
         "catDiff": "0.3"
       },
       "6_3_27": {
-        "tossupQ": "MATH  Short Answer  If ln [natural log of the quantity x cubed equals 6], what is \r\nln [the natural log of the quantity x squared]?",
+        "tossupQ": "MATH  Short Answer  If the natural log of the quantity x cubed equals 6, what is \r\nthe natural log of the quantity x squared?",
         "tossupA": "4",
-        "bonusQ": "MATH  Short Answer  If f(x) = 4x<sup>3</sup> – 4x<sup>2</sup> + 10, then what is f(-2) [f of negative 2]?",
+        "bonusQ": "MATH  Short Answer  If f(x) = 4x<sup>3</sup> – 4x<sup>2</sup> + 10, then what is f(-2)?",
         "bonusA": "-38",
         "category": 4,
         "setNum": 6,
@@ -20254,7 +20254,7 @@
       "5_13_1": {
         "tossupQ": "MATH  Multiple Choice  Which of the following statements BEST describes whether or not \r\nthe magnitude of the standard deviation depends on the location of the center of the data? \r\n \r\nW) Yes, the larger the mean, the larger the standard deviation \r\nX) Yes, because you have to know the mean in order to calculate the standard deviation \r\nY) No, standard deviation is not affected by the location of the center \r\nZ) No, standard deviation only measures how values differ from each other and not how they \r\ndiffer from the mean",
         "tossupA": "Y) NO, STANDARD DEVIATION IS NOT AFFECTED BY THE LOCATION OF THE \r\nCENTER",
-        "bonusQ": "MATH  Short Answer  What is the minimum value of the function f(x) = x ln(x) (read as: f of x \r\nequals x natural log of x )?",
+        "bonusQ": "MATH  Short Answer  What is the minimum value of the function f(x) = x ln(x)?",
         "bonusA": "-1/e",
         "category": 4,
         "setNum": 5,
@@ -20302,7 +20302,7 @@
         "catDiff": "1.13"
       },
       "5_13_6": {
-        "tossupQ": "MATH  Short Answer  If sin(2x) = 0.4, then what does (cosx + sinx)\r\n2\r\n equal?",
+        "tossupQ": "MATH  Short Answer  If sin(2x) = 0.4, then what does (cosx + sinx)<sup>2</sup> equal?",
         "tossupA": "1.4",
         "bonusQ": "MATH  Short Answer  Give the interval or intervals of values of x for which the graph of the \r\nfunction f(x) = 5 – x<sup>2</sup> is above the graph of g(x)= 2x – 3?",
         "bonusA": "(-4, 2)",
@@ -20443,7 +20443,7 @@
       },
       "5_13_20": {
         "tossupQ": "MATH  Short Answer  Providing your answer as a fraction in simplest form, for a distribution \r\nwith a mean of 40 and a standard deviation of 8, what is the z-score for a score of 36?",
-        "tossupA": "-½",
+        "tossupA": "-1/2",
         "bonusQ": "MATH  Short Answer  How many positive integer divisors does 8640 have?",
         "bonusA": "56",
         "category": 4,
@@ -20612,10 +20612,10 @@
         "catDiff": "1.10"
       },
       "4_10_12": {
-        "tossupQ": "MATH  Multiple Choice  What are the solutions for x in the following equation: \r\n82=−xx<sup>2</sup>\r\n?   \r\n \r\nW)  0 \r\nX) 0 and 2 \r\nY) 4 and -2 \r\nZ) -4 and 2",
+        "tossupQ": "MATH  Multiple Choice  What are the solutions for x in the following equation: x<sup>2</sup> - 2x = 8?   \r\n \r\nW)  0 \r\nX) 0 and 2 \r\nY) 4 and -2 \r\nZ) -4 and 2",
         "tossupA": "Y) 4 AND -2",
-        "bonusQ": "MATH  Short Answer  Solve for x in simplest form for \r\n2232=+xx\r\n.",
-        "bonusA": "3\r\n71±−=x\r\n (ACCEPT:  -1/3 ± /3)",
+        "bonusQ": "MATH  Short Answer  Solve for x in simplest form for 3x<sup>2</sup> + 2x = 2.",
+        "bonusA": "(-1 ± &radic;7)/3 (ACCEPT:  -1/3 ± &sqrt;7/3)",
         "category": 4,
         "setNum": 4,
         "roundNum": 10,
@@ -20632,10 +20632,10 @@
         "catDiff": "0.10"
       },
       "4_10_14": {
-        "tossupQ": "MATH  Short Answer  Factor the following expression completely over the integers:",
-        "tossupA": "(a – 2)(",
-        "bonusQ": "MATH  Short Answer  Factor the following expression completely over the integers:    \r\n.",
-        "bonusA": "(a + 2)",
+        "tossupQ": "MATH  Short Answer  Factor the following expression completely over the integers: a<sup>3</sup> - 8",
+        "tossupA": "(a – 2)(a<sup>2</sup> + 2a + 4)",
+        "bonusQ": "MATH  Short Answer  Factor the following expression completely over the integers: a<sup>5</sup> + 32",
+        "bonusA": "(a + 2)(a<sup>4</sup> - 2a<sup>3</sup> + 4a<sup>2</sup> - 8a + 16)",
         "category": 4,
         "setNum": 4,
         "roundNum": 10,
@@ -20762,7 +20762,7 @@
         "catDiff": "2.1"
       },
       "5_1_2": {
-        "tossupQ": "MATH  Short Answer  What is magnitude of the phase shift of the function y = sinx to  \r\ny = 2sin(3x – π) – 4 (read as: 2 sine of open parenthesis 3x minus pi close parenthesis minus \r\n4)?",
+        "tossupQ": "MATH  Short Answer  What is magnitude of the phase shift of the function y = sinx to  \r\ny = 2sin(3x – π) – 4 ?",
         "tossupA": "π/3",
         "bonusQ": "MATH  Short Answer  An isosceles triangle has a base of 30 feet and height of 15 feet. In \r\nfeet, how far apart are the legs 10 feet above the base?",
         "bonusA": "10",
@@ -20842,7 +20842,7 @@
         "catDiff": "5.1"
       },
       "5_1_10": {
-        "tossupQ": "MATH  Short Answer  If f(x) = x<sup>2</sup> – 3 and g(x) = 6 − x, what is the value of f(g(16)) (read as: \r\nf of g of 16)?",
+        "tossupQ": "MATH  Short Answer  If f(x) = x<sup>2</sup> – 3 and g(x) = 6 − x, what is the value of f(g(16)) ?",
         "tossupA": "1",
         "bonusQ": "MATH  Short Answer  According to Descartes’s Rule of Signs, what are the possible \r\nnumbers of positive real roots that the following equation might have: x<sup>5</sup> – 7x<sup>3</sup> + 15x<sup>2</sup> + 3 = 10?",
         "bonusA": "1 OR 3 (MUST GIVE BOTH ANSWERS)",
@@ -21012,10 +21012,10 @@
         "catDiff": "1.17"
       },
       "4_17_2": {
-        "tossupQ": "MATH  Short Answer  Find (read as: the limit as x approaches infinity of the \r\nquantity x squared plus 10 over the quantity 7 x squared minus 5)",
+        "tossupQ": "MATH  Short Answer  Find the limit as x approaches infinity of the \r\nquantity x squared plus 10 over the quantity 7 x squared minus 5",
         "tossupA": "1/7",
-        "bonusQ": "MATH  Short Answer  Find the equation of the line in slope intercept form of the tangent \r\nto\r\n423y+−=xx<sup>2</sup>\r\nat \r\n1=x\r\n.",
-        "bonusA": "14+=xy",
+        "bonusQ": "MATH  Short Answer  Find the equation of the line in slope intercept form of the tangent to y=3x<sup>2</sup> - 2x + 4 at x = 1.",
+        "bonusA": "y = 4x + 1",
         "category": 4,
         "setNum": 4,
         "roundNum": 17,
@@ -21032,9 +21032,9 @@
         "catDiff": "0.17"
       },
       "4_17_4": {
-        "tossupQ": "MATH  Short Answer  Find  (read as: the limit as x approaches infinity of e to the \r\nnegative x)",
+        "tossupQ": "MATH  Short Answer  Find  the limit as x approaches infinity of e to the \r\nnegative x)",
         "tossupA": "0",
-        "bonusQ": "MATH  Short Answer  A particle moves so its position s in kilometers at time t in hours can be \r\nexpressed as s(t) = 6t\r\n2\r\n + 25. After 5 hours, what is its speed in kilometers per hour and its \r\nacceleration in kilometers per hour squared, respectively?",
+        "bonusQ": "MATH  Short Answer  A particle moves so its position s in kilometers at time t in hours can be \r\nexpressed as s(t) = 6t<sup>2</sup> + 25. After 5 hours, what is its speed in kilometers per hour and its \r\nacceleration in kilometers per hour squared, respectively?",
         "bonusA": "SPEED: 60, ACCELERATION: 12",
         "category": 4,
         "setNum": 4,
@@ -21175,7 +21175,7 @@
         "tossupQ": "MATH  Short Answer  The coordinates of Vertex A of triangle ABC are (6, -3). The triangle \r\nundergoes a translation of (-8, 14). If the original Vertex B is 6 units to the left of vertex A, what \r\nare the coordinates of Vertex B after the translation?",
         "tossupA": "(-8, 11)",
         "bonusQ": "MATH  Short Answer  What is cosine of 15° in simplified radical form?",
-        "bonusA": "(ACCEPT:  )",
+        "bonusA": "(&radic;2 + &radic;6)/4",
         "category": 4,
         "setNum": 4,
         "roundNum": 17,
@@ -21352,7 +21352,7 @@
         "catDiff": "1.9"
       },
       "3_9_11": {
-        "tossupQ": "MATH  Short Answer  What is the degree of the following monomial:  –6x<sup>2</sup>y<sup>4</sup>z\r\n3",
+        "tossupQ": "MATH  Short Answer  What is the degree of the following monomial:  –6x<sup>2</sup>y<sup>4</sup>z<sup>3</sup>",
         "tossupA": "9",
         "bonusQ": "MATH  Short Answer  Find the number of sides in a regular polygon if each interior angle \r\nmeasures 176 degrees:",
         "bonusA": "90 \r\n \r\n(Solution: (n – 2)180º = 176n;  n = 90)",
@@ -21422,8 +21422,8 @@
         "catDiff": "1.9"
       },
       "3_9_18": {
-        "tossupQ": "MATH  Short Answer  Giving your answer in simplest radical form, rationalize the denominator \r\nof the following expression:  \r\n)3(\r\n1\r\nx−",
-        "tossupA": "x\r\nx\r\n−\r\n+\r\n9\r\n3",
+        "tossupQ": "MATH  Short Answer  Giving your answer in simplest radical form, rationalize the denominator \r\nof the following expression:  1/(3-&radic;x)",
+        "tossupA": "(3 + &radic;x)/(9 - x)",
         "bonusQ": "MATH  Short Answer  Solve the following equation for x over the set of complex numbers, \r\ngiving your answer in simplest form:  x<sup>2</sup> – 10x + 34 = 0",
         "bonusA": "5 ± 3i  (ACCEPT:  5 + 3i  AND 5 – 3i)",
         "category": 4,
@@ -21533,7 +21533,7 @@
       },
       "3_6_4": {
         "tossupQ": "MATH  Short Answer  Convert log base 4 of 53 into a base 10 expression:",
-        "tossupA": "4log\r\n53log\r\n  (ACCEPT:  \r\n4log\r\n53log\r\n10\r\n10\r\n)",
+        "tossupA": "log 53 / log 4",
         "bonusQ": "MATH  Short Answer  Consider a 6-sided irregular polygon whose perimeter is 100 centimeters.  \r\nIf 4 of the sides have a length of 7 centimeters each, what is the length, in centimeters, of each of the \r\nremaining two sides if they are congruent?",
         "bonusA": "36  \r\n \r\n(Solution:  100 – 28 = 72; 72/2 = 36cm)",
         "category": 4,
@@ -21604,8 +21604,8 @@
       "3_6_11": {
         "tossupQ": "MATH  Short Answer  Solve the following equation for x:   \r\nx<sup>2</sup> – 20x + 19 = 0",
         "tossupA": "19 AND 1",
-        "bonusQ": "MATH  Short Answer  Express the following radical in its simplest radical form:  \r\n)80(2\r\n342\r\ncba!",
-        "bonusA": "ccab58\r\n2\r\n!",
+        "bonusQ": "MATH  Short Answer  Express the following radical in its simplest radical form:  -2&radic;(80a<sup>2</sup>b<sup>4</sup>c<sup>3</sup>)",
+        "bonusA": "-8ab<sup>2</sup>c&radic;(5c)",
         "category": 4,
         "setNum": 3,
         "roundNum": 6,
@@ -21674,7 +21674,7 @@
       "3_6_18": {
         "tossupQ": "MATH  Short Answer  Subtract the following complex numbers, giving your answer in standard \r\nform:  (11 – 4i) – (–3 + 3i)",
         "tossupA": "14 – 7i",
-        "bonusQ": "MATH  Short Answer  Solve the following inequality for x, giving your answer in fractional \r\nform:   6/2 5 2/3 3\r\n1!<+xx",
+        "bonusQ": "MATH  Short Answer  Solve the following inequality for x, giving your answer in fractional \r\nform:  1/3 x + 2/3 < 5/6 x - 2",
         "bonusA": "x >  16/3   (ACCEPT:  x >  5 1/3 )",
         "category": 4,
         "setNum": 3,
@@ -21855,7 +21855,7 @@
         "tossupQ": "MATH  Multiple Choice  Which of the following are coterminal angles in standard position \r\n(read slowly): \r\n \r\nW)  550º and 185º \r\nX)  80° and –190° \r\nY)  1160° and 800° \r\nZ)  181° and –118°",
         "tossupA": "Y)  1160° AND 800° \r\n \r\n(Solution:  80 +3(360º) = 1160º;  80 +2(360º) = 800º)",
         "bonusQ": "MATH  Short Answer  Solve the following equation for x, expressing your answer in simplest \r\nradical form over the real numbers:  x<sup>4</sup> – 9x<sup>2</sup> + 8 = 0",
-        "bonusA": "22±\r\n AND ±1  (ACCEPT ALL:  \r\n22+\r\n, \r\n22−\r\n, +1, -1)",
+        "bonusA": "±2&radic;2\r\n AND ±1",
         "category": 4,
         "setNum": 3,
         "roundNum": 12,
@@ -21923,7 +21923,7 @@
       },
       "3_12_18": {
         "tossupQ": "MATH  Short Answer  What function is the inverse of y = 3x + 4?",
-        "tossupA": "y = \r\n3\r\n4−x",
+        "tossupA": "y = (x-4)/3",
         "bonusQ": "MATH  Short Answer  Giving your answer as an ordered pair, find the solution of the system of \r\nthe following 2 equations:  2x + 3y = 8, and 3x – 2y = –1",
         "bonusA": "(1, 2)  (ACCEPT:  1 AND 2)",
         "category": 4,
@@ -22002,9 +22002,9 @@
         "catDiff": "2.12"
       },
       "6_5_1": {
-        "tossupQ": "MATH  Short Answer  What is the degree of the polynomial:  (x – 3)3 (x – 7)4 [open \r\nparenthesis x minus 3 close parenthesis cubed times open parenthesis x minus 7 close \r\nparenthesis to the power of 4]?",
+        "tossupQ": "MATH  Short Answer  What is the degree of the polynomial:  (x – 3)<sup>3</sup>(x – 7)<sup>4</sup>?",
         "tossupA": "7",
-        "bonusQ": "MATH  Multiple Choice  If x is an angle such that tan(x) = 5/12 and π < x < 3π/2, then sec(x) \r\n[secant of x] is equal to which of the following? \r\n \r\nW) -13/12 \r\nX) -13/5 \r\nY) 13/5 \r\nZ) 13/12",
+        "bonusQ": "MATH  Multiple Choice  If x is an angle such that tan(x) = 5/12 and π < x < 3π/2, then sec(x)  is equal to which of the following? \r\n \r\nW) -13/12 \r\nX) -13/5 \r\nY) 13/5 \r\nZ) 13/12",
         "bonusA": "W) -13/12",
         "category": 4,
         "setNum": 6,
@@ -22134,8 +22134,8 @@
       "6_5_14": {
         "tossupQ": "MATH  Short Answer  What are the solutions to x<sup>2</sup> – 5x + 6 = 0?",
         "tossupA": "2 AND 3",
-        "bonusQ": "MATH  Short Answer  Find an equation of the graph that results from reflecting the graph of \r\ny =   over the y-axis, and then shifting the graph 3 units to the left.",
-        "bonusA": "y =  (ACCEPT: y = )",
+        "bonusQ": "MATH  Short Answer  Find an equation of the graph that results from reflecting the graph of \r\ny = &radic;x over the y-axis, and then shifting the graph 3 units to the left.",
+        "bonusA": "y = &radic;(-(x+3)) (ACCEPT: y = &radic;(-x-3))",
         "category": 4,
         "setNum": 6,
         "roundNum": 5,
@@ -22193,7 +22193,7 @@
       },
       "6_5_20": {
         "tossupQ": "MATH  Short Answer  Convert 420 degrees to radians as an improper fraction in terms of pi.",
-        "tossupA": "7/3",
+        "tossupA": "7pi/3",
         "bonusQ": "MATH  Short Answer  The midpoint of segment AB is (1.5, -3). The coordinates of point A \r\nare (7, -5); what are the coordinates of point B?",
         "bonusA": "(-4, -1)",
         "category": 4,
@@ -22314,7 +22314,7 @@
       "4_16_7": {
         "tossupQ": "MATH  Short Answer  How many terms are there in the arithmetic sequence with first term \r\n10, second term 15, third term 20, and final term 250?",
         "tossupA": "49",
-        "bonusQ": "MATH  Multiple Choice  Evaluate the following expression:  (read as: the summation \r\nfrom -1 to 4 of 3 k squared). \r\n \r\nW) 31 \r\nX) 87 \r\nY) 93 \r\nZ) 243",
+        "bonusQ": "MATH  Multiple Choice  Evaluate the following expression:  (the summation \r\nfrom -1 to 4 of 3 k squared). \r\n \r\nW) 31 \r\nX) 87 \r\nY) 93 \r\nZ) 243",
         "bonusA": "Y) 93",
         "category": 4,
         "setNum": 4,
@@ -22334,8 +22334,8 @@
       "4_16_9": {
         "tossupQ": "MATH  Multiple Choice  Which of the following has the largest amplitude? \r\n \r\nW) 9sin(x) - 2 \r\nX) 2cos(6x) + 5 \r\nY) cos(2x) \r\nZ) 4sin(10x)",
         "tossupA": "W) 9 sin(x) - 2",
-        "bonusQ": "MATH  Short Answer  What power of 10 is closest to 2\r\n55\r\n?",
-        "bonusA": "10\r\n16\r\n  (ACCEPT: 16)",
+        "bonusQ": "MATH  Short Answer  What power of 10 is closest to 2<sup>55</sup>?",
+        "bonusA": "10<sup>16</sup> (ACCEPT: 16)",
         "category": 4,
         "setNum": 4,
         "roundNum": 16,
@@ -22422,7 +22422,7 @@
         "catDiff": "3.16"
       },
       "4_16_18": {
-        "tossupQ": "MATH  Short Answer  Expressing your answer in simplest radical form; evaluate sine of the quantity 7 pi over 4.",
+        "tossupQ": "MATH  Short Answer  Expressing your answer in simplest radical form, evaluate sine of the quantity 7 pi over 4.",
         "tossupA": "-&radic;2/2",
         "bonusQ": "MATH  Multiple Choice  In the use of a statistical test, which of the following constitutes a \r\nType I (read as: type one) error? \r\n \r\nW)  rejecting a true null hypothesis \r\nX)  accepting a false null hypothesis \r\nY)  using a sample size that is too small for the test \r\nZ)  comparing samples that differ too much in size",
         "bonusA": "W)  REJECTING A TRUE NULL HYPOTHESIS",
@@ -22472,7 +22472,7 @@
         "catDiff": "2.16"
       },
       "4_16_23": {
-        "tossupQ": "MATH  Short Answer  Evaluate log  (read as: log of the quantity 10 to the x times 100 \r\nover 10 thousand) \r\n \r\nW) 2 - x \r\nX) x - 2 \r\nY) x + 3 \r\nZ) 10x",
+        "tossupQ": "MATH  Short Answer  Evaluate the log of the quantity 10 to the x times 100 \r\nover 10 thousand) \r\n \r\nW) 2 - x \r\nX) x - 2 \r\nY) x + 3 \r\nZ) 10x",
         "tossupA": "X) x – 2",
         "bonusQ": "MATH  Short Answer  Find the polynomial with real coefficients, leading coefficient 1,  and \r\nleast degree that has 2 + 3i as a zero.",
         "bonusA": "x<sup>2</sup> – 4x +13",
@@ -22612,7 +22612,7 @@
         "catDiff": "1.5"
       },
       "4_5_12": {
-        "tossupQ": "MATH  Short Answer  Solve the following equation for x: log₂ x = 5 (read as: log base 2 of x \r\nequals 5).",
+        "tossupQ": "MATH  Short Answer  Solve the following equation for x: log<sub>2</sub>x = 5.",
         "tossupA": "32",
         "bonusQ": "MATH  Short Answer  Consider the polynomial 5x<sup>2</sup> + 13x + 10. How many and what kind of \r\nroots does it have?",
         "bonusA": "TWO COMPLEX ROOTS",

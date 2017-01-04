@@ -74,7 +74,8 @@ function errorHandler(error) {
 
 // clean target dir
 gulp.task('clean', function(done) {
-  del([targetDir], done());
+  del([targetDir], done);
+    done();
 });
 
 // precompile .scss and concat with ionic.css
