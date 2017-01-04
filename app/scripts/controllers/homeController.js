@@ -8,8 +8,9 @@
  */
 angular.module('IonicGulpSeed')
     .controller('HomeController', function($scope, ExampleService, $ionicScrollDelegate, $ionicLoading, $ionicPopup,
-    SettingsService, $ionicPlatform, $ionicSideMenuDelegate, $ionicHistory, $interval, $timeout) {
+    SettingsService, $ionicPlatform, $ionicSideMenuDelegate, $ionicHistory, $interval, $timeout, $cordovaNativeAudio) {
         $ionicPlatform.ready(function () {
+            
             $ionicLoading.show(); //for a first time.
             //required for side menu to work lol:
             $ionicHistory.clearHistory();

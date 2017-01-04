@@ -9,7 +9,7 @@
  */
 angular.module('IonicGulpSeed')
     .controller('MainController', function($scope, $timeout, $ionicViewService, $rootScope, $ionicPopup, $state,
-                                           $ionicSideMenuDelegate, SettingsService, $ionicTabsDelegate) {
+                                           $ionicSideMenuDelegate, SettingsService, $ionicTabsDelegate, $ionicPlatform) {
 
         /*$scope.$on("settingsChanged", function() {
          updateTabs();
@@ -32,8 +32,10 @@ angular.module('IonicGulpSeed')
 
             selectTab("mode", $scope.settings.mode);
             selectTab("level", $scope.settings.level);*/
-            $(($scope.settings.mode == 0) ? ".tabGame" : ".tabReader").click();
+            $(($scope.settings.mode == 0) ? ".tabReader" : ".tabGame").click();
             $(($scope.settings.level == 0) ? ".tabMS" : ".tabHS").click();
+            //mode: 0 is reader 1 is game mode
+            //level: 0 is MS 1 is HS
 
             console.log($scope.settings.mode,"Is the mode");
         }
@@ -136,6 +138,13 @@ angular.module('IonicGulpSeed')
             });
         }
 
-
+        $scope.showSplash = true;
+        $ionicPlatform.ready(function () {
+            console.log("SPLASHING");
+            //$scope.showSplash = true;
+            $timeout(function() {
+                $scope.showSplash = false;
+            }, 2000)
+        });
 
     });

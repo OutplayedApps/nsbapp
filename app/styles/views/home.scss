@@ -138,6 +138,7 @@ select, ion-tabs, .list {
 
 .timerButtonLarge {
   //float
+  @extend .animHide;
 
   position: absolute;
   bottom: 30%;
