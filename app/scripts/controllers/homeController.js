@@ -186,10 +186,10 @@ angular.module('IonicGulpSeed')
                                 case 1:
                                     break;
                                 case 2: //about to start 1
-                                    /*$scope.dataReal = {
+                                    $scope.dataReal = {
                                         tossupQ: $scope.data.tossupQ,
                                         bonusQ: $scope.data.bonusQ
-                                    };*/
+                                    };
 
                                     readQuestion('tossup');
 
@@ -202,7 +202,7 @@ angular.module('IonicGulpSeed')
                                     return;
                                 case 4:
                                     $scope.data.tossupQ = $scope.dataReal.tossupQ;
-                                    $scope.data.tossupA = $scope.dataReal.tossupA;
+                                    //$scope.data.tossupA = $scope.dataReal.tossupA;
                                     return;
                                 case 5:
                                     readQuestion('bonus');
@@ -273,18 +273,19 @@ angular.module('IonicGulpSeed')
                                 }
                                 $scope.data = {};
 
-                                if ($scope.mode == 1) {
+                               /* if ($scope.mode == 1) {
                                     $scope.dataReal = randEle(regularArray);
 
                                     $scope.dataReal.tossupQ = processToHTML($scope.dataReal.tossupQ);
                                     $scope.dataReal.bonusQ = processToHTML($scope.dataReal.bonusQ);
+                                    $scope.data.tossupA =
                                 }
-                                else {
+                                else {*/
                                     $scope.data = randEle(regularArray);
 
                                     $scope.data.tossupQ = processToHTML($scope.data.tossupQ);
                                     $scope.data.bonusQ = processToHTML($scope.data.bonusQ);
-                                }
+                                //}
 
 
 
