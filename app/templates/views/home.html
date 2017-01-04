@@ -46,8 +46,8 @@
             <ion-spinner></ion-spinner>
         </div>
         <div class="content">
-                <div ng-show="((progress >=2 && progress <=4) || (progress >= 5 && progress <=7) ) || mode == 0">
-                    <h5>{{questionNum}}. {{progress <=4 || mode == 0 ? 'TOSSUP':'BONUS'}}
+                <div ng-show="((progress >=2 && progress <=4) ) || mode == 0">
+                    <h5>{{questionNum}}. TOSSUP
                         <div class="questionInfo" ng-hide="true">
                             Set {{data.setNum}}
                             Round {{data.roundNum}}
@@ -55,7 +55,7 @@
                     </h5>
                     <span ng-bind-html = "data.tossupQ"></span>
                 </div>
-                <div ng-show="progress == 4 || progress == 7 || mode == 0">
+                <div ng-show="progress == 4  || mode == 0">
                     <div>
                         ANSWER: <span class=answer ng-bind-html = "data.tossupA"></span>
                     </div>
@@ -69,10 +69,10 @@
                 </div>
 
             <hr ng-show="mode==0" style="clear:both;">
-            <div ng-show="mode == 0">
+            <div ng-show="(progress >= 5 && progress <=7) || mode == 0">
                 <h5>{{questionNum}}. BONUS</h5> <span ng-bind-html="data.bonusQ"></span>
             </div>
-            <div ng-show="mode == 0">
+            <div ng-show="progress == 7 || mode == 0">
                 ANSWER: <span class=answer ng-bind-html="data.bonusA"></span>
 
                 <button class="timerButton button button-small icon-left ion-ios-stopwatch-outline" ng-click="timer.timeBonus()"

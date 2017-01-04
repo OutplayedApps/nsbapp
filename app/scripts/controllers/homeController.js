@@ -163,18 +163,21 @@ angular.module('IonicGulpSeed')
                     5- bonus frozen
                     6 - full bonus + answer shown
                      */
-                   //// console.log("NEXT QUESTION IS CALLED. MDOE IS "+$scope.mode);
+                   console.log("NEXT QUESTION IS CALLED. PORGRESS IS "+$scope.progress);
                     $scope.initTimer();
                     if ($scope.mode == 0 || actuallyGoToNext) { //reader mode, or actuallyGoToNext (only true when a new category / difficulty is picked).
                         $scope.progress = 0;
                         $scope.questionNum++;
                         if ($scope.mode == 1) { //basically, actuallyGoToNext.
-                            $scope.nextQuestion();
+                            $interval.cancel($scope.promise);
+                            console.log("PROGRESS IS "+$scope.progress);
+                            $scope.progress = 1;
+                            //$scope.nextQuestion();
                         }
                     }
                     else if ($scope.mode == 1) { //game mode.
                        //// console.log($scope.progress);
-                        var promise;
+
                         var fullQuestion;
                         $scope.progress++;
 
@@ -183,30 +186,74 @@ angular.module('IonicGulpSeed')
                                 case 1:
                                     break;
                                 case 2: //about to start 1
-                                    readQuestion($scope.dataReal.tossupQ, $scope.progress);
+                                    /*$scope.dataReal = {
+                                        tossupQ: $scope.data.tossupQ,
+                                        bonusQ: $scope.data.bonusQ
+                                    };*/
+
+                                    $scope.fullQuestion = $scope.dataReal.tossupQ.split(/ /);
+                                    $scope.data.tossupQ = "";
+                                    $scope.data.bonusQ = $scope.dataReal.tossupQ;
+                                    var index = 0;
+                                    var initialReadSpeed = 1000/SettingsService.settings.readSpeed;
+
+                                    var updateTossupPosition = function() {
+                                        if ($scope.pauseEverything) {
+                                            return;
+                                        }
+                                        console.log("PAUSEAAA"+$scope.pauseEverything);
+                                        $scope.data.tossupQ += " "+$scope.fullQuestion[index];
+                                        if (index == $scope.fullQuestion.length-1 || $scope.progress != 2) {
+                                            $interval.cancel($scope.promise);
+                                            if ($scope.progress == 2) {
+                                                $scope.nextQuestion();
+                                                console.log("2 HAS BEEN CALLED");
+                                            }
+                                        }
+                                        if (1000/SettingsService.settings.readSpeed != initialReadSpeed) {
+                                            //if speed has changed.
+                                            initialReadSpeed = 1000/SettingsService.settings.readSpeed;
+                                            console.log("updating speed to "+initialReadSpeed);
+                                            $interval.cancel($scope.promise);
+                                            $scope.promise = $interval(updateTossupPosition, initialReadSpeed);
+                                        }
+                                        index++;
+                                    }
+                                    $scope.promise = $interval(updateTossupPosition, initialReadSpeed);
 
                                     return;
                                 case 3:
                                     //question paused, buzzing.
-                                   //// console.log("THREES");
+                                    console.log("THREES");
                                     $interval.cancel($scope.promise);
                                     $scope.timer.timeTU();
                                     return;
                                 case 4:
                                     $scope.data.tossupQ = $scope.dataReal.tossupQ;
-                                   //// console.log("I'M BEING EVIL tossup");
+                                    $scope.data.tossupA = $scope.dataReal.tossupA;
                                     return;
                                 case 5:
-                                    //$scope.data.tossupQ = $scope.dataReal.bonusQ;
-                                    $scope.data.tossupA = $scope.data.bonusA;
-                                   // console.log("I'M BEING EVIL bonus");
-                                    readQuestion($scope.dataReal.bonusQ, $scope.progress);
+                                    $scope.fullQuestion = $scope.dataReal.bonusQ.split(" ");
+                                    $scope.data.bonusQ = "";
+                                    var index = 0;
+                                    $scope.promise = $interval(function() {
+                                        if ($scope.pauseEverything) return;
+                                        $scope.data.bonusQ += " "+$scope.fullQuestion[index];
+                                        if (index == $scope.fullQuestion.length-1 || $scope.progress != 5) {
+                                            $interval.cancel($scope.promise);
+                                            if ($scope.progress == 5) {
+                                                $scope.nextQuestion();
+                                                console.log("5 HAS BEEN CALLED");
+                                            }
+
+                                        }
+                                        index++;
+                                    }, 1000/SettingsService.settings.readSpeed);
                                     return;
                                 case 6:
                                     $interval.cancel($scope.promise);
                                     $scope.timer.timeBonus();
-                                    $scope.data.tossupQ = $scope.dataReal.bonusQ; //shows full bonus this time.
-                                   // console.log("I'M BEING EVIL bonus");
+                                    $scope.data.bonusQ = $scope.dataReal.bonusQ; //shows full bonus this time.
                                     return;
                                 case 7:
 
@@ -216,7 +263,7 @@ angular.module('IonicGulpSeed')
                                     $scope.progress = 0;
                                     $scope.questionNum++;
                                     $scope.nextQuestion();
-                                   // console.log("DEFAULT HAS BEEN CALLED");
+                                    console.log("DEFAULT HAS BEEN CALLED");
                                     return;
                             }
 
@@ -256,6 +303,7 @@ angular.module('IonicGulpSeed')
 
                     ExampleService.fetchQuestions(catNumNew, diffNumFinal, $scope.HSorMS)
                         .then(function (list) {
+                            console.log("QUESTIONS FETCHED");
                             window.list = list;
 
                             //$scope.myHTML = response.data.text;
@@ -266,18 +314,21 @@ angular.module('IonicGulpSeed')
                                 for (var i = 0; i < data.length; i++) {
                                     regularArray.push(data[i]);
                                 }
-                                $scope.data = randEle(regularArray);
-
-                                $scope.data.tossupQ = processToHTML($scope.data.tossupQ);
-                                $scope.data.bonusQ = processToHTML($scope.data.bonusQ);
+                                $scope.data = {};
 
                                 if ($scope.mode == 1) {
-                                    $scope.dataReal = {
-                                        tossupQ: $scope.data.tossupQ,
-                                        bonusQ: $scope.data.bonusQ
-                                    };
-                                    $scope.data.tossupQ = "";
+                                    $scope.dataReal = randEle(regularArray);
+
+                                    $scope.dataReal.tossupQ = processToHTML($scope.dataReal.tossupQ);
+                                    $scope.dataReal.bonusQ = processToHTML($scope.dataReal.bonusQ);
                                 }
+                                else {
+                                    $scope.data = randEle(regularArray);
+
+                                    $scope.data.tossupQ = processToHTML($scope.data.tossupQ);
+                                    $scope.data.bonusQ = processToHTML($scope.data.bonusQ);
+                                }
+
 
 
                                 $scope.data.category = $scope.data.category;
@@ -369,12 +420,15 @@ angular.module('IonicGulpSeed')
             }
         }
 
-        function readQuestion(tossupQ, progress) {
-            $scope.fullQuestion = tossupQ.split(/ /);
+        function readQuestion(opts) {
+            var isTossup = (opts == 'tossup') ? true : false;
+            var optsQ = opts+"Q";
+            var prog = isTossup ? 2 : 5;
+            $scope.fullQuestion = $scope.dataReal[optsQ].split(/ /);
            // console.log("FULL QUESTION IS: "+$scope.fullQuestion);
-            $interval.cancel($scope.promise);
+            //$interval.cancel($scope.promise);
 
-            $scope.data.tossupQ = "";
+            $scope.data[optsQ] = "";
            // console.log("$scope.data.tossupQ",$scope.data.tossupQ);
             var index = 0;
             var initialReadSpeed = 1000/SettingsService.settings.readSpeed;
@@ -385,11 +439,11 @@ angular.module('IonicGulpSeed')
                     return;
                 }
                 //console.log("PAUSEAAA"+$scope.pauseEverything);
-                //console.log("SCOPE DATA TOSSUPQ is "+ $scope.data.tossupQ);
-                $scope.data.tossupQ += " "+$scope.fullQuestion[index];
-                if (index == $scope.fullQuestion.length-1 || $scope.progress != progress) {
+                console.log("SCOPE DATA TOSSUPQ is "+ $scope.data.bonusQ);
+                $scope.data[optsQ] += " "+$scope.fullQuestion[index];
+                if (index == $scope.fullQuestion.length-1 || $scope.progress != prog) {
                     $interval.cancel($scope.promise);
-                    if ($scope.progress ==  progress) {
+                    if ($scope.progress ==  prog) {
                         $scope.nextQuestion();
                     }
                 }
