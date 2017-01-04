@@ -139,19 +139,30 @@ angular.module('IonicGulpSeed')
         }
 
         $scope.hideSplash = false;
-//        $ionicPlatform.ready(function () {
-        $scope.showSplash = function() {
-            //listener();
-            if (navigator.splashscreen) {
-                navigator.splashscreen.hide();
-                //hides first splash screen.
-            }
-            console.log("SPLASHING");
-            //$scope.showSplash = true;
-            $timeout(function() {
-                $scope.hideSplash = true;
-            }, 2200);
-        };
+        $ionicPlatform.ready(function () {
+            $scope.showSplash = function () {
+                //listener();
+                if (navigator.splashscreen) {
+                    navigator.splashscreen.hide();
+                    //hides first splash screen.
+                }
+                console.log("SPLASHING");
+                //$scope.showSplash = true;
+                $timeout(function () {
+                    if ($scope.updated) {
+                        $scope.hideSplash = true;
+                    }
+                    else  {
+                        $scope.$watch('updated', function() {
+                            if ($scope.updated) {
+                                $scope.hideSplash = true;
+                            }
+                        })
+                    }
+                }, 2200);
+            };
+            $scope.showSplash();
+        });
 
         document.addEventListener('deviceready', function() {
         //$ionicPlatform.ready(function () {
@@ -173,7 +184,6 @@ angular.module('IonicGulpSeed')
                         default:
                             console.log("done with CODEPUSH.");
                             $scope.updated = 1;
-                            $scope.showSplash();
                             break;
                     }
                 });
