@@ -197,7 +197,7 @@ angular.module('IonicGulpSeed')
         }, false);
 
         if (! window.device) {
-            $scope.showSplash();
+            $scope.updated = 1;
         }
 
 
