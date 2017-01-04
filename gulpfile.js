@@ -22,6 +22,7 @@ var KarmaServer = require('karma').Server;
 var spawn = require('child_process').spawn;
 var Promise = require('bluebird');
 var wiredep = require('wiredep');
+var fs = require('fs');
 
 // this is the express server which 
 // will be initiated when gulp serve
@@ -72,10 +73,11 @@ function errorHandler(error) {
 };
 
 
-// clean target dir
-gulp.task('clean', function() {
-  del([targetDir]);
-});
+
+    // clean target dir
+    gulp.task('clean', function() {
+        return del([targetDir]);
+    });
 
 // precompile .scss and concat with ionic.css
 gulp.task('styles', function() {
@@ -209,7 +211,7 @@ gulp.task('jsHint', function(done) {
 gulp.task('vendor', function() {
   //var vendorFiles = require('./vendor.json');
     var vendorFiles =wiredep().js;
-
+//fs.writeFile("vendor.js", "");
   return gulp.src(vendorFiles)
     .pipe(plugins.concat('vendor.js'))
     .pipe(plugins.if(build, plugins.uglify()))

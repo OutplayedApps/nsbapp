@@ -138,13 +138,17 @@ angular.module('IonicGulpSeed')
             });
         }
 
-        $scope.showSplash = true;
+        $scope.hideSplash = false;
         $ionicPlatform.ready(function () {
+            if (navigator.splashscreen) {
+                navigator.splashscreen.hide();
+                //hides first splash screen.
+            }
             console.log("SPLASHING");
             //$scope.showSplash = true;
             $timeout(function() {
-                $scope.showSplash = false;
-            }, 2000)
+                $scope.hideSplash = true;
+            }, 3000)
         });
 
     });
