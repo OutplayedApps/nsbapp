@@ -18,6 +18,11 @@
 <!-- inject:app:js --><!-- endinject -->
 
 <script src="cordova.js"></script>
+<script>
+    document.addEventListener('deviceready', function() {
+        codePush.sync();
+    }, false);
+</script>
 
 </body>
 </html>

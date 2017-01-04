@@ -9,14 +9,15 @@
     </ion-side-menu-content>
 
     <!-- Left menu -->
-    <ion-side-menu side="left" class="side-menu" overflow-scroll="true">
+    <ion-side-menu side="left" class="side-menu">
 
         <ion-header-bar align-title="center" class="bar-balanced">
             <h1 class="title">Preferences</h1>
         </ion-header-bar>
 
         <ion-content class="has-header" scroll="true">
-            <div class="list menu">
+            <ion-scroll>
+                <div class="list menu">
                 <a menu-close class="item item-icon-left" ui-sref-active="active" ui-sref="mainMenu">
                     <i class="icon ion-home"></i>
                     Main Menu
@@ -78,7 +79,7 @@
 
                     <div class="item range range-positive">
                         Slow
-                        <input type="range" id="readSpeedRange" min="1" max="7" step=".1" ng-model="readSpeed" ng-change="updateReadSpeed()">
+                        <input type="range" id="readSpeedRange" min="1.5" max="5.2" step=".1" ng-model="readSpeed" ng-change="updateReadSpeed()">
                         <i class="icon ion-ios-fastforward"></i>
                     </div>
                 </div>
@@ -93,6 +94,7 @@
                 </label-->
 
             </div>
+            </ion-scroll>
         </ion-content>
     </ion-side-menu>
 </ion-side-menus>

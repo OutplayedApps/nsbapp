@@ -16,6 +16,18 @@
   .questionInfo {
     float:right;
   }
+
+  &, & h5 {
+    @media only screen and (min-width:531px) {
+      font-size: 15pt;
+      line-height: 1.5;
+    }
+    @media only screen and (min-height:531px) {
+      font-size: 15pt;
+      line-height: 1.5;
+    }
+  }
+
 }
 
 select {
