@@ -1725,7 +1725,7 @@
         "tossupQ": "CHEMISTRY  Short Answer  What is the most common term for the direct addition of water to \r\nan alkene (read as: al-KEEN) to make an alcohol?",
         "tossupA": "HYDRATION",
         "bonusQ": "CHEMISTRY  Short Answer  Under constant temperatures, a sample of gas at a pressure of 120 \r\nkilopascals is allowed to expand from 2 liters to 8 liters.  Calculate the new pressure, in kilopascals:",
-        "bonusA": "30 \r\n \r\n(Solution:  P1V1 = P<sub>2</sub>V2;  (120 kPa)(2L) = (P<sub>2</sub>)(8L);  = 30 kPa)",
+        "bonusA": "30 \r\n \r\n(Solution:  P<sub>1</sub>V1 = P<sub>2</sub>V2;  (120 kPa)(2L) = (P<sub>2</sub>)(8L);  = 30 kPa)",
         "category": 2,
         "setNum": 1,
         "roundNum": 10,
@@ -3392,8 +3392,8 @@
         "catDiff": "5.2"
       },
       "6_2_15": {
-        "tossupQ": "CHEMISTRY  Multiple Choice  Which of the following is an aldehyde [AL-duh-hyd]? \r\n \r\nW) C11H20  \r\nX) C<sub>5</sub>H11OH \r\nY) C<sub>5</sub>H11CHO \r\nZ) C<sub>5</sub>H11NH<sub>2</sub>",
-        "tossupA": "Y) C<sub>5</sub>H11CHO",
+        "tossupQ": "CHEMISTRY  Multiple Choice  Which of the following is an aldehyde [AL-duh-hyd]? \r\n \r\nW) C<sub>11</sub>H20  \r\nX) C<sub>5</sub>H<sub>11</sub>OH \r\nY) C<sub>5</sub>H<sub>11</sub>CHO \r\nZ) C<sub>5</sub>H<sub>11</sub>NH<sub>2</sub>",
+        "tossupA": "Y) C<sub>5</sub>H<sub>11</sub>CHO",
         "bonusQ": "CHEMISTRY  Short Answer  Which one of the following five metals would react the least \r\nwith dilute hydrochloric acid: 1) lead, 2) chromium, 3) manganese, 4) nickel, 5) gold?",
         "bonusA": "5 (ACCEPT: GOLD)",
         "category": 2,
@@ -10515,7 +10515,7 @@
         "tossupQ": "CHEMISTRY  Multiple Choice  In general, which of the following stereoisomers are the most \r\ndissimilar in terms of their physical and chemical properties: \r\n \r\nW)  conformational \r\nX)  mirror-image \r\nY)  enantiomers (EE-nan-tee-oh-mers) \r\nZ)  geometric",
         "tossupA": "Z)  GEOMETRIC",
         "bonusQ": "CHEMISTRY  Short Answer  Under constant temperature conditions, a sample of gas has a \r\nvolume of 8 liters at a pressure of 1.5 atmospheres.  If a 2 liter container is used to hold the gas, \r\ncalculate the new pressure, in atmospheres:",
-        "bonusA": "6 \r\n \r\n(Solution:  P1V1 = P<sub>2</sub>V2;  (1.5atm)(8L) = (P<sub>2</sub>)(2L);  = 6atm)",
+        "bonusA": "6 \r\n \r\n(Solution:  P<sub>1</sub>V1 = P<sub>2</sub>V2;  (1.5atm)(8L) = (P<sub>2</sub>)(2L);  = 6atm)",
         "category": 2,
         "setNum": 2,
         "roundNum": 6,
@@ -11495,7 +11495,7 @@
         "tossupQ": "CHEMISTRY  Short Answer  What is the general name for a substance that facilitates a \r\nchemical reaction by providing an alternative reaction pathway with a lower activation energy while \r\nremaining unaltered?",
         "tossupA": "CATALYST",
         "bonusQ": "CHEMISTRY  Short Answer  You need to prepare 500 milliliters of a 0.100 molar NaOH \r\nsolution from a 0.250 molar solution.  What volume, in milliliters, of the 0.250 molar solution must \r\nbe diluted to 500 milliliters?",
-        "bonusA": "200 \r\n \r\n(Solution: M1V1 = M<sub>2</sub>V2;  (0.250M)(x) = (0.100M)(500ml), x = 200 ml)",
+        "bonusA": "200 \r\n \r\n(Solution: M<sub>1</sub>V1 = M<sub>2</sub>V2;  (0.250M)(x) = (0.100M)(500ml), x = 200 ml)",
         "category": 2,
         "setNum": 1,
         "roundNum": 9,
@@ -12745,7 +12745,7 @@
         "tossupQ": "CHEMISTRY  Short Answer  Giving your answer to the first decimal place and in liters, one \r\nmole of gas at 1.00 atmosphere pressure and a temperature of 273.15 kelvin occupies what volume?",
         "tossupA": "22.4",
         "bonusQ": "CHEMISTRY  Short Answer  A sample of gas occupies a volume of 300 cubic centimeters at a \r\npressure of 2 atmospheres.  Calculate what the pressure would have to be, in atmospheres to the first \r\ndecimal place, in order for the gas to have a volume of 500 cubic centimeters at constant \r\ntemperature:",
-        "bonusA": "1.2 \r\n \r\n(Solution: P<sub>2</sub> = P1V1/V<sub>2</sub> = (2 atm)(300 cm3)/500 cm3 = 1.2 atm)",
+        "bonusA": "1.2 \r\n \r\n(Solution: P<sub>2</sub> = P<sub>1</sub>V1/V<sub>2</sub> = (2 atm)(300 cm3)/500 cm3 = 1.2 atm)",
         "category": 2,
         "setNum": 1,
         "roundNum": 12,
@@ -12842,8 +12842,8 @@
         "catDiff": "1.13"
       },
       "2_13_10": {
-        "tossupQ": "CHEMISTRY  Multiple Choice  Which of the following is incorrect: \r\n \r\nW)  C<sub>5</sub>H11CHO is an aldehyde \r\nX)  C11H20 is an alkane \r\nY)  C<sub>5</sub>H11OH is an alcohol \r\nZ)  C<sub>5</sub>H11NH<sub>2</sub> is an amine",
-        "tossupA": "X)  C11H20 IS AN ALKANE",
+        "tossupQ": "CHEMISTRY  Multiple Choice  Which of the following is incorrect: \r\n \r\nW)  C<sub>5</sub>H<sub>11</sub>CHO is an aldehyde \r\nX)  C<sub>11</sub>H20 is an alkane \r\nY)  C<sub>5</sub>H<sub>11</sub>OH is an alcohol \r\nZ)  C<sub>5</sub>H<sub>11</sub>NH<sub>2</sub> is an amine",
+        "tossupA": "X)  C<sub>11</sub>H20 IS AN ALKANE",
         "bonusQ": "CHEMISTRY  Short Answer  Order the following 4 ionic solids in terms of their lattice \r\nenergies, going from the highest to the lowest:  LiF;  MgI<sub>2</sub>;  KF;  NaF",
         "bonusA": "MgI<sub>2</sub>;  LiF;  NaF;  KF",
         "category": 2,
@@ -14005,7 +14005,7 @@
         "tossupQ": "CHEMISTRY  Short Answer  Name the elements in the following reaction that have been \r\noxidized and reduced, respectively:  Zn(solid) + CuSO<sub>4</sub>(aqueous)  ZnSO<sub>4</sub>(aqueous) + Cu(solid)",
         "tossupA": "OXIDIZED = Zn (ACCEPT:  ZINC);  REDUCED = Cu (ACCEPT:  COPPER)",
         "bonusQ": "CHEMISTRY  Multiple Choice  Which of the following is closest to the pKa of an acid whose  \r\nKa = 5.0 × 10–4: \r\n \r\nW)  2.3 \r\nX)  3.3 \r\nY)  4.0 \r\nZ)  5.0",
-        "bonusA": "X)  3.3 \r\n(Solution: pKa = –log10Ka = 3.3)",
+        "bonusA": "X)  3.3 \r\n(Solution: pKa = –log<sub>10</sub>Ka = 3.3)",
         "category": 2,
         "setNum": 1,
         "roundNum": 14,
@@ -20224,8 +20224,8 @@
       "6_3_23": {
         "tossupQ": "CHEMISTRY  Short Answer  At -78º Celsius, dry ice changes directly from a solid to a gas. \r\nWhat is this process called?",
         "tossupA": "SUBLIMATION",
-        "bonusQ": "CHEMISTRY  Multiple Choice  Which of the following is the formula for n-Octadecanoic \r\nacid? \r\n \r\nW) C<sub>6</sub>H12O<sub>6</sub> \r\nX) C18H36COOH  \r\nY) C17H35COOH \r\nZ) C16H32COOH",
-        "bonusA": "Y) C17H35COOH",
+        "bonusQ": "CHEMISTRY  Multiple Choice  Which of the following is the formula for n-Octadecanoic \r\nacid? \r\n \r\nW) C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> \r\nX) C<sub>18</sub>H36COOH  \r\nY) C<sub>17</sub>H35COOH \r\nZ) C<sub>16</sub>H32COOH",
+        "bonusA": "Y) C<sub>17</sub>H35COOH",
         "category": 2,
         "setNum": 6,
         "roundNum": 3,
@@ -32693,7 +32693,7 @@
         "catDiff": "1.8"
       },
       "1_8_20": {
-        "tossupQ": "PHYSICAL SCIENCE Short Answer What is the most commonly used scientific name for the \r\ncompound with the chemical formula C<sub>6</sub>H12O<sub>6</sub>, which is a product of photosynthesis?",
+        "tossupQ": "PHYSICAL SCIENCE Short Answer What is the most commonly used scientific name for the \r\ncompound with the chemical formula C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>, which is a product of photosynthesis?",
         "tossupA": "GLUCOSE (ACCEPT: D-GLUCOSE or DEXTROSE)",
         "bonusQ": "PHYSICAL SCIENCE Short Answer Arrange the following 4 substances in order of \r\nDECREASING pH: normal human saliva; black coffee; bleach; stomach acid",
         "bonusA": "BLEACH; NORMAL HUMAN SALIVA; BLACK COFFEE; STOMACH ACID \r\n \r\n(Solution: bleach = 13; saliva = 6.5-7.4; coffee = 5; stomach acid = 2)",
@@ -37003,8 +37003,8 @@
         "catDiff": "4.8"
       },
       "2_8_2": {
-        "tossupQ": "LIFE SCIENCE Multiple Choice A summary reaction for photosynthesis is: \r\n \r\nW) CO2 + O2 + H2O and light yields carbohydrate + O2\r\nX) CO2 + H2O and light yields carbohydrate + O2\r\nY) CO2 + H2O and light yields carbohydrate + H2O \r\nZ)  CO2 + O2 + H2O and light yields carbohydrate + H2O",
-        "tossupA": "X) CO2 + H2O AND LIGHT YIELDS CARBOHYDRATE + O2",
+        "tossupQ": "LIFE SCIENCE Multiple Choice A summary reaction for photosynthesis is: \r\n \r\nW) CO2 + O2 + H<sub>2</sub>O and light yields carbohydrate + O2\r\nX) CO2 + H<sub>2</sub>O and light yields carbohydrate + O2\r\nY) CO2 + H<sub>2</sub>O and light yields carbohydrate + H<sub>2</sub>O \r\nZ)  CO2 + O2 + H<sub>2</sub>O and light yields carbohydrate + H<sub>2</sub>O",
+        "tossupA": "X) CO2 + H<sub>2</sub>O AND LIGHT YIELDS CARBOHYDRATE + O2",
         "bonusQ": "LIFE SCIENCE Multiple Choice It is generally believed that most of the oxygen in the air \r\ntoday came from: \r\n \r\nW) oxidation of carbon molecules containing oxygen \r\nX) release of oxygen from volcanic vents \r\nY) photosynthesis \r\nZ) forest fires",
         "bonusA": "Y) PHOTOSYNTHESIS \r\nJunior National Science Bowl Single Elimination 1 Page 1",
         "category": 1,
@@ -37566,7 +37566,7 @@
         "tossupQ": "PHYSICAL SCIENCE Short Answer The amount of heat needed to increase the temperature \r\nof 1.00 gram of water from 14.5°C to 15.5°C is defined as what unit of measurement?",
         "tossupA": "CALORIE",
         "bonusQ": "PHYSICAL SCIENCE Short Answer What is the chemical formula for hydrogen peroxide?",
-        "bonusA": "H2O2 \r\n \r\nJunior National Science Bowl Round Robin 4 Page 4",
+        "bonusA": "H<sub>2</sub>O2 \r\n \r\nJunior National Science Bowl Round Robin 4 Page 4",
         "category": 3,
         "setNum": 2,
         "roundNum": 4,
@@ -39393,7 +39393,7 @@
         "catDiff": "6.14"
       },
       "3_14_16": {
-        "tossupQ": "LIFE SCIENCE Multiple Choice What type of virus has the Food and Drug Administration \r\nrecently approved to be sprayed on certain foods as a preservative against bacterial contamination: \r\n \r\nW) bacteriophage \r\nX) H5N1 \r\nY) Marburg \r\nZ) Ebola",
+        "tossupQ": "LIFE SCIENCE Multiple Choice What type of virus has the Food and Drug Administration \r\nrecently approved to be sprayed on certain foods as a preservative against bacterial contamination: \r\n \r\nW) bacteriophage \r\nX) H<sub>5</sub>N1 \r\nY) Marburg \r\nZ) Ebola",
         "tossupA": "W) BACTERIOPHAGE",
         "bonusQ": "LIFE SCIENCE Multiple Choice Which of the following is the BEST reason why high salt \r\nenvironments are difficult environments for organisms to survive in: \r\n \r\nW) salt is an ionic molecule and causes a charge differential \r\nX) salt causes an osmotic imbalance leading to excessive loss of water from cells \r\nY) salt usually is contaminated with toxic heavy metals \r\nZ) salt causes heavy metal poisons to be readily absorbed through skin",
         "bonusA": "X) SALT CAUSES AN OSMOTIC IMBALANCE LEADING TO EXCESSIVE LOSS \r\nOF WATER FROM CELLS",
@@ -43095,7 +43095,7 @@
       "6_5_11": {
         "tossupQ": "GENERAL SCIENCE Short Answer What kind of circuit consists of multiple different \r\ncomponents, but has only one path for the current to follow?",
         "tossupA": "SERIES",
-        "bonusQ": "GENERAL SCIENCE Short Answer Given the balanced chemical equation 4P + 5O2     \r\nyields 2P2Ox, what should x equal?",
+        "bonusQ": "GENERAL SCIENCE Short Answer Given the balanced chemical equation 4P + 5O2     \r\nyields 2P<sub>2</sub>Ox, what should x equal?",
         "bonusA": "5",
         "category": 6,
         "setNum": 6,
@@ -44253,7 +44253,7 @@
         "catDiff": "4.7"
       },
       "6_7_2": {
-        "tossupQ": "PHYSICAL SCIENCE Multiple Choice Which of the following equations represents Dalton’s \r\nlaw? \r\n \r\nW) PV = nRT \r\nX) P1V1 = P2V2 \r\nY) PT = PA + PB + PC... \r\nZ) V1/n1 = V2/n2 [V 1 over n 1 equals V 2 over n 2]",
+        "tossupQ": "PHYSICAL SCIENCE Multiple Choice Which of the following equations represents Dalton’s \r\nlaw? \r\n \r\nW) PV = nRT \r\nX) P<sub>1</sub>V1 = P<sub>2</sub>V2 \r\nY) PT = PA + PB + PC... \r\nZ) V1/n1 = V2/n2 [V 1 over n 1 equals V 2 over n 2]",
         "tossupA": "Y) PT = PA + PB + PC...",
         "bonusQ": "PHYSICAL SCIENCE Multiple Choice Which of the following statements is NOT true about \r\narch bridges? \r\n \r\nW) Its structure distributes compression through its entire form \r\nX) Weight is diverted onto its abutments \r\nY) The curve of the arch reduces the effects of tension \r\nZ) Each half-arch has its own structural integrity",
         "bonusA": "Z) EACH HALF-ARCH HAS ITS OWN STRUCTURAL INTEGRITY",
@@ -49756,7 +49756,7 @@
         "tossupQ": "GENERAL SCIENCE Short Answer A chemist just discovered a jar of sodium hydroxide \r\nsolution in a dark corner of his laboratory. He has no idea what the concentration of this sodium \r\nhydroxide solution is. However, he does have an indicator and a jar of 1 molar hydrochloric acid. \r\nWhat experiment could he use to determine the concentration of the sodium hydroxide solution?",
         "tossupA": "TITRATION",
         "bonusQ": "GENERAL SCIENCE Short Answer Bleach is a very strong disinfectant. It is a basic solution \r\nof NaOCl and, when mixed with water, forms ClO- ions. Bleach should never be mixed with \r\nammonia because the ClO- ions react to form what deadly gas?",
-        "bonusA": "CHLORAMINE (ACCEPT: NH2Cl or MONOCHLORAMINE; DO NOT ACCEPT: \r\nCHLORINE)",
+        "bonusA": "CHLORAMINE (ACCEPT: NH<sub>2</sub>Cl or MONOCHLORAMINE; DO NOT ACCEPT: \r\nCHLORINE)",
         "category": 6,
         "setNum": 7,
         "roundNum": 14,
@@ -51265,7 +51265,7 @@
       "6_10_3": {
         "tossupQ": "GENERAL SCIENCE Multiple Choice In which of the following locations do most ocean \r\ntrenches occur? \r\n \r\nW) Mid-ocean ridge \r\nX) Abyssal plains \r\nY) Continental shelf \r\nZ) Convergent boundaries",
         "tossupA": "Z) CONVERGENT BOUNDARIES",
-        "bonusQ": "GENERAL SCIENCE Short Answer Given the combustion equation 2C4H10 + 13O2 →         \r\n[yields] 8CO2 + 10H2O, how many moles of water can be produced by reacting 12.5 moles of \r\nC4H10 with excess oxygen?",
+        "bonusQ": "GENERAL SCIENCE Short Answer Given the combustion equation 2C<sub>4</sub>H10 + 13O2 →         \r\n[yields] 8CO2 + 10H<sub>2</sub>O, how many moles of water can be produced by reacting 12.5 moles of \r\nC<sub>4</sub>H10 with excess oxygen?",
         "bonusA": "62.5",
         "category": 6,
         "setNum": 6,
@@ -51283,7 +51283,7 @@
         "catDiff": "4.10"
       },
       "6_10_5": {
-        "tossupQ": "PHYSICAL SCIENCE Short Answer What type of reaction is 2Al + Fe2O3 yields 2Fe + \r\nAl2O3?",
+        "tossupQ": "PHYSICAL SCIENCE Short Answer What type of reaction is 2Al + Fe<sub>2</sub>O3 yields 2Fe + \r\nAl<sub>2</sub>O3?",
         "tossupA": "REPLACEMENT (ACCEPT: SINGLE REPLACEMENT OR DISPLACEMENT)",
         "bonusQ": "PHYSICAL SCIENCE Short Answer If an atom has an electron in a d subshell, then what is \r\nthe smallest principal quantum number the electron may possess?",
         "bonusA": "3",
@@ -51463,8 +51463,8 @@
         "catDiff": "4.10"
       },
       "6_10_23": {
-        "tossupQ": "PHYSICAL SCIENCE Multiple Choice Which of the following molecules is an alkene [AL-\r\nkeen]? \r\n \r\nW) CH4 \r\nX) C2H4 \r\nY) C3H8 \r\nZ) C5H12",
-        "tossupA": "X) C2H4",
+        "tossupQ": "PHYSICAL SCIENCE Multiple Choice Which of the following molecules is an alkene [AL-\r\nkeen]? \r\n \r\nW) CH4 \r\nX) C<sub>2</sub>H4 \r\nY) C<sub>3</sub>H8 \r\nZ) C<sub>5</sub>H12",
+        "tossupA": "X) C<sub>2</sub>H4",
         "bonusQ": "PHYSICAL SCIENCE Multiple Choice Which of the following elements has the largest \r\nelectron affinity? \r\n \r\nW) Lithium \r\nX) Beryllium \r\nY) Fluorine \r\nZ) Nitrogen",
         "bonusA": "Y) FLUORINE",
         "category": 3,
@@ -54664,8 +54664,8 @@
         "catDiff": "1.7"
       },
       "7_7_18": {
-        "tossupQ": "GENERAL SCIENCE Multiple Choice Which of the following is NOT required for \r\nphotosynthesis to occur? \r\n \r\nW) CO2 \r\nX) H2O \r\nY) C6H12O2 \r\nZ) Photons",
-        "tossupA": "Y) C6H12O2",
+        "tossupQ": "GENERAL SCIENCE Multiple Choice Which of the following is NOT required for \r\nphotosynthesis to occur? \r\n \r\nW) CO2 \r\nX) H<sub>2</sub>O \r\nY) C<sub>6</sub>H<sub>12</sub>O2 \r\nZ) Photons",
+        "tossupA": "Y) C<sub>6</sub>H<sub>12</sub>O2",
         "bonusQ": "GENERAL SCIENCE Multiple Choice Suppose a chemical reaction occurs, and a reddish \r\nbrown gas is released. Which of the following could possibly be this gas? \r\n \r\nW) Chlorine \r\nX) Bromine \r\nY) Iodine \r\nZ) Argon",
         "bonusA": "X) BROMINE",
         "category": 6,
