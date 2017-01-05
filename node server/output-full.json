@@ -21032,7 +21032,7 @@
         "catDiff": "0.17"
       },
       "4_17_4": {
-        "tossupQ": "MATH  Short Answer  Find  the limit as x approaches infinity of e to the \r\nnegative x)",
+        "tossupQ": "MATH  Short Answer  Find  the limit as x approaches infinity of e to the \r\nnegative x",
         "tossupA": "0",
         "bonusQ": "MATH  Short Answer  A particle moves so its position s in kilometers at time t in hours can be \r\nexpressed as s(t) = 6t<sup>2</sup> + 25. After 5 hours, what is its speed in kilometers per hour and its \r\nacceleration in kilometers per hour squared, respectively?",
         "bonusA": "SPEED: 60, ACCELERATION: 12",
@@ -22574,7 +22574,7 @@
       "4_5_8": {
         "tossupQ": "MATH  Short Answer  For which values of g is the following inequality true: 6g + 4 > 9g - 11?",
         "tossupA": "g  <  5",
-        "bonusQ": "MATH Multiple Choice  If f(x) (read as: f of x) represents the function whose graph is the \r\nstandard normal distribution curve, then how do the inflection points on the curve for 2f(x) (read \r\nas: 2 f of x) compare to those of f(x)? \r\n \r\nW) Both curves have the same inflection points \r\nX) The 2f(x) inflection points are twice as far apart but the same height \r\nY) The 2f(x) inflection points are twice as high but the same distance apart \r\nZ) The 2f(x) inflection points are both twice as far apart and twice as high",
+        "bonusQ": "MATH Multiple Choice  If f(x) (read as: f of x) represents the function whose graph is the \r\nstandard normal distribution curve, then how do the inflection points on the curve for 2f(x)? \r\n \r\nW) Both curves have the same inflection points \r\nX) The 2f(x) inflection points are twice as far apart but the same height \r\nY) The 2f(x) inflection points are twice as high but the same distance apart \r\nZ) The 2f(x) inflection points are both twice as far apart and twice as high",
         "bonusA": "Y) THE 2F(X) INFLECTION POINTS ARE TWICE AS HIGH BUT THE SAME \r\nDISTANCE APART",
         "category": 4,
         "setNum": 4,
@@ -23805,7 +23805,7 @@
         "tossupQ": "MATH  Short Answer  Expand the following expression, giving your answer in standard \r\nbinomial form:  (6x + 3y)<sup>2</sup>",
         "tossupA": "36x<sup>2</sup> + 36xy + 9y\r\n2",
         "bonusQ": "MATH  Short Answer  Consider a blue circle inscribed in a white square.  If the radius of the \r\ncircle is 10 centimeters, what is the area of all visible white portions of the square, to the nearest \r\nwhole number in centimeters squared?",
-        "bonusA": "86 \r\n \r\n(Solution: A square = 20\r\n2\r\n = 400;  A circle = πr\r\n2\r\n = 100π = 314;  400 – 314 = 86cm\r\n2\r\n)",
+        "bonusA": "86 \r\n \r\n(Solution: A square = 20<sup>2</sup> = 400;  A circle = πr<sup>2</sup> = 100π = 314;  400 – 314 = 86cm<sup>2</sup>)",
         "category": 4,
         "setNum": 3,
         "roundNum": 10,
@@ -23855,7 +23855,7 @@
         "tossupQ": "MATH  Short Answer  Factor the following expression:   \r\n49x<sup>2</sup> – 169y\r\n4",
         "tossupA": "(7x + 13y<sup>2</sup>)( 7x – 13y<sup>2</sup>)",
         "bonusQ": "MATH  Short Answer  If $1000 is placed in a savings account that pays 6% annual interest \r\ncompounded semiannually, what is the total amount of money in the account at the end of 1 year, to \r\nthe nearest dollar?",
-        "bonusA": "$1061.00 \r\n \r\n(Solution: A = P[1 + (r/n)]\r\nnt\r\n;  = $1,000[1 + (0.06/2)]\r\n(2x1)\r\n = $1060.90)",
+        "bonusA": "$1061.00 \r\n \r\n(Solution: A = P[1 + (r/n)]<sup>t</sup>;  = $1,000[1 + (0.06/2)]<sup>2 &times; 1</sup> = $1060.90)",
         "category": 4,
         "setNum": 3,
         "roundNum": 10,
@@ -23922,10 +23922,10 @@
         "catDiff": "3.10"
       },
       "3_10_18": {
-        "tossupQ": "MATH  Multiple Choice  Which of the following is NOT a geometric sequence: \r\n \r\nW)  30, 6,  6/5 ... \r\nX)  a\r\n2\r\n, a\r\n3\r\nb, a\r\n4\r\nb\r\n2\r\n... \r\nY)  6, 13, 20... \r\nZ)   3/2 ,  3/4 ,  3/8 ...",
+        "tossupQ": "MATH  Multiple Choice  Which of the following is NOT a geometric sequence: \r\n \r\nW)  30, 6,  6/5 ... \r\nX)  a<sup>2</sup>, a<sup>3</sup>b, a<sup>4</sup>b<sup>2</sup>... \r\nY)  6, 13, 20... \r\nZ)   3/2 ,  3/4 ,  3/8 ...",
         "tossupA": "Y)  6, 13, 20...",
-        "bonusQ": "MATH  Short Answer  Find the product of the following, giving your answer without negative \r\nexponents:  (x\r\n-2\r\n + y)(x<sup>2</sup> – y\r\n-2\r\n)",
-        "bonusA": "y\r\nyx\r\nyx 2/111 22\r\n!+!\r\n     (Note:  the terms can be given in any order)",
+        "bonusQ": "MATH  Short Answer  Find the product of the following, giving your answer without negative \r\nexponents:  (x<sup>-2</sup> + y)(x<sup>2</sup> – y<sup>-2</sup>)",
+        "bonusA": "1 - 1/(x<sup>2</sup>y<sup>2</sup>) + x<sup>2</sup>y - 1/y     (Note:  the terms can be given in any order)",
         "category": 4,
         "setNum": 3,
         "roundNum": 10,
@@ -24082,7 +24082,7 @@
         "catDiff": "3.16"
       },
       "7_16_9": {
-        "tossupQ": "MATH Multiple Choice What is lim푥→휋 sin푥푥− 휋 [the limit as x approaches pi of the fraction \r\nwith numerator sine of x and denominator x minus pi]? \r\n \r\nW) -1 \r\nX) 0 \r\nY) 1 \r\nZ) Undefined",
+        "tossupQ": "MATH Multiple Choice What is the limit as x approaches pi of the fraction sin x / (x-pi)? \r\n \r\nW) -1 \r\nX) 0 \r\nY) 1 \r\nZ) Undefined",
         "tossupA": "W) -1",
         "bonusQ": "MATH Multiple Choice The line determined by points (0, 2b) and (2a, 0) intersects the line \r\ndetermined by points (0, b) and (a, b). What represents the x-value of the point where the two \r\nlines intersect? \r\n \r\nW) a  \r\nX) 2a \r\nY) a + b \r\nZ) b/a",
         "bonusA": "W) a",
@@ -24142,9 +24142,9 @@
         "catDiff": "3.16"
       },
       "7_16_15": {
-        "tossupQ": "MATH Short Answer Find an antiderivative for 푙푙(푒−푥2) [the natural log of the quantity e \r\nto the power of negative x squared].",
+        "tossupQ": "MATH Short Answer Find an antiderivative for the natural log of the quantity e \r\nto the power of negative x squared.",
         "tossupA": "-(1/3)x<sup>3</sup> (ACCEPT: GIVEN ANSWER PLUS ANY CONSTANT)",
-        "bonusQ": "MATH Short Answer A curve is defined parametrically by x = cost [x equals cosine of t] and \r\ny = tant [y equals tangent of t]. What is dy/dx when t = π/6?",
+        "bonusQ": "MATH Short Answer A curve is defined parametrically by x = cos t and \r\ny = tan t. What is dy/dx when t = π/6?",
         "bonusA": "-8/3",
         "category": 4,
         "setNum": 7,
@@ -24202,9 +24202,9 @@
         "catDiff": "3.16"
       },
       "7_16_21": {
-        "tossupQ": "MATH Multiple Choice What is the largest possible real domain of the function h(x) = ln(x<sup>2</sup> – \r\n9) [h of x equals the natural log of the quantity x squared minus 9]? \r\n \r\nW) (−∞,∞) \r\nX) (−∞,−3)∪(3,∞) [the open interval from negative infinity to negative 3 union the open \r\ninterval from 3 to positive infinity] \r\nY) (−3,3) \r\nZ) (3,∞)",
-        "tossupA": "X) (−∞,−3)∪(3,∞)",
-        "bonusQ": "MATH Short Answer Solve the following equation for x over the interval 0 ≤ x < 2π:  \r\n2sin2x − sinx – 1 = 0 [2 sine squared of x minus sine of x minus 1 equals 0].",
+        "tossupQ": "MATH Multiple Choice What is the largest possible real domain of the function h(x) = ln(x<sup>2</sup> – \r\n9)? \r\n \r\nW) (−∞,∞) \r\nX) (−∞,−3) ∪ (3,∞)  \r\nY) (−3,3) \r\nZ) (3,∞)",
+        "tossupA": "X) (−∞,−3) ∪ (3,∞)",
+        "bonusQ": "MATH Short Answer Solve the following equation for x over the interval 0 ≤ x < 2π:  \r\n2sin<sup>2</sup>x − sinx – 1 = 0.",
         "bonusA": "π/2 , 7π/6, AND 11π/6",
         "category": 4,
         "setNum": 7,
@@ -24282,7 +24282,7 @@
         "catDiff": "3.14"
       },
       "6_14_4": {
-        "tossupQ": "MATH  Short Answer  What is the determinant of the 2 by 2 matrix  [such that row \r\none includes 2 and negative 3, and row 2 includes negative 8 and negative 4]?",
+        "tossupQ": "MATH  Short Answer  What is the determinant of the 2 by 2 matrix such that row \r\none includes 2 and negative 3, and row 2 includes negative 8 and negative 4?",
         "tossupA": "-32",
         "bonusQ": "MATH  Short Answer  A coin is tossed 10 times. Providing your answer as a fraction in lowest \r\nterms, what is the probability that there are 3 heads and 7 tails?",
         "bonusA": "15/128",
@@ -24302,7 +24302,7 @@
         "catDiff": "1.14"
       },
       "6_14_6": {
-        "tossupQ": "MATH  Short Answer  What is the limit of  as x approaches 0?",
+        "tossupQ": "MATH  Short Answer  What is the limit of x<sup>x</sup> as x approaches 0?",
         "tossupA": "1",
         "bonusQ": "MATH  Short Answer  Given the equation 9x<sup>2</sup> + 4y<sup>2</sup> + 54x – 8y + 49 = 0, what kind of shape is \r\nits graph, and what are the coordinates of its center?",
         "bonusA": "ELLIPSE, (-3, 1)",
@@ -24363,8 +24363,8 @@
       },
       "6_14_12": {
         "tossupQ": "MATH  Multiple Choice  Given that a second degree polynomial function f(x) has a zero at  \r\nx = 3 with multiplicity 2, which of the following is true? \r\n \r\nW) The graph of f(x) crosses the y-axis at 3 \r\nX) As x approaches infinity, f(x) approaches infinity \r\nY) The graph of f(x) crosses the x-axis at 3 \r\nZ) The graph of f(x) touches but does not cross the x-axis at 3",
-        "tossupA": "Z) THE GRAPH OF f(x) TOUCHES BUT DOES NOT CROSS THE x-AXIS AT 3",
-        "bonusQ": "MATH  Short Answer  Expressing your answer in simplest form, find the derivative with \r\nrespect to x of y =  [the fraction with numerator x cubed minus 8 and denominator x \r\nminus 2] for all values for which y is defined.",
+        "tossupA": "Z) THE GRAPH OF f(x) TOUCHES BUT DOES NOT CROSS THE X-AXIS AT 3",
+        "bonusQ": "MATH  Short Answer  Expressing your answer in simplest form, find the derivative with \r\nrespect to x of y = (x<sup>3</sup> - 8) / (x - 2) for all values for which y is defined.",
         "bonusA": "y’ = 2x + 2  (ACCEPT: 2x + 2)",
         "category": 4,
         "setNum": 6,
@@ -24443,8 +24443,8 @@
       },
       "6_14_20": {
         "tossupQ": "MATH  Short Answer  If the height of a cone is equal to the diameter of its base, express the \r\nvolume of the cone in terms of its radius r and as a fraction in terms of pi.",
-        "tossupA": "(2/3) πr<sub>3</sub>         (ALSO ACCEPT::  2πr<sub>3</sub>/3)",
-        "bonusQ": "MATH  Multiple Choice  Which of the following is the volume of the solid created by \r\nrevolving the area bounded by semicircle  [y equals the square root of \r\nopen bracket 16 minus open parenthesis x minus 4 close parenthesis squared close \r\nbrackets] and the x-axis around the x-axis? \r\n \r\nW) 16π \r\nX) 64π/3 \r\nY) 64π \r\nZ) 256π/3",
+        "tossupA": "(2/3) πr<sub>3</sub>         (ALSO ACCEPT:  2πr<sub>3</sub>/3)",
+        "bonusQ": "MATH  Multiple Choice  Which of the following is the volume of the solid created by \r\nrevolving the area bounded by semicircle y = &radic;(16 - (x-4)<sup>2</sup>) and the x-axis around the x-axis? \r\n \r\nW) 16π \r\nX) 64π/3 \r\nY) 64π \r\nZ) 256π/3",
         "bonusA": "Z) 256π/3",
         "category": 4,
         "setNum": 6,
@@ -24622,10 +24622,10 @@
         "catDiff": "2.13"
       },
       "4_13_13": {
-        "tossupQ": "MATH  Multiple Choice  Which of the following radical expressions is in simplest form? \r\n \r\nW)  (read as: the square root of 31 over 3) \r\nX) -5  (read as: negative 5 times the square root of 175) \r\nY) 6  (read as: 6 times the square root of the quantity x squared over 4) \r\nZ) –  (read as: the negative square root of 153 x)",
-        "tossupA": "W)",
-        "bonusQ": "MATH  Short Answer  If x is negative, simplify    (read as: 7 times the \r\nsquare root of 5x times the square root of, open parenthesis, 180x to the fifth, close \r\nparenthesis)",
-        "bonusA": "-210x\r\n3",
+        "tossupQ": "MATH  Multiple Choice  Which of the following radical expressions is in simplest form? \r\n \r\nW)  &radic;31 / 3 \r\nX) -5 &radic;175 \r\nY) 6&radic;(x<sup>2</sup>/4) \r\nZ) –&radic;(153x)",
+        "tossupA": "W)  &radic;31 / 3",
+        "bonusQ": "MATH  Short Answer  If x is negative, simplify 7&radic;(5x) &times; &radic(180x<sup>5</sup>)",
+        "bonusA": "-210x<sup>3</sup>",
         "category": 4,
         "setNum": 4,
         "roundNum": 13,
@@ -24674,7 +24674,7 @@
       "4_13_18": {
         "tossupQ": "MATH  Short Answer  What are the x-intercepts of y = x<sup>2</sup> – 15x + 54?",
         "tossupA": "6 AND 9",
-        "bonusQ": "MATH  Multiple Choice  Which of the following equations does not have real solutions? \r\n \r\nW) -3x\r\n2 \r\n+ 3 = 0 \r\nX) x<sup>2</sup> – 5x + 2 = 0 \r\nY) 4x<sup>2</sup> – 3x – 0.25 = 0 \r\nZ) x<sup>2</sup> – x + 1 = 0",
+        "bonusQ": "MATH  Multiple Choice  Which of the following equations does not have real solutions? \r\n \r\nW) -3x<sup>5</sup> \r\n+ 3 = 0 \r\nX) x<sup>2</sup> – 5x + 2 = 0 \r\nY) 4x<sup>2</sup> – 3x – 0.25 = 0 \r\nZ) x<sup>2</sup> – x + 1 = 0",
         "bonusA": "Z) x<sup>2</sup> – x + 1 = 0",
         "category": 4,
         "setNum": 4,
@@ -24804,7 +24804,7 @@
       "5_5_6": {
         "tossupQ": "MATH  Short Answer  Providing your answer in decimal form, what is the area under the \r\ncurve y = x between 0 and 3?",
         "tossupA": "4.5",
-        "bonusQ": "MATH  Short Answer  Find (1 + i)\r\n12\r\n (read as the quantity 1 plus i to the twelfth).",
+        "bonusQ": "MATH  Short Answer  Find (1 + i)<sup>12</sup>.",
         "bonusA": "-64",
         "category": 4,
         "setNum": 5,
@@ -24864,8 +24864,8 @@
       "5_5_12": {
         "tossupQ": "MATH  Short Answer  By number, identify which one of the following statements is TRUE \r\nregarding the set of means of samples of size n from a given population: 1) the mean of the set \r\nof sample means varies inversely as the square root of n; 2) the variance of the set of sample \r\nmeans varies directly as n; or 3) the standard deviation of the set of sample means varies \r\ninversely as the square root of n.",
         "tossupA": "3",
-        "bonusQ": "MATH  Short Answer  Convert the complex number -2 - 2i<sup>3</sup> to trigonometric form.",
-        "bonusA": "4 cos4π\r\n3\r\n+ isin4π\r\n3",
+        "bonusQ": "MATH  Short Answer  Convert the complex number -2 - 2i&radic;3 to trigonometric form.",
+        "bonusA": "4 cos(4π/3) + isin(4π/3)",
         "category": 4,
         "setNum": 5,
         "roundNum": 5,
@@ -24944,7 +24944,7 @@
       "5_5_20": {
         "tossupQ": "MATH  Multiple Choice  Which of the following can be constructed using only a compass \r\nand a straightedge? \r\n \r\nW) A line segment with one-third the length of a given line segment  \r\nX) A cube with twice the volume of a given cube \r\nY) An angle with one-third the measure of a given angle  \r\nZ) A square with the same area as that of a given circle",
         "tossupA": "W) A LINE SEGMENT WITH ONE-THIRD THE LENGTH OF A GIVEN LINE \r\nSEGMENT",
-        "bonusQ": "MATH  Short Answer  Let f(x) be a function with antiderivative g(x) satisfying g(1) = 2 and \r\ng(3) = 4. Calculate 2fxdx  - 5fxdx<sup>3</sup> 3/1 1\r\n (read as: the integral from 1 to 3 of 2 f of x dx minus \r\nthe integral from 1 to 3 of 5 f of x dx).",
+        "bonusQ": "MATH  Short Answer  Let f(x) be a function with antiderivative g(x) satisfying g(1) = 2 and \r\ng(3) = 4. Calculate the integral from 1 to 3 of 2f(x) dx minus \r\nthe integral from 1 to 3 of 5f(x) dx",
         "bonusA": "-6",
         "category": 4,
         "setNum": 5,
@@ -25002,9 +25002,9 @@
         "catDiff": "1.5"
       },
       "5_3_1": {
-        "tossupQ": "MATH  Short Answer  What is the circumference of the circle with equation                           \r\n(x + 3)\r\n2\r\n + (y − 5)\r\n2\r\n = 25 ?",
+        "tossupQ": "MATH  Short Answer  What is the circumference of the circle with equation   (x + 3)<sup>2</sup> + (y − 5)<sup>2</sup> = 25 ?",
         "tossupA": "10π",
-        "bonusQ": "MATH  Multiple Choice  Which of the following is the sum of the first three nonzero terms of \r\nthe Taylor series of sin(x) around 0? \r\n \r\nW) x + x<sup>3</sup>/3! + x<sup>5</sup>/5! (read as: x plus x cubed over 3 factorial plus x to the fifth over 5 factorial) \r\nX) x − x<sup>3</sup>/3! + x<sup>5</sup>/5!  \r\nY) 1 − x<sup>2</sup>/2! + x<sup>4</sup>/4!  \r\nZ) 1 + x<sup>2</sup>/2! + x<sup>4</sup>/4!",
+        "bonusQ": "MATH  Multiple Choice  Which of the following is the sum of the first three nonzero terms of \r\nthe Taylor series of sin(x) around 0? \r\n \r\nW) x + x<sup>3</sup>/3! + x<sup>5</sup>/5! \r\nX) x − x<sup>3</sup>/3! + x<sup>5</sup>/5!  \r\nY) 1 − x<sup>2</sup>/2! + x<sup>4</sup>/4!  \r\nZ) 1 + x<sup>2</sup>/2! + x<sup>4</sup>/4!",
         "bonusA": "X) x − x<sup>3</sup>/3! + x<sup>5</sup>/5!",
         "category": 4,
         "setNum": 5,
@@ -25252,9 +25252,9 @@
         "catDiff": "1.3"
       },
       "5_8_1": {
-        "tossupQ": "MATH  Short Answer  What is the inverse function of f(x) = x<sup>5</sup> + 1 (read as: f of x equals x to \r\nthe fifth plus 1)?",
-        "tossupA": "f \r\n−\r\n1\r\n(x) = x  \u00001\r\n5",
-        "bonusQ": "MATH  Multiple Choice  For a function, f(x) (read as: f of x), suppose that f is continuous on \r\nthe closed interval [-1, 3], differentiable on the open interval (-1, 3), and that f(-1) = -2 and  \r\nf(3) = 2. Which of the following is the value of the derivative for at least one value, c, on the \r\nopen interval (-1, 3)? \r\nW) -1 \r\nX) 0 \r\nY) 1 \r\nZ) 2",
+        "tossupQ": "MATH  Short Answer  What is the inverse function of f(x) = x<sup>5</sup> + 1?",
+        "tossupA": "f<sup>-1</sup> = <sup>5</sup>&radic(x-1)",
+        "bonusQ": "MATH  Multiple Choice  For a function, f(x), suppose that f is continuous on \r\nthe closed interval [-1, 3], differentiable on the open interval (-1, 3), and that f(-1) = -2 and  \r\nf(3) = 2. Which of the following is the value of the derivative for at least one value, c, on the \r\nopen interval (-1, 3)? \r\nW) -1 \r\nX) 0 \r\nY) 1 \r\nZ) 2",
         "bonusA": "Y) 1",
         "category": 4,
         "setNum": 5,
@@ -35826,7 +35826,7 @@
         "tossupQ": "MATH Short Answer Give the slope of the following: 3x – 4y = 12",
         "tossupA": "4\r\n3",
         "bonusQ": "MATH Short Answer What is the slope of a line passing through the points (16, –10) and (11, \r\n0)?",
-        "bonusA": "–2 \r\n \r\n(Solution: m = y<sup>2</sup> – y\r\n1\r\n/x<sup>2</sup> – x\r\n1\r\n = (0 + 10)/(11 – 16) = –2)",
+        "bonusA": "–2 \r\n \r\n(Solution: m = (y<sub>2</sub> – y<sub>1</sub>)/(x<sup>2</sup> – x<sub>1</sub>) = (0 + 10)/(11 – 16) = –2)",
         "category": 4,
         "setNum": 3,
         "roundNum": 9,
@@ -39883,10 +39883,10 @@
         "catDiff": "0.13"
       },
       "3_13_15": {
-        "tossupQ": "MATH Multiple Choice Which of the following equations has a graph that is a circle: \r\n \r\nW) x\r\n2\r\n + y\r\n2\r\n = 25 \r\nX) 4y = 3x + 2 \r\nY) y = x\r\n2\r\n \r\nZ) x – 3 = 0",
-        "tossupA": "W) x\r\n2\r\n + y\r\n2\r\n = 25",
+        "tossupQ": "MATH Multiple Choice Which of the following equations has a graph that is a circle: \r\n \r\nW) x<sup>2</sup> + y<sup>2</sup> = 25 \r\nX) 4y = 3x + 2 \r\nY) y = x<sup>2</sup> \r\nZ) x – 3 = 0",
+        "tossupA": "W) x<sup>2</sup> + y<sup>2</sup> = 25",
         "bonusQ": "MATH Short Answer Find the distance between and give the coordinates of the midpoint \r\nbetween the following points: (12, 8) and (18, 8)",
-        "bonusA": "DISTANCE = 6; MIDPOINT = (15, 8) \r\n \r\n(Solution: d = \r\n()()\r\n2\r\n12\r\n2\r\n12\r\nyyxx!+!\r\n; \r\n()()\r\n22\r\n881218!+!\r\n= 6);  \r\nmidpoint x = (x\r\n1\r\n + x\r\n2\r\n)/2 = (12 + 18)/2 = 15 ; midpoint y = (y\r\n1\r\n + y\r\n2\r\n)/2 = (8 + 8)/2 = 8)",
+        "bonusA": "DISTANCE = 6; MIDPOINT = (15, 8) \r\n \r\n(Solution: d = \r\n()()\r\n2\r\n12\r\n2\r\n12\r\nyyxx!+!\r\n; \r\n()()\r\n22\r\n881218!+!\r\n= 6);  \r\nmidpoint x = (x1 + x2)/2 = (12 + 18)/2 = 15 ; midpoint y = (y1 + y2)/2 = (8 + 8)/2 = 8)",
         "category": 4,
         "setNum": 3,
         "roundNum": 13,
@@ -45993,7 +45993,7 @@
         "catDiff": "1.4"
       },
       "5_5_1": {
-        "tossupQ": "MATH Multiple Choice Which of the following does NOT represent a function? \r\n \r\nW) x = 4 \r\nX) y = 4 \r\nY) y = x\r\n2\r\n \r\nZ) y = 2x – 8",
+        "tossupQ": "MATH Multiple Choice Which of the following does NOT represent a function? \r\n \r\nW) x = 4 \r\nX) y = 4 \r\nY) y = x<sup>2</sup> \r\nZ) y = 2x – 8",
         "tossupA": "W) x = 4",
         "bonusQ": "MATH Short Answer You have a right circular cylinder with a radius of 6 inches and a height \r\nof 6 inches. You drop a ball with a radius of 3 inches into the cylinder. How much empty space, \r\nin cubic inches and in terms of π, remains in the cylinder?",
         "bonusA": "180π",
@@ -52086,7 +52086,7 @@
         "tossupQ": "MATH Short Answer What is the smallest angle of rotational symmetry possible in an \r\nequilateral triangle?",
         "tossupA": "120",
         "bonusQ": "MATH Short Answer The graph of the equation y  =  3x2\u0000 2x  +  4 is translated 3 units to the \r\nleft and 4 units up. What is the equation of the new graph in standard polynomial form?",
-        "bonusA": "y  =  3x\r\n2\r\n + 16x + 29",
+        "bonusA": "y  =  3x<sup>2</sup> + 16x + 29",
         "category": 4,
         "setNum": 5,
         "roundNum": 9,
@@ -52594,7 +52594,7 @@
       },
       "5_10_11": {
         "tossupQ": "MATH Multiple Choice Which of the following inequalities has a finite solution set over the \r\nintegers? \r\n \r\nW) x<sup>2</sup> + 5x + 6 > 0 \r\nX) |x + 2| > 4 (read as: the absolute value of the quantity x plus 2 is greater than 4) \r\nY) 9x – 7 < 3x + 14 \r\nZ) x<sup>2</sup> – 4x + 3 < 0",
-        "tossupA": "Z) x\r\n2\r\n – 4x + 3 < 0",
+        "tossupA": "Z) x<sup>2</sup> – 4x + 3 < 0",
         "bonusQ": "MATH Short Answer Alice stands 30 feet away from a building and looks up to the top of it. \r\nThe angle of elevation is 45 degrees. If she is 5 feet tall, how tall is the building in feet?",
         "bonusA": "35",
         "category": 4,
@@ -53936,8 +53936,8 @@
       "5_13_20": {
         "tossupQ": "MATH Multiple Choice For a set of two variable data, the correlation coefficient is r = -0.9 \r\nand the line of best fit is y = mx + b. Which of the following is a TRUE statement about m? \r\n \r\nW) m is greater than zero \r\nX) m is less than zero \r\nY) m is equal to zero \r\nZ) m can be any real number",
         "tossupA": "X) m IS LESS THAN ZERO",
-        "bonusQ": "MATH Short Answer Factor completely: x\r\n5\r\n + y\r\n5\r\n.",
-        "bonusA": "x  +  y(x4\u0000 x3y  + x2y2  \u0000 xy3  + y4)",
+        "bonusQ": "MATH Short Answer Factor completely: x<sup>5</sup> + y<sup>5</sup>.",
+        "bonusA": "x  +  y(x<sup>4</sup> - x<sup>3</sup>y  + x<sup>2</sup>y<sup>2</sup>  - xy<sup>3</sup>  + y<sup>4</sup>)",
         "category": 4,
         "setNum": 5,
         "roundNum": 13,
