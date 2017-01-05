@@ -56,19 +56,19 @@ angular.module('IonicGulpSeed')
             }
             if (AdMob) AdMob.createBanner({
                 adId: admobid.banner,
-                position: AdMob.AD_POSITION.TOP_CENTER,
+                position: AdMob.AD_POSITION.BOTTOM_CENTER,
                 autoShow: true });
         }
 
         var showAd = function() {
             var ad_units = {
                 ios : {
-                    banner:"your_ad_place_id",
+                    banner:"372948276430920_372948909764190",
                     interstitial:"your_ad_place_id",
                     nativeAd:"372948276430920_372948909764190"
                 },
                 android : {
-                    banner:"your_ad_place_id",
+                    banner:"372948276430920_372948909764190",
                     interstitial:"your_ad_place_id",
                     nativeAd:"372948276430920_372948909764190"
                 }
@@ -78,10 +78,10 @@ angular.module('IonicGulpSeed')
             var adid = (/(android)/i.test(navigator.userAgent)) ? ad_units.android : ad_units.ios;
 
 // set your hashed device id if testing on device (optional)
-            if(FacebookAds) FacebookAds.setOptions({
+            /*if(FacebookAds) FacebookAds.setOptions({
                 isTesting: true,
                 deviceHash: "18B9918C46B6A383E3D79973DBB9204D"
-            });
+            });*/
 
             if(FacebookAds) FacebookAds.createBanner( adid.banner );
 
@@ -130,7 +130,7 @@ angular.module('IonicGulpSeed')
         return {
             doSomethingAsync: doSomethingAsync,
             fetchQuestions: fetchQuestions,
-            showAd: showAd
+            showAd: showAdOld
         };
 
     });
