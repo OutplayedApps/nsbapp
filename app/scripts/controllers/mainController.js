@@ -8,12 +8,17 @@
  * This controller handles the side menu
  */
 angular.module('IonicGulpSeed')
-    .controller('MainController', function($scope, $timeout, $ionicViewService, $rootScope, $ionicPopup, $state,
+    .controller('MainController', function($scope, $timeout, $ionicViewService, $rootScope, $ionicPopup, $state, ExampleService,
                                            $ionicSideMenuDelegate, SettingsService, $ionicTabsDelegate, $ionicPlatform) {
 
         /*$scope.$on("settingsChanged", function() {
          updateTabs();
          })*/
+
+        $timeout(function() {
+            ExampleService.showAd();
+        }, 1000);
+
         //main menu stuffs:
         $ionicSideMenuDelegate.canDragContent(false);
         $scope.start = function() {

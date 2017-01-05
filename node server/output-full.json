@@ -6745,7 +6745,7 @@
         "tossupQ": "CHEMISTRY  Short Answer  What is the only amino acid that is not optically active?",
         "tossupA": "GLYCINE",
         "bonusQ": "CHEMISTRY  Short Answer  Consider two tanks that are connected by a closed valve.  Tank A \r\ncontains 6 liters of nitrogen gas at a pressure of 24 atmospheres and tank B contains 2 liters of \r\noxygen gas at a pressure of 16 atmospheres.  If the temperature is constant and the valve is opened, \r\nwhat is the pressure, in atmospheres, of the gas mixture at equilibrium?",
-        "bonusA": "22 \r\n \r\n(Solution:  P\r\n1\r\nV\r\n1\r\n = P\r\n2\r\nV\r\n2\r\n;  (24atm)(6L) = (P\r\N<sub>2</sub>\r\n)(8L) = 18atm; (16atm)(2L) = (P\r\nO<sub>2</sub>\r\n)(8L) = 4atm;  P\r\ntotal \r\n \r\n= 18 + 4 = 22atm)",
+        "bonusA": "22 \r\n \r\n(Solution:  P\r\n1\r\nV\r\n1\r\n = P\r\n2\r\nV\r\n2\r\n;  (24atm)(6L) = (P<sub>2</sub>\r\n)(8L) = 18atm; (16atm)(2L) = (P\r\nO<sub>2</sub>\r\n)(8L) = 4atm;  P\r\ntotal \r\n \r\n= 18 + 4 = 22atm)",
         "category": 2,
         "setNum": 3,
         "roundNum": 15,
@@ -17514,7 +17514,7 @@
       "4_6_2": {
         "tossupQ": "MATH  Short Answer  If the side lengths of a triangle are 3 meters, 4 meters, and 5 meters, \r\nthen what is the area in square meters?",
         "tossupA": "6",
-        "bonusQ": ") MATH  Multiple Choice  If two angles of a triangle inscribed in a circle are 40 &deg; and 110 &deg;, \r\nwhat is the degree measure of the arc intercepted by the third angle? \r\n \r\nW) 15  \r\nX) 30 \r\nY) 60 \r\nZ) 210,
+        "bonusQ": "MATH  Multiple Choice  If two angles of a triangle inscribed in a circle are 40 &deg; and 110 &deg;, \r\nwhat is the degree measure of the arc intercepted by the third angle? \r\n \r\nW) 15  \r\nX) 30 \r\nY) 60 \r\nZ) 210",
         "bonusA": "Y) 60",
         "category": 4,
         "setNum": 4,
@@ -41945,8 +41945,8 @@
       "3_12_21": {
         "tossupQ": "MATH Short Answer Order the following 4 radicals from the smallest to the largest: 3$radic;2; cube root of 2; $radic;3; $radic;2",
         "tossupA": "cube root of 2; $radic;2; $radic;3; 3$radic;2",
-        "bonusQ": "MATH Short Answer Multiply the following 2 radicals, giving your answer to the nearest \r\nwhole number: 3 cube root of 4 times 2 cube root of 16,
-        "bonusA": "24 ,
+        "bonusQ": "MATH Short Answer Multiply the following 2 radicals, giving your answer to the nearest \r\nwhole number: 3 cube root of 4 times 2 cube root of 16",
+        "bonusA": "24",
         "category": 4,
         "setNum": 3,
         "roundNum": 12,
