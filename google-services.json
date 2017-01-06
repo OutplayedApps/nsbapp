@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "862524906517",
+    "firebase_url": "https://nsbapp-fed9d.firebaseio.com",
+    "project_id": "nsbapp-fed9d",
+    "storage_bucket": "nsbapp-fed9d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862524906517:android:93e4e31c68ea3c1a",
+        "android_client_info": {
+          "package_name": "com.outplayed.nsbapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862524906517-62dnl73kngfc7ci2e67ashlfi6rpj3tg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.outplayed.nsbapp",
+            "certificate_hash": "534FB91BA0FBAD2458C6B0DCCB37D26CFBAF4CB0"
+          }
+        },
+        {
+          "client_id": "862524906517-j9n87onb5p1bmmklr8gjddvft56ltlh8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.outplayed.nsbapp",
+            "certificate_hash": "1EDE873A147053E632C43AE5F3D5DFDC1152BAA3"
+          }
+        },
+        {
+          "client_id": "862524906517-fq8ppsuo75864s0r69q19jj0dth428u8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDp9hrJRAlC8yJyRkF1LpPpmXbIkRl7el8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

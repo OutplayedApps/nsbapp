@@ -31,7 +31,7 @@ angular.module('IonicGulpSeed')
             console.log(cat, difficulty);
             var ref = firebase.database().ref("/questions/questions"+(HSorMS?"HS":"MS")+"/").orderByChild("catDiff").equalTo(cat+"."+difficulty);
             var list = $firebaseArray(ref);
-            return $q.when(list);
+            return list;
 
 
         };
@@ -45,19 +45,24 @@ angular.module('IonicGulpSeed')
                 };
             } else if(/(ipod|iphone|ipad)/i.test(navigator.userAgent)) { // for ios
                 admobid = {
-                    banner: 'ca-app-pub-9328159054616225/3119613792', // or DFP format "/6253334/dfp_example_ad"
+                    banner: 'ca-app-pub-9328159054616225/6488222591', // or DFP format "/6253334/dfp_example_ad"
                     interstitial: 'ca-app-pub-xxx/kkk'
                 };
             } else { // for windows phone
                 admobid = {
-                    banner: 'ca-app-pub-9328159054616225/3119613792', // or DFP format "/6253334/dfp_example_ad"
+                    banner: 'ca-app-pub-9328159054616225/6488222591', // or DFP format "/6253334/dfp_example_ad"
                     interstitial: 'ca-app-pub-xxx/kkk'
                 };
             }
-            if (AdMob) AdMob.createBanner({
-                adId: admobid.banner,
-                position: AdMob.AD_POSITION.BOTTOM_CENTER,
-                autoShow: true });
+            if (typeof AdMob != 'undefined' && AdMob) {
+                AdMob.createBanner({
+                    adId: admobid.banner,
+                    position: AdMob.AD_POSITION.BOTTOM_CENTER,
+                    autoShow: true });
+            }
+            else {
+                console.log("No ads!");
+            }
         }
 
         var showAd = function() {

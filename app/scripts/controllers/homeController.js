@@ -8,7 +8,7 @@
  */
 angular.module('IonicGulpSeed')
     .controller('HomeController', function($scope, ExampleService, $ionicScrollDelegate, $ionicLoading, $ionicPopup,
-    SettingsService, $ionicPlatform, $ionicSideMenuDelegate, $ionicHistory, $interval, $timeout, $cordovaNativeAudio) {
+    SettingsService, $ionicPlatform, $ionicSideMenuDelegate, $ionicHistory, $interval, $timeout, $state, EventService) {
         $ionicPlatform.ready(function () {
             
             $ionicLoading.show(); //for a first time.
@@ -256,13 +256,9 @@ angular.module('IonicGulpSeed')
                     }
 
                     ExampleService.fetchQuestions(catNumNew, diffNumFinal, $scope.HSorMS)
-                        .then(function (list) {
+                        .$loaded().then(function (data) {
                             console.log("QUESTIONS FETCHED");
-                            window.list = list;
-
-                            //$scope.myHTML = response.data.text;
-
-                            list.$loaded(function (data) {
+                            window.data = data;
                                 if (data.length == 0) throw "No results found.";
                                 var regularArray = [];
                                 for (var i = 0; i < data.length; i++) {
@@ -299,12 +295,12 @@ angular.module('IonicGulpSeed')
                                 if ($ionicLoading)  $ionicLoading.hide();
 
                                 $scope.pauseEverything = false;
-                            })
-
 
                         }).catch(function (e) {
                         if ($ionicLoading)  $ionicLoading.hide();
                         $ionicPopup.alert({"title": "Error", "template": "Sorry, there was an error. " + e});
+                        EventService.logWebError();
+                        $state.go("mainMenu");
                         //todo: GO BACK.
                     });
                 };
@@ -414,6 +410,30 @@ angular.module('IonicGulpSeed')
             $scope.promise = $interval(updateTossupPosition, initialReadSpeed);
 
         }
+
+        $scope.reportProblem = function() {
+            $scope.pauseEverything = true;
+            var myPopup = $ionicPopup.show({
+                templateUrl: 'templates/views/feedback.html',
+                title: 'Report a problem',
+                //subTitle: 'Please use normal things',
+                scope: $scope,
+                buttons: [
+                    { text: 'Cancel' },
+                    { text: 'Submit',
+                        type: 'button-positive',
+                        onTap: function(e) {
+                            EventService.logQuestionError($scope.data.$id, $scope.feedback);
+                        }
+                    }
+                ],
+                cssClass: 'popupAbout'
+            }).then(function() {
+                console.log("Done");
+            })
+
+            //EventService.logQuestionError($scope.data.$id);
+        };
 
     });
 
