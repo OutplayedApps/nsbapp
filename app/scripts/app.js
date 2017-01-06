@@ -22,7 +22,7 @@ angular.module('IonicGulpSeed', ['ionic', 'ngCordova', 'ngResource', 'ngSanitize
 
     })
 
-    .config(function($httpProvider, $stateProvider, $urlRouterProvider) {
+    .config(function($httpProvider, $stateProvider, $urlRouterProvider, $ionicConfigProvider) {
         // register $http interceptors, if any. e.g.
         // $httpProvider.interceptors.push('interceptor-name');
         $ionicConfigProvider.scrolling.jsScrolling(false);

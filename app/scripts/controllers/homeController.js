@@ -275,6 +275,7 @@ angular.module('IonicGulpSeed')
                                 }
                                 else {*/
                                     $scope.data = randEle(regularArray);
+                        SettingsService.data = $scope.data;
 
                                     $scope.data.tossupQ = processToHTML($scope.data.tossupQ);
                                     $scope.data.bonusQ = processToHTML($scope.data.bonusQ);

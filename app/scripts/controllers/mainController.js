@@ -9,7 +9,7 @@
  */
 angular.module('IonicGulpSeed')
     .controller('MainController', function($scope, $timeout, $ionicViewService, $rootScope, $ionicPopup, $state, ExampleService,
-                                           $ionicSideMenuDelegate, SettingsService, $ionicTabsDelegate, $ionicPlatform) {
+                                           $ionicSideMenuDelegate, SettingsService, $ionicTabsDelegate, $ionicPlatform, EventService) {
 
         /*$scope.$on("settingsChanged", function() {
          updateTabs();
@@ -73,7 +73,7 @@ angular.module('IonicGulpSeed')
         $("#readSpeedRange").val(SettingsService.settings.readSpeed);
         $scope.updateReadSpeed = function () {
             SettingsService.settings.readSpeed = $("#readSpeedRange").val();
-            console.log("SPEED CHANGED" + SettingsService.settings.readSpeed, $scope.readSpeed);
+            //console.log("SPEED CHANGED" + SettingsService.settings.readSpeed, $scope.readSpeed);
         }
         /*$scope.$watch(function () {
          return $ionicSideMenuDelegate.isOpenLeft();
@@ -236,7 +236,7 @@ angular.module('IonicGulpSeed')
                     { text: 'Submit',
                         type: 'button-positive',
                         onTap: function(e) {
-                            EventService.logQuestionError($scope.data.$id, $scope.currQuestionProblem, $scope.feedback);
+                            EventService.logQuestionError(SettingsService.data.$id, $scope.currQuestionProblem, $scope.feedback);
                         }
                     }
                 ],
