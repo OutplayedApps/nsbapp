@@ -116,4 +116,5 @@
         <variable name="XWALK_MULTIPLEAPK" value="true" />
     </plugin>
     <preference name="CrosswalkAnimatable" value="true" />
+    <plugin name="cordova-plugin-firebase-crash" spec="~0.9.0" />
 </widget>

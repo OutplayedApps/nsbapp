@@ -9,6 +9,7 @@
 angular.module('IonicGulpSeed')
     .controller('HomeController', function($scope, ExampleService, $ionicScrollDelegate, $ionicLoading, $ionicPopup,
     SettingsService, $ionicPlatform, $ionicSideMenuDelegate, $ionicHistory, $interval, $timeout, $state, EventService) {
+        $scope.hideSubHeader = false;
         $ionicPlatform.ready(function () {
             
             $ionicLoading.show(); //for a first time.
@@ -199,6 +200,7 @@ angular.module('IonicGulpSeed')
                                     return;
                                 case 4:
                                     $scope.data.tossupQ = $scope.dataReal.tossupQ;
+                                    $scope.scrollBottom();
                                     //$scope.data.tossupA = $scope.dataReal.tossupA;
                                     return;
                                 case 5:
@@ -288,7 +290,7 @@ angular.module('IonicGulpSeed')
                                 $scope.data.roundNum = $scope.data.roundNum;
                                 //processToHTML()
                                 // close pull to refresh loader
-                                $ionicScrollDelegate.$getByHandle('small').scrollTop();
+                                $ionicScrollDelegate.$getByHandle('small').scrollTop(true);
                                 $scope.loading = false;
                                 //$scope.$broadcast('scroll.refreshComplete');
                                 if ($scope.mode == 1 && $scope.progress == 1)
@@ -352,6 +354,7 @@ angular.module('IonicGulpSeed')
                     duration = moment.duration(duration.asMilliseconds() - interval, 'milliseconds');
                     //show how many hours, minutes and seconds are left
                     //console.log(duration.asMilliseconds());
+
                     $scope.timer["time" + intNum] = moment(duration.asMilliseconds()).format('s.S');
                     //console.log('yea');
                     if (duration.asMilliseconds() <= 0) {
@@ -390,6 +393,7 @@ angular.module('IonicGulpSeed')
                 if ($scope.pauseEverything) {
                     return;
                 }
+                $scope.scrollBottom();
                 //console.log("PAUSEAAA"+$scope.pauseEverything);
                 //console.log("SCOPE DATA TOSSUPQ is "+ $scope.data.bonusQ);
                 $scope.data[optsQ] += " "+$scope.fullQuestion[index];
@@ -412,6 +416,33 @@ angular.module('IonicGulpSeed')
 
         }
 
+        $scope.scrollBottom = function() {
+            var small = $ionicScrollDelegate.$getByHandle('small');
+            small.scrollBottom(false);
+
+            return;
+
+            window.small = small;
+            var currentTop = small.getScrollPosition().top;
+            var maxScrollableDistanceFromTop =  small.getScrollView().__maxScrollTop;
+            console.log(currentTop, maxScrollableDistanceFromTop);
+
+            /*var scrollTopCurrent = $ionicScrollDelegate.getScrollPosition().top;
+            var scrollTopMax = $ionicScrollDelegate.getScrollView().__maxScrollTop;
+            var scrollBottom = scrollTopMax - scrollTopCurrent;
+            console.log("SB is "+scrollBottom);
+            if (scrollBottom > 1) {
+                $ionicScrollDelegate.scrollBottom(true);
+                console.log("scrolling");
+            }*/
+
+            if (currentTop >= maxScrollableDistanceFromTop)
+            { //todo fix this.
+                $ionicScrollDelegate.$getByHandle('small').scrollBottom(false);
+                //console.log("scrolling");
+            }
+
+        }
 
     });
 

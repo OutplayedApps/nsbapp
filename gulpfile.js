@@ -63,7 +63,7 @@ if (run === true) {
 
 // global error handler
 function errorHandler(error) {
-  console.log('beep: ', beep);
+  console.log('BEEEEEEP: ', beep);
   beep();
   if (build) {
     throw error;
@@ -86,10 +86,7 @@ gulp.task('styles', function() {
 
   var sassStream = gulp.src('app/styles/main.scss')
     .pipe(plugins.sass(options))
-    .on('error', function(err) {
-      console.log('err: ', err);
-      beep();
-    });
+      .on('error', errorHandler);
 
 
   var ionicStream = gulp.src('bower_components/ionic/scss/ionic.scss')

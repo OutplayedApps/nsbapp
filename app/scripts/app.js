@@ -10,7 +10,8 @@
  */
 
 
-angular.module('IonicGulpSeed', ['ionic', 'ngCordova', 'ngResource', 'ngSanitize', 'firebase', 'ionic-native-transitions'])
+angular.module('IonicGulpSeed', ['ionic', 'ngCordova', 'ngResource', 'ngSanitize', 'firebase', 'ionic-native-transitions',
+'ngStorage'])
 
     .run(function($ionicPlatform) {
 

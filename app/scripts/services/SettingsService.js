@@ -15,12 +15,13 @@
  *
  */
 angular.module('IonicGulpSeed')
-    .factory('SettingsService', function($window, $http, API_ENDPOINT) {
+    .factory('SettingsService', function($localStorage) {
 
-        var settings = {};
-        settings.mode = 0;
-        settings.level = 1;
-        settings.readSpeed = 5;
+        var settings = $localStorage.$default({
+            mode: 0,
+            level: 1,
+            readSpeed: 5
+        });
 
         //mode: 0 is reader 1 is game mode
         //level: 0 is MS 1 is HS

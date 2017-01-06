@@ -236,7 +236,7 @@ angular.module('IonicGulpSeed')
                     { text: 'Submit',
                         type: 'button-positive',
                         onTap: function(e) {
-                            EventService.logQuestionError(SettingsService.data.$id, $scope.currQuestionProblem, $scope.feedback);
+                            EventService.logQuestionError(SettingsService.level, SettingsService.data.$id, $scope.currQuestionProblem, $scope.feedback);
                         }
                     }
                 ],

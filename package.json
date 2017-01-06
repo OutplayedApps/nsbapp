@@ -79,7 +79,8 @@
     {
       "locator": "https://github.com/Telerik-Verified-Plugins/NativePageTransitions#0.4.2",
       "id": "com.telerik.plugins.nativepagetransitions"
-    }
+    },
+    "cordova-plugin-firebase-crash"
   ],
   "cordovaPlatforms": []
 }

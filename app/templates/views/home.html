@@ -1,10 +1,14 @@
 <ion-view id="home" hide-back-button="true" hide-nav-bar="false">
     <ion-header-bar align-title="center" class="bar-positive">
-    <button class="button button-icon icon ion-navicon" menu-toggle="left" style="display: block;"></button>
+    <button class="button button-icon icon ion-android-settings" menu-toggle="left"></button>
+        <button class="button button-icon icon ion-android-more-vertical toggleSubHeaderButton"
+                ng-click="hideSubHeader = !hideSubHeader" ></button>
         <h1 class="title">Science Bowl</h1>
-
+        <button class="button button-icon icon ion-flag button-right"
+                ng-click="reportProblem()"></button>
     </ion-header-bar>
-    <div class="options bar bar-subheader bar-positive">
+    <div class="options bar bar-subheader bar-positive" ng-class="{'subHeaderHidden': hideSubHeader, 'subHeaderShown': !hideSubHeader}">
+
         <div class="row">
 
         <div class="col">
@@ -32,13 +36,15 @@
                     </label>
                 </div>
             </div>
-        <button class="button button-icon icon ion-flag button-right" ng-click="reportProblem()"></button>
+
 
 
     </div>
 
-    <ion-content class="has-header has-subheader" class="mainContent" delegate-handle="small">
-
+    <ion-content class="has-header" class="mainContent" scroll="true"
+                ng-class="{'mode1': mode == 1, 'has-subheader': hideSubHeader==false}"
+                 delegate-handle="small"
+                 >
 
         <!--ion-refresher
                 pulling-text="Pull for next question..."
@@ -93,7 +99,6 @@
 
 
         </div>
-
 
     </ion-content>
 

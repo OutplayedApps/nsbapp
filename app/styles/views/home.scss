@@ -1,5 +1,9 @@
-.header {
+.bar-header {
+  font-variant: small-caps;
+}
 
+.mainContent ion-scroll {
+  height: 100%;
 }
 
 .content {
@@ -18,7 +22,7 @@
   }
 
   &, & h5 {
-    @media only screen and (min-width:531px) {
+    @media only screen and (min-width:531px) and (min-height:550px) {
       font-size: 15pt;
       line-height: 1.5;
     }
@@ -66,8 +70,12 @@ select {
   }
 }
 
+$footerHeight1: 44px;
+$footerHeight2: 100px;
 ion-footer-bar {
   padding: 0px;
+
+  //height: $footerHeight1;
 
   #buttonNext {
     margin: 0px;
@@ -75,6 +83,30 @@ ion-footer-bar {
       font-weight: bold;
       font-variant:small-caps;
   }
+
+
+  &.footerBuzz {
+    height: $footerHeight2;
+    button span {
+      font-size: 30pt;
+    }
+  }
+}
+.has-footer.mode1 {
+  bottom: $footerHeight2;
+}
+
+@media only screen and (max-height: 400px) {
+  ion-footer-bar.footerBuzz {
+    height: 50px;
+    button span {
+      font-size: 20pt;
+    }
+  }
+  .has-footer.mode1 {
+    bottom: 50px;
+  }
+
 }
 
 select, ion-tabs, .list {
@@ -84,10 +116,30 @@ select, ion-tabs, .list {
 #home {
   .bar-subheader {
    height: 56px;
+    &.subHeaderHidden {
+      display: none;
+    }
+    &.subHeaderShown {
+      display: block;
+    }
   }
   .loader {
     position:absolute;
     top: 0px;
+  }
+  .toggleSubHeaderButton {
+    display: none;
+  }
+
+  @media only screen and (max-height: 400px) {
+
+    .bar-subheader {
+      display: none;
+
+    }
+    .toggleSubHeaderButton {
+      display: block;
+    }
   }
 }
 
@@ -95,12 +147,6 @@ select, ion-tabs, .list {
 
 }
 
-.footerBuzz {
-  height: 100px;
-  button span {
-    font-size: 20pt;
-  }
-}
 
 .buttonBuzz {
   height: 100%;
@@ -155,7 +201,7 @@ select, ion-tabs, .list {
   margin-left: -40%;
   height: 20%;
   font-size: 30pt;
-  opacity: 0.4;
+  opacity: 0.6;
 
   transition: all .2s ease-in-out;
   &.timeUp {
