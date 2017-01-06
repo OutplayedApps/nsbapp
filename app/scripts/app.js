@@ -10,7 +10,7 @@
  */
 
 
-angular.module('IonicGulpSeed', ['ionic', 'ngCordova', 'ngResource', 'ngSanitize', 'firebase'])
+angular.module('IonicGulpSeed', ['ionic', 'ngCordova', 'ngResource', 'ngSanitize', 'firebase', 'ionic-native-transitions'])
 
     .run(function($ionicPlatform) {
 
@@ -25,6 +25,7 @@ angular.module('IonicGulpSeed', ['ionic', 'ngCordova', 'ngResource', 'ngSanitize
     .config(function($httpProvider, $stateProvider, $urlRouterProvider) {
         // register $http interceptors, if any. e.g.
         // $httpProvider.interceptors.push('interceptor-name');
+        $ionicConfigProvider.scrolling.jsScrolling(false);
 
         // Application routing
         $stateProvider

@@ -7,6 +7,7 @@
     "angularfire": "^2.2.0",
     "async": "^2.1.4",
     "bluebird": "^3.0.5",
+    "ionic-native-transitions": "^1.0.3",
     "sync": "^0.2.5"
   },
   "devDependencies": {
@@ -72,7 +73,9 @@
     "cordova-plugin-facebookads",
     "cordova-plugin-nativeaudio",
     "cordova-plugin-code-push",
-    "cordova-plugin-firebase"
+    "cordova-plugin-firebase",
+    "ionic-plugin-keyboard",
+    "cordova-plugin-crosswalk-webview"
   ],
   "cordovaPlatforms": []
 }

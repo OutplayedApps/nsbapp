@@ -224,4 +224,28 @@ angular.module('IonicGulpSeed')
         //});
         console.warn("CODE PUSH V1.0.0");
 
+        $scope.reportProblem = function() {
+            $scope.pauseEverything = true;
+            var myPopup = $ionicPopup.show({
+                templateUrl: 'templates/views/feedback.html',
+                title: 'Report a problem',
+                //subTitle: 'Please use normal things',
+                scope: $scope,
+                buttons: [
+                    { text: 'Cancel' },
+                    { text: 'Submit',
+                        type: 'button-positive',
+                        onTap: function(e) {
+                            EventService.logQuestionError($scope.data.$id, $scope.currQuestionProblem, $scope.feedback);
+                        }
+                    }
+                ],
+                cssClass: 'popupAbout'
+            }).then(function() {
+                console.log("Done");
+            });
+
+            //EventService.logQuestionError($scope.data.$id);
+        };
+
     });

@@ -23,8 +23,8 @@ angular.module('IonicGulpSeed')
             };
         }
 
-        function logQuestionError(questionID, feedback) {
-            window.FirebasePlugin.logEvent("questionError", {"questionID": questionID, "feedback": feedback});
+        function logQuestionError(questionID, currQuestionProblem, feedback) {
+            window.FirebasePlugin.logEvent("questionError", {"questionID": questionID, "currQuestionProblem": currQuestionProblem, "feedback": feedback});
         }
 
         function logWebError() {
