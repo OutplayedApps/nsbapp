@@ -13,10 +13,6 @@ angular.module('IonicGulpSeed')
                                            $ionicSideMenuDelegate, SettingsService, $ionicTabsDelegate, $ionicPlatform, EventService) {
 
 
-
-
-
-
         function updateTabs() {
             // do something with $scope
             //$scope.settings = SettingsService.settings;
@@ -25,7 +21,8 @@ angular.module('IonicGulpSeed')
                     $ionicTabsDelegate.$getByHandle(handle).select(index);
                 }, 0);
             }
-            console.log("LEVEL IS "+SettingsService.getLevel());
+
+            console.log("LEVEL IS " + SettingsService.getLevel());
             selectTab("mode", 1 - SettingsService.getMode()); //hax.
             selectTab("level", SettingsService.getLevel());
 
@@ -39,18 +36,18 @@ angular.module('IonicGulpSeed')
             //console.log($scope.settings.mode,"Is the mode");
         }
 
-        $ionicPlatform.ready(function() {
+        $ionicPlatform.ready(function () {
             updateTabs();
         });
 
-        $scope.$on('menuSlide', function() {
+        $scope.$on('menuSlide', function () {
             updateTabs();
             console.log('slide -oooo');
         });
 
         $rootScope.$on('$stateChangeStart',
             function (event, toState, toParams, fromState, fromParams) {
-                $timeout( function() {
+                $timeout(function () {
                     updateTabs();
                 }, 500);
                 console.log('$statechgstart');
@@ -74,20 +71,21 @@ angular.module('IonicGulpSeed')
         $scope.toggleLevel = function (l) {
             console.log("first tie");
             //$timeout(function() {
-                $scope.toggleLevel = function (l) {
-                    console.log("nth tie");
-                    //$ionicSideMenuDelegate.toggleLeft(false);
-                    $scope.level = l;
-                    SettingsService.setLevel(l);
-                    console.log("level toggled");
-                    //$scope.$broadcast("settingsChanged");
-                }
+            $scope.toggleLevel = function (l) {
+                console.log("nth tie");
+                //$ionicSideMenuDelegate.toggleLeft(false);
+                $scope.level = l;
+                SettingsService.setLevel(l);
+                console.log("level toggled");
+                //$scope.$broadcast("settingsChanged");
+            }
             //}, 300);
         };
 
-        $("#readSpeedRange").val(SettingsService.getReadSpeed());
+        var range = angular.element(document.getElementById("readSpeedRange"));
+        range.val(SettingsService.getReadSpeed());
         $scope.updateReadSpeed = function () {
-            SettingsService.setReadSpeed($("#readSpeedRange").val());
+            SettingsService.setReadSpeed(range.val());
             //console.log("SPEED CHANGED" + SettingsService.settings.readSpeed, $scope.readSpeed);
         }
         /*$scope.$watch(function () {
@@ -104,42 +102,44 @@ angular.module('IonicGulpSeed')
             $state.go("app.home");
         }
 
-        $scope.showAboutPopup = function() {
+        $scope.showAboutPopup = function () {
             var myPopup = $ionicPopup.show({
                 templateUrl: 'templates/views/about.html',
                 title: 'About Us',
                 //subTitle: 'Please use normal things',
                 scope: $scope,
                 buttons: [
-                    { text: 'Close',
+                    {
+                        text: 'Close',
                         type: 'button-positive'
                     },
                     /*{
-                        text: '<b>Save</b>',
-                        type: 'button-positive',
-                        onTap: function(e) {
-                            if (!$scope.data.wifi) {
-                                //don't allow the user to close unless he enters wifi password
-                                e.preventDefault();
-                            } else {
-                                return $scope.data.wifi;
-                            }
-                        }
-                    }*/
+                     text: '<b>Save</b>',
+                     type: 'button-positive',
+                     onTap: function(e) {
+                     if (!$scope.data.wifi) {
+                     //don't allow the user to close unless he enters wifi password
+                     e.preventDefault();
+                     } else {
+                     return $scope.data.wifi;
+                     }
+                     }
+                     }*/
                 ],
                 cssClass: 'popupAbout'
             });
         }
 
 
-        $scope.showHelpPopup = function() {
+        $scope.showHelpPopup = function () {
             var myPopup = $ionicPopup.show({
                 templateUrl: 'templates/views/help.html',
                 title: 'Help',
                 //subTitle: 'Please use normal things',
                 scope: $scope,
                 buttons: [
-                    { text: 'Close',
+                    {
+                        text: 'Close',
                         type: 'button-positive'
                     },
                     /*{
@@ -160,7 +160,7 @@ angular.module('IonicGulpSeed')
         }
         window.scope = $scope;
 
-        $scope.reportProblem = function() {
+        $scope.reportProblem = function () {
             $scope.pauseEverything = true;
             var myPopup = $ionicPopup.show({
                 templateUrl: 'templates/views/feedback.html',
@@ -168,16 +168,17 @@ angular.module('IonicGulpSeed')
                 //subTitle: 'Please use normal things',
                 scope: $scope,
                 buttons: [
-                    { text: 'Cancel' },
-                    { text: 'Submit',
+                    {text: 'Cancel'},
+                    {
+                        text: 'Submit',
                         type: 'button-positive',
-                        onTap: function(e) {
+                        onTap: function (e) {
                             EventService.logQuestionError(SettingsService.getLevel(), SettingsService.data.$id, $scope.currQuestionProblem, $scope.feedback);
                         }
                     }
                 ],
                 cssClass: 'popupAbout'
-            }).then(function() {
+            }).then(function () {
                 console.log("Done");
             });
 
@@ -200,19 +201,19 @@ angular.module('IonicGulpSeed')
                 $timeout(function () {
                     $scope.timeOutShown = true;
                     $scope.hideSplash = true;
-                    $timeout(function() {
+                    $timeout(function () {
                         ExampleService.showAd();
                     }, 500);
 
                     //}
                 }, 2000);
             };
-            $timeout(function() {
+            $timeout(function () {
                 $scope.showSplash();
             }, 100);
         });
 
-        /*document.addEventListener('deviceready', function() {
+        /*document.addEventListener('deviceready', function () {
             //$ionicPlatform.ready(function () {
             $scope.updated = 0;
             try {
@@ -241,6 +242,7 @@ angular.module('IonicGulpSeed')
                 $scope.updated = 1;
                 if ($scope.timeOutShown) $scope.hideSplash = true;
                 //$scope.showSplash();
-            }*/
+            }
 
+        });*/
     });

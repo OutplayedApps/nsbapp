@@ -162,6 +162,7 @@ angular.module('IonicGulpSeed')
                //// console.log("SPEEEE"+1000/SettingsService.settings.readSpeed);
                 $scope.loading = false;
                 $scope.progress = 0;
+                $scope.previousQuestionHTML = "";
                 $scope.nextQuestion = function (actuallyGoToNext) {
                     /*
                     PROGRESS: 10 - everything shown.
@@ -177,6 +178,7 @@ angular.module('IonicGulpSeed')
                     if ($scope.mode == 0 || actuallyGoToNext) { //reader mode, or actuallyGoToNext (only true when a new category / difficulty is picked).
                         $scope.progress = 0;
                         $scope.questionNum++;
+                        //$scope.previousQuestionHTML += angular.element( document.querySelector( '.scroll .content' ) )
                         if ($scope.mode == 1) { //basically, actuallyGoToNext.
                             $interval.cancel($scope.promise);
                             console.log("PROGRESS IS "+$scope.progress);

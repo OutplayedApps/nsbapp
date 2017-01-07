@@ -43,8 +43,9 @@
 
     <ion-content class="has-header" class="mainContent" scroll="true"
                 ng-class="{'mode1': mode == 1, 'has-subheader': hideSubHeader==false}"
-                 delegate-handle="small"
+                 delegate-handle="small" class="has-footer"
                  >
+
 
         <!--ion-refresher
                 pulling-text="Pull for next question..."
@@ -53,7 +54,9 @@
         <div class="loader" ng-if="loading">
             <ion-spinner></ion-spinner>
         </div>
+        <div ng-bind-html="previousQuestionHTML"></div>
         <div class="content">
+
                 <div ng-show="((progress >=2 && progress <=4) ) || mode == 0">
                     <h5>{{questionNum}}. TOSSUP
                         <div class="questionInfo" ng-hide="true">
@@ -132,16 +135,29 @@
     </ion-footer-bar>
 
     <ion-footer-bar ng-if="mode == 0" class="footerReader">
-        <button class="timerButton button button-small icon-left ion-ios-stopwatch-outline" ng-click="timer.timeBonus()"
-                ng-class="{timeUp: timer.timeUp2}" ng-show="mode == 0">
-            <span ng-show="!timer.time2">Start clock (20 s)</span>
-            <span ng-show="timer.time2" ng-bind="timer.time2"></span>
-        </button>
-        <button id="buttonNext" class="button icon-right ion-chevron-right button-outline
-        button-positive button-large button-block"
-                ng-click="nextQuestion()" ng-hide="progress == 5">
-            <span ng-show="mode==0">Next Question</span>
-        </button>
+        <div class="row">
+            <div class="col">
+                <button class="timerButton button button-small icon-left ion-ios-stopwatch-outline" ng-click="timer.timeBonus()"
+                        ng-class="{timeUp: timer.timeUp2}" ng-show="mode == 0">
+                    <span ng-show="!timer.time2">Start clock (8 min.)</span>
+                    <span ng-show="timer.time2" ng-bind="timer.time2"></span>
+                </button>
+            </div>
+            <div class="col">
+                <button id="buttonNext" class="button icon-right ion-chevron-right button-outline
+                button-positive button-large button-block"
+                        ng-click="nextQuestion()" ng-hide="progress == 5">
+                    <span ng-show="mode==0">Next Question</span>
+                </button>
+            </div>
+            <div class="col">
+                <button id="buttonNext" class="button icon-right ion-chevron-right button-outline
+                button-positive button-large button-block"
+                        ng-click="nextQuestion()" ng-hide="progress == 5">
+                    <span ng-show="mode==0">Next Question</span>
+                </button>
+            </div>
+        </div>
     </ion-footer-bar>
 
 </ion-view>
