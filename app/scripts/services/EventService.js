@@ -15,7 +15,7 @@
  *
  */
 angular.module('IonicGulpSeed')
-    .factory('EventService', function($window, $http, API_ENDPOINT) {
+    .factory('EventService', function($window, $http, API_ENDPOINT, $firebaseArray) {
 
         if (!window.FirebasePlugin) {
             console.log("FBPLUGIN NOT FOUND");
@@ -30,12 +30,16 @@ angular.module('IonicGulpSeed')
         function logQuestionError(questionID, HSorMS, currQuestionProblem, feedback) {
             var data = {"questionID": questionID, "HSorMS": HSorMS, "currQuestionProblem": currQuestionProblem, "feedback": feedback};
             window.FirebasePlugin.logEvent("questionError", data);
-            try {
+                var ref = firebase.database().ref("/questions/feedback");
+                var list = $firebaseArray(ref);
+                list.$add(data);
+
+            /*try {
                 window.cordova.plugins.firebase.crash.report("BOOM!");
             }
             catch (e) {
                 console.log("error"  + e);
-            }
+            }*/
 
             //window.FirebasePlugin.logEvent("questionError", );
         }
