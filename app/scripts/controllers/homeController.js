@@ -417,7 +417,7 @@ angular.module('IonicGulpSeed')
                     $interval.cancel($scope.promise);
                     if ($scope.progress ==  prog) {
                         console.log("BLEH.");
-                        //console.log(index, $scope.fullQuestion, !$scope.fullQuestion[index+1], index == $scope.fullQuestion.length-1, $scope.progress != prog);
+                        console.log(index, $scope.fullQuestion, !$scope.fullQuestion[index+1], index == $scope.fullQuestion.length-1, $scope.progress != prog);
                         $scope.nextQuestion();
                     }
                 }

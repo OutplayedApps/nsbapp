@@ -42,18 +42,27 @@ angular.module('IonicGulpSeed')
         }
 
         function getLevel() {
-            if (localStorage.getItem("level") == null) setLevel(def.level);
+            if (localStorage.getItem("level") == null) {
+                setLevel(def.level);
+                return def.level;
+            }
             return parseInt(localStorage.getItem("level"));
         }
 
         function getMode() {
-            if (localStorage.getItem("mode") == null) setMode(def.level);
+            if (localStorage.getItem("mode") == null) {
+                setMode(def.mode);
+                return def.mode;
+            }
             return parseInt(localStorage.getItem("mode"));
         }
 
 
         function getReadSpeed() {
-            if (localStorage.getItem("readSpeed") == null) setLevel(def.readSpeed);
+            if (localStorage.getItem("readSpeed") == null) {
+                setReadSpeed(def.readSpeed);
+                return def.readSpeed;
+            }
             return parseFloat(localStorage.getItem("readSpeed"));
         }
 
