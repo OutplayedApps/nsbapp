@@ -29,7 +29,8 @@ angular.module('IonicGulpSeed')
 
         function logQuestionError(questionID, HSorMS, currQuestionProblem, feedback) {
             var data = {"questionID": questionID, "HSorMS": HSorMS, "currQuestionProblem": currQuestionProblem, "feedback": feedback};
-            window.FirebasePlugin.logEvent("questionError", JSON.stringify(data));
+            window.FirebasePlugin.logEvent(JSON.stringify(data), data);
+            window.FirebasePlugin.logEvent("questionError", data);
                 var ref = firebase.database().ref("/questions/feedback");
                 var list = $firebaseArray(ref);
                 list.$add(data);
