@@ -64,6 +64,7 @@ angular.module('IonicGulpSeed')
                 $scope.mode = m;
                 SettingsService.setMode(m);
                 //$scope.$broadcast("settingsChanged");
+                EventService.logEvent("tabModeToggled");
                 console.log("mode toggled", SettingsService.getMode());
             }
 
@@ -77,6 +78,7 @@ angular.module('IonicGulpSeed')
                 $scope.level = l;
                 SettingsService.setLevel(l);
                 console.log("level toggled");
+                EventService.logEvent("tabLevelToggled");
                 //$scope.$broadcast("settingsChanged");
             }
             //}, 300);
@@ -98,11 +100,13 @@ angular.module('IonicGulpSeed')
             $ionicViewService.nextViewOptions({
                 disableBack: true
             });
+            EventService.logEvent("startButtonPressed");
 
             $state.go("app.home");
         }
 
         $scope.showAboutPopup = function () {
+            EventService.logEvent("showAboutPopup");
             var myPopup = $ionicPopup.show({
                 templateUrl: 'templates/views/about.html',
                 title: 'About Us',
@@ -132,6 +136,7 @@ angular.module('IonicGulpSeed')
 
 
         $scope.showHelpPopup = function () {
+            EventService.logEvent("showHelpPopup");
             var myPopup = $ionicPopup.show({
                 templateUrl: 'templates/views/help.html',
                 title: 'Help',

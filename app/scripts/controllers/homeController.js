@@ -12,7 +12,7 @@ angular.module('IonicGulpSeed')
         $scope.hideSubHeader = false;
         $ionicPlatform.ready(function () {
             
-            $ionicLoading.show(); //for a first time.
+
             //required for side menu to work lol:
             $ionicHistory.clearHistory();
             $ionicSideMenuDelegate.canDragContent(true);
@@ -45,6 +45,7 @@ angular.module('IonicGulpSeed')
                 if (open) {
                     $scope.pauseEverything = true;
                     $scope.$emit('menuSlide');
+                    EventService.logEvent("sideMenuOpen");
                 }
                     if (!open) {
                        //// console.log("changed");
@@ -53,6 +54,7 @@ angular.module('IonicGulpSeed')
                             SettingsService.getLevel() != $scope.level) {
                             $scope.pauseEverything = true;
                             $scope.$broadcast("settingsChanged");
+                            EventService.logEvent("sideMenuClose");
                             //console.log("I SHOULD ONLY DO THIS ONCE");
                         }
                         else {
@@ -66,6 +68,14 @@ angular.module('IonicGulpSeed')
 
 
             function init() {
+
+                showLoading();
+
+                function showLoading() {
+                    $ionicLoading.show({
+                        "template": "Loading content..."
+                    }); //for a first time.
+                }
 
                 $scope.mode = SettingsService.getMode();
                 var mode = $scope.mode;
@@ -277,6 +287,7 @@ angular.module('IonicGulpSeed')
                     ExampleService.fetchQuestions(catNumNew, diffNumFinal, $scope.HSorMS)
                         .$loaded().then(function (data) {
                             console.log("QUESTIONS FETCHED");
+                        EventService.logEvent("questionFetch");
                             window.data = data;
                                 if (data.length == 0) throw "No results found.";
                                 var regularArray = [];
