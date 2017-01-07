@@ -15,15 +15,7 @@ angular.module('IonicGulpSeed')
          updateTabs();
          })*/
 
-        $timeout(function() {
-            ExampleService.showAd();
-        }, 1000);
 
-        //main menu stuffs:
-        $ionicSideMenuDelegate.canDragContent(false);
-        $scope.start = function() {
-            $state.go("app.home");
-        }
 
 
         function updateTabs() {
@@ -167,5 +159,64 @@ angular.module('IonicGulpSeed')
 
             //EventService.logQuestionError($scope.data.$id);
         };
+
+        window.scope = $scope;
+        $scope.hideSplash = false;
+        $scope.updated = 0;
+        $ionicPlatform.ready(function () {
+            $scope.showSplash = function () {
+                //listener();
+                if (navigator.splashscreen) {
+                    navigator.splashscreen.hide();
+                    //hides first splash screen.
+                }
+                console.log("SPLASHING");
+                //$scope.showSplash = true;
+                $scope.timeOutShown = false;
+                $timeout(function () {
+                    $scope.timeOutShown = true;
+                    $scope.hideSplash = true;
+                    $timeout(function() {
+                        ExampleService.showAd();
+                    }, 500);
+
+                    //}
+                }, 2000);
+            };
+            $timeout(function() {
+                $scope.showSplash();
+            }, 100);
+        });
+
+        /*document.addEventListener('deviceready', function() {
+            //$ionicPlatform.ready(function () {
+            $scope.updated = 0;
+            try {
+                codePush.sync(function (status) {
+                    switch (status) {
+                        case SyncStatus.DOWNLOADING_PACKAGE:
+                            console.log("downloadgin");
+                            break;
+                        case SyncStatus.CHECKING_FOR_UPDATE:
+                            console.log("checking for update");
+                            break;
+                        case SyncStatus.INSTALLING_UPDATE:
+                            console.log("installing  update");
+                            break;
+
+                        default:
+                            console.log("done with CODEPUSH.");
+                            //$scope.updated = 1;
+                            //$scope.hideSplash = true;
+                            break;
+                    }
+                });
+            }
+            catch (e) {
+                console.log("CODEPUSH FAILED" + e);
+                $scope.updated = 1;
+                if ($scope.timeOutShown) $scope.hideSplash = true;
+                //$scope.showSplash();
+            }*/
 
     });
