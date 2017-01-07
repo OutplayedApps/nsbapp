@@ -8,63 +8,86 @@
  * This controller handles the side menu
  */
 angular.module('IonicGulpSeed')
-    .controller('MainController', function($scope, $timeout, $ionicViewService, $rootScope, $ionicPopup, $state, ExampleService,
+    .controller('MainController', function($scope, $timeout,
+                                           $ionicViewService, $rootScope, $ionicPopup, $state, ExampleService,
                                            $ionicSideMenuDelegate, SettingsService, $ionicTabsDelegate, $ionicPlatform, EventService) {
 
-        /*$scope.$on("settingsChanged", function() {
-         updateTabs();
-         })*/
+
 
 
 
 
         function updateTabs() {
             // do something with $scope
-            $scope.settings = SettingsService.settings;
-            /*function selectTab(handle, index) {
+            //$scope.settings = SettingsService.settings;
+            function selectTab(handle, index) {
                 $timeout(function () {
                     $ionicTabsDelegate.$getByHandle(handle).select(index);
                 }, 0);
             }
+            console.log("LEVEL IS "+SettingsService.getLevel());
+            selectTab("mode", 1 - SettingsService.getMode()); //hax.
+            selectTab("level", SettingsService.getLevel());
 
-            selectTab("mode", $scope.settings.mode);
-            selectTab("level", $scope.settings.level);*/
-            $(($scope.settings.mode == 0) ? ".tabReader" : ".tabGame").click();
-            $(($scope.settings.level == 0) ? ".tabMS" : ".tabHS").click();
+            //console.debug($scope.settings);
+            //$(($scope.settings.mode == 0) ? ".tabReader" : ".tabGame").click();
+            //$(($scope.settings.level == 0) ? ".tabMS" : ".tabHS").click();
+
             //mode: 0 is reader 1 is game mode
             //level: 0 is MS 1 is HS
 
-            console.log($scope.settings.mode,"Is the mode");
+            //console.log($scope.settings.mode,"Is the mode");
         }
 
-        $rootScope.$on('$stateChangeSuccess',
+        $ionicPlatform.ready(function() {
+            updateTabs();
+        });
+
+        $scope.$on('menuSlide', function() {
+            updateTabs();
+            console.log('slide -oooo');
+        });
+
+        $rootScope.$on('$stateChangeStart',
             function (event, toState, toParams, fromState, fromParams) {
-                updateTabs();
+                $timeout( function() {
+                    updateTabs();
+                }, 500);
+                console.log('$statechgstart');
             });
 
-        updateTabs();
+        //updateTabs();
 
 
         //todo: get from memory.
         var m, l;
         $scope.toggleMode = function (m) {
-            //$ionicSideMenuDelegate.toggleLeft(false);
-            $scope.mode = m;
-            SettingsService.settings.mode = m;
-            //$scope.$broadcast("settingsChanged");
-            console.log("mode toggled",SettingsService.settings.mode);
+            $scope.toggleMode = function (m) { //only happens after the first time.
+                //$ionicSideMenuDelegate.toggleLeft(false);
+                $scope.mode = m;
+                SettingsService.setMode(m);
+                //$scope.$broadcast("settingsChanged");
+                console.log("mode toggled", SettingsService.getMode());
+            }
 
         }
         $scope.toggleLevel = function (l) {
-            //$ionicSideMenuDelegate.toggleLeft(false);
-            $scope.level = l;
-            SettingsService.settings.level = l;
-            //$scope.$broadcast("settingsChanged");
+            console.log("first tie");
+            //$timeout(function() {
+                $scope.toggleLevel = function (l) {
+                    console.log("nth tie");
+                    //$ionicSideMenuDelegate.toggleLeft(false);
+                    $scope.level = l;
+                    SettingsService.setLevel(l);
+                    console.log("level toggled");
+                    //$scope.$broadcast("settingsChanged");
+                }
+            //}, 300);
         };
 
-        $("#readSpeedRange").val(SettingsService.settings.readSpeed);
+        $("#readSpeedRange").val(SettingsService.getReadSpeed());
         $scope.updateReadSpeed = function () {
-            SettingsService.settings.readSpeed = $("#readSpeedRange").val();
+            SettingsService.setReadSpeed($("#readSpeedRange").val());
             //console.log("SPEED CHANGED" + SettingsService.settings.readSpeed, $scope.readSpeed);
         }
         /*$scope.$watch(function () {
@@ -77,6 +100,7 @@ angular.module('IonicGulpSeed')
             $ionicViewService.nextViewOptions({
                 disableBack: true
             });
+
             $state.go("app.home");
         }
 
@@ -148,7 +172,7 @@ angular.module('IonicGulpSeed')
                     { text: 'Submit',
                         type: 'button-positive',
                         onTap: function(e) {
-                            EventService.logQuestionError(SettingsService.level, SettingsService.data.$id, $scope.currQuestionProblem, $scope.feedback);
+                            EventService.logQuestionError(SettingsService.getLevel(), SettingsService.data.$id, $scope.currQuestionProblem, $scope.feedback);
                         }
                     }
                 ],

@@ -116,7 +116,8 @@
 
 
 
-    <ion-footer-bar ng-class="{'footerBuzz': mode == 1}">
+    <ion-footer-bar ng-if="mode == 1" ng-class="{'footerBuzz': mode == 1}">
+
         <button id="buttonNext" class="button icon-right ion-chevron-right button-outline
         button-positive button-large button-block"
         ng-click="nextQuestion()" ng-hide="progress == 5">
@@ -127,6 +128,19 @@
             <span ng-show="progress==2" class="buzzText">Buzz</span>
             <span ng-show="progress == 5">Skip to End</span>
             <span ng-show="progress==3 || progress == 6">Show Answer</span>
+        </button>
+    </ion-footer-bar>
+
+    <ion-footer-bar ng-if="mode == 0" class="footerReader">
+        <button class="timerButton button button-small icon-left ion-ios-stopwatch-outline" ng-click="timer.timeBonus()"
+                ng-class="{timeUp: timer.timeUp2}" ng-show="mode == 0">
+            <span ng-show="!timer.time2">Start clock (20 s)</span>
+            <span ng-show="timer.time2" ng-bind="timer.time2"></span>
+        </button>
+        <button id="buttonNext" class="button icon-right ion-chevron-right button-outline
+        button-positive button-large button-block"
+                ng-click="nextQuestion()" ng-hide="progress == 5">
+            <span ng-show="mode==0">Next Question</span>
         </button>
     </ion-footer-bar>
 

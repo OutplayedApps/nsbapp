@@ -20,10 +20,16 @@ angular.module('IonicGulpSeed')
             $scope.$on( "$ionicView.enter", function( scopes, states ) {
               //// console.log("ENTERED");
                 init();
+                $scope.pauseEverything = false;
+            });
+            $scope.$on('$ionicView.leave', function(){
+                $scope.pauseEverything = true;
+                console.log("LEAVING");
             });
             $timeout(function() {
                 $scope.$on("settingsChanged", function (evt, data) {
                     init();
+                    console.log("settings changed");
 
                     //$scope.nextQuestion();
                    //// console.log("ok");
@@ -38,17 +44,21 @@ angular.module('IonicGulpSeed')
                    //// console.log("HU"+open);
                 if (open) {
                     $scope.pauseEverything = true;
+                    $scope.$emit('menuSlide');
                 }
                     if (!open) {
                        //// console.log("changed");
-                       //// console.log(SettingsService.settings.level, $scope.level);
-                        if (SettingsService.settings.mode != $scope.mode ||
-                            SettingsService.settings.level != $scope.level) {
-
+                        console.log(SettingsService.getLevel(), $scope.level);
+                        if (SettingsService.getMode() != $scope.mode ||
+                            SettingsService.getLevel() != $scope.level) {
+                            $scope.pauseEverything = true;
                             $scope.$broadcast("settingsChanged");
                             //console.log("I SHOULD ONLY DO THIS ONCE");
                         }
-                        $scope.pauseEverything = false;
+                        else {
+                            $scope.pauseEverything = false;
+                        }
+
 
                     }
                 });
@@ -57,11 +67,12 @@ angular.module('IonicGulpSeed')
 
             function init() {
 
-                $scope.mode = SettingsService.settings.mode;
+                $scope.mode = SettingsService.getMode();
                 var mode = $scope.mode;
                 $scope.questionNum = (mode == 0) ? 0 : 1;
                //// console.log("MODE"+mode);
-                $scope.level = SettingsService.settings.level;
+                $interval.cancel($scope.promise);
+                $scope.level = SettingsService.getLevel();
                 $scope.HSorMS = ($scope.level == 1);
                 var HSorMS = $scope.HSorMS;
                //// console.log(SettingsService.settings.level);
@@ -302,6 +313,7 @@ angular.module('IonicGulpSeed')
                                 if ($ionicLoading)  $ionicLoading.hide();
 
                                 $scope.pauseEverything = false;
+                                console.log($scope.progress +"IS THE PROGRESS");
 
                         }).catch(function (e) {
                         if ($ionicLoading)  $ionicLoading.hide();
@@ -390,7 +402,7 @@ angular.module('IonicGulpSeed')
             $scope.data[optsQ] = "";
            // console.log("$scope.data.tossupQ",$scope.data.tossupQ);
             var index = 0;
-            var initialReadSpeed = 1000/SettingsService.settings.readSpeed;
+            var initialReadSpeed = 1000/SettingsService.getReadSpeed();
 
             var updateTossupPosition = function() {
                // console.log("$scope.data.tossupQ",$scope.data.tossupQ);
@@ -404,12 +416,14 @@ angular.module('IonicGulpSeed')
                 if (index == $scope.fullQuestion.length-1 || $scope.progress != prog) {
                     $interval.cancel($scope.promise);
                     if ($scope.progress ==  prog) {
+                        console.log("BLEH.");
+                        //console.log(index, $scope.fullQuestion, !$scope.fullQuestion[index+1], index == $scope.fullQuestion.length-1, $scope.progress != prog);
                         $scope.nextQuestion();
                     }
                 }
-                if (1000/SettingsService.settings.readSpeed != initialReadSpeed) {
+                if (1000/SettingsService.getReadSpeed() != initialReadSpeed) {
                     //if speed has changed.
-                    initialReadSpeed = 1000/SettingsService.settings.readSpeed;
+                    initialReadSpeed = 1000/SettingsService.getReadSpeed();
                    // console.log("updating speed to "+initialReadSpeed);
                     $interval.cancel($scope.promise);
                     $scope.promise = $interval(updateTossupPosition, initialReadSpeed);
@@ -447,6 +461,8 @@ angular.module('IonicGulpSeed')
             }
 
         }
+
+
 
     });
 
