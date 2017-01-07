@@ -161,6 +161,7 @@ angular.module('IonicGulpSeed')
         window.scope = $scope;
 
         $scope.reportProblem = function () {
+            $scope.feedback = {};
             $scope.pauseEverything = true;
             var myPopup = $ionicPopup.show({
                 templateUrl: 'templates/views/feedback.html',
@@ -173,7 +174,12 @@ angular.module('IonicGulpSeed')
                         text: 'Submit',
                         type: 'button-positive',
                         onTap: function (e) {
-                            EventService.logQuestionError(SettingsService.getLevel(), SettingsService.data.$id, $scope.currQuestionProblem, $scope.feedback);
+                            $scope.feedback.questionID = SettingsService.data.$id;
+                            $scope.feedback.HSorMS = SettingsService.getLevel();
+                            $scope.feedback.mode = SettingsService.getMode();
+                            $scope.feedback.time = moment().format("DD-MM-YYYY HH:MM:ss");
+                            $scope.feedback.device = (navigator.userAgent.match(/iPad/i))  == "iPad" ? "iPad" : (navigator.userAgent.match(/iPhone/i))  == "iPhone" ? "iPhone" : (navigator.userAgent.match(/Android/i)) == "Android" ? "Android" : (navigator.userAgent.match(/BlackBerry/i)) == "BlackBerry" ? "BlackBerry" : "null";
+                            EventService.logQuestionError($scope.feedback);
                         }
                     }
                 ],

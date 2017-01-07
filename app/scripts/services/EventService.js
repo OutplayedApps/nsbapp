@@ -20,20 +20,25 @@ angular.module('IonicGulpSeed')
         if (!window.FirebasePlugin) {
             console.log("FBPLUGIN NOT FOUND");
             window.FirebasePlugin = {
-                "logEvent": function() {}
+                "logEvent": function() {console.log("event logged but plugin not working");}
             };
         }
         else {
             console.log("FBPLUGIN found");
         }
 
-        function logQuestionError(questionID, HSorMS, currQuestionProblem, feedback) {
-            var data = {"questionID": questionID, "HSorMS": HSorMS, "currQuestionProblem": currQuestionProblem, "feedback": feedback};
+        function logQuestionError(data) {
+
+            //var data = {"questionID": questionID, "HSorMS": HSorMS, "currQuestionProblem": currQuestionProblem, "feedback": feedback};
+            console.debug(data, "LOGINGG ERROR");
             window.FirebasePlugin.logEvent(JSON.stringify(data), data);
             window.FirebasePlugin.logEvent("questionError", data);
-                var ref = firebase.database().ref("/questions/feedback");
-                var list = $firebaseArray(ref);
+                var ref = firebase.database().ref("/feedback").child(data.time).set(data);
+                /*var list = $firebaseArray(ref);
                 list.$add(data);
+                list.$save();*/
+            //console.log(list);
+
 
             /*try {
                 window.cordova.plugins.firebase.crash.report("BOOM!");
@@ -49,12 +54,17 @@ angular.module('IonicGulpSeed')
             window.FirebasePlugin.logEvent("webError");
         }
 
+        function logEvent(eventType) {
+            window.FirebasePlugin.logEvent(eventType);
+        }
+
 
 
         // public api
         return {
             logWebError: logWebError,
-            logQuestionError: logQuestionError
+            logQuestionError: logQuestionError,
+            logEvent: logEvent
         };
 
     });

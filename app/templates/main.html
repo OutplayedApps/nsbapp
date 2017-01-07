@@ -19,6 +19,19 @@
             <ion-scroll>
                 <div class="list menu">
 
+                    <a menu-close class="item item-icon-left" ui-sref-active="active" ui-sref="app.home">
+                        <i class="icon ion-social-buffer"></i>
+                        Back to Practice
+                    </a>
+                    <a menu-close class="item item-icon-left" ui-sref-active="active" ui-sref="mainMenu">
+                        <i class="icon ion-home"></i>
+                        Main Menu
+                    </a>
+                    <a class="item item-icon-left" ng-click="showAboutPopup()">
+                        <i class="icon ion-ios-information-outline"></i>
+                        About
+                    </a>
+
                 <a class="item item-icon-left" ng-click="showHelpPopup()">
                     <i class="icon ion-ios-help-outline"></i>
                     Help
@@ -77,20 +90,6 @@
                         <i class="icon ion-ios-fastforward"></i>
                     </div>
                 </div>
-
-
-                    <a menu-close class="item item-icon-left" ui-sref-active="active" ui-sref="app.home">
-                        <i class="icon ion-social-buffer"></i>
-                        Back to Practice
-                    </a>
-                    <a menu-close class="item item-icon-left" ui-sref-active="active" ui-sref="mainMenu">
-                        <i class="icon ion-home"></i>
-                        Main Menu
-                    </a>
-                    <a class="item item-icon-left" ng-click="showAboutPopup()">
-                        <i class="icon ion-ios-information-outline"></i>
-                        About
-                    </a>
 
                 <!--label class="item item-input modeExplanation">
                     <div ng-show="mode==0">
