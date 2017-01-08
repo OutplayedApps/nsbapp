@@ -10,6 +10,7 @@ var PDFParser = require('pdf2json');
  var async = require('async');
  var Sync = require('sync');
 var deasync = require('deasync');
+
 var progress = 0;
 var totalProg = 0;
      function processAndAdd(str2, setNum, roundNum, questionNum) {
@@ -18,6 +19,7 @@ var totalProg = 0;
             if (~pageEndIndex) {
                 str2 = str2.substring(0, pageEndIndex);
             }
+            str2=str2.replace("EARTH ANDE SPACE", "EARTH AND SPACE");
             //console.log(str2);
             var tossupQ = strBetween(str2, ") ", "ANSWER:");
             var category, type;
@@ -88,14 +90,18 @@ var getText = function(setNum, roundNum, callback) {
     var roundString = "round";
     if (setNum == 6) roundString = "Sample6_ROUND";
     if (setNum == 7 || setNum == 3) roundString = "ROUND-";
+    if (setNum == 8) roundString = "Round-";
+
 
     var afterString = "";
     if (setNum == 3) afterString = "C";
+    if (setNum == 8) afterString = "-A";
 var path = "http://science.energy.gov/~/media/wdts/nsb/pdf/HS-Sample-Questions/Sample-Set-"+setNum+"/"+roundString+roundNum+afterString+".pdf"; 
 console.log(path);
-//request.get(path, function (error, response, body) {
+    process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
+request({url: path, encoding: null}, function (error, response, body) {
     
-http.get(url.parse(path), function(response) {
+//http.get(url.parse(path), function(response) {
     //if (!error && response.statusCode == 200) {
         //var csv = body;
         //res.send("hi");
@@ -107,7 +113,7 @@ http.get(url.parse(path), function(response) {
             console.log(setNum+"."+roundNum);
             //callback();
             //throw JSON.stringify(errData);
-            getText(setNum, roundNum, callback);
+            //getText(setNum, roundNum, callback);
            //return JSON.stringify(errData);  //res.end();
            
            });
@@ -133,18 +139,21 @@ http.get(url.parse(path), function(response) {
         console.log("Progress: "+progress+" of "+totalProg);
         callback();
     });
-var data = [];
+/*var data = [];
    response.on('data', function(chunk) {
         data.push(chunk);
+       console.log(chunk.toString());
     }).on('end', function() {
         //at this point data is an array of Buffers
         //so Buffer.concat() can make us a new Buffer
         //of all of them together
         var buffer = Buffer.concat(data);
-        //console.log(buffer.toString('base64'));
+        console.log(buffer.toString('base64'));
+*/
 
-        pdfParser.parseBuffer(buffer);
-    });
+console.log(body);
+        pdfParser.parseBuffer(body);
+  //  });
 });
     
 
@@ -157,7 +166,7 @@ var data = {};
 data.questions = {};
 
 //console.log(JSON.stringify(data));
-        for (var setNum = 1; setNum <=7; setNum++) {
+        for (var setNum = 8; setNum <=8; setNum++) {
             for (var roundNum = 1; roundNum <= 17; roundNum++) {
               if (roundNum > 15 && (setNum == 5 || setNum ==6)) continue;
                 array.push({"setNum":setNum,"roundNum":roundNum});
@@ -186,7 +195,7 @@ function main() {
        done();
         function done() {
             console.log("finished");
-            fs.writeFile("output.json", JSON.stringify(data), function(err) {
+            fs.writeFile("output-hs-8.json", JSON.stringify(data), function(err) {
                                     if(err) {
                                         return console.log(err);
                                     }

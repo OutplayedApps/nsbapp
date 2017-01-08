@@ -259,7 +259,17 @@ angular.module('IonicGulpSeed')
                             catNumNew  = $scope.catValues[Math.floor(Math.random() * $scope.catValues.length)];
                         //picks a random index from the array.
                     }
-                    var maxDifficulty = $scope.HSorMS ? 17 : 17;
+
+                    var difficulties;
+
+                    if ($scope.HSorMS) {
+                        difficulties = [17,17,17,17,15,15,17,17];
+                    }
+                    else {
+                        difficulties = [18, 10, 15, 17, 16, 17, 15, 17];
+                    }
+
+                    var maxDifficulty = difficulties[catNumNew + 1];
                     var diffNumFinal = 1;
                     switch (diffNum) {
                         case 0:
@@ -280,9 +290,6 @@ angular.module('IonicGulpSeed')
                             break;
                     }
 
-                    if (catNumNew != 5 && (diffNumFinal == 17 || diffNumFinal == 16) && Math.random() < .2) { //diff num smaller weight for 18.
-                        diffNumFinal = 18;
-                    }
 
                     ExampleService.fetchQuestions(catNumNew, diffNumFinal, $scope.HSorMS)
                         .$loaded().then(function (data) {

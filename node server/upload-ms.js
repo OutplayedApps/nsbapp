@@ -19,6 +19,7 @@ var totalProg = 0;
                 str2 = str2.substring(0, pageEndIndex);
             }
             str2 =  str2.replace(/([A-Za-z]*)  ([A-Za-z]*)/g, "$1 $2");
+         str2 = str2.replace("MATH Math", "MATH");
             //console.log(str2);
             if (!~str2.indexOf(")") || str2.indexOf(")") > 10) {
                 //if 3 TOSSUP ... etc. IF IT"S MISSING...
@@ -127,11 +128,18 @@ var getText = function(setNum, roundNum, callback) {
     var afterString = "";
     if (setNum == 3) afterString = "C-MS";
 
+    if (setNum == 8) {
+        roundString = "Round-";
+        afterString = "-A";
+    }
+
 var path = "http://science.energy.gov/~/media/wdts/nsb/pdf/MS-Sample-Questions/Sample-Set-"+setNum+"/"+roundString+roundNum+afterString+".pdf"; 
 console.log(path);
 //request.get(path, function (error, response, body) {
-    
-http.get(url.parse(path), function(response) {
+    process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
+    request({url: path, encoding: null}, function (error, response, body) {
+
+//http.get(url.parse(path), function(response) {
     //if (!error && response.statusCode == 200) {
         //var csv = body;
         //res.send("hi");
@@ -176,18 +184,10 @@ http.get(url.parse(path), function(response) {
         console.log("Progress: "+progress+" of "+totalProg+"."+"Setnum: "+setNum+"Roundnum: "+roundNum);
         callback();
     });
-var data = [];
-   response.on('data', function(chunk) {
-        data.push(chunk);
-    }).on('end', function() {
-        //at this point data is an array of Buffers
-        //so Buffer.concat() can make us a new Buffer
-        //of all of them together
-        var buffer = Buffer.concat(data);
-        //console.log(buffer.toString('base64'));
 
-        pdfParser.parseBuffer(buffer);
-    });
+
+        pdfParser.parseBuffer(body);
+
 });
     
 
@@ -200,7 +200,7 @@ var data = {};
 data.questionsMS = {};
 
 //console.log(JSON.stringify(data));
-        for (var setNum = 1; setNum <=7; setNum++) {
+        for (var setNum = 8; setNum <=8; setNum++) {
             for (var roundNum = 1; roundNum <= 18; roundNum++) {
               if (roundNum > 10 && (setNum == 2)) continue;
               if (roundNum > 15 && (setNum == 3)) continue;
@@ -208,6 +208,7 @@ data.questionsMS = {};
               if (roundNum > 16 && (setNum == 5)) continue;
               if (roundNum > 17 && (setNum == 6)) continue;
               if (roundNum > 15 && (setNum == 7)) continue;
+                if (roundNum > 17 && (setNum == 8)) continue;
               
                 array.push({"setNum":setNum,"roundNum":roundNum});
                 totalProg++;
@@ -235,7 +236,7 @@ function main() {
        done();
         function done() {
             console.log("finished");
-            fs.writeFile("output-ms.json", JSON.stringify(data), function(err) {
+            fs.writeFile("output-ms-8.json", JSON.stringify(data), function(err) {
                                     if(err) {
                                         return console.log(err);
                                     }
