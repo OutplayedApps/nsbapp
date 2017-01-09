@@ -6,6 +6,11 @@
  * @description
  * # HomeController
  */
+
+var C = {};
+C.MODEREADER = 0;
+C.MODEGAME = 1;
+
 angular.module('IonicGulpSeed')
     .controller('HomeController', function($scope, ExampleService, $ionicScrollDelegate, $ionicLoading, $ionicPopup,
     SettingsService, $ionicPlatform, $ionicSideMenuDelegate, $ionicHistory, $interval, $timeout, $state, EventService) {
@@ -91,6 +96,7 @@ angular.module('IonicGulpSeed')
 
                 $scope.myHTML = null;
                 $scope.listOfPreviousQuestions = [];
+                $scope.listOfPreviousQuestionsIndex = -1;
                 //var categoryList = {};
                 var categoryList;
                 if (HSorMS) {
@@ -169,13 +175,47 @@ angular.module('IonicGulpSeed')
                     return txt;
 
                 }
+
+                $scope.displayQuestion = function(question) {
+                    if ($scope.mode == C.MODEREADER) {
+                        //$scope.listOfPreviousQuestions.push(question);
+                    }
+                    $scope.data = {};
+
+                    $scope.data = question;
+                    SettingsService.data = $scope.data;
+
+                    $scope.data.tossupQ = processToHTML($scope.data.tossupQ);
+                    $scope.data.bonusQ = processToHTML($scope.data.bonusQ);
+
+                    $ionicScrollDelegate.$getByHandle('small').scrollTop(true);
+                    $scope.loading = false;
+                    if ($ionicLoading)  $ionicLoading.hide();
+
+                    $scope.pauseEverything = false;
+
+                }
+
+                $scope.previousQuestion = function() {
+                    if ($scope.listOfPreviousQuestionsIndex <= 0 || $scope.mode != C.MODEREADER) return;
+                    $scope.listOfPreviousQuestionsIndex--;
+                    $scope.progress = 0; // should be superfluous. only works in reader mode (mode 1).
+                    $scope.displayQuestion($scope.listOfPreviousQuestions[$scope.listOfPreviousQuestionsIndex]);
+                }
+
                 window.scope = $scope;
                //// console.log("SPEEEE"+1000/SettingsService.settings.readSpeed);
                 $scope.loading = false;
                 $scope.progress = 0;
-                $scope.previousQuestionHTML = "";
                 $scope.numOfRetries = 0;
                 $scope.nextQuestion = function (actuallyGoToNext) {
+                    if ($scope.mode == C.MODEREADER &&
+                        $scope.listOfPreviousQuestionsIndex < $scope.listOfPreviousQuestions.length - 1) {
+                        //display forward question.
+                        $scope.listOfPreviousQuestionsIndex++;
+                        $scope.displayQuestion($scope.listOfPreviousQuestions[$scope.listOfPreviousQuestionsIndex]);
+                    }
+
                     /*
                     PROGRESS: 10 - everything shown.
                     1- tossup being read
@@ -297,23 +337,6 @@ angular.module('IonicGulpSeed')
                             break;
                     }
 
-                    $scope.displayQuestion = function(question) {
-                        $scope.data = {};
-
-                        $scope.data = question;
-                        SettingsService.data = $scope.data;
-
-                        $scope.data.tossupQ = processToHTML($scope.data.tossupQ);
-                        $scope.data.bonusQ = processToHTML($scope.data.bonusQ);
-
-                        $ionicScrollDelegate.$getByHandle('small').scrollTop(true);
-                        $scope.loading = false;
-                        if ($ionicLoading)  $ionicLoading.hide();
-
-                        $scope.pauseEverything = false;
-
-                    }
-
 
                     ExampleService.fetchQuestions(catNumNew, diffNumFinal, $scope.HSorMS)
                         .$loaded().then(function (data) {
@@ -336,11 +359,20 @@ angular.module('IonicGulpSeed')
                                 for (var i = 0; i < data.length; i++) {
                                     regularArray.push(data[i]);
                                 }
+                                var question = randEle(regularArray);
 
-                                $scope.displayQuestion(randEle(regularArray));
+                        if ($scope.mode == C.MODEREADER) {
+                            $scope.listOfPreviousQuestions.push(question);
+                            $scope.listOfPreviousQuestionsIndex++;
 
-                                if ($scope.mode == 1 && $scope.progress == 1)
-                                    $scope.nextQuestion();
+                        }
+                        $scope.displayQuestion(question);
+                        //console.log(question);
+
+
+                        if ($scope.mode == C.MODEGAME && $scope.progress == 1) {
+                            $scope.nextQuestion();
+                        }
 
                         }).catch(function (e) {
                         if ($ionicLoading)  $ionicLoading.hide();
