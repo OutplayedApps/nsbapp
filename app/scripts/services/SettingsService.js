@@ -23,6 +23,22 @@ angular.module('IonicGulpSeed')
             level: 1,
             readSpeed: 5
         };
+        function initHeard() {
+            if (!$localStorage.heardQuestions || $localStorage.heardQuestions.length == 0) {
+                $localStorage.heardQuestions = [];
+            }
+        }
+
+
+        function addQuestionToHeard(id) {
+            initHeard();
+            $localStorage.heardQuestions.push(id);
+        }
+
+        function checkIfQuestionHeard(id) {
+            initHeard();
+            return ~$localStorage.heardQuestions.indexOf(id);
+        }
 
         //mode: 0 is reader 1 is game mode
         //level: 0 is MS 1 is HS
@@ -78,7 +94,9 @@ angular.module('IonicGulpSeed')
             setReadSpeed: setReadSpeed,
             getMode: getMode,
             getLevel: getLevel,
-            getReadSpeed: getReadSpeed
+            getReadSpeed: getReadSpeed,
+            addQuestionToHeard: addQuestionToHeard,
+            checkIfQuestionInHeard: checkIfQuestionHeard
 
         };
 

@@ -185,6 +185,8 @@ angular.module('IonicGulpSeed')
                     $scope.data = {};
 
                     $scope.data = question;
+                    console.debug(question);
+
                     SettingsService.data = $scope.data;
 
                     $ionicScrollDelegate.$getByHandle('small').scrollTop(true);
@@ -359,7 +361,19 @@ angular.module('IonicGulpSeed')
                                 for (var i = 0; i < data.length; i++) {
                                     regularArray.push(data[i]);
                                 }
+
                                 var question = randEle(regularArray);
+                                var attempts = 0;
+                                while (question && SettingsService.checkIfQuestionInHeard(question.$id) && regularArray.length > 0) {
+                                    regularArray.splice(regularArray.indexOf(question), 1); //removes element from array
+                                    question = randEle(regularArray);
+                                    //console.log(question);
+                                }
+                                if (!question || SettingsService.checkIfQuestionInHeard(question.$id)) {
+                                    $scope.nextQuestion(true);
+                                    return;
+                                }
+                        SettingsService.addQuestionToHeard(question.$id);
 
                         if ($scope.mode == C.MODEREADER) {
                             $scope.listOfPreviousQuestions.push(question);
