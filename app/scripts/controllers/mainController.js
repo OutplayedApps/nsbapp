@@ -224,7 +224,7 @@ angular.module('IonicGulpSeed')
             }, 100);
         });
 
-        /*document.addEventListener('deviceready', function () {
+        document.addEventListener('deviceready', function () {
             //$ionicPlatform.ready(function () {
             $scope.updated = 0;
             try {
@@ -246,7 +246,7 @@ angular.module('IonicGulpSeed')
                             //$scope.hideSplash = true;
                             break;
                     }
-                });
+                }, { installMode: InstallMode.ON_NEXT_RESUME, minimumBackgroundDuration: 60 * 10 });
             }
             catch (e) {
                 console.log("CODEPUSH FAILED" + e);
@@ -255,5 +255,5 @@ angular.module('IonicGulpSeed')
                 //$scope.showSplash();
             }
 
-        });*/
+        });
     });

@@ -173,6 +173,7 @@ angular.module('IonicGulpSeed')
                 $scope.loading = false;
                 $scope.progress = 0;
                 $scope.previousQuestionHTML = "";
+                $scope.numOfRetries = 0;
                 $scope.nextQuestion = function (actuallyGoToNext) {
                     /*
                     PROGRESS: 10 - everything shown.
@@ -262,14 +263,19 @@ angular.module('IonicGulpSeed')
 
                     var difficulties;
 
-                    if ($scope.HSorMS) {
+                    /*if ($scope.HSorMS) {
                         difficulties = [17,17,17,17,15,15,17,17];
                     }
                     else {
                         difficulties = [18, 10, 15, 17, 16, 17, 15, 17];
+                    }*/
+
+                    //var maxDifficulty = difficulties[catNumNew + 1];
+                    var maxDifficulty = 17;
+                    if (catNumNew != 5 && $scope.MSorHS == false && (maxDifficulty == 17 || maxDifficulty == 16 || maxDifficulty == 16) && Math.random() < .2) {
+                        maxDifficulty = 18; //small chance for MS (not energy.)
                     }
 
-                    var maxDifficulty = difficulties[catNumNew + 1];
                     var diffNumFinal = 1;
                     switch (diffNum) {
                         case 0:
@@ -296,7 +302,18 @@ angular.module('IonicGulpSeed')
                             console.log("QUESTIONS FETCHED");
                         EventService.logEvent("questionFetch");
                             window.data = data;
-                                if (data.length == 0) throw "No results found.";
+                                if (data.length == 0) {
+                                    if ($scope.numOfRetries > 3) {
+                                        $scope.numOfRetries = 0;
+                                        throw "No results found.";
+                                    }
+                                    console.log("retrying");
+                                    $scope.nextQuestion(true);
+                                    $scope.numOfRetries++;
+                                    return;
+                                }
+
+
                                 var regularArray = [];
                                 for (var i = 0; i < data.length; i++) {
                                     regularArray.push(data[i]);
@@ -334,12 +351,26 @@ angular.module('IonicGulpSeed')
 
                                 $scope.pauseEverything = false;
                                 console.log($scope.progress +"IS THE PROGRESS");
-
+                        //throw '';
+                        //throw '';
                         }).catch(function (e) {
                         if ($ionicLoading)  $ionicLoading.hide();
-                        $ionicPopup.alert({"title": "Error", "template": "Sorry, there was an error. " + e});
-                        EventService.logWebError();
-                        $state.go("mainMenu");
+                        $ionicPopup.show(
+                            {"title": "Error",
+                                "template": "Sorry, there was an error. " + e,
+                            buttons: [
+                                {text: 'Retry', type: 'button-positive', onTap: function() {
+                                    $scope.nextQuestion(true);
+                                }},
+                                {text: 'Back to Main', type: 'button', onTap: function() {
+                                    $state.go("mainMenu");
+                                }}
+                            ]}).then(function(res) {
+                            //console.log(res);
+                            EventService.logWebError();
+                            //$state.go("mainMenu");
+                        });
+
                         //todo: GO BACK.
                     });
                 };
