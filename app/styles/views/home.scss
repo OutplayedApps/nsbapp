@@ -97,7 +97,7 @@ ion-footer-bar {
 }
 
 @media only screen and (max-height: 400px) {
-  ion-footer-bar.footerBuzz {
+  ion-footer-bar {
     height: 50px;
     button span {
       font-size: 20pt;
@@ -110,7 +110,27 @@ ion-footer-bar {
 }
 
 ion-footer-bar.footerReader {
-
+    height: $footerHeight2;
+   > div {
+    width: 50%;
+     height: 60%;
+     margin: auto;
+    //display: block;
+  }
+  .timerButtonFooterDiv {
+    width: 40%;
+  }
+  .timerButton {
+      height: 100%;
+    border: 1px solid black;
+  }
+  .buttonPrevNextDiv {
+    height: 100%;
+    padding: auto;
+  }
+  #buttonNext {
+    margin: 2%;
+  }
 }
 
 select, ion-tabs, .list {

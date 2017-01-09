@@ -11,9 +11,11 @@ var C = {};
 C.MODEREADER = 0;
 C.MODEGAME = 1;
 
+
 angular.module('IonicGulpSeed')
     .controller('HomeController', function($scope, ExampleService, $ionicScrollDelegate, $ionicLoading, $ionicPopup,
     SettingsService, $ionicPlatform, $ionicSideMenuDelegate, $ionicHistory, $interval, $timeout, $state, EventService) {
+        $scope.C = C;
         $scope.hideSubHeader = false;
         $ionicPlatform.ready(function () {
             
@@ -185,9 +187,6 @@ angular.module('IonicGulpSeed')
                     $scope.data = question;
                     SettingsService.data = $scope.data;
 
-                    $scope.data.tossupQ = processToHTML($scope.data.tossupQ);
-                    $scope.data.bonusQ = processToHTML($scope.data.bonusQ);
-
                     $ionicScrollDelegate.$getByHandle('small').scrollTop(true);
                     $scope.loading = false;
                     if ($ionicLoading)  $ionicLoading.hide();
@@ -214,6 +213,7 @@ angular.module('IonicGulpSeed')
                         //display forward question.
                         $scope.listOfPreviousQuestionsIndex++;
                         $scope.displayQuestion($scope.listOfPreviousQuestions[$scope.listOfPreviousQuestionsIndex]);
+                        return;
                     }
 
                     /*
@@ -366,6 +366,8 @@ angular.module('IonicGulpSeed')
                             $scope.listOfPreviousQuestionsIndex++;
 
                         }
+                        question.tossupQ = processToHTML(question.tossupQ);
+                        question.bonusQ = processToHTML(question.bonusQ);
                         $scope.displayQuestion(question);
                         //console.log(question);
 
