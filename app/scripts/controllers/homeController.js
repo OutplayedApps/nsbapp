@@ -262,14 +262,15 @@ angular.module('IonicGulpSeed')
 
                     var difficulties;
 
-                    if ($scope.HSorMS) {
+                    /*if ($scope.HSorMS) {
                         difficulties = [17,17,17,17,15,15,17,17];
                     }
                     else {
                         difficulties = [18, 10, 15, 17, 16, 17, 15, 17];
-                    }
+                    }*/
 
-                    var maxDifficulty = difficulties[catNumNew + 1];
+                    //var maxDifficulty = difficulties[catNumNew + 1];
+                    var maxDifficulty = 17;
                     var diffNumFinal = 1;
                     switch (diffNum) {
                         case 0:
