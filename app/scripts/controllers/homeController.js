@@ -90,6 +90,7 @@ angular.module('IonicGulpSeed')
                 //level: 0 is MS 1 is HS
 
                 $scope.myHTML = null;
+                $scope.listOfPreviousQuestions = [];
                 //var categoryList = {};
                 var categoryList;
                 if (HSorMS) {
@@ -296,6 +297,23 @@ angular.module('IonicGulpSeed')
                             break;
                     }
 
+                    $scope.displayQuestion = function(question) {
+                        $scope.data = {};
+
+                        $scope.data = question;
+                        SettingsService.data = $scope.data;
+
+                        $scope.data.tossupQ = processToHTML($scope.data.tossupQ);
+                        $scope.data.bonusQ = processToHTML($scope.data.bonusQ);
+
+                        $ionicScrollDelegate.$getByHandle('small').scrollTop(true);
+                        $scope.loading = false;
+                        if ($ionicLoading)  $ionicLoading.hide();
+
+                        $scope.pauseEverything = false;
+
+                    }
+
 
                     ExampleService.fetchQuestions(catNumNew, diffNumFinal, $scope.HSorMS)
                         .$loaded().then(function (data) {
@@ -318,41 +336,12 @@ angular.module('IonicGulpSeed')
                                 for (var i = 0; i < data.length; i++) {
                                     regularArray.push(data[i]);
                                 }
-                                $scope.data = {};
 
-                               /* if ($scope.mode == 1) {
-                                    $scope.dataReal = randEle(regularArray);
+                                $scope.displayQuestion(randEle(regularArray));
 
-                                    $scope.dataReal.tossupQ = processToHTML($scope.dataReal.tossupQ);
-                                    $scope.dataReal.bonusQ = processToHTML($scope.dataReal.bonusQ);
-                                    $scope.data.tossupA =
-                                }
-                                else {*/
-                                    $scope.data = randEle(regularArray);
-                        SettingsService.data = $scope.data;
-
-                                    $scope.data.tossupQ = processToHTML($scope.data.tossupQ);
-                                    $scope.data.bonusQ = processToHTML($scope.data.bonusQ);
-                                //}
-
-
-
-                                $scope.data.category = $scope.data.category;
-                                $scope.data.setNum = $scope.data.setNum;
-                                $scope.data.roundNum = $scope.data.roundNum;
-                                //processToHTML()
-                                // close pull to refresh loader
-                                $ionicScrollDelegate.$getByHandle('small').scrollTop(true);
-                                $scope.loading = false;
-                                //$scope.$broadcast('scroll.refreshComplete');
                                 if ($scope.mode == 1 && $scope.progress == 1)
                                     $scope.nextQuestion();
-                                if ($ionicLoading)  $ionicLoading.hide();
 
-                                $scope.pauseEverything = false;
-                                console.log($scope.progress +"IS THE PROGRESS");
-                        //throw '';
-                        //throw '';
                         }).catch(function (e) {
                         if ($ionicLoading)  $ionicLoading.hide();
                         $ionicPopup.show(
@@ -370,6 +359,8 @@ angular.module('IonicGulpSeed')
                             EventService.logWebError();
                             //$state.go("mainMenu");
                         });
+
+
 
                         //todo: GO BACK.
                     });
