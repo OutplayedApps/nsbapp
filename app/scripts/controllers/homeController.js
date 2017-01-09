@@ -334,12 +334,26 @@ angular.module('IonicGulpSeed')
 
                                 $scope.pauseEverything = false;
                                 console.log($scope.progress +"IS THE PROGRESS");
+                        //throw '';
 
                         }).catch(function (e) {
                         if ($ionicLoading)  $ionicLoading.hide();
-                        $ionicPopup.alert({"title": "Error", "template": "Sorry, there was an error. " + e});
-                        EventService.logWebError();
-                        $state.go("mainMenu");
+                        $ionicPopup.show(
+                            {"title": "Error",
+                                "template": "Sorry, there was an error. " + e,
+                            buttons: [
+                                {text: 'Retry', type: 'button-positive', onTap: function() {
+                                    $scope.nextQuestion(true);
+                                }},
+                                {text: 'Back to Main', type: 'button', onTap: function() {
+                                    $state.go("mainMenu");
+                                }}
+                            ]}).then(function(res) {
+                            //console.log(res);
+                            EventService.logWebError();
+                            //$state.go("mainMenu");
+                        });
+
                         //todo: GO BACK.
                     });
                 };
