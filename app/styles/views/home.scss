@@ -211,18 +211,20 @@ select, ion-tabs, .list {
       display: inline-block;
     }
   }
-  .timerButton {
-    float: right;
-    width: 150px;
-    margin-bottom: 10px;
-    margin-right: 0px;
-    transition: all .2s ease-in-out;
-    //margin-left-min: 20px;
-    &.timeUp {
 
-      background: red !important;
-      color: white;
-    }
+  }
+
+.timerButton {
+  float: right;
+  width: 150px;
+  margin-bottom: 10px;
+  margin-right: 0px;
+  transition: all .2s ease-in-out;
+  //margin-left-min: 20px;
+  &.timeUp {
+
+    background: red !important;
+    color: white;
   }
 
   /*.timerButton {

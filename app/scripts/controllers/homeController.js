@@ -10,6 +10,9 @@
 var C = {};
 C.MODEREADER = 0;
 C.MODEGAME = 1;
+C.TIMETOSSUP = 5;
+C.TIMEBONUS = 20;
+C.TIMEHALF = 480;
 
 
 angular.module('IonicGulpSeed')
@@ -439,29 +442,63 @@ angular.module('IonicGulpSeed')
             }
             $scope.timer = {};
             $scope.timer.timeTU = function() {
-                makeTimer(5);
+                makeTimer(C.TIMETOSSUP);
             };
             $scope.timer.timeBonus = function() {
-                makeTimer(20);
+                makeTimer(C.TIMEBONUS);
+            };
+            $scope.timer.timeHalfRound = function() {
+                makeTimer(C.TIMEHALF);
             };
             function makeTimer(numSecs) {
-                var intNum = (numSecs == 5) ? "1" : "2";
-                if ($scope.timer["time" + intNum]) {
-                    //pause the timer. todo.
-
-                    return;
+                var intNum = "1";
+                switch (numSecs) {
+                    case C.TIMETOSSUP:
+                        intNum = "1";
+                        break;
+                    case C.TIMEBONUS:
+                        intNum = "2";
+                        break;
+                    case C.TIMEHALF:
+                        intNum = "3";
+                        break;
                 }
-                var duration = moment.duration(numSecs, 'seconds');
+                var duration;
+                if ($scope.timer["time" + intNum]) {
+                    //pause the timer.
+                    if (intNum == "3") {
+                        if ($scope.timer["int3"].$$state.value == 'canceled') {
+                            duration = $scope.pausedDuration3;
+                        }
+                        else {
+                            $interval.cancel($scope.timer["int3"]);
+                            return;
+                        }
+                    }
+                    else {
+                        return;
+                    }
+                }
+                if (!duration) {
+                    duration = moment.duration(numSecs, 'seconds');
+                }
+
                 var interval = 10;
+                if (intNum == "3")  interval = 500;
                 clearTimers();
 
                 $scope.timer["int" + intNum] = $interval(function(){
                     if ($scope.pauseEverything) return;
                     duration = moment.duration(duration.asMilliseconds() - interval, 'milliseconds');
+                    if (intNum == "3")
+                        $scope.pausedDuration3 = duration;
                     //show how many hours, minutes and seconds are left
                     //console.log(duration.asMilliseconds());
-
-                    $scope.timer["time" + intNum] = moment(duration.asMilliseconds()).format('s.S');
+                    var timerString = moment(duration.asMilliseconds());
+                    if (intNum == "3")
+                        timerString = timerString.format('m:ss');
+                    else timerString = timerString.format('s.S');
+                    $scope.timer["time" + intNum] = timerString;
                     //console.log('yea');
                     if (duration.asMilliseconds() <= 0) {
                         $interval.cancel($scope.timer["int" + intNum]);
