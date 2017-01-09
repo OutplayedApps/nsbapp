@@ -21,7 +21,7 @@
       "catDiff": "2.6"
     },
     "8_6_3": {
-      "tossupQ": "MATH Multiple Choice. If ׬݂ሺݔሻൌ18ݔ݀ହଶ [the integral from 2 to 5 of f of x dx equals 18], \r\nthen ׬݂ሺሺݔሻൌݔ݀\t൅4ሻହଶ [the integral from 2 to 5 of the quantity f of x plus 4 dx equals]  \r\n \r\nW) 18 \r\nX) 22 \r\nY) 25 \r\nZ) 30",
+      "tossupQ": "MATH Multiple Choice. If the integral from 2 to 5 of f of x dx equals 18, \r\nthen the integral from 2 to 5 of the quantity f of x plus 4 dx equals  \r\n \r\nW) 18 \r\nX) 22 \r\nY) 25 \r\nZ) 30",
       "tossupA": "Z) 30",
       "bonusQ": "MATH Short Answer A ladder is standing vertically against a wall. Suddenly, the bottom of the \r\nladder slides 6 feet away from the wall, which causes the top of the ladder to slide 2 feet down \r\nthe wall. How tall is the ladder in feet?",
       "bonusA": "10",
@@ -151,8 +151,8 @@
       "catDiff": "1.6"
     },
     "8_6_16": {
-      "tossupQ": "MATH Multiple Choice Which of the following points lies inside the circle defined by \r\nthe equation x2 + y2 = 25 [x squared plus y squared equals twenty-five]? \r\n \r\nW) (3, 4)  \r\nX) (4, -3)  \r\nY) ሺ4,2√2) [four, two times the square root of two] \r\nZ) ሺ4,3\t√2) [four, three times the square root of two]",
-      "tossupA": "Y) ሺ4,2√2)",
+      "tossupQ": "MATH Multiple Choice Which of the following points lies inside the circle defined by \r\nthe equation x<sup>2</sup> + y<sup>2</sup> = 25 [x squared plus y squared equals twenty-five]? \r\n \r\nW) (3, 4)  \r\nX) (4, -3)  \r\nY) (4,2√2) [four, two times the square root of two] \r\nZ) (4,3\t√2) [four, three times the square root of two]",
+      "tossupA": "Y) (4,2√2)",
       "bonusQ": "MATH Short Answer If one side of a right triangle is 14 inches and the opposite angle is 30 \r\ndegrees, what is the diameter of the circle circumscribed around this triangle?",
       "bonusA": "28",
       "category": 4,
@@ -211,8 +211,8 @@
       "catDiff": "5.6"
     },
     "8_6_22": {
-      "tossupQ": "MATH Short Answer. For ൑0ݔ [x less than or equal to zero], for what values of x does the \r\ninequality ݔ൅1൏ݔଶ൅1 [x plus one is less than x squared plus one] not hold?",
-      "tossupA": "ൌ0ݔ (ACCEPT: 0)",
+      "tossupQ": "MATH Short Answer. For x &le; 0 [x less than or equal to zero], for what values of x does the \r\ninequality x+1 < x<sup>2</sup>+1 [x plus one is less than x squared plus one] not hold?",
+      "tossupA": "x=0 (ACCEPT: 0)",
       "bonusQ": "MATH Short Answer Consider a single elimination basketball tournament in which 100 \r\nteams enter. In the first round, 28 teams are given a bye and the remaining teams are paired off \r\nto play. After each round, the remaining teams are paired off in the next round. How many \r\nmatches are played in the first 3 rounds?",
       "bonusA": "84",
       "category": 4,
@@ -273,7 +273,7 @@
     "8_7_5": {
       "tossupQ": "MATH Short Answer What is the smallest possible value for the sum of a positive number and \r\nits own reciprocal?",
       "tossupA": "2",
-      "bonusQ": "MATH Multiple Choice If a2 – 2ab + b2 = x, [A squared minus two A B plus B squared \r\nequals x] where a is an odd integer and b is an even integer, which of the following MUST be \r\ntrue about x? \r\n \r\nW) x is a prime number \r\nX) x is divisible by 3 \r\nY) x is an even perfect square \r\nZ) x is an odd perfect square",
+      "bonusQ": "MATH Multiple Choice If a<sup>2</sup> – 2ab + b<sup>2</sup> = x, [A squared minus two A B plus B squared \r\nequals x] where a is an odd integer and b is an even integer, which of the following MUST be \r\ntrue about x? \r\n \r\nW) x is a prime number \r\nX) x is divisible by 3 \r\nY) x is an even perfect square \r\nZ) x is an odd perfect square",
       "bonusA": "Z) x IS AN ODD PERFECT SQUARE",
       "category": 4,
       "setNum": 8,
@@ -331,7 +331,7 @@
       "catDiff": "1.7"
     },
     "8_7_11": {
-      "tossupQ": "MATH Short Answer. Determine lim\r\n௫→଴\r\n௫ାଵ\r\n௫. [the limit as x approaches zero of quantity x \r\nplus one divided by x]",
+      "tossupQ": "MATH Short Answer. Determine the limit as x approaches zero of quantity x \r\nplus one divided by x",
       "tossupA": "THE LIMIT DOES NOT EXIST (ACCEPT: NON-EXISTANT; DO NOT ACCEPT: \r\nINFINITY)",
       "bonusQ": "MATH Multiple Choice Consider a circle in which a square is inscribed. Inscribed within that \r\nsquare is another circle.  If the innermost circle has circumference of 12π, what is the area of \r\nthe outermost circle? \r\n \r\nW) 64π\t\t\r\nX) 72π\t \r\nY) 88π\t \r\nZ) 96π",
       "bonusA": "X) 72π",
@@ -393,7 +393,7 @@
     "8_7_17": {
       "tossupQ": "MATH Short Answer A car leaves its original location traveling due west at a speed of 60 \r\nmiles per hour and arrives at its destination in 3 hours. Later that day, the car returns to its \r\noriginal location. At what speed, in miles per hour, did it travel to cover the same distance in 2 \r\nhours?",
       "tossupA": "90 MILES PER HOUR",
-      "bonusQ": "MATH Short Answer. Simplify: ୪୭୥್ሺ௕ೌሻ್\r\n୪୭୥ೌ൫௔್൯ೌ\r\n. [quantity log in base b of b raised to the power \r\nof a raised to the power of b divided by quantity log in base a of a raised to the  power of \r\nb, raised to the power of a]",
+      "bonusQ": "MATH Short Answer. Simplify:  [quantity log in base b of b raised to the power \r\nof a raised to the power of b divided by quantity log in base a of a raised to the  power of \r\nb, raised to the power of a]",
       "bonusA": "1",
       "category": 4,
       "setNum": 8,
@@ -431,10 +431,10 @@
       "catDiff": "2.7"
     },
     "8_7_21": {
-      "tossupQ": "MATH Short Answer Differentiate the following expression with respect to ݔ, provided x is \r\nnot 0: ௫|௫| [ x over the quantity the absolute value of x].",
+      "tossupQ": "MATH Short Answer Differentiate the following expression with respect to x, provided x is \r\nnot 0: x/|x| [ x over the quantity the absolute value of x].",
       "tossupA": "0",
-      "bonusQ": "MATH Multiple Choice If f(x) = ଵା௫௫ [f of x equals the fraction with numerator one plus x \r\nand denominator x], which of the following is equivalent to f(x)? \r\n \r\nW) f (-x) [f of negative x] \r\nX) f (ଵ௫) [f of the quantity one divided by x] \r\nY) f (െଵ௫) [f of the quantity negative one divided by x] \r\nZ) ଵ௫ሺ݂ଵ௫ሻ [the fraction with numerator f of the quantity one divided by x and denominator \r\nx]",
-      "bonusA": "Z)\tଵ௫ሺ݂ଵ௫ሻ",
+      "bonusQ": "MATH Multiple Choice If f(x) = (1+x)/x [f of x equals the fraction with numerator one plus x \r\nand denominator x], which of the following is equivalent to f(x)? \r\n \r\nW) f (-x) [f of negative x] \r\nX) f (1/x) [f of the quantity one divided by x] \r\nY) f (-1/x) [f of the quantity negative one divided by x] \r\nZ) f(1/x)/x [the fraction with numerator f of the quantity one divided by x and denominator \r\nx]",
+      "bonusA": "Z)f(1/x)/x",
       "category": 4,
       "setNum": 8,
       "roundNum": 7,
@@ -481,8 +481,8 @@
       "catDiff": "2.11"
     },
     "8_11_3": {
-      "tossupQ": "MATH Multiple Choice Which of the following functions has the greatest number of \r\ndiscontinuities? \r\n \r\nW) ଷ௫ାହ௫ିସ [quantity three x plus five, divided by quantity x minus 4] \r\nX)ሺଵሺ௫ିଵሻݔሻ൅ [ open parenthesis one, divided by quantity x minus 1, close parenthesis, \r\nplus x] \r\nY) ଵ௫మ [one divided by x squared] \r\nZ) ଵ௫మିଵ [one, divided by quantity x squared minus one]",
-      "tossupA": "Z) ଵ௫మିଵ",
+      "tossupQ": "MATH Multiple Choice Which of the following functions has the greatest number of \r\ndiscontinuities? \r\n \r\nW)(3x+5)/(x-4) [quantity three x plus five, divided by quantity x minus 4] \r\nX)(1/(x-1))+x [ open parenthesis one, divided by quantity x minus 1, close parenthesis, \r\nplus x] \r\nY) 1/x<sup>2</sup> [one divided by x squared] \r\nZ) 1/(x<sup>2</sup>-1) [one, divided by quantity x squared minus one]",
+      "tossupA": "Z) 1/(x<sup>2</sup>-1)",
       "bonusQ": "MATH Short Answer Compute the probability of getting a “blackjack” (two cards totaling 21 \r\npoints) from a standard deck of cards, given that an ace counts as 11, a face card counts as 10, \r\nand all others count as their numerical values.",
       "bonusA": "32/663",
       "category": 4,
@@ -551,8 +551,8 @@
       "catDiff": "0.11"
     },
     "8_11_10": {
-      "tossupQ": "MATH Short Answer What is the polar form of the equation:\tݔൌݕ?",
-      "tossupA": "ൌ45°ߠ or ൌߠగସ",
+      "tossupQ": "MATH Short Answer What is the polar form of the equation: y=x?",
+      "tossupA": "&theta;=45 deg or &theta;=pi/4",
       "bonusQ": "MATH Short Answer What is the sum of the numbers of faces of each of the unique Platonic \r\nsolids?",
       "bonusA": "50",
       "category": 4,
@@ -673,8 +673,8 @@
     "8_11_22": {
       "tossupQ": "MATH Short Answer What is the two-digit square number with the largest sum of its own \r\ndigits?",
       "tossupA": "49",
-      "bonusQ": "MATH Short Answer Determine lim\r\n௫→ିగ\r\nሺୡ୭ୱ൫௫ଶൗ൯ሻ\r\nగା௫ [the limit as x approaches minus pi of the fraction with numerator cosine of the quantity x divided by two and denominator pi plus \r\nx].",
-      "bonusA": "ଵଶ",
+      "bonusQ": "MATH Short Answer Determine  [the limit as x approaches minus pi of the fraction with numerator cosine of the quantity x divided by two and denominator pi plus \r\nx].",
+      "bonusA": "1/2",
       "category": 4,
       "setNum": 8,
       "roundNum": 11,
@@ -773,7 +773,7 @@
     "8_9_9": {
       "tossupQ": "MATH Short Answer A basketball player makes 6 baskets during a game, each worth 2 or 3 \r\npoints. How many different possible values exist for the total points scored by the player?",
       "tossupA": "SEVEN",
-      "bonusQ": "MATH Short Answer. In a universe with strange and unforeseen geometric relationships, the \r\narea of a circle is given by ଵగሺݎ1൅ሻଶ, [open parenthesis 1 plus r close parenthesis squared, \r\ndivided by pi] with ൌ2ߨ. In the universe described, what is the radius of a circle with an area \r\nof 200?",
+      "bonusQ": "MATH Short Answer. In a universe with strange and unforeseen geometric relationships, the \r\narea of a circle is given by (1+r)<sup>2</sup>/pi, [open parenthesis 1 plus r close parenthesis squared, \r\ndivided by pi] with pi = 2. In the universe described, what is the radius of a circle with an area \r\nof 200?",
       "bonusA": "19",
       "category": 4,
       "setNum": 8,
@@ -813,7 +813,7 @@
     "8_9_13": {
       "tossupQ": "MATH Short Answer What is the name of the type of curve that is formed when a piece of \r\nrope is hung between two points?",
       "tossupA": "CATENARY CURVE (ACCEPT: FUNICULAR)",
-      "bonusQ": "MATH Short Answer Provide all of the following three points that lie on the graph of the \r\nfunction ൌ2sinݕ௫ଶ [y equals 2 sine of the quantity x divided by two]:  point 1 is (0, 2),   \r\npoint 2 is (π, 2),  point 3 is (2π, 0)",
+      "bonusQ": "MATH Short Answer Provide all of the following three points that lie on the graph of the \r\nfunction y=2sin(x/2) [y equals 2 sine of the quantity x divided by two]:  point 1 is (0, 2),   \r\npoint 2 is (π, 2),  point 3 is (2π, 0)",
       "bonusA": "2 AND 3 (ACCEPT: (π, 2), AND (2π, 0))",
       "category": 4,
       "setNum": 8,
@@ -943,7 +943,7 @@
     "8_1_3": {
       "tossupQ": "MATH Short Answer If the radius of a right circular cylinder is tripled, by what factor must the \r\nheight be multiplied in order to keep the volume the same?",
       "tossupA": "1/9",
-      "bonusQ": "MATH Multiple Choice If ݂ሺݔሻ൅19ݔൌ7 [f of x equals seven x plus nineteen], for what \r\nvalues of x is f(x) [f of x] greater than 33? \r\n \r\nW) x is greater than 2 \r\nX) x is less than 2 \r\nY) x is between 2 and -2 \r\nZ) All real numbers",
+      "bonusQ": "MATH Multiple Choice If ݂f(x)=7x+19 [f of x equals seven x plus nineteen], for what \r\nvalues of x is f(x) [f of x] greater than 33? \r\n \r\nW) x is greater than 2 \r\nX) x is less than 2 \r\nY) x is between 2 and -2 \r\nZ) All real numbers",
       "bonusA": "W) X IS GREATER THAN 2",
       "category": 4,
       "setNum": 8,
@@ -1271,10 +1271,10 @@
       "catDiff": "2.8"
     },
     "8_8_13": {
-      "tossupQ": "MATH Short Answer If 1푥푥−1푦푦=1푧푧, [one over x minus one over y equals one over z] what \r\ndoes z equal in terms of x and y?",
-      "tossupA": "푥푥푦푦푦푦−푥푥",
-      "bonusQ": "MATH Short Answer Find the inverse of the function f(x) = 2(푥푥−1)⁄ [f of x equals two \r\ndivided by quantity x minus one].",
-      "bonusA": "푓푓−1(푥푥)=(2+푥푥)푥푥⁄   (ACCEPT: (2+x)/x, 1 + 2/x)",
+      "tossupQ": "MATH Short Answer If 1/x-1/y=1/z [one over x minus one over y equals one over z] what \r\ndoes z equal in terms of x and y?",
+      "tossupA": "xy/(y-x)",
+      "bonusQ": "MATH Short Answer Find the inverse of the function f(x) = 2/(x-1) [f of x equals two \r\ndivided by quantity x minus one].",
+      "bonusA": "(2+x)/x   (ACCEPT: (2+x)/x, 1 + 2/x)",
       "category": 4,
       "setNum": 8,
       "roundNum": 8,
@@ -1383,7 +1383,7 @@
     "8_3_1": {
       "tossupQ": "MATH Multiple Choice If it takes you 50 minutes to walk uphill 2 miles to school but only 30 \r\nminutes to walk back, which of the following is your average speed, in miles per hour, for the \r\nround trip? \r\n \r\nW) 3 \r\nX) 3.5 \r\nY) 4 \r\nZ) 4.5",
       "tossupA": "W) 3",
-      "bonusQ": "MATH Short Answer If a1 = 3 [a sub one equals three] and an = 5 + 2an-1 [a sub n equals five \r\nplus two a sub quantity n minus 1] for all integers n greater than 1, what is the value of a3 [a \r\nsub three]?",
+      "bonusQ": "MATH Short Answer If a<sub>1</sub> = 3 [a sub one equals three] and a<sub>n</sub> = 5 + 2an-1 [a sub n equals five \r\nplus two a sub quantity n minus 1] for all integers n greater than 1, what is the value of a<sub>3</sub> [a \r\nsub three]?",
       "bonusA": "27",
       "category": 4,
       "setNum": 8,
@@ -1703,7 +1703,7 @@
     "8_14_10": {
       "tossupQ": "PHYSICS Short Answer How many seconds does it take for a solid cylinder to go from 10 \r\nradians per second to 70 radians per second if the moment of inertia is 50 kg meters squared \r\nand a torque of 200 newton meters is applied?",
       "tossupA": "15",
-      "bonusQ": "PHYSICS Multiple Choice If an object immersed in water experiences a buoyant force of \r\n19.6 x 103 newtons, assuming that the density of water is 1000 kilograms per meter cubed, what \r\nis the immersed volume of the object? \r\n \r\nW) 2.0 m3 \r\nX) 1.0 m3 \r\nY) 2.0 cm3 \r\nZ) 1.0 cm3",
+      "bonusQ": "PHYSICS Multiple Choice If an object immersed in water experiences a buoyant force of \r\n19.6 x 103 newtons, assuming that the density of water is 1000 kilograms per meter cubed, what \r\nis the immersed volume of the object? \r\n \r\nW) 2.0 m<sup>3</sup> \r\nX) 1.0 m<sup>3</sup> \r\nY) 2.0 cm<sup>3</sup> \r\nZ) 1.0 cm<sup>3</sup>",
       "bonusA": "W) 2.0 m3",
       "category": 3,
       "setNum": 8,
@@ -1803,8 +1803,8 @@
     "8_14_20": {
       "tossupQ": "MATH Short Answer If you think of the fingers on your hand as being 10 binary digits (0 if \r\nthe finger is down and 1 if the finger is up), then what is the biggest base 10 number you can \r\ncount to on your fingers?",
       "tossupA": "1023",
-      "bonusQ": "MATH Short Answer Which of the following is not an antiderivative forݔݏ݋ܿݔ݊݅ݏ\t [ sine of x \r\ntimes cosine of x]? \r\n \r\nW)  ୱ୧୬మ௫ଶ [one-half sine squared of x] \r\nX) െሺୡ୭ୱమ௫ሻଶ [negative one-half cosine squared of x] \r\nY) ሺ௦௜௡ଶ௫ሻସ [one-fourth sine of two x] \r\nZ) െሺ௖௢௦ଶ௫ሻସ [negative one-fourth cosine of two x]",
-      "bonusA": "Y) ௦௜௡ଶ௫ସ",
+      "bonusQ": "MATH Short Answer Which of the following is not an antiderivative for\t [ sine of x \r\ntimes cosine of x]? \r\n \r\nW)   [one-half sine squared of x] \r\nX)  [negative one-half cosine squared of x] \r\nY)  [one-fourth sine of two x] \r\nZ)  [negative one-fourth cosine of two x]",
+      "bonusA": "Y) [one-fourth sine of two x]",
       "category": 4,
       "setNum": 8,
       "roundNum": 14,
@@ -1881,7 +1881,7 @@
       "catDiff": "0.2"
     },
     "8_2_5": {
-      "tossupQ": "MATH Short Answer Solve for x in (2x – 9)2 = 81 [two x minus 9 quantity squared equals \r\n81]",
+      "tossupQ": "MATH Short Answer Solve for x in (2x – 9)<sup>2</sup> = 81 [two x minus 9 quantity squared equals \r\n81]",
       "tossupA": "x = 0 or x = 9 (must give both answers)",
       "bonusQ": "MATH Multiple Choice Which of the following pizzas has the greatest area on its top? \r\n \r\nW) A rectangular pizza, 18” by 12” [ eighteen inches by twelve inches] \r\nX) A square pizza, 15” by 15” [fifteen inches by fifteen inches] \r\nY) A circular pizza with a 14” diameter [fourteen inch diameter] \r\nZ) A circular pizza with an 8” radius [eight inch radius]",
       "bonusA": "X) A SQUARE PIZZA, 15” BY 15”",
@@ -1943,8 +1943,8 @@
     "8_2_11": {
       "tossupQ": "MATH Multiple Choice A man buys candies for x cents per dozen and sells them for x over 9 \r\ncents per candy. If he buys the candies for $1.08 per dozen, what is his profit per candy, in \r\ncents? \r\n \r\nW) 1 cent \r\nX) 3 cents \r\nY) 8 cents \r\nZ) 12 cents",
       "tossupA": "X) 3 CENTS",
-      "bonusQ": "MATH Short Answer Simplify the following fraction for values of x for which it is defined: \r\n଺௫మାସ௫ିଶ\r\nସ௫ିଵଶ௫మ [the fraction with numerator six x squared plus four x minus two and denominator four x minus twelve x squared].",
-      "bonusA": "െ௫ାଵଶ௫",
+      "bonusQ": "MATH Short Answer Simplify the following fraction for values of x for which it is defined: \r\n(6x<sup>2</sup>+4x-2)/(4x-12x<sup>2</sup>) [the fraction with numerator six x squared plus four x minus two and denominator four x minus twelve x squared].",
+      "bonusA": "-(x+1)/2x",
       "category": 4,
       "setNum": 8,
       "roundNum": 2,
@@ -2003,7 +2003,7 @@
     "8_2_17": {
       "tossupQ": "MATH Short Answer Consider two sets, A and B, that show a correlation coefficient R equal \r\nto 0.6. If all the members of set A are multiplied by 3 and all members of set B are reduced by 2, \r\nwhat is the new value of R?",
       "tossupA": "0.6 (ACCEPT: IT STAYS THE SAME)",
-      "bonusQ": "MATH Multiple Choice How many roots satisfy the equation √ݔ6െݔൌ√ݔ6െ [square root \r\nof quantity six minus x equals x times the square root of quantity six minus x]? \r\n \r\nW) 0 \r\nX) 1 \r\nY) 2 \r\nZ) 3",
+      "bonusQ": "MATH Multiple Choice How many roots satisfy the equation &radic;(6-x)=x&radic;(6-x) [square root \r\nof quantity six minus x equals x times the square root of quantity six minus x]? \r\n \r\nW) 0 \r\nX) 1 \r\nY) 2 \r\nZ) 3",
       "bonusA": "Y) 2",
       "category": 4,
       "setNum": 8,
@@ -2233,8 +2233,8 @@
     "8_12_17": {
       "tossupQ": "MATH Short Answer What is the absolute value of the difference between the sum of the \r\nfirst 2014 even counting numbers and the first 2014 odd counting numbers?",
       "tossupA": "2014",
-      "bonusQ": "MATH Multiple Choice. If y is a function of x such that dy/dx = x/y [the derivative of y with \r\nrespect to x equals x divided by y] and y(3) = 4 [y of three equals four], then which of the \r\nfollowing equations is true? \r\n \r\nW) x2 + y2 = 25 [x squared plus y squared equals twenty-five] \r\nX) y – x = 1 [y minus x equals one] \r\nY) y2 – x2 = 49 [y squared minus x squared equals forty-nine] \r\nZ) y2 – x2 = 7 [y squared minus x squared equals seven]",
-      "bonusA": "Z) y2 – x2 = 7",
+      "bonusQ": "MATH Multiple Choice. If y is a function of x such that dy/dx = x/y [the derivative of y with \r\nrespect to x equals x divided by y] and y(3) = 4 [y of three equals four], then which of the \r\nfollowing equations is true? \r\n \r\nW) x2 + y2 = 25 [x squared plus y squared equals twenty-five] \r\nX) y – x = 1 [y minus x equals one] \r\nY) y<sup>2</sup> – x<sup>2</sup> = 49 [y squared minus x squared equals forty-nine] \r\nZ) y<sup>2</sup> – x<sup>2</sup> = 7 [y squared minus x squared equals seven]",
+      "bonusA": "Z) y<sup>2</sup> – x<sup>2</sup> = 7",
       "category": 4,
       "setNum": 8,
       "roundNum": 12,
@@ -2421,7 +2421,7 @@
       "catDiff": "2.13"
     },
     "8_13_13": {
-      "tossupQ": "MATH Multiple Choice If \tଶ௫ଷെ௫଺ [ two x divided by three minus x divided by six] is an \r\ninteger, which of the following MUST be true regarding x? \r\n \r\nW) x is negative \r\nX) x is a multiple of two \r\nY) x is a multiple of three \r\nZ) x is odd",
+      "tossupQ": "MATH Multiple Choice If \t2x/3-x/6 [ two x divided by three minus x divided by six] is an \r\ninteger, which of the following MUST be true regarding x? \r\n \r\nW) x is negative \r\nX) x is a multiple of two \r\nY) x is a multiple of three \r\nZ) x is odd",
       "tossupA": "X) x IS A MULTIPLE OF TWO",
       "bonusQ": "MATH Short Answer What is the smallest positive integer that can be added to 2500 to get a \r\nperfect square?",
       "bonusA": "101",
@@ -2461,8 +2461,8 @@
       "catDiff": "2.13"
     },
     "8_13_17": {
-      "tossupQ": "MATH Multiple Choice Which of the following statements is TRUE? \r\n \r\nW) െ7 is not a prime number \r\nX) ݁\t௜గ݁ൌെି௜గ [e to the power of quantity I times pi equals negative e to the power of \r\nquantity negative I times pi] \r\nY) All pairs of perpendicular lines in the Cartesian plane have slopes that are negative \r\nreciprocals of each other \r\nZ) There is no number ܽ such that \tሻܽlogሺെ[log of negative a] exists.",
-      "tossupA": "W) െ7 IS NOT A PRIME NUMBER",
+      "tossupQ": "MATH Multiple Choice Which of the following statements is TRUE? \r\n \r\nW) -7 is not a prime number \r\nX) ݁ [e to the power of quantity I times pi equals negative e to the power of \r\nquantity negative I times pi] \r\nY) All pairs of perpendicular lines in the Cartesian plane have slopes that are negative \r\nreciprocals of each other \r\nZ) There is no number ܽa such that \tlog(-a) [log of negative a] exists.",
+      "tossupA": "W) -7 IS NOT A PRIME NUMBER",
       "bonusQ": "MATH Short Answer If a circle is divided into 8 sectors whose central degree angles are \r\nintegers that form an arithmetic sequence with first term 3, what is the common difference for \r\nthe sequence?",
       "bonusA": "12",
       "category": 4,
@@ -2611,9 +2611,9 @@
       "catDiff": "0.10"
     },
     "8_10_9": {
-      "tossupQ": "MATH Short Answer Set ܳ contains all positive integers that are the differences of squares of \r\nconsecutive prime numbers. What is the smallest element of ܳ that is greater than or equal to \r\n10?",
+      "tossupQ": "MATH Short Answer Set Q contains all positive integers that are the differences of squares of \r\nconsecutive prime numbers. What is the smallest element of Q that is greater than or equal to \r\n10?",
       "tossupA": "16",
-      "bonusQ": "MATH Short Answer If the line y = ଵଶx + 5 [y equals half x plus five] is rotated 270 degrees \r\nclockwise around its x-intercept, what is the equation of its image?",
+      "bonusQ": "MATH Short Answer If the line y = 1/2 x + 5 [y equals half x plus five] is rotated 270 degrees \r\nclockwise around its x-intercept, what is the equation of its image?",
       "bonusA": "y = -2x – 20",
       "category": 4,
       "setNum": 8,
@@ -2691,9 +2691,9 @@
       "catDiff": "5.10"
     },
     "8_10_17": {
-      "tossupQ": "MATH Short Answer The value of a2 – 2b2 + c2 [a squared minus two b squared plus c \r\nsquared], where a, b, and c are consecutive odd integers in increasing order, is a constant.  \r\nWhat is it?",
+      "tossupQ": "MATH Short Answer The value of a<sup>2</sup> – 2b<sup>2</sup> + c<sup>2</sup> [a squared minus two b squared plus c \r\nsquared], where a, b, and c are consecutive odd integers in increasing order, is a constant.  \r\nWhat is it?",
       "tossupA": "8",
-      "bonusQ": "MATH Short Answer What is the largest prime factor of the quantity 5ଶ଴ଵସ൅5ଶ଴ଵହ൅5ଶ଴ଵ଺ \r\n[five to the power of two thousand and fourteen plus five to the power of two thousand \r\nand fifteen plus five to the power of two thousand and sixteen]?",
+      "bonusQ": "MATH Short Answer What is the largest prime factor of the quantity 5<sup>2014</sup>+5<sup>2015+2<sup>2016</sup></sup> \r\n[five to the power of two thousand and fourteen plus five to the power of two thousand \r\nand fifteen plus five to the power of two thousand and sixteen]?",
       "bonusA": "31",
       "category": 4,
       "setNum": 8,
@@ -2731,7 +2731,7 @@
       "catDiff": "5.10"
     },
     "8_10_21": {
-      "tossupQ": "MATH Multiple Choice If the equation x2 – 2Kx + 9 = 0 [x squared minus two K x plus nine \r\nequals zero] has two equal roots, which of the following is a possible value of K? \r\n \r\nW) -3  \r\nX) -1 \r\nY) 2 \r\nZ) 4",
+      "tossupQ": "MATH Multiple Choice If the equation x<sup>2</sup> – 2Kx + 9 = 0 [x squared minus two K x plus nine \r\nequals zero] has two equal roots, which of the following is a possible value of K? \r\n \r\nW) -3  \r\nX) -1 \r\nY) 2 \r\nZ) 4",
       "tossupA": "W) -3",
       "bonusQ": "MATH Short Answer Consider the number 144 written in base x, where x is a positive \r\ninteger. Indicate all of the following three values for x where 144 base x is a perfect square: 5, 8, \r\n12.",
       "bonusA": "5, 8,12 (ACCEPT: ALL OF THEM)",
@@ -2781,7 +2781,7 @@
       "catDiff": "1.4"
     },
     "8_4_3": {
-      "tossupQ": "MATH Multiple Choice For a car traveling at a speed of s miles per hour, the fuel \r\nconsumption of the car, C(s) [C of S], is measured in gallons per mile.  What are the units of \r\n׬ܥሺݏሻݏ݀௕௔ [the integral from A to B of C of S d S]? \r\n \r\nW) Gallons \r\nX) Gallons per hour \r\nY) Miles per hour per gallon \r\nZ) Gallons per mile per hour",
+      "tossupQ": "MATH Multiple Choice For a car traveling at a speed of s miles per hour, the fuel \r\nconsumption of the car, C(s) [C of S], is measured in gallons per mile.  What are the units of [the integral from A to B of C of S d S]? \r\n \r\nW) Gallons \r\nX) Gallons per hour \r\nY) Miles per hour per gallon \r\nZ) Gallons per mile per hour",
       "tossupA": "X) GALLONS PER HOUR",
       "bonusQ": "MATH Short Answer If the average of a set of 20 numbers is 15 and the average of another \r\nset of 15 numbers is 22, what is the average of all 35 numbers?",
       "bonusA": "18",
@@ -2843,7 +2843,7 @@
     "8_4_9": {
       "tossupQ": "MATH Short Answer Express the repeating decimal 0.131313... as a fraction.",
       "tossupA": "13/99",
-      "bonusQ": "MATH Short Answer If 1/x3 – 1/x2 – 1/x – 1 = 0 [one over x cubed minus one over x squared \r\nminus one over x minus one equals zero], then find the value of x3 + x2 + x + 1 [x cubed plus \r\nx squared plus x plus one]",
+      "bonusQ": "MATH Short Answer If 1/x<sup>3</sup> – 1/x<sup>2</sup> – 1/x – 1 = 0 [one over x cubed minus one over x squared \r\nminus one over x minus one equals zero], then find the value of x<sup>3</sup> + x<sup>2</sup> + x + 1 [x cubed plus \r\nx squared plus x plus one]",
       "bonusA": "2",
       "category": 4,
       "setNum": 8,
@@ -2951,10 +2951,10 @@
       "catDiff": "0.4"
     },
     "8_4_20": {
-      "tossupQ": "MATH Multiple Choice In the expansion of (2x – y)5 [two x minus y quantity raised to the \r\nfifth power], what is the coefficient of the x3y2 [x cubed y squared] term? \r\n \r\nW) -80 \r\nX) -8 \r\nY) 8 \r\nZ) 80",
+      "tossupQ": "MATH Multiple Choice In the expansion of (2x – y)<sup>5</sup> [two x minus y quantity raised to the \r\nfifth power], what is the coefficient of the x<sup>3</sup>y<sup>2</sup> [x cubed y squared] term? \r\n \r\nW) -80 \r\nX) -8 \r\nY) 8 \r\nZ) 80",
       "tossupA": "Z) 80",
-      "bonusQ": "MATH Short Answer Invert the following two by two matrix: ቂ3113ቃ [first row three, one, \r\nsecond row one, three]",
-      "bonusA": "൤3/8 െ1/8െ1/8 3/8൨",
+      "bonusQ": "MATH Short Answer Invert the following two by two matrix: [3,1,1,3] [first row three, one, \r\nsecond row one, three]",
+      "bonusA": "[3/8, -1/8, -1/8 3/8]",
       "category": 4,
       "setNum": 8,
       "roundNum": 4,
@@ -3093,7 +3093,7 @@
     "8_17_11": {
       "tossupQ": "MATH Short Answer Under what arithmetic operation is the set of even integers NOT \r\nclosed?",
       "tossupA": "DIVISION",
-      "bonusQ": "MATH Short Answer An object is moving along a line in such a way that its position s at time \r\nt seconds is given by s = 4t3 - 12t2 + 24t [s equals four t cubed minus twelve t squared plus \r\ntwenty-four t]. Determine the minimum velocity of the object, in units per second.",
+      "bonusQ": "MATH Short Answer An object is moving along a line in such a way that its position s at time \r\nt seconds is given by s = 4t<sup>3</sup> - 12t<sup>2</sup> + 24t [s equals four t cubed minus twelve t squared plus \r\ntwenty-four t]. Determine the minimum velocity of the object, in units per second.",
       "bonusA": "12",
       "category": 4,
       "setNum": 8,
@@ -3153,7 +3153,7 @@
     "8_17_17": {
       "tossupQ": "MATH Multiple Choice Two spheres with radii [RAY-dee-y]of 2 and 8 are resting on a \r\ntabletop so that they are touching. How far apart are their points of contact on the table? \r\n \r\nW) 2 \r\nX) 4 \r\nY) 8 \r\nZ) 9",
       "tossupA": "Y) 8",
-      "bonusQ": "MATH Short Answer You are given that xy = 6 and x2y + xy2 + x + y = 63 [x times y equals six \r\nand x squared times y plus x times y squared plus x plus y equals sixty-three].  Calculate: \r\nx2 + y2 [x squared plus y squared].",
+      "bonusQ": "MATH Short Answer You are given that xy = 6 and x<sup>2</sup>y + xy<sup>2</sup> + x + y = 63 [x times y equals six \r\nand x squared times y plus x times y squared plus x plus y equals sixty-three].  Calculate: \r\nx<sup>2</sup> + y2 [x squared plus y squared].",
       "bonusA": "69",
       "category": 4,
       "setNum": 8,
@@ -3193,7 +3193,7 @@
     "8_17_21": {
       "tossupQ": "MATH Short Answer Two planes are orthogonal to each other. How many lines exist that are \r\na given fixed distance d from both of these planes?",
       "tossupA": "FOUR",
-      "bonusQ": "MATH Short Answer Evaluate the following expression: ∑݊ଶଵସ௡ୀଵ [the sum from n equals one \r\nto fourteen of n squared]",
+      "bonusQ": "MATH Short Answer Evaluate the following expression: ∑i=1, n=14 n<sup>2</sup> [the sum from n equals one \r\nto fourteen of n squared]",
       "bonusA": "1015",
       "category": 4,
       "setNum": 8,
@@ -3381,7 +3381,7 @@
       "catDiff": "5.5"
     },
     "8_5_17": {
-      "tossupQ": "MATH Short Answer Differentiate ݂ሺݔሻ݁ൌୡ୭ୱ௫ [f of x equals e to the power of cosine of \r\nx] with respect to x.",
+      "tossupQ": "MATH Short Answer Differentiate f(x)=e<sup>x</sup> [f of x equals e to the power of cosine of \r\nx] with respect to x.",
       "tossupA": "݁ሻݔሺ\tെsin௖௢௦௫",
       "bonusQ": "MATH Short Answer The average ofݔ\t and ݕ is 5. The average of ݔ and ݖ is 4. Find ݕ in \r\nterms of ݖ.",
       "bonusA": "ݖ\t൅\t2\tൌ\tݕ (ACCEPT: 2\t൅\tݖ\tൌ\tݕ)",
