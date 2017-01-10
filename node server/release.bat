@@ -4,8 +4,8 @@ cd platforms/android/build/outputs/apk/
 jarsigner -verbose -sigalg SHA1withRSA -tsa http://timestamp.comodoca.com/rfc3161 -digestalg SHA1 -keystore nsbapp.keystore android-x86-release-unsigned.apk NSBApp
 jarsigner -verbose -sigalg SHA1withRSA -tsa http://timestamp.comodoca.com/rfc3161 -digestalg SHA1 -keystore nsbapp.keystore android-armv7-release-unsigned.apk NSBApp
 
-zipalign -v 4 android-x86-release-unsigned.apk release-x86-1.1.0.apk
-zipalign -v 4 android-armv7-release-unsigned.apk release-armv7-1.1.0.apk
+zipalign -v 4 android-x86-release-unsigned.apk release-x86-1.2.0.apk
+zipalign -v 4 android-armv7-release-unsigned.apk release-armv7-1.2.0.apk
 
 exit
 
