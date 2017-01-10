@@ -40865,7 +40865,7 @@
       "4_17_13": {
         "tossupQ": "MATH Short Answer What is the sum of all positive integer factors of 6?",
         "tossupA": "12",
-        "bonusQ": "MATH Short Answer Assuming all functions are defined, and expressing your answer in \r\nsimplest form, evaluate (n<radic>2</radic> + 7n – 8)/(n – 1) x (n<radic>2</radic> – 4)/(n<radic>2</radic> + 6n – 16) \r\nRead as: open parenthesis n squared plus 7n minus 8 close parenthesis over open parenthesis \r\nn minus 1 close parenthesis times the quantity open parenthesis n squared minus 4 close \r\nparenthesis over open parenthesis n squared plus 6n minus 16 close parenthesis.",
+        "bonusQ": "MATH Short Answer Assuming all functions are defined, and expressing your answer in \r\nsimplest form, evaluate (n<sup>2</sup> + 7n – 8)/(n – 1) x (n<sup>2</sup> – 4)/(n<sup>2</sup> + 6n – 16) \r\nRead as: open parenthesis n squared plus 7n minus 8 close parenthesis over open parenthesis \r\nn minus 1 close parenthesis times the quantity open parenthesis n squared minus 4 close \r\nparenthesis over open parenthesis n squared plus 6n minus 16 close parenthesis.",
         "bonusA": "n + 2",
         "category": 4,
         "setNum": 4,
@@ -40896,7 +40896,7 @@
         "tossupQ": "MATH Short Answer How many positive factors does the number 1051 have?",
         "tossupA": "2",
         "bonusQ": "MATH Short Answer In right triangle ABC, angle A = 60°, angle C = 90°, and side AB = 10 \r\ncentimeters. What is the length of side BC in centimeters?",
-        "bonusA": "",
+        "bonusA": "5&radic;3",
         "category": 4,
         "setNum": 4,
         "roundNum": 17,
@@ -40973,7 +40973,7 @@
         "catDiff": "0.17"
       },
       "4_17_24": {
-        "tossupQ": "MATH Multiple Choice Which of the following is true about the function y=6/5x<radic>3</radic>+4? W) The function is odd \r\nX) The function is even \r\nY) The function is positive \r\nZ) The function is neither odd nor even",
+        "tossupQ": "MATH Multiple Choice Which of the following is true about the function y=6/5x<sup>3</sup>+4? W) The function is odd \r\nX) The function is even \r\nY) The function is positive \r\nZ) The function is neither odd nor even",
         "tossupA": "Z) THE FUNCTION IS NEITHER ODD NOR EVEN",
         "bonusQ": "MATH Short Answer What is the radius in units of a cone with a volume of 384π cubic \r\nunits and a height of 8 units?",
         "bonusA": "12",
@@ -41633,7 +41633,7 @@
         "catDiff": "0.16"
       },
       "4_16_15": {
-        "tossupQ": "MATH Multiple Choice Which of the following values is smallest? \r\n \r\nW) 4! (read as: four factorial) \r\nX) 5<radic>2</radic> Y)\t\r  |$radic;100|\t\r    x\t\r  4\t\r  (read\t\r  as:\t\r  the\t\r  absolute\t\r  value\t\r  of\t\r  the\t\r  square\t\r  root\t\r  of\t\r  100\t\r  times\t\r  4)\t\r  \r\n \r\nZ) |√625| (read as: the absolute value of the square root of 625)",
+        "tossupQ": "MATH Multiple Choice Which of the following values is smallest? \r\n \r\nW) 4! (read as: four factorial) \r\nX) 5<sup>2</sup> Y)\t\r  |&radic;100| &times; 4\t\r  \r\n \r\nZ) |√625|",
         "tossupA": "W) 4!",
         "bonusQ": "MATH Short Answer What is the sum of the numbers 1 through 250?",
         "bonusA": "31,375",
@@ -41663,9 +41663,9 @@
         "catDiff": "1.16"
       },
       "4_16_18": {
-        "tossupQ": "MATH Short Answer What is the degree of the polynomial 7x<radic>2</radic>y<radic>4</radic> + 6x+ 7y + 10 (read as: 7 \r\nx squared y to the fourth plus 6 x plus 7 y plus 10)?",
+        "tossupQ": "MATH Short Answer What is the degree of the polynomial 7x<sup>2</sup>y<sup>4</sup> + 6x+ 7y + 10 (read as: 7 \r\nx squared y to the fourth plus 6 x plus 7 y plus 10)?",
         "tossupA": "6",
-        "bonusQ": "MATH Short Answer What is the equation of the axis of symmetry for the parabola:       \r\ny = 2x<radic>2</radic> – 3x – 5?",
+        "bonusQ": "MATH Short Answer What is the equation of the axis of symmetry for the parabola:       \r\ny = 2x<sup>2</sup> – 3x – 5?",
         "bonusA": "x = 3/4 OR x = 0.75",
         "category": 4,
         "setNum": 4,
@@ -41843,10 +41843,10 @@
         "catDiff": "0.12"
       },
       "3_12_11": {
-        "tossupQ": "MATH Short Answer Remove all negative exponents and simplify the following expression: 4x<radic>0</radic>y<radic>-3</radic>z<radic>4</radic>/4x",
-        "tossupA": "z<radic>4</radic>/xy<radic>3</radic>",
-        "bonusQ": "MATH Short Answer Expand the following expression, giving your answer in standard \r\nbinomial form: (4x<radic>4</radic>y<radic>2</radic> + 3)<radic>2</radic>",
-        "bonusA": "16x<radic>8</radic>y<radic>4</radic> + 24x<radic>4</radic>y<radic>2</radic> + 9",
+        "tossupQ": "MATH Short Answer Remove all negative exponents and simplify the following expression: 4x<sup>0</sup>y<sup>-3</sup>z<sup>4</sup>/4x",
+        "tossupA": "z<sup>4</sup>/xy<sup>3</sup>",
+        "bonusQ": "MATH Short Answer Expand the following expression, giving your answer in standard \r\nbinomial form: (4x<sup>4</sup>y<sup>2</sup> + 3)<sup>2</sup>",
+        "bonusA": "16x<sup>8</sup>y<sup>4</sup> + 24x<sup>4</sup>y<sup>2</sup> + 9",
         "category": 4,
         "setNum": 3,
         "roundNum": 12,
@@ -41943,8 +41943,8 @@
         "catDiff": "0.12"
       },
       "3_12_21": {
-        "tossupQ": "MATH Short Answer Order the following 4 radicals from the smallest to the largest: 3$radic;2; cube root of 2; $radic;3; $radic;2",
-        "tossupA": "cube root of 2; $radic;2; $radic;3; 3$radic;2",
+        "tossupQ": "MATH Short Answer Order the following 4 radicals from the smallest to the largest: 3&radic;2; cube root of 2; &radic;3; &radic;2",
+        "tossupA": "cube root of 2; &radic;2; &radic;3; 3&radic;2",
         "bonusQ": "MATH Short Answer Multiply the following 2 radicals, giving your answer to the nearest \r\nwhole number: 3 cube root of 4 times 2 cube root of 16",
         "bonusA": "24",
         "category": 4,
