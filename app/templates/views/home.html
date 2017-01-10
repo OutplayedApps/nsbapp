@@ -137,7 +137,7 @@
         <div class="timerButtonFooterDiv">
                 <button class="timerButton button button-small icon-left ion-ios-stopwatch-outline" ng-click="timer.timeHalfRound()"
                         ng-class="{timeUp: timer.timeUp3}" ng-show="mode == 0">
-                    <span ng-show="!timer.time3">Start clock (8 min.)</span>
+                    <span ng-show="!timer.time3">Start clock<wbr><span style="white-space:nowrap">(8 min.)</span></span>
                     <span ng-show="timer.time3" ng-bind="timer.time3"></span>
                 </button>
             </div>
