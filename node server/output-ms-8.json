@@ -1,5 +1,4 @@
-{
-  "questionsMS": {
+
     "8_1_1": {
       "tossupQ": "GENERAL SCIENCE Short Answer In plants and animals, what class of nucleic acid polymer \r\nis the primary form of genetic material that is heritable from one generation to the next?",
       "tossupA": "DEOXYRIBOSE NUCLEIC ACIDS (ACCEPT: DNA)",
@@ -3910,5 +3909,3 @@
       "roundNum": 16,
       "catDiff": "0.16"
     }
-  }
-}
