@@ -25312,7 +25312,7 @@
         "catDiff": "2.8"
       },
       "5_8_7": {
-        "tossupQ": "MATH  Short Answer  If f(x) = x  \u0000  2\r\nx<sup>2</sup>  \u0000 4\r\n (read as: f of x equals open parenthesis x minus 2 close \r\nparenthesis over open parenthesis x squared minus 4 close parenthesis) at which value or \r\nvalues of x does the graph of f(x) have a vertical asymptote?",
+        "tossupQ": "MATH  Short Answer  If f(x) = (x-2)<sup>2</sup> / (x-4) at which value or \r\nvalues of x does the graph of f(x) have a vertical asymptote?",
         "tossupA": "-2",
         "bonusQ": "MATH  Short Answer  Given: u(4) = -2 and u’(4) = 3 (read as: u of 4 equals negative 2, and u \r\nprime of 4 equals 3). If f(x) = xu(x) (read as: f of x equals x u of x), then evaluate f’(4) (read as: f \r\nprime of 4).",
         "bonusA": "10",
@@ -25394,7 +25394,7 @@
       "5_8_15": {
         "tossupQ": "MATH  Short Answer  Suppose the average score on a national test is 500, with a standard \r\ndeviation of 100. If each score is increased by 25, what are the new mean and standard \r\ndeviation, respectively?",
         "tossupA": "525 AND 100",
-        "bonusQ": "MATH  Short Answer  What is the set of all real numbers on which the function ln  (x  +  2)\r\n1  +2  \u0000  x\r\n \r\n(read as: the natural log of the quantity x plus two over open parenthesis 1 plus the square root \r\nof the quantity 2 minus x close parenthesis) is well defined?",
+        "bonusQ": "MATH  Short Answer  What is the set of all real numbers on which the function ln [ (x  +  2)/ (1 + &radic;(2-x)) ] is well defined?",
         "bonusA": "(-2, 2] (ACCEPT: ALL REAL NUMBERS GREATER THAN NEGATIVE 2 AND LESS \r\nTHAN OR EQUAL TO 2)",
         "category": 4,
         "setNum": 5,
@@ -26901,10 +26901,10 @@
         "catDiff": "1.12"
       },
       "5_12_16": {
-        "tossupQ": "MATH  Multiple Choice  Which of the following statements is TRUE about the function  \r\nf(x) = sin(x)\r\nx<sup>2</sup> (read as: f of x equals sine of x over x squared)? \r\n \r\nW) The graph of the function passes through the origin \r\nX) The function has a vertical asymptote  \r\nY) The function does not have a horizontal asymptote \r\nZ) The graph of the function is symmetric about the x-axis",
+        "tossupQ": "MATH  Multiple Choice  Which of the following statements is TRUE about the function  \r\nf(x) = sin(x) / x<sup>2</sup> (read as: f of x equals sine of x over x squared)? \r\n \r\nW) The graph of the function passes through the origin \r\nX) The function has a vertical asymptote  \r\nY) The function does not have a horizontal asymptote \r\nZ) The graph of the function is symmetric about the x-axis",
         "tossupA": "X) THE FUNCTION HAS A VERTICAL ASYMPTOTE",
-        "bonusQ": "MATH  Short Answer  Providing your answer in simplest radical form, what is the \r\neccentricity of the hyperbola (x  \u0000  2)2\r\n4\r\n  \u0000\r\n (y  +  3)\r\n29=  1 (read as: open parenthesis x minus 2 close \r\nparenthesis squared over 4 minus open parenthesis y plus 3 close parenthesis squared over 9 \r\nequals 1)?",
-        "bonusA": "13\r\n2",
+        "bonusQ": "MATH  Short Answer  Providing your answer in simplest radical form, what is the \r\neccentricity of the hyperbola (x - 2)<sup>2</sup> / 4 - (y+3)<sup>2</sup> / 9 = 1?",
+        "bonusA": "&radic;13 / 2",
         "category": 4,
         "setNum": 5,
         "roundNum": 12,
@@ -27013,7 +27013,7 @@
       "5_14_2": {
         "tossupQ": "MATH  Short Answer  What is the maximum number of spheres with a radius of 1 that can fit \r\ninside a cube with edge lengths of 6?",
         "tossupA": "27",
-        "bonusQ": "MATH  Short Answer  Find all points of inflection and extrema, including type, of the function \r\nf(x) = ex+ e  \u0000x<sup>2</sup>.",
+        "bonusQ": "MATH  Short Answer  Find all points of inflection and extrema, including type, of the function \r\nf(x) = ( e<sup>x</sup> + e<sup>-x</sup> ) / 2.",
         "bonusA": "RELATIVE MINIMUM (ACCEPT: MINIMUM) AT (0, 1)  \r\n \r\n[DO NOT ACCEPT: (0, 1) ALONE]",
         "category": 4,
         "setNum": 5,
@@ -27591,9 +27591,9 @@
         "catDiff": "5.11"
       },
       "5_11_10": {
-        "tossupQ": "MATH  Short Answer  Providing your answer as an improper fraction in simplest form, what \r\nis the slope of the line tangent to the graph of x<sup>2</sup>\r\n3\r\n (read as: the cube root of x squared) at the \r\npoint with coordinates of (-1/8, 1/4)?",
+        "tossupQ": "MATH  Short Answer  Providing your answer as an improper fraction in simplest form, what \r\nis the slope of the line tangent to the graph of the cube root of x squared at the \r\npoint with coordinates of (-1/8, 1/4)?",
         "tossupA": "-4/3",
-        "bonusQ": "MATH  Short Answer  Evaluate the integral: 36 \u0000 x<sup>2</sup>0\r\n\u00006\r\n dx (read as: the integral from -6 to \r\n0 of the square root of open parenthesis 36 minus x squared close parenthesis d x).",
+        "bonusQ": "MATH  Short Answer  Evaluate the integral: the integral from -6 to \r\n0 of the square root of open parenthesis 36 minus x squared close parenthesis d x.",
         "bonusA": "9π",
         "category": 4,
         "setNum": 5,
@@ -28611,9 +28611,9 @@
         "catDiff": "2.10"
       },
       "5_10_12": {
-        "tossupQ": "MATH  Short Answer  Evaluate limx→π/3sinx  \u0000 32\r\nx  \u0000    π\r\n    3\r\n (read as: the limit as x approaches pi over \r\nthree of open parenthesis sine of x [pause] minus the square root of 3 over 2 close parenthesis \r\nover open parenthesis x minus pi over 3 close parenthesis).",
+        "tossupQ": "MATH  Short Answer  Evaluate the limit as x approaches pi over \r\nthree of (sin x - &radic;(3/2) ) / (x - pi/3).",
         "tossupA": "1/2",
-        "bonusQ": "MATH  Short Answer  If the volume of oil leaked into the ocean from a damaged drilling \r\nplatform is given by the equation \r\n2rV<sub>5</sub>π.00=\r\n, where r is the radius of the spill, use differentials \r\nto estimate the error in cubic meters of the volume if there is a possible error of 0.5 meters in \r\nthe radius measurement of a spill of radius 100/π meters.",
+        "bonusQ": "MATH  Short Answer  If the volume of oil leaked into the ocean from a damaged drilling \r\nplatform is given by the equation V = 0.05 pi r<sup>2<sup>, where r is the radius of the spill, use differentials \r\nto estimate the error in cubic meters of the volume if there is a possible error of 0.5 meters in \r\nthe radius measurement of a spill of radius 100/π meters.",
         "bonusA": "5",
         "category": 4,
         "setNum": 5,
@@ -43263,8 +43263,8 @@
         "catDiff": "1.14"
       },
       "4_14_3": {
-        "tossupQ": "MATH Multiple Choice Which of the following can be equal to positive 4? \r\n \r\nW) |-3| x |1| (read as: the absolute value of negative 3 times the absolute value of 1) \r\nX) \r\n3\r\n2\r\n(read as: 2 cubed) \r\nY) \r\n16−\r\n(read as: the square root of negative 16) \r\nZ) \r\n24\r\n (read as: the square root of 4 squared)",
-        "tossupA": "Z)\r\n24",
+        "tossupQ": "MATH Multiple Choice Which of the following can be equal to positive 4? \r\n \r\nW) |-3| &times; |1| \r\nX) 2<sup>3</sup> \r\nY) &radic;(-16) \r\nZ) &radic;(4<sup>2</sup>)",
+        "tossupA": "Z) &radic;(4<sup>2</sup>)",
         "bonusQ": "MATH Short Answer A triangle has an area of 9y<sup>2</sup> - 9y -10. The base of the triangle is 3y - 5. \r\nIn terms of y, what is the height of the triangle?",
         "bonusA": "6y + 4",
         "category": 4,
@@ -44986,7 +44986,7 @@
         "tossupQ": "MATH Short Answer The volume of a cube is 27 cubic centimeters. What is the surface \r\narea, in square centimeters, of this cube?",
         "tossupA": "54",
         "bonusQ": "MATH Short Answer Express the following in standard polynomial form: \r\n5x<sup>4</sup>y<sup>7</sup> × zy × 11x<sup>2</sup>z<sup>2</sup>y (read as: 5x to the fourth y to the seventh times zy times 11 x squared z \r\nsquared y).",
-        "bonusA": "55x6y9z3",
+        "bonusA": "55x<sup>6</sup>y<sup>9</sup>z<sup>3</sup>",
         "category": 4,
         "setNum": 5,
         "roundNum": 2,
@@ -45293,7 +45293,7 @@
         "catDiff": "1.7"
       },
       "5_7_6": {
-        "tossupQ": "MATH Multiple Choice Which of the following adjectives describes the function: y  =1/(3 - x2)\r\n(read as: y equals 1 over open parenthesis 3 minus x squared close parenthesis)? \r\n \r\nW) Even \r\nX) Odd \r\nY) One-to-one \r\nZ) Polynomial",
+        "tossupQ": "MATH Multiple Choice Which of the following adjectives describes the function: y  =1/(3 - x<sup>2</sup>)\r\n(read as: y equals 1 over open parenthesis 3 minus x squared close parenthesis)? \r\n \r\nW) Even \r\nX) Odd \r\nY) One-to-one \r\nZ) Polynomial",
         "tossupA": "W) EVEN",
         "bonusQ": "MATH Short Answer Frodo drove 250 miles at an average speed of 50 miles per hour, and \r\nthe remaining 360 miles at an average speed of 60 miles per hour. To the nearest integer, what \r\nwas his average speed in miles per hour for the entire trip?",
         "bonusA": "55",
@@ -49573,7 +49573,7 @@
         "catDiff": "6.9"
       },
       "7_9_9": {
-        "tossupQ": "MATH Short Answer What is the equation of the line tangent to the circle x2 + y2 = 9 at the \r\npoint with coordinates (3, 0)?",
+        "tossupQ": "MATH Short Answer What is the equation of the line tangent to the circle x<sup>2</sup> + y<sup>2</sup> = 9 at the \r\npoint with coordinates (3, 0)?",
         "tossupA": "x = 3",
         "bonusQ": "MATH Short Answer The angle of elevation of the top of a tall building from a point 600 feet \r\nfrom its base is 60°. To the nearest 50 feet, how tall is the building?",
         "bonusA": "1050",
@@ -52085,7 +52085,7 @@
       "5_9_10": {
         "tossupQ": "MATH Short Answer What is the smallest angle of rotational symmetry possible in an \r\nequilateral triangle?",
         "tossupA": "120",
-        "bonusQ": "MATH Short Answer The graph of the equation y  =  3x2\u0000 2x  +  4 is translated 3 units to the \r\nleft and 4 units up. What is the equation of the new graph in standard polynomial form?",
+        "bonusQ": "MATH Short Answer The graph of the equation y  =  3x<sup>2</sup> - 2x  +  4 is translated 3 units to the \r\nleft and 4 units up. What is the equation of the new graph in standard polynomial form?",
         "bonusA": "y  =  3x<sup>2</sup> + 16x + 29",
         "category": 4,
         "setNum": 5,
@@ -54436,7 +54436,7 @@
       "5_8_20": {
         "tossupQ": "MATH Multiple Choice If a polyhedron had seven faces, exactly six of which were \r\ntriangles, which of the following could it be? \r\n \r\nW) Hexagonal prism \r\nX) Hexagonal pyramid \r\nY) Pentagonal prism \r\nZ) Pentagonal pyramid",
         "tossupA": "X) HEXAGONAL PYRAMID",
-        "bonusQ": "MATH Short Answer Solve for real numbers x if 9x- x2 > 0 (read as: the square root of \r\nthe quantity 9x minus x squared is greater than 0).",
+        "bonusQ": "MATH Short Answer Solve for real numbers x if 9x- x<sup>2</sup> > 0 (read as: the square root of \r\nthe quantity 9x minus x squared is greater than 0).",
         "bonusA": "0 < x < 9",
         "category": 4,
         "setNum": 5,
@@ -55196,7 +55196,7 @@
       "7_12_21": {
         "tossupQ": "MATH Multiple Choice If x lies between 1 and 2, which of the following is the smallest? \r\n \r\nW) −1/x \r\nX) −x<sup>2</sup> \r\nY) −x \r\nZ) −√x",
         "tossupA": "X) −x<sup>2</sup>",
-        "bonusQ": "MATH Short Answer Find all points of intersection of the graphs of the two equations \r\nx2 + y2 = 20 and x – y = 2.",
+        "bonusQ": "MATH Short Answer Find all points of intersection of the graphs of the two equations \r\nx<sup>2</sup> + y<sup>2</sup> = 20 and x – y = 2.",
         "bonusA": "(4, 2) AND (-2,-4)",
         "category": 4,
         "setNum": 7,
@@ -55294,7 +55294,7 @@
         "catDiff": "1.16"
       },
       "5_16_6": {
-        "tossupQ": "MATH Multiple Choice For what real values of x is the function $radic(x2  - 6x  -  40) defined? \r\n \r\nW) -10 < x < 4 \r\nX) -4 < x < 10 \r\nY) All x that do not lie in the closed interval from -10 to 4 \r\nZ) All x that do not lie in the open interval -4 to 10",
+        "tossupQ": "MATH Multiple Choice For what real values of x is the function &radic;(x<sup>2</sup>  - 6x  -  40) defined? \r\n \r\nW) -10 < x < 4 \r\nX) -4 < x < 10 \r\nY) All x that do not lie in the closed interval from -10 to 4 \r\nZ) All x that do not lie in the open interval -4 to 10",
         "tossupA": "Z) ALL x THAT DO NOT LIE IN THE OPEN INTERVAL -4 TO 10",
         "bonusQ": "MATH Short Answer Michelle can mow a lawn in 5 hours, Steven can mow a lawn in 4 \r\nhours, and Bill can mow it in 3 1/2 hours. As a mixed number in simplest form, how long will it \r\ntake them in hours to mow the lawn together?",
         "bonusA": "1 37/103",
