@@ -31,7 +31,7 @@ angular.module('IonicGulpSeed')
 
             //var data = {"questionID": questionID, "HSorMS": HSorMS, "currQuestionProblem": currQuestionProblem, "feedback": feedback};
             console.debug(data, "LOGINGG ERROR");
-            window.FirebasePlugin.logEvent(JSON.stringify(data), data);
+            window.FirebasePlugin.logEvent(questionID, data);
             window.FirebasePlugin.logEvent("questionError", data);
                 var ref = firebase.database().ref("/feedback").child(data.time).set(data);
                 /*var list = $firebaseArray(ref);
@@ -51,11 +51,11 @@ angular.module('IonicGulpSeed')
         }
 
         function logWebError(questionID) {
-            window.FirebasePlugin.logEvent("webError");
+            window.FirebasePlugin.logEvent("webError",  "");
         }
 
         function logEvent(eventType) {
-            window.FirebasePlugin.logEvent(eventType);
+            window.FirebasePlugin.logEvent(eventType, "");
         }
 
 

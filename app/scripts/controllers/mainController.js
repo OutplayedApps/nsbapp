@@ -12,7 +12,15 @@ angular.module('IonicGulpSeed')
                                            $ionicViewService, $rootScope, $ionicPopup, $state, ExampleService,
                                            $ionicSideMenuDelegate, SettingsService, $ionicTabsDelegate, $ionicPlatform, EventService) {
 
-
+        if (cordova.InAppBrowser) window.open = cordova.InAppBrowser.open;
+        $scope.openLink = function(o) {
+            if (o == 0) {
+                window.open('http://science.energy.gov/wdts/nsb', '_system');
+            }
+            else {
+                window.open('http://outplayedapps.com', '_system');
+            }
+        }
         function updateTabs() {
             // do something with $scope
             //$scope.settings = SettingsService.settings;
