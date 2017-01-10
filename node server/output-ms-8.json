@@ -1473,7 +1473,7 @@
     "8_9_10": {
       "tossupQ": "MATH Multiple Choice For two particular numbers x and y, the values of x – y and 2x − y are \r\nconsecutive odd integers in increasing order. What is the value of x? \r\n \r\nW) -1 \r\nX) 0 \r\nY) 1 \r\nZ) 2",
       "tossupA": "Z) 2",
-      "bonusQ": "MATH Short Answer Simplify the expression: ଷହି\t√ଵ଴ [3 divided by the quantity 5 minus the \r\nsquare root of 10].",
+      "bonusQ": "MATH Short Answer Simplify the expression: 3/(5-&radic;10) [3 divided by the quantity 5 minus the \r\nsquare root of 10].",
       "bonusA": "1 + √10/5 (ACCEPT: (5 + √10)/5)",
       "category": 4,
       "setNum": 8,
@@ -1523,7 +1523,7 @@
     "8_9_15": {
       "tossupQ": "MATH Short Answer Casey poured sand into a box measuring 4 inches by 16 inches by 8 \r\ninches until it was completely full. She then dumped all the sand into a plastic cube and \r\ndiscovered that the cube held the exact same amount of sand. In inches, how long was the \r\nedge of the cube?",
       "tossupA": "8",
-      "bonusQ": "MATH Multiple Choice Provided x is a value for which it is defined, simplify the expression \r\n(ݔ√8െ\t√32)/ (x2 – 4) [the fraction with numerator x times the square root of 8 minus the \r\nsquare root of 32, and denominator x squared minus 4] \r\n \r\nW) (x+ 2)/ (x√2) [the fraction with numerator x plus 2 and denominator x times the square \r\nroot of 2] \r\nX) (2√2)/(x+2) [the fraction with numerator 2 times the square root of 2 and denominator x \r\nplus 2] \r\nY) (2-x)/(2√2) [the fraction with numerator 2 minus x and denominator 2 times the square \r\nroot of 2] \r\nZ) (x-2)/(2√2) [the fraction with numerator x minus 2 and denominator 2 times the square \r\nroot of 2]",
+      "bonusQ": "MATH Multiple Choice Provided x is a value for which it is defined, simplify the expression \r\n(x&radic;8-&radic;32) / (x<sup>2</sup> – 4) \r\n \r\nW) (x+ 2)/ (x√2)  \r\nX) (2√2)/(x+2) [the fraction with numerator 2 times the square root of 2 and denominator x \r\nplus 2] \r\nY) (2-x)/(2√2)  \r\nZ) (x-2)/(2√2)" ,
       "bonusA": "X) (2√2)/(x+2)",
       "category": 4,
       "setNum": 8,
@@ -1761,7 +1761,7 @@
       "catDiff": "3.3"
     },
     "8_3_16": {
-      "tossupQ": "MATH Short Answer Express 81x [81 raised to the power of x] with a prime base.",
+      "tossupQ": "MATH Short Answer Express 81<sup>x</sup> with a prime base.",
       "tossupA": "34x",
       "bonusQ": "MATH Multiple Choice Ignoring dimensions, the volume of a sphere of radius r is equal to \r\nhow many times its surface area? \r\n \r\nW) r/3 \r\nX) r \r\nY) 2r \r\nZ) 3r",
       "bonusA": "W) r/3",
@@ -1813,8 +1813,8 @@
     "8_3_21": {
       "tossupQ": "MATH Short Answer What is the value of x that makes the following equation true: \r\nx = -3(x – 4)?",
       "tossupA": "3",
-      "bonusQ": "MATH Short Answer Simplify the expression (12a3 b4 c2)−2[open parenthesis, 12 times a \r\ncubed times b raised to the 4th times c squared, close parenthesis, raised to the negative \r\n2 power].",
-      "bonusA": "ܽሺ144 1଺଼ܾܿସ⁄ሻ",
+      "bonusQ": "MATH Short Answer Simplify the expression (12a<sup>3</sup> b<sup>4</sup> c<sup>2</sup>)−2[open parenthesis, 12 times a \r\ncubed times b raised to the 4th times c squared, close parenthesis, raised to the negative \r\n2 power].",
+      "bonusA": " 1/(144a<sup>6</sup> b<sup>8</sup> c<sup>4</sup>",
       "category": 4,
       "setNum": 8,
       "roundNum": 3,
@@ -1941,7 +1941,7 @@
       "catDiff": "0.17"
     },
     "8_17_11": {
-      "tossupQ": "MATH Short Answer Assuming that x is not 0, simplify the expression -3x0 - (2)-3 [negative 3 \r\ntimes x raised to the power of 0 minus 2 raised to the power of negative 3]:",
+      "tossupQ": "MATH Short Answer Assuming that x is not 0, simplify the expression -3x<sup>0</sup> - (2)<sup>-3</sup> ,
       "tossupA": "-25/8 (ACCEPT: -3 1/8)",
       "bonusQ": "MATH Multiple Choice A fair coin is flipped three times. Given that one of the flips is a \r\nhead, what is the probability that at least two flips are heads? \r\nW) 1/4 \r\nX) 1/2 \r\nY) 4/7 \r\nZ) 3/4",
       "bonusA": "Y) 4/7",
