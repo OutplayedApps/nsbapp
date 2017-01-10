@@ -35,7 +35,7 @@ angular.module('IonicGulpSeed')
 
 
         };
-        var showAdOld = function() {
+        var showAdOld = function(successFn) {
             // select the right Ad Id according to platform
             var admobid = {};
             if( /(android)/i.test(navigator.userAgent) ) { // for android & amazon-fireos
@@ -74,13 +74,8 @@ angular.module('IonicGulpSeed')
                 autoShow: false  // auto show interstitial ad when loaded
             });
 
-            if (AdMob) AdMob.prepareInterstitial( {adId:admobid.interstitial, autoShow:false} );
+            if (AdMob) AdMob.prepareInterstitial( {adId:admobid.interstitial, autoShow:false}, function() {}, function() {console.log("FAIL")});
 
-            // prepare and load ad resource in background, e.g. at the beginning of game level
-            AdMob.prepareInterstitial({
-                interstitialId: admobid.interstitial,
-                autoShow: false
-            });
         }
 
         var showAd = function() {

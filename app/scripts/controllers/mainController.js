@@ -103,9 +103,8 @@ angular.module('IonicGulpSeed')
             });
             EventService.logEvent("startButtonPressed");
             if (AdMob) {
-                AdMob.showInterstitial(function() {
-                    $state.go("app.home");
-                });
+                AdMob.showInterstitial();
+                $state.go("app.home");
             }
 
         }
