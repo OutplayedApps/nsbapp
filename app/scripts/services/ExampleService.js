@@ -35,7 +35,7 @@ angular.module('IonicGulpSeed')
 
 
         };
-        var showAdOld = function(callback) {
+        var showAdOld = function() {
             // select the right Ad Id according to platform
             var admobid = {};
             if( /(android)/i.test(navigator.userAgent) ) { // for android & amazon-fireos
@@ -64,7 +64,23 @@ angular.module('IonicGulpSeed')
                 console.log("No ads!");
             }*/
 
+            AdMob.setOptions({
+                publisherId: admobid.banner,
+                interstitialAdId: admobid.interstitial,
+                bannerAtTop: false,  // set to true, to put banner at top
+                overlap: true,  // set to true, to allow banner overlap webview
+                offsetTopBar: false,  // set to true to avoid ios7 status bar overlap
+                isTesting: false,  // receiving test ad
+                autoShow: false  // auto show interstitial ad when loaded
+            });
+
             if (AdMob) AdMob.prepareInterstitial( {adId:admobid.interstitial, autoShow:false} );
+
+            // prepare and load ad resource in background, e.g. at the beginning of game level
+            AdMob.prepareInterstitial({
+                interstitialId: admobid.interstitial,
+                autoShow: false
+            });
         }
 
         var showAd = function() {

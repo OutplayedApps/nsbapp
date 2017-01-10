@@ -71,7 +71,6 @@
   "cordovaPlugins": [
     "cordova-plugin-splashscreen",
     "cordova-plugin-whitelist",
-    "cordova-plugin-admobpro",
     "cordova-plugin-facebookads",
     "cordova-plugin-nativeaudio",
     "cordova-plugin-code-push",
@@ -84,7 +83,7 @@
     },
     "cordova-plugin-firebase@~0.1.18",
     "cordova-plugin-crosswalk-webview@~2.1.0",
-    "cordova-plugin-admob-facebook"
+    "cordova-plugin-admob-free"
   ],
   "cordovaPlatforms": [
     "ios"

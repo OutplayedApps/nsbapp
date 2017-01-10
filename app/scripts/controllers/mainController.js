@@ -26,6 +26,7 @@ angular.module('IonicGulpSeed')
             selectTab("mode", 1 - SettingsService.getMode()); //hax.
             selectTab("level", SettingsService.getLevel());
 
+
             //console.debug($scope.settings);
             //$(($scope.settings.mode == 0) ? ".tabReader" : ".tabGame").click();
             //$(($scope.settings.level == 0) ? ".tabMS" : ".tabHS").click();
@@ -101,8 +102,12 @@ angular.module('IonicGulpSeed')
                 disableBack: true
             });
             EventService.logEvent("startButtonPressed");
-            if (AdMob) AdMob.showInterstitial();
-            $state.go("app.home");
+            if (AdMob) {
+                AdMob.showInterstitial(function() {
+                    $state.go("app.home");
+                });
+            }
+
         }
 
         $scope.showAboutPopup = function () {
