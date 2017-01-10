@@ -484,8 +484,13 @@ angular.module('IonicGulpSeed')
                 }
 
                 var interval = 10;
-                if (intNum == "3")  interval = 500;
-                clearTimers();
+                if (intNum == "3") {
+                    interval = 500; //updates less often therefore.
+                }
+                else {
+                    clearTimers();
+                    //clears timers if timer1 or timer2 (tossup timer or bonus timer) because they can't run at the same time, anyway.
+                }
 
                 $scope.timer["int" + intNum] = $interval(function(){
                     if ($scope.pauseEverything) return;

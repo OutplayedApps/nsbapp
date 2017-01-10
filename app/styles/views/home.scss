@@ -119,8 +119,15 @@ ion-footer-bar.footerReader {
     span {
       margin-left: 5px;
     }
+    span.time3 {
+      font-size: 150%;
+    }
 
   }
+  .timerButton.paused {
+    background-color: #e3e3e3;
+  }
+
   .buttonPrevNextDiv {
     height: 100%;
   }
