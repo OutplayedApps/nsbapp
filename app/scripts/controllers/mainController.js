@@ -12,7 +12,7 @@ angular.module('IonicGulpSeed')
                                            $ionicViewService, $rootScope, $ionicPopup, $state, ExampleService,
                                            $ionicSideMenuDelegate, SettingsService, $ionicTabsDelegate, $ionicPlatform, EventService) {
 
-        if (cordova.InAppBrowser) window.open = cordova.InAppBrowser.open;
+        if (typeof cordova != 'undefined' && cordova.InAppBrowser) window.open = cordova.InAppBrowser.open;
         $scope.openLink = function(o) {
             if (o == 0) {
                 window.open('http://science.energy.gov/wdts/nsb', '_system');
@@ -113,7 +113,7 @@ angular.module('IonicGulpSeed')
                 disableBack: true
             });*/
             EventService.logEvent("startButtonPressed");
-            if (AdMob) {
+            if (typeof AdMob != 'undefined') {
                 AdMob.showInterstitial($scope.goToHome, $scope.goToHome);
                 ExampleService.showAd(); //prepares a new one.
             }
