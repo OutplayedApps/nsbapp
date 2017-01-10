@@ -101,7 +101,7 @@ angular.module('IonicGulpSeed')
                 disableBack: true
             });
             EventService.logEvent("startButtonPressed");
-
+            if (AdMob) AdMob.showInterstitial();
             $state.go("app.home");
         }
 
@@ -213,7 +213,7 @@ angular.module('IonicGulpSeed')
                     $scope.timeOutShown = true;
                     $scope.hideSplash = true;
                     $timeout(function () {
-                        ExampleService.showAd();
+                        //ExampleService.showAd();
                     }, 500);
 
                     //}
@@ -226,6 +226,7 @@ angular.module('IonicGulpSeed')
 
         document.addEventListener('deviceready', function () {
             //$ionicPlatform.ready(function () {
+            ExampleService.showAd();
             $scope.updated = 0;
             try {
                 codePush.sync(function (status) {

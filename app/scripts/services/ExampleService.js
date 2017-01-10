@@ -35,26 +35,26 @@ angular.module('IonicGulpSeed')
 
 
         };
-        var showAdOld = function() {
+        var showAdOld = function(callback) {
             // select the right Ad Id according to platform
             var admobid = {};
             if( /(android)/i.test(navigator.userAgent) ) { // for android & amazon-fireos
                 admobid = {
                     banner: 'ca-app-pub-9328159054616225/3119613792', // or DFP format "/6253334/dfp_example_ad"
-                    interstitial: 'ca-app-pub-xxx/yyy'
+                    interstitial: 'ca-app-pub-9328159054616225/4903424593'
                 };
             } else if(/(ipod|iphone|ipad)/i.test(navigator.userAgent)) { // for ios
                 admobid = {
                     banner: 'ca-app-pub-9328159054616225/6488222591', // or DFP format "/6253334/dfp_example_ad"
-                    interstitial: 'ca-app-pub-xxx/kkk'
+                    interstitial: 'ca-app-pub-9328159054616225/6380157797'
                 };
             } else { // for windows phone
                 admobid = {
                     banner: 'ca-app-pub-9328159054616225/6488222591', // or DFP format "/6253334/dfp_example_ad"
-                    interstitial: 'ca-app-pub-xxx/kkk'
+                    interstitial: 'ca-app-pub-9328159054616225/6380157797'
                 };
             }
-            if (typeof AdMob != 'undefined' && AdMob) {
+            /*if (typeof AdMob != 'undefined' && AdMob) {
                 AdMob.createBanner({
                     adId: admobid.banner,
                     position: AdMob.AD_POSITION.BOTTOM_CENTER,
@@ -62,19 +62,21 @@ angular.module('IonicGulpSeed')
             }
             else {
                 console.log("No ads!");
-            }
+            }*/
+
+            if (AdMob) AdMob.prepareInterstitial( {adId:admobid.interstitial, autoShow:false} );
         }
 
         var showAd = function() {
             var ad_units = {
                 ios : {
                     banner:"372948276430920_372948909764190",
-                    interstitial:"your_ad_place_id",
+                    interstitial:"",
                     nativeAd:"372948276430920_372948909764190"
                 },
                 android : {
                     banner:"372948276430920_372948909764190",
-                    interstitial:"your_ad_place_id",
+                    interstitial:"",
                     nativeAd:"372948276430920_372948909764190"
                 }
             };
@@ -88,7 +90,7 @@ angular.module('IonicGulpSeed')
                 deviceHash: "18B9918C46B6A383E3D79973DBB9204D"
             });*/
 
-            if(FacebookAds) FacebookAds.createBanner( adid.banner );
+            //if(FacebookAds) FacebookAds.createBanner( adid.banner );
 
             return;
             //var nativeId = null;
