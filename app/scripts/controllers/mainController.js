@@ -97,14 +97,20 @@ angular.module('IonicGulpSeed')
          function (ratio) {
          $scope.isLeftMenuOpen = ratio;
          });*/
+        $scope.goToHome = function() {
+            $state.go("app.home");
+        }
         $scope.start = function () {
             /*$ionicViewService.nextViewOptions({
                 disableBack: true
             });*/
             EventService.logEvent("startButtonPressed");
             if (AdMob) {
-                AdMob.showInterstitial();
-                $state.go("app.home");
+                AdMob.showInterstitial($scope.goToHome, $scope.goToHome);
+                ExampleService.showAd(); //prepares a new one.
+            }
+            else {
+                $scope.goToHome();
             }
 
         }
@@ -259,6 +265,8 @@ angular.module('IonicGulpSeed')
                 if ($scope.timeOutShown) $scope.hideSplash = true;
                 //$scope.showSplash();
             }
+
+            console.warn("Code push 1/10/17 7:54");
 
         });
     });

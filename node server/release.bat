@@ -11,3 +11,5 @@ exit
 
 gulp -b &  code-push release-cordova NSBApp android
 code-push promote NSBApp Staging Production
+
+gulp -b &  code-push release-cordova NSBApp android & code-push promote NSBApp Staging Production
