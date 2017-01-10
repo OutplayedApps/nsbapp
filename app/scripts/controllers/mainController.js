@@ -98,9 +98,9 @@ angular.module('IonicGulpSeed')
          $scope.isLeftMenuOpen = ratio;
          });*/
         $scope.start = function () {
-            $ionicViewService.nextViewOptions({
+            /*$ionicViewService.nextViewOptions({
                 disableBack: true
-            });
+            });*/
             EventService.logEvent("startButtonPressed");
             if (AdMob) {
                 AdMob.showInterstitial();
