@@ -1941,7 +1941,7 @@
       "catDiff": "0.17"
     },
     "8_17_11": {
-      "tossupQ": "MATH Short Answer Assuming that x is not 0, simplify the expression -3x0 - (2)-3 [negative 3 \r\ntimes x raised to the power of 0 minus 2 raised to the power of negative 3]:",
+      "tossupQ": "MATH Short Answer Assuming that x is not 0, simplify the expression -3x<sup>0</sup> - (2)<sup>-3</sup> ,
       "tossupA": "-25/8 (ACCEPT: -3 1/8)",
       "bonusQ": "MATH Multiple Choice A fair coin is flipped three times. Given that one of the flips is a \r\nhead, what is the probability that at least two flips are heads? \r\nW) 1/4 \r\nX) 1/2 \r\nY) 4/7 \r\nZ) 3/4",
       "bonusA": "Y) 4/7",
