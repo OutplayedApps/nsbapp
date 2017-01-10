@@ -601,7 +601,7 @@
       "catDiff": "0.14"
     },
     "8_14_15": {
-      "tossupQ": "MATH Multiple Choice In a coordinate system, a lattice point is a location with integer \r\ncoordinates. How many lattice points lie on the circle x2 + y2 = 25 [x squared plus y squared \r\nequals 25]? \r\n \r\nW) 4 \r\nX) 6 \r\nY) 12 \r\nZ) 20",
+      "tossupQ": "MATH Multiple Choice In a coordinate system, a lattice point is a location with integer \r\ncoordinates. How many lattice points lie on the circle x<sup>2</sup> + y<sup>2</sup> = 25 [x squared plus y squared \r\nequals 25]? \r\n \r\nW) 4 \r\nX) 6 \r\nY) 12 \r\nZ) 20",
       "tossupA": "Y) 12",
       "bonusQ": "MATH Short Answer A manufacturing facility wants to stack identical boxes along the side \r\nwall of a storage room. The wall is 18 feet wide and 8 feet tall. Each box is 18 inches by 18 \r\ninches by 2 feet. They are stacked against the wall from floor to ceiling and are placed so that \r\nthe height of each box is 2 feet. How many boxes can be stacked against the wall?",
       "bonusA": "48",
@@ -1891,7 +1891,7 @@
       "catDiff": "0.17"
     },
     "8_17_6": {
-      "tossupQ": "MATH Short Answer Find the solutions of the quadratic equation: x2 - 4x - 12 = 0.",
+      "tossupQ": "MATH Short Answer Find the solutions of the quadratic equation: x<sup>2</sup> - 4x - 12 = 0.",
       "tossupA": "-2, 6",
       "bonusQ": "MATH Multiple Choice A student leaves for school on the bus. Her bus travels 25 miles per \r\nhour, but stops for 1 minute after every 2 minutes of travel. The route is 8 miles. To the nearest \r\nwhole number, how many minutes does the trip take?",
       "bonusA": "28",
@@ -1941,7 +1941,7 @@
       "catDiff": "0.17"
     },
     "8_17_11": {
-      "tossupQ": "MATH Short Answer Assuming that x is not 0, simplify the expression -3x<sup>0</sup> - (2)<sup>-3</sup> ,
+      "tossupQ": "MATH Short Answer Assuming that x is not 0, simplify the expression -3x<sup>0</sup> - (2)<sup>-3</sup>",
       "tossupA": "-25/8 (ACCEPT: -3 1/8)",
       "bonusQ": "MATH Multiple Choice A fair coin is flipped three times. Given that one of the flips is a \r\nhead, what is the probability that at least two flips are heads? \r\nW) 1/4 \r\nX) 1/2 \r\nY) 4/7 \r\nZ) 3/4",
       "bonusA": "Y) 4/7",
@@ -2181,8 +2181,8 @@
       "catDiff": "3.15"
     },
     "8_15_12": {
-      "tossupQ": "MATH Multiple Choice If √x = √a +√b [the square root of x equals the square root of a \r\nplus the square root of b], then which of the following is equivalent to x? \r\n \r\nW) a + b+ 2√ܾܽ [a plus b plus two times the square root of the product of a and b] \r\nX) a +b +2ab [a plus b plus two a b] \r\nY) a +b +ab [a plus b plus a b] \r\nZ) a + b [a plus b]",
-      "tossupA": "W) a + b + 2√ܾܽ",
+      "tossupQ": "MATH Multiple Choice If √x = √a +√b [, then which of the following is equivalent to x? \r\n \r\nW) a + b+ 2√(ab) \r\nX) a +b +2ab  \r\nY) a +b +ab  \r\nZ) a + b ",
+      "tossupA": "W) a + b+ 2√(ab)",
       "bonusQ": "MATH Short Answer Arrange the following four in historical order, earliest to most recent: 1) \r\nNewton’s calculus, 2) Euclidean geometry, 3) Pythagorean theorem, 4) Boolean algebra.",
       "bonusA": "PYTHAGOREAN THEOREM, EUCLIDEAN GEOMETRY, NEWTON’S CALCULUS, \r\nBOOLEAN ALGEBRA (ACCEPT: 3, 2, 1, 4)",
       "category": 4,
@@ -2351,7 +2351,7 @@
       "catDiff": "0.12"
     },
     "8_12_6": {
-      "tossupQ": "MATH Multiple Choice If (x2)3 [the quantity x squared cubed] = 64, what is the value of x? \r\n \r\nW) 2 \r\nX) 4 \r\nY) 16 \r\nZ) 64",
+      "tossupQ": "MATH Multiple Choice If (x<sup>2</sup>)<sup>3</sup> [the quantity x squared cubed] = 64, what is the value of x? \r\n \r\nW) 2 \r\nX) 4 \r\nY) 16 \r\nZ) 64",
       "tossupA": "W) 2",
       "bonusQ": "MATH Short Answer If the length of each edge of a cube is increased by 10%, by what \r\npercentage is its volume increased?",
       "bonusA": "33.1 (ACCEPT: 33 1/10, 331/100)",
@@ -2401,9 +2401,9 @@
       "catDiff": "0.12"
     },
     "8_12_11": {
-      "tossupQ": "MATH Short Answer Evaluate the following expression for r = 7: ((4r-7)/3)2/7 [open \r\nparenthesis, the fraction with numerator 4 r minus 7 and denominator 3, close \r\nparenthesis, squared, divided by 7].",
+      "tossupQ": "MATH Short Answer Evaluate the following expression for r = 7: ((4r-7)/3)<sup>2</sup> / 7.",
       "tossupA": "7",
-      "bonusQ": "MATH Multiple Choice Which of the following ordered pairs is a solution to this set of \r\ninequalities: x < 0 [x is less than 0]; y < 5 [y is less than 5]; y < -2x + 4 [y is less than \r\nnegative 2 x plus 4]; y > -2x [y Is greater than negative 2 x]? \r\n \r\nW) (-1,-2) \r\nX) (-1,3) \r\nY) (3,-1) \r\nZ) (1,2)",
+      "bonusQ": "MATH Multiple Choice Which of the following ordered pairs is a solution to this set of \r\ninequalities: x < 0 [x is less than 0]; y < 5 [y is less than 5]; y < -2x + 4 [y is less than \r\nnegative 2 x plus 4]; y > -2x? \r\n \r\nW) (-1,-2) \r\nX) (-1,3) \r\nY) (3,-1) \r\nZ) (1,2)",
       "bonusA": "X) (-1,3)",
       "category": 4,
       "setNum": 8,
@@ -2473,8 +2473,8 @@
     "8_12_18": {
       "tossupQ": "MATH Multiple Choice A triangle has vertices (6, 7), (11, 9) and (3, 8). After undergoing a \r\nparticular transformation, its corresponding new vertices are (8, 10), (13, 12) and (5, 11), \r\nrespectively. What type of transformation did it undergo? \r\n \r\nW) Dilation \r\nX) Translation \r\nY) Reflection \r\nZ) Rotation",
       "tossupA": "X) TRANSLATION",
-      "bonusQ": "MATH Multiple Choice Which of the following angles cannot be trisected using only \r\ncompass and straightedge? \r\nW) 45 \r\nX) 120 \r\nY) 135 \r\nZ) No angle can be trisected",
-      "bonusA": "X) 120",
+      "bonusQ": "MATH Multiple Choice Which of the following angles cannot be trisected using only \r\ncompass and straightedge? \r\nW) 45&deg; \r\nX) 120&deg; \r\nY) 135&deg; \r\nZ) No angle can be trisected",
+      "bonusA": "X) 120&deg;",
       "category": 4,
       "setNum": 8,
       "roundNum": 12,
@@ -2544,7 +2544,7 @@
       "tossupQ": "MATH Multiple Choice What type of quadrilateral has only one set of parallel sides with \r\ncongruent non-parallel sides and congruent diagonals? \r\n \r\nW) Rhombus \r\nX) Kite \r\nY) Isosceles trapezoid \r\nZ) Right trapezoid",
       "tossupA": "Y) ISOSCELES TRAPEZOID",
       "bonusQ": "MATH Short Answer What is the probability that an integer chosen at random from the set of \r\nall positive integers less than 100 is a multiple of 5?",
-      "bonusA": "ଵଽଽଽ",
+      "bonusA": "19/99",
       "category": 4,
       "setNum": 8,
       "roundNum": 6,
@@ -2591,7 +2591,7 @@
       "catDiff": "6.6"
     },
     "8_6_7": {
-      "tossupQ": "MATH Multiple Choice Which of the following is an example of a linear equation? \r\n \r\nW) 7x-5/y = 0 [7 x minus 5 over y equals 0] \r\nX) 3x2 + 4y3 = 9 [3 x squared plus 4 y cubed equals 9] \r\nY) 7x + 11y – 4 = 9x + 22y \r\nZ) 3xy = 12 [3 x y equals 12]",
+      "tossupQ": "MATH Multiple Choice Which of the following is an example of a linear equation? \r\n \r\nW) 7x-5/y = 0 [7 x minus 5 over y equals 0] \r\nX) 3x<sup>2</sup> + 4y<sup>3</sup> = 9 \r\nY) 7x + 11y – 4 = 9x + 22y \r\nZ) 3xy = 12 ",
       "tossupA": "Y) 7x + 11y – 4 = 9x + 22y",
       "bonusQ": "MATH Short Answer You earn two extra credit points on a test that is graded on a 25 point \r\nscale. If you had an 88% before the extra credit, what is your final score, expressed as a \r\npercentage?",
       "bonusA": "96",
@@ -2651,7 +2651,7 @@
       "catDiff": "6.6"
     },
     "8_6_13": {
-      "tossupQ": "MATH Multiple Choice Which of the following is a rational number? \r\n \r\nW) π [pi] \r\nX) The base of a right isosceles triangle with hypotenuse 7 \r\nY) The radius of a circle with circumference 2π \r\nZ) e2 [e raised to the second power]",
+      "tossupQ": "MATH Multiple Choice Which of the following is a rational number? \r\n \r\nW) π [pi] \r\nX) The base of a right isosceles triangle with hypotenuse 7 \r\nY) The radius of a circle with circumference 2π \r\nZ) e<sup>2</sup>",
       "tossupA": "Y) THE RADIUS OF A CIRCLE WITH CIRCUMFERENCE 2π",
       "bonusQ": "MATH Multiple Choice The graph of a line passes through the points with coordinates (a, b) \r\nand (c, -b). The slope of the line is ½. What is a – c in terms of b? \r\n \r\nW) 4b \r\nX) b \r\nY) -b \r\nZ) -4b",
       "bonusA": "W) 4b",
@@ -2783,8 +2783,8 @@
     "8_4_3": {
       "tossupQ": "MATH Multiple Choice What is the equation of the line parallel to the x-axis and four units \r\nabove the x-axis? \r\n \r\nW) x = -4 \r\nX) x = 4 \r\nY) y = -4 \r\nZ) y = 4",
       "tossupA": "Z) y = 4",
-      "bonusQ": "MATH Short Answer Simplify the expression: -3x + 12x3 – 17x2 + 5x3 – 7x + 11x2.",
-      "bonusA": "17x3 – 6x2 – 10x",
+      "bonusQ": "MATH Short Answer Simplify the expression: -3x + 12x<sup>3</sup> – 17x<sup>2</sup> + 5x<sup>3</sup> – 7x + 11x<sup>2</sup>.",
+      "bonusA": "17x<sup>3</sup> – 6x<sup>2</sup> – 10x",
       "category": 4,
       "setNum": 8,
       "roundNum": 4,
@@ -2851,7 +2851,7 @@
       "catDiff": "0.4"
     },
     "8_4_10": {
-      "tossupQ": "MATH Short Answer Consider the following expression: 5x2 + 16xy – 7y2. What is the \r\ncoefficient of the second term?",
+      "tossupQ": "MATH Short Answer Consider the following expression: 5x<sup>2</sup> + 16xy – 7y<sup>2</sup>. What is the \r\ncoefficient of the second term?",
       "tossupA": "16",
       "bonusQ": "MATH Short Answer If the radius of a sphere is cut in half, what is the ratio of the volume of \r\nthe new sphere to the volume of the original sphere?",
       "bonusA": "1 TO 8 (ACCEPT: 1/8, 0.125, 12.5%)",
@@ -2993,7 +2993,7 @@
     "8_10_1": {
       "tossupQ": "MATH Multiple Choice If 1 [theta sub 1] and 2 [theta sub 2] are complementary angles \r\nthen which of the following is always correct?  \r\n \r\nW) tan1 = - tan2 [tangent of theta sub 1 equals negative tangent of theta sub 2] \r\nX) sin1 = sin 2 [sine of theta sub 1 equals sine of theta sub 2] \r\nY) sin1 = cos 2 [sine of theta sub 1 equals cosine of theta sub 2] \r\nZ) cos1 = cos 2 [cosine of theta sub 1 equals cosine of theta sub 2]",
       "tossupA": "Y) sin1 = cos 2",
-      "bonusQ": "MATH Short Answer Evaluate the expression x2 – 6x + 9 when x = 3 − 27:",
+      "bonusQ": "MATH Short Answer Evaluate the expression x<sup>2</sup> – 6x + 9 when x = 3 − 27:",
       "bonusA": "28",
       "category": 4,
       "setNum": 8,
