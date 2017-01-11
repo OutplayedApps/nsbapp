@@ -15,6 +15,5 @@ code-push promote NSBApp Staging Production
 gulp -b &  code-push release-cordova NSBApp android & code-push promote NSBApp Staging Production
 
 
-gulp -b &  code-push release-cordova NSBApp ios 1.2.0 & code-push promote NSBApp Staging Production
 
-code-push release-cordova NSBApp ios -t 1.2.0 -x & code-push promote NSBApp Staging Production
+gulp -b && code-push release-cordova NSBApp ios -t 1.2.0  -m && code-push promote NSBApp Staging Production

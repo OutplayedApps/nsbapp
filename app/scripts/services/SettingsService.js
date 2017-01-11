@@ -17,27 +17,21 @@
 angular.module('IonicGulpSeed')
     .factory('SettingsService', function($localStorage) {
 
-        //var settings = $localStorage;
-        var def = {
+
+        var storage = $localStorage.$default({
             mode: 0,
             level: 1,
-            readSpeed: 5
-        };
-        function initHeard() {
-            if (!$localStorage.heardQuestions || $localStorage.heardQuestions.length == 0) {
-                $localStorage.heardQuestions = [];
-            }
-        }
+            readSpeed: 5,
+            heardQuestions: []
+        });
 
 
         function addQuestionToHeard(id) {
-            initHeard();
-            $localStorage.heardQuestions.push(id);
+            storage.heardQuestions.push(id);
         }
 
         function checkIfQuestionHeard(id) {
-            initHeard();
-            return ~$localStorage.heardQuestions.indexOf(id);
+            return ~storage.heardQuestions.indexOf(id);
         }
 
         //mode: 0 is reader 1 is game mode
@@ -45,41 +39,29 @@ angular.module('IonicGulpSeed')
         //todo: get from memory;
 
         function setLevel(l) {
-            localStorage.setItem("level", l);
+            storage.level = l;
             console.log("SETTING LEVEL"+l);
         }
 
         function setMode(m) {
-            localStorage.setItem("mode", m);
+            storage.mode = m;
         }
 
         function setReadSpeed(s) {
-            localStorage.setItem("readSpeed", s);
+            storage.readSpeed = s;
         }
 
         function getLevel() {
-            if (localStorage.getItem("level") == null) {
-                setLevel(def.level);
-                return def.level;
-            }
-            return parseInt(localStorage.getItem("level"));
+            return parseInt(storage.level);
         }
 
         function getMode() {
-            if (localStorage.getItem("mode") == null) {
-                setMode(def.mode);
-                return def.mode;
-            }
-            return parseInt(localStorage.getItem("mode"));
+            return parseInt(storage.mode);
         }
 
 
         function getReadSpeed() {
-            if (localStorage.getItem("readSpeed") == null) {
-                setReadSpeed(def.readSpeed);
-                return def.readSpeed;
-            }
-            return parseFloat(localStorage.getItem("readSpeed"));
+            return parseFloat(storage.readSpeed);
         }
 
 
