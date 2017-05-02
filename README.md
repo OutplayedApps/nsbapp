@@ -25,7 +25,7 @@ This app uses version 1 of the [Ionic Framework](https://ionicframework.com/). I
 
 ### Steps
 1. I had to get the questions from the National Science Bowl website. Since they are in PDF format, I used a PDF Parser (pdf2json) to convert PDF to text using a [script in Node JS](https://github.com/epicfaace/nsbapp/blob/master/node%20server/upload.js).
-2. Then, the PDF had to be parsed for words such as "TOSSUP:" and "BONUS:" to correctly create a [https://github.com/epicfaace/nsbapp/blob/master/node%20server/output-full.json] (JSON file of questions.) The database has around 6000 questions in total!
+2. Then, the PDF had to be parsed for words such as "TOSSUP:" and "BONUS:" to correctly create a [JSON file of questions](https://github.com/epicfaace/nsbapp/blob/master/node%20server/output-full.json/). The database has around 6000 questions in total!
 3. I uploaded the file to the Firebase database. 
 4. Developed the app using Angular and Ionic components.
 5. Testing and fixing bugs!
