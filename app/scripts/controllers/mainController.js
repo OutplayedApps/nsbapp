@@ -10,7 +10,8 @@
 angular.module('IonicGulpSeed')
     .controller('MainController', function($scope, $timeout,
                                            $ionicViewService, $rootScope, $ionicPopup, $state, ExampleService,
-                                           $ionicSideMenuDelegate, SettingsService, $ionicTabsDelegate, $ionicPlatform, EventService) {
+                                           $ionicSideMenuDelegate, SettingsService, $ionicTabsDelegate, $ionicPlatform, EventService,
+                                           $ionicModal) {
 
         if (typeof cordova != 'undefined' && cordova.InAppBrowser) window.open = cordova.InAppBrowser.open;
         $scope.openLink = function(o) {
@@ -277,4 +278,18 @@ angular.module('IonicGulpSeed')
             console.warn("Code push 1/10/17 7:54");
 
         });
+
+        $scope.openModal = function() {
+            $ionicModal.fromTemplateUrl('templates/modals/optionsModal.html',{
+                scope: $scope,
+                animation: 'slide-in-up'
+            }).then(function(modal) {
+                $scope.modal = modal;
+                $scope.modal.show();
+            });
+        };
+        $scope.closeModal = function() {
+            $scope.modal.hide();
+        };
+
     });
