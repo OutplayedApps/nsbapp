@@ -11,31 +11,32 @@
 
         <div class="row">
 
-        <div class="col">
-            <label class="item item-input item-select">
-                <div class="input-label">
-                    Category
-                </div>
-                <select ng-model="selectedCategory"
-                        ng-options = "cat as cat.name for cat in categories track by cat.index"
-                        ng-change = "nextQuestion(true)">
-                </select>
+         <!--<div class="col">
+             <label class="item item-input item-select">
+                 <div class="input-label">
+                     Category
+                 </div>
+                 <select ng-model="selectedCategory"
+                         ng-options = "cat as cat.name for cat in categories track by cat.index"
+                         ng-change = "nextQuestion(true)">
+                 </select>
 
-            </label>
-        </div>
-            <div class="col">
-                    <label class="item item-input item-select">
-                        <div class="input-label">
-                            Difficulty
-                        </div>
-                        <select ng-model="selectedDifficulty"
-                                ng-options="diff as diff.name for diff in difficulties track by diff.index"
-                                ng-change = "nextQuestion(true)">
-                        </select>
+             </label>
+         </div>
+             <div class="col">
+                     <label class="item item-input item-select">
+                         <div class="input-label">
+                             Difficulty
+                         </div>
+                         <select ng-model="selectedDifficulty"
+                                 ng-options="diff as diff.name for diff in difficulties track by diff.index"
+                                 ng-change = "nextQuestion(true)">
+                         </select>
 
-                    </label>
-                </div>
-            </div>
+                     </label>
+                 </div>-->
+            <button class = 'button button-large button-balanced icon-left ion-gear-a'>Question settings</button>
+             </div>
 
 
 
