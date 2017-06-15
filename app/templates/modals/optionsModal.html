@@ -17,6 +17,96 @@
             </div>
             <select ng-model="selectedPacket" ng-options = 'packet for packet in packetNums'></select>
         </label>
+        <div id="settingDifficultyWrapper">
+            <div class="item item-divider">
+                School Type
+            </div>
+            <ion-tabs class="item tabs-large tabs-default tabs-icon-top" delegate-handle="level">
+
+                <ion-tab title="Middle school" icon-on="ion-ios-bookmarks" icon-off="ion-ios-bookmarks"
+                         on-select="toggleLevel(0)" class="tabMS">
+                    <!-- Tab 1 content -->
+                </ion-tab>
+
+                <ion-tab title="High school" icon-on="ion-university" icon-off="ion-university"
+                         on-select="toggleLevel(1)" class="tabHS">
+                    <!-- Tab 2 content -->
+                </ion-tab>
+
+            </ion-tabs>
+        </div>
+
+        <div class="item item-divider">
+            Quiz Gameplay
+        </div>
+
+        <ion-tabs class="item tabs-large tabs-stable tabs-icon-top" delegate-handle="mode">
+
+            <ion-tab title="Game mode" icon-on="ion-ios-game-controller-b" icon-off="ion-ios-game-controller-b-outline"
+                     on-select="toggleMode(1)" class="tabGame">
+                <!-- Tab 2 content -->
+            </ion-tab>
+
+            <ion-tab title="Reader mode" icon-on="ion-ios-book" icon-off="ion-ios-book-outline"
+                     on-select="toggleMode(0)" class="tabReader">
+                <!-- Tab 1 content -->
+            </ion-tab>
+
+
+        </ion-tabs>
+        <div ng-show="mode==1">
+            <div class="item item-divider">
+                Reading speed
+            </div>
+
+            <div class="item range range-positive">
+                Slow
+                <input type="range" id="readSpeedRange" min="1.5" max="5.2" step=".1" ng-model="readSpeed" ng-change="updateReadSpeed()">
+                <i class="icon ion-ios-fastforward"></i>
+            </div>
+        </div>
+
+        <!--label class="item item-input modeExplanation">
+            <div ng-show="mode==0">
+                In Reader Mode, tossups and bonuses will all appear at once. This is ideal for coaches reading questions to different teams during actual rounds at practice or tournaments.
+            </div>
+            <div ng-show="mode==1">
+                In Game Mode, tossups and bonuses will be read to you as if it's an actual game. This is good for players who are practicing questions by themselves.
+            </div>
+        </label-->
+
+        </div>
+        <!--<div class="item item-divider">
+            Quiz Gameplay
+        </div>-->
+
+        <!-- <ion-tabs class="item tabs-large tabs-stable tabs-icon-top" delegate-handle="mode">
+
+            <ion-tab title="Game mode" icon-on="ion-ios-game-controller-b" icon-off="ion-ios-game-controller-b-outline"
+                     on-select="toggleMode(1)" class="tabGame">
+                <!-- Tab 2 content -->
+        <!--  </ion-tab>
+
+         <ion-tab title="Reader mode" icon-on="ion-ios-book" icon-off="ion-ios-book-outline"
+                  on-select="toggleMode(0)" class="tabReader">
+             <!-- Tab 1 content -->
+        <!--  </ion-tab>
+
+
+     </ion-tabs>
+
+
+     <!--  <div ng-show="mode==1">
+          <div class="item item-divider">
+              Reading speed
+          </div>
+
+          <div class="item range range-positive">
+              Slow
+             <input type="range" id="readSpeedRange" min="1.5" max="5.2" step=".1" ng-model="readSpeed" ng-change="updateReadSpeed()">
+              <i class="icon ion-ios-fastforward"></i>
+         </div>
+     </div>-->
         <!--<select>
             <option value = "1">Set 1</option>
             <option value = "2">Set 2</option>
