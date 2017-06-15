@@ -9,11 +9,13 @@
             <div class="input-label">
                 Set
             </div>
+            <select ng-model="selectedSet" ng-options = 'set for set in setNums'></select>
         </label>
         <label class="item item-input item-select">
             <div class="input-label">
                 Packet
             </div>
+            <select ng-model="selectedPacket" ng-options = 'packet for packet in packetNums'></select>
         </label>
         <!--<select>
             <option value = "1">Set 1</option>
