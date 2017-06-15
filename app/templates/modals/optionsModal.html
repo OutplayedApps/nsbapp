@@ -2,7 +2,7 @@
 <ion-modal-view>
     <ion-header-bar>
         <h1 class="title">Settings</h1>
-        <button class ="button button-clear button-primary" ng-click="modal.hide()">Cancel</button>
+        <button class ="button button-positive" ng-click="closeModal()">Back</button>
     </ion-header-bar>
     <ion-content>
         <label class="item item-input item-select">
@@ -17,6 +17,9 @@
             </div>
             <select ng-model="selectedPacket" ng-options = 'packet for packet in packetNums'></select>
         </label>
+
+
+
         <div id="settingDifficultyWrapper">
             <div class="item item-divider">
                 School Type
